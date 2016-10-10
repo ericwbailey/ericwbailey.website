@@ -1,0 +1,23 @@
+// ============================================================================
+// Generate
+// Pause
+// ============================================================================
+
+
+/// Inserts an invisible period after an alement to force a pause from a screen
+/// reader.
+///
+/// @group Generate
+///
+/// @example scss
+///  @include generate-pause();
+///
+/// @link http://jsbin.com/gavepu/edit?css,output JS Bin
+
+
+@mixin generate-pause() {
+    &::after {
+        content: ".";
+        opacity: 0;
+    }
+}

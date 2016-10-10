@@ -1,0 +1,34 @@
+// ============================================================================
+// Fukol Grids
+// ============================================================================
+
+
+/// Heydon Pickering's [brilliant micro grid system](https://github.com/Heydon/fukol-grids).
+/// Renamed output class to `.grid` so as to not potentially trigger [web filter style removal](http://dt.deviantart.com/journal/We-Give-a-F-How-the-Site-Loads-392679726).
+/// Also turned into a Mixin for more flexibility (sorry Heydon!). Different
+/// width columns can be [set using `nth-child` selectors](https://github.com/Heydon/fukol-grids#items-with-different-widths).
+///
+/// @group general
+///
+/// @parameter {Measurement} $grid-gutter    [$global-grid-gutter]    - Sets the grid gutter width
+/// @parameter {Measurement} $grid-col-width [$global-grid-col-width] - Sets the grid column width
+///
+/// @example scss
+///  @include grid();
+///
+/// @link https://github.com/Heydon/fukol-grids GitHub: Heydon/fukol-grids
+
+
+@mixin grid(
+    $grid-gutter: $global-grid-gutter,
+    $grid-col-width: $global-grid-col-width
+) {
+    display: flex; // [1] Fukol™ is a Flexbox based grid system. Even Opera Mini supports Flexbox. Older user agents that don't support Flexbox ignore the display: flex declaration, degrading to a single column layout. No harm done.
+    flex-wrap: wrap; // [2] This line determines how items are handled. The wrap value means items will start a new row if there's not enough room on the current one.
+    margin: -$grid-gutter; // [3] Editable. This should always be a negative version of 5. It compensates for the margins created by the items. It makes sure the outside of the .fukol-grid container remains flush horizontally and no additional margin is added to the vertical flow.
+
+    > * {
+        flex: 1 0 5em; // [4] Editable. This is the 'element query' part. Instead of setting an arbitrary number of columns and using breakpoints, we decide roughly how wide we want the item to be (5em in the example — the flex basis) and make sure items can grow to use the available space (1) but not shrink (0). So only change the 5em value and leave 1 0 as it is.
+        margin: $grid-gutter; // [5] Editable. This is for gutters. A 0.5em margin here means gutters of 1em (the margins double up).
+    }
+}

@@ -1,0 +1,21 @@
+// ============================================================================
+// Breakpoints
+// ============================================================================
+
+
+/// Sets the breakpoint names for [Zell Liew's](https://github.com/zellwk)'s
+/// [mappy-breakpoints](https://github.com/zellwk/mappy-breakpoints), using
+/// [erganomic breakpoints](https://github.com/stackcss/ergonomic-breakpoint).
+///
+/// @group general
+///
+/// @property {String} key - Aliases for specific breakpoints.
+
+
+$breakpoints: (
+    'wrist': 320px,
+    'palm':  800px,
+    'lap':   1920px,
+    'desk':  2560px,
+    'wall':  4480px
+);

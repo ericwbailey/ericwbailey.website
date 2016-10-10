@@ -1,0 +1,60 @@
+// ============================================================================
+// Typography
+// Preload Adjustments
+// ============================================================================
+
+
+/// Size and stretch the preloaded font to help mitigate FOUT.
+///
+/// @group Typography
+///
+/// @parameter {Measurement} $size-adjust [0]      - Sets the `font-size-adjust` property
+/// @parameter {String}      $stretch     [normal] - Sets the `font-stretch` property
+/// @parameter {Measurement} $tracking    [0]      - Sets the `letter-spacing` property
+///
+/// @example scss
+///  @include typography-preload-adjustments(1.25em, semi-expanded, 1px);
+///
+/// @see {mixin} typography-tracking
+///
+/// @link https://css-tricks.com/almanac/properties/f/font-size-adjust/ CSS Almanac » Properties » F » font-size-adjust
+/// @link https://developer.mozilla.org/en-US/docs/Web/CSS/font-stretch MDN > CSS > font-stretch
+
+
+@mixin typography-preload-adjustments(
+    $size-adjust: 0,
+    $stretch: normal,
+    $tracking: 0) {
+
+    @if (type-of($size-adjust) == number)
+    and (unitless($size-adjust)) {
+        font-size-adjust: $size-adjust;
+    }
+
+    @else {
+        @error $meta-invalid-argument-provide
+        "a unitless value for `$font-size-adjust`";
+    }
+
+    @if ($stretch != "")
+    and (type-of($stretch) == number)
+    and (unitless($stretch)) {
+        font-stretch: $stretch;
+    }
+
+    @else {
+        @error $meta-invalid-argument-provide
+        + "a unitless value for `$stretch`";
+    }
+
+    @if ($stretch != "") and ($tracking != "")
+    and (type-of($tracking) == number)
+    and not (unitless($tracking)) {
+        letter-spacing: $tracking;
+    }
+
+    @else {
+        @error $meta-invalid-argument-provide
+        + "a unit for `$tracking`";
+    }
+}
