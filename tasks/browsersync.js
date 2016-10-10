@@ -17,7 +17,7 @@ gulp.task('browsersync', help.browsersync.parent, function() {
         },
         minify: false,
         notify: false,
-        logPrefix: "$$projectShortTitle"
+        logPrefix: "ericbailey.design"
     });
 });
 

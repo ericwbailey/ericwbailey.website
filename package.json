@@ -1,4 +1,28 @@
 {
+  "name": "Eric Bailey",
+  "description": "Boston-based User Experience designer.",
+  "homepage": "http://ericbailey.design",
+  "version": "0.0.1",
+  "license": "CC BY-NC-SA",
+  "author": {
+    "name": "Eric Bailey",
+    "email": "eric.w.bailey@gmail.com",
+    "url": "http://ericbailey.design"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ericwbailey/ericbailey.design.git"
+  },
+  "keywords": [
+    "Eric",
+    "Bailey",
+    "Boston",
+    "Design",
+  ],
+  "bugs": {
+    "url": "https://github.com/ericwbailey/ericbailey.design/issues",
+    "email": "eric.w.bailey@gmail.com"
+  },
   "devDependencies": {
     "accessible-html-content-patterns": "^0.1.0",
     "browser-sync": "^2.12.3",
