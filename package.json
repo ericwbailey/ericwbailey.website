@@ -13,16 +13,17 @@
     "type": "git",
     "url": "git://github.com/ericwbailey/ericbailey.design.git"
   },
-  "keywords": [
-    "Eric",
-    "Bailey",
-    "Boston",
-    "Design",
-  ],
   "bugs": {
     "url": "https://github.com/ericwbailey/ericbailey.design/issues",
     "email": "eric.w.bailey@gmail.com"
   },
+  "keywords": [
+      "eric",
+      "bailey",
+      "ericwbailey",
+      "boston",
+      "design"
+  ],
   "devDependencies": {
     "accessible-html-content-patterns": "^0.1.0",
     "browser-sync": "^2.12.3",
