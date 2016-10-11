@@ -1,5 +1,9 @@
-# www.robotstxt.org/
+# www.robotstxt.org
 # https://developers.google.com/webmasters/control-crawl-index/
+# We are the robots
+# We're functioning automatic
+# And we are dancing mechanic
+
 
 # Allow crawling of all content
 User-agent: *
