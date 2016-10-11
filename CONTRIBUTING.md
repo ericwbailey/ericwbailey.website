@@ -1,5 +1,10 @@
 # Contributing
 
+Thanks for getting involved! Please take a moment to review this document in order to make the contribution process easy and effective for everyone involved.
+
+Following these guidelines helps to communicate that you respect the time of the people managing and developing this open source project. In return, they should reciprocate that respect in addressing your issue or assessing patches and features.
+
+
 ## Table of Contents
 1. [Before you get started](#before-you-get-started)
     1. [Code of Conduct](#code-of-conduct)
@@ -11,10 +16,6 @@
 - [Pull and Feature Requests](#pull-and-feature-requests)
     1. [Submitting Pull Requests](#submitting-pull-requests)
     - [Submitting Feature Requests](#submitting-feature-requests)
-
-Thanks for getting involved! Please take a moment to review this document in order to make the contribution process easy and effective for everyone involved.
-
-Following these guidelines helps to communicate that you respect the time of the people managing and developing this open source project. In return, they should reciprocate that respect in addressing your issue or assessing patches and features.
 
 
 ## Before you get started
@@ -36,7 +37,7 @@ Labels will be updated throughout the submission process to reflect the submissi
 This project uses templates for Issue and Pull Requests. Following the provided template helps the project maintainers have all the right details up front, which makes addressing feedback easier.
 
 ### GitMagic
-ericbailey.design uses [GitMagic](https://gitmagic.io/) to help ensure that contributions are consistently formatted in a way that's easy to work with. The rules can be seen [here](https://github.com/ericwbailey/ericbailey.design/blob/master/contributing.json).
+This repo uses [GitMagic](https://gitmagic.io/) to help ensure that contributions are consistently formatted in a way that's easy to work with. The rules can be seen [here](https://github.com/ericwbailey/ericbailey.design/blob/master/contributing.json).
 
 
 ## Submitting Issues
