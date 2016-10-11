@@ -2,5 +2,34 @@
     "title": {
         "tagline": "Boston-based User Experience designer",
         "home": "Eric Bailey"
+    },
+    "about": {
+        "title": "About",
+        "body": "I'm Eric, a Boston-based User Experience designer working at <a rel='external noopener' href='http://cantina.co/'>Cantina</a>."
+    },
+    "philosophy": {
+        "title": "Philosophy",
+        "body": "I help create straightforward solutions that address a person's practical, physical, cognitive, and emotional needs using accessible, performant, device-agnostic technology."
+    },
+    "interests": {
+        "title": "Interests",
+        "body": "I am passionate about:"
+    },
+    "writing": {
+        "title": "Writing",
+        "body": "Here are some topics of interest I've written about:"
+    },
+    "projects": {
+        "title": "Projects",
+        "body": "I'm also a firm believer in the side project:"
+    },
+    "contact": {
+        "title": "Projects",
+        "body": "If you'd like to get in contact with me, or see what I've been up to recently, there are a few ways to do it:",
+        "contact-info": "Here's the rest of my contact info, in a nice S.E.O. friendly format:"
+    },
+    "portfolio": {
+        "title": "Portfolio and client list",
+        "body": "If you'd like to <a href='mailto:email@address.com?subject=Portfolio'>see my portfolio</a> or <a href='mailto:email@address.com?subject=Clients'>list of past clients</a>, please ask. A <a href='colophon.html'>colophon</a> is also avaiable, if you're curious. Thanks!"
     }
 }
