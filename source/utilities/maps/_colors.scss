@@ -40,6 +40,13 @@ $colors: (
     ),
 
 
+    // Type -------------------------------------------------------------------
+    type: (
+        dark:  #4a4a4a,
+        light: #ffffff
+    ),
+
+
     // Links -------------------------------------------------------------------
     link: (
         base:    #0074d9,
@@ -77,12 +84,17 @@ $colors: (
         focus:  #ff851b,
         active: #ff4136,
         busy:   #dddddd
+    ),
+
+
+    // Sections ---------------------------------------------------------------
+    l-section: (
+        header:     #48d7e7,
+        contact:    #ffffff,
+        interests:  #f5ed52,
+        philosophy: #ff8764,
+        portfolio:  #4a4a4a,
+        projects:   #e8e8e8,
+        writing:    #69ddae
     )
-
-
-    // Component --------------------------------------------------------------
-//    component: (
-//        subcomponent: value,
-//        subcomponent: value
-//    )
 );
