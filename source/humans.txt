@@ -2,30 +2,46 @@ The Humans Responsible & Colophon
 humanstxt.org
 
 
-Eric Bailey | Boston-based User Experience designer
+ericbailey.design
 http://ericbailey.design
 
 
 ## Team
-- Name
-	- Title
-	- Location
-	- Email
-	- Twitter
+- Eric Bailey
+  - Designer
+  - Somerville, MA
+  - eric.w.bailey@gmail.com
+  - @ericwbailey
 
 
 ## Thanks
-- Name
-	- URL or contact info
+- My lovely friends, family, and coworkers
 
 
 ## Site
 - Standards
-	- HTML5
-	- CSS3
-	- etc.
+  - HTML (https://www.w3.org/TR/html5/)
+  - CSS (https://www.w3.org/TR/2001/WD-css3-roadmap-20010523/)
+  - JavaScript (https://www.javascript.com/)
+  - Markdown (https://daringfireball.net/projects/markdown/)
+  - SVG (https://www.w3.org/TR/SVG/)
 - Components
-	- jQuery
-	- etc.
+  - Git (https://git-scm.com/)
+  - GitHub (https://github.com/)
+  - Gulp (http://gulpjs.com/)
+  - Sass (http://sass-lang.com/)
+  - Node.js (https://nodejs.org/en/)
+- Browsers
+  - Chrome (https://www.google.com/chrome/)
+  - Edge (https://www.microsoft.com/en-us/windows/microsoft-edge)
+  - Firefox (https://www.mozilla.org/en-US/firefox/new/)
+  - Safari (http://www.apple.com/safari/)
+  - Opera (http://www.opera.com/)
+  - Vivaldi (https://vivaldi.com/)
 - Software
-	- Software used for the development
+  - Atom (http://atom.io/)
+  - NVDA (http://www.nvaccess.org/)
+  - Sketch (https://www.sketchapp.com/)
+  - SVGOMG (https://jakearchibald.github.io/svgomg/)
+  - Tower (https://www.git-tower.com/)
+  - VirtualBox (https://www.virtualbox.org/wiki/Downloads)
