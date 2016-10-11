@@ -18,11 +18,11 @@
     "email": "eric.w.bailey@gmail.com"
   },
   "keywords": [
-      "eric",
-      "bailey",
-      "ericwbailey",
-      "boston",
-      "design"
+    "eric",
+    "bailey",
+    "ericwbailey",
+    "boston",
+    "design"
   ],
   "devDependencies": {
     "accessible-html-content-patterns": "^0.1.0",
