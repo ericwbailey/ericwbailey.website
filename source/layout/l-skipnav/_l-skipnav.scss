@@ -1,64 +1,45 @@
 // ============================================================================
 // Layout
-// Section
+// Skipnav
 // ============================================================================
 
 
 // Layout Logic ---------------------------------------------------------------
-@mixin l-section() {
-    @include content-delobotomize();
 
-    padding: ms(5, rem);
-}
 
 
 // Layout Styling -------------------------------------------------------------
-.l-section {
-    &__header {
-        @include l-section();
+#section-skipnav {
+    @include content-hide(visually);
 
-        background-color: c(l-section, header);
-    }
 
-    &__contact {
-        @include l-section();
+    // transition: all 2s ease-in-out;
 
-        background-color: c(l-section, contact);
-    }
+    // States
+    &:focus,
+    &:active,
+    &:hover {
+        @include content-show(visually);
 
-    &__interests {
-        @include l-section();
+    //     position: fixed;
+    //     top: ms(3);
+    //     margin-left: 200px;
+    //     margin-right: 200px;
+    //     width: calc(100% - 400px);
+    //     padding: ms(2);
+    //
+    //     border: 10px solid white;
+    //
+    //     background-color: black;
+    //
+    // box-shadow: 0px 10px 100px -20px rgba(0,0,0,0.75);
 
-        background-color: c(l-section, interests);
-    }
-
-    &__philosophy {
-        @include l-section();
-
-        background-color: c(l-section, philosophy);
-    }
-
-    &__portfolio-and-client-list {
-        @include l-section();
-
-        background-color: c(l-section, portfolio);
-
-        color: c(type, light);
-    }
-
-    &__projects {
-        @include l-section();
-
-        background-color: c(l-section, projects);
-    }
-
-    &__writing {
-        @include l-section();
-
-        background-color: c(l-section, writing);
     }
 }
 
+.c-skipnav__link {
+    @include content-underline($underline-background-color:black);
+}
 
 // 1. Logic (no media queries, see 6)
 // 1.1. Mixins and Functions
