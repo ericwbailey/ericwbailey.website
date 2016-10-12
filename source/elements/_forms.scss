@@ -36,7 +36,7 @@ $form-single-line-input-height: ms(2, em);
 
 
 @mixin form-placeholder() {
-    color: transparentize(c(base, type), 0.3);
+    color: transparentize(c(type, dark), 0.3);
 }
 
 
@@ -163,7 +163,7 @@ input {
     &[type="color"] {
         height: $form-single-line-input-height;
 
-        background-color: c(base, background);
+        background-color: c(background, light);
 
         // REVIEW: Double-check these values if adjusting input heights
         &::-webkit-color-swatch-wrapper {
@@ -175,7 +175,7 @@ input {
 
             border: none;
 
-            background-color: c(base, background);
+            background-color: c(background, light);
         }
     }
 
@@ -281,7 +281,7 @@ input[type="color"] {
 
 // http://tympanus.net/codrops/2015/09/15/styling-customizing-file-inputs-smart-way/
 input[type="file"] {
-    background-color: c(base, background);
+    background-color: c(background, light);
 }
 
 
@@ -300,7 +300,7 @@ select {
     margin-top: $form-label-distance;
     padding: $form-input-padding;
 
-    background-color: c(base, background);
+    background-color: c(background, light);
 
     &[multiple] {
         @include form-multi-line-input;
@@ -434,18 +434,18 @@ input[autosave] {
 input[disabled] {
     border-color: transparentize(c(form, base), 0.5) !important;
 
-    background-color: transparentize(c(base, background), 0.5) !important;
+    background-color: transparentize(c(background, light), 0.5) !important;
 
-    color: transparentize(c(base, type), 0.5) !important;
+    color: transparentize(c(background, light), 0.5) !important;
 
     &:hover,
     &:active,
     &focus {
         border-color: transparentize(c(form, base), 0.5) !important;
 
-        background-color: transparentize(c(base, background), 0.5) !important;
+        background-color: transparentize(c(background, light), 0.5) !important;
 
-        color: transparentize(c(base, type), 0.5) !important;
+        color: transparentize(c(background, light), 0.5) !important;
     }
 }
 

@@ -10,13 +10,13 @@
 ///
 /// @group Content
 ///
-/// @parameter {Color}       $underline-color            [currentColor]        - Sets the color of the underline
-/// @parameter {Color}       $underline-background-color [c(base, background)] - Should be set to the component's background color
-/// @parameter {Measurement} $underline-gap              [0.05em]              - Sets the stroke outline size
-/// @parameter {Measurement} $underline-gap-minumum      [-1.5px]              - Sets the minimum outline gap
-/// @parameter {Number}      $underline-opacity          [1]                   - Sets how much of the background color shows through
-/// @parameter {Measurement} $underline-position         [-0.14em]             - Sets the distance of the underline from the text
-/// @parameter {Measurement} $underline-size             [0.02em]              - Sets the thickness of the underline
+/// @parameter {Color}       $underline-color            [currentColor]         - Sets the color of the underline
+/// @parameter {Color}       $underline-background-color [c(background, light)] - Should be set to the component's background color
+/// @parameter {Measurement} $underline-gap              [0.05em]               - Sets the stroke outline size
+/// @parameter {Measurement} $underline-gap-minumum      [-1.5px]               - Sets the minimum outline gap
+/// @parameter {Number}      $underline-opacity          [1]                    - Sets how much of the background color shows through
+/// @parameter {Measurement} $underline-position         [-0.14em]              - Sets the distance of the underline from the text
+/// @parameter {Measurement} $underline-size             [0.02em]               - Sets the thickness of the underline
 ///
 /// @example scss
 ///  @include content-underline();
@@ -27,7 +27,7 @@
 @mixin content-underline(
     $underline-opacity: 1,
     $underline-color: currentColor,
-    $underline-background-color: c(base, background),
+    $underline-background-color: c(background, light),
     $underline-position: -0.14em,
     $underline-size: 0.02em,
     $underline-gap: 0.05em,
