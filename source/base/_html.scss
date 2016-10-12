@@ -30,7 +30,6 @@ html {
     line-height: $global-type-line-height;
     text-size-adjust: 100%; // [3]
 
-
     &:lang(en-US) {
          @include typography-hyphenation(); // [4]
     }
