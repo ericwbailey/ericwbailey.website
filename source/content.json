@@ -1,10 +1,13 @@
 {
-    "title": {
+    "titles": {
         "tagline": "Boston-based User Experience designer",
         "home": "Eric Bailey"
     },
     "home": {
         "title": "Hi there!"
+    },
+    "skipnav": {
+        "title": "Skipnav"
     },
     "about": {
         "title": "About",

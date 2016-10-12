@@ -6,11 +6,11 @@
 <meta http-equiv="x-ua-compatible" content="ie=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<title>{{content.title.home}}</title>
+<title>{{content.titles.home}}</title>
 {{>meta/description/description}}
 {{>meta/description/author}}
 
-{{>meta/styles/main}}
+<!-- {{>meta/styles/main}} -->
 {{>meta/icons-and-theming/icons-and-theming}}
 
 {{>meta/social-media/facebook}}
@@ -20,6 +20,23 @@
 </head>
 <body>
 
+<!-- Start of #section__table-of-contents -->
+<nav
+    id="section-skipnav"
+    class="o-section"
+    role="navigation"
+    aria-labelledby="title__table-of-contents">
+
+    <h2 id="subtitle-interests" class="content-hide-visually">
+        {{content.skipnav.title}}
+    </h2>
+
+</nav>
+
+
+
+
+
 <!-- Start of Icon Sprite -->
 <div class="icon-sprite">
 {{>elements/icon-sprite}}
@@ -28,7 +45,16 @@
 
 {{>objects/o-browserupgrade/o-browserupgrade}}
 
-{{>layout/l-section/l-header}}
+<main
+    id="main"
+    role="main"
+    aria-labelledby="title-home">
+
+<h1 id="title-home" class="content-hide-visually">
+    {{content.home.title}}
+</h1>
+
+{{>layout/l-section/l-about}}
 {{>layout/l-section/l-philosophy}}
 {{>layout/l-section/l-interests}}
 {{>layout/l-section/l-writing}}
@@ -39,6 +65,8 @@
 {{>meta/scripts/main}}
 {{>meta/scripts/plugins}}
 {{>meta/analytics/google-analytics}}
+
+</main>
 
 </body>
 </html>
