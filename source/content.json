@@ -3,6 +3,9 @@
         "tagline": "Boston-based User Experience designer",
         "home": "Eric Bailey"
     },
+    "home": {
+        "title": "Hi there!"
+    },
     "about": {
         "title": "About",
         "body": "I'm Eric, a Boston-based User Experience designer working at <a rel='external noopener' href='http://cantina.co/'>Cantina</a>."
@@ -24,7 +27,7 @@
         "body": "I'm also a firm believer in the side project. Here are some things I've made:"
     },
     "contact": {
-        "title": "Projects",
+        "title": "Contact",
         "body": "If you'd like to get in contact with me, or see what I've been up to recently, there are a few ways to do it:",
         "contact-info": "Here's the rest of my contact info in a nice S.E.O. friendly format:"
     },
