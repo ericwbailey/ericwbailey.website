@@ -21,3 +21,12 @@
         opacity: 0;
     }
 }
+
+
+// Toggles --------------------------------------------------------------------
+// Enables functional class toggles. See `_config.scss`
+@if $toggle-generate-pause == true {
+    .generate-pause {
+        @include generate-pause();
+    }
+}
