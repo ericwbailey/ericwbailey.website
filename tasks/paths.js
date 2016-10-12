@@ -94,7 +94,10 @@ module.exports = {
         source: SOURCE_DIR + '/*.hbs',
         partials: SOURCE_DIR + '/**/*.hbs',
         content: SOURCE_DIR + '/content.json',
-        watch: SOURCE_DIR + '/**/*.hbs',
+        watch: [
+            SOURCE_DIR + '/**/*.hbs',
+            SOURCE_DIR + '/content.json',
+        ],
         build: BUILD_DIR,
         test: {
             source: BUILD_DIR + '/*.html',
