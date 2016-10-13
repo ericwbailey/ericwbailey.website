@@ -16,7 +16,7 @@ gulp.task('default', ['build'], function() {
     gulp.watch(paths.pages.watch, ['build-pages']);
     gulp.watch(paths.scripts.watch, ['build-scripts']);
     gulp.watch(paths.images.watch, ['build-images']);
-    gulp.watch(paths.browsersync.watch, ['browsersync-reload']);
+    gulp.watch(paths.browsersync.watch.build, ['browsersync-reload']);
 });
 
 
@@ -33,7 +33,7 @@ gulp.task('build', help.default.build, function() {
         'responsify-images',
         'build-sprites',
         'build-images',
-        'browsersync'
+        'browsersync-build'
     );
 });
 
@@ -49,7 +49,7 @@ gulp.task('test', help.default.test, function() {
         'test-scripts',
         'test-static',
         'test-images',
-        'browsersync'
+        'browsersync-test'
     );
 });
 

@@ -8,9 +8,15 @@ const VENDOR_DIR = 'node_modules';
 
 module.exports = {
     browsersync: {
-        basedir: BUILD_DIR,
+        basedir: {
+            build: BUILD_DIR,
+            test: TEST_DIR
+        },
         index: 'index.html',
-        watch: BUILD_DIR + '/**/*.html'
+        watch: {
+            build: BUILD_DIR + '/**/*.html',
+            test: TEST_DIR + '/**/*.html'
+        }
     },
     clean: {
         build: {

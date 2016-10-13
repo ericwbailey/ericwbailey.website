@@ -5,7 +5,8 @@ module.exports = {
         deploy: '[Parent Task] Copies tested files and uploads them to the GitHub repo\'s `docs/` folder.',
     },
     browsersync: {
-        parent: '[Parent Task] Loads the site in the default browser and runs a server for other devices to connect to.',
+        build: '[Parent Task] Loads the site in the default browser and runs a server for other devices to connect to.',
+        test: '[Parent Task] Loads the site in the Chrome, Firefox, Safari, and Opera and runs a server for other devices to connect to.',
         reload: '[Child Task] Forces BrowserSync to reload the site.'
     },
     clean: {

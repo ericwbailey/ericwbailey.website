@@ -98,6 +98,8 @@
     "clean-deploy-scripts": "gulp clean-deploy-scripts",
     "clean-deploy-static": "gulp clean-deploy-static",
     "clean-deploy-styles": "gulp clean-deploy-styles",
-    "clean-screenshots": "gulp clean-screenshots"
+    "clean-screenshots": "gulp clean-screenshots",
+    "browsersync-build": "gulp browsersync-build",
+    "browsersync-test": "gulp browsersync-test"
   }
 }
