@@ -4,36 +4,36 @@
 
 
 a {
-    // @include content-underline();
+//    @include content-underline();
 
-    color: c(link, base);
+//    color: c(link, base);
 
     // States
     &:hover {
-        color: c(link, hover);
+//        color: c(link, hover);
     }
 
     &:focus {
-        color: c(link, focus);
+//        color: c(link, focus);
     }
 
     &:active {
-        color: c(link, active);
+//        color: c(link, active);
     }
 
     &:visited {
-        color: c(link, visited);
+//        color: c(link, visited);
 
         &:hover {
-            color: c(link, hover);
+//            color: c(link, hover);
         }
 
         &:focus {
-            color: c(link, focus);
+//            color: c(link, focus);
         }
 
         &:active {
-            color: c(link, active);
+//            color: c(link, active);
         }
     }
 
