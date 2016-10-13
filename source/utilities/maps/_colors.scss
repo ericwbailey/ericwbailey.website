@@ -101,10 +101,12 @@ $colors: (
 
     // Sections ---------------------------------------------------------------
     skipnav: (
-        background: #111111,
-        border: #ffff00,
-        shadow: #111111,
-        type: #0000ff
+        background:  #111111,
+        border:      #ffff00,
+        shadow:      #111111,
+        link-base:   #7fdbff,
+        link-hover:  #ffffff,
+        link-active: #7f7cff
     )
 
 );

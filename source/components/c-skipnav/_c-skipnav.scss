@@ -10,56 +10,44 @@
 
 // Component Styling ----------------------------------------------------------
 .c-skipnav {
-    @include content-delobotomize();
-
     &__item {
 
     }
 
     &__link {
-        color: white;
+        @include content-hide(visually);
 
-        // States
+        opacity: 0;
+
+        transition: opacity 0.1s ease-in;
+
+        &:hover,
+        &:focus,
+        &:active {
+            display: block;
+            padding: ms(2, rem) ms(3, rem);
+            opacity: 1;
+            position: fixed;
+              top: ms(1.5);
+              right: 12.5vw;
+            width: 75vw;
+
+            border: ms(1, rem) solid c(skipnav, border);
+
+            background-color: c(skipnav, background);
+            box-shadow: 0 rem(10) rem(100) rem(-20) c(skipnav, shadow);
+
+            color: c(skipnav, link-base);
+            font-size: ms(2, em);
+        }
+
         &:hover {
-            color: orange;
+            color: c(skipnav, link-hover);
+            text-decoration: none;
         }
 
         &:active {
-            color: red;
+            color: c(skipnav, link-active);
         }
     }
 }
-
-
-// 1. Logic (no media queries, see 6)
-// 1.1. Mixins and Functions
-// 1.2. Functions
-// 1.3. Extends (use sparringly, gzip compresses more efficiently:
-// http://csswizardry.com/2016/02/mixins-better-for-performance/
-
-// 2. Properties, grouped by intent
-// 2.1. Box
-// 2.2. Border
-// 2.3. Background
-// 2.4. Text
-// 2.5. Other (ex: cursors, transitions, etc.)
-
-// 3. Supports (if needed)
-
-// 4. Pseudo
-// 4.1. Classes
-// 4.1. Elements
-
-// 5. States
-// 5.1. Visited
-// 5.2. Hover
-// 5.3. Focus
-// 5.4. Active
-// 5.5. Aria states (ex: `[aria-busy="true"]`, etc.)
-
-// 6. Contexts (ex: `.context &`)
-
-// 7. Media queries (repeat 1-5, develop mobile first and use mappy-breakpoints)
-
-// 8. Nested selectors (repeat 2-7, leverage suffix selectors, try to avoid
-// nesting more than 3 deep)
