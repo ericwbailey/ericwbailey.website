@@ -12,6 +12,6 @@ body {
 
 // Lobotomized Owl selector provides default vertical spacing:
 // http://alistapart.com/article/axiomatic-css-and-lobotomized-owls
-body * + * {
-    margin-top: ms(1, rem);
-}
+// body * + * {
+//     margin-top: ms(1, rem);
+// }
