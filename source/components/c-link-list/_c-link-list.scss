@@ -10,14 +10,14 @@
 
 // Component Styling ----------------------------------------------------------
 .c-link-list {
-background-color: lime;
+// background-color: lime;
 
     &__item {
-background-color: tomato;
+        margin-top: 1em;
     }
 
     &__link {
-background-color: teal;
+// background-color: teal;
     }
 }
 
