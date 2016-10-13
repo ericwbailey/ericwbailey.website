@@ -1,56 +1,35 @@
 // ============================================================================
-// Layout
+// Component
 // Skipnav
 // ============================================================================
 
 
-// Layout Logic ---------------------------------------------------------------
+// Component Logic ------------------------------------------------------------
 
 
 
-// Layout Styling -------------------------------------------------------------
-#section-skipnav {
-    @include content-hide(visually);
+// Component Styling ----------------------------------------------------------
+.c-skipnav {
+    @include content-delobotomize();
 
-// position: fixed;
-// top: ms(3);
-// margin-left: 200px;
-// margin-right: 200px;
-// width: calc(100% - 400px);
-// padding: ms(2.5, rem) ms(3.5, rem);
-//
-// color: c(skipnav, type);
-// font-size: 2em;
-//
-// border: ms(1, rem) solid c(skipnav, border);
-//
-// background-color: black;
-//
-// box-shadow: 0px 10px 100px -20px c(skipnav, shadow);
+    &__item {
 
+    }
 
+    &__link {
+        color: white;
 
+        // States
+        &:hover {
+            color: orange;
+        }
 
-
-
-
-
-
-
-    // States
-    &:focus,
-    &:active,
-    &:hover {
-        // @include content-show(visually);
-
-
-
+        &:active {
+            color: red;
+        }
     }
 }
 
-.c-skipnav__link {
-    @include content-underline($underline-background-color:black);
-}
 
 // 1. Logic (no media queries, see 6)
 // 1.1. Mixins and Functions
