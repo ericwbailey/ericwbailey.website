@@ -17,8 +17,9 @@
 
 @mixin generate-pause() {
     &::after {
+        @include content-hide(visually);
+
         content: ".";
-        opacity: 0;
     }
 }
 
