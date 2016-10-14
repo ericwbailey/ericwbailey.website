@@ -28,7 +28,7 @@ module.exports = {
         add: '[Child Task] Adds all files in `docs/`.',
         commit: '[Child Task] Commits all files in `docs/`.',
         push: '[Child Task] Pushes all files in `docs/`.'
-    }
+    },
     images: {
         parent: '[Parent Task] Processes and copies images to `.build/`, `.test/`, and `docs/`.',
         build: '[Child Task] Copies images to `.build/`.',
