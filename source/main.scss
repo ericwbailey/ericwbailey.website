@@ -23,6 +23,7 @@
 @import
     "utilities/maps/animation.duration",
     "utilities/maps/animation.ease",
+    "utilities/maps/borders",
     "utilities/maps/breakpoints",
     "utilities/maps/colors",
     "utilities/maps/typography.tracking",
@@ -46,6 +47,7 @@
 @import
     "utilities/functions/animation.duration",
     "utilities/functions/animation.ease",
+    "utilities/functions/borders",
     "utilities/functions/component.z-index",
     "utilities/functions/content.color",
     "utilities/functions/units.em",
@@ -193,6 +195,7 @@
 // Components -----------------------------------------------------------------
 @import
     "components/c-component/c-component",
+    "components/c-currently-learning/c-currently-learning",
     "components/c-link-list/c-link-list",
     "components/c-skipnav/c-skipnav";
 
