@@ -50,7 +50,6 @@ $global-type-weight: $font-weight-normal !default;
 
 /// @group general
 /// @type  Measurement
-/// @link http://trentwalton.com/2012/06/19/fluid-type/ Trent Walton: Fluid Type
 $global-type-measure: 75ex !default;
 
 
@@ -127,6 +126,7 @@ $toggle-typography-hyphenation: false;
 $toggle-typography-kerning: false;
 $toggle-typography-ligatures-common: false;
 $toggle-typography-ligatures-discretionary: false;
+$toggle-typography-measure: false;
 $toggle-typography-numbers-fractions-diagonal: false;
 $toggle-typography-numbers-fractions-stacked: false;
 $toggle-typography-numbers-lining: false;
