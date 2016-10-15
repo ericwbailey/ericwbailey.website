@@ -1,0 +1,32 @@
+// ============================================================================
+// Component
+// Currently Learning
+// ============================================================================
+
+
+// Component Logic ------------------------------------------------------------
+
+
+
+// Component Styling ----------------------------------------------------------
+.c-currently-learning {
+    margin-top: ms(2);
+
+    &__link {
+
+        &[data-learning-status] {
+            &::after {
+                content: "(It's going okay)";
+            }
+        }
+    }
+}
+
+.foo {
+    @include typography-measure();
+
+    // Breakpoints
+    @include mappy-bp(palm) {
+        background-color: silver;
+    }
+}
