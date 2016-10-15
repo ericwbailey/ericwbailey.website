@@ -48,12 +48,28 @@ $global-type-size: 18px !default;
 /// @require $font-weight-normal
 $global-type-weight: $font-weight-normal !default;
 
+/// @group general
+/// @type  Measurement
+/// @link http://trentwalton.com/2012/06/19/fluid-type/ Trent Walton: Fluid Type
+$global-type-measure: 75ex !default;
+
 
 // Borders
 
 /// @group general
+/// @type  Measurement
+$global-border-color: currentColor !default;
+
+/// @group general
 /// @type  Function
 $global-border-radius: rem(4) !default;
+
+
+// Shadows
+
+/// @group general
+/// @type  Measurement
+$global-shadow-color: currentColor !default;
 
 
 // Toggles --------------------------------------------------------------------
