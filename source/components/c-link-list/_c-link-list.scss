@@ -46,8 +46,20 @@
         }
 
         .l-section__writing & {
-            [data-post-location] {
+            &[data-post-location="css-tricks"] {
+                @include generate-message("CSS-Tricks");
+            }
 
+
+            &[data-post-location="cantina"] {
+                @include generate-message("Cantina");
+            }
+        }
+
+        .l-section__contact & {
+            // Breakpoints
+            @include mappy-bp(lap) {
+background-color: tomato;
             }
         }
     }

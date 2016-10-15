@@ -13,6 +13,8 @@
 
 
 @mixin generate-message($status) {
-    content: "#{$status}";
-    display: block;
+    &::after {
+        content: "#{$status}";
+        display: block;
+    }
 }

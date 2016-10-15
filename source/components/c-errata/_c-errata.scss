@@ -1,17 +1,18 @@
 // ============================================================================
 // Component
-// Currently Learning
+// Errata
 // ============================================================================
 
 
 // Component Logic ------------------------------------------------------------
 
 
-// Component Styling ----------------------------------------------------------
-.c-currently-learning {
-    margin-top: ms(2);
 
-    &[data-learning-status] {
-        @include generate-message("(It's going okay)");
+// Component Styling ----------------------------------------------------------
+.c-errata {
+    margin-top: ms(1, rem);
+
+    &__link {
+        margin-right: ms(1, rem);
     }
 }
