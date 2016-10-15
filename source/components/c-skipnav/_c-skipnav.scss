@@ -10,16 +10,12 @@
 
 // Component Styling ----------------------------------------------------------
 .c-skipnav {
-    &__item {
-
-    }
-
     &__link {
         @include content-hide(visually);
 
         opacity: 0;
 
-        transition: opacity 0.1s ease-in;
+        transition: opacity animation-duration(short) animation-ease(dialogue);
 
         &:hover,
         &:focus,
@@ -35,7 +31,7 @@
             border: ms(1, rem) solid c(skipnav, border);
 
             background-color: c(skipnav, background);
-            box-shadow: 0 rem(10) rem(100) rem(-20) c(skipnav, shadow);
+            box-shadow: shadow(large) c(skipnav, shadow);
 
             color: c(skipnav, link-base);
             font-size: ms(2, em);
