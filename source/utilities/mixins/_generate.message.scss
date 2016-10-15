@@ -1,0 +1,18 @@
+// ============================================================================
+// Generate
+// Message
+// ============================================================================
+
+
+/// Generates messages after content with a `data-` attribute added to it.
+///
+/// @group Generate
+///
+/// @example scss
+///  @include generate-message("Lorem ipsum dolor sit amet.");
+
+
+@mixin generate-message($status) {
+    content: "#{$status}";
+    display: block;
+}
