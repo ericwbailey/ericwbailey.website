@@ -23,10 +23,10 @@ i {
 
 // Individual Styles ----------------------------------------------------------
 abbr {
-    @include typography-caps-to-small-caps()
+    // @include typography-caps-to-small-caps()
     @include typography-tracking(slight);
 
-    border-bottom: 1px dotted;
+    // border-bottom: 1px dotted;
 
     cursor: help;
 }
