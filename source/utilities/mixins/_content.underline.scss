@@ -24,36 +24,44 @@
 @mixin content-underline(
     $underline-background-color: c(background, light),
     $underline-color: currentColor,
-    $underline-thickness: 0.005em,
-    $underline-distance-from-baseline: 0.25em
+    $underline-outline: 0.75px,
+    $underline-thickness: 0.175em,
+    $underline-distance-from-baseline: 0.2em
 ) {
+    display: inline;
+
+    background-size: 2px 1em;
+
+    box-shadow:
+      inset 0 1em $underline-background-color,
+      inset 0 -0.05em $underline-color;
+
+    // Remove default underline
+    text-decoration: none;
+
     // Text outline
     text-shadow:
-     -2px -2px $underline-background-color, // Top lefthand corner
-     -2px 2px $underline-background-color, // Bottom lefhand corner
-      2px -2px $underline-background-color, // Top righthand corner
-      2px 2px $underline-background-color; // Bottom righthand corner
+      -#{$underline-outline} -#{$underline-outline} $underline-background-color, // Top lefthand corner
+      -#{$underline-outline}  #{$underline-outline} $underline-background-color, // Bottom lefhand corner
+       #{$underline-outline} -#{$underline-outline} $underline-background-color, // Top righthand corner
+       #{$underline-outline}  #{$underline-outline} $underline-background-color; // Bottom righthand corner
 
-    // Underline
-    // background-size: 1px 1em;
-    box-shadow:
-      inset 0 -$underline-thickness $underline-background-color,
-      inset 0 -$underline-distance-from-baseline $underline-color;
-    display: inline;
 
     // Sets the text shadow "outline" color to be system highlight color, for
     // browsers that support the `Highlight` keyword
     @supports (text-shadow: -2px -2px Highlight) {
         &::selection {
-            text-shadow:
-             -2px -2px Highlight, // Top lefthand corner
-             -2px 2px Highlight, // Bottom lefhand corner
-              2px -2px Highlight, // Top righthand corner
-              2px 2px Highlight; // Bottom righthand corner
+            background-color: Highlight;
 
             box-shadow:
-              inset 0 -$underline-thickness Highlight,
-              inset 0 -$underline-distance-from-baseline $underline-color;
+              inset 0 1em $underline-background-color,
+              inset 0 -0.05em $underline-color;
+
+            text-shadow:
+              -#{$underline-outline} -#{$underline-outline} Highlight, // Top lefthand corner
+              -#{$underline-outline} #{$underline-outline} Highlight, // Bottom lefhand corner
+               #{$underline-outline} -#{$underline-outline} Highlight, // Top righthand corner
+               #{$underline-outline} #{$underline-outline} Highlight; // Bottom righthand corner
         }
     }
 }
