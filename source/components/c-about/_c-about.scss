@@ -1,23 +1,16 @@
 // ============================================================================
 // Component
-// Errata
+// About
 // ============================================================================
 
 
 // Component Logic ------------------------------------------------------------
 
 
-
 // Component Styling ----------------------------------------------------------
-.c-errata {
-
-    &__item {
-        display: inline;
-    }
+.c-about {
 
     &__link {
-        @include content-underline($underline-background-color: c(l-section, errata));
 
-        margin-right: ms(1, rem);
     }
 }
