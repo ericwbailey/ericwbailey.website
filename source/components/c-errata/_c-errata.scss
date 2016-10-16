@@ -12,6 +12,10 @@
 .c-errata {
     margin-top: ms(0.5, rem);
 
+    &__item {
+        display: inline;
+    }
+
     &__link {
         margin-right: ms(1, rem);
     }
