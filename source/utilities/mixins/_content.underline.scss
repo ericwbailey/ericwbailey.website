@@ -10,37 +10,34 @@
 ///
 /// @group Content
 ///
-/// @parameter {Color}       $underline-color            [currentColor]         - Sets the color of the underline
-/// @parameter {Color}       $underline-background-color [c(background, light)] - Should be set to the component's background color
-/// @parameter {Measurement} $underline-gap              [0.05em]               - Sets the stroke outline size
-/// @parameter {Measurement} $underline-gap-minumum      [-1.5px]               - Sets the minimum outline gap
-/// @parameter {Number}      $underline-opacity          [1]                    - Sets how much of the background color shows through
-/// @parameter {Measurement} $underline-position         [-0.14em]              - Sets the distance of the underline from the text
-/// @parameter {Measurement} $underline-size             [0.02em]               - Sets the thickness of the underline
+/// @parameter {Color}       $underline-background-color [c(background, light)] - Sets the color of the background
+/// @parameter {Color}       $underline-color [currentColor] - Sets the color of the underline
+/// @parameter {Measurement} $underline-thickness              [0.175em,] - Sets the thickness of the underline in ems
+/// @parameter {Measurement} $underline-distance-from-baseline [0.2em] - Sets the distance of the underline from the type's basline
 ///
 /// @example scss
 ///  @include content-underline();
 ///
-/// @link https://codepen.io/jonneal/pen/PzGYEE?editors=0100 Decorative Text Underline
+/// @link https://css-tricks.com/styling-underlines-web/ CSS-Tricks: Styling Underlines on the Web
 
 
 @mixin content-underline(
-    $underline-opacity: 1,
-    $underline-color: currentColor,
     $underline-background-color: c(background, light),
-    $underline-position: -0.14em,
-    $underline-size: 0.02em,
-    $underline-gap: 0.05em,
-    $underline-gap-minimum: -1.5px
+    $underline-color: currentColor,
+    $underline-thickness: 0.175em,
+    $underline-distance-from-baseline: 0.2em
 ) {
-	box-shadow:
-		inset 0 calc(#{$underline-position} + #{$underline-size}) 0 0 $underline-background-color,
-		inset 0 $underline-position 0 0 transparentize($underline-background-color, $underline-opacity),
-		inset 0 $underline-position 0 0 $underline-color;
-	text-decoration: none;
-	text-shadow:
-		$underline-gap 0 $underline-background-color,
-		$underline-gap 0 $underline-background-color,
-		$underline-gap-minimum 0 $underline-background-color,
-		$underline-gap-minimum 0 $underline-color;
+    // Text outline
+    text-shadow:
+     -2px -2px $underline-background-color, // Top lefthand corner
+     -2px 2px $underline-background-color, // Bottom lefhand corner
+      2px -2px $underline-background-color, // Top righthand corner
+      2px 2px $underline-background-color; // Bottom righthand corner
+
+    // Underline
+    background-size: 1px 1em;
+    box-shadow:
+      inset 0 -$underline-thickness $underline-background-color,
+      inset 0 -$underline-distance-from-baseline $underline-color;
+    display: inline;
 }
