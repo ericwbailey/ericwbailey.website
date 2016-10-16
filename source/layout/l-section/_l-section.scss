@@ -6,9 +6,7 @@
 
 // Layout Logic ---------------------------------------------------------------
 @mixin l-section() {
-    @include content-delobotomize();
-
-    padding: ms(5, rem);
+    padding: 14vh 12vw;
 }
 
 
@@ -18,12 +16,24 @@
         @include l-section();
 
         background-color: c(l-section, header);
+
+        a {
+            @include content-underline($underline-background-color: c(l-section, header));
+        }
     }
 
     &__contact {
         @include l-section();
 
         background-color: c(l-section, contact);
+    }
+
+    &__errata {
+        @include l-section();
+
+        padding-top: ms(0.5, rem); // Controls spacing between portfolio and errata
+
+        background-color: c(l-section, errata);
     }
 
     &__interests {
@@ -41,9 +51,15 @@
     &__portfolio-and-client-list {
         @include l-section();
 
+        padding-bottom: 0; // Visually connects portfolio and errata sections
+
         background-color: c(l-section, portfolio);
 
         color: c(type, light);
+
+        a {
+            @include content-underline($underline-background-color: c(l-section, portfolio));
+        }
     }
 
     &__projects {
