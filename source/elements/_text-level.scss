@@ -26,9 +26,11 @@ abbr {
     // @include typography-caps-to-small-caps()
     @include typography-tracking(slight);
 
-    // border-bottom: 1px dotted;
-
     cursor: help;
+
+    &[title] {
+        text-decoration: none;
+    }
 }
 
 
