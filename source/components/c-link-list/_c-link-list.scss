@@ -23,24 +23,30 @@
     &__item {
 //background-color: #ECECEC;
         margin-top: ms(1);
-        margin-right: ms(1);
 
         // Breakpoints
         @include mappy-bp(palm) {
             &:nth-of-type(1) {
-                margin-top: ms(2); // Matches right col height with left col height
+                // Supports
+                @supports (columns: 2) {
+                    margin-top: ms(2); // Matches right col height with left col height
+                    margin-right: ms(1);
+                }
             }
         }
 
         // Contexts
         .l-section__projects &,
         .l-section__contact & {
-//background-color: #E9D3EE;
+// background-color: #E9D3EE;
 
             // Breakpoints
             @include mappy-bp(palm) {
                 &:nth-of-type(6) {
-                    margin-top: ms(2); // Matches right col height with left col height
+                    // Supports
+                    @supports (columns: 2) {
+                        margin-top: ms(2); // Matches right col height with left col height
+                    }
                 }
             }
         }
@@ -61,6 +67,13 @@
             @include mappy-bp(lap) {
 background-color: tomato;
             }
+        }
+    }
+
+    &__link {
+        // Contexts
+        .l-section__interests & {
+// background-color: silver;
         }
     }
 }
