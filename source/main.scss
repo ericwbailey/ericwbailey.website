@@ -5,8 +5,9 @@
 
 
 // Order is important!
-// Loads and manages Sass partials. Be sure to use `_config.scss` to set up
-// configure project basics and toggle functional classes.
+// Loads and manages Sass partials. Be sure to use `_config.scss` and
+// `_toggles.scss` to set up configure project basics and toggle functional
+// classes.
 
 
 // Variables ------------------------------------------------------------------
@@ -27,16 +28,18 @@
     "utilities/maps/breakpoints",
     "utilities/maps/colors",
     "utilities/maps/shadows",
-    "utilities/maps/typography.tracking",
     "utilities/maps/units",
     "utilities/maps/z-index";
 
 
-// Config ---------------------------------------------------------------------
-// Use this partial to set global font sizes, styles, etc. and toggle functional
-// classes
+// Config and Toggles ---------------------------------------------------------
+// Use these partials to set global variables and generate functional classes
+// from Sass mixins. Tracking is declared here to take advantage of the
+// global-type-size variable
 @import
-    "config";
+    "config",
+    "toggles",
+    "utilities/maps/typography.tracking";
 
 
 // Imports --------------------------------------------------------------------
