@@ -10,10 +10,11 @@
 ///
 /// @group Content
 ///
-/// @parameter {Color}       $underline-background-color [c(background, light)] - Sets the color of the background
-/// @parameter {Color}       $underline-color [currentColor] - Sets the color of the underline
-/// @parameter {Measurement} $underline-thickness              [0.175em,] - Sets the thickness of the underline in ems
-/// @parameter {Measurement} $underline-distance-from-baseline [0.2em] - Sets the distance of the underline from the type's basline
+/// @parameter {Color}       $underline-background-color       [c(background, light)] - Sets the color of the background
+/// @parameter {Color}       $underline-color                  [currentColor]         - Sets the color of the underline
+/// @parameter {Measurement} $underline-outline                [0.75px]               - Sets the width of the text outline
+/// @parameter {Measurement} $underline-thickness              [0.175em,]             - Sets the thickness of the underline in ems
+/// @parameter {Measurement} $underline-distance-from-baseline [0.2em]                - Sets the distance of the underline from the type's basline
 ///
 /// @example scss
 ///  @include content-underline();
