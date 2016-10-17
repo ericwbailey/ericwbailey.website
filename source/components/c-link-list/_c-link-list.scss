@@ -42,6 +42,11 @@
 
             // Breakpoints
             @include mappy-bp(palm) {
+                &:nth-of-type(5),
+                &:nth-of-type(10), {
+                    padding-bottom: ms(0.25, rem); // Fixes column focus bug
+                }
+
                 &:nth-of-type(6) {
                     // Supports
                     @supports (columns: 2) {
