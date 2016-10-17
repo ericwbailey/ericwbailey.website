@@ -4,76 +4,30 @@
 // ============================================================================
 
 
-/// Specifies a component's height and width, and optionally a different top
-/// margin, using the Lobotomized Owl selector.
+/// Specifies a component's height and optionally a width and top margin.
 ///
 /// @group Components
 ///
-/// @parameter {Measurement} $height               - Sets the height of the component
-/// @parameter {Measurement} $width      [inherit] - Sets the width of the component
-/// @parameter {Measurement} $top-margin [null]    - Optionally sets the top margin using the Modular Scale function
+/// @parameter {Measurement} $height            - Sets the height of the component
+/// @parameter {Measurement} $width      [null] - Optionally sets the width of the component
+/// @parameter {Measurement} $top-margin [null] - Optionally sptionally sets the top margin of the component
 ///
 /// @example scss
-///  @include component-size(5rem, 50%, 3);
+///  @include component-size(5rem, null, 3rem);
 
 
 @mixin component-size(
     $height,
-    $width: inherit,
+    $width: null,
     $top-margin: null
 ) {
+    height: $height;
 
-    // Validate height
-    @if type-of($height) != number {
-        @error "`#{$height}`"
-        + $meta-invalid-argument
-        + $meta-invalid-argument-provide
-        + "a valid number.";
+    @if $width != null {
+        width: $width;
     }
 
-    @else if type-of($height) == number
-    and unitless($height) {
-        @error "`#{$height}`"
-        + $meta-invalid-argument
-        + $meta-invalid-argument-provide
-        + "a valid CSS unit.";
-    }
-
-    @else {
-      height: $height;
-    }
-
-    // Validate width
-    @if type-of($width) != number {
-        @error "`#{$width}`"
-        + $meta-invalid-argument
-        + $meta-invalid-argument-provide
-        + "a valid number.";
-    }
-
-    @else if type-of($width) == number
-    and unitless($width) {
-        @error "`#{$width}`"
-        + $meta-invalid-argument
-        + $meta-invalid-argument-provide
-        + "a valid CSS unit.";
-    }
-
-    @else {
-      width: $width;
-    }
-
-    // Validate top margin, if present
-    @if $top-margin != null
-    and type-of($top-margin) == number
-    and unitless($top-margin) {
-        margin-top: ms($top-margin, rem);
-    }
-
-    @else {
-        @error "`#{$top-margin}`"
-        + $meta-invalid-argument
-        + $meta-invalid-argument-provide
-        + "a valid number.";
+    @if $top-margin != null {
+        margin-top: $top-margin;
     }
 }
