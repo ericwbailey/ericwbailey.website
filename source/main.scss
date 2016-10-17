@@ -28,6 +28,7 @@
     "utilities/maps/breakpoints",
     "utilities/maps/colors",
     "utilities/maps/shadows",
+    "utilities/maps/typography.tracking",
     "utilities/maps/units",
     "utilities/maps/z-index";
 
@@ -38,8 +39,7 @@
 // global-type-size variable
 @import
     "config",
-    "toggles",
-    "utilities/maps/typography.tracking";
+    "toggles";
 
 
 // Imports --------------------------------------------------------------------
