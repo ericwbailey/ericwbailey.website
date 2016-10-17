@@ -33,6 +33,8 @@
 
         padding-top: ms(0.5, rem); // Controls spacing between portfolio and errata
 
+        color: c(type, light);
+
         background-color: c(l-section, errata);
     }
 

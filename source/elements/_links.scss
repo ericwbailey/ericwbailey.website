@@ -4,21 +4,23 @@
 
 
 a {
-//    @include content-underline();
-
-//    color: c(link, base);
+   @include component-theme-color(color);
 
     // States
     &:hover {
-//        color: c(link, hover);
+//       color: c(link, hover);
+
+       &:focus {
+//           box-shadow: none;
+       }
     }
 
     &:focus {
-//        color: c(link, focus);
+        outline: none;
     }
 
     &:active {
-//        color: c(link, active);
+        @include content-shift-click();
     }
 
     &:visited {

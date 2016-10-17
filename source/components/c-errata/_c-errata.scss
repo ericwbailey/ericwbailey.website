@@ -16,8 +16,10 @@
     }
 
     &__link {
-        @include content-underline($underline-background-color: c(l-section, errata));
+        @include content-underline($underline-background-color: c(l-section, errata), $underline-color: c(l-section, errata));
 
         margin-right: ms(1, rem);
+
+        text-decoration: none;
     }
 }

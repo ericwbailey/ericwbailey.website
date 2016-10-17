@@ -47,7 +47,6 @@
        #{$underline-outline} -#{$underline-outline} $underline-background-color, // Top righthand corner
        #{$underline-outline}  #{$underline-outline} $underline-background-color; // Bottom righthand corner
 
-
     // Sets the text shadow "outline" color to be system highlight color, for
     // browsers that support the `Highlight` keyword
     @supports (text-shadow: -2px -2px Highlight) {
@@ -64,5 +63,26 @@
                #{$underline-outline} -#{$underline-outline} Highlight, // Top righthand corner
                #{$underline-outline} #{$underline-outline} Highlight; // Bottom righthand corner
         }
+    }
+
+    // States
+    &:hover {
+        box-shadow:
+          inset 0 1em $underline-background-color,
+          inset 0 -0.05em $underline-background-color;
+    }
+
+    &:active {
+        &:focus {
+            box-shadow: none;
+        }
+    }
+
+    &:focus {
+        box-shadow:
+          inset 0 1em $underline-background-color,
+          inset 0 -0.05em $underline-color,
+          0 0 0 6px $underline-background-color,
+          0 0 0 8px c(link, focus);
     }
 }
