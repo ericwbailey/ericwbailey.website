@@ -8,11 +8,7 @@ a {
 
     // States
     &:hover {
-//       color: c(link, hover);
 
-       &:focus {
-//           box-shadow: none;
-       }
     }
 
     &:focus {
@@ -24,19 +20,7 @@ a {
     }
 
     &:visited {
-//        color: c(link, visited);
 
-        &:hover {
-//            color: c(link, hover);
-        }
-
-        &:focus {
-//            color: c(link, focus);
-        }
-
-        &:active {
-//            color: c(link, active);
-        }
     }
 
     &[aria-busy="true"] {
