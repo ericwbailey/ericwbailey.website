@@ -5,75 +5,139 @@
 
 
 // Component Logic ------------------------------------------------------------
+@mixin c-link-list-set-grid() {
+    @supports #{$supports-flexbox} {
+        position: relative;
+        display: flex;
+        flex-flow: row wrap;
+    }
+}
 
+@mixin c-link-list-set-columns($columns) {
+    @supports #{$supports-flexbox} {
+        flex: 1;
+        flex-basis: 100% / $columns;
+    }
+}
 
 
 // Component Styling ----------------------------------------------------------
 .c-link-list {
+    margin-top: ms(2);
 
     // Breakpoints
     @include mappy-bp(palm) {
         // Contexts
-        .l-section__projects &,
-        .l-section__contact & {
-            columns: 2;
+        .l-section__interests &,
+        .l-section__projects & {
+            @include c-link-list-set-grid();
         }
     }
 
+    // Contexts
+    .l-section__contact & {
+        @include c-link-list-set-grid();
+    }
+
+
     &__item {
-//background-color: #ECECEC;
-        margin-top: ms(1);
+        margin-bottom: ms(1);
+        padding-right: ms(2); // Gutter
+
+        .l-section__contact & {
+            @include c-link-list-set-columns(2);
+        }
 
         // Breakpoints
         @include mappy-bp(palm) {
-            &:nth-of-type(1) {
-                // Supports
-                @supports (columns: 2) {
-                    margin-top: ms(2); // Matches right col height with left col height
-                    margin-right: ms(1);
-                }
+            .l-section__interests &,
+            .l-section__projects & {
+                @include c-link-list-set-columns(2);
             }
         }
 
-        // Contexts
-        .l-section__projects &,
-        .l-section__contact & {
-// background-color: #E9D3EE;
-
-            // Breakpoints
-            @include mappy-bp(palm) {
-                &:nth-of-type(5),
-                &:nth-of-type(10), {
-                    padding-bottom: ms(0.25, rem); // Fixes column focus bug
-                }
-
-                &:nth-of-type(6) {
-                    // Supports
-                    @supports (columns: 2) {
-                        margin-top: ms(2); // Matches right col height with left col height
-                    }
-                }
-            }
-        }
-
-        .l-section__writing & {
-            &[data-post-location="css-tricks"] {
-                @include generate-message("CSS-Tricks");
-            }
-
-
-            &[data-post-location="cantina"] {
-                @include generate-message("Cantina");
-            }
-        }
-
-        .l-section__contact & {
-            // Breakpoints
-            @include mappy-bp(lap) {
-background-color: tomato;
+        // Breakpoints
+        @include mappy-bp(lap) {
+            .l-section__contact & {
+                @include c-link-list-set-columns(5);
             }
         }
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // &__item {
+    //     background-color: silver;
+    //     margin-top: ms(1);
+    //     margin-right: ms(2);
+    //     // Breakpoints
+    //     @include mappy-bp(palm) {
+    //         &:nth-of-type(4) {
+    //             background-color: red;
+    //             margin-top: ms(3);
+    //         }
+    //     }
+    // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // Writing source locations
+        // .l-section__writing & {
+        //     &[data-post-location="css-tricks"] {
+        //         @include generate-message("CSS-Tricks");
+        //     }
+        //
+        //     &[data-post-location="cantina"] {
+        //         @include generate-message("Cantina");
+        //     }
+        // }
+    // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     &__link {
         // Contexts
