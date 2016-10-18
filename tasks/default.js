@@ -64,7 +64,7 @@ gulp.task('deploy', help.default.deploy, function() {
         'deploy-scripts',
         'deploy-static',
         'deploy-images',
-        'git',
+//        'git',
         'document'
     );
 });
