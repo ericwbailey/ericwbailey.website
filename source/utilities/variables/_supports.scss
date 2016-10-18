@@ -6,3 +6,7 @@
 /// @group general
 /// @type  String
 $supports-flexbox: "(display: flex)";
+
+/// @group general
+/// @type  String
+$supports-boxshadow: "(box-shadow: 10px 10px 10px 10px currentColor)";

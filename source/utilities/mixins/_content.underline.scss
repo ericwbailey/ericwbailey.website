@@ -31,14 +31,13 @@
 ) {
     text-decoration: underline;
 
-    @supports (box-shadow: inset 0 -0.05em currentColor) {
-        display: inline;
-
-        background-size: 2px 1em;
-
+    @supports #{$supports-boxshadow} {
         box-shadow:
           inset 0 1em $underline-background-color,
           inset 0 -0.05em $underline-color;
+        display: inline;
+
+        background-size: 2px 1em;
 
         // Remove default underline
         text-decoration: none;
@@ -53,13 +52,13 @@
 
     // Sets the text shadow "outline" color to be system highlight color, for
     // browsers that support the `Highlight` keyword
-    @supports (text-shadow: -2px -2px Highlight) {
+    @supports #{$supports-boxshadow} {
         &::selection {
-            background-color: Highlight;
-
             box-shadow:
               inset 0  1em $underline-background-color,
               inset 0 -0.05em $underline-color;
+
+            background-color: Highlight;
 
             text-shadow:
               -#{$underline-outline} -#{$underline-outline} Highlight, // Top lefthand corner
@@ -73,7 +72,7 @@
     &:hover {
         text-decoration: none;
 
-        @supports (box-shadow: inset 0 -0.05em currentColor) {
+        @supports #{$supports-boxshadow} {
             box-shadow:
               inset 0  1em $underline-background-color,
               inset 0 -0.05em $underline-background-color;
@@ -83,26 +82,32 @@
     &:focus {
         background-color: c(link, dark);
         outline: em(8) solid c(link, dark);
+
         color: c(link, light);
 
-        box-shadow:
-          inset 0 1em c(link, dark),
-          inset 0 -0.05em $underline-color;
-
-        text-decoration: none;
-
-        text-shadow:
-          -#{$underline-outline} -#{$underline-outline} c(link, dark),
-          -#{$underline-outline}  #{$underline-outline} c(link, dark),
-           #{$underline-outline} -#{$underline-outline} c(link, dark),
-           #{$underline-outline}  #{$underline-outline} c(link, dark);
-
-        &:hover {
+        @supports #{$supports-boxshadow} {
             box-shadow:
               inset 0 1em c(link, dark),
-              inset 0 -0.05em c(link, dark),
-              0 0 0 6px c(link, dark),
-              0 0 0 8px c(link, dark);
+              inset 0 -0.05em $underline-color;
+
+            text-decoration: none;
+            text-shadow:
+              -#{$underline-outline} -#{$underline-outline} c(link, dark),
+              -#{$underline-outline}  #{$underline-outline} c(link, dark),
+               #{$underline-outline} -#{$underline-outline} c(link, dark),
+               #{$underline-outline}  #{$underline-outline} c(link, dark);
+        }
+
+        &:hover {
+            text-decoration: none;
+
+            @supports #{$supports-boxshadow} {
+                box-shadow:
+                  inset 0 1em c(link, dark),
+                  inset 0 -0.05em c(link, dark),
+                  0 0 0 6px c(link, dark),
+                  0 0 0 8px c(link, dark);
+            }
         }
     }
 
@@ -110,21 +115,22 @@
         @include content-shift-click();
 
         &:active {
-            background-color: $underline-background-color;
-            outline: none;
-            color: c(link, dark);
+            @supports #{$supports-boxshadow} {
+                box-shadow:
+                  inset 0 1em $underline-background-color,
+                  inset 0 -0.05em $underline-background-color;
+                outline: none;
 
-            box-shadow:
-              inset 0 1em $underline-background-color,
-              inset 0 -0.05em $underline-background-color;
+                background-color: $underline-background-color;
 
-            text-decoration: none;
-
-            text-shadow:
-              -#{$underline-outline} -#{$underline-outline} $underline-background-color,
-              -#{$underline-outline}  #{$underline-outline} $underline-background-color,
-               #{$underline-outline} -#{$underline-outline} $underline-background-color,
-               #{$underline-outline}  #{$underline-outline} $underline-background-color;
-           }
+                color: c(link, dark);
+                text-decoration: none;
+                text-shadow:
+                  -#{$underline-outline} -#{$underline-outline} $underline-background-color,
+                  -#{$underline-outline}  #{$underline-outline} $underline-background-color,
+                   #{$underline-outline} -#{$underline-outline} $underline-background-color,
+                   #{$underline-outline}  #{$underline-outline} $underline-background-color;
+            }
+        }
     }
 }
