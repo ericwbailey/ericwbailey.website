@@ -14,48 +14,13 @@
         {{{content.contact.body}}}
     </p>
 
-    {{>components/c-link-list/c-contact}}
+    {{>components/c-link-list/c-contact-people}}
 
     <p class="content-hide-visually">
         {{{content.contact.contact-info}}}
     </p>
 
-    <div
-        class="content-hide-visually">
-
-        <dl>
-            <dt>Given Name</dt>
-            <dd itemprop="givenName">Eric</dd>
-            <dt>Middle Name</dt>
-            <dd itemprop="additionalName">W</dd>
-            <dt>Family Name</dt>
-            <dd itemprop="familyName">Bailey</dd>
-            <dt>Avatar</dt>
-            <dd>https://pbs.twimg.com/profile_images/782690359352651777/EEJ-d1fC_400x400.jpg</dd>
-        </dl>
-
-        <dl>
-            <dt>Phone Number</dt>
-            <dd itemprop="telephone">+1-617-909-3611</dd>
-        </dl>
-
-        <dl itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-            <dt>Street</dt>
-            <dd itemprop="streetAddress">897 Broadway, Apartment 1, </dd>
-            <dt>City</dt>
-            <dd itemprop="addressLocality">Somerville</dd>
-            <dt>State</dt>
-            <dd itemprop="addressRegion">Massachusetts</dd>
-            <dt>Zip Code</dt>
-            <dd itemprop="postalCode">02144</dd>
-        </dl>
-
-        <dl>
-            <dt>Organization</dt>
-            <dd itemprop="worksFor">Cantina</dd>
-        </dl>
-
-    </div>
+    {{>components/c-link-list/c-contact-robots}}
 
 </address>
 <!-- End of #section-contact -->
