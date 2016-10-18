@@ -10,9 +10,13 @@
 
 // Component Styling ----------------------------------------------------------
 .c-errata {
-
     &__item {
-        display: inline;
+        margin-top: ms(0.5, rem);
+
+        // Breakpoints
+        @include mappy-bp(palm) {
+            display: inline;
+        }
     }
 
     &__link {
