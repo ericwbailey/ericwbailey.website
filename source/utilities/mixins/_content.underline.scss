@@ -80,6 +80,8 @@
     }
 
     &:active {
+        @include content-shift-click();
+
         &:focus {
             text-decoration: none;
 
