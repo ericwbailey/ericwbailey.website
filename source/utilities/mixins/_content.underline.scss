@@ -103,6 +103,25 @@
               inset 0 -0.05em c(link, dark),
               0 0 0 6px c(link, dark),
               0 0 0 8px c(link, dark);
+
+            &:active {
+                @include content-shift-click();
+                background-color: c(link, dark);
+                outline: em(8) solid c(link, dark);
+                color: c(link, light);
+
+                box-shadow:
+                  inset 0 1em c(link, dark),
+                  inset 0 -0.05em c(link, dark);
+
+                text-decoration: none;
+
+                text-shadow:
+                  -#{$underline-outline} -#{$underline-outline} c(link, dark),
+                  -#{$underline-outline}  #{$underline-outline} c(link, dark),
+                   #{$underline-outline} -#{$underline-outline} c(link, dark),
+                   #{$underline-outline}  #{$underline-outline} c(link, dark);
+            }
         }
     }
 
