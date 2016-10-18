@@ -3,7 +3,8 @@
     id="section-contact"
     class="l-section__contact"
     role="region"
-    aria-labelledby="subtitle-contact">
+    aria-labelledby="subtitle-contact"
+    itemscope itemtype="http://schema.org/Person">
 
     <h2 id="subtitle-contact" class="content-hide-visually">
         {{content.contact.title}}
@@ -19,30 +20,42 @@
         {{{content.contact.contact-info}}}
     </p>
 
-    <dl class="content-hide-visually">
-        <dt>Given Name</dt>
-        <dd>Eric</dd>
-        <dt>Middle Name</dt>
-        <dd>W</dd>
-        <dt>Family Name</dt>
-        <dd>Bailey</dd>
-        <dt>Organization</dt>
-        <dd>Cantina</dd>
-        <dt>Street</dt>
-        <dd>897 Broadway, Apartment 1</dd>
-        <dt>City</dt>
-        <dd>Somerville</dd>
-        <dt>State</dt>
-        <dd>Massachusetts</dd>
-        <dt>Zip Code</dt>
-        <dd>02144</dd>
-        <dt>Country</dt>
-        <dd>United States of America</dd>
-        <dt>Phone Number</dt>
-        <dd>+1-617-909-3611</dd>
-        <dt>Avatar</dt>
-        <dd>https://pbs.twimg.com/profile_images/782690359352651777/EEJ-d1fC_400x400.jpg</dd>
-    </dl>
+    <div
+        class="content-hide-visually">
+
+        <dl>
+            <dt>Given Name</dt>
+            <dd itemprop="givenName">Eric</dd>
+            <dt>Middle Name</dt>
+            <dd itemprop="additionalName">W</dd>
+            <dt>Family Name</dt>
+            <dd itemprop="familyName">Bailey</dd>
+            <dt>Avatar</dt>
+            <dd>https://pbs.twimg.com/profile_images/782690359352651777/EEJ-d1fC_400x400.jpg</dd>
+        </dl>
+
+        <dl>
+            <dt>Phone Number</dt>
+            <dd itemprop="telephone">+1-617-909-3611</dd>
+        </dl>
+
+        <dl itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+            <dt>Street</dt>
+            <dd itemprop="streetAddress">897 Broadway, Apartment 1, </dd>
+            <dt>City</dt>
+            <dd itemprop="addressLocality">Somerville</dd>
+            <dt>State</dt>
+            <dd itemprop="addressRegion">Massachusetts</dd>
+            <dt>Zip Code</dt>
+            <dd itemprop="postalCode">02144</dd>
+        </dl>
+
+        <dl>
+            <dt>Organization</dt>
+            <dd itemprop="worksFor">Cantina</dd>
+        </dl>
+
+    </div>
 
 </address>
 <!-- End of #section-contact -->
