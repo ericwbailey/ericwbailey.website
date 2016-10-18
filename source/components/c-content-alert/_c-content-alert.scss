@@ -22,8 +22,13 @@
 
         fill: c(type, dark);
 
+        // Contexts
         .c-link-list__link:focus & {
             fill: c(type, light);
+        }
+
+        .c-link-list__link:hover:active & {
+            fill: c(type, dark);
         }
     }
 }
