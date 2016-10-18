@@ -42,10 +42,21 @@
 
     &__item {
         margin-bottom: ms(1);
-        padding-right: ms(2); // Gutter
 
+        // Contexts
         .l-section__contact & {
             @include c-link-list-set-columns(2);
+        }
+
+        // Writing source locations
+        .l-section__writing & {
+            &[data-post-location="css-tricks"] {
+                @include generate-message("CSS-Tricks");
+            }
+
+            &[data-post-location="cantina"] {
+                @include generate-message("Cantina");
+            }
         }
 
         // Breakpoints
@@ -56,88 +67,12 @@
             }
         }
 
-        // Breakpoints
         @include mappy-bp(lap) {
             .l-section__contact & {
                 @include c-link-list-set-columns(5);
             }
         }
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    // &__item {
-    //     background-color: silver;
-    //     margin-top: ms(1);
-    //     margin-right: ms(2);
-    //     // Breakpoints
-    //     @include mappy-bp(palm) {
-    //         &:nth-of-type(4) {
-    //             background-color: red;
-    //             margin-top: ms(3);
-    //         }
-    //     }
-    // }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        // Writing source locations
-        // .l-section__writing & {
-        //     &[data-post-location="css-tricks"] {
-        //         @include generate-message("CSS-Tricks");
-        //     }
-        //
-        //     &[data-post-location="cantina"] {
-        //         @include generate-message("Cantina");
-        //     }
-        // }
-    // }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     &__link {
         // Contexts
