@@ -58,7 +58,7 @@
             background-color: Highlight;
 
             box-shadow:
-              inset 0 1em $underline-background-color,
+              inset 0  1em $underline-background-color,
               inset 0 -0.05em $underline-color;
 
             text-shadow:
@@ -72,56 +72,59 @@
     // States
     &:hover {
         text-decoration: none;
+
         @supports (box-shadow: inset 0 -0.05em currentColor) {
             box-shadow:
-              inset 0 1em $underline-background-color,
+              inset 0  1em $underline-background-color,
               inset 0 -0.05em $underline-background-color;
+        }
+    }
+
+    &:focus {
+        background-color: c(link, dark);
+        outline: em(8) solid c(link, dark);
+        color: c(link, light);
+
+        box-shadow:
+          inset 0 1em c(link, dark),
+          inset 0 -0.05em $underline-color;
+
+        text-decoration: none;
+
+        text-shadow:
+          -#{$underline-outline} -#{$underline-outline} c(link, dark),
+          -#{$underline-outline}  #{$underline-outline} c(link, dark),
+           #{$underline-outline} -#{$underline-outline} c(link, dark),
+           #{$underline-outline}  #{$underline-outline} c(link, dark);
+
+        &:hover {
+            box-shadow:
+              inset 0 1em c(link, dark),
+              inset 0 -0.05em c(link, dark),
+              0 0 0 6px c(link, dark),
+              0 0 0 8px c(link, dark);
         }
     }
 
     &:active {
         @include content-shift-click();
 
-        &:focus {
-            text-decoration: none;
-
-            @supports (box-shadow: inset 0 -0.05em currentColor) {
-                box-shadow: none;
-            }
-        }
-    }
-
-    &:focus {
-        outline: 2px solid c(link, focus);
-
-        text-decoration: underline;
-
-        @supports (box-shadow: inset 0 -0.05em currentColor) {
+        &:active {
+            background-color: $underline-background-color;
             outline: none;
-
-            text-decoration: none;
+            color: c(link, dark);
 
             box-shadow:
               inset 0 1em $underline-background-color,
-              inset 0 -0.05em $underline-color,
-              0 0 0 6px $underline-background-color,
-              0 0 0 8px c(link, focus);
-        }
-
-        &:hover {
-            outline: 2px solid c(link, focus);
+              inset 0 -0.05em $underline-background-color;
 
             text-decoration: none;
 
-            @supports (box-shadow: inset 0 -0.05em currentColor) {
-                outline: none;
-
-                box-shadow:
-                  inset 0 1em $underline-background-color,
-                  inset 0 -0.05em $underline-background-color,
-                  0 0 0 6px $underline-background-color,
-                  0 0 0 8px c(link, focus);
-            }
-        }
+            text-shadow:
+              -#{$underline-outline} -#{$underline-outline} $underline-background-color,
+              -#{$underline-outline}  #{$underline-outline} $underline-background-color,
+               #{$underline-outline} -#{$underline-outline} $underline-background-color,
+               #{$underline-outline}  #{$underline-outline} $underline-background-color;
+           }
     }
 }
