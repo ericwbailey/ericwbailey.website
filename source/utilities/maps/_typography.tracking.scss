@@ -14,11 +14,11 @@
 
 
 $tracking: (
-    tightest: -5px, // 7px
-    tighter:  -3px, // 5px
-    tight:    -2px, // 3px
-    slight:    1px, // 1px
-    loose:     2px, // 3px
-    looser:    3px, // 5px
-    loosest:   5px // 7px
+    tightest: -0.075em,
+    tighter:  -0.05em,
+    tight:    -0.025em,
+    slight:    0.025em,
+    loose:     0.05em,
+    looser:    0.075em,
+    loosest:   0.1em
 );

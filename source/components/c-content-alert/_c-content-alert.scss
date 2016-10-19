@@ -10,6 +10,8 @@
 
 // Component Styling ----------------------------------------------------------
 .c-content-alert {
+    @include typography-tracking(tight);
+
     font-style: normal;
     font-size: 75%;
 
