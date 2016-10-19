@@ -33,8 +33,6 @@
 
         padding-top: ms(0.5, rem); // Controls spacing between portfolio and errata
 
-        color: c(type, light);
-
         background-color: c(l-section, errata);
     }
 
@@ -56,8 +54,6 @@
         padding-bottom: 0; // Visually connects portfolio and errata sections
 
         background-color: c(l-section, portfolio);
-
-        color: c(type, light);
     }
 
     &__projects {
