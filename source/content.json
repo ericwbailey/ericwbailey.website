@@ -33,6 +33,6 @@
     },
     "portfolio": {
         "title": "Portfolio and client list",
-        "body": "If you'd like to <a href='mailto:email@address.com?subject=Portfolio'>see my portfolio</a> or <a href='mailto:email@address.com?subject=Clients'>list of past clients</a>, please ask. Thanks!"
+        "body": "If you'd like to <a class='c-portfolio__link' href='mailto:email@address.com?subject=Portfolio'>see my portfolio</a> or <a class='c-portfolio__link' href='mailto:email@address.com?subject=Clients'>list of past clients</a>, please ask. Thanks!"
     }
 }
