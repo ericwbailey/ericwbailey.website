@@ -85,5 +85,10 @@
     &__source {
         display: block;
         width: rem(150);
+
+        .c-link-list__link:focus & {
+            color: c(type, dark);
+            text-shadow: none;
+        }
     }
 }

@@ -13,5 +13,20 @@
 
     &__link {
         @include content-underline($underline-background-color: c(l-section, interests));
+
+        .c-currently-learning__link:focus & {
+            color: c(type, dark);
+            text-shadow: none;
+        }
+    }
+
+    &__status {
+        display: block;
+        width: rem(150);
+
+        .c-currently-learning__link:focus & {
+            color: c(type, dark);
+            text-shadow: none;
+        }
     }
 }
