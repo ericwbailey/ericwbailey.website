@@ -10,8 +10,18 @@
 
 // Component Styling ----------------------------------------------------------
 .c-errata {
+    margin-top: ms(1);
+
+    color: c(type, light);
+
+    // Breakpoints
+    @include mappy-bp(palm) {
+        margin-top: 0;
+    }
+
     &__item {
         margin-top: ms(0.5, rem);
+        margin-right: ms(1, rem);
 
         // Breakpoints
         @include mappy-bp(palm) {
@@ -20,10 +30,26 @@
     }
 
     &__link {
-        @include content-underline($underline-background-color: c(l-section, errata), $underline-color: c(l-section, errata));
-
-        margin-right: ms(1, rem);
-
         text-decoration: none;
+
+        &:active {
+            @include content-shift-click();
+
+            &:focus {
+                outline: 0;
+
+                background-color: transparent;
+
+                color: c(type, light);
+            }
+        }
+
+        &:focus {
+            outline: em(4) solid c(yellow);
+
+            background-color: c(yellow);
+
+            color: c(type, dark);
+        }
     }
 }
