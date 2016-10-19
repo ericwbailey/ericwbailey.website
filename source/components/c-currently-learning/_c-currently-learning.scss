@@ -14,8 +14,4 @@
     &__link {
         @include content-underline($underline-background-color: c(l-section, interests));
     }
-
-    &[data-learning-status] {
-        @include generate-message("(It's going okay)");
-    }
 }

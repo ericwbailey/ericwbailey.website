@@ -48,17 +48,6 @@
             @include c-link-list-set-columns(2);
         }
 
-        // Writing source locations
-        .l-section__writing & {
-            &[data-post-location="css-tricks"] {
-                @include generate-message("CSS-Tricks");
-            }
-
-            &[data-post-location="cantina"] {
-                @include generate-message("Cantina");
-            }
-        }
-
         // Breakpoints
         @include mappy-bp(palm) {
             .l-section__interests &,
@@ -91,5 +80,10 @@
         .l-section__writing & {
             @include content-underline($underline-background-color: c(l-section, writing));
         }
+    }
+
+    &__source {
+        display: block;
+        width: rem(150);
     }
 }
