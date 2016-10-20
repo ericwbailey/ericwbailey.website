@@ -20,26 +20,31 @@
         &:hover,
         &:focus,
         &:active {
-            display: block;
-            padding: ms(2, rem) ms(3, rem);
-            opacity: 1;
-            position: fixed;
-              top: ms(1.5);
-              right: 12.5vw;
-            width: 75vw;
+            @include typography-tracking(slight);
 
-            border: ms(1, rem) solid c(skipnav, border);
+            display: block;
+            padding: 3.3vw 5vw 3vw 5vw;
+            position: fixed;
+              top: ms(0.75);
+              left: 6.25vw;
+            width: 84.375vw;
+            z-index: z(ceiling);
+
+            border: 1.5vw solid c(skipnav, border);
 
             background-color: c(skipnav, background);
             box-shadow: shadow(large) c(skipnav, shadow);
 
             color: c(skipnav, link-base);
-            font-size: ms(2, em);
+            font-size: calc(1em + 2vw);
+            line-height: 1;
+            text-decoration: none;
+
+            opacity: 1;
         }
 
         &:hover {
             color: c(skipnav, link-hover);
-            text-decoration: none;
         }
 
         &:active {
