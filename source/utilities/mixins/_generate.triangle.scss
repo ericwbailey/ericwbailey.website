@@ -13,7 +13,7 @@
 /// @parameter {String}      $direction - Can take one of the following values: `up`, `down`, `left`, `right`, `up-right`, `up-left`, `down-right`, `down-left`
 ///
 /// @example scss
-///  @include triangle(6em, black, down);
+///  @include generate-triangle(6em, black, down);
 ///
 /// @link http://bourbon.io/docs/#triangle Bourbon: Triangle
 
