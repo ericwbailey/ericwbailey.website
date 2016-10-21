@@ -15,6 +15,8 @@
     font-style: normal;
     font-size: 75%;
 
+    cursor: default;
+
     &__icon {
         @include component-size(rem(14));
 
