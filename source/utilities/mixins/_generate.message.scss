@@ -17,6 +17,8 @@
 
 @mixin generate-message($message) {
     &::after {
+        @include typography-tracking(slight);
+
         content: "#{$message}";
 
         display: block;
