@@ -7,6 +7,7 @@
 // Layout Logic ---------------------------------------------------------------
 @mixin l-section() {
     padding: 14vh 12vw;
+    z-index: z(l-section);
 }
 
 
@@ -14,8 +15,6 @@
 .l-section {
     &__header {
         @include l-section();
-
-        z-index: z(l-section);
 
         background-color: c(l-section, header);
 
