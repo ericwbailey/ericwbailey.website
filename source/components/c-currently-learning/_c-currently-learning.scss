@@ -16,6 +16,6 @@
     }
 
     &[data-learning-status] {
-        @include generate-message("(It's going okay)");
+        @include generate-message("(It’s going okay)");
     }
 }

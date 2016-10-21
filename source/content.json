@@ -8,11 +8,11 @@
     },
     "about": {
         "title": "About",
-        "body": "I'm Eric, a Boston-based User Experience designer working at <a class='c-about__link' rel='external noopener' href='http://cantina.co/'>Cantina</a>."
+        "body": "I&rsquo;m Eric, a Boston-based User Experience designer working at <a class='c-about__link' rel='external noopener' href='http://cantina.co/'>Cantina</a>."
     },
     "philosophy": {
         "title": "Philosophy",
-        "body": "I help create straightforward solutions that address a person's practical, physical, cognitive, and emotional needs using accessible, performant, device-agnostic technology."
+        "body": "I help create straightforward solutions that address a person&rsquo;s practical, physical, cognitive, and emotional needs using accessible, performant, device-agnostic technology."
     },
     "interests": {
         "title": "Interests",
@@ -20,19 +20,19 @@
     },
     "writing": {
         "title": "Writing",
-        "body": "Here are some topics of interest I've written about:"
+        "body": "Here are some topics of interest I&rsquo;ve written about:"
     },
     "projects": {
         "title": "Projects",
-        "body": "I'm also a firm believer in the side project. Here are some things I've made:"
+        "body": "I&rsquo;m also a firm believer in the side project. Here are some things I&rsquo;ve made:"
     },
     "contact": {
         "title": "Contact",
-        "body": "If you'd like to get in contact with me, or see what I've been up to recently, there are a few ways to do it:",
-        "contact-info": "Here's the rest of my contact info in a nice <span class='generate-pause'>S</span><span class='generate-pause'>E</span><span class='generate-pause'>O</span> friendly format:"
+        "body": "If you&rsquo;d like to get in contact with me, or see what I&rsquo;ve been up to recently, there are a few ways to do it:",
+        "contact-info": "Here&rsquo;s the rest of my contact info in a nice <span class='generate-pause'>S</span><span class='generate-pause'>E</span><span class='generate-pause'>O</span> friendly format:"
     },
     "portfolio": {
         "title": "Portfolio and client list",
-        "body": "If you'd like to <a class='c-portfolio__link' href='mailto:email@address.com?subject=Portfolio'>see my portfolio</a> or a <a class='c-portfolio__link' href='mailto:email@address.com?subject=Clients'>list of past clients</a>, please ask. Thanks!"
+        "body": "If you&rsquo;d like to <a class='c-portfolio__link' href='mailto:email@address.com?subject=Portfolio'>see my portfolio</a> or a <a class='c-portfolio__link' href='mailto:email@address.com?subject=Clients'>list of past clients</a>, please ask. Thanks!"
     }
 }
