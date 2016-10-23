@@ -35,12 +35,54 @@
     }
 
     // Messages
+    // Writing
     [data-writing-source="css-tricks"] {
-        @include generate-message(CSS - Tricks);
+        @include generate-message("CSS - Tricks");
     }
 
     [data-writing-source="cantina"] {
-        @include generate-message(Cantina);
+        @include generate-message("Cantina");
+    }
+
+    // Projects
+    [data-project-description="structure-exposed"] {
+        @include generate-message("Remove CSS frippery");
+    }
+
+    [data-project-description="accessible-html-content-patterns"] {
+        @include generate-message("Better building blocks");
+    }
+
+    [data-project-description="hancock-lighting"] {
+        @include generate-message("Digitizing a landmark");
+    }
+
+    [data-project-description="millennials-to-snake-people"] {
+        @include generate-message("Infamous browser extension");
+    }
+
+    [data-project-description="youdubber"] {
+        @include generate-message("Audio of one video dubbed over another");
+    }
+
+    [data-project-description="ubersleep"] {
+        @include generate-message("Layout, design, and typography");
+    }
+
+    [data-project-description="lowvision-support"] {
+        @include generate-message("Responsive low vision simulator");
+    }
+
+    [data-project-description="design-build-test-repeat"] {
+        @include generate-message("Intrepid co-host");
+    }
+
+    [data-project-description="exploit-logos"] {
+        @include generate-message("Curated malice");
+    }
+
+    [data-project-description="fresh-garbage-newsletter"] {
+        @include generate-message("The worst for the best");
     }
 
     // Contexts
@@ -49,7 +91,8 @@
     }
 
     &__item {
-        margin-bottom: ms(1);
+        margin-bottom: ms(1, rem);
+        padding-right: ms(2, rem);
 
         // Contexts
         .l-section__contact & {
