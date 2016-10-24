@@ -8,17 +8,17 @@
 @mixin footer-content-underline(
     $footer-underline-background-color: c(background, dark),
     $footer-underline-color: c(type, light),
-    $footer-underline-outline: 0.75px
+    $footer-underline-outline: 1px,
+    $footer-underline-baseline-distance: 0.1em,
+    $footer-underline-thickness: 0.15em
 ) {
     text-decoration: underline;
 
     @supports #{$supports-boxshadow} {
         box-shadow:
-          inset 0  1em $footer-underline-background-color,
-          inset 0 -0.05em $footer-underline-color;
+          inset 0 -#{$footer-underline-baseline-distance} $footer-underline-background-color,
+          inset 0 -#{$footer-underline-thickness} $footer-underline-color;
         display: inline;
-
-        background-size: 2px 1em;
 
         // Remove default underline
         text-decoration: none;
@@ -36,8 +36,8 @@
     @supports #{$supports-boxshadow} {
         &::selection {
             box-shadow:
-              inset 0  1em $footer-underline-background-color,
-              inset 0 -0.05em $footer-underline-color;
+              inset 0 -#{$footer-underline-baseline-distance} $footer-underline-background-color,
+              inset 0 -#{$footer-underline-thickness} $footer-underline-color;
 
             background-color: Highlight;
 
@@ -55,21 +55,21 @@
 
         @supports #{$supports-boxshadow} {
             box-shadow:
-              inset 0  1em $footer-underline-background-color,
-              inset 0 -0.05em $footer-underline-background-color;
+              inset 0 -#{$footer-underline-baseline-distance} $footer-underline-background-color,
+              inset 0 -#{$footer-underline-thickness} $footer-underline-background-color;
         }
     }
 
     &:focus {
         background-color: c(yellow);
-        outline: em(8) solid c(yellow);
+        outline: em(10) solid c(yellow);
 
         color: c(type, dark);
 
         @supports #{$supports-boxshadow} {
             box-shadow:
-              inset 0  1em c(yellow),
-              inset 0 -0.05em c(type, dark);
+              inset 0 -#{$footer-underline-baseline-distance} c(yellow),
+              inset 0 -#{$footer-underline-thickness} c(type, dark);
 
             text-decoration: none;
             text-shadow:
@@ -84,10 +84,8 @@
 
             @supports #{$supports-boxshadow} {
                 box-shadow:
-                  inset 0  1em c(yellow),
-                  inset 0 -0.05em c(yellow),
-                  0 0 0 6px c(yellow),
-                  0 0 0 8px c(yellow);
+                  inset 0 -#{$footer-underline-baseline-distance} c(yellow),
+                  inset 0 -#{$footer-underline-thickness} c(yellow);
             }
         }
     }
@@ -98,8 +96,8 @@
         &:active {
             @supports #{$supports-boxshadow} {
                 box-shadow:
-                  inset 0  1em $footer-underline-background-color,
-                  inset 0 -0.05em $footer-underline-background-color;
+                  inset 0 -#{$footer-underline-baseline-distance} $footer-underline-background-color,
+                  inset 0 -#{$footer-underline-thickness} $footer-underline-background-color;
                 outline: none;
 
                 background-color: $footer-underline-background-color;

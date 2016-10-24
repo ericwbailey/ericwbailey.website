@@ -13,8 +13,8 @@
 /// @parameter {Color}       $underline-background-color       [c(background, light)] - Sets the color of the background
 /// @parameter {Color}       $underline-color                  [currentColor]         - Sets the color of the underline
 /// @parameter {Measurement} $underline-outline                [0.75px]               - Sets the width of the text outline
-/// @parameter {Measurement} $underline-thickness              [0.175em,]             - Sets the thickness of the underline in ems
-/// @parameter {Measurement} $underline-distance-from-baseline [0.2em]                - Sets the distance of the underline from the type's basline
+/// @parameter {Measurement} $underline-baseline-distance      [0.15em,]              - Sets the start of the background area. The underline is "pinned" to the bottom of this area.
+/// @parameter {Measurement} $underline-thickness              [0.2em]                - Sets the thickness of the underline
 ///
 /// @example scss
 ///  @include content-underline();
@@ -25,19 +25,17 @@
 @mixin content-underline(
     $underline-background-color: c(background, light),
     $underline-color: currentColor,
-    $underline-outline: 0.75px,
-    $underline-thickness: 0.175em,
-    $underline-distance-from-baseline: 0.2em
+    $underline-outline: 1px,
+    $underline-baseline-distance: 0.1em, // Set to 0.05 less than `$underline-thickness`
+    $underline-thickness: 0.15em
 ) {
     text-decoration: underline;
 
     @supports #{$supports-boxshadow} {
         box-shadow:
-          inset 0  1em $underline-background-color,
-          inset 0 -0.05em $underline-color;
+          inset 0 -#{$underline-baseline-distance} $underline-background-color, // Sets baseline
+          inset 0 -#{$underline-thickness} $underline-color; // Sets thickness proportional to baseline
         display: inline;
-
-        background-size: 2px 1em;
 
         // Remove default underline
         text-decoration: none;
@@ -55,8 +53,8 @@
     @supports #{$supports-boxshadow} {
         &::selection {
             box-shadow:
-              inset 0  1em $underline-background-color,
-              inset 0 -0.05em $underline-color;
+              inset 0 -#{$underline-baseline-distance} $underline-background-color,
+              inset 0 -#{$underline-thickness} $underline-color;
 
             background-color: Highlight;
 
@@ -74,21 +72,21 @@
 
         @supports #{$supports-boxshadow} {
             box-shadow:
-              inset 0  1em $underline-background-color,
-              inset 0 -0.05em $underline-background-color;
+              inset 0 -#{$underline-baseline-distance} $underline-background-color,
+              inset 0 -#{$underline-thickness} $underline-background-color;
         }
     }
 
     &:focus {
         background-color: c(link, dark);
-        outline: em(8) solid c(link, dark);
+        outline: em(10) solid c(link, dark);
 
         color: c(link, light);
 
         @supports #{$supports-boxshadow} {
             box-shadow:
-              inset 0  1em c(link, dark),
-              inset 0 -0.05em $underline-color;
+              inset 0 -#{$underline-baseline-distance} c(link, dark),
+              inset 0 -#{$underline-thickness} $underline-color;
 
             text-decoration: none;
             text-shadow:
@@ -103,10 +101,8 @@
 
             @supports #{$supports-boxshadow} {
                 box-shadow:
-                  inset 0  1em c(link, dark),
-                  inset 0 -0.05em c(link, dark),
-                  0 0 0 6px c(link, dark),
-                  0 0 0 8px c(link, dark);
+                  inset 0 -#{$underline-baseline-distance} c(link, dark),
+                  inset 0 -#{$underline-thickness} c(link, dark);
             }
         }
     }
@@ -117,8 +113,8 @@
         &:active {
             @supports #{$supports-boxshadow} {
                 box-shadow:
-                  inset 0  1em $underline-background-color,
-                  inset 0 -0.05em $underline-background-color;
+                  inset 0 -#{$underline-baseline-distance} $underline-background-color,
+                  inset 0 -#{$underline-thickness} $underline-background-color;
                 outline: none;
 
                 background-color: $underline-background-color;
