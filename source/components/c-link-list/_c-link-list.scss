@@ -26,7 +26,7 @@
     margin-top: ms(2);
 
     // Breakpoints
-    @include mappy-bp(palm) {
+    @include mappy-bp(small) {
         // Contexts
         .l-section__interests &,
         .l-section__projects & {
@@ -100,14 +100,14 @@
         }
 
         // Breakpoints
-        @include mappy-bp(palm) {
+        @include mappy-bp(small) {
             .l-section__interests &,
             .l-section__projects & {
                 @include c-link-list-set-columns(2);
             }
         }
 
-        @include mappy-bp(lap) {
+        @include mappy-bp(small) {
             .l-section__contact & {
                 @include c-link-list-set-columns(5);
             }

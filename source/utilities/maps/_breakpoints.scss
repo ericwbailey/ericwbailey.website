@@ -13,9 +13,13 @@
 
 
 $breakpoints: (
-    'wrist': 320px,
-    'palm':  800px,
-    'lap':   1920px,
-    'desk':  2560px,
-    'wall':  4480px
+    'xxx-small': 320px,
+    'xx-small':  480px,
+    'x-small':   720px,
+    'small':     1080px,
+    'medium':    1620px,
+    'large':     1620px,
+    'x-large':   2430px,
+    'xx-large':  3645px,
+    'xxx-large': 5468px
 );

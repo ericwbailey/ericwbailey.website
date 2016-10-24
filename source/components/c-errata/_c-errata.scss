@@ -15,7 +15,7 @@
     color: c(type, light);
 
     // Breakpoints
-    @include mappy-bp(palm) {
+    @include mappy-bp(x-small) {
         margin-top: 0;
     }
 
@@ -24,7 +24,7 @@
         margin-right: ms(1, rem);
 
         // Breakpoints
-        @include mappy-bp(palm) {
+        @include mappy-bp(x-small) {
             display: inline;
         }
     }
