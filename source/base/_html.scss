@@ -31,7 +31,10 @@ html {
     text-size-adjust: 100%; // [3]
 
     &:lang(en-US) {
-         @include typography-hyphenation(); // [4]
+        // Breakpoints
+        @include mappy-bp(small) {
+            @include typography-hyphenation(); // [4]
+        }
     }
 }
 
