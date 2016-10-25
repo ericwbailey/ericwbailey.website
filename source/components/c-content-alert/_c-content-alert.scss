@@ -12,11 +12,11 @@
 .c-content-alert {
     @include typography-tracking(tight);
 
-    margin-left: rem(12);
+    margin-left: rem(10);
     padding-right: rem(6);
     padding-left: rem(4);
     position: relative;
-      top: rem(-3);
+      top: rem(-1);
 
     outline: rem(4) solid transparentize(c(background, light), 0.65);
 
