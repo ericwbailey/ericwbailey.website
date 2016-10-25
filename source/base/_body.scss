@@ -7,7 +7,14 @@ body {
     overflow-x: hidden;
 
     color: c(type, dark);
-    font-size: 1em;
+    font-size: em(16);
+
+    transition: animation-duration(shortest) font-size animation-ease(background);
+
+    // Breakpoints
+    @include mappy-bp(x-small) {
+        font-size: calc(1em + 0.1vw);
+    }
 }
 
 // Lobotomized Owl selector provides default vertical spacing:
