@@ -8,7 +8,7 @@
 @mixin footer-content-underline(
     $footer-underline-background-color: c(background, dark),
     $footer-underline-color: c(type, light),
-    $footer-underline-outline: 1px,
+    $footer-underline-outline: em(1),
     $footer-underline-baseline-distance: 0.1em,
     $footer-underline-thickness: 0.15em
 ) {
