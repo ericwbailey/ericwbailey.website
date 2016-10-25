@@ -6,8 +6,33 @@
 
 // Layout Logic ---------------------------------------------------------------
 @mixin l-section() {
-    padding: 14vh 12vw;
+    padding: rem(50) rem(40);
     z-index: z(l-section);
+
+    transition: animation-duration(shortest) padding animation-ease(background);
+
+    @supports #{$supports-viewportunits} {
+        padding: 8vh 8vw;
+    }
+
+    // Breakpoints
+    @include mappy-bp(x-small) {
+        padding: rem(120) rem(100);
+
+        @supports #{$supports-viewportunits} {
+            padding: 14vh 12vw;
+        }
+    }
+}
+
+// Removes the bottom margin of the last row of `c-link_list__item`s
+@mixin l-section-bottom-margin() {
+    padding-bottom: calc(8vh - #{ms(1, rem)});
+
+    // Breakpoints
+    @include mappy-bp(small) {
+        padding-bottom: calc(14vh - #{ms(1, rem)});
+    }
 }
 
 
@@ -29,12 +54,18 @@
         background-color: c(l-section, contact);
     }
 
+    // [1] Controls spacing between portfolio and errata
     &__errata {
         @include l-section();
 
-        padding-top: ms(0.5, rem); // Controls spacing between portfolio and errata
+        padding-top: ms(0.5, rem); // [1]
 
         background-color: c(l-section, errata);
+
+        // Breakpoints
+        @include mappy-bp(x-small) {
+            padding-top: ms(0.5, rem); // [1]
+        }
     }
 
     &__interests {
@@ -49,23 +80,37 @@
         background-color: c(l-section, philosophy);
     }
 
+    // [1] Visually connects portfolio and errata sections
     &__portfolio-and-client-list {
         @include l-section();
 
-        padding-bottom: 0; // Visually connects portfolio and errata sections
+        padding-bottom: 0; // [1]
 
         background-color: c(l-section, portfolio);
+
+        // Breakpoints
+        @include mappy-bp(x-small) {
+            padding-bottom: 0; // [1]
+        }
     }
 
     &__projects {
         @include l-section();
+        @include l-section-bottom-margin();
 
         background-color: c(l-section, projects);
     }
 
     &__writing {
         @include l-section();
+        @include l-section-bottom-margin();
 
         background-color: c(l-section, writing);
+
+        // transition: background-color 20s ease-in;
+        //
+        // &:hover {
+        //     background-color: white;
+        // }
     }
 }
