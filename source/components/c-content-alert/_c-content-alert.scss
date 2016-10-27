@@ -38,16 +38,6 @@
         background-color: c(background, light);
     }
 
-    // breakpoints
-    @include mappy-bp(small) {
-        display: block;
-        margin-left: 0;
-        margin-top: rem(6);
-        margin-bottom: rem(12);
-        position: static;
-        width: em(220);
-    }
-
     &__icon {
         @include component-size(rem(14));
 
