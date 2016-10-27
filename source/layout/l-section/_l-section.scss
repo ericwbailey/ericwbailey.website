@@ -30,7 +30,7 @@
     padding-bottom: calc(8vh - #{ms(1, rem)});
 
     // Breakpoints
-    @include mappy-bp(small) {
+    @include mappy-bp(x-small) {
         padding-bottom: calc(14vh - #{ms(1, rem)});
     }
 }
@@ -54,17 +54,13 @@
         background-color: c(l-section, contact);
     }
 
-    // [1] Controls spacing between portfolio and errata
     &__errata {
         @include l-section();
 
-        padding-top: ms(0.5, rem); // [1]
-
         background-color: c(l-section, errata);
 
-        // Breakpoints
-        @include mappy-bp(x-small) {
-            padding-top: ms(0.5, rem); // [1]
+        @supports #{$supports-viewportunits} {
+            padding-top: ms(1); // Controls spacing between portfolio and errata
         }
     }
 
@@ -80,17 +76,13 @@
         background-color: c(l-section, philosophy);
     }
 
-    // [1] Visually connects portfolio and errata sections
     &__portfolio-and-client-list {
         @include l-section();
 
-        padding-bottom: 0; // [1]
-
         background-color: c(l-section, portfolio);
 
-        // Breakpoints
-        @include mappy-bp(x-small) {
-            padding-bottom: 0; // [1]
+        @supports #{$supports-viewportunits} {
+            padding-bottom: 0; // Visually connects portfolio and errata sections
         }
     }
 
