@@ -21,6 +21,40 @@
 }
 
 
+@keyframes bounce-in {
+    from, 20%, 40%, 60%, 80%, to {
+        animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
+
+    0% {
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+
+    20% {
+        transform: scale3d(1.1, 1.1, 1.1);
+    }
+
+    40% {
+        transform: scale3d(.9, .9, .9);
+    }
+
+    60% {
+        opacity: 1;
+        transform: scale3d(1.03, 1.03, 1.03);
+    }
+
+    80% {
+        transform: scale3d(.97, .97, .97);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+
 // Component Styling ----------------------------------------------------------
 .c-link-list {
     margin-top: ms(2);
@@ -91,7 +125,7 @@
     }
 
     &__item {
-        margin-bottom: ms(1, rem);
+        margin-bottom: ms(1.25, rem);
         padding-right: ms(1, rem);
 
         // Contexts
@@ -114,7 +148,35 @@
         }
     }
 
+    &__coffee {
+        @include component-size(rem(28));
+
+        margin-left: rem(10);
+        position: absolute;
+          bottom: rem(37);
+
+        fill: c(l-section, contact);
+
+        // Breakpoints
+        @include mappy-bp(x-small) {
+            bottom: rem(41);
+        }
+    }
+
     &__link {
+        // States
+        &:hover {
+            + .c-link-list__coffee {
+
+                fill: c(type, dark);
+
+                animation-duration: 0.75s;
+                animation-fill-mode: both;
+                animation-iteration-count: 1;
+                animation-name: bounce-in;
+            }
+        }
+
         // Contexts
         .l-section__contact & {
             @include content-underline($underline-background-color: c(l-section, contact));
