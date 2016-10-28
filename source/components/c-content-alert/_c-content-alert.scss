@@ -12,48 +12,29 @@
 .c-content-alert {
     @include typography-tracking(tight);
 
-    margin-left: rem(10);
+    margin-left: rem(4);
     padding-right: rem(6);
     padding-left: rem(4);
     position: relative;
       top: rem(-1);
 
-    outline: rem(4) solid transparentize(c(background, light), 0.65);
-
-    background-color: transparentize(c(background, light), 0.65);
-
     font-style: normal;
     font-size: 70%;
 
     cursor: default;
-    transition:
-      background-color animation-duration(short) animation-ease(dialogue),
-      outline-color animation-duration(short) animation-ease(dialogue);
-
-
-    // States
-    &:hover {
-        outline-color: c(background, light);
-
-        background-color: c(background, light);
-    }
 
     &__icon {
         @include component-size(rem(14));
 
         margin-right: rem(4);
         position: relative;
-          top: rem(2);
+          top: rem(4);
 
         fill: c(type, dark);
 
-        // Contexts
-        .c-link-list__link:focus & {
-            fill: c(type, light);
-        }
-
-        .c-link-list__link:hover:active & {
-            fill: c(type, dark);
+        // Breakpoints
+        @include mappy-bp(x-small) {
+            top: rem(2);
         }
     }
 }
