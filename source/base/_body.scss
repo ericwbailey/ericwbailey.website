@@ -12,7 +12,7 @@ body {
     transition: animation-duration(shortest) font-size animation-ease(background);
 
     // Breakpoints
-    @include mappy-bp(x-small) {
+    @include mappy-bp(palm-medium) {
         font-size: calc(1em + 0.1vw);
     }
 }

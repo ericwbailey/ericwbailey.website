@@ -33,7 +33,7 @@
         fill: c(type, dark);
 
         // Breakpoints
-        @include mappy-bp(x-small) {
+        @include mappy-bp(palm-medium) {
             top: rem(2);
         }
     }

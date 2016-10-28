@@ -16,7 +16,7 @@
     }
 
     // Breakpoints
-    @include mappy-bp(x-small) {
+    @include mappy-bp(palm-medium) {
         padding: rem(120) rem(100);
 
         @supports #{$supports-viewportunits} {
@@ -30,7 +30,7 @@
     padding-bottom: calc(8vh - #{ms(1, rem)});
 
     // Breakpoints
-    @include mappy-bp(x-small) {
+    @include mappy-bp(palm-medium) {
         padding-bottom: calc(14vh - #{ms(1, rem)});
     }
 }

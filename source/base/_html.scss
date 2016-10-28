@@ -32,7 +32,7 @@ html {
 
     &:lang(en-US) {
         // Breakpoints
-        @include mappy-bp(small) {
+        @include mappy-bp(lap-small) {
             @include typography-hyphenation(); // [4]
         }
     }
