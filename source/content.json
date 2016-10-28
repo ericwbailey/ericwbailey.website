@@ -1,6 +1,6 @@
 {
     "titles": {
-        "tagline": "Boston-based User Experience designer.",
+        "tagline": "Boston-based user experience designer.",
         "home": "Eric Bailey"
     },
     "home": {
@@ -8,11 +8,11 @@
     },
     "about": {
         "title": "About",
-        "body": "I&rsquo;m Eric, a Boston-based User Experience designer working at <a class='c-about__link' rel='external noopener' href='http://cantina.co/'>Cantina</a>."
+            "body": "I&rsquo;m Eric, a Boston-based user experience designer working&nbsp;at&nbsp;<a class='c-about__link' rel='external noopener' href='http://cantina.co/'>Cantina</a>."
     },
     "philosophy": {
         "title": "Philosophy",
-        "body": "I help create straightforward solutions that address a person&rsquo;s practical, physical, cognitive, and emotional needs using accessible, performant, device-agnostic technology."
+        "body": "I help create straightforward solutions that address a person&rsquo;s practical, physical, cognitive, and emotional needs using accessible, performant,&nbsp;device-agnostic&nbsp;technology."
     },
     "interests": {
         "title": "Interests",
@@ -24,15 +24,15 @@
     },
     "projects": {
         "title": "Projects",
-        "body": "I&rsquo;m also a firm believer in the side project. Here are some things I&rsquo;ve made:"
+        "body": "I&rsquo;m also a firm believer in the side project. Here are some things&nbsp;I&rsquo;ve&nbsp;made:"
     },
     "contact": {
         "title": "Contact",
-        "body": "If you&rsquo;d like to get in contact with me, or see what I&rsquo;ve been up to recently, there are a few ways to do it:",
+        "body": "If you&rsquo;d like to get in contact with me, or see what I&rsquo;ve been up to recently, there are a few ways to&nbsp;do&nbsp;it:",
         "contact-info": "Here&rsquo;s the rest of my contact info in a nice <span class='generate-pause'>S</span><span class='generate-pause'>E</span><span class='generate-pause'>O</span> friendly format:"
     },
     "portfolio": {
         "title": "Portfolio and client list",
-        "body": "If you&rsquo;d like to <a class='c-portfolio__link' href='mailto:email@address.com?subject=Portfolio'>see my portfolio</a><svg aria-hidden='true' viewBox='0 0 100 100' class='icon c-portfolio__icon'><use xlink:href='#icon-envelope'></use></svg> or a <a class='c-portfolio__link' href='mailto:email@address.com?subject=Clients'>list of past&nbsp;clients</a>&#xfeff;<svg aria-hidden='true' viewBox='0 0 100 100' class='icon c-portfolio__icon c-portfolio__icon--punctuation'><use xlink:href='#icon-envelope'></use></svg>&#xfeff;, please ask. Thanks!"
+        "body": "If you&rsquo;d like to <a class='c-portfolio__link' href='mailto:email@address.com?subject=Portfolio'>view my portfolio<svg aria-hidden='true' viewBox='0 0 100 100' class='icon c-portfolio__icon'><use xlink:href='#icon-envelope'></use></svg></a> or a <a class='c-portfolio__link c-portfolio--punctuation' href='mailto:email@address.com?subject=Clients'>see a list of past&nbsp;clients<svg aria-hidden='true' viewBox='0 0 100 100' class='icon c-portfolio__icon'><use xlink:href='#icon-envelope'></use></svg></a>&#xfeff;&#xfeff;, please ask. Thanks!"
     }
 }
