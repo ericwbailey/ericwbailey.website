@@ -119,14 +119,6 @@
 .c-portfolio {
     color: c(type, light);
 
-    line-height: 1.777;
-
-    // Breakpoints
-    @include mappy-bp(palm-medium) {
-        line-height: $global-type-line-height;
-    }
-
-
     &__link {
         @include footer-content-underline();
 
@@ -156,10 +148,6 @@
           top: em(2);
 
         fill: c(type, light);
-
-        // Breakpoints
-        @include mappy-bp(palm-medium) {
-        }
     }
 
     &--punctuation {
