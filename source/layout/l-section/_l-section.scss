@@ -38,26 +38,28 @@
 
 // Layout Styling -------------------------------------------------------------
 .l-section {
-    &__header {
+    &__header,
+    &__contact,
+    &__errata,
+    &__interests,
+    &__philosophy,
+    &__portfolio-and-client-list,
+    &__projects,
+    &__writing {
         @include l-section();
+    }
 
-        background-color: c(l-section, header);
-
-        a {
-            @include content-underline($underline-background-color: c(l-section, header));
-        }
+    &__contact,
+    &__projects
+    &__writing {
+        @include l-section-bottom-margin();
     }
 
     &__contact {
-        @include l-section();
-        @include l-section-bottom-margin();
-
         background-color: c(l-section, contact);
     }
 
     &__errata {
-        @include l-section();
-
         background-color: c(l-section, errata);
 
         @supports #{$supports-viewportunits} {
@@ -65,21 +67,23 @@
         }
     }
 
-    &__interests {
-        @include l-section();
+    &__header {
+        background-color: c(l-section, header);
 
+        a {
+            @include content-underline($underline-background-color: c(l-section, header));
+        }
+    }
+
+    &__interests {
         background-color: c(l-section, interests);
     }
 
     &__philosophy {
-        @include l-section();
-
         background-color: c(l-section, philosophy);
     }
 
     &__portfolio-and-client-list {
-        @include l-section();
-
         background-color: c(l-section, portfolio);
 
         @supports #{$supports-viewportunits} {
@@ -88,22 +92,10 @@
     }
 
     &__projects {
-        @include l-section();
-        @include l-section-bottom-margin();
-
         background-color: c(l-section, projects);
     }
 
     &__writing {
-        @include l-section();
-        @include l-section-bottom-margin();
-
         background-color: c(l-section, writing);
-
-        // transition: background-color 20s ease-in;
-        //
-        // &:hover {
-        //     background-color: white;
-        // }
     }
 }
