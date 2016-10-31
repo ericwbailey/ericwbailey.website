@@ -149,17 +149,19 @@
     }
 
     &__coffee {
-        @include component-size(rem(28));
+        @include component-size(rem(22));
 
         margin-left: rem(10);
         position: absolute;
-          bottom: rem(37);
+          bottom: rem(41);
 
         fill: c(l-section, contact);
 
         // Breakpoints
         @include mappy-bp(palm-medium) {
-            bottom: rem(41);
+            @include component-size(rem(28));
+
+            bottom: rem(43);
         }
     }
 

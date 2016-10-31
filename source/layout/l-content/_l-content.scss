@@ -1,0 +1,44 @@
+// ============================================================================
+// Layout
+// Content
+// ============================================================================
+
+
+// Layout Logic ---------------------------------------------------------------
+@mixin l-content() {
+    padding: rem(50) rem(40);
+    z-index: z(l-content);
+
+    transition: animation-duration(shortest) padding animation-ease(background);
+
+    @supports #{$supports-viewportunits} {
+        padding: 8vh 8vw 16vh 8vw;
+    }
+
+    // Breakpoints
+    @include mappy-bp(palm-medium) {
+        padding: rem(120) rem(100);
+
+        @supports #{$supports-viewportunits} {
+            padding: 14vh 12vw 42vh 12vw;
+        }
+    }
+}
+
+
+// Layout Styling -------------------------------------------------------------
+.l-content {
+    @include l-content();
+
+    background-color: c(l-content, background-secondary);
+
+    p {
+        @include typography-measure();
+
+        margin-top: ms(1.5);
+    }
+
+    a {
+        @include content-underline($underline-background-color: c(l-content, background-secondary));
+    }
+}

@@ -1,0 +1,51 @@
+<!doctype html>
+<html itemscope itemtype="http://schema.org/Webpage" lang="en-US">
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="x-ua-compatible" content="ie=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>{{content.titles.accessibility}} | {{content.titles.home}}</title>
+{{>meta/description/description}}
+{{>meta/description/author}}
+
+{{>meta/styles/main}}
+{{>meta/icons-and-theming/icons-and-theming}}
+
+{{>meta/social-media/facebook}}
+{{>meta/social-media/twitter}}
+{{>meta/social-media/google-plus}}
+                                            <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet" />
+</head>
+<body itemscope itemtype="http://schema.org/ProfilePage">
+
+{{>components/c-skipnav/c-skipnav}}
+
+<!-- Start of Icon Sprite -->
+<div class="icon-sprite">
+{{>elements/icon-sprite}}
+</div>
+<!-- End of Icon Sprite -->
+
+{{>objects/o-browserupgrade/o-browserupgrade}}
+
+{{>components/c-breadcrumb/c-breadcrumb}}
+
+<main
+    id="section-main"
+    role="main"
+    aria-labelledby="title-accessibility">
+
+{{>layout/l-content/l-accessibility}}
+
+{{>layout/l-section/l-errata}}
+
+{{>meta/scripts/main}}
+{{>meta/scripts/plugins}}
+{{>meta/analytics/google-analytics}}
+
+</main>
+
+</body>
+</html>
