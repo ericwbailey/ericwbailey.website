@@ -54,49 +54,25 @@ $colors: (
     ),
 
 
-    // Headings ---------------------------------------------------------------
-    heading: (
-        base: #111111,
-        odd:  #9b9b9b,
-        even: #4a4a4a
-    ),
-
-
-    // Buttons ----------------------------------------------------------------
-    button: (
-        type:   #ffffff,
-        base:   #0074d9,
-        hover:  #7fdbff,
-        focus:  #ff851b,
-        active: #ff4136,
-        busy:   #dddddd
-    ),
-
-
-    // Forms ------------------------------------------------------------------
-    form: (
-        base:   #0074d9,
-        hover:  #7fdbff,
-        focus:  #ff851b,
-        active: #ff4136,
-        busy:   #dddddd
-    ),
-
-
     // Sections ---------------------------------------------------------------
+    l-content: (
+        background-secondary: #e8e8e8
+    ),
+
+
     l-section: (
-        header:     #48d7e7,
-        contact:    #ffffff,
-        errata:     #4a4a4a,
-        interests:  #f5ed52,
-        philosophy: #ff8764,
-        portfolio:  #4a4a4a,
-        projects:   #e8e8e8,
-        writing:    #69ddae
+        contact:       #ffffff,
+        errata:        #4a4a4a,
+        header:        #48d7e7,
+        interests:     #f5ed52,
+        philosophy:    #ff8764,
+        portfolio:     #4a4a4a,
+        projects:      #e8e8e8,
+        writing:       #69ddae
     ),
 
 
-    // Sections ---------------------------------------------------------------
+    // Components -------------------------------------------------------------
     skipnav: (
         background:  #111111,
         border:      #ffff00,
