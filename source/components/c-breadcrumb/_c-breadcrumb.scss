@@ -1,0 +1,23 @@
+// ============================================================================
+// Component
+// Breadcrumb
+// ============================================================================
+
+
+// Component Logic ------------------------------------------------------------
+
+
+// Component Styling ----------------------------------------------------------
+.c-breadcrumb {
+    margin: ms(0.25, rem) ms(1, rem);
+
+    &__link {
+        color: c(type, light);
+        font-size: em(16);
+        text-decoration: none;
+
+        &::before {
+            @include generate-unicode-symbol($symbol-keyboard-tab-backward);
+        }
+    }
+}
