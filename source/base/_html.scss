@@ -20,7 +20,7 @@ html {
     overflow-y: scroll; // [2]
     padding: 0;
 
-    background-color: c(background, light); // Set on `<html>` to keep the background color present if the browser bounces at a scrolling boundary
+    background-color: c(background, dark); // Set on `<html>` to keep the background color present if the browser bounces at a scrolling boundary
 
     color: c(type, dark);
     direction: $global-type-direction;
