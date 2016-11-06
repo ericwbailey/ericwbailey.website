@@ -12,7 +12,7 @@
     transition: animation-duration(shortest) padding animation-ease(background);
 
     @supports #{$supports-viewportunits} {
-        padding: 8vh 8vw 16vh 8vw;
+        padding: 8vh 8vw 24vh 8vw;
     }
 
     // Breakpoints
@@ -20,7 +20,7 @@
         padding: rem(120) rem(100);
 
         @supports #{$supports-viewportunits} {
-            padding: 14vh 12vw 42vh 12vw;
+            padding: 6vh 12vw 54vh 12vw;
         }
     }
 }
@@ -35,7 +35,7 @@
     p {
         @include typography-measure();
 
-        margin-top: ms(1.5);
+        margin-top: ms(1.25);
     }
 
     a {
