@@ -5,19 +5,75 @@
 
 
 // Component Logic ------------------------------------------------------------
+$c-breadcrumb-outline: em(4);
 
 
 // Component Styling ----------------------------------------------------------
 .c-breadcrumb {
-    margin: ms(0.25, rem) ms(1, rem);
+    padding: ms(0.5, em) ms(1, em);
+    position: fixed;
+      bottom: ms(0.5, rem);
+      right: ms(0.5, rem);
 
-    &__link {
-        color: c(type, light);
-        font-size: em(16);
-        text-decoration: none;
+    outline: $c-breadcrumb-outline solid c(l-content, background-secondary);
 
-        &::before {
-            @include generate-unicode-symbol($symbol-keyboard-tab-backward);
+    background-color: c(breadcrumb, background-base);
+
+    color: c(type, light);
+    font-size: em(16);
+    text-decoration: none;
+
+    transition:
+      //background-color animation-duration(short) animation-ease(background),
+      bottom 1s ease-in-out,
+      right 1s ease-in-out;
+
+    // States
+    &:active {
+        bottom: ms(0.45, rem);
+    }
+
+    &:hover {
+        background-color: c(breadcrumb, background-hover);
+
+        outline: $c-breadcrumb-outline solid c(l-content, background-secondary);
+
+        &:focus {
+            background-color: orange;
+
+            color: c(type, light);
+        }
+    }
+
+    &:focus {
+        background-color: c(yellow);
+
+        outline: $c-breadcrumb-outline solid c(type, dark);
+
+        color: c(type, dark);
+    }
+
+
+    // Breakpoints
+    @include mappy-bp(wrist-large) {
+        bottom: ms(1, rem);
+        right: ms(1, rem);
+
+        // States
+        &:active {
+            bottom: ms(0.97, rem);
+        }
+    }
+
+    @include mappy-bp(palm-medium) {
+        bottom: auto;
+        top: ms(2, rem);
+        transform: rotate(90deg);
+
+        // States
+        &:active {
+            bottom: auto;
+            top: ms(2.03, rem);
         }
     }
 }
