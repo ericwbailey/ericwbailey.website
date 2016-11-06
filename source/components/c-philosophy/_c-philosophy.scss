@@ -9,5 +9,7 @@
 
 // Component Styling ----------------------------------------------------------
 .c-philosophy {
+    max-width: 64ex;
+
     color: darken(c(type, dark), 5%);
 }
