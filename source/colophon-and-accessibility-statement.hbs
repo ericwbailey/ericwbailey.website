@@ -1,12 +1,12 @@
 <!doctype html>
-<html itemscope itemtype="http://schema.org/Webpage" lang="en-US">
+<html class="tk-abril-text" itemscope itemtype="http://schema.org/Webpage" lang="en-US">
 <head>
 
 <meta charset="utf-8" />
 <meta http-equiv="x-ua-compatible" content="ie=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<title>{{content.titles.accessibility}} | {{content.titles.home}}</title>
+<title>{{content.titles.colophon-accessibility}} | {{content.titles.home}}</title>
 {{>meta/description/description}}
 {{>meta/description/author}}
 
@@ -16,7 +16,11 @@
 {{>meta/social-media/facebook}}
 {{>meta/social-media/twitter}}
 {{>meta/social-media/google-plus}}
-                                            <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet" />
+                                            <!-- <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet" /> -->
+
+                                            <script src="https://use.typekit.net/wcc6tnm.js"></script>
+                                            <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
 </head>
 <body itemscope itemtype="http://schema.org/ProfilePage">
 
@@ -35,9 +39,9 @@
 <main
     id="section-main"
     role="main"
-    aria-labelledby="title-accessibility">
+    aria-labelledby="title-colophon-and-accessibility">
 
-{{>layout/l-content/l-accessibility}}
+{{>layout/l-content/l-colophon-and-accessibility-statement}}
 
 {{>layout/l-section/l-errata}}
 
