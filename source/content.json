@@ -1,6 +1,6 @@
 {
     "titles": {
-        "tagline": "Boston-based user experience designer.",
+        "tagline": "Boston-based user experience designer",
         "home": "Eric Bailey",
         "colophon-accessibility": "Colophon and Accessibility Statement"
     },
@@ -34,6 +34,6 @@
     },
     "portfolio": {
         "title": "Portfolio and client list",
-        "body": "If you&rsquo;d like to <a class='c-portfolio__link' href='mailto:email@address.com?subject=Portfolio'>view my portfolio<svg aria-hidden='true' viewBox='0 0 100 100' class='icon c-portfolio__icon'><use xlink:href='#icon-envelope'></use></svg></a> or a <a class='c-portfolio__link c-portfolio--punctuation' href='mailto:email@address.com?subject=Clients'>see a list of past&nbsp;clients<svg aria-hidden='true' viewBox='0 0 100 100' class='icon c-portfolio__icon'><use xlink:href='#icon-envelope'></use></svg></a>&#xfeff;&#xfeff;, please ask. Thanks!"
+        "body": "If you&rsquo;d like to view my portfolio or a see a list of past clients, <a class='c-portfolio__link' href='mailto:email@address.com?subject=Portfolio inquiry'>please&nbsp;ask<svg aria-hidden='true' viewBox='0 0 100 100' class='icon c-portfolio__icon'><use xlink:href='#icon-envelope'></use></svg></a>&#xfeff;. Thanks!"
     }
 }
