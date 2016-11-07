@@ -120,6 +120,10 @@ module.exports = {
             pngs: SOURCE_DIR + '/**/*-fullsize.png'
         }
     },
+    sitemap: {
+        source: DEPLOY_DIR + '/*.html',
+        dest: DEPLOY_DIR
+    },
     screenshots: {
         source: DEPLOY_DIR + '/*.html',
         dest: './screenshots/'

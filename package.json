@@ -50,6 +50,7 @@
     "gulp-plumber": "^1.1.0",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.2.0",
+    "gulp-sitemap": "^4.2.0",
     "gulp-sourcemaps": "^1.6.0",
     "gulp-stylefmt": "^1.0.0",
     "gulp-stylelint": "^3.2.0",

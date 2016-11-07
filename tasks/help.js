@@ -52,6 +52,7 @@ module.exports = {
         jpgs: '[Child Task] Generates JPG responsive images.',
         pngs: '[Child Task] Generates PNG responsive images.'
     },
+    sitemap: '[Parent Task] Generates a sitemap.',
     screenshots: '[Parent Task] Generates PNG screenshots of every page at different breakpoints.',
     scripts: {
         parent: '[Parent Task] Processes and copies scripts to `.build/`, `.test/`, and `docs/`.',
