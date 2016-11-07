@@ -10,7 +10,7 @@ $c-breadcrumb-outline: em(4);
 
 // Component Styling ----------------------------------------------------------
 .c-breadcrumb {
-    padding: ms(0.5, em) ms(1, em);
+    padding: ms(0.75, em) ms(1, em);
     position: fixed;
       bottom: ms(0.5, rem);
       right: ms(0.5, rem);
@@ -24,9 +24,9 @@ $c-breadcrumb-outline: em(4);
     text-decoration: none;
 
     transition:
-      //background-color animation-duration(short) animation-ease(background),
-      bottom 1s ease-in-out,
-      right 1s ease-in-out;
+      background-color animation-duration(short) animation-ease(background),
+      bottom animation-duration(shortest) animation-ease(background),
+      right animation-duration(shortest) animation-ease(background);
 
     // States
     &:active {
@@ -39,9 +39,13 @@ $c-breadcrumb-outline: em(4);
         outline: $c-breadcrumb-outline solid c(l-content, background-secondary);
 
         &:focus {
-            background-color: orange;
+            background-color: c(breadcrumb, background-hover);
 
             color: c(type, light);
+
+            outline: $c-breadcrumb-outline solid c(l-content, background-secondary);
+
+            transition: none;
         }
     }
 
@@ -51,6 +55,8 @@ $c-breadcrumb-outline: em(4);
         outline: $c-breadcrumb-outline solid c(type, dark);
 
         color: c(type, dark);
+
+        transition: none;
     }
 
 
@@ -66,14 +72,15 @@ $c-breadcrumb-outline: em(4);
     }
 
     @include mappy-bp(palm-medium) {
-        bottom: auto;
+        bottom: initial;
+        padding: ms(0.5, em) ms(1, em);
         top: ms(2, rem);
         transform: rotate(90deg);
 
         // States
         &:active {
-            bottom: auto;
-            top: ms(2.03, rem);
+            bottom: initial;
+            top: ms(2.04, rem);
         }
     }
 }
