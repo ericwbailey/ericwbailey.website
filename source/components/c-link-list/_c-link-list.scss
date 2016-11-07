@@ -153,7 +153,7 @@
 
         margin-left: rem(10);
         position: absolute;
-          bottom: rem(38);
+          bottom: rem(40);
 
         fill: c(l-section, contact);
 
@@ -161,7 +161,7 @@
         @include mappy-bp(palm-medium) {
             @include component-size(rem(28));
 
-            bottom: rem(39);
+            bottom: rem(41);
         }
     }
 
