@@ -122,7 +122,7 @@
     &__link {
         @include footer-content-underline();
 
-        margin-right: rem(8);
+        margin-right: rem(2);
 
         // States
         &:hover {
@@ -148,9 +148,5 @@
           top: em(2);
 
         fill: c(type, light);
-    }
-
-    &--punctuation {
-        margin-right: rem(2);
     }
 }
