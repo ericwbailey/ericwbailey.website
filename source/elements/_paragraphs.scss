@@ -3,24 +3,24 @@
 // ============================================================================
 
 
-p {
-
-}
-
-
-.paragraph-lede {
-    font-size: ms(1.1, em);
-}
+// p {
+//
+// }
 
 
-.paragraph-legal, // Use `<small>` for smaller sections of text. See `_text-level.scss`
-.paragraph-agate {
-    font-size: ms(0.6, em);
-}
+// .paragraph-lede {
+//     font-size: ms(1.1, em);
+// }
 
 
-.paragraph-agate {
-    @include typography-tracking(slight);
+// .paragraph-legal, // Use `<small>` for smaller sections of text. See `_text-level.scss`
+// .paragraph-agate {
+//     font-size: ms(0.6, em);
+// }
 
-    text-transform: uppercase;
-}
+
+// .paragraph-agate {
+//     @include typography-tracking(slight);
+//
+//     text-transform: uppercase;
+// }

@@ -4,21 +4,21 @@
 
 
 // Grouped Styles -------------------------------------------------------------
-b,
-strong {
-    font-weight: $font-weight-bold; // REVIEW: Make sure your font supports this weight
-}
+// b,
+// strong {
+//     font-weight: $font-weight-bold; // REVIEW: Make sure your font supports this weight
+// }
 
 
-em,
-i {
-    font-style: italic;
-
-    // Cites within italicized text
-    cite {
-        font-style: normal;
-    }
-}
+// em,
+// i {
+//     font-style: italic;
+//
+//     // Cites within italicized text
+//     cite {
+//         font-style: normal;
+//     }
+// }
 
 
 // Individual Styles ----------------------------------------------------------
@@ -34,87 +34,87 @@ abbr {
 }
 
 
-b {
-
-}
+// b {
+//
+// }
 
 
 // http://html5doctor.com/element-index/#bdi
-bdi {
-
-}
+// bdi {
+//
+// }
 
 
 // http://html5doctor.com/element-index/#bdo
-bdo {
-
-}
-
-
-cite {
-
-    // Cited cites
-    cite {
-        font-style: italic;
-    }
-}
+// bdo {
+//
+// }
 
 
-del {
-
-}
-
-
-dfn {
-    @include typography-tracking(slight);
-}
-
-
-em {
-
-}
+// cite {
+//
+//     // Cited cites
+//     cite {
+//         font-style: italic;
+//     }
+// }
 
 
-i {
-
-}
-
-
-ins {
-    border-bottom: 1px double;
-}
+// del {
+//
+// }
 
 
-mark {
-    padding: em(2);
+// dfn {
+//     @include typography-tracking(slight);
+// }
 
-    background-color: c(yellow);
 
-    color: c(type, dark);
-}
+// em {
+//
+// }
+
+
+// i {
+//
+// }
+
+
+// ins {
+//     border-bottom: 1px double;
+// }
+
+
+// mark {
+//     padding: em(2);
+//
+//     background-color: c(yellow);
+//
+//     color: c(type, dark);
+// }
 
 
 // http://html5doctor.com/element-index/#ruby
-ruby {
-
-}
+// ruby {
+//
+// }
 
 
 // http://html5doctor.com/element-index/#rp
-rp {
-
-}
+// rp {
+//
+// }
 
 
 // http://html5doctor.com/element-index/#rt
-rt {
+// rt {
+//
+// }
 
-}
 
-
-s {
-
-}
+// s {
+//
+// }
 
 
 small {
@@ -122,9 +122,9 @@ small {
 }
 
 
-strong {
-
-}
+// strong {
+//
+// }
 
 
 sub {
@@ -137,11 +137,16 @@ sup {
 }
 
 
-time {
-    @include typography-numbers-tabular-oldstyle();
-}
+// time {
+//     @include typography-numbers-tabular-oldstyle();
+// }
 
 
-u {
-    @include content-underline();
+// u {
+//     @include content-underline();
+// }
+
+
+.no-letter-break {
+    word-break: normal;
 }

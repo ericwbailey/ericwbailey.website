@@ -17,37 +17,37 @@ picture {
 
     // Fixed-size, non-fluid images if `height` and/or `width` attributes are
     // declared
-    &[height],
-    &[width] {
-        max-width: none;
-    }
+    // &[height],
+    // &[width] {
+    //     max-width: none;
+    // }
 }
 
 
-img,
-picture {
-    background-color: c(silver);
-}
+// img,
+// picture {
+//     background-color: c(silver);
+// }
 
 
 // Individual Styles ----------------------------------------------------------
-img {
-
-}
-
-
-figure {
-
-    img {
-        display: block;
-    }
-
-    figcaption {
-
-    }
-}
+// img {
+//
+// }
 
 
-picture {
+// figure {
+//
+//     img {
+//         display: block;
+//     }
+//
+//     figcaption {
+//
+//     }
+// }
 
-}
+
+// picture {
+//
+// }
