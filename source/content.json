@@ -1,8 +1,9 @@
 {
     "titles": {
-        "tagline": "Boston-based user experience designer",
         "home": "Eric Bailey",
-        "colophon-accessibility": "Colophon and Accessibility Statement"
+        "tagline": "Boston-based user experience designer",
+        "colophon": "Colophon",
+        "accessibility-statement": "Accessibility Statement"
     },
     "home": {
         "title": "Hi there!"
