@@ -33,6 +33,7 @@ gulp.task('build', help.default.build, function() {
         'responsify-images',
         'build-sprites',
         'build-images',
+        'build-sitemap',
         'browsersync-build'
     );
 });
@@ -49,6 +50,7 @@ gulp.task('test', help.default.test, function() {
         'test-scripts',
         'test-static',
         'test-images',
+        'test-sitemap',
         'browsersync-test'
     );
 });
@@ -64,7 +66,7 @@ gulp.task('deploy', help.default.deploy, function() {
         'deploy-scripts',
         'deploy-static',
         'deploy-images',
-        'sitemap',
+        'deploy-sitemap',
 //        'git',
         'document'
     );

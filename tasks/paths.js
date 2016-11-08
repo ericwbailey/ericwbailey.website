@@ -121,8 +121,18 @@ module.exports = {
         }
     },
     sitemap: {
-        source: DEPLOY_DIR + '/*.html',
-        dest: DEPLOY_DIR
+        build: {
+            source: BUILD_DIR + '/*.html',
+            dest: BUILD_DIR
+        },
+        test: {
+            source: BUILD_DIR + '/sitemap.xml',
+            dest: TEST_DIR
+        },
+        deploy: {
+            source: BUILD_DIR + '/sitemap.xml',
+            dest: DEPLOY_DIR
+        }
     },
     screenshots: {
         source: DEPLOY_DIR + '/*.html',
