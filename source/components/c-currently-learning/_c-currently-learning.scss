@@ -9,7 +9,7 @@
 
 // Component Styling ----------------------------------------------------------
 .c-currently-learning {
-    margin-top: ms(1);
+    margin-top: ms(2);
 
     &__link {
         @include content-underline($underline-background-color: c(l-section, interests));
