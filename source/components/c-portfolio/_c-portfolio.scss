@@ -117,6 +117,8 @@
 
 // Component Styling ----------------------------------------------------------
 .c-portfolio {
+    width: $global-type-measure - 27;
+
     color: c(type, light);
 
     &__link {
