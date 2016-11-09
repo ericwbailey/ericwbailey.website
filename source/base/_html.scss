@@ -24,7 +24,7 @@ html {
 
     color: c(type, dark);
     direction: $global-type-direction;
-    font-family: $global-type-family;
+    font-family: $font-family-primary-preload; // See Type Loading section below
     font-size: $global-type-size;
     font-weight: $global-type-weight;
     line-height: $global-type-line-height;
@@ -35,6 +35,28 @@ html {
         @include mappy-bp(lap-small) {
             @include typography-hyphenation(); // [4]
         }
+    }
+}
+
+
+// Type loading
+// https://helpx.adobe.com/typekit/using/font-events.html
+.wf {
+    &-loading {
+// color: lime !important;
+        // font-size: 110.5%;
+        letter-spacing: 0.01em;
+        line-height: $global-type-line-height + 0.025; //1.66625
+    }
+
+    &-inactive {
+        // color: teal !important;
+
+    }
+
+    &-active {
+// color: red !important;
+        font-family: $global-type-family;
     }
 }
 
