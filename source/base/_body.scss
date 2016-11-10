@@ -8,7 +8,7 @@ body {
 
     font-size: em(17);
 
-    transition: animation-duration(shortest) font-size animation-ease(background);
+    transition: font-size animation-duration(shorter) animation-ease(background);
 
     // Breakpoints
     @include mappy-bp(palm-medium) {
