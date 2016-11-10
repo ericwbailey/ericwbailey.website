@@ -39,6 +39,11 @@
     font-style: italic;
     line-height: 1.1;
 
+    // Contexts
+    .wf-loading & {
+        @include typography-tracking(tightest);
+    }
+
     // Breakpoints
     @include mappy-bp(palm-medium) {
         margin-top: ms(3, em);
