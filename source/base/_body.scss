@@ -10,11 +10,6 @@ body {
 
     transition: font-size animation-duration(shorter) animation-ease(background);
 
-    // States
-    .wf-loading & {
-        padding-top: em(4); // Keeps the padding from pushing the document down that would occur if declared on `html`. See `_html.scss` for line height.
-    }
-
     // Breakpoints
     @include mappy-bp(palm-medium) {
         font-size: calc(1em + 0.1vw);
