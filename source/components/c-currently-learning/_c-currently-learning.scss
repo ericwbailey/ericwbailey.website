@@ -18,4 +18,9 @@
     &[data-learning-status] {
         @include generate-message("(It’s going okay)");
     }
+
+    // Breakpoints
+    @include mappy-bp(palm-medium) {
+        margin-top: ms(1);
+    }
 }
