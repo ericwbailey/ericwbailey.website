@@ -53,6 +53,21 @@ $global-type-weight: $font-weight-normal !default;
 $global-type-measure: 68ex !default;
 
 
+// Underlines -----------------------------------------------------------------
+
+/// @group general
+/// @type  Function
+$global-underline-outline: #{em(1)} !default;
+
+/// @group general
+/// @type  Measurement
+$global-underline-baseline-distance: 0.1em !default;
+
+/// @group general
+/// @type  Measurement
+$global-underline-thickness: 0.15em !default;
+
+
 // Borders --------------------------------------------------------------------
 
 /// @group general
