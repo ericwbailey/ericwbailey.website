@@ -5,12 +5,12 @@
 
 
 // Component Logic ------------------------------------------------------------
-@mixin footer-content-underline(
+@mixin footer-underline(
     $footer-underline-background-color: c(background, dark),
     $footer-underline-color: c(type, light),
-    $footer-underline-outline: em(1),
-    $footer-underline-baseline-distance: 0.1em,
-    $footer-underline-thickness: 0.15em
+    $footer-underline-outline: $global-underline-outline,
+    $footer-underline-baseline-distance: $global-underline-baseline-distance,
+    $footer-underline-thickness: $global-underline-thickness
 ) {
     text-decoration: underline;
 
@@ -61,22 +61,22 @@
     }
 
     &:focus {
-        background-color: c(yellow);
-        outline: em(10) solid c(yellow);
+        background-color: c(link, light);
+        outline: em(10) solid c(link, light);
 
         color: c(type, dark);
 
         @supports #{$supports-boxshadow} {
             box-shadow:
-              inset 0 -#{$footer-underline-baseline-distance} c(yellow),
+              inset 0 -#{$footer-underline-baseline-distance} c(link, light),
               inset 0 -#{$footer-underline-thickness} c(type, dark);
 
             text-decoration: none;
             text-shadow:
-              -#{$footer-underline-outline} -#{$footer-underline-outline} c(yellow),
-              -#{$footer-underline-outline}  #{$footer-underline-outline} c(yellow),
-               #{$footer-underline-outline} -#{$footer-underline-outline} c(yellow),
-               #{$footer-underline-outline}  #{$footer-underline-outline} c(yellow);
+              -#{$footer-underline-outline} -#{$footer-underline-outline} c(link, light),
+              -#{$footer-underline-outline}  #{$footer-underline-outline} c(link, light),
+               #{$footer-underline-outline} -#{$footer-underline-outline} c(link, light),
+               #{$footer-underline-outline}  #{$footer-underline-outline} c(link, light);
         }
 
         &:hover {
@@ -84,8 +84,8 @@
 
             @supports #{$supports-boxshadow} {
                 box-shadow:
-                  inset 0 -#{$footer-underline-baseline-distance} c(yellow),
-                  inset 0 -#{$footer-underline-thickness} c(yellow);
+                  inset 0 -#{$footer-underline-baseline-distance} c(link, light),
+                  inset 0 -#{$footer-underline-thickness} c(link, light);
             }
         }
     }
@@ -117,12 +117,12 @@
 
 // Component Styling ----------------------------------------------------------
 .c-portfolio {
-    width: $global-type-measure - 28;
+    width: $global-type-measure - 26;
 
     color: c(type, light);
 
     &__link {
-        @include footer-content-underline();
+        @include footer-underline();
 
         margin-right: rem(2);
 
