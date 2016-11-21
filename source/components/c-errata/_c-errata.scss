@@ -11,15 +11,15 @@
     // States
     &:hover {
         box-shadow:
-          inset 0 -0.1em c(background, dark), // Sets baseline
-          inset 0 -0.15em currentColor; // Sets thickness proportional to baseline
+          inset 0 -#{$global-underline-baseline-distance} c(background, dark), // Sets baseline
+          inset 0 -#{$global-underline-thickness}         currentColor; // Sets thickness proportional to baseline
         display: inline;
 
         text-shadow:
-          em(-1) em(-1) c(background, dark), // Top lefthand corner
-          em(-1) em(1)  c(background, dark), // Bottom lefhand corner
-          em(1)  em(-1) c(background, dark), // Top righthand corner
-          em(1)  em(1)  c(background, dark); // Bottom righthand corner
+          -#{$global-underline-outline} -#{$global-underline-outline}  c(background, dark), // Top lefthand corner
+          -#{$global-underline-outline}  $global-underline-outline     c(background, dark), // Bottom lefhand corner
+           $global-underline-outline     -#{$global-underline-outline} c(background, dark), // Top righthand corner
+           $global-underline-outline      $global-underline-outline    c(background, dark); // Bottom righthand corner
     }
 
     &:active {
@@ -36,29 +36,29 @@
 
         &:hover {
             box-shadow:
-              inset 0 -0.1em c(background, light), // Sets baseline
-              inset 0 -0.15em currentColor; // Sets thickness proportional to baseline
+              inset 0 -#{$global-underline-baseline-distance} c(background, light), // Sets baseline
+              inset 0 -#{$global-underline-thickness}         currentColor; // Sets thickness proportional to baseline
 
             text-shadow:
-              em(-1) em(-1) c(background, light), // Top lefthand corner
-              em(-1) em(1)  c(background, light), // Bottom lefhand corner
-              em(1)  em(-1) c(background, light), // Top righthand corner
-              em(1)  em(1)  c(background, light); // Bottom righthand corner
+              -#{$global-underline-outline} -#{$global-underline-outline} c(background, light), // Top lefthand corner
+              -#{$global-underline-outline}  $global-underline-outline    c(background, light), // Bottom lefhand corner
+               $global-underline-outline    -#{$global-underline-outline} c(background, light), // Top righthand corner
+               $global-underline-outline     $global-underline-outline    c(background, light); // Bottom righthand corner
 
             &:active {
                 box-shadow:
-                  inset 0 -0.1em c(background, dark), // Sets baseline
-                  inset 0 -0.15em currentColor; // Sets thickness proportional to baseline
+                  inset 0 -#{$global-underline-baseline-distance} c(background, dark), // Sets baseline
+                  inset 0 -#{$global-underline-thickness}         currentColor; // Sets thickness proportional to baseline
                 outline: none;
 
                 background-color: c(background, dark);
 
                 color: c(type, light);
                 text-shadow:
-                  em(-1) em(-1) c(background, dark), // Top lefthand corner
-                  em(-1) em(1)  c(background, dark), // Bottom lefhand corner
-                  em(1)  em(-1) c(background, dark), // Top righthand corner
-                  em(1)  em(1)  c(background, dark); // Bottom righthand corner
+                  -#{$global-underline-outline} -#{$global-underline-outline} c(background, dark), // Top lefthand corner
+                  -#{$global-underline-outline}  $global-underline-outline    c(background, dark), // Bottom lefhand corner
+                   $global-underline-outline    -#{$global-underline-outline} c(background, dark), // Top righthand corner
+                   $global-underline-outline     $global-underline-outline    c(background, dark); // Bottom righthand corner
             }
         }
     }
