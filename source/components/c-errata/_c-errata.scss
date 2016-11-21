@@ -5,7 +5,64 @@
 
 
 // Component Logic ------------------------------------------------------------
+@mixin errata-underline() {
+    text-decoration: none;
 
+    // States
+    &:hover {
+        box-shadow:
+          inset 0 -0.1em c(background, dark), // Sets baseline
+          inset 0 -0.15em currentColor; // Sets thickness proportional to baseline
+        display: inline;
+
+        text-shadow:
+          em(-1) em(-1) c(background, dark), // Top lefthand corner
+          em(-1) em(1)  c(background, dark), // Bottom lefhand corner
+          em(1)  em(-1) c(background, dark), // Top righthand corner
+          em(1)  em(1)  c(background, dark); // Bottom righthand corner
+    }
+
+    &:active {
+        @include content-shift-click();
+
+        box-shadow: none;
+    }
+
+    &:focus {
+        background-color: c(link, light);
+        outline: em(10) solid c(link, light);
+
+        color: c(link, dark);
+
+        &:hover {
+            box-shadow:
+              inset 0 -0.1em c(background, light), // Sets baseline
+              inset 0 -0.15em currentColor; // Sets thickness proportional to baseline
+
+            text-shadow:
+              em(-1) em(-1) c(background, light), // Top lefthand corner
+              em(-1) em(1)  c(background, light), // Bottom lefhand corner
+              em(1)  em(-1) c(background, light), // Top righthand corner
+              em(1)  em(1)  c(background, light); // Bottom righthand corner
+
+            &:active {
+                box-shadow:
+                  inset 0 -0.1em c(background, dark), // Sets baseline
+                  inset 0 -0.15em currentColor; // Sets thickness proportional to baseline
+                outline: none;
+
+                background-color: c(background, dark);
+
+                color: c(type, light);
+                text-shadow:
+                  em(-1) em(-1) c(background, dark), // Top lefthand corner
+                  em(-1) em(1)  c(background, dark), // Bottom lefhand corner
+                  em(1)  em(-1) c(background, dark), // Top righthand corner
+                  em(1)  em(1)  c(background, dark); // Bottom righthand corner
+            }
+        }
+    }
+}
 
 
 // Component Styling ----------------------------------------------------------
@@ -30,26 +87,6 @@
     }
 
     &__link {
-        text-decoration: none;
-
-        &:active {
-            @include content-shift-click();
-
-            &:focus {
-                outline: 0;
-
-                background-color: transparent;
-
-                color: c(type, light);
-            }
-        }
-
-        &:focus {
-            outline: em(4) solid c(yellow);
-
-            background-color: c(yellow);
-
-            color: c(type, dark);
-        }
+        @include errata-underline();
     }
 }
