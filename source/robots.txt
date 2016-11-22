@@ -1,9 +1,6 @@
 # www.robotstxt.org
 # https://developers.google.com/webmasters/control-crawl-index/
-# We are the robots
-# We're functioning automatic
-# And we are dancing mechanic
-
+# 01011001 01001111 01010101 00100000 01000011 01000001 01001110 00100111 01010100 00100000 01000110 01001111 01001111 01001100 00100000 01001101 01000101 00101100 00100000 01010010 01001111 01000010 01001111 01010100
 
 # Allow crawling of all content
 User-agent: *
