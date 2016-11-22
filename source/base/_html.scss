@@ -45,7 +45,7 @@ html {
     &-loading {
 //        margin-top: em(4); // Keeps the padding from pushing the document down that would occur if declared on `html`. See `_html.scss` for line height.
 
-        line-height: $global-type-line-height + 0.025; // See `_body.scss` for padding.
+        line-height: $global-type-line-height + 0.025;
     }
 
     &-active {
