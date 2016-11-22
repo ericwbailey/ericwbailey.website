@@ -17,6 +17,7 @@
 
         transition: opacity animation-duration(short) animation-ease(dialogue);
 
+        // States
         &:hover,
         &:focus,
         &:active {
