@@ -36,8 +36,7 @@
 
 // Config and Toggles ---------------------------------------------------------
 // Use these partials to set global variables and generate functional classes
-// from Sass mixins. Tracking is declared here to take advantage of the
-// global-type-size variable
+// from Sass mixins.
 @import
     "config",
     "toggles";
