@@ -37,8 +37,8 @@ area,
 // Text-level
 a, em, strong, i, b, u, s, small, abbr, q, cite, dfn, sub, sup,
 time, code, kbd, samp, var, mark, bdi, bdo, ruby, rt, rp, span, br, wbr {
-    @include component-remove-margin-padding();
-
+    margin: 0;
+    padding: 0;
     vertical-align: baseline;
 
     border: 0;
@@ -103,11 +103,12 @@ ol {
 
     li {
         &::before {
-            @include typography-align(end);
-
             display: inline-block;
             margin-right: ms(0.5, em);
             width: 1em;
+
+            text-align: left;
+            text-align: end;
 
             content: counter(default-ordered-list);
 	        counter-increment: default-ordered-list;
