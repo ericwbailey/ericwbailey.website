@@ -155,7 +155,7 @@
         position: absolute;
           bottom: rem(40);
 
-        fill: c(l-section, contact);
+        fill: transparent;
 
         // Breakpoints
         @include mappy-bp(palm-medium) {
