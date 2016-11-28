@@ -24,7 +24,7 @@
     cursor: default;
 
     &__icon {
-        @include component-size(rem(14));
+        @include component-size(rem(14), rem(14));
 
         margin-right: rem(4);
         position: relative;
