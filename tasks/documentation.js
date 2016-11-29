@@ -2,12 +2,12 @@
 // Task
 // Documentation
 // ============================================================================
-var gulp    = require('gulp-help')(require('gulp')), // http://gulpjs.com/
-    help    = require('./help.js'),
-    paths   = require('./paths.js'),                 // https://www.npmjs.com/package/gulp-changed
-    changed = require('gulp-changed'),               // https://www.npmjs.com/package/gulp-changed
-    runSequence = require('run-sequence'),           // http://gulpjs.com/
-    sassdoc = require('sassdoc'),                    // http://sassdoc.com/
+var gulp        = require('gulp-help')(require('gulp')), // http://gulpjs.com/
+    help        = require('./help.js'),
+    paths       = require('./paths.js'),
+    changed     = require('gulp-changed'),               // https://www.npmjs.com/package/gulp-changed
+    runSequence = require('run-sequence'),               // https://www.npmjs.com/package/run-sequence
+    sassdoc     = require('sassdoc'),                    // http://sassdoc.com/
 
     optionsSassdoc = {
         dest: paths.documentation.sassdoc.dest,

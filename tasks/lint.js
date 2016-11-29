@@ -7,9 +7,9 @@ var gulp        = require('gulp-help')(require('gulp')), // http://gulpjs.com/
     paths       = require('./paths.js'),
     htmlhint    = require("gulp-htmlhint"),              // https://www.npmjs.com/package/gulp-htmlhint
     jshint      = require('gulp-jshint'),                // https://www.npmjs.com/package/gulp-jshint
-    runSequence = require('run-sequence'),               // http://gulpjs.com/
+    runSequence = require('run-sequence'),               // https://www.npmjs.com/package/run-sequence
     stylelint   = require('gulp-stylelint'),             // https://www.npmjs.com/package/gulp-stylelint
-    stylish     = require('jshint-stylish');             // http://gulpjs.com/
+    stylish     = require('jshint-stylish');             // https://www.npmjs.com/package/jshint-stylish
 
 
 // Tasks ----------------------------------------------------------------------

@@ -6,7 +6,7 @@ var gulp        = require('gulp-help')(require('gulp')), // http://gulpjs.com/
     help        = require('./help.js'),
     paths       = require('./paths.js'),
     rename      = require("gulp-rename"),                // https://www.npmjs.com/package/gulp-rename
-    runSequence = require('run-sequence');               // http://gulpjs.com/
+    runSequence = require('run-sequence');               // https://www.npmjs.com/package/run-sequence
 
 
 // Tasks ----------------------------------------------------------------------
