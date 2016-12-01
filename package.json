@@ -27,6 +27,7 @@
   "devDependencies": {
     "accessible-html-content-patterns": "^0.1.0",
     "browser-sync": "^2.12.3",
+    "critical": "^0.8.0",
     "del": "^2.2.0",
     "family.scss": "^1.0.8",
     "gulp": "^3.9.1",
@@ -101,6 +102,8 @@
     "clean-deploy-styles": "gulp clean-deploy-styles",
     "clean-screenshots": "gulp clean-screenshots",
     "browsersync-build": "gulp browsersync-build",
-    "browsersync-test": "gulp browsersync-test"
+    "browsersync-test": "gulp browsersync-test",
+    "critical": "gulp critical",
+    "critical-path": "gulp critical-path"
   }
 }

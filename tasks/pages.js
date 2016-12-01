@@ -7,6 +7,7 @@ var gulp          = require('gulp-help')(require('gulp')), // http://gulpjs.com/
     paths         = require('./paths.js'),
     reportError   = require('./report-error.js'),
     changed       = require('gulp-changed'),               // https://www.npmjs.com/package/gulp-changed
+    critical      = require('critical'),                   // https://github.com/addyosmani/critical
     entityconvert = require('gulp-entity-convert'),        // https://www.npmjs.com/package/gulp-entity-convert
     hb            = require('gulp-hb'),                    // https://www.npmjs.com/package/gulp-hb
     htmlmin       = require('gulp-html-minifier'),         // https://www.npmjs.com/package/gulp-html-minifier
@@ -39,11 +40,28 @@ gulp.task('build-pages', help.pages.build, function() {
 // Test
 gulp.task('test-pages', help.pages.test, function() {
     return gulp.src(paths.pages.test.source)
+        // https://github.com/addyosmani/critical#gulp
+        // Inline style minification handled by htmlmin
+        .pipe(critical.stream({
+            inline: true,
+            base: paths.pages.build,
+            width: 720,
+            height: 3646,
+            ignore: [
+                '@font-face',
+                '@supports', // TODO: Remember to add supports to component mixins
+                /url\(/,
+                'abbr',
+                'abbr[title]',
+                '::-webkit-input-placeholder',
+                '::-webkit-file-upload-button'
+            ],
+        }))
         .pipe(htmlmin({
             collapseBooleanAttributes: true,
-            collapseInlineTagWhitespace: true,
             collapseWhitespace: true,
             keepClosingSlash: true,
+            minifyJS: true,
             processConditionalComments: true,
             removeComments: true,
             removeRedundantAttributes: true,
