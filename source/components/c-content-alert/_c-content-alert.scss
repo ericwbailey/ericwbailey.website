@@ -10,6 +10,7 @@
 
 // Component Styling ----------------------------------------------------------
 .c-content-alert {
+    @include component-set-type-size();
     @include typography-tracking(tight);
 
     margin-left: rem(4);

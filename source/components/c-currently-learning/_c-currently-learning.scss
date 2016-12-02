@@ -9,6 +9,8 @@
 
 // Component Styling ----------------------------------------------------------
 .c-currently-learning {
+    @include component-set-type-size();
+
     margin-top: ms(2);
 
     &__link {

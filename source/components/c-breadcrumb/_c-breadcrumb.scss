@@ -10,6 +10,8 @@ $c-breadcrumb-outline: em(4);
 
 // Component Styling ----------------------------------------------------------
 .c-breadcrumb {
+    @include component-set-type-size();
+
     padding: ms(0.75, em) ms(1, em);
     position: fixed;
       bottom: ms(0.5, rem);
@@ -58,7 +60,6 @@ $c-breadcrumb-outline: em(4);
 
         transition: none;
     }
-
 
     // Breakpoints
     @include mappy-bp(wrist-large) {

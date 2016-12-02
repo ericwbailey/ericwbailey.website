@@ -9,6 +9,8 @@
 
 // Component Styling ----------------------------------------------------------
 .c-philosophy {
+    @include component-set-type-size();
+
     max-width: 64ex;
 
     color: darken(c(type, dark), 5%);

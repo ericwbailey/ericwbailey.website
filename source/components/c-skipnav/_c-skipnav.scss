@@ -10,6 +10,8 @@
 
 // Component Styling ----------------------------------------------------------
 .c-skipnav {
+    @include component-set-type-size();
+
     &__link {
         @include content-hide(visually);
 

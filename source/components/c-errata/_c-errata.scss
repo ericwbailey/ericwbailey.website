@@ -67,6 +67,8 @@
 
 // Component Styling ----------------------------------------------------------
 .c-errata {
+    @include component-set-type-size();
+
     margin-top: 0;
 
     color: c(type, light);
