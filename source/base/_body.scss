@@ -8,11 +8,21 @@ body {
 
     font-size: em(17);
 
-    transition: font-size animation-duration(shorter) animation-ease(background);
+    opacity: 1; // For when `.is-faded` is removed
+
+    transition:
+      opacity animation-duration(long),
+      font-size animation-duration(shorter) animation-ease(background);
 
     // Breakpoints
     @include mappy-bp(palm-medium) {
         font-size: calc(1em + 0.1vw);
+    }
+
+    // States
+    &.is-faded {
+        opacity: 0;
+        transition: none;
     }
 }
 
