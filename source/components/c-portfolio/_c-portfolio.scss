@@ -117,8 +117,6 @@
 
 // Component Styling ----------------------------------------------------------
 .c-portfolio {
-    @include component-set-type-size();
-
     width: $global-type-measure - 26;
 
     color: c(type, light);

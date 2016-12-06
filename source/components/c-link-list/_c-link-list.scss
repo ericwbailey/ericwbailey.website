@@ -57,8 +57,6 @@
 
 // Component Styling ----------------------------------------------------------
 .c-link-list {
-    @include component-set-type-size();
-
     margin-top: ms(2);
 
     // Breakpoints
