@@ -38,7 +38,7 @@
 
 // Layout Styling -------------------------------------------------------------
 .l-section {
-    &__header,
+    &__about,
     &__contact,
     &__errata,
     &__interests,
@@ -67,11 +67,11 @@
         }
     }
 
-    &__header {
-        background-color: c(l-section, header);
+    &__about {
+        background-color: c(l-section, about);
 
         a {
-            @include content-underline($underline-background-color: c(l-section, header));
+            @include content-underline($underline-background-color: c(l-section, about));
         }
     }
 
