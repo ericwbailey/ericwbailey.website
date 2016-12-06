@@ -10,6 +10,6 @@
 // Component Styling ----------------------------------------------------------
 .c-about {
     &__link {
-
+        @include content-underline($underline-background-color: c(l-section, about));
     }
 }

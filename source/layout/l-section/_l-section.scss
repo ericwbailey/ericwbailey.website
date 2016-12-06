@@ -69,10 +69,6 @@
 
     &__about {
         background-color: c(l-section, about);
-
-        a {
-            @include content-underline($underline-background-color: c(l-section, about));
-        }
     }
 
     &__interests {
