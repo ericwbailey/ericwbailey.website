@@ -176,6 +176,10 @@ module.exports = {
         }
     },
     vendor: {
+        a11ydialog: {
+            source: VENDOR_DIR + 'a11y-dialog/a11y-dialog.min.js',
+            dest: SOURCE_DIR + '/vendor/a11y-dialog/'
+        }
         jquery: {
             source: VENDOR_DIR + '/jquery/dist/jquery.min.js',
             dest: SOURCE_DIR + '/vendor/jquery/'
