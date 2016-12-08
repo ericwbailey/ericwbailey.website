@@ -180,13 +180,5 @@ module.exports = {
             source: VENDOR_DIR + 'a11y-dialog/a11y-dialog.min.js',
             dest: SOURCE_DIR + '/vendor/a11y-dialog/'
         }
-        jquery: {
-            source: VENDOR_DIR + '/jquery/dist/jquery.min.js',
-            dest: SOURCE_DIR + '/vendor/jquery/'
-        },
-        accessiblehtml: {
-            source: VENDOR_DIR + '/accessible-html-content-patterns/docs/index.html',
-            dest: SOURCE_DIR
-        }
     }
 };
