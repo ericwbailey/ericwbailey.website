@@ -177,7 +177,7 @@ module.exports = {
     },
     vendor: {
         a11ydialog: {
-            source: VENDOR_DIR + 'a11y-dialog/a11y-dialog.min.js',
+            source: VENDOR_DIR + '/a11y-dialog/a11y-dialog.min.js',
             dest: SOURCE_DIR + '/vendor/a11y-dialog/'
         }
     }
