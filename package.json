@@ -25,6 +25,7 @@
     "design"
   ],
   "devDependencies": {
+    "a11y-dialog": "^2.5.5",
     "accessible-html-content-patterns": "^0.1.0",
     "browser-sync": "^2.12.3",
     "critical": "^0.8.0",
