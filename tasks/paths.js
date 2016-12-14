@@ -139,6 +139,9 @@ module.exports = {
         dest: './screenshots/'
     },
     scripts: {
+        vendor: {
+            a11ydialog: VENDOR_DIR + '/a11y-dialog/a11y-dialog.min.js'
+        },
         source: SOURCE_DIR + '/**/*.js',
         watch: SOURCE_DIR + '/**/*.js',
         build: BUILD_DIR,
@@ -173,12 +176,6 @@ module.exports = {
         deploy: {
             source: TEST_DIR + '/main.css',
             dest: DEPLOY_DIR
-        }
-    },
-    vendor: {
-        a11ydialog: {
-            source: VENDOR_DIR + '/a11y-dialog/a11y-dialog.min.js',
-            dest: SOURCE_DIR + '/vendor/a11y-dialog/'
         }
     }
 };
