@@ -3,7 +3,7 @@ const BUILD_DIR = './.build';
 const TEST_DIR = './.test';
 const DEPLOY_DIR = './docs';
 const DOCUMENTATION_DIR = './documentation';
-const VENDOR_DIR = 'node_modules';
+const VENDOR_DIR = './node_modules';
 
 
 module.exports = {
