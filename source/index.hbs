@@ -57,6 +57,19 @@
 {{>layout/l-section/l-portfolio-and-client-list}}
 {{>layout/l-section/l-errata}}
 
+
+<div id="my-accessible-dialog" aria-hidden="true">
+    <div tabindex="-1" data-a11y-dialog-hide></div>
+    <div role="dialog" aria-labelledby="dialog-title">
+        <div role="document">
+            <h1 id="dialog-title" tabindex="0">Dialog Title</h1>
+            <button type="button" data-a11y-dialog-hide aria-label="Close this dialog window">
+                &times; Close
+            </button>
+        </div>
+    </div>
+</div>
+
 {{>meta/scripts/fade.out}}
 {{>meta/scripts/main}}
 {{>meta/analytics/google-analytics}}
