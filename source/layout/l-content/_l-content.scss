@@ -38,7 +38,10 @@
         margin-top: ms(1.25);
     }
 
-    a {
+    a,
+    button[data-message-subject] {
         @include content-underline($underline-background-color: c(l-content, background-secondary));
+
+        cursor: pointer; // Consistent cursor behavior when turned into a button
     }
 }

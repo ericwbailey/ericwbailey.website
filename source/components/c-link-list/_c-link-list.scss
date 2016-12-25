@@ -166,6 +166,8 @@
     }
 
     &__link {
+        cursor: pointer; // Consistent cursor behavior when turned into a button
+
         // States
         &:hover {
             + .c-link-list__coffee {

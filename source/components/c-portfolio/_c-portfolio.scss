@@ -126,6 +126,8 @@
 
         margin-right: rem(2);
 
+        cursor: pointer; // Consistent cursor behavior when turned into a button
+
         // States
         &:hover {
             &:focus {
