@@ -22,6 +22,7 @@
 /// @link https://css-tricks.com/styling-underlines-web/ CSS-Tricks: Styling Underlines on the Web
 
 
+// [1] Removes button formatting for mailto to button JavaScript
 @mixin content-underline(
     $underline-background-color: c(background, light),
     $underline-color: currentColor,
@@ -29,7 +30,12 @@
     $underline-baseline-distance: $global-underline-baseline-distance, // Set to 0.05 less than `$underline-thickness`
     $underline-thickness: $global-underline-thickness
 ) {
+    background-color: $underline-background-color; // [1]
+
+    color: currentColor; // [1]
     text-decoration: underline;
+
+    cursor: pointer; // Consistent cursor behavior when turned into a button
 
     @supports #{$supports-boxshadow} {
         box-shadow:

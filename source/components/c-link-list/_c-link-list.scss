@@ -166,8 +166,6 @@
     }
 
     &__link {
-        cursor: pointer; // Consistent cursor behavior when turned into a button
-
         // States
         &:hover {
             + .c-link-list__coffee {
@@ -178,6 +176,17 @@
                 animation-fill-mode: both;
                 animation-iteration-count: 1;
                 animation-name: bounce-in;
+            }
+        }
+
+        &.is-contact-button {
+            height: em(31);
+        }
+
+        // Breakpoints
+        @include mappy-bp(palm-medium) {
+            &.is-contact-button {
+                height: em(30);
             }
         }
 

@@ -41,7 +41,9 @@
     a,
     button[data-message-subject] {
         @include content-underline($underline-background-color: c(l-content, background-secondary));
+    }
 
-        cursor: pointer; // Consistent cursor behavior when turned into a button
+    .is-contact-button {
+        height: em(31);
     }
 }

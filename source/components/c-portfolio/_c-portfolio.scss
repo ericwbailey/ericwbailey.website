@@ -5,6 +5,7 @@
 
 
 // Component Logic ------------------------------------------------------------
+// [1] Removes button formatting for mailto to button JavaScript
 @mixin footer-underline(
     $footer-underline-background-color: c(background, dark),
     $footer-underline-color: c(type, light),
@@ -12,7 +13,12 @@
     $footer-underline-baseline-distance: $global-underline-baseline-distance,
     $footer-underline-thickness: $global-underline-thickness
 ) {
+    background-color: $footer-underline-background-color; // [1]
+
+    color: currentColor; // [1]
     text-decoration: underline;
+
+    cursor: pointer; // Consistent cursor behavior when turned into a button
 
     @supports #{$supports-boxshadow} {
         box-shadow:
@@ -126,8 +132,6 @@
 
         margin-right: rem(2);
 
-        cursor: pointer; // Consistent cursor behavior when turned into a button
-
         // States
         &:hover {
             &:focus {
@@ -140,6 +144,17 @@
         &:focus {
             > .c-portfolio__icon {
                 fill: c(type, dark);
+            }
+        }
+
+        &.is-contact-button {
+            height: em(31);
+        }
+
+        // Breakpoints
+        @include mappy-bp(palm-medium) {
+            &.is-contact-button {
+                height: em(31);
             }
         }
     }
