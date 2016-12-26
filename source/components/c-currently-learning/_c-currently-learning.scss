@@ -20,7 +20,7 @@
     }
 
     // Breakpoints
-    @include mappy-bp(palm-medium) {
+    @include mappy-bp(lap-small) {
         margin-top: ms(1);
     }
 }
