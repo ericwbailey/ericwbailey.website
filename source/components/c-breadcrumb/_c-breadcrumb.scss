@@ -17,7 +17,7 @@ $c-breadcrumb-outline: em(4);
 
     outline: $c-breadcrumb-outline solid c(l-content, background-secondary);
 
-    background-color: c(breadcrumb, background-base);
+    background-color: c(c-breadcrumb, background-base);
 
     color: c(type, light);
     font-size: em(16);
@@ -34,12 +34,12 @@ $c-breadcrumb-outline: em(4);
     }
 
     &:hover {
-        background-color: c(breadcrumb, background-hover);
+        background-color: c(c-breadcrumb, background-hover);
 
         outline: $c-breadcrumb-outline solid c(l-content, background-secondary);
 
         &:focus {
-            background-color: c(breadcrumb, background-hover);
+            background-color: c(c-breadcrumb, background-hover);
 
             color: c(type, light);
 

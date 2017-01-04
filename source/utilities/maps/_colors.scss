@@ -54,9 +54,30 @@ $colors: (
     ),
 
 
+    // Buttons ----------------------------------------------------------------
+    button: (
+        background-base: #e8e8e8,
+        background-active: #4a4a4a,
+        text-base: #4a4a4a,
+        text-active: #ffffff
+    ),
+
+
+    // Inputs -----------------------------------------------------------------
+    input: (
+        border-base: #e8e8e8,
+        border-active: #4a4a4a
+    ),
+
+
     // Sections ---------------------------------------------------------------
     l-content: (
         background-secondary: #e8e8e8
+    ),
+
+
+    l-dialog: (
+        background: #ffffff
     ),
 
 
@@ -73,13 +94,13 @@ $colors: (
 
 
     // Components -------------------------------------------------------------
-    breadcrumb: (
+    c-breadcrumb: (
         background-base:  #4a4a4a,
         background-hover: #111111
     ),
 
 
-    skipnav: (
+    c-skipnav: (
         background:  #111111,
         border:      #ffff00,
         shadow:      #111111,

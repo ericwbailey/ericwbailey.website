@@ -31,13 +31,13 @@
             width: 84.375vw;
             z-index: z(ceiling);
 
-            border: 1.5vw solid c(skipnav, border);
+            border: 1.5vw solid c(c-skipnav, border);
             outline: none;
 
-            background-color: c(skipnav, background);
-            box-shadow: shadow(large) c(skipnav, shadow);
+            background-color: c(c-skipnav, background);
+            box-shadow: shadow(large) c(c-skipnav, shadow);
 
-            color: c(skipnav, link-base);
+            color: c(c-skipnav, link-base);
             font-size: calc(1em + 2vw);
             line-height: 1;
             text-decoration: none;
@@ -46,11 +46,11 @@
         }
 
         &:hover {
-            color: c(skipnav, link-hover);
+            color: c(c-skipnav, link-hover);
         }
 
         &:active {
-            color: c(skipnav, link-active);
+            color: c(c-skipnav, link-active);
         }
     }
 }
