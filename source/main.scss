@@ -133,7 +133,9 @@
     "utilities/mixins/typography.numbers-proportional-lining", // [1]
     "utilities/mixins/typography.numbers-proportional-oldstyle", // [1]
     "utilities/mixins/typography.numbers-tabular-lining", // [1]
-    "utilities/mixins/typography.numbers-tabular-oldstyle"; // [1]
+    "utilities/mixins/typography.numbers-tabular-oldstyle",
+
+    "utilities/mixins/component.button"; // [1]
 
 
 // Vendor ---------------------------------------------------------------------
@@ -195,6 +197,7 @@
 
 // Layout ---------------------------------------------------------------------
 @import
+    "layout/l-dialog/l-dialog",
     "layout/l-layout/l-layout",
     "layout/l-section/l-section",
     "layout/l-content/l-content";
@@ -212,10 +215,12 @@
     "components/c-breadcrumb/c-breadcrumb",
     "components/c-content-alert/c-content-alert",
     "components/c-currently-learning/c-currently-learning",
+    "components/c-dialog/c-dialog",
     "components/c-errata/c-errata",
     "components/c-link-list/c-link-list",
     "components/c-philosophy/c-philosophy",
     "components/c-portfolio/c-portfolio",
+    "components/c-services/c-services",
     "components/c-skipnav/c-skipnav";
 
 

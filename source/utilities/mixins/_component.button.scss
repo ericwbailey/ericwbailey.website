@@ -1,0 +1,28 @@
+// ============================================================================
+// Component
+// Button
+// ============================================================================
+
+
+/// Specifies uniform button treatment.
+///
+/// @group Components
+///
+/// @example scss
+///  @include component-button();
+
+
+@mixin component-button() {
+    @include content-show-interaction(input);
+    @include typography-tracking(slight);
+
+    border-radius: $global-border-radius;
+    outline: none;
+
+    transition: background-color animation-duration(shortest) animation-ease(dialogue);
+
+    &:focus,
+    &:active {
+        transition: none;
+    }
+}
