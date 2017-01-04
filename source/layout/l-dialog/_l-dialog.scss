@@ -1,0 +1,48 @@
+// ============================================================================
+// Layout
+// Dialog
+// ============================================================================
+
+
+// Component Logic ------------------------------------------------------------
+
+
+
+// Component Styling ----------------------------------------------------------
+.l-dialog {
+box-shadow: shadow(large) c(c-skipnav, shadow);
+
+    padding: rem(12) rem(40) rem(25) rem(40);
+    position: fixed;;
+      bottom: 0;
+    width: 100%;
+    z-index: z(ceiling);
+
+    background-color: c(l-dialog, background);
+
+    @supports #{$supports-viewportunits} {
+        padding: 2vh 8vw 4vh 8vw;
+    }
+
+    // States
+    &[aria-hidden="true"] {
+        @include content-hide(remove);
+    }
+
+    // Breakpoints
+    @include mappy-bp(palm-medium) {
+        padding: rem(30) rem(100) rem(60) rem(100);
+
+        @supports #{$supports-viewportunits} {
+            padding: 3.5vh 12vw 7vh 12vw;
+        }
+    }
+
+    &__email-address {
+// background-color: pink;
+    }
+
+    &__email-services {
+// background-color: orange;
+    }
+}
