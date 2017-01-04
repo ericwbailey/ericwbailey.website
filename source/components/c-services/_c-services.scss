@@ -1,0 +1,55 @@
+// ============================================================================
+// Component
+// Services
+// ============================================================================
+
+
+// Component Logic ------------------------------------------------------------
+$service-icon-size: ms(1.25, rem);
+
+
+// Component Styling ----------------------------------------------------------
+.c-services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+
+    &__service {
+        height: $service-icon-size;
+        flex-basis: 45%;
+        margin: ms(0.25, em);
+
+        transition: background-color animation-duration(shortest) animation-ease(dialogue);
+
+        // States
+        &:hover {
+            .c-services__link {
+                background-color: #dddddd;
+            }
+        }
+    }
+
+    &__link {
+        @include typography-tracking(slight);
+
+        align-items: center;
+        display: flex;
+
+        outline: none;
+
+        color: c(type, dark);
+        font-size: 95%;
+        text-decoration: none;
+    }
+
+    &__icon {
+        @include component-size($service-icon-size, $service-icon-size);
+
+        margin-right: em(6);
+        margin-left: em(8);
+        padding: em(6);
+
+        fill: c(type, dark);
+    }
+}
