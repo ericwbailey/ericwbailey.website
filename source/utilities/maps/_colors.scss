@@ -56,16 +56,16 @@ $colors: (
 
     // Buttons ----------------------------------------------------------------
     button: (
-        background-base: #e8e8e8,
+        background-base:   #e8e8e8,
         background-active: #4a4a4a,
-        text-base: #4a4a4a,
-        text-active: #ffffff
+        text-base:         #4a4a4a,
+        text-active:       #ffffff
     ),
 
 
     // Inputs -----------------------------------------------------------------
     input: (
-        border-base: #e8e8e8,
+        border-base:   #e8e8e8,
         border-active: #4a4a4a
     ),
 
@@ -99,6 +99,12 @@ $colors: (
         background-hover: #111111
     ),
 
+    c-service: (
+        text-base:         #4a4a4a,
+        text-active:       #ffffff,
+        background-hover:  #dddddd,
+        background-active: #4a4a4a
+    ),
 
     c-skipnav: (
         background:  #111111,
