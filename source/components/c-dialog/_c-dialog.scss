@@ -1,0 +1,102 @@
+// ============================================================================
+// Component
+// Dialog
+// ============================================================================
+
+
+// Component Logic ------------------------------------------------------------
+@mixin dialog-button() {
+    background-color: c(button, background-base);
+
+    color: c(type, dark);
+    font-size: 80%;
+
+    // Button icon
+    .c-dialog__icon {
+        fill: c(button, text-base);
+    }
+
+    // States
+    &:hover {
+        background-color: darken(c(button, background-base), 10%);
+    }
+
+    &:focus,
+    &:active {
+        background-color: c(button, background-active);
+
+        color: c(button, text-active);
+
+        // Button icon
+        .c-dialog__icon {
+            fill: c(button, text-active);
+        }
+    }
+}
+
+
+// Component Styling ----------------------------------------------------------
+.c-dialog {
+    &__label {
+        display: block;
+
+        font-style: italic;
+        font-weight: $font-weight-bold;
+    }
+
+    &__input {
+        @include content-show-interaction(link);
+        @include typography-tracking(slight);
+
+        display: block;
+        margin-top: ms(0.25, rem);
+        padding: ms(0.25, em) ms(0.5, em);
+        width: 100%;
+
+        border-bottom: 1px solid c(input, border-base);
+
+        color: c(type, dark);
+        font-style: normal;
+        font-weight: $font-weight-normal;
+        line-height: 1;
+    }
+
+    &__copy {
+        @include component-button();
+        @include component-size(ms(1, rem), ms(2.5, rem));
+        @include dialog-button();
+
+        float: right;
+        position: relative;
+          bottom: rem(32);
+          right: rem(10);
+
+        font-size: 80%;
+
+        // Button icon
+        .c-dialog__icon {
+            @include component-size(ms(0.5, rem), ms(0.5, rem));
+
+            position: relative;
+              top: rem(1);
+              right: rem(2);
+        }
+    }
+
+    &__close {
+        @include component-button();
+        @include component-size(ms(1.25, rem), 100%, ms(0.75, rem));
+        @include dialog-button();
+
+        margin-top: ms(1, rem);
+
+        // Button icon
+        .c-dialog__icon {
+            @include component-size(ms(0.5, rem), ms(0.5, rem));
+
+            position: relative;
+              top: rem(1);
+              right: rem(2);
+        }
+    }
+}
