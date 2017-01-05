@@ -70,8 +70,9 @@
         position: relative;
           bottom: rem(32);
           right: rem(10);
+        width: rem(80);
 
-        font-size: 80%;
+        font-size: em(16);
 
         // Button icon
         .c-dialog__icon {
@@ -81,14 +82,27 @@
               top: rem(1);
               right: rem(2);
         }
+
+        // Breakpoints
+        @include mappy-bp(palm-medium) {
+            bottom: rem(36);
+            padding-bottom: rem(2);
+
+            font-size: em(14);
+        }
+
+        @include mappy-bp(lap-small) {
+            margin-top: ms(0.5, rem);
+            position: static;
+            width: 100%;
+            height: ms(1.25, rem);
+        }
     }
 
     &__close {
         @include component-button();
         @include component-size(ms(1.25, rem), 100%, ms(0.75, rem));
         @include dialog-button();
-
-        margin-top: ms(1, rem);
 
         // Button icon
         .c-dialog__icon {
@@ -97,6 +111,22 @@
             position: relative;
               top: rem(1);
               right: rem(2);
+
+            // Breakpoints
+            @include mappy-bp(palm-medium) {
+                top: rem(0);
+            }
+
+            @include mappy-bp(lap-small) {
+                top: rem(1);
+            }
+        }
+
+        // Breakpoints
+        @include mappy-bp(lap-small) {
+            margin-top: 0;
+
+            font-size: 70%;
         }
     }
 }

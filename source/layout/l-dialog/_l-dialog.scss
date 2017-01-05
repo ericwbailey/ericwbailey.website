@@ -10,15 +10,15 @@
 
 // Component Styling ----------------------------------------------------------
 .l-dialog {
-box-shadow: shadow(large) c(c-skipnav, shadow);
-
     padding: rem(12) rem(40) rem(25) rem(40);
-    position: fixed;;
+    position: fixed;
       bottom: 0;
     width: 100%;
     z-index: z(ceiling);
 
     background-color: c(l-dialog, background);
+
+    box-shadow: shadow(large) c(l-dialog, shadow);
 
     @supports #{$supports-viewportunits} {
         padding: 2vh 8vw 4vh 8vw;
@@ -39,10 +39,28 @@ box-shadow: shadow(large) c(c-skipnav, shadow);
     }
 
     &__email-address {
-// background-color: pink;
+        // Breakpoints
+        @include mappy-bp(lap-small) {
+            float: left;
+            width: rem(290);
+            margin-right: rem(60);
+        }
     }
 
     &__email-services {
-// background-color: orange;
+        // Breakpoints
+        @include mappy-bp(lap-small) {
+            margin-top: rem(42); // Lines services up vertically with email address input field
+            float: left;
+            width: calc(100% - #{rem(450)});
+        }
+    }
+
+    &__controls {
+        // Breakpoints
+        @include mappy-bp(lap-small) {
+            float: right;
+            width: rem(100);
+        }
     }
 }

@@ -17,10 +17,8 @@ $service-icon-size: ms(1.25, rem);
 
     &__service {
         height: $service-icon-size;
-        flex-basis: 45%;
+        flex-basis: 45%; // 2 columns
         margin: ms(0.25, em);
-
-        transition: background-color animation-duration(shortest) animation-ease(dialogue);
 
         // States
         &:hover {
@@ -44,6 +42,19 @@ $service-icon-size: ms(1.25, rem);
                 fill: c(c-service, text-active);
             }
         }
+
+        // Breakpoints
+        @include mappy-bp(wrist-large) {
+            flex-basis: 30%; // 3 columns
+        }
+
+        @include mappy-bp(lap-small) {
+            flex-basis: 45%; // 2 columns
+        }
+
+        @include mappy-bp(lap-medium) {
+            flex-basis: 30%; // 3 columns
+        }
     }
 
     &__link {
@@ -57,6 +68,8 @@ $service-icon-size: ms(1.25, rem);
         color: c(c-service, text-base);
         text-decoration: none;
 
+        transition: background-color animation-duration(shortest) animation-ease(dialogue);
+
         // States
         &:focus {
             outline: em(4) solid c(c-service, background-active);
@@ -68,6 +81,11 @@ $service-icon-size: ms(1.25, rem);
             .c-services__icon {
                 fill: c(c-service, text-active);
             }
+        }
+
+        // Breakpoints
+        @include mappy-bp(palm-medium) {
+            font-size: 85%;
         }
     }
 
