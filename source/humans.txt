@@ -25,12 +25,21 @@ http://ericbailey.design
   - JavaScript (https://www.javascript.com/)
   - Markdown (https://daringfireball.net/projects/markdown/)
   - SVG (https://www.w3.org/TR/SVG/)
+
 - Components
   - Git (https://git-scm.com/)
   - GitHub (https://github.com/)
   - Gulp (http://gulpjs.com/)
   - Sass (http://sass-lang.com/)
   - Node.js (https://nodejs.org/en/)
+
+- Libraries
+  - a11y-dialog (https://github.com/edenspiekermann/a11y-dialog/)
+  - Family.scss (http://lukyvj.github.io/family.scss/)
+  - loadCSS (https://github.com/filamentgroup/loadCSS)
+  - Mappy Breakpoints (https://github.com/zellwk/mappy-breakpoints)
+  - TypeKit (https://typekit.com/)
+
 - Browsers
   - Chrome (https://www.google.com/chrome/)
   - Edge (https://www.microsoft.com/en-us/windows/microsoft-edge)
@@ -38,6 +47,7 @@ http://ericbailey.design
   - Safari (http://www.apple.com/safari/)
   - Opera (http://www.opera.com/)
   - Vivaldi (https://vivaldi.com/)
+
 - Software
   - Atom (http://atom.io/)
   - NVDA (http://www.nvaccess.org/)
