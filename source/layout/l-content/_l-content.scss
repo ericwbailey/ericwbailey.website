@@ -6,21 +6,27 @@
 
 // Layout Logic ---------------------------------------------------------------
 @mixin l-content() {
-    padding: rem(50) rem(40);
+    @include component-page-side-margins();
+
+    padding-top: rem(50);
+    padding-bottom: rem(50);
     z-index: z(l-content);
 
     transition: animation-duration(shortest) padding animation-ease(background);
 
     @supports #{$supports-viewportunits} {
-        padding: 8vh 8vw 24vh 8vw;
+        padding-top: 8vh;
+        padding-bottom: 24vh;
     }
 
     // Breakpoints
     @include mappy-bp(palm-medium) {
-        padding: rem(120) rem(100);
+        padding-top: rem(120);
+        padding-bottom: rem(120);
 
         @supports #{$supports-viewportunits} {
-            padding: 6vh 12vw 54vh 12vw;
+            padding-top: 6vh;
+            padding-bottom: 54vh;
         }
     }
 }

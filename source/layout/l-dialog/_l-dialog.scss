@@ -10,7 +10,10 @@
 
 // Component Styling ----------------------------------------------------------
 .l-dialog {
-    padding: rem(12) rem(40) rem(25) rem(40);
+    @include component-page-side-margins();
+
+    padding-top: rem(12);
+    padding-bottom: rem(25);
     position: fixed;
       bottom: 0;
     width: 100%;
@@ -21,7 +24,8 @@
     box-shadow: shadow(large) c(l-dialog, shadow);
 
     @supports #{$supports-viewportunits} {
-        padding: 2vh 8vw 4vh 8vw;
+        padding-top: 2vh;
+        padding-bottom: 4vh;
     }
 
     // States
@@ -31,10 +35,12 @@
 
     // Breakpoints
     @include mappy-bp(palm-medium) {
-        padding: rem(30) rem(100) rem(60) rem(100);
+        padding-top: rem(30);
+        padding-bottom: rem(60);
 
         @supports #{$supports-viewportunits} {
-            padding: 3.5vh 12vw 7vh 12vw;
+            padding-top: 3.5vh;
+            padding-bottom: 7vh;
         }
     }
 
