@@ -1,0 +1,58 @@
+<!-- Start of #a11y-dialog -->
+<div class="l-dialog" id="a11y-dialog" aria-hidden="false">
+    <div tabindex="-1" data-a11y-dialog-hide></div>
+    <div role="dialog" aria-labelledby="subtitle-dialog">
+        <div class="c-dialog" role="document">
+
+            <div class="l-dialog__email-address">
+
+                <label
+                    id="subtitle-dialog"
+                    class="c-dialog__label"
+                    aria-level="2"
+                    for="email"
+                    role="heading">
+                    Contact me
+                    <input
+                        id="email"
+                        class="c-dialog__input"
+                        name="email"
+                        readonly
+                        type="text"
+                        value="eric.w.bailey@gmail.com">
+                </label>
+
+                <button
+                    id="copy"
+                    class="c-dialog__copy"
+                    name="copy"
+                    type="button">
+                    <svg height="14" width="14" aria-hidden="true" viewBox="0 0 100 100" class="icon c-dialog__icon"><use xlink:href="#icon-clipboard"></use></svg>
+                    Copy<span class="content-hide-visually"> email address</span>
+                </button>
+
+            </div>
+
+            <div class="l-dialog__email-services">
+
+                {{>components/c-services/c-services}}
+
+            </div>
+
+            <div class="l-dialog__controls">
+
+                <button
+                    class="c-dialog__close"
+                    aria-label="Close this dialog window"
+                    data-a11y-dialog-hide
+                    type="button">
+                    <svg height="20" width="20" aria-hidden="true" viewBox="0 0 100 100" class="icon c-dialog__icon"><use xlink:href="#icon-close"></use></svg>
+                    Close
+                </button>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- End of #a11y-dialog -->

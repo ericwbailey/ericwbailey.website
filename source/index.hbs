@@ -53,121 +53,6 @@
 {{>layout/l-section/l-errata}}
 
 
-<!-- Start of my-accessible-dialog -->
-<div class="l-dialog" id="my-accessible-dialog" aria-hidden="false">
-    <div tabindex="-1" data-a11y-dialog-hide></div>
-    <div role="dialog" aria-labelledby="subtitle-dialog">
-        <div class="c-dialog" role="document">
-
-            <div class="l-dialog__email-address">
-
-                <label id="subtitle-dialog" class="c-dialog__label" for="email">
-                    Contact
-                    <input
-                        id="email"
-                        class="c-dialog__input"
-                        name="email"
-                        readonly
-                        type="text"
-                        value="eric.w.bailey@gmail.com">
-                </label>
-
-                <button
-                    id="copy"
-                    class="c-dialog__copy"
-                    name="copy"
-                    type="button">
-                    <svg height="14" width="14" aria-hidden="true" viewBox="0 0 100 100" class="icon c-dialog__icon"><use xlink:href="#icon-clipboard"></use></svg>
-                    Copy<span class="content-hide-visually"> email address</span>
-                </button>
-
-            </div>
-
-            <div class="l-dialog__email-services">
-
-                <ul class="c-services">
-
-                    <li class="c-services__service">
-                        <a
-                            class="c-services__link"
-                            href="mailto:foo@example.com"
-                            rel="external noopener">
-                            <svg height="30" width="30" aria-hidden="true" viewBox="0 0 100 100" class="icon c-services__icon"><use xlink:href="#icon-envelope"></use></svg>
-                            <span class="content-hide-visually">Open </span>Default<span class="content-hide-visually"> mail client</span>
-                        </a>
-                    </li>
-
-                    <li class="c-services__service">
-                        <a
-                            class="c-services__link"
-                            href="https://mail.aol.com/"
-                            rel="external noopener">
-                            <svg height="30" width="30" aria-hidden="true" viewBox="0 0 100 100" class="icon c-services__icon"><use xlink:href="#icon-aol"></use></svg>
-                            <span class="content-hide-visually">Open </span>Aol
-                        </a>
-                    </li>
-
-                    <li class="c-services__service">
-                        <a
-                            class="c-services__link"
-                            href="https://mail.google.com/"
-                            rel="external noopener">
-                            <svg height="30" width="30" aria-hidden="true" viewBox="0 0 100 100" class="icon c-services__icon"><use xlink:href="#icon-google"></use></svg>
-                            <span class="content-hide-visually">Open </span>Gmail
-                        </a>
-                    </li>
-
-                    <li class="c-services__service">
-                        <a
-                            class="c-services__link"
-                            href="https://www.icloud.com/mail/"
-                            rel="external noopener">
-                            <svg height="30" width="30" aria-hidden="true" viewBox="0 0 100 100" class="icon c-services__icon"><use xlink:href="#icon-apple"></use></svg>
-                            <span class="content-hide-visually">Open </span>iCloud
-                        </a>
-                    </li>
-
-                    <li class="c-services__service">
-                        <a
-                            class="c-services__link"
-                            href="https://outlook.live.com/"
-                            rel="external noopener">
-                            <svg height="30" width="30" aria-hidden="true" viewBox="0 0 100 100" class="icon c-services__icon"><use xlink:href="#icon-outlook"></use></svg>
-                            <span class="content-hide-visually">Open </span>Outlook
-                        </a>
-                    </li>
-
-                    <li class="c-services__service">
-                        <a
-                            class="c-services__link"
-                            href="https://mail.yahoo.com/"
-                            rel="external noopener">
-                            <svg height="30" width="30" aria-hidden="true" viewBox="0 0 100 100" class="icon c-services__icon"><use xlink:href="#icon-yahoo"></use></svg>
-                            <span class="content-hide-visually">Open </span>Yahoo
-                        </a>
-                    </li>
-
-                </ul>
-
-            </div>
-
-            <div class="l-dialog__controls">
-
-                <button
-                    class="c-dialog__close"
-                    aria-label="Close this dialog window"
-                    data-a11y-dialog-hide
-                    type="button">
-                    <svg height="20" width="20" aria-hidden="true" viewBox="0 0 100 100" class="icon c-dialog__icon"><use xlink:href="#icon-close"></use></svg>
-                    Close
-                </button>
-
-            </div>
-
-        </div>
-    </div>
-</div>
-<!-- End of my-accessible-dialog -->
 
 
 {{>meta/scripts/fade.out}}
@@ -175,6 +60,8 @@
 {{>meta/analytics/google-analytics}}
 
 </main>
+
+{{>layout/l-dialog/l-dialog}}
 
 </body>
 </html>
