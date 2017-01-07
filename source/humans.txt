@@ -35,6 +35,7 @@ http://ericbailey.design
 
 - Libraries
   - a11y-dialog (https://github.com/edenspiekermann/a11y-dialog/)
+  - clipboard (https://clipboardjs.com/)
   - Family.scss (http://lukyvj.github.io/family.scss/)
   - loadCSS (https://github.com/filamentgroup/loadCSS)
   - Mappy Breakpoints (https://github.com/zellwk/mappy-breakpoints)
