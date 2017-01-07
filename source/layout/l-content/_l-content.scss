@@ -29,31 +29,13 @@
 // Layout Styling -------------------------------------------------------------
 .l-content {
     @include l-content();
-counter-reset: section;
+
     background-color: c(l-content, background-secondary);
 
     p {
         @include typography-measure();
 
         margin-top: ms(1.25);
-
-        &:before {
-            // @include generate-unicode-symbol($symbol-paragraph);
-counter-increment: section;
-content: "\00B6" counter(section);
-
-            display: inline-block;
-            height: 40px;
-            width: 40px;
-            // opacity: 0.2;
-            font-size: 75%;
-            position: absolute;
-            left: rem(100);
-            text-align: right;
-        }
-
-        &:hover {
-        }
     }
 
     a,
