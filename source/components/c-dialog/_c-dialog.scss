@@ -74,9 +74,18 @@
 
         font-size: em(16);
 
-        transition: background-color animation-duration(shortest) animation-ease(dialogue); // Transitions success state
-
         // States
+        &[disabled] {
+            opacity: 0.5;
+
+            cursor: not-allowed;
+
+            // States
+            &:hover {
+                background-color: c(button, background-base);
+            }
+        }
+
         &.is-successful {
             background-color: c(validation, success);
 
