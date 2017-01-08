@@ -74,6 +74,18 @@
 
         font-size: em(16);
 
+        transition: background-color animation-duration(shortest) animation-ease(dialogue); // Transitions success state
+
+        // States
+        &.is-successful {
+            background-color: c(validation, success);
+
+            // States
+            &:hover {
+                background-color: c(validation, success);
+            }
+        }
+
         // Button icon
         .c-dialog__icon {
             @include component-size(ms(0.5, rem), ms(0.5, rem));
