@@ -19,7 +19,7 @@
     border-radius: $global-border-radius;
     outline: none;
 
-    transition: background-color animation-duration(shortest) animation-ease(dialogue);
+    transition: background-color animation-duration(shortest) animation-ease(dialogue); // Transitions success state
 
     &:focus,
     &:active {
