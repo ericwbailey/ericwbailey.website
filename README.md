@@ -15,13 +15,13 @@ This is a much-needed update for my personal website. It's less a portfolio and 
 
 ## Installation
 
-This website is built using [Enchilada](https://github.com/ericwbailey/enchilada), my dogfooded personal project boilerplate. To get a copy working on your own machine (for whatever reason), clone it via the command line: `https://github.com/ericwbailey/enchilada.git`
+This website is built using [enchilada](https://github.com/ericwbailey/enchilada), my dogfooded personal project boilerplate. To get a copy working on your own machine (for whatever reason), clone it via the command line: `https://github.com/ericwbailey/enchilada.git`
 
-From there, you can follow [Enchilada's setup instructions](https://github.com/ericwbailey/enchilada/wiki/First-Time-Setup#scaffolding). Let me know if they don't work!
+From there, you can follow [enchilada's setup instructions](https://github.com/ericwbailey/enchilada/wiki/First-Time-Setup#scaffolding). Let me know if they don't work!
 
 ## Contributing
 
-I'm not really looking for feature requests for this project, as it's my personal website. I would love, however, to get bug reports, especially about accessibility issues, browser rendering inconsistencies, performance bottlenecks, and general usability criticism.
+As it is my personal website, I'm not really looking for feature requests for this project. I would, however, love to get bug reports, especially about accessibility issues, browser rendering inconsistencies, performance bottlenecks, and general usability criticism.
 
 The best way to submit these issues is using this repo's [Issue tracker](https://github.com/ericwbailey/ericbailey.design/issues). Please make sure you read the [contributing guidelines](https://github.com/ericwbailey/ericbailey.design/blob/master/CONTRIBUTING.md#submitting-issues) before doing so!
 
