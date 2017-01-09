@@ -1,4 +1,4 @@
-# [ericbailey.design](http://ericbailey.design)
+# [ericwbailey.design](http://ericwbailey.design)
 
 Repo for my personal website.
 
@@ -23,10 +23,10 @@ From there, you can follow [enchilada's setup instructions](https://github.com/e
 
 As it is my personal website, I'm not really looking for feature requests for this project. I would, however, love to get bug reports, especially about accessibility issues, browser rendering inconsistencies, performance bottlenecks, and general usability criticism.
 
-The best way to submit these issues is using this repo's [Issue tracker](https://github.com/ericwbailey/ericbailey.design/issues). Please make sure you read the [contributing guidelines](https://github.com/ericwbailey/ericbailey.design/blob/master/CONTRIBUTING.md#submitting-issues) before doing so!
+The best way to submit these issues is using this repo's [Issue tracker](https://github.com/ericwbailey/ericwbailey.design/issues). Please make sure you read the [contributing guidelines](https://github.com/ericwbailey/ericwbailey.design/blob/master/CONTRIBUTING.md#submitting-issues) before doing so!
 
-If you can't or won't use GitHub, my personal email is listed in [`AUTHORS`](https://github.com/ericwbailey/ericbailey.design/blob/master/AUTHORS). I can also be reached on [Twitter](http://twitter.com/ericwbailey), as well as on the other social networking services linked to on my site.
+If you can't or won't use GitHub, my personal email is listed in [`AUTHORS`](https://github.com/ericwbailey/ericwbailey.design/blob/master/AUTHORS). I can also be reached on [Twitter](http://twitter.com/ericwbailey), as well as on the other social networking services linked to on my site.
 
 ## License
 
-[CC BY-NC-SA](https://github.com/ericwbailey/ericbailey.design/blob/master/LICENSE.md).
+[CC BY-NC-SA](https://github.com/ericwbailey/ericwbailey.design/blob/master/LICENSE.md).

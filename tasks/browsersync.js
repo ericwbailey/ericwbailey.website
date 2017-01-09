@@ -18,7 +18,7 @@ gulp.task('browsersync-build', help.browsersync.build, function() {
         },
         minify: false,
         notify: false,
-        logPrefix: "ericbailey.design"
+        logPrefix: "ericwbailey.design"
     });
 });
 
@@ -33,7 +33,7 @@ gulp.task('browsersync-test', help.browsersync.test, function() {
         minify: false,
         notify: false,
         browser: ["firefox", "google chrome", "safari", "opera"],
-        logPrefix: "ericbailey.design"
+        logPrefix: "ericwbailey.design"
     });
 });
 
