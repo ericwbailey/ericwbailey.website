@@ -14,6 +14,7 @@ $c-breadcrumb-outline: em(4);
     position: fixed;
       bottom: ms(0.5, rem);
       right: ms(0.5, rem);
+    z-index: z(c-breadcrumb);
 
     outline: $c-breadcrumb-outline solid c(l-content, background-secondary);
 

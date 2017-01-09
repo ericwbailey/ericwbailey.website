@@ -17,7 +17,7 @@
     position: fixed;
       bottom: 0;
     width: 100%;
-    z-index: z(ceiling);
+    z-index: z(l-dialog);
 
     background-color: c(l-dialog, background);
 
@@ -45,6 +45,8 @@
     }
 
     &__email-address {
+        z-index: z(l-dialog-email-address);
+
         // Breakpoints
         @include mappy-bp(lap-small) {
             float: left;
@@ -54,6 +56,8 @@
     }
 
     &__email-services {
+        z-index: z(l-dialog-email-services);
+
         // Breakpoints
         @include mappy-bp(lap-small) {
             margin-top: rem(42); // Lines services up vertically with email address input field
@@ -63,6 +67,8 @@
     }
 
     &__controls {
+        z-index: z(l-dialog-controls);
+
         // Breakpoints
         @include mappy-bp(lap-small) {
             float: right;

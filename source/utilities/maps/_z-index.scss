@@ -25,13 +25,14 @@ $z-index: (
 
 
     // Component --------------------------------------------------------------
-    component: 3000,
-        subcomponent: 3010,
+    c-breadcrumb: 3000,
 
 
     // Pop up/over UI elements ------------------------------------------------
-    modal: 4000,
-        submodal: 4010,
+    l-dialog: 4000,
+        l-dialog-email-address: 4010,
+        l-dialog-email-services: 4010,
+        l-dialog-controls: 4010,
 
     // Ensure things are displayed
     ceiling: 999999
