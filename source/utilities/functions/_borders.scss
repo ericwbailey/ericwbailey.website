@@ -18,8 +18,8 @@
 
 
 @function border($border-size) {
-    @if (map-has-key($border, $border-size)) {
-      @return map-get($border, $border-size);
+    @if (map-has-key($borders, $border-size)) {
+      @return map-get($borders, $border-size);
     }
 
     @else {
