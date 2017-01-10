@@ -115,13 +115,13 @@ ol {
         }
 
         // Nested ordered list
-        ol {
-
-            li {
-                &::before {
-                    content: counter(default-ordered-list, lower-roman);
-                }
-            }
-        }
+        // ol {
+        //
+        //     li {
+        //         &::before {
+        //             content: counter(default-ordered-list, lower-roman);
+        //         }
+        //     }
+        // }
     }
 }
