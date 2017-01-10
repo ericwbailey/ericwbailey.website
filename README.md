@@ -17,7 +17,7 @@ This is a much-needed update for my personal website. It's less a portfolio and 
 
 This website is built using [enchilada](https://github.com/ericwbailey/enchilada), my dogfooded personal project boilerplate. To get a copy working on your own machine (for whatever reason), clone it via the command line: `https://github.com/ericwbailey/enchilada.git`
 
-From there, you can follow [enchilada's setup instructions](https://github.com/ericwbailey/enchilada/wiki/First-Time-Setup#scaffolding). Let me know if they don't work!
+From there, you can follow [enchilada's setup instructions](https://github.com/ericwbailey/enchilada/wiki/First-Time-Setup#scaffolding). Let me know if you run into any issues!
 
 ## Contributing
 
