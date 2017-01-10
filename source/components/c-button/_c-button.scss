@@ -100,7 +100,7 @@
         margin: rem(20) rem(14) rem(25) rem(14);
         padding: rem(10) rem(20);
 
-        border-left: em(5) solid c(validation, error);
+        border-left: border(thin) solid c(validation, error);
 
         font-size: em(18);
         line-height: 1.4;

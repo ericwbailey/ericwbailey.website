@@ -26,7 +26,7 @@ $form-single-line-input-height: ms(2, em);
 
 // Mixins
 @mixin form-border() {
-    border: 1px solid c(form, base);
+    border: border(thinnest) solid c(form, base);
 }
 
 
@@ -173,7 +173,7 @@ input {
             position: relative;
               top: em(-3);
 
-            border: none;
+            border: 0;
 
             background-color: c(background, light);
         }

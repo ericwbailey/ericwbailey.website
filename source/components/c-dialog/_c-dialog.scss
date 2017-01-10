@@ -53,7 +53,7 @@
         padding: ms(0.25, em) ms(0.5, em);
         width: 100%;
 
-        border-bottom: 1px solid c(input, border-base);
+        border-bottom: border(thinnest) solid c(input, border-base);
 
         color: c(type, dark);
         font-style: normal;
