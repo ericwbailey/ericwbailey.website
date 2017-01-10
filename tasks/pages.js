@@ -55,6 +55,7 @@ gulp.task('test-pages', help.pages.test, function() {
                 'abbr[title]',
                 '::-webkit-input-placeholder',
                 '::-webkit-file-upload-button',
+                '.c-accessibility-issues',
                 '.l-dialog'
             ],
         }))

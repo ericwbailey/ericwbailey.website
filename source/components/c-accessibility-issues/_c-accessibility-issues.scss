@@ -1,0 +1,48 @@
+// ============================================================================
+// Component
+// Accessibility Issues
+// ============================================================================
+
+
+// Component Logic ------------------------------------------------------------
+
+
+
+// Component Styling ----------------------------------------------------------
+.c-accessibility-issues {
+    &:target {
+        &::before {
+            @include component-size(rem(30), rem(30));
+            @include generate-unicode-symbol($symbol-manicule-full);
+
+            display: block;
+            float: left;
+            margin-top: rem(-3);
+            margin-left: -10vw;
+
+            font-size: ms(1, em);
+            text-align: right;
+
+            opacity: 0.3;
+
+            // Breakpoints
+            @include mappy-bp(wrist-large) {
+                margin-left: -8vw;
+            }
+
+            @include mappy-bp(palm-small) {
+                margin-left: -7vw;
+            }
+
+            @include mappy-bp(palm-medium) {
+                margin-top: rem(-10);
+
+                font-size: ms(1.25, em);
+            }
+
+            @include mappy-bp(lap-small) {
+                margin-top: rem(-11);
+            }
+        }
+    }
+}
