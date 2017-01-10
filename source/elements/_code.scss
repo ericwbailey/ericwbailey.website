@@ -5,10 +5,10 @@
 
 // Code Logic -----------------------------------------------------------------
 @mixin code-inline-spacing() {
-    // margin-left: em(2);
-    // margin-right: em(2);
-    // padding-left: em(4);
-    // padding-right: em(4);
+    margin-left: em(2);
+    margin-right: em(2);
+    padding-left: em(4);
+    padding-right: em(4);
 }
 
 
@@ -34,26 +34,26 @@ var {
 
 
 // Individual Styles ----------------------------------------------------------
-code {
-    @include code-inline-spacing();
-}
-
-
-kbd {
-    @include code-inline-spacing();
-}
-
-
-pre {
-    line-height: 1.8;
-}
-
-
-samp {
-    @include code-inline-spacing();
-}
-
-
-var {
-    @include code-inline-spacing();
-}
+// code {
+//     @include code-inline-spacing();
+// }
+//
+//
+// kbd {
+//     @include code-inline-spacing();
+// }
+//
+//
+// pre {
+//     line-height: 1.8;
+// }
+//
+//
+// samp {
+//     @include code-inline-spacing();
+// }
+//
+//
+// var {
+//     @include code-inline-spacing();
+// }
