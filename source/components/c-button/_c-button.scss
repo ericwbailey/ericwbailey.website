@@ -26,8 +26,6 @@
         &[disabled] {
             opacity: 0.5;
 
-            cursor: not-allowed;
-
             // States
             &:hover {
                 background-color: c(button, background-base);
