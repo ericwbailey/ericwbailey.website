@@ -11,5 +11,5 @@
 .c-philosophy {
     max-width: 65ex;
 
-    color: darken(c(type, dark), 5%);
+    color: darken(c(type, dark), 5%); // Ensures type has high enough contrast
 }
