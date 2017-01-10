@@ -20,10 +20,6 @@ $z-index: (
     l-content: 1000,
 
 
-    // Object -----------------------------------------------------------------
-    object: 2000,
-
-
     // Component --------------------------------------------------------------
     c-breadcrumb: 3000,
 
@@ -33,6 +29,7 @@ $z-index: (
         l-dialog-email-address: 4010,
         l-dialog-email-services: 4010,
         l-dialog-controls: 4010,
+
 
     // Ensure things are displayed
     ceiling: 999999
