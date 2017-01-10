@@ -16,8 +16,6 @@ $l-section-vertical-padding-palm: 14vh;
     padding-bottom: rem(50);
     z-index: z(l-section);
 
-    transition: animation-duration(shortest) padding animation-ease(background);
-
     @supports #{$supports-viewportunits} {
         padding-top: $l-section-vertical-padding-mobile;
         padding-bottom: $l-section-vertical-padding-mobile;
