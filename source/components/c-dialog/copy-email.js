@@ -17,7 +17,7 @@ clipboard.on('success', function( e ) {
 
   e.clearSelection();
 
-  setTimeout(resetCopyButton, 2500);
+  setTimeout( resetCopyButton, 2500 );
 });
 
 
