@@ -178,51 +178,51 @@ q {
 // [1] Re­duce the point size and line spac­ing slightly.
 // [2] In­dent the text block be­neonate half an inch and a full inch on the left
 // side, and op­tion­ally the same on the right. Or on the web, about 2–5 ems.
-blockquote {
-    margin: ms(1.5, em) ms(1, em); // [1]
-
-    font-size: ms(1, em); // [1]
-
-    &::before {
-        display: inline;
-        position: absolute;
-          left: em(10);
-        content: open-quote;
-    }
-
-    p:last-of-type,
-    q:last-of-type {
-        &::after {
-            content: close-quote;
-        }
-    }
-
-    // http://html5doctor.com/cite-and-blockquote-reloaded/
-    cite {
-        display: block;
-
-        font-size: ms(0.6, em);
-        text-indent: 0;
-
-        &::before {
-            content: $symbol-dash-quotation;
-        }
-    }
-}
+// blockquote {
+//     margin: ms(1.5, em) ms(1, em); // [1]
+//
+//     font-size: ms(1, em); // [1]
+//
+//     &::before {
+//         display: inline;
+//         position: absolute;
+//           left: em(10);
+//         content: open-quote;
+//     }
+//
+//     p:last-of-type,
+//     q:last-of-type {
+//         &::after {
+//             content: close-quote;
+//         }
+//     }
+//
+//     // http://html5doctor.com/cite-and-blockquote-reloaded/
+//     cite {
+//         display: block;
+//
+//         font-size: ms(0.6, em);
+//         text-indent: 0;
+//
+//         &::before {
+//             content: $symbol-dash-quotation;
+//         }
+//     }
+// }
 
 
 // Quoted emphasis
-q em,
-q i,
-cite em,
-cite i ,
-
-
-// Quoted strong
-q strong,
-q b,
-cite strong,
-cite b {
-    font-style: normal;
-    font-weight: normal;
-}
+// q em,
+// q i,
+// cite em,
+// cite i ,
+//
+//
+// // Quoted strong
+// q strong,
+// q b,
+// cite strong,
+// cite b {
+//     font-style: normal;
+//     font-weight: normal;
+// }
