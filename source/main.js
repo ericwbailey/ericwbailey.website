@@ -1,6 +1,5 @@
 var mailtoLinks = document.querySelectorAll( '[data-message-subject]' )
 
-
 // Turns mailto links into buttons for use with a11y-dialog
 for ( var i = 0; i < mailtoLinks.length; i++ ) {
   var contactButton = mailtoLinks[i]; // Turns querySelectorAll results into something workable
@@ -18,14 +17,38 @@ for ( var i = 0; i < mailtoLinks.length; i++ ) {
 var dialog = new A11yDialog( document.getElementById( 'a11y-dialog' ), document.getElementById( 'section-main' ) );
 
 
+var reverseString = function(string) {
+  return string.split( "" ).reverse().join( "" );
+}
+
+
+var contactInfo = {
+  first:   "cire",
+  middle:  "w",
+  last:    "yeliab",
+  service: "liamg"
+};
+
+var printContactInfo = function() {
+  return reverseString(contactInfo.first) + "." + reverseString(contactInfo.middle) + "." + reverseString(contactInfo.last) + "@" + reverseString(contactInfo.service) + ".com";
+}
+
+
+
+
+
 // Displays the A11yDialog when an event is fired
 function handleDialogueButtonClick( e ) {
+  var input = document.getElementById( 'input-email' );
+  input.setAttribute( 'value', printContactInfo() );
 
   [].slice.apply( document.querySelectorAll( '.c-services__link' ) ).forEach(function( elm ) {
-    var href = elm.getAttribute('data-href')
-    href = href.replace('%SUBJECT%', e.target.getAttribute('data-message-subject'));
+    var href = elm.getAttribute( 'data-href' );
 
-    elm.setAttribute('href', href);
+    href = href.replace( '%SUBJECT%', e.target.getAttribute('data-message-subject') );
+    href = href.replace( '%CONTACT%', printContactInfo() );
+
+    elm.setAttribute( 'href', href );
   });
 
   dialog.show();
