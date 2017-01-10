@@ -19,10 +19,38 @@
     border-radius: $global-border-radius;
     outline: none;
 
+    background-color: c(button, background-base);
+
+    color: c(type, dark);
+    font-size: 80%;
+
     transition: background-color animation-duration(shortest) animation-ease(dialogue); // Transitions success state
 
     &:focus,
     &:active {
         transition: none;
     }
+
+    // States
+    &:hover {
+        background-color: darken(c(button, background-base), 10%);
+    }
+
+    &:focus,
+    &:active {
+        background-color: c(button, background-active);
+
+        color: c(button, text-active);
+
+        // Button icon
+        .c-button__icon {
+            fill: c(button, text-active);
+        }
+    }
+
+    // Button icon
+    .c-button__icon {
+        fill: c(button, text-base);
+    }
+
 }
