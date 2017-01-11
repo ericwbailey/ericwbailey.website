@@ -1,6 +1,14 @@
-var copyButton = document.getElementById( 'button-copy' )
+// ============================================================================
+// Copy Email
+// ============================================================================
 
-// Resets the successful state
+
+/**
+ * Removes the success state from the button and restores the button content to its original state.
+ *
+ * @example resetCopyButton()
+ * @public
+ */
 function resetCopyButton() {
   copyButton.classList.remove( 'is-successful' );
   copyButton.innerHTML = '<svg height="14" width="14" aria-hidden="true" viewBox="0 0 100 100" class="icon c-button__icon"><use xlink:href="#icon-clipboard"></use></svg>Copy<span class="content-hide-visually"> email address</span>';
