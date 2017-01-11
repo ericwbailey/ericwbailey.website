@@ -10,9 +10,7 @@ body {
 
     opacity: 1; // For when `.is-faded` is removed
 
-    transition:
-      opacity animation-duration(long),
-      font-size animation-duration(shorter) animation-ease(background);
+    transition: opacity animation-duration(long);
 
     // Breakpoints
     @include mappy-bp(palm-medium) {

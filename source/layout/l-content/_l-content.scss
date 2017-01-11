@@ -12,8 +12,6 @@
     padding-bottom: rem(50);
     z-index: z(l-content);
 
-    transition: animation-duration(shortest) padding animation-ease(background);
-
     @supports #{$supports-viewportunits} {
         padding-top: 8vh;
         padding-bottom: 24vh;
