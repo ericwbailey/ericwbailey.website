@@ -5,7 +5,7 @@
 
 
 // Component Logic ------------------------------------------------------------
-$c-breadcrumb-outline: em(4);
+$c-breadcrumb-outline: em(6);
 
 
 // Component Styling ----------------------------------------------------------
@@ -16,11 +16,11 @@ $c-breadcrumb-outline: em(4);
       right: ms(0.5, rem);
     z-index: z(c-breadcrumb);
 
-    outline: $c-breadcrumb-outline solid c(l-content, background-secondary);
+    // outline: $c-breadcrumb-outline solid c(c-breadcrumb, outline-base);
 
     background-color: c(c-breadcrumb, background-base);
 
-    color: c(type, light);
+    color: c(c-breadcrumb, text-base);
     font-size: em(16);
     text-decoration: none;
 
@@ -37,25 +37,23 @@ $c-breadcrumb-outline: em(4);
     &:hover {
         background-color: c(c-breadcrumb, background-hover);
 
-        outline: $c-breadcrumb-outline solid c(l-content, background-secondary);
-
         &:focus {
             background-color: c(c-breadcrumb, background-hover);
 
-            color: c(type, light);
+            color: c(c-breadcrumb, text-base);
 
-            outline: $c-breadcrumb-outline solid c(l-content, background-secondary);
+            outline: none;
 
             transition: none;
         }
     }
 
     &:focus {
-        background-color: c(yellow);
+        background-color: c(c-breadcrumb, background-focus);
 
-        outline: $c-breadcrumb-outline solid c(type, dark);
+        outline: $c-breadcrumb-outline solid c(c-breadcrumb, outline-base);
 
-        color: c(type, dark);
+        color: c(c-breadcrumb, text-focus);
 
         transition: none;
     }
