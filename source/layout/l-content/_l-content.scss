@@ -47,7 +47,13 @@
         @include content-underline($underline-background-color: c(l-content, background-secondary));
     }
 
+    // Makes button underline match link underline
     .is-contact-button {
         height: em(31);
+
+        // Breakpoints
+        @include mappy-bp(palm-medium) {
+            height: em(30);
+        }
     }
 }
