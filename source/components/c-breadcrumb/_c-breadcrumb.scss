@@ -5,18 +5,18 @@
 
 
 // Component Logic ------------------------------------------------------------
-$c-breadcrumb-outline: em(6);
+$c-breadcrumb-outline-small: em(3);
 
 
 // Component Styling ----------------------------------------------------------
 .c-breadcrumb {
-    padding: ms(0.75, em) ms(1, em);
+    padding: ms(0.5, em) ms(1, em);
     position: fixed;
       bottom: ms(0.5, rem);
       right: ms(0.5, rem);
     z-index: z(c-breadcrumb);
 
-    // outline: $c-breadcrumb-outline solid c(c-breadcrumb, outline-base);
+    outline: $c-breadcrumb-outline-small solid #e8e8e8; //c(c-breadcrumb, outline-base);
 
     background-color: c(c-breadcrumb, background-base);
 
@@ -51,7 +51,7 @@ $c-breadcrumb-outline: em(6);
     &:focus {
         background-color: c(c-breadcrumb, background-focus);
 
-        outline: $c-breadcrumb-outline solid c(c-breadcrumb, outline-base);
+        outline: em(4) solid c(c-breadcrumb, outline-base);
 
         color: c(c-breadcrumb, text-focus);
 
@@ -71,7 +71,7 @@ $c-breadcrumb-outline: em(6);
 
     @include mappy-bp(palm-medium) {
         bottom: initial;
-        padding: ms(0.5, em) ms(1, em);
+        padding: ms(0.75, em) ms(1, em);
         top: ms(2, rem);
         transform: rotate(90deg);
 
