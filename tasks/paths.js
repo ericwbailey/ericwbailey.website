@@ -58,7 +58,11 @@ module.exports = {
             SOURCE_DIR + '/crossdomain.xml',
             SOURCE_DIR + '/humans.txt',
             SOURCE_DIR + '/manifest.json',
-            SOURCE_DIR + '/robots.txt'
+            SOURCE_DIR + '/robots.txt',
+            SOURCE_DIR + '/favicon.ico',
+            SOURCE_DIR + '/favicon-16x16.png',
+            SOURCE_DIR + '/favicon-32x32.png',
+            SOURCE_DIR + '/favicon-48x48.png'
         ],
         build: BUILD_DIR,
         test: TEST_DIR,
