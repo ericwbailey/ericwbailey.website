@@ -3,7 +3,6 @@
     id="section-contact"
     class="l-section__contact"
     aria-labelledby="subtitle-contact"
-    itemscope itemtype="http://schema.org/Person"
     role="region">
 
     <h2 id="subtitle-contact" class="content-hide-visually">
@@ -18,13 +17,7 @@
         {{{content.contact.body}}}
     </p>
 
-    {{>components/c-link-list/c-contact.people}}
-
-    <p class="content-hide-visually">
-        {{{content.contact.contact-info}}}
-    </p>
-
-    {{>components/c-link-list/c-contact.robots}}
+    {{>components/c-link-list/c-contact}}
 
 </address>
 <!-- End of #section-contact -->
