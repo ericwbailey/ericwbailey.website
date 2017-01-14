@@ -14,11 +14,10 @@
         @include component-button();
         @include component-size(ms(1, rem), ms(2.5, rem));
 
-        float: right;
-        position: relative;
-          bottom: rem(32);
-          right: rem(10);
-        width: rem(80);
+        margin-top: ms(0.5, rem);
+        position: static;
+        width: 100%;
+        height: ms(1.25, rem);
 
         font-size: em(16);
 
@@ -51,8 +50,16 @@
         }
 
         // Breakpoints
+        @include mappy-bp(wrist-medium) {
+            float: right;
+            margin-top: 0;
+            position: relative;
+              bottom: rem(40);
+              right: rem(10);
+            width: rem(84);
+        }
+
         @include mappy-bp(palm-medium) {
-            bottom: rem(36);
             padding-bottom: rem(2);
 
             font-size: em(14);
@@ -68,7 +75,7 @@
 
     &__close {
         @include component-button();
-        @include component-size(ms(1.25, rem), 100%, ms(0.75, rem));
+        @include component-size(ms(1.25, rem), 100%, ms(1.25, rem));
 
         // Button icon
         .c-button__icon {
