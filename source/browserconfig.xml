@@ -2,11 +2,10 @@
 <browserconfig>
   <msapplication>
     <tile>
-      <square70x70logo src="static/favicons/microsoft/mstile-70x70.png"/>
-      <square150x150logo src="static/favicons/microsoft/mstile-150x150.png"/>
-      <square310x310logo src="static/favicons/microsoft/mstile-310x310.png"/>
-      <wide310x150logo src="static/favicons/microsoft/mstile-310x150.png"/>
-      <TileColor>#48D7E7</TileColor>
+      <square70x70logo src="/static/favicons/microsoft/mstile-70x70.png?v={{timestamp}}"/>
+      <square150x150logo src="/static/favicons/microsoft/mstile-150x150.png?v={{timestamp}}"/>
+      <square310x310logo src="/static/favicons/microsoft/mstile-310x310.png?v={{timestamp}}"/>
+      <TileColor>#48d7e7</TileColor>
     </tile>
   </msapplication>
 </browserconfig>
