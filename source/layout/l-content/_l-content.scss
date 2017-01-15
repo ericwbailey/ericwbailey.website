@@ -56,4 +56,26 @@
             height: em(30);
         }
     }
+
+    &__graphic {
+        margin-top: ms(-2, rem);
+        margin-bottom: ms(-1, rem);
+        margin-left: 15vw;
+        width: 50vw;
+
+        // Breakpoints
+        @include mappy-bp(palm-small) {
+            @include component-align(float, end);
+
+            padding-top: ms(-3, rem);
+            margin-left: initial;
+            margin-right: -20%;
+            width: 40vw;
+        }
+
+        &--404,
+        &--accessibility {
+            transform: rotate(3deg);
+        }
+    }
 }

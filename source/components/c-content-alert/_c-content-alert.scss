@@ -23,6 +23,17 @@
 
     cursor: default;
 
+    // Contexts
+    .l-content & {
+        display: block;
+        margin-top: rem(4);
+
+        // breakpoints
+        @include mappy-bp(wrist-large) {
+            display: initial;
+        }
+    }
+
     &__icon {
         @include component-size(rem(14), rem(14));
 
