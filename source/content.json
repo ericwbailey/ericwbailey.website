@@ -3,7 +3,8 @@
         "home": "Eric Bailey",
         "tagline": "Boston-based user experience designer",
         "colophon": "Colophon",
-        "accessibility-statement": "Accessibility Statement"
+        "accessibility-statement": "Accessibility Statement",
+        "four-oh-four": "The page you’re looking for can’t be found"
     },
     "home": {
         "title": "Hi there!"
@@ -38,8 +39,5 @@
     },
     "dialog": {
         "title": "Email service"
-    },
-    "404": {
-        "title": "The page you're looking for can't be found"
     }
 }
