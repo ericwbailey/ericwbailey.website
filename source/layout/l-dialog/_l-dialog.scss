@@ -17,16 +17,16 @@
 }
 
 
-@keyframes slide-out-down {
-  from {
-    transform: translate3d(0, 0, 0);
-  }
-
-  to {
-    visibility: hidden;
-    transform: translate3d(0, 100%, 0);
-  }
-}
+// @keyframes slide-out-down {
+//   from {
+//     transform: translate3d(0, 0, 0);
+//   }
+//
+//   to {
+//     visibility: hidden;
+//     transform: translate3d(0, 100%, 0);
+//   }
+// }
 
 
 // Component Styling ----------------------------------------------------------
@@ -60,11 +60,11 @@
         animation-name: slide-in-up;
     }
 
-    &.js-slide-out-down {
-        animation-duration: animation-duration(shorter);
-        animation-fill-mode: both;
-        animation-name: slide-out-down;
-    }
+    // &.js-slide-out-down {
+    //     animation-duration: animation-duration(shorter);
+    //     animation-fill-mode: both;
+    //     animation-name: slide-out-down;
+    // }
 
     // Breakpoints
     @include mappy-bp(palm-medium) {
