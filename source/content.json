@@ -38,5 +38,8 @@
     },
     "dialog": {
         "title": "Email service"
+    },
+    "404": {
+        "title": "The page you're looking for can't be found"
     }
 }

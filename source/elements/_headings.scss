@@ -56,3 +56,35 @@
 .heading-alpha {
     @include heading-alpha();
 }
+
+
+// Beta
+@mixin heading-beta() {
+    @include typography-tracking(tight);
+
+    margin-top: ms(1.5, em);
+    margin-bottom: ms(0.5, em);
+    margin-left: -0.5ch;
+
+    font-size: ms(1.25, em);
+    font-style: italic;
+    font-weight: $font-weight-bold;
+    line-height: 1.1;
+
+    // Contexts
+    .wf-loading & {
+        @include typography-tracking(tightest);
+    }
+
+    // Breakpoints
+    @include mappy-bp(palm-medium) {
+        margin-top: ms(1.75, em);
+        margin-left: -1ch;
+
+        // font-size: ms(1.5, em);
+    }
+}
+
+.heading-beta {
+    @include heading-beta();
+}
