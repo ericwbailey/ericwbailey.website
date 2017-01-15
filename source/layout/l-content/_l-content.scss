@@ -77,5 +77,12 @@
         &--accessibility {
             transform: rotate(3deg);
         }
+
+        &--colophon {
+            // Breakpoints
+            @include mappy-bp(palm-small) {
+                margin-top: -10vw;
+            }
+        }
     }
 }
