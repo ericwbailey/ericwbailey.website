@@ -41,8 +41,8 @@
 
 // Row alignments
 @mixin table-row-align-top() { vertical-align: top; }
-@mixin table-row-align-middle { vertical-align: middle; }
-@mixin table-row-align-bottom { vertical-align: bottom; }
+@mixin table-row-align-middle() { vertical-align: middle; }
+@mixin table-row-align-bottom() { vertical-align: bottom; }
 
 
 // Table Styling --------------------------------------------------------------
