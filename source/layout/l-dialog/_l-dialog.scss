@@ -5,7 +5,28 @@
 
 
 // Component Logic ------------------------------------------------------------
+@keyframes slide-in-up {
+    from {
+        transform: translate3d(0, 100%, 0);
+        visibility: visible;
+    }
 
+    to {
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+
+// @keyframes slide-out-down {
+//   from {
+//     transform: translate3d(0, 0, 0);
+//   }
+//
+//   to {
+//     visibility: hidden;
+//     transform: translate3d(0, 100%, 0);
+//   }
+// }
 
 
 // Component Styling ----------------------------------------------------------
@@ -32,6 +53,18 @@
     &[aria-hidden="true"] {
         @include content-hide(remove);
     }
+
+    &.js-slide-in-up {
+        animation-duration: animation-duration(shorter);
+        animation-fill-mode: both;
+        animation-name: slide-in-up;
+    }
+
+    // &.js-slide-out-down {
+    //     animation-duration: animation-duration(shorter);
+    //     animation-fill-mode: both;
+    //     animation-name: slide-out-down;
+    // }
 
     // Breakpoints
     @include mappy-bp(palm-medium) {

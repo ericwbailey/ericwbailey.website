@@ -11,12 +11,9 @@ var contactInfo = {
   service: "liamg"
 };
 
-
 var copyButton = document.getElementById( 'button-copy' );
 
-
 var mailtoLinks = document.querySelectorAll( '[data-message-subject]' );
-
 
 var sectionMain = document.getElementById( 'section-main' );
 

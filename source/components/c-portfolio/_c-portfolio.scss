@@ -123,7 +123,7 @@
 
 // Component Styling ----------------------------------------------------------
 .c-portfolio {
-    max-width: $global-type-measure - 26; // EXCEPTION: Narrower width creates a nice type lockup
+    max-width: ms(16, rem); // EXCEPTION: Narrower width creates a nice type lockup
 
     color: c(type, light);
 
