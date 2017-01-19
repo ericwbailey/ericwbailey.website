@@ -55,6 +55,7 @@ module.exports = {
     errata: {
         source: [
             SOURCE_DIR + '/browserconfig.xml',
+            SOURCE_DIR + '/CNAME',
             SOURCE_DIR + '/crossdomain.xml',
             SOURCE_DIR + '/humans.txt',
             SOURCE_DIR + '/manifest.json',
