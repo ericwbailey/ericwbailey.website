@@ -47,13 +47,6 @@
 //     "utilities/imports/typefaces";
 
 
-// Reset ----------------------------------------------------------------------
-// `normalize.css` fixes inconsistencies across major browsers, then
-// `base/_reset.scss` zeroes out elements and provides some extra defaults.
-@import
-    "../node_modules/normalize.css/normalize", // https://necolas.github.io/normalize.css/
-    "base/reset";
-
 // Functions ------------------------------------------------------------------
 @import
     "utilities/functions/animation.duration",
@@ -169,6 +162,15 @@
 //     false, // Grayscale
 //     false // Colorblindness type
 // );
+
+
+// Reset ----------------------------------------------------------------------
+// `normalize.css` fixes inconsistencies across major browsers, then
+// `base/_reset.scss` zeroes out elements and provides some extra defaults.
+@import
+    "../node_modules/normalize.css/normalize", // https://necolas.github.io/normalize.css/
+    "base/reset";
+
 
 // Base -----------------------------------------------------------------------
 @import
