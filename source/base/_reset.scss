@@ -50,9 +50,9 @@ time, code, kbd, samp, var, mark, bdi, bdo, ruby, rt, rp, span, br, wbr {
 // Element Tweaks -------------------------------------------------------------
 
 // Removes borders from linked images
-a img {
-    border: none;
-}
+// a img {
+//     border: none;
+// }
 
 
 // Give a help cursor to elements that give extra info on `:hover`.
@@ -63,25 +63,25 @@ dfn[title] {
 
 
 // Remove default table spacing
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
+// table {
+//   border-collapse: collapse;
+//   border-spacing: 0;
+// }
 
 
-[aria-busy="true"],
-[disabled] {
-    cursor: not-allowed;
-}
+// [aria-busy="true"],
+// [disabled] {
+//     cursor: not-allowed;
+// }
 
 
 // Selects all content in a read-only input field
-input:not([type="button"]):not([type="checkbox"]):not([type="radio"]),
-textarea {
-    &:read-only {
-        user-select: all;
-    }
-}
+// input:not([type="button"]):not([type="checkbox"]):not([type="radio"]),
+// textarea {
+//     &:read-only {
+//         user-select: all;
+//     }
+// }
 
 
 ol,
