@@ -66,7 +66,8 @@ gulp.task('deploy', help.default.deploy, function() {
         'deploy-images',
         'deploy-sitemap',
 //        'git',
-        'document'
+        'document',
+        'screenshots'
     );
 });
 
