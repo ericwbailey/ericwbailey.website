@@ -63,6 +63,7 @@ gulp.task('test-pages', help.pages.test, function() {
             collapseBooleanAttributes: true,
             collapseWhitespace: true,
             keepClosingSlash: true,
+            minifyCSS: true,
             minifyJS: true,
             processConditionalComments: true,
             removeComments: true,
