@@ -7,7 +7,6 @@
 // Component Logic ------------------------------------------------------------
 @mixin c-link-list-set-grid() {
     @supports #{$supports-flexbox} {
-        // position: relative;
         display: flex;
         flex-flow: row wrap;
     }
@@ -26,12 +25,12 @@
 
 @keyframes bounce-in {
     from, 20%, 40%, 60%, 80%, to {
-        animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     }
 
     0% {
         opacity: 0;
-        transform: scale3d(.3, .3, .3);
+        transform: scale3d(0.3, 0.3, 0.3);
     }
 
     20% {
@@ -39,7 +38,7 @@
     }
 
     40% {
-        transform: scale3d(.9, .9, .9);
+        transform: scale3d(0.9, 0.9, 0.9);
     }
 
     60% {
@@ -48,7 +47,7 @@
     }
 
     80% {
-        transform: scale3d(.97, .97, .97);
+        transform: scale3d(0.97, 0.97, 0.97);
     }
 
     to {
@@ -154,9 +153,8 @@
     &__coffee {
         @include component-size(rem(22));
 
-        margin-left: rem(10);
+        margin-left: rem(6);
         position: absolute;
-          bottom: rem(40);
 
         fill: transparent;
 
@@ -164,7 +162,7 @@
         @include mappy-bp(palm-medium) {
             @include component-size(rem(28));
 
-            bottom: rem(41);
+            margin-left: rem(10);
         }
     }
 
@@ -172,10 +170,9 @@
         // States
         &:hover {
             + .c-link-list__coffee {
-
                 fill: c(type, dark);
 
-                animation-duration: 0.75s;
+                animation-duration: animation-duration(longer);
                 animation-fill-mode: both;
                 animation-iteration-count: 1;
                 animation-name: bounce-in;
