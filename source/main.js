@@ -4,13 +4,6 @@
 
 
 // Global Variables -----------------------------------------------------------
-var contactInfo = {
-  first:   "cire",
-  middle:  "w",
-  last:    "yeliab",
-  service: "liamg"
-};
-
 var copyButton = document.getElementById( 'button-copy' );
 
 var mailtoLinks = document.querySelectorAll( '[data-message-subject]' );
@@ -66,6 +59,13 @@ var dialog = new A11yDialog( document.getElementById( 'a11y-dialog' ), sectionMa
  * @public
  */
 var printContactInfo = function() {
+  var contactInfo = {
+    first:   "cire",
+    middle:  "w",
+    last:    "yeliab",
+    service: "liamg"
+  };
+
   return reverseString(contactInfo.first) + "." + reverseString(contactInfo.middle) + "." + reverseString(contactInfo.last) + "@" + reverseString(contactInfo.service) + ".com";
 }
 
