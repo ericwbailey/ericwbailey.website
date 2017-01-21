@@ -9,12 +9,12 @@
     @include component-page-side-margins();
 
     padding-top: rem(50);
-    padding-bottom: rem(160);
+    padding-bottom: rem(240);
     z-index: z(l-content);
 
     @supports #{$supports-viewportunits} {
         padding-top: 8vh;
-        padding-bottom: 24vh;
+        padding-bottom: 36vh;
     }
 
     // Breakpoints
