@@ -7,11 +7,11 @@
         "four-oh-four": "The page you’re looking for can’t be found"
     },
     "home": {
-        "title": "Hi there!"
+        "title": "Welcome!"
     },
     "about": {
         "title": "About",
-            "body": "I&rsquo;m Eric, a Boston-based user experience designer working&nbsp;at&nbsp;<a class='c-about__link' rel='external noopener' href='http://cantina.co/'>Cantina</a>."
+        "body": "I&rsquo;m Eric, a Boston-based user experience designer working&nbsp;at&nbsp;<a class='c-about__link' rel='external noopener' href='http://cantina.co/'>Cantina</a>."
     },
     "philosophy": {
         "title": "Philosophy",
