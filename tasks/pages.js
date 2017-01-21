@@ -46,7 +46,7 @@ gulp.task('test-pages', help.pages.test, function() {
             inline: true,
             base: paths.pages.build,
             width: 720,
-            height: 1620,
+            height: 1080,
             ignore: [
                 '@font-face',
                 '@supports', // TODO: Remember to add supports to component mixins
