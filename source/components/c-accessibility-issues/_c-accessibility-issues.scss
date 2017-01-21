@@ -5,7 +5,19 @@
 
 
 // Component Logic ------------------------------------------------------------
+@keyframes fade-in {
+    from, 0%, to {
+        animation-timing-function: animation-ease(dialogue);
+    }
 
+    0% {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
 
 
 // Component Styling ----------------------------------------------------------
@@ -14,6 +26,12 @@
         &::before {
             @include component-size(rem(30), rem(30));
             @include generate-unicode-symbol($symbol-manicule-full);
+
+            animation-duration: animation-duration(long);
+            animation-fill-mode: both;
+            animation-iteration-count: 1;
+            animation-name: fade-in;
+
 
             display: block;
             float: left;
