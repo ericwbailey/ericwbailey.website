@@ -7,16 +7,19 @@
 // Component Logic ------------------------------------------------------------
 @mixin c-link-list-set-grid() {
     @supports #{$supports-flexbox} {
-        position: relative;
+        // position: relative;
         display: flex;
         flex-flow: row wrap;
     }
 }
 
 @mixin c-link-list-set-columns($columns) {
+    width: 100% / $columns;
+
     @supports #{$supports-flexbox} {
         flex: 1;
         flex-basis: 100% / $columns;
+        width: initial;
     }
 }
 
@@ -62,7 +65,7 @@
     // Breakpoints
     @include mappy-bp(lap-small) {
         // Contexts
-        .l-section__interests &,
+        .l-section__passions &,
         .l-section__projects & {
             @include c-link-list-set-grid();
         }
@@ -135,7 +138,7 @@
 
         // Breakpoints
         @include mappy-bp(lap-small) {
-            .l-section__interests &,
+            .l-section__passions &,
             .l-section__projects & {
                 @include c-link-list-set-columns(2);
             }
@@ -202,8 +205,8 @@
             @include content-underline($underline-background-color: c(l-section, contact));
         }
 
-        .l-section__interests & {
-            @include content-underline($underline-background-color: c(l-section, interests));
+        .l-section__passions & {
+            @include content-underline($underline-background-color: c(l-section, passions));
         }
 
         .l-section__projects & {

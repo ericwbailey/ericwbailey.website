@@ -49,7 +49,7 @@ $l-section-vertical-padding-palm: 14vh;
     &__about,
     &__contact,
     &__errata,
-    &__interests,
+    &__passions,
     &__philosophy,
     &__portfolio-and-client-list,
     &__projects,
@@ -79,8 +79,8 @@ $l-section-vertical-padding-palm: 14vh;
         background-color: c(l-section, about);
     }
 
-    &__interests {
-        background-color: c(l-section, interests);
+    &__passions {
+        background-color: c(l-section, passions);
     }
 
     &__philosophy {

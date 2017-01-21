@@ -12,7 +12,7 @@
     margin-top: ms(2);
 
     &__link {
-        @include content-underline($underline-background-color: c(l-section, interests));
+        @include content-underline($underline-background-color: c(l-section, passions));
     }
 
     &[data-learning-status] {
