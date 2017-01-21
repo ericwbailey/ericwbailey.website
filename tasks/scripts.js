@@ -31,10 +31,9 @@ gulp.task('build-scripts', help.scripts.build, function () {
 
 // Test
 gulp.task('test-scripts', help.scripts.build, function () {
-    return gulp.src(paths.scripts.source)
-        .pipe(concat('main.js'))
+    return gulp.src(paths.scripts.test.source)
         .pipe(uglify())
-        .pipe(gulp.dest(paths.scripts.test));
+        .pipe(gulp.dest(paths.scripts.test.dest));
 });
 
 

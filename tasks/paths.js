@@ -151,7 +151,10 @@ module.exports = {
         source: SOURCE_DIR + '/**/*.js',
         watch: SOURCE_DIR + '/**/*.js',
         build: BUILD_DIR,
-        test: TEST_DIR,
+        test: {
+            source: BUILD_DIR + '/main.js',
+            dest: TEST_DIR
+        },
         deploy: {
             source: TEST_DIR + '/*.js',
             dest: DEPLOY_DIR
