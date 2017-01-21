@@ -6,6 +6,8 @@
 // Global Variables -----------------------------------------------------------
 var copyButton = document.getElementById( 'button-copy' );
 
+var dialogEl = document.getElementById( 'a11y-dialog' );
+
 var mailtoLinks = document.querySelectorAll( '[data-message-subject]' );
 
 var sectionMain = document.getElementById( 'section-main' );
@@ -91,6 +93,7 @@ function handleDialogueButtonClick( e ) {
     elm.setAttribute( 'href', href );
   });
 
+  dialogEl.classList.add( 'js-slide-in-up' );
   dialog.show();
 }
 
