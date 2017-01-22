@@ -16,7 +16,7 @@ $c-breadcrumb-outline-small: em(3);
       right: ms(0.5, rem);
     z-index: z(c-breadcrumb);
 
-    outline: $c-breadcrumb-outline-small solid #e8e8e8; //c(c-breadcrumb, outline-base);
+    outline: $c-breadcrumb-outline-small solid c(c-breadcrumb, outline-base);
 
     background-color: c(c-breadcrumb, background-base);
 
@@ -51,7 +51,7 @@ $c-breadcrumb-outline-small: em(3);
     &:focus {
         background-color: c(c-breadcrumb, background-focus);
 
-        outline: em(4) solid c(c-breadcrumb, outline-base);
+        outline: em(4) solid c(c-breadcrumb, outline-focus);
 
         color: c(c-breadcrumb, text-focus);
 
@@ -71,14 +71,17 @@ $c-breadcrumb-outline-small: em(3);
 
     @include mappy-bp(palm-medium) {
         bottom: initial;
-        padding: ms(0.75, em) ms(1, em);
+        padding: ms(0.7, em) ms(1, em);
+        right: ms(0.25, rem);
         top: ms(2, rem);
         transform: rotate(90deg);
+
+        outline: none;
 
         // States
         &:active {
             bottom: initial;
-            top: ms(2.04, rem);
+            top: ms(2.02, rem);
         }
     }
 }
