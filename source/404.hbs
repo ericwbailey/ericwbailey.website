@@ -38,44 +38,47 @@
     aria-labelledby="title-404"
     role="main">
 
-    <h1
-        id="title-404"
-        class="heading-alpha">
-        {{content.page-title.four-oh-four}}
-    </h1>
+    <div class="l-content__title l-content__title--404">
 
-    <img
-        alt=""
-        class="l-content__graphic l-content__graphic--404"
-        src="images/layout/l-content/404.svg" />
+        <h1
+            id="title-404"
+            class="heading-alpha">
+            {{content.page-title.four-oh-four}}
+        </h1>
 
-    <h2 class="heading-beta">
-        Were you browsing my site?
-    </h2>
+    </div>
 
-    <p>
-        Please <a rel="external me noopener" data-message-subject="Broken link" href="mailto:&#101;&#114;&#105;&#099;&#046;&#119;&#046;&#098;&#097;&#105;&#108;&#101;&#121;☛REMOVE-THIS☚&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;?subject=&#066;&#114;&#111;&#107;&#101;&#110;&#032;&#108;&#105;&#110;&#107;">tell me about the broken link</a> and I&rsquo;ll fix it.
-    </p>
-    <h2 class="heading-beta">
-        Did you come here from another site?
-    </h2>
-    <p>
-        Sometimes links aren&rsquo;t written properly. Sometimes I&rsquo;ve changed things around on my site since the other site wrote a link that points here. If either are the case, please let me know about <a rel="external me noopener" data-message-subject="Broken offsite link" href="mailto:&#101;&#114;&#105;&#099;&#046;&#119;&#046;&#098;&#097;&#105;&#108;&#101;&#121;☛REMOVE-THIS☚&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;?subject=&#066;&#114;&#111;&#107;&#101;&#110;&#032;&#111;&#102;&#102;&#115;&#105;&#116;&#101;&#032;&#108;&#105;&#110;&#107;">the other site&rsquo;s broken link</a> and I&rsquo;ll ask them to fix it.
-    </p>
-    <h2 class="heading-beta">
-        Did you type a <abbr title="Uniform Resource Locator">URL</abbr> to get here?
-    </h2>
-    <p>
-        Double-check <a rel="external noopener" href="https://en.wikipedia.org/wiki/Address_bar">your browser&rsquo;s address bar</a> to make sure you typed it correctly, or <a rel="home" href="index.html">head home</a> to try again.
-    </p>
-    <h2 class="heading-beta">
-        Want a distraction instead?
-    </h2>
-    <p>
-        Here are some dumb gimmick sites I own:
-    </p>
+    <div class="l-content__body">
 
-    {{>components/c-link-list/c-404}}
+        <h2 class="heading-beta">
+            Were you browsing my site?
+        </h2>
+
+        <p>
+            Please <a rel="external me noopener" data-message-subject="Broken link" href="mailto:&#101;&#114;&#105;&#099;&#046;&#119;&#046;&#098;&#097;&#105;&#108;&#101;&#121;☛REMOVE-THIS☚&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;?subject=&#066;&#114;&#111;&#107;&#101;&#110;&#032;&#108;&#105;&#110;&#107;">tell me about the broken link</a> and I&rsquo;ll fix it.
+        </p>
+        <h2 class="heading-beta">
+            Did you come here from another site?
+        </h2>
+        <p>
+            Sometimes links aren&rsquo;t written properly. Sometimes I&rsquo;ve changed things around on my site since the other site wrote a link that points here. If either are the case, please let me know about <a rel="external me noopener" data-message-subject="Broken offsite link" href="mailto:&#101;&#114;&#105;&#099;&#046;&#119;&#046;&#098;&#097;&#105;&#108;&#101;&#121;☛REMOVE-THIS☚&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;?subject=&#066;&#114;&#111;&#107;&#101;&#110;&#032;&#111;&#102;&#102;&#115;&#105;&#116;&#101;&#032;&#108;&#105;&#110;&#107;">the other site&rsquo;s broken link</a> and I&rsquo;ll ask them to fix it.
+        </p>
+        <h2 class="heading-beta">
+            Did you type a <abbr title="Uniform Resource Locator">URL</abbr> to get here?
+        </h2>
+        <p>
+            Double-check <a rel="external noopener" href="https://en.wikipedia.org/wiki/Address_bar">your browser&rsquo;s address bar</a> to make sure you typed it correctly, or <a rel="home" href="index.html">head home</a> to try again.
+        </p>
+        <h2 class="heading-beta">
+            Want a distraction instead?
+        </h2>
+        <p>
+            Here are some dumb gimmick sites I own:
+        </p>
+
+        {{>components/c-link-list/c-404}}
+
+    </div>
 
 </main>
 
