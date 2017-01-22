@@ -89,16 +89,16 @@
         @include generate-message("Intrepid co-host");
     }
 
-    [data-project-description="exploit-logos"] {
-        @include generate-message("Curated malice");
-    }
-
     [data-project-description="fresh-garbage-newsletter"] {
         @include generate-message("Weekly links of note");
     }
 
     [data-project-description="hancock-lighting"] {
         @include generate-message("Digitizing a landmark");
+    }
+
+    [data-project-description="internetdotpdf"] {
+        @include generate-message("A proxy with moxie");
     }
 
     [data-project-description="lowvision-support"] {
