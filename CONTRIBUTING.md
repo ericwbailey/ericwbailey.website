@@ -11,7 +11,6 @@ Following these guidelines helps to communicate that you respect the time of the
     - [Terms of Use](#terms-of-use)
     - [Labeling](#labeling)
     - [Templates](#templates)
-    - [GitMagic](#gitmagic)
 - [Submitting Issues](#submitting-issues)
 - [Pull and Feature Requests](#pull-and-feature-requests)
     1. [Submitting Pull Requests](#submitting-pull-requests)
@@ -36,9 +35,6 @@ Labels will be updated throughout the submission process to reflect the submissi
 ### Templates
 This project uses templates for Issue and Pull Requests. Following the provided template helps the project maintainers have all the right details up front, which makes addressing feedback easier.
 
-### GitMagic
-This repo uses [GitMagic](https://gitmagic.io/) to help ensure that contributions are consistently formatted in a way that's easy to work with. The rules can be seen [here](https://github.com/ericwbailey/ericwbailey.design/blob/master/contributing.json).
-
 
 ## Submitting Issues
 *An Issue is a demonstrable problem that is caused by the code in the repository.*
@@ -46,6 +42,7 @@ This repo uses [GitMagic](https://gitmagic.io/) to help ensure that contribution
 First, use the [GitHub Issue search](https://github.com/ericwbailey/ericwbailey.design/issues) to check if the issue has already been reported—then, check if the issue has been fixed. Try to reproduce it using the latest [master branch](https://github.com/$$githubAuthor/$$githubTitle) in the repository. Next, isolate the problem—ideally [create a reduced test case](https://css-tricks.com/reduced-test-cases/) and a live example.
 
 A good Issue report shouldn't leave others needing to chase you up for more information. Please try to be as detailed as possible in your report. What is your environment? What steps will reproduce the issue? What browser(s) and OS versions experience the problem? What would you expect to be the outcome? Any guesses to a possible solution? All these details will help people to fix any potential bugs.
+
 
 ## Pull and Feature Requests
 
