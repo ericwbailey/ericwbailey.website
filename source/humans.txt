@@ -27,6 +27,7 @@ http://ericbailey.design
   - SVG (https://www.w3.org/TR/SVG/)
 
 - Components
+  - enchilada (https://github.com/ericwbailey/enchilada)
   - Git (https://git-scm.com/)
   - GitHub (https://github.com/)
   - Gulp (http://gulpjs.com/)
@@ -41,6 +42,7 @@ http://ericbailey.design
   - loadCSS (https://github.com/filamentgroup/loadCSS)
   - Mappy Breakpoints (https://github.com/zellwk/mappy-breakpoints)
   - Noun Project (http://thenounproject.com/)
+  - Symbolset (https://symbolset.com/)
   - TypeKit (https://typekit.com/)
 
 - Browsers
@@ -53,8 +55,11 @@ http://ericbailey.design
 
 - Software
   - Atom (http://atom.io/)
+  - LightPaper (http://lightpaper.42squares.in/)
+  - MacOS (http://www.apple.com/macos/sierra/)
   - NVDA (http://www.nvaccess.org/)
   - Sketch (https://www.sketchapp.com/)
   - SVGOMG (https://jakearchibald.github.io/svgomg/)
   - Tower (https://www.git-tower.com/)
   - VirtualBox (https://www.virtualbox.org/wiki/Downloads)
+  - Windows 10 (https://www.microsoft.com/en-us/windows)
