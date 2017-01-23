@@ -148,11 +148,6 @@
         }
     }
 
-    // Makes button underline match link underline
-    .is-contact-button {
-        height: em(30);
-    }
-
     &__icon {
         @include component-size(em(15));
 

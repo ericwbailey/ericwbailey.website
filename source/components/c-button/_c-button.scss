@@ -101,3 +101,17 @@
         }
     }
 }
+
+// Makes button underline match link underline
+.is-contact-button {
+
+    // Contexts
+    .c-link-list & {
+        height: em(30);
+    }
+
+    .l-content__body &,
+    .c-portfolio & {
+        height: em(29);
+    }
+}

@@ -179,24 +179,6 @@
             }
         }
 
-        // Makes button underline match link underline
-        &.is-contact-button {
-            height: em(29);
-        }
-
-        // Breakpoints
-        @include mappy-bp(palm-medium) {
-            &.is-contact-button {
-                height: em(30);
-            }
-        }
-
-        @include mappy-bp(lap-small) {
-            &.is-contact-button {
-                height: em(29);
-            }
-        }
-
         // Contexts
         .l-section__contact & {
             @include content-underline($underline-background-color: c(l-section, contact));
