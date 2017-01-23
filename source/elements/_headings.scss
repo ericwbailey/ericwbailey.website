@@ -30,7 +30,7 @@
 @mixin heading-alpha() {
     @include typography-tracking(tight);
 
-    margin-bottom: ms(0.75, em);
+    margin-bottom: ms(1.5, rem);
     margin-left: -0.5ch;
 
     font-size: ms(1.75, em);
@@ -45,10 +45,16 @@
 
     // Breakpoints
     @include mappy-bp(palm-medium) {
-        margin-bottom: ms(1, em);
+        margin-bottom: ms(2.25, rem);
         margin-left: -1ch;
 
         font-size: ms(2, em);
+    }
+
+    @include mappy-bp(lap-small) {
+        font-size: ms(2.5, em);
+
+        margin-bottom: ms(2.5, rem);
     }
 }
 
@@ -79,8 +85,6 @@
     @include mappy-bp(palm-medium) {
         margin-top: ms(1.75, em);
         margin-left: -1ch;
-
-        // font-size: ms(1.5, em);
     }
 }
 
