@@ -15,7 +15,7 @@ http://ericbailey.design
 
 
 ## Thanks
-- My lovely friends, family, and coworkers
+- My friends, family, and coworkers
 
 
 ## Site
@@ -40,6 +40,7 @@ http://ericbailey.design
   - Family.scss (http://lukyvj.github.io/family.scss/)
   - loadCSS (https://github.com/filamentgroup/loadCSS)
   - Mappy Breakpoints (https://github.com/zellwk/mappy-breakpoints)
+  - Noun Project (http://thenounproject.com/)
   - TypeKit (https://typekit.com/)
 
 - Browsers
