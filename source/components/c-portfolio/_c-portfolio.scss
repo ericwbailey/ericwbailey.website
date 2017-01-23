@@ -146,18 +146,6 @@
                 fill: c(type, dark);
             }
         }
-
-        // Makes button underline match link underline
-        &.is-contact-button {
-            height: em(31);
-        }
-
-        // Breakpoints
-        @include mappy-bp(palm-medium) {
-            &.is-contact-button {
-                height: em(31);
-            }
-        }
     }
 
     // Makes button underline match link underline

@@ -31,7 +31,7 @@
             width: 84.375vw;
             z-index: z(ceiling);
 
-            border: 1.5vw solid c(c-skipnav, border);
+            border: border(thickest) solid c(c-skipnav, border);
             outline: none;
 
             background-color: c(c-skipnav, background);

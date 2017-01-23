@@ -10,7 +10,7 @@ body {
 
     opacity: 1; // For when `.is-faded` is removed
 
-    transition: opacity animation-duration(long);
+    transition: opacity animation-duration(long); // Transitions `.is-faded`
 
     // Breakpoints
     @include mappy-bp(palm-medium) {
@@ -23,9 +23,3 @@ body {
         transition: none;
     }
 }
-
-// Lobotomized Owl selector provides default vertical spacing:
-// http://alistapart.com/article/axiomatic-css-and-lobotomized-owls
-// body * + * {
-//     margin-top: ms(1, rem);
-// }

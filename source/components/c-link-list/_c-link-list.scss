@@ -154,7 +154,7 @@
         @include component-size(rem(22));
 
         margin-left: rem(6);
-        position: absolute;
+        position: absolute; // Keeps icon by the link without shifting the link's position
 
         fill: transparent;
 

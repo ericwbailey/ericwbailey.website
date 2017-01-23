@@ -12,12 +12,9 @@
 .c-button {
     &__copy {
         @include component-button();
-        @include component-size(ms(1, rem), ms(2.5, rem));
+        @include component-size(ms(1.25, rem), 100%, ms(0.5, rem));
 
-        margin-top: ms(0.5, rem);
         position: static;
-        width: 100%;
-        height: ms(1.25, rem);
 
         font-size: em(16);
 
@@ -51,7 +48,8 @@
 
         // Breakpoints
         @include mappy-bp(wrist-medium) {
-            float: right;
+            @include component-align(float, end);
+
             margin-top: 0;
             position: relative;
               bottom: rem(40);
@@ -66,10 +64,10 @@
         }
 
         @include mappy-bp(lap-small) {
+            height: ms(1.25, rem);
             margin-top: ms(0.5, rem);
             position: static;
             width: 100%;
-            height: ms(1.25, rem);
         }
     }
 

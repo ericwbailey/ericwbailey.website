@@ -82,7 +82,8 @@
 
         // Breakpoints
         @include mappy-bp(lap-small) {
-            float: left;
+            @include component-align(float, start);
+
             width: rem(290);
             margin-right: rem(60);
         }
@@ -93,8 +94,9 @@
 
         // Breakpoints
         @include mappy-bp(lap-small) {
+            @include component-align(float, start);
+
             margin-top: rem(42); // Lines services up vertically with email address input field
-            float: left;
             width: calc(100% - #{rem(450)});
         }
     }
@@ -104,7 +106,8 @@
 
         // Breakpoints
         @include mappy-bp(lap-small) {
-            float: right;
+            @include component-align(float, end);
+
             width: rem(100);
         }
     }
