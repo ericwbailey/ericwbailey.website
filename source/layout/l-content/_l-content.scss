@@ -29,7 +29,7 @@
 
         display: flex;
         flex-direction: column;
-        height: 55vh;
+        height: 45vh;
         justify-content: flex-end;
 
         background-repeat: no-repeat;
@@ -41,12 +41,10 @@
 
         &--404 {
             background-color: c(l-content, background-404);
-            background-image: url(images/layout/l-content/background-shruggie.svg);
-            background-position: center ms(4, rem);
-            background-size: 70%;
 
             // Breakpoints
             @include mappy-bp(palm-medium) {
+                background-image: url(images/layout/l-content/background-shruggie.svg);
                 background-position: center ms(4.75, rem);
                 background-size: 60%;
             }
