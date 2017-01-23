@@ -10,31 +10,84 @@
 
     padding-top: rem(50);
     padding-bottom: rem(240);
-    z-index: z(l-content);
 
     @supports #{$supports-viewportunits} {
         padding-top: 8vh;
         padding-bottom: 36vh;
-    }
-
-    // Breakpoints
-    @include mappy-bp(palm-medium) {
-        padding-top: rem(120);
-        padding-bottom: rem(120);
-
-        @supports #{$supports-viewportunits} {
-            padding-top: 6vh;
-            padding-bottom: 54vh;
-        }
     }
 }
 
 
 // Layout Styling -------------------------------------------------------------
 .l-content {
-    @include l-content();
+    z-index: z(l-content);
 
-    background-color: c(l-content, background-secondary);
+    background-color: c(l-content, background-body);
+
+    &__title {
+        @include component-page-side-margins();
+
+        display: flex;
+        flex-direction: column;
+        height: 55vh;
+        justify-content: flex-end;
+
+        background-repeat: no-repeat;
+
+        // Breakpoints
+        @include mappy-bp(palm-medium) {
+            height: 65vh;
+        }
+
+        &--404 {
+            background-color: c(l-content, background-404);
+            background-image: url(images/layout/l-content/background-404.svg);
+            background-position: center ms(4, rem);
+            background-size: 70%;
+
+            // Breakpoints
+            @include mappy-bp(palm-medium) {
+                background-position: center ms(4.75, rem);
+                background-size: 60%;
+            }
+        }
+
+        &--accessibility-statement {
+            background-color: c(l-content, background-accessibility);
+            background-image: url(images/layout/l-content/background-accessibility-statement.svg);
+            background-position: left ms(-1, rem) bottom ms(-3.75, rem);
+
+            // Breakpoints
+            @include mappy-bp(palm-medium) {
+                background-position: left ms(1, rem) bottom ms(-4, rem);
+            }
+
+            @include mappy-bp(lap-small) {
+                background-position: left ms(2, rem) bottom ms(-4, rem);
+                background-size: ms(18, rem);
+            }
+        }
+
+        &--colophon {
+            background-color: c(l-content, background-colophon);
+            background-image: url(images/layout/l-content/background-colophon.svg);
+            background-position: bottom center;
+            background-size: cover;
+
+            // Breakpoints
+            @include mappy-bp(palm-medium) {
+                background-position: bottom ms(-3.5, rem) center;
+            }
+
+            @include mappy-bp(lap-small) {
+                background-position: bottom ms(-15, rem) center;
+            }
+        }
+    }
+
+    &__body {
+        @include l-content();
+    }
 
     p {
         @include typography-measure();
@@ -44,7 +97,7 @@
 
     a,
     button[data-message-subject] {
-        @include content-underline($underline-background-color: c(l-content, background-secondary));
+        @include content-underline($underline-background-color: c(l-content, background-body));
     }
 
     // Makes button underline match link underline
@@ -54,35 +107,6 @@
         // Breakpoints
         @include mappy-bp(palm-medium) {
             height: em(30);
-        }
-    }
-
-    &__graphic {
-        margin-top: ms(-2, rem);
-        margin-bottom: ms(-1, rem);
-        margin-left: 15vw;
-        width: 50vw;
-
-        // Breakpoints
-        @include mappy-bp(palm-small) {
-            @include component-align(float, end);
-
-            padding-top: ms(-3, rem);
-            margin-left: initial;
-            margin-right: -20%;
-            width: 40vw;
-        }
-
-        &--404,
-        &--accessibility {
-            transform: rotate(3deg);
-        }
-
-        &--colophon {
-            // Breakpoints
-            @include mappy-bp(palm-small) {
-                margin-top: -12vw;
-            }
         }
     }
 }
