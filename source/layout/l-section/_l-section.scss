@@ -9,6 +9,8 @@ $l-section-vertical-padding-mobile: 8vh;
 
 $l-section-vertical-padding-palm: 14vh;
 
+$l-section-mobile-line-height: $global-type-line-height - 0.2;
+
 @mixin l-section() {
     @include component-page-side-margins();
 
@@ -55,6 +57,13 @@ $l-section-vertical-padding-palm: 14vh;
     &__projects,
     &__writing {
         @include l-section();
+
+        line-height: $l-section-mobile-line-height;
+
+        // Breakpoints
+        @include mappy-bp(wrist-large) {
+            line-height: $global-type-line-height;
+        }
     }
 
     &__contact,
