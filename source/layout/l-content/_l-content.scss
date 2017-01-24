@@ -53,7 +53,7 @@
         &--accessibility-statement {
             background-color: c(l-content, background-accessibility);
             background-image: url(images/layout/l-content/background-accessibility-statement.svg);
-            background-position: left ms(-1, rem) bottom ms(-3.75, rem);
+            background-position: left ms(-0.5, rem) bottom ms(-2.5, rem);
 
             // Breakpoints
             @include mappy-bp(palm-medium) {
@@ -88,9 +88,8 @@
     }
 
     p {
-        @include typography-measure();
-
         margin-top: ms(1.25);
+        max-width: $global-type-measure - 4ex;
     }
 
     a,
