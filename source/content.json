@@ -35,7 +35,7 @@
     },
     "portfolio": {
         "title": "Portfolio and client list",
-        "body": "If you&rsquo;d like to view my portfolio or a see a list of past clients, <a class='c-portfolio__link' data-message-subject='Portfolio inquiry' rel='external me noopener' href='mailto:&#101;&#114;&#105;&#099;&#046;&#119;&#046;&#098;&#097;&#105;&#108;&#101;&#121;☛REMOVE-THIS☚&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;?subject=&#080;&#111;&#114;&#116;&#102;&#111;&#108;&#105;&#111;&#032;&#105;&#110;&#113;&#117;&#105;&#114;&#121;?'>please&nbsp;ask<svg height='22' width='22' aria-hidden='true' viewBox='0 0 100 100' class='icon c-portfolio__icon'><use xlink:href='#icon-envelope'></use></svg></a>&#xfeff;. Thanks!"
+        "body": "If you&rsquo;d like to view my portfolio or a see a list of past clients, <a class='c-portfolio__link' data-message-subject='Portfolio inquiry' rel='external me noopener' href='mailto:&#101;&#114;&#105;&#099;&#046;&#119;&#046;&#098;&#097;&#105;&#108;&#101;&#121;☛REMOVE-THIS☚&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;?subject=&#080;&#111;&#114;&#116;&#102;&#111;&#108;&#105;&#111;&#032;&#105;&#110;&#113;&#117;&#105;&#114;&#121;?'>please&nbsp;ask<svg height='22' width='22' aria-hidden='true' viewBox='0 0 100 100' class='icon c-portfolio__icon'><use xlink:href='#icon-envelope'></use></svg></a>&#xfeff;."
     },
     "dialog": {
         "title": "Email service"

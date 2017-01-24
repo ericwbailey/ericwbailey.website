@@ -123,8 +123,6 @@
 
 // Component Styling ----------------------------------------------------------
 .c-portfolio {
-    max-width: ms(16, rem); // EXCEPTION: Narrower width creates a nice type lockup
-
     color: darken(c(type, light), 25%);
 
     &__link {
