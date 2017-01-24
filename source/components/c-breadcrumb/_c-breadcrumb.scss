@@ -51,7 +51,7 @@ $c-breadcrumb-outline-small: em(3);
     &:focus {
         background-color: c(c-breadcrumb, background-focus);
 
-        outline: em(4) solid c(c-breadcrumb, outline-focus);
+        outline: border(thin) solid c(c-breadcrumb, outline-focus);
 
         color: c(c-breadcrumb, text-focus);
 

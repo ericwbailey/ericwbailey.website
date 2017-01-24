@@ -30,7 +30,7 @@
 
     &:focus {
         background-color: c(link, light);
-        outline: em(10) solid c(link, light);
+        outline: border(thick) solid c(link, light);
 
         color: c(link, dark);
 

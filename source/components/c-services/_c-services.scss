@@ -23,7 +23,7 @@ $service-icon-size: ms(1.25, rem);
         // States
         &:hover {
             .c-services__link {
-                outline: em(4) solid c(c-service, background-hover);
+                outline: border(thin) solid c(c-service, background-hover);
 
                 background-color: c(c-service, background-hover);
             }
@@ -31,7 +31,7 @@ $service-icon-size: ms(1.25, rem);
 
         &:active {
             .c-services__link {
-                outline: em(4) solid c(c-service, background-active);
+                outline: border(thin) solid c(c-service, background-active);
 
                 background-color: c(c-service, background-active);
 
@@ -72,7 +72,7 @@ $service-icon-size: ms(1.25, rem);
 
         // States
         &:focus {
-            outline: em(4) solid c(c-service, background-active);
+            outline: border(thin) solid c(c-service, background-active);
 
             background-color: c(c-service, background-active);
 

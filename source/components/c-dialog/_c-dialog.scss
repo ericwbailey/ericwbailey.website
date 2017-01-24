@@ -65,7 +65,7 @@
         margin: rem(20) rem(14) rem(25) rem(14);
         padding: rem(10) rem(20);
 
-        border-left: border(thin) solid c(validation, error);
+        border-left: border(thinner) solid c(validation, error);
 
         background-color: transparentize(c(validation, error), 0.75);
 
