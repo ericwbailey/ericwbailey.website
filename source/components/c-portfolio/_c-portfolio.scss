@@ -125,12 +125,14 @@
 .c-portfolio {
     max-width: ms(16, rem); // EXCEPTION: Narrower width creates a nice type lockup
 
-    color: c(type, light);
+    color: darken(c(type, light), 25%);
 
     &__link {
         @include footer-underline();
 
         margin-right: rem(2);
+
+        color: c(type, light);
 
         // States
         &:hover {
