@@ -90,6 +90,7 @@
     }
 
     &__email-services {
+        margin-top: ms(1, rem);
         z-index: z(l-dialog-email-services);
 
         // Breakpoints
