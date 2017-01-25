@@ -28,6 +28,7 @@
 
 // Alpha
 @mixin heading-alpha() {
+    @include typography-measure();
     @include typography-tracking(tight);
 
     margin-bottom: ms(1.5, rem);
@@ -65,6 +66,7 @@
 
 // Beta
 @mixin heading-beta() {
+    @include typography-measure();
     @include typography-tracking(tight);
 
     margin-top: ms(1.5, em);
