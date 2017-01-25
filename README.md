@@ -29,4 +29,4 @@ If you can't or won't use GitHub, my personal email is listed in [`AUTHORS`](htt
 
 ## License
 
-[CC BY-NC-SA](https://github.com/ericwbailey/ericwbailey.design/blob/master/LICENSE.md).
+[CC-BY-NC-SA-4.0](https://github.com/ericwbailey/ericwbailey.design/blob/master/LICENSE.md).
