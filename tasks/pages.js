@@ -49,7 +49,6 @@ gulp.task('test-pages', help.pages.test, function() {
             height: 1080,
             ignore: [
                 '@font-face',
-                '@supports', // TODO: Remember to add supports to component mixins
                 /url\(/,
                 'abbr',
                 'abbr[title]',
