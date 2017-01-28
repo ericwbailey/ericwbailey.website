@@ -9,7 +9,7 @@ $l-section-vertical-padding-mobile: 8vh;
 
 $l-section-vertical-padding-palm: 14vh;
 
-$l-section-mobile-line-height: $global-type-line-height - 0.25;
+$l-section-mobile-line-height: $global-type-line-height + 100;
 
 @mixin l-section() {
     @include component-page-side-margins();
