@@ -58,7 +58,7 @@ $l-section-mobile-line-height: $global-type-line-height + 100;
     &__writing {
         @include l-section();
 
-        line-height: 1.35;
+        line-height: 1.4;
 
         // Breakpoints
         @include mappy-bp(wrist-large) {
