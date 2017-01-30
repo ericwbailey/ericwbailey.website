@@ -8,20 +8,42 @@
 ///
 /// @group Typography
 ///
+/// @parameter {String} $add-or-remove [add] - Adds or removes hyphenation
+///
 /// @example scss
 ///  @include typography-hyphenation();
 
 
-@mixin typography-hyphenation() {
-    word-break: break-word;
-    hyphens: auto;
+@mixin typography-hyphenation($add-or-remove: add) {
+    @if ($add-or-remove == "add") {
+        word-break: break-word;
+        hyphens: auto;
+    }
+
+    @else if ($add-or-remove == "remove") {
+        word-break: normal;
+        hyphens: none;
+    }
+
+    @else {
+        @error "`#{$add-or-remove}`"
+        + $meta-invalid-argument
+        + $meta-invalid-argument-select-either
+        + "`add` or `remove`";
+    }
 }
 
 
 // Toggles --------------------------------------------------------------------
 // Enables functional class toggles. See `_config.scss`
-@if $toggle-typography-hyphenation == true {
-    .typography-hyphenation {
-        @include typography-hyphenation();
+@if $toggle-typography-hyphenation-add == true {
+    .typography-hyphenation-add {
+        @include typography-hyphenation(add);
+    }
+}
+
+@if $toggle-typography-hyphenation-remove == true {
+    .typography-hyphenation-remove {
+        @include typography-hyphenation(remove);
     }
 }
