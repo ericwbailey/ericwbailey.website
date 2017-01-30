@@ -61,6 +61,10 @@ $l-dialog-browser-chrome: rem(0.5);
         animation-duration: animation-duration(shorter);
         animation-fill-mode: both;
         animation-name: slide-in-up;
+
+        @media (prefers-reduced-motion) {
+            animation: none;
+        }
     }
 
     // &.js-slide-out-down {
