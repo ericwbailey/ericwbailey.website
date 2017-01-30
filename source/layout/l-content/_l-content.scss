@@ -41,44 +41,50 @@
 
         &--404 {
             background-color: c(l-content, background-404);
-
-            // Breakpoints
-            @include mappy-bp(palm-medium) {
-                background-image: url(images/layout/l-content/background-shruggie.svg);
-                background-position: center ms(4.75, rem);
-                background-size: 60%;
-            }
         }
 
         &--accessibility-statement {
             background-color: c(l-content, background-accessibility);
-            background-image: url(images/layout/l-content/background-accessibility-statement.svg);
-            background-position: left ms(-0.5, rem) bottom ms(-2.5, rem);
-
-            // Breakpoints
-            @include mappy-bp(palm-medium) {
-                background-position: left ms(1, rem) bottom ms(-4, rem);
-            }
-
-            @include mappy-bp(lap-small) {
-                background-position: left ms(2, rem) bottom ms(-4, rem);
-                background-size: ms(18, rem);
-            }
         }
 
         &--colophon {
             background-color: c(l-content, background-colophon);
-            background-image: url(images/layout/l-content/background-colophon.svg);
-            background-position: bottom center;
-            background-size: cover;
+        }
+    }
+
+    &__illustration {
+        margin-bottom: ms(0.75, rem);
+
+        &--404 {
+            margin-left: -1ch;
+            width: ms(3.5, rem);
 
             // Breakpoints
             @include mappy-bp(palm-medium) {
-                background-position: bottom ms(-3.5, rem) center;
+                margin-left: -3ch;
+                width: ms(4.5, rem);
             }
+        }
 
-            @include mappy-bp(lap-small) {
-                background-position: bottom ms(-15, rem) center;
+        &--accessibility-statement {
+            margin-left: -1ch;
+            width: ms(1.25, rem);
+
+            // Breakpoints
+            @include mappy-bp(palm-medium) {
+                margin-left: -3ch;
+                width: ms(2, rem);
+            }
+        }
+
+        &--colophon {
+            margin-left: -0.75ch;
+            width: ms(1.5, rem);
+
+            // Breakpoints
+            @include mappy-bp(palm-medium) {
+                margin-left: -2.5ch;
+                width: ms(2, rem);
             }
         }
     }
