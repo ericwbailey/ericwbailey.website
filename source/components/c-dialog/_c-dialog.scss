@@ -37,6 +37,8 @@
 
 // Component Styling ----------------------------------------------------------
 .c-dialog {
+    outline: none; // Removes focus when focus is applied to `tabindex="0"`
+
     &__label {
         display: block;
 
