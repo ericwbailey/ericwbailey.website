@@ -10,9 +10,11 @@
 // Component Styling ----------------------------------------------------------
 .c-lede {
     font-size: 104%;
+    line-height: 1.5;
 
     // Breakpoints
     @include mappy-bp(palm-medium) {
         font-size: 108%;
+        line-height: $global-type-line-height;
     }
 }
