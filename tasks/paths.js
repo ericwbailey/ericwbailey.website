@@ -146,7 +146,8 @@ module.exports = {
     scripts: {
         vendor: {
             a11ydialog: VENDOR_DIR + '/a11y-dialog/a11y-dialog.min.js',
-            clipboard: VENDOR_DIR + '/clipboard/dist/clipboard.min.js'
+            clipboard: VENDOR_DIR + '/clipboard/dist/clipboard.min.js',
+            konami: VENDOR_DIR + '/konami-code.js/konami.js'
         },
         source: SOURCE_DIR + '/**/*.js',
         watch: SOURCE_DIR + '/**/*.js',

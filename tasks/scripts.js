@@ -20,6 +20,7 @@ gulp.task('build-scripts', help.scripts.build, function () {
     return gulp.src([
         paths.scripts.vendor.a11ydialog,
         paths.scripts.vendor.clipboard,
+        paths.scripts.vendor.konami,
         paths.scripts.source
     ])
         .pipe(changed(paths.scripts.build))
