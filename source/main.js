@@ -152,3 +152,13 @@ clipboard.on('error', function( e ) {
   contactError.setAttribute( 'class', 'c-button__error' );
   contactError.setAttribute( 'aria-live', 'polite' );
 });
+
+
+
+
+// ============================================================================
+// Konami Code
+// ============================================================================
+
+
+var easter_egg = new Konami('https://cayke.co/ra4p');

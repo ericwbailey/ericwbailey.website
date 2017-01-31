@@ -65,6 +65,7 @@
     "jquery": "^3.1.0",
     "jshint": "^2.9.2",
     "jshint-stylish": "^2.1.0",
+    "konami-code.js": "^1.4.7",
     "mappy-breakpoints": "^0.2.3",
     "normalize.css": "^4.2.0",
     "require-dir": "^0.3.0",
