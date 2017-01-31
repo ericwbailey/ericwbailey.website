@@ -5,120 +5,6 @@
 
 
 // Component Logic ------------------------------------------------------------
-// [1] Removes button formatting for mailto to button JavaScript
-@mixin footer-underline(
-    $footer-underline-background-color: c(background, dark),
-    $footer-underline-color: c(type, light),
-    $footer-underline-outline: $global-underline-outline,
-    $footer-underline-baseline-distance: $global-underline-baseline-distance,
-    $footer-underline-thickness: $global-underline-thickness
-) {
-    background-color: $footer-underline-background-color; // [1]
-
-    color: currentColor; // [1]
-    text-decoration: underline;
-
-    cursor: pointer; // Consistent cursor behavior when turned into a button
-
-    @supports #{$supports-boxshadow} {
-        box-shadow:
-          inset 0 -#{$footer-underline-baseline-distance} $footer-underline-background-color,
-          inset 0 -#{$footer-underline-thickness} $footer-underline-color;
-        display: inline;
-
-        // Remove default underline
-        text-decoration: none;
-
-        // Text outline
-        text-shadow:
-          -#{$footer-underline-outline} -#{$footer-underline-outline} $footer-underline-background-color, // Top lefthand corner
-          -#{$footer-underline-outline}  #{$footer-underline-outline} $footer-underline-background-color, // Bottom lefhand corner
-           #{$footer-underline-outline} -#{$footer-underline-outline} $footer-underline-background-color, // Top righthand corner
-           #{$footer-underline-outline}  #{$footer-underline-outline} $footer-underline-background-color; // Bottom righthand corner
-    }
-
-    // Sets the text shadow "outline" color to be system highlight color, for
-    // browsers that support the `Highlight` keyword
-    @supports #{$supports-boxshadow} {
-        &::selection {
-            box-shadow:
-              inset 0 -#{$footer-underline-baseline-distance} $footer-underline-background-color,
-              inset 0 -#{$footer-underline-thickness} $footer-underline-color;
-
-            background-color: Highlight;
-
-            text-shadow:
-              -#{$footer-underline-outline} -#{$footer-underline-outline} Highlight, // Top lefthand corner
-              -#{$footer-underline-outline} #{$footer-underline-outline} Highlight, // Bottom lefhand corner
-               #{$footer-underline-outline} -#{$footer-underline-outline} Highlight, // Top righthand corner
-               #{$footer-underline-outline} #{$footer-underline-outline} Highlight; // Bottom righthand corner
-        }
-    }
-
-    // States
-    &:hover {
-        text-decoration: none;
-
-        @supports #{$supports-boxshadow} {
-            box-shadow:
-              inset 0 -#{$footer-underline-baseline-distance} $footer-underline-background-color,
-              inset 0 -#{$footer-underline-thickness} $footer-underline-background-color;
-        }
-    }
-
-    &:focus {
-        background-color: c(link, light);
-        outline: border(thick) solid c(link, light);
-
-        color: c(type, dark);
-
-        @supports #{$supports-boxshadow} {
-            box-shadow:
-              inset 0 -#{$footer-underline-baseline-distance} c(link, light),
-              inset 0 -#{$footer-underline-thickness} c(type, dark);
-
-            text-decoration: none;
-            text-shadow:
-              -#{$footer-underline-outline} -#{$footer-underline-outline} c(link, light),
-              -#{$footer-underline-outline}  #{$footer-underline-outline} c(link, light),
-               #{$footer-underline-outline} -#{$footer-underline-outline} c(link, light),
-               #{$footer-underline-outline}  #{$footer-underline-outline} c(link, light);
-        }
-
-        &:hover {
-            text-decoration: none;
-
-            @supports #{$supports-boxshadow} {
-                box-shadow:
-                  inset 0 -#{$footer-underline-baseline-distance} c(link, light),
-                  inset 0 -#{$footer-underline-thickness} c(link, light);
-            }
-        }
-    }
-
-    &:active {
-        @include content-shift-click();
-
-        &:active {
-            @supports #{$supports-boxshadow} {
-                box-shadow:
-                  inset 0 -#{$footer-underline-baseline-distance} $footer-underline-background-color,
-                  inset 0 -#{$footer-underline-thickness} $footer-underline-background-color;
-                outline: none;
-
-                background-color: $footer-underline-background-color;
-
-                color: c(link, light);
-                text-decoration: none;
-                text-shadow:
-                  -#{$footer-underline-outline} -#{$footer-underline-outline} $footer-underline-background-color,
-                  -#{$footer-underline-outline}  #{$footer-underline-outline} $footer-underline-background-color,
-                   #{$footer-underline-outline} -#{$footer-underline-outline} $footer-underline-background-color,
-                   #{$footer-underline-outline}  #{$footer-underline-outline} $footer-underline-background-color;
-            }
-        }
-    }
-}
 
 
 // Component Styling ----------------------------------------------------------
@@ -126,7 +12,7 @@
     color: darken(c(type, light), 25%);
 
     &__link {
-        @include footer-underline();
+        @include content-underline($underline-background-color: c(l-section, portfolio));
 
         margin-right: rem(2);
 
