@@ -31,10 +31,9 @@
     @include typography-measure();
     @include typography-tracking(tight);
 
-    margin-bottom: ms(1.5, rem);
     margin-left: -0.5ch;
 
-    font-size: ms(1.75, em);
+    font-size: ms(2, em);
     font-style: italic;
     font-weight: $font-weight-bold;
     line-height: 1.1;
@@ -46,16 +45,13 @@
 
     // Breakpoints
     @include mappy-bp(palm-medium) {
-        margin-bottom: ms(2.25, rem);
         margin-left: -1ch;
 
         font-size: ms(2, em);
     }
 
     @include mappy-bp(lap-small) {
-        font-size: ms(2.5, em);
-
-        margin-bottom: ms(2.5, rem);
+        font-size: ms(3, em);
     }
 }
 

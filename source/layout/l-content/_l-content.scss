@@ -22,75 +22,61 @@
 .l-content {
     z-index: z(l-content);
 
-    background-color: c(l-content, background-body);
-
     &__title {
         @include component-page-side-margins();
 
-        display: flex;
-        flex-direction: column;
-        height: 45vh;
-        justify-content: flex-end;
+        padding-top: 20vh;
+        padding-bottom: ms(1, rem);
 
-        background-repeat: no-repeat;
+        border-top-style: solid;
+        border-top-width: border(thicker) * 2;
+
+        background-color: c(l-content, background-title);
 
         // Breakpoints
         @include mappy-bp(palm-medium) {
-            height: 65vh;
+            padding-top: 25vh;
+            padding-bottom: ms(2, rem);
+        }
+
+        @include mappy-bp(lap-small) {
+            padding-top: 30vh;
+            padding-bottom: ms(3, rem);
         }
 
         &--404 {
-            background-color: c(l-content, background-404);
+            border-top-color: c(l-content, border-404);
         }
 
         &--accessibility-statement {
-            background-color: c(l-content, background-accessibility);
+            border-top-color: c(l-content, border-accessibility);
         }
 
         &--colophon {
-            background-color: c(l-content, background-colophon);
+            border-top-color: c(l-content, border-colophon);
         }
     }
 
     &__illustration {
         margin-bottom: ms(0.75, rem);
+        margin-left: -0.5ch;
+        width: ms(4, rem);
 
-        &--404 {
-            margin-left: -1ch;
-            width: ms(3.5, rem);
-
-            // Breakpoints
-            @include mappy-bp(palm-medium) {
-                margin-left: -3ch;
-                width: ms(4.5, rem);
-            }
+        // Breakpoints
+        @include mappy-bp(palm-medium) {
+            margin-left: -3ch;
+            width: ms(5, rem);
         }
 
-        &--accessibility-statement {
-            margin-left: -1ch;
-            width: ms(1.25, rem);
-
-            // Breakpoints
-            @include mappy-bp(palm-medium) {
-                margin-left: -3ch;
-                width: ms(2, rem);
-            }
-        }
-
-        &--colophon {
-            margin-left: -0.75ch;
-            width: ms(1.5, rem);
-
-            // Breakpoints
-            @include mappy-bp(palm-medium) {
-                margin-left: -2.5ch;
-                width: ms(2, rem);
-            }
+        @include mappy-bp(lap-small) {
+            margin-left: -4ch;
         }
     }
 
     &__body {
         @include l-content();
+
+        background-color: c(l-content, background-content);
     }
 
     p {
@@ -100,6 +86,6 @@
 
     a,
     button[data-message-subject] {
-        @include content-underline($underline-background-color: c(l-content, background-body));
+        @include content-underline($underline-background-color: white);
     }
 }

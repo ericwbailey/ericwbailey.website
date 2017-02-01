@@ -79,10 +79,11 @@ $colors: (
 
     // Sections ---------------------------------------------------------------
     l-content: (
-        background-body:          #e8e8e8,
-        background-404:           #ff8764,
-        background-accessibility: #48d7e7,
-        background-colophon:      #69ddae
+        background-title:     #e8e8e8,
+        background-content:   #ffffff,
+        border-404:           #ff8764,
+        border-accessibility: #48d7e7,
+        border-colophon:      #69ddae
     ),
 
     l-dialog: (
@@ -107,7 +108,7 @@ $colors: (
         background-base:  #4a4a4a,
         background-hover: #111111,
         background-focus: #ffffff,
-        outline-base:     #e8e8e8,
+        outline-base:     #ffffff,
         outline-hover:    #111111,
         outline-focus:    #111111,
         text-base:        #ffffff,
