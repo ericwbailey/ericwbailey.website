@@ -42,10 +42,13 @@
     aria-labelledby="title-404"
     role="main">
 
-    <div class="l-content__title l-content__title--404">
+    <header
+        class="l-content__title l-content__title--404"
+        aria-labelledby="title-404"
+        role="banner">
 
         <img
-            class="l-content__illustration l-content__illustration--404"
+            class="l-content__illustration"
             alt=""
             role="presentation"
             src="images/layout/l-content/illustration-shruggie.svg" />
@@ -56,9 +59,11 @@
             {{content.page-title.four-oh-four}}
         </h1>
 
-    </div>
+    </header>
 
-    <div class="l-content__body">
+    <section
+        class="l-content__body"
+        role="region">
 
         <h2 class="heading-beta">
             Were you browsing my site?
@@ -88,7 +93,7 @@
 
         {{>components/c-link-list/c-404}}
 
-    </div>
+    </section>
 
 </main>
 

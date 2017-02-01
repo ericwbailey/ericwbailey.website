@@ -41,13 +41,10 @@
     itemscope itemtype="http://schema.org/AboutPage"
     role="main">
 
-    <div class="l-content__title l-content__title--colophon">
-
-        <img
-            class="l-content__illustration l-content__illustration--colophon"
-            alt=""
-            role="presentation"
-            src="images/layout/l-content/illustration-colophon.svg" />
+    <header
+        class="l-content__title l-content__title--colophon"
+        aria-labelledby="title-colophon"
+        role="banner">
 
         <h1
             id="title-colophon"
@@ -55,9 +52,11 @@
             {{content.page-title.colophon}}
         </h1>
 
-    </div>
+    </header>
 
-    <div class="l-content__body">
+    <section
+        class="l-content__body"
+        role="region">
 
         <p>
             This site was published in the winter of 2017 in <a rel="external noopener" href="http://www.somervillema.gov/">Somerville, Massachusetts</a>. It was built on a Mid 2014 Mac&#8202;Book Pro using <a rel="external noopener" href="https://github.com/ericwbailey/enchilada">enchilada, a personal project boilerplate</a>. More information about the technology used to make this site is available in its <a rel="external noopener" href="/humans.txt"><code class="no-letter-break">humans.txt</code> file</a>.
@@ -75,7 +74,7 @@
             A <a href="http://ericwbailey.design/sitemap.xml">sitemap</a> is available, although this site isn&rsquo;t very complex. It also uses <a rel="external noopener" href="http://analytics.google.com/">Google Analytics</a>, but not for anything sinister on my end of things.
         </p>
 
-    </div>
+    </section>
 
 </main>
 

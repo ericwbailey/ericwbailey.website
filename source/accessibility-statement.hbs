@@ -40,13 +40,10 @@
     aria-labelledby="title-accessibility-statement"
     role="main">
 
-    <div class="l-content__title l-content__title--accessibility-statement">
-
-        <img
-            class="l-content__illustration l-content__illustration--accessibility-statement"
-            alt=""
-            role="presentation"
-            src="images/layout/l-content/illustration-accessibility-statement.svg" />
+    <header
+        class="l-content__title l-content__title--accessibility-statement"
+        aria-labelledby="title-accessibility-statement"
+        role="banner">
 
         <h1
             id="title-accessibility-statement"
@@ -54,9 +51,11 @@
             {{content.page-title.accessibility-statement}}
         </h1>
 
-    </div>
+    </header>
 
-    <div class="l-content__body">
+    <section
+        class="l-content__body"
+        role="region">
 
         <p>
             This site is committed to providing an experience that functions for the widest possible audience, regardless of technology or ability. It strives to conform to level <a rel="external noopener" href="https://www.w3.org/TR/WCAG20/"><span aria-hidden="true">AA</span><span class="content-hide-visually">double A</span> compliance for the Web Content Accessibility Guidelines (<abbr title="Web Content Accessibility Guidelines">WCAG</abbr>) 2<span aria-hidden="true">.</span><span class="content-hide-visually">point</span>0</a>&mdash;guidelines explain how to make web content easier to use for people with disabilities.
@@ -74,7 +73,7 @@
             Although I cannot guarantee that all content linked to, or embedded on this site is fully accessible, I try to choose sites and services that embrace inclusive design principles.
         </p>
 
-    </div>
+    </section>
 
 </main>
 
