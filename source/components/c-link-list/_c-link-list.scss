@@ -121,6 +121,19 @@
         @include generate-message("Recontextualizing You Tube");
     }
 
+    // Old Stuff
+    [data-project-description="appurtenances-oscura"] {
+        @include generate-message("Digital collages");
+    }
+
+    [data-project-description="student-work"] {
+        @include generate-message("Some things I didn’t immediately hate");
+    }
+
+    [data-project-description="photoshoppery"] {
+        @include generate-message("Image manipulation for fun and profit");
+    }
+
     // Contexts
     .l-section__contact & {
         @include c-link-list-set-grid();
