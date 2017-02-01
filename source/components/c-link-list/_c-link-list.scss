@@ -154,9 +154,7 @@
             .l-section__projects & {
                 @include c-link-list-set-columns(2);
             }
-        }
 
-        @include mappy-bp(lap-small) {
             .l-section__contact & {
                 @include c-link-list-set-columns(5);
             }

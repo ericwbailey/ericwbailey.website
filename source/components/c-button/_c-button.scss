@@ -107,11 +107,11 @@
 
     // Contexts
     .c-link-list & {
-        height: em(29);
+        height: em(29.5);
     }
 
-    .c-portfolio &,
-    .l-content__body & {
+    // Breakpoints
+    @include mappy-bp(palm-medium) {
         height: em(30);
     }
 }
