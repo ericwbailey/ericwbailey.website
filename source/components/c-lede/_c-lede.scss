@@ -12,6 +12,10 @@
     font-size: 104%;
     line-height: 1.5;
 
+    .l-content & {
+        margin-bottom: ms(1.75);
+    }
+
     // Breakpoints
     @include mappy-bp(palm-medium) {
         font-size: 108%;
