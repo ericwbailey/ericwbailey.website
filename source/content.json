@@ -1,48 +1,21 @@
 {
-    "page-title": {
-        "home": "Eric Bailey",
-        "tagline": "Boston-based user experience designer",
-        "accessibility-statement": "Accessibility Statement",
-        "colophon": "Colophon",
-        "four-oh-four": "The page you’re looking for can’t be found",
-        "old-stuff": "Old Stuff"
+    "site": {
+        "title":   "Eric Bailey",
+        "tagline": "Boston-based user experience designer"
     },
-    "home": {
-        "title": "About me"
-    },
-    "about": {
-        "title": "About",
-        "body": "I&rsquo;m Eric, a Boston-based user experience designer working&nbsp;at&nbsp;<a class='c-about__link' rel='external noopener' href='http://cantina.co/'>Cantina</a>."
-    },
-    "philosophy": {
-        "title": "Philosophy",
-        "body": "I help create straightforward solutions that address a person&rsquo;s practical, physical, cognitive, and emotional needs using accessible, performant,&nbsp;device-agnostic&nbsp;technology."
-    },
-    "passions": {
-        "title": "Passions",
-        "body": "I am passionate about:"
-    },
-    "writing": {
-        "title": "Writing",
-        "body": "Here are some topics of interest I&rsquo;ve written about:"
-    },
-    "projects": {
-        "title": "Projects",
-        "body": "I&rsquo;m also a firm believer in the side project. Here are some things&nbsp;I&rsquo;ve&nbsp;made:"
-    },
-    "contact": {
-        "title": "Contact",
-        "body": "If you&rsquo;d like to get in contact with me, or see what I&rsquo;ve been up to recently, there are a few ways to&nbsp;do&nbsp;it:"
-    },
-    "portfolio": {
-        "title": "Portfolio and client list",
-        "body": "If you&rsquo;d like to view my portfolio or a see a list of past clients, <a class='c-portfolio__link' data-message-subject='Portfolio inquiry' rel='external me noopener' href='mailto:&#101;&#114;&#105;&#099;&#046;&#119;&#046;&#098;&#097;&#105;&#108;&#101;&#121;☛REMOVE-THIS☚&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;?subject=&#080;&#111;&#114;&#116;&#102;&#111;&#108;&#105;&#111;&#032;&#105;&#110;&#113;&#117;&#105;&#114;&#121;?'>please&nbsp;ask<svg height='22' width='22' aria-hidden='true' viewBox='0 0 100 100' class='icon c-portfolio__icon'><use xlink:href='#icon-envelope'></use></svg></a>&#xfeff;."
-    },
-    "old-stuff": {
-        "title": "Old Stuff",
-        "body": ""
-    },
-    "dialog": {
-        "title": "Email service"
+    "title": {
+        "about":         "About",
+        "accessibility": "Accessibility Statement",
+        "colophon":      "Colophon",
+        "contact":       "Contact",
+        "dialog":        "Email service",
+        "errata":        "Copyright and Disclosure",
+        "four-oh-four":  "The page you’re looking for can’t be found",
+        "old-stuff":     "Old Stuff",
+        "passions":      "Passions",
+        "philosophy":    "Philosophy",
+        "portfolio":     "Portfolio and client list",
+        "projects":      "Projects",
+        "writing":       "Writing"
     }
 }

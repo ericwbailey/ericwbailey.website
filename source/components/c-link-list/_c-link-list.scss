@@ -122,16 +122,8 @@
     }
 
     // Old Stuff
-    [data-project-description="appurtenances-oscura"] {
-        @include generate-message("Digital collages");
-    }
-
-    [data-project-description="student-work"] {
-        @include generate-message("Some things I didn’t immediately hate");
-    }
-
-    [data-project-description="photoshoppery"] {
-        @include generate-message("Image manipulation for fun and profit");
+    [data-writing-source="imgur"] {
+        @include generate-message("Imgur");
     }
 
     // Contexts
