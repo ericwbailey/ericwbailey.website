@@ -42,22 +42,22 @@ gulp.task('test-pages', help.pages.test, function() {
     return gulp.src(paths.pages.test.source)
         // https://github.com/addyosmani/critical#gulp
         // Inline style minification handled by htmlmin
-        // .pipe(critical.stream({
-        //     inline: true,
-        //     base: paths.pages.build,
-        //     width: 720,
-        //     height: 1080,
-        //     ignore: [
-        //         '@font-face',
-        //         /url\(/,
-        //         'abbr',
-        //         'abbr[title]',
-        //         '::-webkit-input-placeholder',
-        //         '::-webkit-file-upload-button',
-        //         '.c-accessibility-issues',
-        //         '.l-dialog'
-        //     ],
-        // }))
+        .pipe(critical.stream({
+            inline: true,
+            base: paths.pages.build,
+            width: 720,
+            height: 900,
+            ignore: [
+                '@font-face',
+                /url\(/,
+                'abbr',
+                'abbr[title]',
+                '::-webkit-input-placeholder',
+                '::-webkit-file-upload-button',
+                '.c-accessibility-issues',
+                '.l-dialog'
+            ],
+        }))
         .pipe(htmlmin({
             collapseBooleanAttributes: true,
             collapseWhitespace: true,
