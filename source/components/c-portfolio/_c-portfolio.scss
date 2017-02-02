@@ -21,6 +21,8 @@
         // States
         &:hover {
             &:focus {
+                color: c(type, light);
+
                 > .c-portfolio__icon {
                     fill: c(type, light);
                 }
@@ -28,6 +30,14 @@
         }
 
         &:focus {
+            // color: c(type, dark);
+            // background-color: c(link, light);
+            // outline: border(thick) solid c(link, light);
+
+            text-decoration: none;
+            box-shadow: none;
+            outline: none;
+
             > .c-portfolio__icon {
                 fill: c(type, dark);
             }
