@@ -19,27 +19,55 @@
         color: c(type, light);
 
         // States
+        &:focus {
+            background-color: c(background, light);
+
+            outline: border(thick) solid c(link, light);
+
+            color: c(type, dark);
+
+            @supports #{$supports-boxshadow} {
+                box-shadow:
+                  inset 0 -#{$global-underline-baseline-distance} c(background, light),
+                  inset 0 -#{$global-underline-thickness} c(type, dark);
+
+                // Remove default underline
+                text-decoration: none;
+
+                // Text outline
+                text-shadow:
+                  -#{$global-underline-outline} -#{$global-underline-outline} c(link, light),
+                  -#{$global-underline-outline}  #{$global-underline-outline} c(link, light),
+                   #{$global-underline-outline} -#{$global-underline-outline} c(link, light),
+                   #{$global-underline-outline}  #{$global-underline-outline} c(link, light);
+            }
+
+            > .c-portfolio__icon {
+                fill: c(type, dark);
+            }
+
+            &:hover {
+                @supports #{$supports-boxshadow} {
+                    box-shadow:
+                      inset 0 -#{$global-underline-baseline-distance} c(type, light),
+                      inset 0 -#{$global-underline-thickness} c(type, light);
+                }
+            }
+        }
+
         &:hover {
-            &:focus {
+            &:active {
                 color: c(type, light);
 
                 > .c-portfolio__icon {
                     fill: c(type, light);
                 }
-            }
-        }
 
-        &:focus {
-            // color: c(type, dark);
-            // background-color: c(link, light);
-            // outline: border(thick) solid c(link, light);
-
-            text-decoration: none;
-            box-shadow: none;
-            outline: none;
-
-            > .c-portfolio__icon {
-                fill: c(type, dark);
+                @supports #{$supports-boxshadow} {
+                    box-shadow:
+                      inset 0 -#{$global-underline-baseline-distance} c(type, dark),
+                      inset 0 -#{$global-underline-thickness} c(type, dark);
+                }
             }
         }
     }
