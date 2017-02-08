@@ -8,9 +8,12 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 
 ## vNext - Unreleased
 
-- Fix focus issue on Portfolio site
 - Performance optimizations
 - [DoxDox](https://doxdox.org/) support
+
+## v0.1.3 - 2017-02-07
+
+- Fix focus issue on Portfolio site
 
 ## v0.1.0 - 2017-02-02
 
