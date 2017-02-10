@@ -11,6 +11,10 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Performance optimizations
 - [DoxDox](https://doxdox.org/) support
 
+## v0.1.4 - 2017-02-10
+
+- Added Reduced Motion MQ blog post to homepage
+
 ## v0.1.3 - 2017-02-07
 
 - Fix focus issue on Portfolio site
