@@ -28,7 +28,7 @@
     "a11y-dialog": "^2.5.5",
     "accessible-html-content-patterns": "^0.1.0",
     "browser-sync": "^2.12.3",
-    "clipboard": "^1.5.16",
+    "clipboard": "^1.6.0",
     "critical": "^0.8.0",
     "del": "^2.2.0",
     "family.scss": "^1.0.8",
