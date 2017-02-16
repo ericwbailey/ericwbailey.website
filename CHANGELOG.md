@@ -13,6 +13,10 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 
 ## v0.1.4 - 2017-02-10
 
+- Fixed iOS Safari jumping issue with [clipboard.js](https://clipboardjs.com/)
+
+## v0.1.4 - 2017-02-10
+
 - Added Reduced Motion MQ blog post to homepage
 
 ## v0.1.3 - 2017-02-07
