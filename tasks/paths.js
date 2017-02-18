@@ -21,14 +21,14 @@ module.exports = {
     clean: {
         build: {
             root: BUILD_DIR + '/**',
-            images: BUILD_DIR + '/images/**',
+            images: BUILD_DIR + '/**/*.{bmp,ico,jpg,jpeg,gif,pdf,webp,png,tiff,svg}',
             scripts: BUILD_DIR + '/main.js',
             static: BUILD_DIR + '/static/**/*',
             styles: BUILD_DIR + '/main.css'
         },
         deploy: {
             root: DEPLOY_DIR + '/**',
-            images: DEPLOY_DIR + '/images/**',
+            images: DEPLOY_DIR + '/**/*.{bmp,ico,jpg,jpeg,gif,pdf,webp,png,tiff,svg}',
             scripts: DEPLOY_DIR + '/main.js',
             static: DEPLOY_DIR + '/static/**/*',
             styles: DEPLOY_DIR + '/main.css'
@@ -40,7 +40,7 @@ module.exports = {
         screenshots: './screenshots/',
         test: {
             root: TEST_DIR + '/**',
-            images: TEST_DIR + '/images/**',
+            images: TEST_DIR + '/**/*.{bmp,ico,jpg,jpeg,gif,pdf,webp,png,tiff,svg}',
             scripts: TEST_DIR + '/main.js',
             static: TEST_DIR + '/static/**/*',
             styles: TEST_DIR + '/main.css'
@@ -82,11 +82,11 @@ module.exports = {
             '!' + SOURCE_DIR + '/static/**/*',
             '!' + SOURCE_DIR + '/**/icon-*.svg'
         ],
-        build: BUILD_DIR + '/images/',
-        test: TEST_DIR + '/images/',
+        build: BUILD_DIR,
+        test: TEST_DIR,
         deploy: {
-            source: TEST_DIR + '/images/**/*',
-            dest: DEPLOY_DIR + '/images/'
+            source: TEST_DIR + '/**/*',
+            dest: DEPLOY_DIR
         }
     },
     lint: {
