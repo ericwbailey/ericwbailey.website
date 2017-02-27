@@ -70,6 +70,12 @@
         }
     }
 
+    @include mappy-bp(lap-small) {
+        .l-section__writing & {
+            @include c-link-list-set-grid();
+        }
+    }
+
     // Messages
     // Writing
     [data-writing-source="css-tricks"] {
@@ -149,6 +155,24 @@
 
             .l-section__contact & {
                 @include c-link-list-set-columns(5);
+            }
+        }
+
+        @include mappy-bp(desk-small) {
+            .l-section__contact & {
+                @include c-link-list-set-columns(10);
+            }
+
+            .l-section__passions & {
+                @include c-link-list-set-columns(3);
+            }
+
+            .l-section__projects & {
+                @include c-link-list-set-columns(5);
+            }
+
+            .l-section__writing & {
+                @include c-link-list-set-columns(2);
             }
         }
     }
