@@ -11,6 +11,11 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Performance optimizations
 - [DoxDox](https://doxdox.org/) support
 
+## v0.1.7 - 2017-02-26
+
+- Added large display treatment for homepage link lists
+- Use Yellow Lab Tools in place of whatdoesmysitecost 
+
 ## v0.1.6 - 2017-02-18
 
 - Removed `images/` path
