@@ -70,7 +70,7 @@
         }
     }
 
-    @include mappy-bp(lap-small) {
+    @include mappy-bp(desk-large) {
         .l-section__writing & {
             @include c-link-list-set-grid();
         }
