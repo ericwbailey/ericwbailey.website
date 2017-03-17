@@ -10,7 +10,7 @@
             "message": "Make @ rules visually distinct from other declarations (at-rule-semicolon-newline-after)"
         }],
         "at-rule-empty-line-before": ["always", {
-            "except": ["blockless-group", "first-nested"],
+            "except": ["blockless-after-blockless", "first-nested"],
             "ignore": ["after-comment"]
         }],
         "block-closing-brace-empty-line-before": "never",
@@ -73,7 +73,6 @@
         "media-feature-name-no-vendor-prefix": [true, {
             "message": "Vendor prefixes are automatically generated (media-feature-name-no-vendor-prefix)"
         }],
-        "media-feature-no-missing-punctuation": true,
         "media-feature-parentheses-space-inside": "never",
         "media-feature-range-operator-space-after": "always",
         "media-feature-range-operator-space-before": "always",
@@ -86,9 +85,6 @@
         "no-duplicate-selectors": true,
         "no-eol-whitespace": true,
         "no-extra-semicolons": true,
-        "no-indistinguishable-colors": [true, {
-           "severity": "warning"
-       }],
         "no-unknown-animations": true,
         "number-leading-zero": "always",
         "number-max-precision": [5, {
@@ -100,14 +96,6 @@
         "property-no-vendor-prefix": [true, {
             "message": "Vendor prefixes are automatically generated (property-no-vendor-prefix)"
         }],
-        "root-no-standard-properties": true,
-        "rule-nested-empty-line-before": ["always-multi-line", {
-            "except": ["first-nested"],
-            "ignore": "after-comment"
-        }],
-        "rule-non-nested-empty-line-before": ["always", {
-            "ignore": ["after-comment"]
-        }],
         "selector-combinator-space-after": "always",
         "selector-combinator-space-before": "always",
         "selector-no-id": true,
@@ -115,7 +103,6 @@
             "message": "Vendor prefixes are automatically generated (selector-no-vendor-prefix)"
         }],
         "selector-pseudo-element-colon-notation": "double",
-        "selector-root-no-composition": true,
         "selector-type-case": "lower",
         "selector-list-comma-newline-after": "always-multi-line",
         "selector-list-comma-space-after": "always-single-line",
