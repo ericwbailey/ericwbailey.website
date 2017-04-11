@@ -53,8 +53,9 @@ http://ericwbailey.design
   - Opera (http://www.opera.com/)
   - Vivaldi (https://vivaldi.com/)
 
-- Software
+- Software and Services
   - Atom (http://atom.io/)
+  - Cloudflare (https://www.cloudflare.com/)
   - LightPaper (http://lightpaper.42squares.in/)
   - MacOS (http://www.apple.com/macos/sierra/)
   - NVDA (http://www.nvaccess.org/)
