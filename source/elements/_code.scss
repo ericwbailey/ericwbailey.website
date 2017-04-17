@@ -24,12 +24,17 @@ var {
     overflow: auto; // [1]
 
     font-family: $font-family-code;
-    font-size: 80%;
+    font-size: 85%;
     line-height: $global-type-line-height;
     white-space: pre; // [1]
     white-space: pre-wrap; // [1]
     word-break: break-all; // [1]
     word-wrap: break-word; // [1]
+
+    // Breakpoints
+    @include mappy-bp(palm-medium) {
+        font-size: 80%;
+    }
 }
 
 
