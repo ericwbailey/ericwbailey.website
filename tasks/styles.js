@@ -47,7 +47,7 @@ gulp.task('test-styles', help.styles.test, function () {
         .pipe(autoprefix({
             browsers: ['last 3 versions']
         }))
-        .pipe(cssnano())
+        // .pipe(cssnano())
         .pipe(gulp.dest(paths.styles.test));
 });
 
