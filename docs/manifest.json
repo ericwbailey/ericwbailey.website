@@ -1,5 +1,8 @@
 {
-	"name": "ericwbailey",
+    "name": "ericwbailey.design",
+    "short_name": "ericwbailey",
+    "theme_color": "#48d7e7",
+    "background_color": "#4a4a4a",
 	"icons": [
 		{
 			"src": "/static/favicons/android/android-chrome-192x192.png?rev={{timestamp}}",
@@ -11,6 +14,5 @@
 			"sizes": "384x384",
 			"type": "image/png"
 		}
-	],
-	"theme_color": "#48d7e7"
+	]
 }
