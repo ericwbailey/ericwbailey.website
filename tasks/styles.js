@@ -44,9 +44,7 @@ gulp.task('test-styles', help.styles.test, function () {
         .pipe(sass({
             outputStyle: 'compressed'
         }))
-        .pipe(autoprefix({
-            browsers: ['last 3 versions']
-        }))
+        .pipe(autoprefix())
         // .pipe(cssnano())
         .pipe(gulp.dest(paths.styles.test));
 });
