@@ -95,6 +95,10 @@
         @include generate-message("Intrepid co-host");
     }
 
+    [data-project-description="empathy-prompts"] {
+        @include generate-message("Quick exercises");
+    }
+
     [data-project-description="fresh-garbage-newsletter"] {
         @include generate-message("Weekly links of note");
     }
@@ -107,9 +111,9 @@
         @include generate-message("Document-based internet browsing");
     }
 
-    [data-project-description="lowvision-support"] {
-        @include generate-message("Responsive low vision simulator");
-    }
+    // [data-project-description="lowvision-support"] {
+    //     @include generate-message("Responsive low vision simulator");
+    // }
 
     [data-project-description="millennials-to-snake-people"] {
         @include generate-message("Infamous browser extension");
