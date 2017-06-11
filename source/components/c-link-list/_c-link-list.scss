@@ -197,6 +197,13 @@
         }
     }
 
+    &__location {
+        display: inline;
+
+        font-size: 80%;
+        line-height: 1;
+    }
+
     &__link {
         // States
         &:hover {
@@ -221,6 +228,10 @@
 
         .l-section__projects & {
             @include content-underline($underline-background-color: c(l-section, projects));
+        }
+
+        .l-section__speaking & {
+            @include content-underline($underline-background-color: c(l-section, speaking));
         }
 
         .l-section__writing & {

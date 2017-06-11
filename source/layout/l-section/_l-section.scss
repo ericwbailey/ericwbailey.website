@@ -55,6 +55,7 @@ $l-section-mobile-line-height: $global-type-line-height + 100;
     &__philosophy,
     &__portfolio-and-client-list,
     &__projects,
+    &__speaking,
     &__writing {
         @include l-section();
 
@@ -112,6 +113,10 @@ $l-section-mobile-line-height: $global-type-line-height + 100;
         @include typography-hyphenation(remove);
 
         background-color: c(l-section, projects);
+    }
+
+    &__speaking {
+        background-color: c(l-section, speaking);
     }
 
     &__writing {
