@@ -462,7 +462,7 @@ linters:
       'ms', 's',                    # Duration
       'Hz', 'kHz',                  # Frequency
       'dpi', 'dpcm', 'dppx',        # Resolution
-      '%']                          # Other
+      'fr', '%']                    # Other
     properties:
       counter-reset: []
       counter-increment: []
