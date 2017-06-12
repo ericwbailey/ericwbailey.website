@@ -79,7 +79,7 @@
     // Messages
     // Writing
     [data-writing-source="css-tricks"] {
-        @include generate-message("CSS - Tricks");
+        @include generate-message("CSS-Tricks");
     }
 
     [data-writing-source="cantina"] {
@@ -198,7 +198,7 @@
     }
 
     &__location {
-        display: inline;
+        margin-top: ms(0.25, em);
 
         font-size: 80%;
         line-height: 1;
