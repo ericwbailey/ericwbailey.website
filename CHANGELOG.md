@@ -11,6 +11,10 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Performance optimizations
 - [DoxDox](https://doxdox.org/) support
 
+## v0.1.11 - 2017-06-12
+
+- Added speaking section
+
 ## v0.1.10 - 2017-05-19
 
 - Replaced [lowvision.support](http://lowvision.support/) with [Empathy Prompts](https://empathyprompts.net) in the Projects section
