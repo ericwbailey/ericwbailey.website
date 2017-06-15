@@ -11,9 +11,10 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Performance optimizations
 - [DoxDox](https://doxdox.org/) support
 
-## v0.1.11 - 2017-06-12
+## v0.1.11 - 2017-06-15
 
 - Added speaking section
+- Removed redundant role declarations
 
 ## v0.1.10 - 2017-05-19
 
