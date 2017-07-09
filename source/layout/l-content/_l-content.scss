@@ -59,6 +59,10 @@
         &--old-stuff {
             border-top-color: c(l-content, border-old-stuff);
         }
+
+        &--writing {
+            border-top-color: c(l-content, border-writing);
+        }
     }
 
     &__illustration {
