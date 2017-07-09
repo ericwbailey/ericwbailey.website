@@ -11,36 +11,49 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Performance optimizations
 - [DoxDox](https://doxdox.org/) support
 
+
+## v0.1.13 - 2017-07-07
+
+- Cleaned up copy to remove [overly-clever screen reader hacks](https://accessibility.blog.gov.uk/2017/02/08/advice-for-creating-content-that-works-well-with-screen-readers/)
+
+
 ## v0.1.11 - 2017-06-15
 
 - Added speaking section
 - Removed redundant role declarations
 
+
 ## v0.1.10 - 2017-05-19
 
 - Replaced [lowvision.support](http://lowvision.support/) with [Empathy Prompts](https://empathyprompts.net) in the Projects section
+
 
 ## v0.1.7 - 2017-02-26
 
 - Added large display treatment for homepage link lists
 - Use Yellow Lab Tools in place of whatdoesmysitecost 
 
+
 ## v0.1.6 - 2017-02-18
 
 - Removed `images/` path
 - Added reduced motion media query
 
+
 ## v0.1.5 - 2017-02-15
 
 - Fixed iOS Safari jumping issue with [clipboard.js](https://clipboardjs.com/)
+
 
 ## v0.1.4 - 2017-02-10
 
 - Added Reduced Motion MQ blog post to homepage
 
+
 ## v0.1.3 - 2017-02-07
 
 - Fix focus issue on Portfolio site
+
 
 ## v0.1.0 - 2017-02-02
 
