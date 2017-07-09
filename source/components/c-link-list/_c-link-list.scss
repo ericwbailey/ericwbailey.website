@@ -78,12 +78,16 @@
 
     // Messages
     // Writing
+    [data-writing-source="cantina"] {
+        @include generate-message("Cantina");
+    }
+
     [data-writing-source="css-tricks"] {
         @include generate-message("CSS-Tricks");
     }
 
-    [data-writing-source="cantina"] {
-        @include generate-message("Cantina");
+    [data-writing-source="human-in-the-machine"] {
+        @include generate-message("The Human in the Machine");
     }
 
     // Projects
