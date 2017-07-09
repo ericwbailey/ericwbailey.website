@@ -1,0 +1,42 @@
+// ============================================================================
+// Component
+// Additional Info
+// ============================================================================
+
+
+// Component Logic ------------------------------------------------------------
+
+
+// Component Styling ----------------------------------------------------------
+.c-additional-info {
+    margin-top: ms(2);
+
+    // Contexts
+    .l-section__writing & {
+        margin-top: ms(2.25);
+    }
+
+    // Breakpoints
+    @include mappy-bp(lap-small) {
+        margin-top: ms(1);
+    }
+
+    &[data-learning-status] {
+        @include generate-message("(It’s going okay)");
+    }
+
+    &[data-archive-years] {
+        @include generate-message("2015–2017");
+    }
+
+    &__link {
+        // Contexts
+        .l-section__passions & {
+            @include content-underline($underline-background-color: c(l-section, passions));
+        }
+
+        .l-section__writing & {
+            @include content-underline($underline-background-color: c(l-section, writing));
+        }
+    }
+}
