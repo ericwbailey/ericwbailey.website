@@ -15,6 +15,7 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## v0.1.13 - 2017-07-07
 
 - Cleaned up copy to remove [overly-clever screen reader hacks](https://accessibility.blog.gov.uk/2017/02/08/advice-for-creating-content-that-works-well-with-screen-readers/)
+- Added a [writing section](https://ericwbailey.design/writing.html)
 
 
 ## v0.1.11 - 2017-06-15
