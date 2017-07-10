@@ -12,10 +12,11 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - [DoxDox](https://doxdox.org/) support
 
 
-## v0.1.13 - 2017-07-07
+## v0.1.13 - 2017-07-10
 
 - Cleaned up copy to remove [overly-clever screen reader hacks](https://accessibility.blog.gov.uk/2017/02/08/advice-for-creating-content-that-works-well-with-screen-readers/)
 - Added a [writing section](https://ericwbailey.design/writing.html)
+- Added support for [`aria-current`](https://tink.uk/using-the-aria-current-attribute/)
 
 
 ## v0.1.11 - 2017-06-15
@@ -32,7 +33,7 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## v0.1.7 - 2017-02-26
 
 - Added large display treatment for homepage link lists
-- Use Yellow Lab Tools in place of whatdoesmysitecost 
+- Use Yellow Lab Tools in place of whatdoesmysitecost
 
 
 ## v0.1.6 - 2017-02-18
