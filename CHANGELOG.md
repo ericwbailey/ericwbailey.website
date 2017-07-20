@@ -12,6 +12,11 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - [DoxDox](https://doxdox.org/) support
 
 
+## v0.1.14 - 2017-07-20
+
+- Added [The Human in the Machine](https://superyesmore.com/publication/the-human-in-the-machine-a4064599cde2cb3397239e8d72219f48) article
+
+
 ## v0.1.13 - 2017-07-10
 
 - Cleaned up copy to remove [overly-clever screen reader hacks](https://accessibility.blog.gov.uk/2017/02/08/advice-for-creating-content-that-works-well-with-screen-readers/)
