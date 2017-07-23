@@ -98,7 +98,6 @@
         }],
         "selector-combinator-space-after": "always",
         "selector-combinator-space-before": "always",
-        "selector-no-id": true,
         "selector-no-vendor-prefix": [true, {
             "message": "Vendor prefixes are automatically generated (selector-no-vendor-prefix)"
         }],
