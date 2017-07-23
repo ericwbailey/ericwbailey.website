@@ -1,0 +1,29 @@
+// ============================================================================
+// Component
+// Offline
+// ============================================================================
+
+
+// Component Logic ------------------------------------------------------------
+
+
+
+// Component Styling ----------------------------------------------------------
+.c-offline {
+    &__filter {
+        @include component-size(100%, 100%, null);
+        @include content-remove-interaction();
+
+        position: fixed;
+          top: 0;
+          left: 0;
+        z-index: z(l-dialog) - 1;
+
+        @supports #{$supports-mix-blend-mode} {
+            background-color: c(background, light);
+
+            mix-blend-mode: saturation;
+            opacity: 0.65;
+        }
+    }
+}
