@@ -11,7 +11,7 @@ var gulp        = require('gulp-help')(require('gulp')), // http://gulpjs.com/
 // Tasks ----------------------------------------------------------------------
 // Build
 gulp.task('browsersync-build', help.browsersync.build, function() {
-    browsersync({
+    browsersync.init({
         server: {
             baseDir: paths.browsersync.basedir.build,
             index: paths.browsersync.index
