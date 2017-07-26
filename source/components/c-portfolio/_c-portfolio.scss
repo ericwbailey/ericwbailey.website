@@ -26,32 +26,8 @@
 
             color: c(type, dark);
 
-            @supports #{$supports-boxshadow} {
-                box-shadow:
-                  inset 0 -#{$global-underline-baseline-distance} c(background, light),
-                  inset 0 -#{$global-underline-thickness} c(type, dark);
-
-                // Remove default underline
-                text-decoration: none;
-
-                // Text outline
-                text-shadow:
-                  -#{$global-underline-outline} -#{$global-underline-outline} c(link, light),
-                  -#{$global-underline-outline}  #{$global-underline-outline} c(link, light),
-                   #{$global-underline-outline} -#{$global-underline-outline} c(link, light),
-                   #{$global-underline-outline}  #{$global-underline-outline} c(link, light);
-            }
-
             > .c-portfolio__icon {
                 fill: c(type, dark);
-            }
-
-            &:hover {
-                @supports #{$supports-boxshadow} {
-                    box-shadow:
-                      inset 0 -#{$global-underline-baseline-distance} c(type, light),
-                      inset 0 -#{$global-underline-thickness} c(type, light);
-                }
             }
         }
 
@@ -62,11 +38,60 @@
                 > .c-portfolio__icon {
                     fill: c(type, light);
                 }
+            }
+        }
 
+        // Font loaded
+        .wf-active & {
+            &:hover {
                 @supports #{$supports-boxshadow} {
                     box-shadow:
                       inset 0 -#{$global-underline-baseline-distance} c(type, dark),
                       inset 0 -#{$global-underline-thickness} c(type, dark);
+                }
+            }
+
+            &:focus {
+                @supports #{$supports-boxshadow} {
+                    box-shadow:
+                      inset 0 -#{$global-underline-baseline-distance} c(link, light),
+                      inset 0 -#{$global-underline-thickness} c(link, dark);
+
+                    text-decoration: none;
+                    text-shadow:
+                      -#{$global-underline-outline} -#{$global-underline-outline} c(link, light),
+                      -#{$global-underline-outline}  #{$global-underline-outline} c(link, light),
+                       #{$global-underline-outline} -#{$global-underline-outline} c(link, light),
+                       #{$global-underline-outline}  #{$global-underline-outline} c(link, light);
+                }
+
+                &:hover {
+                    @supports #{$supports-boxshadow} {
+                        box-shadow:
+                          inset 0 -#{$global-underline-baseline-distance} c(link, light),
+                          inset 0 -#{$global-underline-thickness} c(link, light);
+                    }
+                }
+            }
+
+            &:active {
+                &:active {
+                    @supports #{$supports-boxshadow} {
+                        box-shadow:
+                          inset 0 -#{$global-underline-baseline-distance} c(link, dark),
+                          inset 0 -#{$global-underline-thickness} c(link, dark);
+                        outline: none;
+
+                        background-color: c(link, dark);
+
+                        color: c(link, light);
+                        text-decoration: none;
+                        text-shadow:
+                          -#{$global-underline-outline} -#{$global-underline-outline} c(link, dark),
+                          -#{$global-underline-outline}  #{$global-underline-outline} c(link, dark),
+                           #{$global-underline-outline} -#{$global-underline-outline} c(link, dark),
+                           #{$global-underline-outline}  #{$global-underline-outline} c(link, dark);
+                    }
                 }
             }
         }
