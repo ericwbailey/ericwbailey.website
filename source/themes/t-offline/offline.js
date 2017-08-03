@@ -17,9 +17,8 @@ function updateStatus() {
     isOffline = !navigator.onLine;
     document.documentElement.classList.toggle('is-offline', isOffline);
 
-    // add attr toggle here
-
-    var filter = document.querySelector('.c-offline__filter');
+    // Toggle `hidden` attribute
+    var filter = document.querySelector('.t-offline');
     if (!isOffline) {
       filter.setAttribute('hidden', '');
     } else {
