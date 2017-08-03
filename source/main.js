@@ -161,4 +161,4 @@ clipboard.on('error', function( e ) {
 // ============================================================================
 
 
-var easter_egg = new Konami('https://cayke.co/ra4p');
+var easter_egg = new Konami( 'https://cayke.co/ra4p' );
