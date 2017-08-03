@@ -11,6 +11,10 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Performance optimizations
 - [DoxDox](https://doxdox.org/) support
 
+## v0.1.16 - 2017-08-02
+
+- Added [offline mode detection and cached link treatment](https://mxb.at/blog/youre-offline/)
+
 
 ## v0.1.15 - 2017-07-23
 
