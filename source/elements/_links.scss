@@ -3,10 +3,30 @@
 // ============================================================================
 
 
+// [1] Forces immutability
 a {
-   @include component-theme-color(color);
+    @include component-theme-color(color);
 
     // States
+    .is-offline &:not(.is-cached) {
+        @include content-remove-interaction();
+
+        opacity: 0.5;
+
+        box-shadow: none !important; // [1]
+        text-shadow: none !important; // [1]
+
+        cursor: not-allowed !important; // [1]
+
+        &:focus {
+            outline: none !important; // [1]
+
+            background-color: transparent !important; // [1]
+
+            color: currentColor !important; // [1]
+        }
+    }
+
     // &:hover {
     //
     // }
