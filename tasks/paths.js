@@ -64,7 +64,8 @@ module.exports = {
             SOURCE_DIR + '/favicon-16x16.png',
             SOURCE_DIR + '/favicon-32x32.png',
             SOURCE_DIR + '/favicon-48x48.png',
-            SOURCE_DIR + '/offline.js'
+            SOURCE_DIR + '/offline.js',
+            SOURCE_DIR + '/serviceWorker.js',
         ],
         build: BUILD_DIR,
         test: TEST_DIR,

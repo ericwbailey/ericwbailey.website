@@ -1,0 +1,15 @@
+<script>
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () =>
+        navigator.serviceWorker.register('serviceWorker.js')
+    );
+}
+</script>
+
+<script>
+window.addEventListener('beforeinstallprompt', function(e) {
+  console.log('beforeinstallprompt Event fired');
+  e.preventDefault();
+  return false;
+});
+</script>
