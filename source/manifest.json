@@ -1,6 +1,11 @@
 {
-    "name": "ericwbailey.design",
+    "lang": "en",
     "short_name": "ericwbailey",
+    "name": "ericwbailey.design",
+    "dir": "ltr",
+    "display": "standalone",
+    "orientation": "natural"
+    "start_url": "/",
     "theme_color": "#48d7e7",
     "background_color": "#4a4a4a",
 	"icons": [

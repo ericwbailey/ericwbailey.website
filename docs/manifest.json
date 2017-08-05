@@ -1,8 +1,11 @@
 {
-    "name": "ericwbailey.design",
+    "lang": "en",
+    "dir": "ltr",
     "short_name": "ericwbailey",
+    "name": "ericwbailey.design",
     "theme_color": "#48d7e7",
     "background_color": "#4a4a4a",
+    "start_url": "/",
 	"icons": [
 		{
 			"src": "/static/favicons/android/android-chrome-192x192.png?rev={{timestamp}}",
