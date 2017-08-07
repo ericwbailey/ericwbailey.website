@@ -16,14 +16,6 @@ function updateStatus() {
   if (typeof navigator.onLine !== 'undefined') {
     isOffline = !navigator.onLine;
     document.documentElement.classList.toggle('is-offline', isOffline);
-
-    // Toggle `hidden` attribute
-    var filter = document.querySelector('.t-offline');
-    if (!isOffline) {
-      filter.setAttribute('hidden', '');
-    } else {
-      filter.removeAttribute('hidden');
-    }
   }
 }
 

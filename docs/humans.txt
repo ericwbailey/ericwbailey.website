@@ -42,6 +42,7 @@ http://ericwbailey.design
   - loadCSS (https://github.com/filamentgroup/loadCSS)
   - Mappy Breakpoints (https://github.com/zellwk/mappy-breakpoints)
   - Noun Project (http://thenounproject.com/)
+  - pwa-starter-kit (https://github.com/neogeek/pwa-starter-kit)
   - Symbolset (https://symbolset.com/)
   - TypeKit (https://typekit.com/)
 
