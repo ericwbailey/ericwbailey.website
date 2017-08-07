@@ -11,8 +11,8 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Performance optimizations
 - [DoxDox](https://doxdox.org/) support
 
-## v0.1.16 - 2017-08-02
-
+## v0.1.16 - 2017-08-06
+- Converted into a [Progressive Web App](https://github.com/neogeek/pwa-starter-kit)
 - Added [offline mode detection and cached link treatment](https://mxb.at/blog/youre-offline/)
 
 
