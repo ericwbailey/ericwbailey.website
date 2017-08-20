@@ -11,6 +11,11 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Performance optimizations
 - [DoxDox](https://doxdox.org/) support
 
+
+## v0.1.17 - 2017-08-19
+- Added [Boston CSS speaking info](https://www.meetup.com/Boston-CSS/events/241846385/)
+
+
 ## v0.1.16 - 2017-08-06
 - Converted into a [Progressive Web App](https://github.com/neogeek/pwa-starter-kit)
 - Added [offline mode detection and cached link treatment](https://mxb.at/blog/youre-offline/)
