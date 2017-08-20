@@ -3,6 +3,21 @@
         "title":   "Eric Bailey",
         "tagline": "Boston-based user experience designer"
     },
+    "post": {
+        "accessibility-culture-1":      "Instituting a culture of accessibility in your organization:&nbsp;Part&nbsp;1",
+        "accessibility-culture-2":      "Instituting a culture of accessibility in your organization:&nbsp;Part&nbsp;2",
+        "battery-status":               "Battery Status <abbr title='Application Program Interface'>API</abbr>: We need to talk",
+        "better-button-css":            "Building a better button in <abbr>CSS</abbr>",
+        "crafting-chatbot-1":           "Crafting a chatbot people will use:&nbsp;Part&nbsp;1",
+        "crafting-chatbot-2":           "Crafting a chatbot people will use:&nbsp;Part&nbsp;2",
+        "exception":                    "I&rsquo;ll Make an Exception Just for You: Using the Exception Comment to Help Maintain Mature, Large-scale Sass Projects",
+        "iot-firmware":                 "Improving the User Experience of <abbr title='Internet of Things'>IoT</abbr> Firmware Updates",
+        "make-technology-work-for-you": "Make technology work for you, not the other way around",
+        "reduced-motion-intro":         "An Introduction to the Reduced Motion Media Query",
+        "responsive-buy-in":            "Organizational buy-in on Responsive Design",
+        "speech-css":                   "Let&rsquo;s Talk About Speech CSS",
+        "svg-high-contrast":            "Accessible <abbr title='Scalable Vector Graphics'>SVG</abbr>s in High Contrast Mode"
+    },
     "title": {
         "about":         "About",
         "accessibility": "Accessibility Statement",
