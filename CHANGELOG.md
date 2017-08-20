@@ -14,6 +14,7 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 
 ## v0.1.17 - 2017-08-19
 - Added [Boston CSS speaking info](https://www.meetup.com/Boston-CSS/events/241846385/)
+- Centralized blog post titles
 
 
 ## v0.1.16 - 2017-08-06
