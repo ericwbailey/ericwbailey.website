@@ -12,6 +12,12 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - [DoxDox](https://doxdox.org/) support
 
 
+## v0.1.18 - 2017-09-11
+- Added [Beholden Design](https://cantina.co/equifax-data-breach-credit-freezes-and-beholden-design/) article
+- Line height fix for speaking details
+- Minor ARIA tweaks
+
+
 ## v0.1.17 - 2017-08-19
 - Added [Boston CSS speaking info](https://www.meetup.com/Boston-CSS/events/241846385/)
 - Centralized blog post titles
