@@ -205,7 +205,12 @@
         margin-top: ms(0.25, em);
 
         font-size: 80%;
-        line-height: 1;
+        line-height: 1.5;
+
+        // Breakpoints
+        @include mappy-bp(palm-medium) {
+            line-height: 1;
+        }
     }
 
     &__link {
