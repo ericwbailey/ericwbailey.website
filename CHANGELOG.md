@@ -11,6 +11,8 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Performance optimizations
 - [DoxDox](https://doxdox.org/) support
 
+## v0.1.19 - 2017-10-04
+- Added [Keeping track of letter-spacing, some guidelines](https://css-tricks.com/keeping-track-letter-spacing-guidelines/) article
 
 ## v0.1.18 - 2017-09-11
 - Added [Beholden Design](https://cantina.co/equifax-data-breach-credit-freezes-and-beholden-design/) article
