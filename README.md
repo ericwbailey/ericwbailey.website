@@ -5,9 +5,9 @@ Repo for my personal website.
 ## Table of Contents
 
 1. [Motivation](#motivation)
-- [Installation](#installation)
-- [Contributing](#contributing)
-- [License](#license)
+1. [Installation](#installation)
+1. [Contributing](#contributing)
+1. [License](#license)
 
 ## Motivation
 
