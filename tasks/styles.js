@@ -43,7 +43,9 @@ gulp.task('test-styles', help.styles.test, function () {
             outputStyle: 'compressed'
         }))
         .pipe(autoprefix())
-        .pipe(cssnano())
+        .pipe(cssnano({
+            discardComments: {removeAll: true}
+        }))
         .pipe(gulp.dest(paths.styles.test));
 });
 
