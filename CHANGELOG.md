@@ -11,6 +11,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Performance optimizations
 - [DoxDox](https://doxdox.org/) support
 
+## v0.1.20 - 2017-11-08
+- Added [ARIA is Spackle, Not Rebar](https://css-tricks.com/aria-spackle-not-rebar/) article
+
 ## v0.1.19 - 2017-10-04
 - Added [Keeping track of letter-spacing, some guidelines](https://css-tricks.com/keeping-track-letter-spacing-guidelines/) article
 
