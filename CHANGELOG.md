@@ -11,6 +11,10 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Performance optimizations
 - [DoxDox](https://doxdox.org/) support
 
+## v0.1.21 - 2017-11-15
+- Added [Consistently Inconsistent](https://cantina.co/consistently-inconsistent-when-the-most-accessible-experience-is-different-for-each-user/) article
+- Updated learning JavaScript link
+
 ## v0.1.20 - 2017-11-08
 - Added [ARIA is Spackle, Not Rebar](https://css-tricks.com/aria-spackle-not-rebar/) article
 
