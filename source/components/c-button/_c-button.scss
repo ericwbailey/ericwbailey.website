@@ -104,6 +104,7 @@
 
 // Makes button underline match link underline
 .is-contact-button {
+    border-radius: 0;
 
     // Contexts
     .c-link-list & {
