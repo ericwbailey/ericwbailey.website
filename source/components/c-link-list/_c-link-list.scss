@@ -90,6 +90,10 @@
         @include generate-message("The Human in the Machine");
     }
 
+    [data-writing-source="poynter"] {
+        @include generate-message("Poynter");
+    }
+
     // Projects
     [data-project-description="accessible-html-content-patterns"] {
         @include generate-message("Better building blocks");
