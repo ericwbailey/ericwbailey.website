@@ -2,7 +2,7 @@
   "name": "ericwbailey.design",
   "description": "Boston-based user experience designer.",
   "homepage": "https://ericwbailey.design",
-  "version": "0.1.21",
+  "version": "0.1.22",
   "license": "CC-BY-NC-SA-4.0",
   "author": {
     "name": "Eric Bailey",
@@ -55,6 +55,7 @@
     "gulp-sass": "^2.2.0",
     "gulp-sitemap": "^4.2.0",
     "gulp-sourcemaps": "^1.6.0",
+    "gulp-strip-css-comments": "^1.2.0",
     "gulp-stylefmt": "^1.0.0",
     "gulp-stylelint": "^3.2.0",
     "gulp-svgstore": "^6.0.0",
