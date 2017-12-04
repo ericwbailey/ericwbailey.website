@@ -2,20 +2,20 @@
 // Task
 // Styles
 // ============================================================================
-var gulp        = require('gulp-help')(require('gulp')), // http://gulpjs.com/
-    help        = require('./help.js'),
-    paths       = require('./paths.js'),
-    reportError = require('./report-error.js'),
-    autoprefix  = require('gulp-autoprefixer'),          // https://www.npmjs.com/package/gulp-autoprefixer
-    browsersync = require('browser-sync'),               // http://www.browsersync.io/
-    changed     = require('gulp-changed'),               // https://www.npmjs.com/package/gulp-changed
-    cssnano     = require('gulp-cssnano'),               // https://www.npmjs.com/package/gulp-cssnano
-    plumber     = require('gulp-plumber'),               // https://www.npmjs.com/package/gulp-plumber
-    runSequence = require('run-sequence'),               // https://www.npmjs.com/package/run-sequence
-    sass        = require('gulp-sass'),                  // https://www.npmjs.com/package/gulp-sass
-    sourcemaps  = require('gulp-sourcemaps'),            // https://www.npmjs.com/package/gulp-sourcemaps
-    stripComments = require('gulp-stylefmt'),            //
-    stylefmt    = require('gulp-stylefmt');              // https://www.npmjs.com/package/gulp-stylefmt
+var gulp          = require('gulp-help')(require('gulp')), // http://gulpjs.com/
+    help          = require('./help.js'),
+    paths         = require('./paths.js'),
+    reportError   = require('./report-error.js'),
+    autoprefix    = require('gulp-autoprefixer'),          // https://www.npmjs.com/package/gulp-autoprefixer
+    browsersync   = require('browser-sync'),               // http://www.browsersync.io/
+    changed       = require('gulp-changed'),               // https://www.npmjs.com/package/gulp-changed
+    cssnano       = require('gulp-cssnano'),               // https://www.npmjs.com/package/gulp-cssnano
+    plumber       = require('gulp-plumber'),               // https://www.npmjs.com/package/gulp-plumber
+    runSequence   = require('run-sequence'),               // https://www.npmjs.com/package/run-sequence
+    sass          = require('gulp-sass'),                  // https://www.npmjs.com/package/gulp-sass
+    sourcemaps    = require('gulp-sourcemaps'),            // https://www.npmjs.com/package/gulp-sourcemaps
+    stripComments = require('gulp-strip-css-comments'),    // https://www.npmjs.com/package/gulp-strip-css-comments
+    stylefmt      = require('gulp-stylefmt');              // https://www.npmjs.com/package/gulp-stylefmt
 
 
 // Tasks ----------------------------------------------------------------------
