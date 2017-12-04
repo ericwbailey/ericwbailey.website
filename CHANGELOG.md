@@ -11,6 +11,14 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Performance optimizations
 - [DoxDox](https://doxdox.org/) support
 
+## v0.1.23 - 2017-12-03
+- Removed Service Worker
+- CSS optimizations
+
+## v0.1.22 - 2017-11-20
+- Added [Poynter interview about news site accessibility](https://www.poynter.org/news/how-accessible-your-website-disabled-consider-doing-audit-find-out)
+- Added [Working with High Contrast Mode](https://github.com/ericwbailey/working-with-high-contrast-mode-talk) presentation
+
 ## v0.1.21 - 2017-11-15
 - Added [Consistently Inconsistent](https://cantina.co/consistently-inconsistent-when-the-most-accessible-experience-is-different-for-each-user/) article
 - Updated learning JavaScript link
