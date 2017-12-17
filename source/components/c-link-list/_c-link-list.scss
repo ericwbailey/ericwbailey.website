@@ -76,8 +76,11 @@
         }
     }
 
-    // Messages
     // Writing
+    [data-writing-source="24a11y"] {
+        @include generate-message("24 Accessibility");
+    }
+
     [data-writing-source="cantina"] {
         @include generate-message("Cantina");
     }
@@ -140,7 +143,7 @@
     }
 
     // Old Stuff
-    [data-writing-source="imgur"] {
+    [data-old-stuff-source="imgur"] {
         @include generate-message("Imgur");
     }
 
