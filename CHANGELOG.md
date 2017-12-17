@@ -11,6 +11,11 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Performance optimizations
 - [DoxDox](https://doxdox.org/) support
 
+## v0.1.24 - 2017-12-17
+- Added [How to build a cloud-hosted accessibility testing Windows computer using Amazon WorkSpaces](https://www.24a11y.com/2017/build-cloud-hosted-accessibility-testing-windows-computer-using-amazon-workspaces/)
+- Copy updates
+- Generated message CSS optimizations
+
 ## v0.1.23 - 2017-12-03
 - Removed Service Worker
 - CSS optimizations
