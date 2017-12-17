@@ -18,7 +18,16 @@
 @mixin generate-message($message) {
     &::after {
         content: "#{$message}";
+    }
+}
 
+// Messages
+[data-archive-years],
+[data-learning-status],
+[data-old-stuff-source],
+[data-project-description],
+[data-writing-source] {
+    &::after {
         display: block;
         margin-top: rem(5);
 
