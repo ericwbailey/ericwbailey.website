@@ -26,7 +26,7 @@
     }
 
     &[data-archive-years] {
-        @include generate-message("2015–2017");
+        @include generate-message("2015–2018");
     }
 
     &__link {
