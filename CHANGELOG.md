@@ -11,6 +11,10 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Performance optimizations
 - [DoxDox](https://doxdox.org/) support
 
+## v0.1.27 - 2018-02-10
+- Updating writing archive year range
+- Updated contact dialog subheader
+
 ## v0.1.26 - 2018-01-31
 - Added [Building a Good Download… Button?](https://css-tricks.com/building-good-download-button/)
 - Replaced [CSS-Tricks](https://css-tricks.com/author/ericwbailey/) with [NPM](https://www.npmjs.com/~ericwbailey)
