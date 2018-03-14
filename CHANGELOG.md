@@ -11,6 +11,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Performance optimizations
 - [DoxDox](https://doxdox.org/) support
 
+## v0.1.28 - 2018-03-14
+- Replaced [NPM](https://www.npmjs.com/~ericwbailey) with [MDN](https://developer.mozilla.org/en-US/profiles/ericwbailey)
+
 ## v0.1.27 - 2018-02-10
 - Updating writing archive year range
 - Updated contact dialog subheader
