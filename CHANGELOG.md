@@ -11,6 +11,10 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Performance optimizations
 - [DoxDox](https://doxdox.org/) support
 
+## v0.1.29 - 2018-03-30
+- Added [Focusing on Focus Styles ](https://css-tricks.com/focusing-on-focus-styles/)
+- Removed Cantina
+
 ## v0.1.28 - 2018-03-14
 - Replaced [NPM](https://www.npmjs.com/~ericwbailey) with [MDN](https://developer.mozilla.org/en-US/profiles/ericwbailey)
 
