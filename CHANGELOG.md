@@ -11,6 +11,12 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Performance optimizations
 - [DoxDox](https://doxdox.org/) support
 
+## v0.1.30 - 2018-04-11
+- Re-ordered featured writing
+- Updated list semantics
+- Added missing alt description
+- Removed Service Worker from subpages 
+
 ## v0.1.29 - 2018-03-30
 - Added [Focusing on Focus Styles ](https://css-tricks.com/focusing-on-focus-styles/)
 - Removed Cantina
