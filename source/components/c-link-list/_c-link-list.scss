@@ -76,83 +76,12 @@
         }
     }
 
-    // Writing
-    [data-writing-source="24a11y"] {
-        @include generate-message("24 Accessibility");
-    }
-
-    [data-writing-source="cantina"] {
-        @include generate-message("Cantina");
-    }
-
-    [data-writing-source="css-tricks"] {
-        @include generate-message("CSS-Tricks");
-    }
-
-    [data-writing-source="human-in-the-machine"] {
-        @include generate-message("The Human in the Machine");
-    }
-
-    [data-writing-source="poynter"] {
-        @include generate-message("Poynter");
-    }
-
-    // Projects
-    [data-project-description="accessible-html-content-patterns"] {
-        @include generate-message("Better building blocks");
-    }
-
-    [data-project-description="design-build-test-repeat"] {
-        @include generate-message("Intrepid co-host");
-    }
-
-    [data-project-description="empathy-prompts"] {
-        @include generate-message("Quick exercises");
-    }
-
-    [data-project-description="fresh-garbage-newsletter"] {
-        @include generate-message("Weekly links of note");
-    }
-
-    [data-project-description="hancock-lighting"] {
-        @include generate-message("Digitizing a landmark");
-    }
-
-    [data-project-description="internetdotpdf"] {
-        @include generate-message("Document-based internet browsing");
-    }
-
-    // [data-project-description="lowvision-support"] {
-    //     @include generate-message("Responsive low vision simulator");
-    // }
-
-    [data-project-description="millennials-to-snake-people"] {
-        @include generate-message("Infamous browser extension");
-    }
-
-    [data-project-description="structure-exposed"] {
-        @include generate-message("Remove CSS frippery");
-    }
-
-    [data-project-description="ubersleep"] {
-        @include generate-message("Layout, design, and typography");
-    }
-
-    [data-project-description="youdubber"] {
-        @include generate-message("Recontextualizing You Tube");
-    }
-
-    // Old Stuff
-    [data-old-stuff-source="imgur"] {
-        @include generate-message("Imgur");
-    }
-
     // Contexts
     .l-section__contact & {
         @include c-link-list-set-grid();
     }
 
-    &__item {
+    &__container {
         margin-bottom: ms(1.25, rem);
         padding-right: ms(1, rem);
 
@@ -190,6 +119,13 @@
                 @include c-link-list-set-columns(2);
             }
         }
+    }
+
+    &__description {
+        margin-top: rem(5);
+
+        font-size: 80%;
+        line-height: 1.2;
     }
 
     &__coffee {

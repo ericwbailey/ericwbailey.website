@@ -21,12 +21,12 @@
         margin-top: ms(1);
     }
 
-    &[data-learning-status] {
-        @include generate-message("(It’s going okay)");
-    }
+    &__description {
+        display: block;
+        margin-top: rem(5);
 
-    &[data-archive-years] {
-        @include generate-message("2015–2018");
+        font-size: 80%;
+        line-height: 1.2;
     }
 
     &__link {
