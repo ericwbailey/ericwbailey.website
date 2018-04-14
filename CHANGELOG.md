@@ -11,8 +11,12 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Performance optimizations
 - [DoxDox](https://doxdox.org/) support
 
-## v0.1.30 - 2018-04-11
+## v0.1.301- 2018-04-14
+- Added thoughtbot
+- Updated site description
 - Re-ordered featured writing
+
+## v0.1.30 - 2018-04-11
 - Updated list semantics
 - Added missing alt description
 - Removed Service Worker from subpages 
