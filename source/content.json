@@ -26,6 +26,15 @@
         "speech-css":                   "Let&rsquo;s Talk About Speech CSS",
         "svg-high-contrast":            "Accessible <abbr title='Scalable Vector Graphics'>SVG</abbr>s in High Contrast Mode"
     },
+    "source": {
+        "24-a11y":    "24 Accessibility",
+        "cantina":    "Cantina",
+        "css-tricks": "CSS&#8202;-&#8202;Tricks",
+        "thitm":      "The Human in the Machine",
+        "imgur":      "Imgur",
+        "poynter":    "Poynter"
+
+    },
     "title": {
         "about":         "About",
         "accessibility": "Accessibility Statement",
