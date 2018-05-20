@@ -30,7 +30,7 @@ $global-type-family: $font-family-primary !default;
 
 /// @group general
 /// @type  Number
-$global-type-line-height: 1.7 !default;
+$global-type-line-height: 1.66625 !default; // $ratio-fourth * 1.25
 
 /// See `_ratios.scss` for other ratio options.
 /// @group general
