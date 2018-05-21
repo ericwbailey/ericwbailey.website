@@ -11,10 +11,16 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Performance optimizations
 - [DoxDox](https://doxdox.org/) support
 
-## v0.1.32- 2018-05-13
+## v0.1.33 - 2018-05-20
+- Updated ARIA declarations
+- Updated TypeKit script
+- Increased line height
+- Moved content sources to `content.json`
+
+## v0.1.32 - 2018-05-13
 - Updated presentation links with [Notist](https://noti.st/)
 
-## v0.1.31- 2018-04-14
+## v0.1.31 - 2018-04-14
 - Added thoughtbot
 - Updated site description
 - Re-ordered featured writing
@@ -22,7 +28,7 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## v0.1.30 - 2018-04-11
 - Updated list semantics
 - Added missing alt description
-- Removed Service Worker from subpages 
+- Removed Service Worker from subpages
 
 ## v0.1.29 - 2018-03-30
 - Added [Focusing on Focus Styles ](https://css-tricks.com/focusing-on-focus-styles/)
