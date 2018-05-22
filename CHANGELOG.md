@@ -11,6 +11,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Performance optimizations
 - [DoxDox](https://doxdox.org/) support
 
+## v0.1.34 - 2018-05-21
+- Fixed OG embed code
+
 ## v0.1.33 - 2018-05-20
 - Updated ARIA declarations
 - Updated TypeKit script
