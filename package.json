@@ -2,7 +2,7 @@
   "name": "ericwbailey.design",
   "description": "Boston-based user experience designer.",
   "homepage": "https://ericwbailey.design",
-  "version": "0.1.34",
+  "version": "0.1.35",
   "license": "CC-BY-NC-SA-4.0",
   "author": {
     "name": "Eric Bailey",
@@ -27,6 +27,7 @@
   "devDependencies": {
     "a11y-dialog": "^2.5.5",
     "accessible-html-content-patterns": "^0.1.0",
+    "browserslist": "^3.2.8",
     "browser-sync": "^2.12.3",
     "clipboard": "^1.6.0",
     "critical": "^0.8.0",

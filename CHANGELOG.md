@@ -11,6 +11,10 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Performance optimizations
 - [DoxDox](https://doxdox.org/) support
 
+## v0.1.35 - 2018-06-13
+- Added [How to Lead Better User Interviews](https://robots.thoughtbot.com/how-to-lead-better-user-interviews)
+- Fixed URL for Consistently Inconsistent on the Writing page
+
 ## v0.1.34 - 2018-05-21
 - Fixed OG embed code
 
