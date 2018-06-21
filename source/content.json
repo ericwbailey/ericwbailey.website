@@ -22,6 +22,7 @@
         "lead-better-user-interviews":  "How to Lead Better User Interviews",
         "letter-spacing":               "Keeping track of letter-spacing, some guidelines",
         "make-technology-work-for-you": "Make technology work for you, not the other way around",
+        "placeholder":                  "Don't Use The Placeholder Attribute",
         "reduced-motion-intro":         "An Introduction to the Reduced Motion Media Query",
         "responsive-buy-in":            "Organizational buy-in on Responsive Design",
         "speech-css":                   "Let&rsquo;s Talk About Speech CSS",
@@ -34,6 +35,7 @@
         "thitm":      "The Human in the Machine",
         "imgur":      "Imgur",
         "poynter":    "Poynter",
+        "smashing":   "Smashing Magazine",
         "thoughtbot": "thoughtbot"
     },
     "title": {
