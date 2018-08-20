@@ -11,6 +11,10 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Performance optimizations
 - [DoxDox](https://doxdox.org/) support
 
+## v0.1.37 - 2018-08-19
+- Added [The possibilities of the color-adjust property](https://css-tricks.com/the-possibilities-of-the-color-adjust-property/)
+- Update [skiplink targets](https://axesslab.com/skip-links/)
+
 ## v0.1.36 - 2018-06-21
 - Added [Don’t Use The Placeholder Attribute](https://www.smashingmagazine.com/2018/06/placeholder-attribute/)
 
