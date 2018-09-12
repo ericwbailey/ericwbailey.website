@@ -11,12 +11,15 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Performance optimizations
 - [DoxDox](https://doxdox.org/) support
 
+## v0.1.38 - 2018-10-12
+- Added [The Importance Of Manual Accessibility Testing](https://www.smashingmagazine.com/2018/09/importance-manual-accessibility-testing/)
+
 ## v0.1.37 - 2018-08-19
 - Added [The possibilities of the color-adjust property](https://css-tricks.com/the-possibilities-of-the-color-adjust-property/)
 - Update [skiplink targets](https://axesslab.com/skip-links/)
 
 ## v0.1.36 - 2018-06-21
-- Added [Don’t Use The Placeholder Attribute](https://www.smashingmagazine.com/2018/06/placeholder-attribute/)
+- Added [Donï¿½t Use The Placeholder Attribute](https://www.smashingmagazine.com/2018/06/placeholder-attribute/)
 
 ## v0.1.35 - 2018-06-13
 - Added [How to Lead Better User Interviews](https://robots.thoughtbot.com/how-to-lead-better-user-interviews)
