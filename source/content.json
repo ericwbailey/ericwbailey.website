@@ -19,12 +19,26 @@
         "focusing-focus-styles":        "Focusing on Focus Styles",
         "how-accessible-is-your-news":  "How accessible is your website for the disabled? Consider doing an audit to find out",
         "iot-firmware":                 "Improving the User Experience of <abbr title='Internet of Things'>IoT</abbr> Firmware Updates",
+        "lead-better-user-interviews":  "How to Lead Better User Interviews",
         "letter-spacing":               "Keeping track of letter-spacing, some guidelines",
         "make-technology-work-for-you": "Make technology work for you, not the other way around",
+        "manual-accessibility-testing": "The Importance Of Manual Accessibility Testing",
+        "placeholder":                  "Don't Use The Placeholder Attribute",
+        "possibilities-color-adjust":   "The possibilities of the color-adjust property",
         "reduced-motion-intro":         "An Introduction to the Reduced Motion Media Query",
         "responsive-buy-in":            "Organizational buy-in on Responsive Design",
         "speech-css":                   "Let&rsquo;s Talk About Speech CSS",
         "svg-high-contrast":            "Accessible <abbr title='Scalable Vector Graphics'>SVG</abbr>s in High Contrast Mode"
+    },
+    "source": {
+        "24-a11y":    "24 Accessibility",
+        "cantina":    "Cantina",
+        "css-tricks": "CSS&#8202;-&#8202;Tricks",
+        "thitm":      "The Human in the Machine",
+        "imgur":      "Imgur",
+        "poynter":    "Poynter",
+        "smashing":   "Smashing Magazine",
+        "thoughtbot": "thoughtbot"
     },
     "title": {
         "about":         "About",

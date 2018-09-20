@@ -123,9 +123,16 @@
 
     &__description {
         margin-top: rem(5);
+        margin-bottom: ms(1.25, rem);
 
         font-size: 80%;
         line-height: 1.2;
+
+        // Contexts
+        .c-link-list__container & {
+            margin-bottom: 0; // NOTE: `<div>` elements wrapping `<dt>`/`</dd>` pairings
+        }
+
     }
 
     &__coffee {
@@ -146,6 +153,7 @@
 
     &__location {
         margin-top: ms(0.25, em);
+        margin-bottom: ms(1.25, rem);
 
         font-size: 80%;
         line-height: 1.5;
