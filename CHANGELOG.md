@@ -11,6 +11,11 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Performance optimizations
 - [DoxDox](https://doxdox.org/) support
 
+## v0.1.39 - 2018-10-20
+- Changed presentations to use [Notist](https://noti.st/ericwbailey)
+- Updated [coffee shop location](https://goo.gl/maps/rp3nctpwPHT2)
+- Added sticky year headers to [writing](https://ericwbailey.design/writing.html)
+
 ## v0.1.38 - 2018-10-12
 - Added [The Importance Of Manual Accessibility Testing](https://www.smashingmagazine.com/2018/09/importance-manual-accessibility-testing/)
 
