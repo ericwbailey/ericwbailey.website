@@ -4,11 +4,9 @@
 
 
 // [1] Ensure the page always fills at least the entire height of the viewport
-// [2] Force scrollbars to always be visible to prevent awkward jumps when
-// navigating between path-to-images
-// [3] Overrides smartphone text resizing algorithms:
+// [2] Overrides smartphone text resizing algorithms:
 // https://developer.mozilla.org/en-US/docs/Web/CSS/text-size-adjust
-// [4] Triggers browser hyphenation based off of declared language:
+// [3] Triggers browser hyphenation based off of declared language:
 // http://thenewcode.com/429/Classic-Typography-Effects-Hyphenation
 html {
     @include typography-kerning();
@@ -16,7 +14,7 @@ html {
 
     margin: 0;
     min-height: 100%; // [1]
-    overflow-y: scroll; // [2]
+    // overflow-y: scroll;
     padding: 0;
 
     background-color: c(background, dark); // Set on `<html>` to keep the background color present if the browser bounces at a scrolling boundary
@@ -27,12 +25,12 @@ html {
     font-size: $global-type-size;
     font-weight: $global-type-weight;
     line-height: $global-type-line-height;
-    text-size-adjust: 100%; // [3]
+    text-size-adjust: 100%; // [2]
 
     &:lang(en-US) {
         // Breakpoints
         @include mappy-bp(lap-small) {
-            @include typography-hyphenation(add); // [4]
+            @include typography-hyphenation(add); // [3]
         }
     }
 }

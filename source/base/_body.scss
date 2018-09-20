@@ -5,6 +5,7 @@
 
 body {
     overflow-x: hidden;
+    overflow-y: scroll; // Force scrollbars to always be visible to prevent awkward jumps when navigating between pages
 
     font-size: em(17);
 
