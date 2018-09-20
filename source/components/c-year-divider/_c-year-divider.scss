@@ -9,9 +9,11 @@
 
 // Component Styling ----------------------------------------------------------
 .c-year-divider {
+    padding-top: ms(0.25);
     padding-bottom: ms(0.25);
     position: sticky;
       top: -1px;
 
       background-color: c(l-content, background-content);
+      box-shadow: shadow(medium) c(l-content, background-content);
 }

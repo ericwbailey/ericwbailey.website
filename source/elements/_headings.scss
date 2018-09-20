@@ -65,8 +65,8 @@
     @include typography-measure();
     @include typography-tracking(tight);
 
-    margin-top: ms(1.5, em);
-    margin-bottom: ms(0.5, em);
+    margin-top: ms(1.25, em);
+    margin-bottom: ms(0.25, em);
     margin-left: -0.5ch;
 
     font-size: ms(1.25, em);
@@ -81,7 +81,7 @@
 
     // Breakpoints
     @include mappy-bp(palm-medium) {
-        margin-top: ms(1.75, em);
+        margin-top: ms(1.5, em);
         margin-left: -1ch;
     }
 }
