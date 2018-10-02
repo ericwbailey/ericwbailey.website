@@ -11,12 +11,15 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Performance optimizations
 - [DoxDox](https://doxdox.org/) support
 
-## v0.1.39 - 2018-10-20
+## v0.1.40 - 2018-1002
+- Swapped out Google Analytics in favor of [Gauges](https://get.gaug.es/)
+
+## v0.1.39 - 2018-09-20
 - Changed presentations to use [Notist](https://noti.st/ericwbailey)
 - Updated [coffee shop location](https://goo.gl/maps/rp3nctpwPHT2)
 - Added sticky year headers to [writing](https://ericwbailey.design/writing.html)
 
-## v0.1.38 - 2018-10-12
+## v0.1.38 - 2018-09-12
 - Added [The Importance Of Manual Accessibility Testing](https://www.smashingmagazine.com/2018/09/importance-manual-accessibility-testing/)
 
 ## v0.1.37 - 2018-08-19
