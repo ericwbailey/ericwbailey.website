@@ -198,4 +198,27 @@
             @include content-underline($underline-background-color: c(l-section, writing));
         }
     }
+
+    &__sublink {
+        // States
+        &:hover {
+            text-decoration: none;
+        }
+
+        &:focus {
+            background-color: c(link, dark);
+            outline: border(thick) solid c(link, dark);
+
+            color: c(link, light);
+        }
+
+        &:active {
+            @include content-shift-click();
+
+            background-color: transparent;
+            outline: none;
+
+            color: c(link, dark);
+        }
+    }
 }
