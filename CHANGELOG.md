@@ -11,7 +11,10 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Performance optimizations
 - [DoxDox](https://doxdox.org/) support
 
-## v0.1.40 - 2018-1002
+## v0.1.41 - 2018-10-21
+- Added [If it's interactive, it needs a focus style](https://noti.st/ericwbailey/TcMJFP/if-it-s-interactive-it-needs-a-focus-style) talk
+
+## v0.1.40 - 2018-10-02
 - Swapped out Google Analytics in favor of [Gauges](https://get.gaug.es/)
 
 ## v0.1.39 - 2018-09-20
