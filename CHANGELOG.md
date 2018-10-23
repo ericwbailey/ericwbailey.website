@@ -11,6 +11,13 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Performance optimizations
 - [DoxDox](https://doxdox.org/) support
 
+## v0.1.42 - 2018-10-23
+- Added [The Importance of Heading Levels for Assistive Technology](https://webdesign.tutsplus.com/articles/the-importance-of-heading-levels-for-assistive-technology--cms-31753)
+- Link code cleanup
+- Reformat article and talk JSON
+- Minor UI tweaks
+- Joined the [Hotline Webring](https://hotlinewebring.club/)!
+
 ## v0.1.41 - 2018-10-21
 - Added [If it's interactive, it needs a focus style](https://noti.st/ericwbailey/TcMJFP/if-it-s-interactive-it-needs-a-focus-style) talk
 
