@@ -4,36 +4,187 @@
         "tagline": "Boston-based designer"
     },
     "post": {
-        "accessibility-culture-1":      "Instituting a culture of accessibility in your organization:&nbsp;Part&nbsp;1",
-        "accessibility-culture-2":      "Instituting a culture of accessibility in your organization:&nbsp;Part&nbsp;2",
-        "aria-is-spackle-not-rebar":    "ARIA is Spackle, Not Rebar",
-        "battery-status":               "Battery Status <abbr title='Application Program Interface'>API</abbr>: We need to talk",
-        "better-button-css":            "Building a better button in <abbr>CSS</abbr>",
-        "build-cloud-hosted-aws":       "How to build a cloud-hosted accessibility testing Windows computer using Amazon WorkSpaces",
-        "building-a-good-download":     "Building a Good Download&#133; Button?",
-        "crafting-chatbot-1":           "Crafting a chatbot people will use:&nbsp;Part&nbsp;1",
-        "crafting-chatbot-2":           "Crafting a chatbot people will use:&nbsp;Part&nbsp;2",
-        "consistently-inconsistent":    "Consistently Inconsistent: When the Most Accessible Experience is Different for Each User",
-        "equifax":                      "Equifax Data Breach, Credit Freezes, and Beholden Design",
-        "exception":                    "I&rsquo;ll Make an Exception Just for You: Using the Exception Comment to Help Maintain Mature, Large-scale Sass Projects",
-        "focusing-focus-styles":        "Focusing on Focus Styles",
-        "how-accessible-is-your-news":  "How accessible is your website for the disabled? Consider doing an audit to find out",
-        "iot-firmware":                 "Improving the User Experience of <abbr title='Internet of Things'>IoT</abbr> Firmware Updates",
-        "lead-better-user-interviews":  "How to Lead Better User Interviews",
-        "letter-spacing":               "Keeping track of letter-spacing, some guidelines",
-        "make-technology-work-for-you": "Make technology work for you, not the other way around",
-        "manual-accessibility-testing": "The Importance Of Manual Accessibility Testing",
-        "placeholder":                  "Don't Use The Placeholder Attribute",
-        "possibilities-color-adjust":   "The possibilities of the color-adjust property",
-        "reduced-motion-intro":         "An Introduction to the Reduced Motion Media Query",
-        "responsive-buy-in":            "Organizational buy-in on Responsive Design",
-        "speech-css":                   "Let&rsquo;s Talk About Speech CSS",
-        "svg-high-contrast":            "Accessible <abbr title='Scalable Vector Graphics'>SVG</abbr>s in High Contrast Mode"
+        "accessibility-culture-1": {
+            "title": "Instituting a culture of accessibility in your organization:&nbsp;Part&nbsp;1",
+            "id":    "instituting-a-culture-of-accessibility-in-your-organization-part-1",
+            "url":   "https://cantina.co/instituting-a-culture-of-accessibility-in-your-organization/",
+            "year":  "2016"
+        },
+        "accessibility-culture-2": {
+            "title": "Instituting a culture of accessibility in your organization:&nbsp;Part&nbsp;2",
+            "id":    "instituting-a-culture-of-accessibility-in-your-organization-part-2",
+            "url":   "https://cantina.co/instituting-a-culture-of-accessibility-in-your-organization-part-2/",
+            "year":  "2016"
+        },
+        "aria-is-spackle-not-rebar": {
+            "title": "ARIA is Spackle, Not Rebar",
+            "id":    "aria-is-spackle-not-rebar",
+            "url":   "https://css-tricks.com/aria-spackle-not-rebar/",
+            "year":  "2017"
+        },
+        "battery-status": {
+            "title": "Battery Status <abbr title='Application Program Interface'>API</abbr>: We need to talk",
+            "id":    "battery-status-api-we-need-to-talk",
+            "url":   "https://cantina.co/battery-status-api-we-need-to-talk/",
+            "year":  "2016"
+        },
+        "better-button-css": {
+            "title": "Building a better button in <abbr>CSS</abbr>",
+            "id":    "building-a-better-button-in-css",
+            "url":   "https://cantina.co/battery-status-api-we-need-to-talk/",
+            "year":  "2016"
+        },
+        "build-cloud-hosted-aws": {
+            "title": "How to build a cloud-hosted accessibility testing Windows computer using Amazon WorkSpaces",
+            "id":    "how-to-build-a-cloud-hosted-accessibility-testing-windows-computer-using-amazon-workspaces",
+            "url":   "https://www.24a11y.com/2017/build-cloud-hosted-accessibility-testing-windows-computer-using-amazon-workspaces/",
+            "year":  "2017"
+        },
+        "building-a-good-download": {
+            "title": "Building a Good Download&#133; Button?",
+            "id":    "building-a-good-download-button",
+            "url":   "https://css-tricks.com/building-good-download-button/",
+            "year":  "2018"
+        },
+        "crafting-chatbot-1": {
+            "title": "Crafting a chatbot people will use:&nbsp;Part&nbsp;1",
+            "id":    "crafting-a-chatbot-people-will-use-part-1",
+            "url":   "https://cantina.co/crafting-a-chatbot-people-will-use-part-1/",
+            "year":  "2017"
+        },
+        "crafting-chatbot-2": {
+            "title": "Crafting a chatbot people will use:&nbsp;Part&nbsp;2",
+            "id":    "crafting-a-chatbot-people-will-use-part-2",
+            "url":   "https://cantina.co/crafting-a-chatbot-people-will-use-part-2/",
+            "year":  "2017"
+        },
+        "consistently-inconsistent": {
+            "title": "Consistently Inconsistent: When the Most Accessible Experience is Different for Each User",
+            "id":    "consistently-inconsistent-when-the-most-accessible-experience-is-different-for-each-user",
+            "url":   "https://cantina.co/consistently-inconsistent-when-the-most-accessible-experience-is-different-for-each-user/",
+            "year":  "2017"
+        },
+        "equifax": {
+            "title": "Equifax Data Breach, Credit Freezes, and Beholden Design",
+            "id":    "equifax-data-breach-credit-freezes-and-beholden-design",
+            "url":   "https://cantina.co/equifax-data-breach-credit-freezes-and-beholden-design/",
+            "year":  "2017"
+        },
+        "exception": {
+            "title": "I&rsquo;ll Make an Exception Just for You: Using the Exception Comment to Help Maintain Mature, Large-scale Sass Projects",
+            "id":    "ill-make-an-exception-just-for-you",
+            "url":   "https://cantina.co/ill-make-an-exception-just-for-you/",
+            "year":  "2015"
+        },
+        "focusing-focus-styles": {
+            "title": "Focusing on Focus Styles",
+            "id":    "focusing-on-focus-styles",
+            "url":   "https://css-tricks.com/focusing-on-focus-styles/",
+            "year":  "2018"
+        },
+        "how-accessible-is-your-news": {
+            "title": "How accessible is your website for the disabled? Consider doing an audit to find out",
+            "id":    "how-accessible-is-your-website-for-the-disabled-consider-doing-an-audit-to-find-out",
+            "url":   "https://www.poynter.org/news/how-accessible-your-website-disabled-consider-doing-audit-find-out/"
+        },
+        "iot-firmware": {
+            "title": "Improving the User Experience of <abbr title='Internet of Things'>IoT</abbr> Firmware Updates",
+            "id":    "improving-the-user-experience-of-iot-firmware-updates",
+            "url":   "https://cantina.co/improving-the-user-experience-of-iot-firmware-updates/",
+            "year":  "2017"
+        },
+        "importance-heading-levels": {
+            "title": "The Importance of Heading Levels for Assistive Technology",
+            "id":    "the-importance-of-heading-levels-for-assistive-technology",
+            "url":   "https://webdesign.tutsplus.com/articles/the-importance-of-heading-levels-for-assistive-technology--cms-31753",
+            "year":  "2018"
+        },
+        "lead-better-user-interviews": {
+            "title": "How to Lead Better User Interviews",
+            "id":    "how-to-lead-better-user-interviews",
+            "url":   "https://robots.thoughtbot.com/how-to-lead-better-user-interviews",
+            "year":  "2018"
+        },
+        "letter-spacing": {
+            "title": "Keeping track of letter-spacing, some guidelines",
+            "id":    "keeping-track-of-letter-spacing-some-guidelines",
+            "url":   "https://css-tricks.com/keeping-track-letter-spacing-guidelines/",
+            "year":  "2017"
+        },
+        "make-technology-work-for-you": {
+            "title": "Make technology work for you, not the other way around",
+            "id":    "make-technology-work-for-you-not-the-other-way-around",
+            "url":   "https://superyesmore.com/make-technology-work-for-you-not-the-other-way-around-1c0ead1f34eb5fcad227bd3e9de85244",
+            "year":  "2017"
+        },
+        "manual-accessibility-testing": {
+            "title": "The Importance Of Manual Accessibility Testing",
+            "id":    "the-importance-of-manual-accessibility-testing",
+            "url":   "https://www.smashingmagazine.com/2018/09/importance-manual-accessibility-testing/",
+            "year":  "2018"
+        },
+        "placeholder": {
+            "title": "Don't Use The Placeholder Attribute",
+            "id":    "dont-use-the-placeholder-attribute",
+            "url":   "https://www.smashingmagazine.com/2018/06/placeholder-attribute/",
+            "year":  "2018"
+        },
+        "possibilities-color-adjust": {
+            "title": "The possibilities of the color-adjust property",
+            "id":    "the-possibilities-of-the-color-adjust-property",
+            "url":   "https://css-tricks.com/the-possibilities-of-the-color-adjust-property/",
+            "year":  "2018"
+        },
+        "reduced-motion-intro": {
+            "title": "An Introduction to the Reduced Motion Media Query",
+            "id":    "an-introduction-to-the-reduced-motion-media-query",
+            "url":   "https://css-tricks.com/introduction-reduced-motion-media-query/",
+            "year":  "2017"
+        },
+        "responsive-buy-in": {
+            "title": "Organizational buy-in on Responsive Design",
+            "id":    "organizational-buy-in-on-responsive-design",
+            "url":   "https://cantina.co/organizational-buy-in-on-responsive-design/",
+            "year":  "2016"
+        },
+        "speech-css": {
+            "title": "Let&rsquo;s Talk About Speech CSS",
+            "id":    "lets-talk-about-speech-css",
+            "url":   "https://css-tricks.com/lets-talk-speech-css/",
+            "year":  "2017"
+        },
+        "svg-high-contrast": {
+            "title": "Accessible <abbr title='Scalable Vector Graphics'>SVG</abbr>s in High Contrast Mode",
+            "id":    "accessible-svgs-in-high-contrast-mode",
+            "url":   "https://css-tricks.com/accessible-svgs-high-contrast-mode/",
+            "year":  "2016"
+        }
+    },
+    "talk": {
+        "inclusion-media-queries": {
+            "title":    "Designing for Inclusion with Media Queries",
+            "id":       "designing-for-inclusion-with-media-queries",
+            "url":      "https://cantina.co/instituting-a-culture-of-accessibility-in-your-organization/",
+            "location": "Delivered at the <a class='c-link-list__sublink' rel='external noopener' href='https://www.inclusivedesign24.org/2017/#talk2'>Inclusive Design 24 2017</a> webinar and at the <a class='c-link-list__sublink' rel='external noopener' href='https://youtu.be/MAwC-JWDxxc'>Boston CSS</a> meetup group"
+        },
+        "inclusion-media-queries": {
+            "title":    "Working with High Contrast Mode",
+            "id":       "working-with-high-contrast-mode",
+            "url":      "https://www.youtube.com/watch?v=CJltSqksCn0&list=PLn7dsvRdQEfEnBxpVztmJ8KCKNJ_P-hR6",
+            "location": "Delivered at <a class='c-link-list__sublink' href='http://www.accessibilitycampto.org/' rel='external noopener'>Accessibility Camp Toronto 2017</a> and the <a class='c-link-list__sublink' href='https://inclusivedesign24.org/2018/schedule/#talk21' rel='external noopener'>Inclusive Design 24 2018</a> webinar"
+        },
+        "interactive-focus-style": {
+            "title":    "If it&rsquo;s interactive, it needs a focus style",
+            "id":       "if-its-interactive-it-needs-a-focus-style",
+            "url":      "https://noti.st/ericwbailey/TcMJFP/if-it-s-interactive-it-needs-a-focus-style",
+            "location": "Delivered at <a class='c-link-list__sublink' href='http://conf.a11yto.com/' rel='external noopener'>a11yTOConf</a>"
+        }
     },
     "source": {
         "24-a11y":    "24 Accessibility",
         "cantina":    "Cantina",
         "css-tricks": "CSS&#8202;-&#8202;Tricks",
+        "tutsplus":   "Envato Tuts+",
         "thitm":      "The Human in the Machine",
         "imgur":      "Imgur",
         "poynter":    "Poynter",
