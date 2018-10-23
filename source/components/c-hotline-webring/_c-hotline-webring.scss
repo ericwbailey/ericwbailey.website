@@ -1,6 +1,6 @@
 // ============================================================================
 // Component
-// Year Divider
+// Hotline Webring
 // ============================================================================
 
 
@@ -8,14 +8,21 @@
 
 
 // Component Styling ----------------------------------------------------------
-.c-year-divider {
-    padding-top: ms(0.25);
-    padding-bottom: ms(0.25);
-    position: sticky;
-      top: -1px;
+a.c-hotline-webring {
+    text-decoration: none;
 
-      background-color: c(l-content, background-content);
-      box-shadow:
-        0 -0.5rem 1rem 0 c(l-content, background-content),
-        shadow(medium) c(l-content, background-content);
+    .wf-active & {
+        &__previous,
+        &__next {
+            box-shadow: none;
+            position: relative;
+              top: em(2);
+
+            font-size: 200%;
+        }
+
+        &__previous {
+            margin-left: ms(0.25, rem);
+        }
+    }
 }
