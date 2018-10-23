@@ -1,0 +1,28 @@
+// ============================================================================
+// Component
+// Hotline Webring
+// ============================================================================
+
+
+// Component Logic ------------------------------------------------------------
+
+
+// Component Styling ----------------------------------------------------------
+a.c-hotline-webring {
+    text-decoration: none;
+
+    .wf-active & {
+        &__previous,
+        &__next {
+            box-shadow: none;
+            position: relative;
+              top: em(2);
+
+            font-size: 200%;
+        }
+
+        &__previous {
+            margin-left: ms(0.25, rem);
+        }
+    }
+}
