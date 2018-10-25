@@ -11,6 +11,10 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Performance optimizations
 - [DoxDox](https://doxdox.org/) support
 
+## v0.1.43 - 2018-10-24
+- Added [Quick Tip: Use the “lang” Attribute for Better Accessibility](https://webdesign.tutsplus.com/tutorials/use-the-lang-attribute-for-better-accessibility--cms-31961)
+- Minor speaking copy tweaks
+
 ## v0.1.42 - 2018-10-23
 - Added [The Importance of Heading Levels for Assistive Technology](https://webdesign.tutsplus.com/articles/the-importance-of-heading-levels-for-assistive-technology--cms-31753)
 - Link code cleanup
