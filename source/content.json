@@ -135,6 +135,12 @@
             "url":   "https://css-tricks.com/the-possibilities-of-the-color-adjust-property/",
             "year":  "2018"
         },
+        "quick-tip-lang": {
+            "title": "Quick Tip: Use the “lang” Attribute for Better Accessibility",
+            "id":    "quick-tip-use-the-lang-attribute-for-better-accessibility",
+            "url":   "https://webdesign.tutsplus.com/tutorials/use-the-lang-attribute-for-better-accessibility--cms-31961",
+            "year":  "2018"
+        },
         "reduced-motion-intro": {
             "title": "An Introduction to the Reduced Motion Media Query",
             "id":    "an-introduction-to-the-reduced-motion-media-query",
@@ -164,20 +170,20 @@
         "inclusion-media-queries": {
             "title":    "Designing for Inclusion with Media Queries",
             "id":       "designing-for-inclusion-with-media-queries",
-            "url":      "https://cantina.co/instituting-a-culture-of-accessibility-in-your-organization/",
+            "url":      "https://noti.st/ericwbailey/QxdLmO/designing-for-inclusion-with-media-queries/",
             "location": "Delivered at the <a class='c-link-list__sublink' rel='external noopener' href='https://www.inclusivedesign24.org/2017/#talk2'>Inclusive Design 24 2017</a> webinar and at the <a class='c-link-list__sublink' rel='external noopener' href='https://youtu.be/MAwC-JWDxxc'>Boston CSS</a> meetup group"
         },
-        "inclusion-media-queries": {
+        "high-contrast-mode": {
             "title":    "Working with High Contrast Mode",
             "id":       "working-with-high-contrast-mode",
-            "url":      "https://www.youtube.com/watch?v=CJltSqksCn0&list=PLn7dsvRdQEfEnBxpVztmJ8KCKNJ_P-hR6",
-            "location": "Delivered at <a class='c-link-list__sublink' href='http://www.accessibilitycampto.org/' rel='external noopener'>Accessibility Camp Toronto 2017</a> and the <a class='c-link-list__sublink' href='https://inclusivedesign24.org/2018/schedule/#talk21' rel='external noopener'>Inclusive Design 24 2018</a> webinar"
+            "url":      "https://noti.st/ericwbailey/3HM9en/working-with-high-contrast-mode",
+            "location": "Delivered at <a class='c-link-list__sublink' href='http://www.accessibilitycampto.org/talks' rel='external noopener'>Accessibility Camp Toronto 2017</a> and the <a class='c-link-list__sublink' href='https://inclusivedesign24.org/2018/schedule/#talk21' rel='external noopener'>Inclusive Design 24 2018</a> webinar"
         },
         "interactive-focus-style": {
             "title":    "If it&rsquo;s interactive, it needs a focus style",
             "id":       "if-its-interactive-it-needs-a-focus-style",
             "url":      "https://noti.st/ericwbailey/TcMJFP/if-it-s-interactive-it-needs-a-focus-style",
-            "location": "Delivered at <a class='c-link-list__sublink' href='http://conf.a11yto.com/' rel='external noopener'>a11yTOConf</a>"
+            "location": "Delivered at the 2018 <a class='c-link-list__sublink' href='http://conf.a11yto.com/' rel='external noopener'>a11yTOConf</a> conference"
         }
     },
     "source": {
