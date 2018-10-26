@@ -92,6 +92,23 @@
         max-width: $global-type-measure - 4ex;
     }
 
+    ul,
+    ol {
+        margin-top: ms(1.25);
+    }
+
+    li {
+        margin-top: ms(0.25);
+        margin-left: ms(1);
+
+        list-style-type: disc;
+
+        // Breakpoints
+        @include mappy-bp(palm-medium) {
+            margin-left: 0;
+        }
+    }
+
     a,
     button[data-message-subject] {
         @include content-underline($underline-background-color: white);
