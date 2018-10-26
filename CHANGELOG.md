@@ -11,6 +11,10 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Performance optimizations
 - [DoxDox](https://doxdox.org/) support
 
+## v0.1.44 - 2018-10-26
+- Added an office hours page
+- Minor copy and layout tweaks
+
 ## v0.1.43 - 2018-10-24
 - Added [Quick Tip: Use the “lang” Attribute for Better Accessibility](https://webdesign.tutsplus.com/tutorials/use-the-lang-attribute-for-better-accessibility--cms-31961)
 - Minor speaking copy tweaks
