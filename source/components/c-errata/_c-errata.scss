@@ -88,5 +88,28 @@
 
     &__link {
         @include errata-underline();
+
+        &--copyright {
+            color: c(c-errata, base);
+
+            // States
+            &:hover,
+            &:focus {
+                text-decoration: none;
+            }
+
+            &:active {
+                @include content-shift-click();
+            }
+        }
+    }
+
+    &__copyright {
+        margin-top: ms(1.5);
+
+        // Breakpoints
+        @include mappy-bp(palm-medium) {
+            margin-top: ms(0.75);
+        }
     }
 }

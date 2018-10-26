@@ -8,13 +8,20 @@
 
 
 // Component Styling ----------------------------------------------------------
-a.c-hotline-webring {
-    text-decoration: none;
+.c-hotline-webring {
+    display: block;
+    margin-top: ms(-0.5);
 
+    // Breakpoints
+    @include mappy-bp(palm-large) {
+        display: inline;
+    }
+
+    // States
     .wf-active & {
         &__previous,
         &__next {
-            box-shadow: none;
+            box-shadow: none !important;
             position: relative;
               top: em(2);
 

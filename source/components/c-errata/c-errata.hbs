@@ -5,7 +5,16 @@
             class="c-errata__link"
             {{{currentWriting}}}
             href="writing.html">
-            <small>Writing</small>
+            <small>{{content.title.writing}}</small>
+        </a>
+    </li>
+
+    <li class="c-errata__item">
+        <a
+            class="c-errata__link"
+            {{{currentOfficeHours}}}
+            href="office-hours.html">
+            <small>{{content.title.office-hours}}</small>
         </a>
     </li>
 
@@ -14,7 +23,7 @@
             class="c-errata__link"
             {{{currentAccessibility}}}
             href="accessibility-statement.html">
-            <small>Accessibility Statement</small>
+            <small>{{content.title.accessibility}}</small>
         </a>
     </li>
 
@@ -23,7 +32,7 @@
             class="c-errata__link"
             {{{currentColophon}}}
             href="colophon.html">
-            <small>Colophon</small>
+            <small>{{content.title.colophon}}</small>
         </a>
     </li>
 
@@ -32,22 +41,22 @@
             class="c-errata__link"
             {{{currentOldStuff}}}
             href="old-stuff.html">
-            <small>Old Stuff</small>
-        </a>
-    </li>
-
-    <li class="c-errata__item">
-        <a
-            class="c-errata__link"
-            href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"
-            itemprop="license"
-            rel="copyright external license noopener">
-            <small>
-                <abbr title="Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License">
-                    CC BY-NC-SA
-                </abbr>
-            </small>
+            <small>{{content.title.old-stuff}}</small>
         </a>
     </li>
 
 </ul>
+
+<p class="c-errata__copyright">
+    <a
+        class="c-errata__link--copyright"
+        href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"
+        itemprop="license"
+        rel="copyright external license noopener">
+        <small>
+            <abbr title="Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License">
+                CC BY-NC-SA
+            </abbr>
+        </small>
+    </a>
+</p>
