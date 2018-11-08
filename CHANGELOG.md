@@ -14,6 +14,7 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## v0.1.45 - 2018-11-08
 - Added [A designer developing for Android](https://robots.thoughtbot.com/a-designer-developing-for-android)
 - Slight tweak to `welcome.js`
+- Replaced link to [DBTR](http://dbtr.fm/) with [Exploit Logos](https://www.instagram.com/exploit.logos/)
 
 ## v0.1.44 - 2018-10-26
 - Added an office hours page
