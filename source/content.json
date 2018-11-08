@@ -31,7 +31,7 @@
         "better-button-css": {
             "title": "Building a better button in <abbr>CSS</abbr>",
             "id":    "building-a-better-button-in-css",
-            "url":   "https://cantina.co/battery-status-api-we-need-to-talk/",
+            "url":   "https://cantina.co/building-a-better-button-in-css/",
             "year":  "2016"
         },
         "build-cloud-hosted-aws": {
@@ -63,6 +63,12 @@
             "id":    "consistently-inconsistent-when-the-most-accessible-experience-is-different-for-each-user",
             "url":   "https://cantina.co/consistently-inconsistent-when-the-most-accessible-experience-is-different-for-each-user/",
             "year":  "2017"
+        },
+        "designer-developing-android": {
+            "title": "A designer developing for Android",
+            "id":    "a-designer-developing-for-android",
+            "url":   "https://robots.thoughtbot.com/a-designer-developing-for-android",
+            "year":  "2018"
         },
         "equifax": {
             "title": "Equifax Data Breach, Credit Freezes, and Beholden Design",
