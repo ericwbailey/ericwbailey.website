@@ -11,6 +11,11 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Performance optimizations
 - [DoxDox](https://doxdox.org/) support
 
+## v0.1.46 - 2018-11-23
+- Add [Quick test: Large touch targets](https://a11yproject.com/posts/large-touch-targets/)
+- Slight copy tweaks
+- Update errata and copyright link treatments
+
 ## v0.1.45 - 2018-11-08
 - Added [A designer developing for Android](https://robots.thoughtbot.com/a-designer-developing-for-android)
 - Slight tweak to `welcome.js`
