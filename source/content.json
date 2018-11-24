@@ -170,6 +170,12 @@
             "id":    "accessible-svgs-in-high-contrast-mode",
             "url":   "https://css-tricks.com/accessible-svgs-high-contrast-mode/",
             "year":  "2016"
+        },
+        "touch-targets": {
+            "title": "Quick test: Large touch targets",
+            "id":    "quick-test-large-touch-targets",
+            "url":   "https://a11yproject.com/posts/large-touch-targets/",
+            "year":  "2018"
         }
     },
     "talk": {
@@ -193,15 +199,16 @@
         }
     },
     "source": {
-        "24-a11y":    "24 Accessibility",
-        "cantina":    "Cantina",
-        "css-tricks": "CSS&#8202;-&#8202;Tricks",
-        "tutsplus":   "Envato Tuts+",
-        "thitm":      "The Human in the Machine",
-        "imgur":      "Imgur",
-        "poynter":    "Poynter",
-        "smashing":   "Smashing Magazine",
-        "thoughtbot": "thoughtbot"
+        "24-a11y":      "24 Accessibility",
+        "a11y-project": "The A11Y Project",
+        "cantina":      "Cantina",
+        "css-tricks":   "CSS&#8202;-&#8202;Tricks",
+        "tutsplus":     "Envato Tuts+",
+        "thitm":        "The Human in the Machine",
+        "imgur":        "Imgur",
+        "poynter":      "Poynter",
+        "smashing":     "Smashing Magazine",
+        "thoughtbot":   "thoughtbot"
     },
     "title": {
         "about":         "About",
