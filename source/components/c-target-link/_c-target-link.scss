@@ -21,7 +21,7 @@
 
 
 // Component Styling ----------------------------------------------------------
-.c-accessibility-issues {
+.c-target-link {
     &:target {
         &::before {
             @include component-align(float, start);
