@@ -11,6 +11,11 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Performance optimizations
 - [DoxDox](https://doxdox.org/) support
 
+## v0.1.47 - 2018-12-05
+- Add [Be the Villain](https://24ways.org/2018/be-the-villain/)
+- Add Wayfair talk
+- Fix mobile footer link underline treatment
+
 ## v0.1.46 - 2018-11-23
 - Add [Quick test: Large touch targets](https://a11yproject.com/posts/large-touch-targets/)
 - Slight copy tweaks
