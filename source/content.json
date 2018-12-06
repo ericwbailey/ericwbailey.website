@@ -34,6 +34,12 @@
             "url":   "https://cantina.co/building-a-better-button-in-css/",
             "year":  "2016"
         },
+        "be-the-villain": {
+            "title": "Be the Villain",
+            "id":    "be-the-villain",
+            "url":   "https://24ways.org/2018/be-the-villain/",
+            "year":  "2018"
+        },
         "build-cloud-hosted-aws": {
             "title": "How to build a cloud-hosted accessibility testing Windows computer using Amazon WorkSpaces",
             "id":    "how-to-build-a-cloud-hosted-accessibility-testing-windows-computer-using-amazon-workspaces",
