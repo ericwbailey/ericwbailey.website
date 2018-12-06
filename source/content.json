@@ -179,6 +179,11 @@
         }
     },
     "talk": {
+        "accessibility-inclusive-design": {
+            "title":    "Accessibility and Inclusive Design",
+            "id":       "accessibility-and-Inclusive-Design",
+            "location": "Delivered for the Wayfair Enterprise Product Design group"
+        },
         "inclusion-media-queries": {
             "title":    "Designing for Inclusion with Media Queries",
             "id":       "designing-for-inclusion-with-media-queries",
@@ -200,6 +205,7 @@
     },
     "source": {
         "24-a11y":      "24 Accessibility",
+        "24-ways":      "24 ways",
         "a11y-project": "The A11Y Project",
         "cantina":      "Cantina",
         "css-tricks":   "CSS&#8202;-&#8202;Tricks",
