@@ -97,7 +97,22 @@
     }
 
     &__link {
-        @include errata-underline();
+        text-decoration: underline;
+
+        // States
+        &:hover,
+        &:focus {
+            text-decoration: none;
+        }
+
+        &:active {
+            @include content-shift-click();
+        }
+
+        // Breakpoints
+        @include mappy-bp(palm-medium) {
+            @include errata-underline();
+        }
 
         &--copyright {
             color: c(c-errata, base);
