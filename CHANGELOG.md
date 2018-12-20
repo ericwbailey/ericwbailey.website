@@ -7,9 +7,11 @@ This project adheres to [Semantic Versioning](http://semver.org/) and tries to f
 A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1) is available.
 
 ## vNext - Unreleased
-
 - Performance optimizations
 - [DoxDox](https://doxdox.org/) support
+
+## v0.1.48 - 2018-12-20
+- Add [Web components still need to be accessible](https://www.24a11y.com/2018/web-components-still-need-to-be-accessible/)
 
 ## v0.1.47 - 2018-12-05
 - Add [Be the Villain](https://24ways.org/2018/be-the-villain/)
