@@ -182,6 +182,12 @@
             "id":    "quick-test-large-touch-targets",
             "url":   "https://a11yproject.com/posts/large-touch-targets/",
             "year":  "2018"
+        },
+        "web-components": {
+            "title": "Web components still need to be accessible",
+            "id":    "web-components-still-need-to-be accessible",
+            "url":   "https://www.24a11y.com/2018/web-components-still-need-to-be-accessible/",
+            "year":  "2018"
         }
     },
     "talk": {
