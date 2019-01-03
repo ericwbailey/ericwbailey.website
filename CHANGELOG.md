@@ -10,6 +10,10 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Performance optimizations
 - [DoxDox](https://doxdox.org/) support
 
+## v0.2.0 - 2019-01-02
+- Add a [RSS feed](https://ericwbailey.design/feed/feed.xml)
+- Fix broken link for [Improving the User Experience of IoT Firmware Updates](https://cantina.co/improving-the-user-experience-of-iot-firmware-updates/)
+
 ## v0.1.48 - 2018-12-20
 - Add [Web components still need to be accessible](https://www.24a11y.com/2018/web-components-still-need-to-be-accessible/)
 
