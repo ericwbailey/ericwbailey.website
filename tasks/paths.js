@@ -66,10 +66,17 @@ module.exports = {
             SOURCE_DIR + '/favicon-48x48.png',
             SOURCE_DIR + '/offline.js',
             SOURCE_DIR + '/serviceWorker.js',
+            SOURCE_DIR + '/feed/feed.xml',
         ],
         build: BUILD_DIR,
         test: TEST_DIR,
         deploy: DEPLOY_DIR
+    },
+    feeds: {
+        source: SOURCE_DIR + '/feed/*.xml',
+        build: BUILD_DIR + '/feed/',
+        test: TEST_DIR + '/feed/',
+        deploy: DEPLOY_DIR + '/feed/'
     },
     images: {
         source: [

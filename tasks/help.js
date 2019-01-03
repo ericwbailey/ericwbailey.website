@@ -23,6 +23,12 @@ module.exports = {
         test: '[Child Task] Copies all remaining files to `.test/`.',
         deploy: '[Child Task] Copies all remaining files to `docs/`.'
     },
+    feeds: {
+        parent: '[Parent Task] Copies all feed files to `.build/`, `.test/`, and `docs/`.',
+        build: '[Child Task] Copies all feed files to `.build/`.',
+        test: '[Child Task] Copies all feed files to `.test/`.',
+        deploy: '[Child Task] Copies all feed files to `docs/`.'
+    },
     git: {
         parent: '[Parent Task] Uploads project to `docs/` to be deployed live.',
         add: '[Child Task] Adds all files in `docs/`.',

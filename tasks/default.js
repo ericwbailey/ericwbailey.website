@@ -25,6 +25,7 @@ gulp.task('build', help.default.build, function() {
     runSequence(
         'clean-build',
         'build-errata',
+        'build-feeds',
         'build-pages',
         'build-styles',
         'build-scripts',
@@ -43,6 +44,7 @@ gulp.task('test', help.default.test, function() {
     runSequence(
         'clean-test',
         'test-errata',
+        'test-feeds',
         'test-pages',
         'test-styles',
         'test-scripts',
@@ -59,6 +61,7 @@ gulp.task('deploy', help.default.deploy, function() {
     runSequence(
         'clean-deploy',
         'deploy-errata',
+        'deploy-feeds',
         'deploy-pages',
         'deploy-styles',
         'deploy-scripts',
