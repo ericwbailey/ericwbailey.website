@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Eric Bailey</title>
+	<subtitle>Boston-based designer.</subtitle>
+	<link rel="self" href="https://ericwbailey.design/feed/feed.xml"/>
+	<link href="https://ericwbailey.design/"/>
+	<updated>2019-01-02T12:00:00Z</updated>
+	<id>https://ericwbailey.design/</id>
+    <icon>../favicon-16x16.png</icon>
+	<author>
+		<name>Eric Bailey</name>
+		<email>eric.w.bailey@gmail.com</email>
+	</author>
+
+	<entry>
+		<title>I'll Make an Exception Just for You: Using the Exception Comment to Help Maintain Mature, Large-scale Sass Projects</title>
+		<link href="https://cantina.co/ill-make-an-exception-just-for-you/"/>
+		<updated>2015-10-30T12:00:00Z</updated>
+		<id>https://cantina.co/ill-make-an-exception-just-for-you/</id>
+		<summary>Using the EXCEPTION comment to help maintain mature, large-scale Sass projects…</summary>
+	</entry>
+
+	<entry>
+		<title>Battery Status API: We Need to Talk</title>
+		<link href="https://cantina.co/battery-status-api-we-need-to-talk/"/>
+		<updated>2016-01-13T12:00:00Z</updated>
+		<id>https://cantina.co/battery-status-api-we-need-to-talk/</id>
+		<summary>As the browser continues to become more aware of its host device's capabilities the line between website and application continues to blur…</summary>
+	</entry>
+
+	<entry>
+		<title>Instituting a culture of accessibility in your organization: Part 1</title>
+		<link href="https://cantina.co/instituting-a-culture-of-accessibility-in-your-organization/"/>
+		<updated>2016-04-05T12:00:00Z</updated>
+		<id>https://cantina.co/instituting-a-culture-of-accessibility-in-your-organization/</id>
+		<summary>Remember those Reese's Peanut Butter Cups commercials from the 1980s? A couple of hapless people would be walking down the street, one with a chocolate bar and the other with a jar of peanut butter…</summary>
+	</entry>
+
+	<entry>
+		<title>Organizational Buy-In on Responsive Design</title>
+		<link href="https://cantina.co/organizational-buy-in-on-responsive-design/"/>
+		<updated>2016-06-02T12:00:00Z</updated>
+		<id>https://cantina.co/organizational-buy-in-on-responsive-design/</id>
+		<summary>It is no longer appropriate to expect your users to sit down at a desktop computer to perform a task in one complete session, especially one that demands ten minutes or more of their full attention…</summary>
+	</entry>
+
+	<entry>
+		<title>Instituting a Culture of Accessibility in Your Organization: Part 2</title>
+		<link href="https://cantina.co/instituting-a-culture-of-accessibility-in-your-organization-part-2/"/>
+		<updated>2016-07-27T12:00:00Z</updated>
+		<id>https://cantina.co/instituting-a-culture-of-accessibility-in-your-organization-part-2/</id>
+		<summary>I won't lie: What I'm proposing is tricky. Part of the challenge of converting an organization and its body of work into an accessible one is deciding where to begin…</summary>
+	</entry>
+
+	<entry>
+		<title>Building a Better Button in CSS</title>
+		<link href="https://cantina.co/building-a-better-button-in-css/"/>
+		<updated>2016-10-19T12:00:00Z</updated>
+		<id>https://cantina.co/building-a-better-button-in-css/</id>
+		<summary>If you're not careful, it becomes quite easy to paint yourself into a corner trying to keep up with the visuals of an app as it evolves. Fortunately, there's an approach that helps you manage this compounding complexity…</summary>
+	</entry>
+
+	<entry>
+		<title>Improving the User Experience of IoT Firmware Updates</title>
+		<link href="https://cantina.co/improving-the-user-experience-of-iot-firmware-updates/"/>
+		<updated>2016-11-15T12:00:00Z</updated>
+		<id>https://cantina.co/improving-the-user-experience-of-iot-firmware-updates/</id>
+		<summary>When I bought a couple of Internet of Things devices recently, I had a simple goal: to save some money…</summary>
+	</entry>
+
+	<entry>
+		<title>Accessible SVGs in High Contrast Mode</title>
+		<link href="https://css-tricks.com/accessible-svgs-high-contrast-mode/"/>
+		<updated>2016-09-22T12:00:00Z</updated>
+		<id>https://css-tricks.com/accessible-svgs-high-contrast-mode/</id>
+		<summary>Making your SVG accessible includes adding extra steps to your workflow, but is well-worth it…</summary>
+	</entry>
+
+	<entry>
+		<title>An Introduction to the Reduced Motion Media Query</title>
+		<link href="https://css-tricks.com/introduction-reduced-motion-media-query/"/>
+		<updated>2017-02-10T12:00:00Z</updated>
+		<id>https://css-tricks.com/introduction-reduced-motion-media-query/</id>
+		<summary>The open web's success is built on interoperable technologies. The ability to control animation now exists alongside important features such as zooming summary, installing extensions, enabling high contrast display, loading custom stylesheets, or disabling JavaScript…</summary>
+	</entry>
+
+	<entry>
+		<title>Crafting a Chatbot People Will Use: Part 1</title>
+		<link href="https://cantina.co/crafting-a-chatbot-people-will-use-part-1/"/>
+		<updated>2017-06-21T12:00:00Z</updated>
+		<id>https://cantina.co/crafting-a-chatbot-people-will-use-part-1/</id>
+		<summary>Chatbots are weird. There's no other way to say it. We spent the past month working on a chatbot project and it was one of the most difficult design problems I've faced in my professional career…</summary>
+	</entry>
+
+	<entry>
+		<title>Crafting a Chatbot People Will Use: Part 2</title>
+		<link href="https://cantina.co/crafting-a-chatbot-people-will-use-part-2/"/>
+		<updated>2017-07-06T12:00:00Z</updated>
+		<id>https://cantina.co/crafting-a-chatbot-people-will-use-part-2/</id>
+		<summary>Chatbots contain multitudes…</summary>
+	</entry>
+
+	<entry>
+		<title>Let's Talk About Speech CSS</title>
+		<link href="https://css-tricks.com/lets-talk-speech-css/"/>
+		<updated>2017-07-11T12:00:00Z</updated>
+		<id>https://css-tricks.com/lets-talk-speech-css/</id>
+		<summary>Boston, like many large cities, has a subway system. Commuters on it are accustomed to hearing regular public address announcements. Riders simply tune out some announcements, such as the pre-recorded station stop names repeated over and over…</summary>
+	</entry>
+
+	<entry>
+		<title>Make technology work for you, not the other way around</title>
+		<link href="https://superyesmore.com/make-technology-work-for-you-not-the-other-way-around-1c0ead1f34eb5fcad227bd3e9de85244"/>
+		<updated>2017-07-20T12:00:00Z</updated>
+		<id>https://superyesmore.com/make-technology-work-for-you-not-the-other-way-around-1c0ead1f34eb5fcad227bd3e9de85244</id>
+		<summary>I've noticed myself repeatedly giving out these two pieces of advice. Maybe they'll resonate with you…</summary>
+	</entry>
+
+	<entry>
+		<title>Equifax Data Breach, Credit Freezes, and Beholden Design</title>
+		<link href="https://cantina.co/equifax-data-breach-credit-freezes-and-beholden-design/"/>
+		<updated>2017-09-11T12:00:00Z</updated>
+		<id>https://cantina.co/equifax-data-breach-credit-freezes-and-beholden-design/</id>
+		<summary>Ever been frustrated because a movie theater plays advertisements before the trailers even start? This is a kind of experience I call "Beholden Design."</summary>
+	</entry>
+
+	<entry>
+		<title>Keeping track of letter-spacing, some guidelines</title>
+		<link href="https://css-tricks.com/keeping-track-letter-spacing-guidelines/"/>
+		<updated>2017-10-04T12:00:00Z</updated>
+		<id>https://css-tricks.com/keeping-track-letter-spacing-guidelines/</id>
+		<summary>Considering that written words are the foundation of any interface, it makes sense to give your website's typography first-class treatment…</summary>
+	</entry>
+
+	<entry>
+		<title>ARIA is Spackle, Not Rebar</title>
+		<link href="https://css-tricks.com/aria-spackle-not-rebar/"/>
+		<updated>2017-11-08T12:00:00Z</updated>
+		<id>https://css-tricks.com/aria-spackle-not-rebar/</id>
+		<summary>Much like their physical counterparts, the materials we use to build websites have purpose. To use them without understanding their strengths and limitations is irresponsible…</summary>
+	</entry>
+
+	<entry>
+		<title>Consistently Inconsistent: When the Most Accessible Experience is Different for Each User</title>
+		<link href="https://cantina.co/consistently-inconsistent-when-the-most-accessible-experience-is-different-for-each-user/"/>
+		<updated>2017-11-14T12:00:00Z</updated>
+		<id>https://cantina.co/consistently-inconsistent-when-the-most-accessible-experience-is-different-for-each-user/</id>
+		<summary>While working on a web app to make it more accessible, a coworker received an interesting request from the client's QA department…</summary>
+	</entry>
+
+	<entry>
+		<title>How accessible is your website for the disabled? Consider doing an audit to find out</title>
+		<link href="https://www.poynter.org/tech-tools/2017/how-accessible-is-your-website-for-the-disabled-consider-doing-an-audit-to-find-out/"/>
+		<updated>2017-11-17T12:00:00Z</updated>
+		<id>https://www.poynter.org/tech-tools/2017/how-accessible-is-your-website-for-the-disabled-consider-doing-an-audit-to-find-out/</id>
+		<summary>"Since the beginning of 2015, at least 750 website accessibility lawsuits have been filed in federal court, with at least 432 cases filed in the first eight and a half months of 2017."</summary>
+	</entry>
+
+	<entry>
+		<title>How to build a cloud-hosted accessibility testing Windows computer using Amazon WorkSpaces</title>
+		<link href="https://www.24a11y.com/2017/build-cloud-hosted-accessibility-testing-windows-computer-using-amazon-workspaces/"/>
+		<updated>2017-12-17T12:00:00Z</updated>
+		<id>https://www.24a11y.com/2017/build-cloud-hosted-accessibility-testing-windows-computer-using-amazon-workspaces/</id>
+		<summary>As more and more services necessary to living life go online, it becomes imperative to ensure that everyone—regardless of ability or circumstance—can use the websites that host them…</summary>
+	</entry>
+
+	<entry>
+		<title>Building a Good Download… Button?</title>
+		<link href="https://css-tricks.com/building-good-download-button/"/>
+		<updated>2018-01-31T12:00:00Z</updated>
+		<id>https://css-tricks.com/building-good-download-button/</id>
+		<summary>The semantics inherent in HTML elements tell us what we're supposed to use them for. Need a heading? You'll want a heading element. Want a paragraph? Our trusty friend p is here, loyal as ever. Want a download? Well, you're going to want… hmm…</summary>
+	</entry>
+
+	<entry>
+		<title>Focusing on Focus Styles</title>
+		<link href="https://css-tricks.com/focusing-on-focus-styles/"/>
+		<updated>2018-03-29T12:00:00Z</updated>
+		<id>https://css-tricks.com/focusing-on-focus-styles/</id>
+		<summary>Not everyone uses a mouse to browse the internet. If you’re reading this post on a smartphone, this is obvious! What's also worth pointing out is that there are other forms of input that people use to get things done. With these forms of input comes the need for focus styles…</summary>
+	</entry>
+
+	<entry>
+		<title>How to Lead Better User Interviews</title>
+		<link href="https://robots.thoughtbot.com/how-to-lead-better-user-interviews"/>
+		<updated>2018-06-12T12:00:00Z</updated>
+		<id>https://robots.thoughtbot.com/how-to-lead-better-user-interviews</id>
+		<summary>This isn't a post about convincing you of the benefits of user interviews, or the ills of leading questions. Nor is it a treatise on the one true way to conduct a user test. Instead, these are some observations I've made about what works while observing people…</summary>
+	</entry>
+
+	<entry>
+		<title>Don't Use The Placeholder Attribute</title>
+		<link href="https://www.smashingmagazine.com/2018/06/placeholder-attribute/"/>
+		<updated>2018-06-20T12:00:00Z</updated>
+		<id>https://www.smashingmagazine.com/2018/06/placeholder-attribute/</id>
+		<summary>The placeholder attribute contains a surprising amount of issues that prevent it from delivering on what it promises. Let's clarify why you need to stop using it…</summary>
+	</entry>
+
+	<entry>
+		<title>The possibilities of the color-adjust property</title>
+		<link href="https://css-tricks.com/the-possibilities-of-the-color-adjust-property/"/>
+		<updated>2018-08-14T12:00:00Z</updated>
+		<id>https://css-tricks.com/the-possibilities-of-the-color-adjust-property/</id>
+		<summary>With the web's growth comes new features to better accommodate its new form factors and use cases. One feature I'm excited about is the color-adjust property, proposed in CSS Color Module Level 4. It is an acknowledgement that the web will continue to show up on devices that have less-than-stellar displays…</summary>
+	</entry>
+
+	<entry>
+		<title>The Importance Of Manual Accessibility Testing</title>
+		<link href="https://www.smashingmagazine.com/2018/09/importance-manual-accessibility-testing/"/>
+		<updated>2018-09-12T12:00:00Z</updated>
+		<id>https://www.smashingmagazine.com/2018/09/importance-manual-accessibility-testing/</id>
+		<summary>Automated accessibility tests are a great resource to have, but they can't automatically make your site accessible. Use them as one step of a larger testing process…</summary>
+	</entry>
+
+	<entry>
+		<title>The Importance of Heading Levels for Assistive Technology</title>
+		<link href="https://webdesign.tutsplus.com/articles/the-importance-of-heading-levels-for-assistive-technology--cms-31753"/>
+		<updated>2018-10-22T12:00:00Z</updated>
+		<id>https://webdesign.tutsplus.com/articles/the-importance-of-heading-levels-for-assistive-technology--cms-31753</id>
+		<summary>The HTML specification describes six heading elements: h1, h2, h3, h4, h5, and h6. The number in each of these heading elements reflects its priority, with h1 being the most general and h6 being the most specific…</summary>
+	</entry>
+
+	<entry>
+		<title>Quick Tip: Use the "lang" Attribute for Better Accessibility</title>
+		<link href="https://webdesign.tutsplus.com/tutorials/use-the-lang-attribute-for-better-accessibility--cms-31961"/>
+		<updated>2018-10-23T12:00:00Z</updated>
+		<id>https://webdesign.tutsplus.com/tutorials/use-the-lang-attribute-for-better-accessibility--cms-31961</id>
+		<summary>The lang attribute is one of the global HTML attributes developers can apply to any HTML element, and it can really help with accessibility. It allows you to specify the language of an element and all its child elements using a language "subtag": a 2 or 3 character code defined by an international standards body…</summary>
+	</entry>
+
+	<entry>
+		<title>A designer developing for Android</title>
+		<link href="https://robots.thoughtbot.com/a-designer-developing-for-android"/>
+		<updated>2018-11-08T12:00:00Z</updated>
+		<id>https://robots.thoughtbot.com/a-designer-developing-for-android</id>
+		<summary>We are working with a client who tasked us with helping them create an Android app that replicates a subset of features on their iOS app. It's an interesting challenge: not every interaction on iOS can directly translate to Android. The client was cognizant of this, and asked for our help making this new app feel like a natural part of the Android ecosystem…</summary>
+	</entry>
+
+	<entry>
+		<title>Quick test: Large touch targets</title>
+		<link href="https://a11yproject.com/posts/large-touch-targets/"/>
+		<updated>2018-11-21T12:00:00Z</updated>
+		<id>https://a11yproject.com/posts/large-touch-targets/</id>
+		<summary>A touch target is the total area a person can click or tap on to activate an interactive element such as a link, input, or button…</summary>
+	</entry>
+
+	<entry>
+		<title>Be the Villain</title>
+		<link href="https://24ways.org/2018/be-the-villain/"/>
+		<updated>2018-12-06T12:00:00Z</updated>
+		<id>https://24ways.org/2018/be-the-villain/</id>
+		<summary>Inclusive Design is the practice of making products and services accessible to, and usable by as many people as reasonably possible without the need for specialized accommodations. The practice was popularized by author and User Experience Design Director Kat Holmes. If getting you to discover her work is the only thing this article succeeds in doing then I’ll consider it a success…</summary>
+	</entry>
+
+	<entry>
+		<title>Web components still need to be accessible</title>
+		<link href="https://www.24a11y.com/2018/web-components-still-need-to-be-accessible/"/>
+		<updated>2018-12-20T12:00:00Z</updated>
+		<id>https://www.24a11y.com/2018/web-components-still-need-to-be-accessible/</id>
+		<summary>Web components are an exciting technology that allows developers to create self-contained, reusable code patterns that are easy to control and update. The idea of web components is not new, nor is it unique to JavaScript frameworks…</summary>
+	</entry>
+
+</feed>
