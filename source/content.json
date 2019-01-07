@@ -52,6 +52,12 @@
             "url":   "https://css-tricks.com/building-good-download-button/",
             "year":  "2018"
         },
+        "button-to-beat": {
+            "title": "Reader Mode: The Button to Beat",
+            "id":    "reader-mode-the-button-to-beat",
+            "url":   "https://css-tricks.com/reader-mode-the-button-to-beat/",
+            "year":  "2019"
+        },
         "crafting-chatbot-1": {
             "title": "Crafting a chatbot people will use:&nbsp;Part&nbsp;1",
             "id":    "crafting-a-chatbot-people-will-use-part-1",
