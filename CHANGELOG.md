@@ -10,6 +10,10 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Performance optimizations
 - [DoxDox](https://doxdox.org/) support
 
+## v0.2.1 - 2019-01-07
+- Add [Reader Mode: The Button to Beat](https://css-tricks.com/reader-mode-the-button-to-beat/)
+- Slight Writing page copy tweaks
+
 ## v0.2.0 - 2019-01-02
 - Add a [RSS feed](https://ericwbailey.design/feed/feed.xml)
 - Fix broken link for [Improving the User Experience of IoT Firmware Updates](https://cantina.co/improving-the-user-experience-of-iot-firmware-updates/)
