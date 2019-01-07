@@ -4,7 +4,7 @@
 	<subtitle>Boston-based designer.</subtitle>
 	<link rel="self" href="https://ericwbailey.design/feed/feed.xml"/>
 	<link href="https://ericwbailey.design/"/>
-	<updated>2019-01-02T12:00:00Z</updated>
+	<updated>2019-01-07T12:00:00Z</updated>
 	<id>https://ericwbailey.design/</id>
     <icon>../favicon-16x16.png</icon>
 	<author>
@@ -258,6 +258,14 @@
 		<updated>2018-12-20T12:00:00Z</updated>
 		<id>https://www.24a11y.com/2018/web-components-still-need-to-be-accessible/</id>
 		<summary>Web components are an exciting technology that allows developers to create self-contained, reusable code patterns that are easy to control and update. The idea of web components is not new, nor is it unique to JavaScript frameworks…</summary>
+	</entry>
+
+	<entry>
+		<title>Reader Mode: The Button to Beat</title>
+		<link href="https://css-tricks.com/reader-mode-the-button-to-beat/"/>
+		<updated>2019-01-07T12:00:00Z</updated>
+		<id>https://css-tricks.com/reader-mode-the-button-to-beat/</id>
+		<summary>As a young nerd, I loved to immerse myself in digital worlds, learning the ins and outs of the rules someone else had created for me (intentionally or not). But the older and crankier I get, the more I find myself losing patience when navigating these "delightful" experiences…</summary>
 	</entry>
 
 </feed>
