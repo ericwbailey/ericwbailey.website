@@ -4,7 +4,7 @@
 	<subtitle>Boston-based designer.</subtitle>
 	<link rel="self" href="https://ericwbailey.design/feed/feed.xml"/>
 	<link href="https://ericwbailey.design/"/>
-	<updated>2019-01-07T12:00:00Z</updated>
+	<updated>2019-01-13T12:00:00Z</updated>
 	<id>https://ericwbailey.design/</id>
     <icon>../favicon-16x16.png</icon>
 	<author>
@@ -266,6 +266,14 @@
 		<updated>2019-01-07T12:00:00Z</updated>
 		<id>https://css-tricks.com/reader-mode-the-button-to-beat/</id>
 		<summary>As a young nerd, I loved to immerse myself in digital worlds, learning the ins and outs of the rules someone else had created for me (intentionally or not). But the older and crankier I get, the more I find myself losing patience when navigating these "delightful" experiences…</summary>
+	</entry>
+
+	<entry>
+		<title>Little Library</title>
+		<link href="https://robots.thoughtbot.com/little-library"/>
+		<updated>2019-01-13T12:00:00Z</updated>
+		<id>https://robots.thoughtbot.com/little-library</id>
+		<summary>At the end of the year, thoughtbot sets aside two days for a hackathon called Ralphapalooza. The name is a portmanteau of Ralph, the robot we use for our logo, and the term palooza. During Ralphapalooza, we pitch ideas, form teams, and create something interesting with our fellow thoughtbotters…</summary>
 	</entry>
 
 </feed>
