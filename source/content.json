@@ -129,6 +129,12 @@
             "url":   "https://css-tricks.com/keeping-track-letter-spacing-guidelines/",
             "year":  "2017"
         },
+        "little-library": {
+            "title": "Little Library",
+            "id":    "little-library",
+            "url":   "https://robots.thoughtbot.com/little-library",
+            "year":  "2019"
+        },
         "make-technology-work-for-you": {
             "title": "Make technology work for you, not the other way around",
             "id":    "make-technology-work-for-you-not-the-other-way-around",
@@ -218,7 +224,7 @@
             "title":    "If it&rsquo;s interactive, it needs a focus style",
             "id":       "if-its-interactive-it-needs-a-focus-style",
             "url":      "https://noti.st/ericwbailey/TcMJFP/if-it-s-interactive-it-needs-a-focus-style",
-            "location": "Delivered at the 2018 <a class='c-link-list__sublink' href='http://conf.a11yto.com/' rel='external noopener'>a11yTOConf</a> conference"
+            "location": "Delivered at the 2018 <a class='c-link-list__sublink' href='http://conf.a11yto.com/' rel='external noopener'>a11yTOConf</a> conference and the <a class='c-link-list__sublink' href='https://www.meetup.com/A11yNYC/events/256247885/' rel='external noopener'>A11yNYC</a> meetup group"
         }
     },
     "source": {
