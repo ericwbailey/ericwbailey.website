@@ -10,6 +10,10 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Performance optimizations
 - [DoxDox](https://doxdox.org/) support
 
+## v0.2.2 - 2019-01-13
+- Add [Little Library](https://robots.thoughtbot.com/little-library)
+- Add [A11yNYC meetup event](https://www.meetup.com/A11yNYC/events/256247885/) for the if it’s interactive, it needs a focus style talk
+
 ## v0.2.1 - 2019-01-07
 - Add [Reader Mode: The Button to Beat](https://css-tricks.com/reader-mode-the-button-to-beat/)
 - Slight Writing page copy tweaks
