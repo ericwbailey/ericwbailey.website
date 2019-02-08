@@ -8,7 +8,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 
 ## vNext - Unreleased
 - Performance optimizations
-- [DoxDox](https://doxdox.org/) support
+
+## v0.2.3 - 2019-02-08
+- Add [Paint the Picture, not the Frame](https://alistapart.com/article/paint-the-picture-not-the-frame)
 
 ## v0.2.2 - 2019-01-13
 - Add [Little Library](https://robots.thoughtbot.com/little-library)
