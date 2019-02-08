@@ -147,6 +147,12 @@
             "url":   "https://www.smashingmagazine.com/2018/09/importance-manual-accessibility-testing/",
             "year":  "2018"
         },
+        "paint-picture-not-frame": {
+            "title": "Paint the Picture, Not the Frame: How Browsers Provide Everything Users Need",
+            "id":    "paint-the-picture-not-the-frame",
+            "url":   "https://alistapart.com/article/paint-the-picture-not-the-frame",
+            "year":  "2019"
+        },
         "placeholder": {
             "title": "Don't Use The Placeholder Attribute",
             "id":    "dont-use-the-placeholder-attribute",
@@ -230,6 +236,7 @@
     "source": {
         "24-a11y":      "24 Accessibility",
         "24-ways":      "24 ways",
+        "ala":          "A List Apart",
         "a11y-project": "The A11Y Project",
         "cantina":      "Cantina",
         "css-tricks":   "CSS&#8202;-&#8202;Tricks",
