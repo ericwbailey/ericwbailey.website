@@ -196,5 +196,16 @@ module.exports = {
             source: TEST_DIR + '/main.css',
             dest: DEPLOY_DIR
         }
+    },
+    writing: {
+        source: SOURCE_DIR + '/writing/*.hbs',
+        partials: SOURCE_DIR + '/**/*.hbs',
+        content: SOURCE_DIR + '/content.json',
+        build: BUILD_DIR + '/writing/',
+        test: TEST_DIR + '/writing/',
+        deploy: {
+            source: TEST_DIR + '/writing/**/*',
+            dest: DEPLOY_DIR + '/writing/'
+        }
     }
 };

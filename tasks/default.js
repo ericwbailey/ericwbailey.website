@@ -14,6 +14,7 @@ var gulp        = require('gulp-help')(require('gulp')), // http://gulpjs.com/
 gulp.task('default', ['build'], function() {
     gulp.watch(paths.styles.watch, ['build-styles']);
     gulp.watch(paths.pages.watch, ['build-pages']);
+    gulp.watch(paths.pages.watch, ['build-writing']);
     gulp.watch(paths.scripts.watch, ['build-scripts']);
     gulp.watch(paths.images.watch, ['build-images']);
     gulp.watch(paths.browsersync.watch.build, ['browsersync-reload']);
@@ -27,6 +28,7 @@ gulp.task('build', help.default.build, function() {
         'build-errata',
         'build-feeds',
         'build-pages',
+        'build-writing',
         'build-styles',
         'build-scripts',
         'build-static',
@@ -46,6 +48,7 @@ gulp.task('test', help.default.test, function() {
         'test-errata',
         'test-feeds',
         'test-pages',
+        'test-writing',
         'test-styles',
         'test-scripts',
         'test-static',
@@ -63,6 +66,7 @@ gulp.task('deploy', help.default.deploy, function() {
         'deploy-errata',
         'deploy-feeds',
         'deploy-pages',
+        'deploy-writing',
         'deploy-styles',
         'deploy-scripts',
         'deploy-static',
