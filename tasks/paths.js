@@ -112,8 +112,11 @@ module.exports = {
     },
     pages: {
         source: [
-            SOURCE_DIR + '/*.hbs',
-            SOURCE_DIR + '/writing/*.hbs',
+            SOURCE_DIR + '/**/*.hbs',
+            '!' + SOURCE_DIR + '/components/**/*.{hbs,html}',
+            '!' + SOURCE_DIR + '/elements/**/*.{hbs,html}',
+            '!' + SOURCE_DIR + '/layout/**/*.{hbs,html}',
+            '!' + SOURCE_DIR + '/meta/**/*.{hbs,html}',
         ],
         partials: SOURCE_DIR + '/**/*.hbs',
         content: SOURCE_DIR + '/content.json',
