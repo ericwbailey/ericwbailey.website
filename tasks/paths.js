@@ -111,7 +111,10 @@ module.exports = {
         pages: SOURCE_DIR + '/**/*.hbs'
     },
     pages: {
-        source: SOURCE_DIR + '/*.hbs',
+        source: [
+            SOURCE_DIR + '/*.hbs',
+            SOURCE_DIR + '/writing/*.hbs',
+        ],
         partials: SOURCE_DIR + '/**/*.hbs',
         content: SOURCE_DIR + '/content.json',
         watch: [
@@ -120,11 +123,11 @@ module.exports = {
         ],
         build: BUILD_DIR,
         test: {
-            source: BUILD_DIR + '/*.html',
+            source: BUILD_DIR + '/**/*.html',
             dest: TEST_DIR,
         },
         deploy: {
-            source: TEST_DIR + '/*.html',
+            source: TEST_DIR + '/**/*.html',
             dest: DEPLOY_DIR
         }
     },
@@ -202,7 +205,10 @@ module.exports = {
         partials: SOURCE_DIR + '/**/*.hbs',
         content: SOURCE_DIR + '/content.json',
         build: BUILD_DIR + '/writing/',
-        test: TEST_DIR + '/writing/',
+        test: {
+            source: BUILD_DIR + '/writing/**/*.html',
+            dest: TEST_DIR + '/writing/'
+        },
         deploy: {
             source: TEST_DIR + '/writing/**/*',
             dest: DEPLOY_DIR + '/writing/'
