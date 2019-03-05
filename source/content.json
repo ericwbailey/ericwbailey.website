@@ -94,6 +94,12 @@
             "url":   "https://cantina.co/ill-make-an-exception-just-for-you/",
             "year":  "2015"
         },
+        "fighting-uphill": {
+            "title": "Fighting uphill",
+            "id":    "fighting-uphill",
+            "url":   "writing/2019-03-05-fighting-uphill.html",
+            "year":  "2019"
+        },
         "focusing-focus-styles": {
             "title": "Focusing on Focus Styles",
             "id":    "focusing-on-focus-styles",
@@ -240,6 +246,7 @@
         "a11y-project": "The A11Y Project",
         "cantina":      "Cantina",
         "css-tricks":   "CSS&#8202;-&#8202;Tricks",
+        "ericwbailey":  "ericwbailey.design",
         "tutsplus":     "Envato Tuts+",
         "thitm":        "The Human in the Machine",
         "imgur":        "Imgur",
