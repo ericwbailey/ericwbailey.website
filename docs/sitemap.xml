@@ -1,27 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
+        <loc>http://ericwbailey.design/2019-03-05-fighting-uphill.html</loc>
+        <lastmod>2019-03-05T21:15:08.309Z</lastmod>
+    </url>
+    <url>
         <loc>http://ericwbailey.design/accessibility-statement.html</loc>
-        <lastmod>2019-02-11T01:40:19.248Z</lastmod>
+        <lastmod>2019-03-05T21:15:09.105Z</lastmod>
     </url>
     <url>
         <loc>http://ericwbailey.design/colophon.html</loc>
-        <lastmod>2019-02-11T01:40:19.292Z</lastmod>
+        <lastmod>2019-03-05T21:15:09.150Z</lastmod>
     </url>
     <url>
         <loc>http://ericwbailey.design/</loc>
-        <lastmod>2019-02-11T01:40:19.296Z</lastmod>
+        <lastmod>2019-03-05T21:15:09.162Z</lastmod>
     </url>
     <url>
         <loc>http://ericwbailey.design/office-hours.html</loc>
-        <lastmod>2019-02-11T01:40:19.297Z</lastmod>
+        <lastmod>2019-03-05T21:15:09.163Z</lastmod>
     </url>
     <url>
         <loc>http://ericwbailey.design/old-stuff.html</loc>
-        <lastmod>2019-02-11T01:40:18.410Z</lastmod>
+        <lastmod>2019-03-05T21:15:09.167Z</lastmod>
     </url>
     <url>
         <loc>http://ericwbailey.design/writing.html</loc>
-        <lastmod>2019-02-11T01:40:18.411Z</lastmod>
+        <lastmod>2019-03-05T21:15:08.308Z</lastmod>
     </url>
 </urlset>
