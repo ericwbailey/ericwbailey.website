@@ -89,3 +89,27 @@
 .heading-beta {
     @include heading-beta();
 }
+
+
+// Gamma
+@mixin heading-gamma() {
+    @include typography-measure();
+    @include typography-tracking(tight);
+
+    margin-top: ms(1.5, em);
+    margin-bottom: 0;
+
+    font-size: ms(1, em);
+    font-style: italic;
+    font-weight: $font-weight-bold;
+    line-height: 1.1;
+
+    // Contexts
+    .wf-loading & {
+        @include typography-tracking(tightest);
+    }
+}
+
+.heading-gamma {
+    @include heading-gamma();
+}

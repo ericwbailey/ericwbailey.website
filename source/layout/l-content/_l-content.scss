@@ -87,9 +87,13 @@
         background-color: c(l-content, background-content);
     }
 
+    &__body--post {
+        line-height: 1.8;
+    }
+
     p {
         margin-top: ms(1.25);
-        max-width: $global-type-measure - 4ex;
+        max-width: $global-type-measure;
     }
 
     ul,
@@ -112,5 +116,16 @@
     a,
     button[data-message-subject] {
         @include content-underline($underline-background-color: white);
+    }
+
+    em {
+        font-style: italic;
+    }
+
+    hr {
+        border-color: c(l-content, border-writing);
+        margin-top: ms(2);
+        margin-bottom: ms(2);
+        max-width: $global-type-measure;
     }
 }
