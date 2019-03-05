@@ -9,6 +9,12 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## vNext - Unreleased
 - Performance optimizations
 
+## v0.3.1 - 2019-03-05
+- Add [Fighting uphill](https://ericwbailey.design/writing/2019-03-05-fighting-uphill.html)
+
+## v0.3.0 - 2019-03-05
+- Add blog capability
+
 ## v0.2.3 - 2019-02-08
 - Add [Paint the Picture, not the Frame](https://alistapart.com/article/paint-the-picture-not-the-frame)
 
