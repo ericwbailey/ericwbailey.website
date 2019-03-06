@@ -5,16 +5,15 @@
 {{>meta/description/charset-and-viewport}}
 
 <title>{{content.title.colophon}} | {{content.site.title}}</title>
-{{>meta/description/description}}
+{{>meta/description/description pageDescription=content.site.tagline}}
 {{>meta/description/author}}
 {{>meta/structure/feed-and-sitemap}}
 
 {{>meta/styles/main}}
 
 {{>meta/icons-and-theming/icons-and-theming}}
-{{>meta/social-media/twitter}}
-{{>meta/social-media/facebook}}
-{{>meta/social-media/google-plus}}
+{{>meta/social-media/twitter socialMediaTitle=content.title.colophon socialMediaDescription=content.site.tagline}}
+{{>meta/social-media/facebook socialMediaTitle=content.title.colophon socialMediaDescription=content.site.tagline}}
 
 {{>meta/performance/dns-prefetches}}
 {{>meta/performance/prefetches}}

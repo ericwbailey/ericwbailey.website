@@ -96,6 +96,7 @@
         },
         "fighting-uphill": {
             "title": "Fighting uphill",
+            "desc":  "As someone with a good deal of interest in the digital accessibility space, I follow WebAIM’s work closely.",
             "id":    "fighting-uphill",
             "url":   "writing/2019-03-05-fighting-uphill.html",
             "year":  "2019"
