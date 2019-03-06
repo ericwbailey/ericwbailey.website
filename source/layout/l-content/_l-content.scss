@@ -23,15 +23,18 @@
     z-index: z(l-content);
 
     &__title {
-        @include component-page-side-margins();
-
-        padding-top: 20vh;
-        padding-bottom: ms(1, rem);
+        padding: rem(20) rem(40) ms(1, rem) rem(40);
 
         border-top-style: solid;
         border-top-width: border(thicker) * 2;
 
         background-color: c(l-content, background-title);
+
+        @supports #{$supports-viewportunits} {
+            padding-top: 20vh;
+            padding-left: 8vw;
+            padding-right: 8vw;
+        }
 
         // Breakpoints
         @include mappy-bp(palm-medium) {
@@ -88,7 +91,6 @@
     }
 
     &__body--post {
-
         // Breakpoints
         @include mappy-bp(palm-medium) {
             line-height: 1.8;
@@ -125,6 +127,16 @@
     cite,
     em {
         font-style: italic;
+    }
+
+    code {
+        padding: 0 0.25em;
+        margin: 0 0.2em;
+
+        background-color: c(l-content, code-background);
+
+        border: border(thinner) solid c(l-content, code-background);
+        border-radius: border(thinner);
     }
 
     hr {

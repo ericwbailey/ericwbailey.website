@@ -28,7 +28,7 @@
         display: block;
         margin-top: rem(4);
 
-        // breakpoints
+        // Breakpoints
         @include mappy-bp(wrist-large) {
             display: initial;
         }

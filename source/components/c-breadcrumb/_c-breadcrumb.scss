@@ -4,22 +4,23 @@
 // ============================================================================
 
 
-// Component Logic ------------------------------------------------------------
-
-
 // Component Styling ----------------------------------------------------------
 .c-breadcrumb {
-    margin-left: em(-48);
     margin-bottom: rem(7);
 
     a.c-breadcrumb__link {
         background-color: transparent;
         box-shadow: none;
-        padding-bottom: em(8);
+        padding-bottom: em(6);
 
         border-bottom: border(thinnest) solid c(l-section, writing);
 
         text-shadow: none;
+
+        // Breakpoints
+        @include mappy-bp(palm-medium) {
+            padding-bottom: em(8);
+        }
 
         &:active {
             background-color: transparent !important;
