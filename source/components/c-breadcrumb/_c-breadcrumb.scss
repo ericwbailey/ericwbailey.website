@@ -5,83 +5,43 @@
 
 
 // Component Logic ------------------------------------------------------------
-$c-breadcrumb-outline-small: em(3);
 
 
 // Component Styling ----------------------------------------------------------
 .c-breadcrumb {
-    padding: ms(0.5, em) ms(1, em);
-    position: fixed;
-      bottom: ms(0.5, rem);
-      right: ms(0.5, rem);
-    z-index: z(c-breadcrumb);
+    margin-left: em(-48);
+    margin-bottom: rem(7);
 
-    outline: $c-breadcrumb-outline-small solid c(c-breadcrumb, outline-base);
+    a.c-breadcrumb__link {
+        background-color: transparent;
+        box-shadow: none;
+        padding-bottom: em(8);
 
-    background-color: c(c-breadcrumb, background-base);
+        border-bottom: border(thinnest) solid c(l-section, writing);
 
-    color: c(c-breadcrumb, text-base);
-    font-size: em(16);
-    text-decoration: none;
+        text-shadow: none;
 
-    transition:
-      background-color animation-duration(short) animation-ease(background),
-      bottom animation-duration(shortest) animation-ease(background),
-      right animation-duration(shortest) animation-ease(background);
+        &:active {
+            background-color: transparent !important;
+            box-shadow: none !important;
+            text-shadow: none !important;
+        }
 
-    // States
-    &:active {
-        bottom: ms(0.45, rem);
-    }
+        &:hover {
+            box-shadow: none;
 
-    &:hover {
-        background-color: c(c-breadcrumb, background-hover);
+            border-bottom: none;
+        }
 
         &:focus {
-            background-color: c(c-breadcrumb, background-hover);
-
-            color: c(c-breadcrumb, text-base);
-
+            box-shadow: none;
             outline: none;
 
-            transition: none;
+            border-bottom: none;
+
+            color: c(type, dark);
+            text-shadow: none;
         }
     }
 
-    &:focus {
-        background-color: c(c-breadcrumb, background-focus);
-
-        outline: border(thin) solid c(c-breadcrumb, outline-focus);
-
-        color: c(c-breadcrumb, text-focus);
-
-        transition: none;
-    }
-
-    // Breakpoints
-    @include mappy-bp(wrist-large) {
-        bottom: ms(1, rem);
-        right: ms(1, rem);
-
-        // States
-        &:active {
-            bottom: ms(0.97, rem);
-        }
-    }
-
-    @include mappy-bp(palm-medium) {
-        bottom: initial;
-        padding: ms(0.7, em) ms(1, em);
-        right: ms(0.25, rem);
-        top: ms(2, rem);
-        transform: rotate(90deg);
-
-        outline: none;
-
-        // States
-        &:active {
-            bottom: initial;
-            top: ms(2.02, rem);
-        }
-    }
 }

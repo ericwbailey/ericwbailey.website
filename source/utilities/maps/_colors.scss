@@ -122,6 +122,17 @@ $colors: (
         base:  #dddddd,
     ),
 
+    c-home: (
+        background-base:  #4a4a4a,
+        background-hover: #111111,
+        background-focus: #ffffff,
+        outline-base:     #ffffff,
+        outline-hover:    #111111,
+        outline-focus:    #111111,
+        text-base:        #ffffff,
+        text-focus:       #4a4a4a
+    ),
+
     c-service: (
         text-base:         #4a4a4a,
         text-active:       #ffffff,

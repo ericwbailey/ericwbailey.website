@@ -31,9 +31,7 @@
 {{>elements/icon-sprite}}
 </div>
 
-{{>components/c-breadcrumb/c-breadcrumb}}
-
-{{>components/c-honeypot/c-honeypot}}
+{{>components/c-home/c-home}}
 
 <main
     id="section-main"
@@ -43,6 +41,8 @@
     <header
         class="l-content__title l-content__title--writing"
         aria-labelledby="title-writing">
+
+        {{>components/c-breadcrumb/c-breadcrumb}}
 
         <h1
             id="{{content.post.fighting-uphill.id}}"

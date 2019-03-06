@@ -1,0 +1,87 @@
+// ============================================================================
+// Component
+// Home
+// ============================================================================
+
+
+// Component Logic ------------------------------------------------------------
+$c-home-outline-small: em(3);
+
+
+// Component Styling ----------------------------------------------------------
+.c-home {
+    padding: ms(0.5, em) ms(1, em);
+    position: fixed;
+      bottom: ms(0.5, rem);
+      right: ms(0.5, rem);
+    z-index: z(c-home);
+
+    outline: $c-home-outline-small solid c(c-home, outline-base);
+
+    background-color: c(c-home, background-base);
+
+    color: c(c-home, text-base);
+    font-size: em(16);
+    text-decoration: none;
+
+    transition:
+      background-color animation-duration(short) animation-ease(background),
+      bottom animation-duration(shortest) animation-ease(background),
+      right animation-duration(shortest) animation-ease(background);
+
+    // States
+    &:active {
+        bottom: ms(0.45, rem);
+    }
+
+    &:hover {
+        background-color: c(c-home, background-hover);
+
+        &:focus {
+            background-color: c(c-home, background-hover);
+
+            color: c(c-home, text-base);
+
+            outline: none;
+
+            transition: none;
+        }
+    }
+
+    &:focus {
+        background-color: c(c-home, background-focus);
+
+        outline: border(thin) solid c(c-home, outline-focus);
+
+        color: c(c-home, text-focus);
+
+        transition: none;
+    }
+
+    // Breakpoints
+    @include mappy-bp(wrist-large) {
+        bottom: ms(1, rem);
+        right: ms(1, rem);
+
+        // States
+        &:active {
+            bottom: ms(0.97, rem);
+        }
+    }
+
+    @include mappy-bp(palm-medium) {
+        bottom: initial;
+        padding: ms(0.7, em) ms(1, em);
+        right: ms(0.25, rem);
+        top: ms(2, rem);
+        transform: rotate(90deg);
+
+        outline: none;
+
+        // States
+        &:active {
+            bottom: initial;
+            top: ms(2.02, rem);
+        }
+    }
+}
