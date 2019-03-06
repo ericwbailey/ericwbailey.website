@@ -9,6 +9,10 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## vNext - Unreleased
 - Performance optimizations
 
+## v0.3.2 - 2019-03-05
+- Copy tweaks
+- Better social sharing
+
 ## v0.3.1 - 2019-03-05
 - Add [Fighting uphill](https://ericwbailey.design/writing/2019-03-05-fighting-uphill.html)
 
