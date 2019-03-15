@@ -277,19 +277,27 @@
 	</entry>
 
 	<entry>
-		<title>Paint the Picture, Not the Frame: How Browsers Provide Everything Users Need</title>
-		<link href="https://ericwbailey.design/writing/2019-03-05-fighting-uphill.html"/>
-		<updated>2019-03-06T12:00:00Z</updated>
-		<id>https://ericwbailey.design/writing/2019-03-05-fighting-uphill.html</id>
-		<summary>Kip Williams, professor of psychology sciences at Purdue University, conducted a fascinating experiment called “cyberball.” In his experiment, a test subject and two other participants played a computer game of catch. At a predetermined time, the test subject was excluded from the game, forcing them to only observe as the clock ran down…</summary>
-	</entry>
-
-	<entry>
 		<title>Fighting uphill</title>
 		<link href="https://alistapart.com/article/paint-the-picture-not-the-frame"/>
 		<updated>2019-02-10T12:00:00Z</updated>
 		<id>https://alistapart.com/article/paint-the-picture-not-the-frame</id>
+		<summary>Kip Williams, professor of psychology sciences at Purdue University, conducted a fascinating experiment called “cyberball.” In his experiment, a test subject and two other participants played a computer game of catch. At a predetermined time, the test subject was excluded from the game, forcing them to only observe as the clock ran down…</summary>
+	</entry>
+
+	<entry>
+		<title>Paint the Picture, Not the Frame: How Browsers Provide Everything Users Need</title>
+		<link href="https://ericwbailey.design/writing/2019-03-05-fighting-uphill.html"/>
+		<updated>2019-03-05T12:00:00Z</updated>
+		<id>https://ericwbailey.design/writing/2019-03-05-fighting-uphill.html</id>
 		<summary>As someone with a good deal of interest in the digital accessibility space, I follow WebAIM’s work closely. Their survey results are priceless insights into how disabled people actually use the web, so when the organization speaks with authority on a subject, I listen…</summary>
+	</entry>
+
+	<entry>
+		<title>slashbot</title>
+		<link href="https://thoughtbot.com/blog/slashbot"/>
+		<updated>2019-13-05T12:00:00Z</updated>
+		<id>https://thoughtbot.com/blog/slashbot</id>
+		<summary>All about a little Slack bot built during investment time.</summary>
 	</entry>
 
 </feed>
