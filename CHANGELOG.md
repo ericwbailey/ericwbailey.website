@@ -9,6 +9,10 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## vNext - Unreleased
 - Performance optimizations
 
+## v0.3.2 - 2019-03-15
+- Add [slashbot](https://thoughtbot.com/blog/slashbot)
+- RSS fixes
+
 ## v0.3.2 - 2019-03-06
 - Copy tweaks
 - Updated content header
