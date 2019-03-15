@@ -190,6 +190,12 @@
             "url":   "https://cantina.co/organizational-buy-in-on-responsive-design/",
             "year":  "2016"
         },
+        "slashbot": {
+            "title": "slashbot",
+            "id":    "slashbot",
+            "url":   "https://thoughtbot.com/blog/slashbot",
+            "year":  "2019"
+        },
         "speech-css": {
             "title": "Let&rsquo;s Talk About Speech CSS",
             "id":    "lets-talk-about-speech-css",
