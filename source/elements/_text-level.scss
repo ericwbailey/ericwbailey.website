@@ -25,12 +25,6 @@
 abbr {
     // @include typography-caps-to-small-caps()
     @include typography-tracking(slight);
-
-    cursor: help;
-
-    &[title] {
-        text-decoration: none;
-    }
 }
 
 

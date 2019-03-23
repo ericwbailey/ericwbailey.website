@@ -55,21 +55,21 @@
     <section class="l-content__body l-content__body--post">
 
         <p class="c-lede">As someone with a good deal of interest in the digital accessibility space, I follow <a rel="external noopener" href="https://webaim.org/">WebAIM</a>’s work closely. Their survey results are priceless <a rel="external noopener" href="https://webaim.org/projects/screenreadersurvey7/">insights into how disabled people actually use the web</a>, so when the organization speaks with authority on a subject, I listen.</p>
-        <p>WebAIM’s <a rel="external noopener" href="https://webaim.org/projects/million/">accessibility analysis of the top 1,000,000 homepages</a> was <a rel="external noopener" href="https://twitter.com/webaim/status/1100844774163009536">released to the public on February 27, 2019</a>. I’ve had a few days to process it, and frankly, it’s left me feeling pretty depressed. In a sea of already demoralizing findings, probably the most notable one is that pages containing <a rel="external noopener" href="https://www.w3.org/WAI/standards-guidelines/aria/"><abbr title="Accessible Rich Internet Applications">ARIA<abbr></a>—a specialized language intended to aid accessibility—are actually <em>more</em> likely to have accessibility issues.</p>
+        <p>WebAIM’s <a rel="external noopener" href="https://webaim.org/projects/million/">accessibility analysis of the top 1,000,000 homepages</a> was <a rel="external noopener" href="https://twitter.com/webaim/status/1100844774163009536">released to the public on February 27, 2019</a>. I’ve had a few days to process it, and frankly, it’s left me feeling pretty depressed. In a sea of already demoralizing findings, probably the most notable one is that pages containing <a rel="external noopener" href="https://www.w3.org/WAI/standards-guidelines/aria/"><abbr>ARIA<abbr></a>—a specialized language intended to aid accessibility—are actually <em>more</em> likely to have accessibility issues.</p>
         <p>I don't think this is intentional malice on the part of authors, but it is worth saying that <a rel="external noopener" href="https://css-tricks.com/aria-spackle-not-rebar/">the road to hell is paved with good intentions</a>. These failures via omission and ignorance actively <a rel="external noopener" href="https://marcysutton.com/accessibility-is-a-civil-right">separate people from their civil rights</a>.</p>
         <p>I view the issue largely as an education problem, and that education is tied into what the market demands.</p>
         <p>Although the <a rel="external noopener" href="https://twitter.com/A11YProject/status/1100855699884642309">replies to this Twitter thread</a> are heartwarming, I realistically understand that accessibility knowledge isn’t what employers are largely demanding. Because of this, people entering into the web design and development space <a rel="external noopener" href="http://adrianroselli.com/2018/07/demand-refunds-for-invalid-html-in-courses.html">simply may not be aware of accessibility as a technical concern</a>.</p>
         <p>Overwhelmingly, crushingly, we shove new developers towards learning JavaScript single page application frameworks (SPAs). While many of these frameworks pay lip service towards preserving accessibility, if you do your homework you find that the majority of them were built without assistive technology in mind. These considerations were bolted on later, when their creators figured out that the things they threw away to get a more app-like experience actually mattered.</p>
-        <p>My go-to examples are routing and focus management. It’s a sad, sorry state of affairs that this critical functionality oftentimes requires third party plugins to make them capable of interfacing with assistive technology. The decision to use <abbr title="Single Page Application">SPA</abbr>s, and all that come with them, can often come from <a rel="external noopener" href="https://whatisjasongoldstein.com/writing/help-none-of-my-projects-want-to-be-spas/">baseless nerd navelgazing</a>—many business owners would be livid to find out that the technology choices their teams are making are actively incurring legal liability.</p>
+        <p>My go-to examples are routing and focus management. It’s a sad, sorry state of affairs that this critical functionality oftentimes requires third party plugins to make them capable of interfacing with assistive technology. The decision to use <abbr>SPA</abbr>s, and all that come with them, can often come from <a rel="external noopener" href="https://whatisjasongoldstein.com/writing/help-none-of-my-projects-want-to-be-spas/">baseless nerd navelgazing</a>—many business owners would be livid to find out that the technology choices their teams are making are actively incurring legal liability.</p>
 
-        <h2 
+        <h2
             id="punching-down"
             class="heading-beta">
             Punching down
         </h2>
         <p>It’s too easy and too irresponsible to lay blame solely on new developers. Turning again to the WebAIM survey, we know that <a rel="external noopener" href="https://webaim.org/projects/million/#labels">over 50% of all form inputs are not labeled</a>. This is basic stuff, things that people who have been working in the industry for any significant length of time should know. How can we expect the advanced, state-driven stuff to be built robustly if we’re all failing HTML 101?</p>
 
-        <h2 
+        <h2
             id="what-if-were-losing"
             class="heading-beta">
             What if we’re losing?
@@ -80,15 +80,15 @@
         <p>It’s code and design issues stemming from a market demand problem, yes. But I also think it’s a process problem. Namely, we can’t shovel all our blame on the developers—classically the go-to scapegoats for organizational failure.</p>
         <p>We’re <em>all</em> to blame for the state of things—I'm no exception. A lack of understanding and wholesale adoption of antipatterns are also at fault. Just because a big name company does something doesn’t mean it's <a rel="external noopener" href="https://www.24a11y.com/2018/i-threw-away-my-mouse/">intrinsically good</a>.</p>
 
-        <h2 
+        <h2
             id="technology-solutions-to-social-problems"
             class="heading-gamma">
             Technology solutions to social problems
         </h2>
-        <p>If we can’t get the majority of web practitioners to care about, much less implement accessible websites, what can be done? Browsers already describe websites the best way they know how, via the Document Object Model (DOM). <a rel="external noopener" href="https://alistapart.com/article/semantics-to-screen-readers">Assistive technologies describe what the <abbr title="Document Object Model">DOM</abbr> contains</a> the best they can, even utilizing specialized heuristics to accommodate code that isn’t quite good enough.</p>
+        <p>If we can’t get the majority of web practitioners to care about, much less implement accessible websites, what can be done? Browsers already describe websites the best way they know how, via the Document Object Model (DOM). <a rel="external noopener" href="https://alistapart.com/article/semantics-to-screen-readers">Assistive technologies describe what the <abbr>DOM</abbr> contains</a> the best they can, even utilizing specialized heuristics to accommodate code that isn’t quite good enough.</p>
         <p>But "isn’t quite good enough” isn’t the same as outright bad—these specialized programs can only do so much.</p>
 
-        <h3 
+        <h3
             id="seeing-machines"
             class="heading-gamma">
             Seeing machines
@@ -96,11 +96,11 @@
         <p>I’ve been paying attention to <a rel="external noopener" href="https://www.androidpolice.com/2018/03/12/mozilla-working-page-popup-blocker-firefox/">Mozilla’s efforts to create an interstitial popup blocker</a>. For those unfamiliar with interstitials, they’re the annoying (often inaccessible) on-page modals that commonly ask you to do things like sign up for newsletters.</p>
         <p>The trick here is these interstitial are different from traditional popups in that you can’t just block anything that spawns from the page you’re currently visiting. They’re a little more tricky, in that it's just another “layer” of the website you’re visiting, and therefore can’t be clipped away with tidy logic.</p>
         <p>Mozilla’s approach is to <a rel="external noopener" href="https://twitter.com/ehsanakhgari/status/972224912634064896">ask for examples of interstitials</a> people find on the web, and then use that corpus of information to train a machine learning algorithm to understand what an interstitial popup “looks” like. Armed with that knowledge, it can then strip away the code of anything that qualifies as interstitial-ish.</p>
-        <p>It’s a fiendishly clever idea, and probably one of the few applications of machine learning I’ve encountered that actually has merit. It also got me wondering: if we can’t change how assistive technology generates descriptions of the <abbr title="Document Object Model">DOM</abbr>, can we change how it views websites instead?</p>
+        <p>It’s a fiendishly clever idea, and probably one of the few applications of machine learning I’ve encountered that actually has merit. It also got me wondering: if we can’t change how assistive technology generates descriptions of the <abbr>DOM</abbr>, can we change how it views websites instead?</p>
         <p>If we can teach a computer to identify what all the various bits that make up a website look like, maybe we can attack the problem of inaccessible experiences from a slightly different direction. Once the computer “views” a page and reports on what it sees, it can then read out the text contained in those identified areas. Screen readers sort of already do this, and even have specialized functionality for <a rel="external noopener" href="https://doccenter.freedomscientific.com/doccenter/doccenter/rs25c51746a0cc/2014-09-24_enhancedconvenientocrandsemi-autoformsmode/02_ConvenientOCR.htm">when the text isn’t actually text</a>.</p>
-        <p>We’re starting to see hints of this kind of thinking already. Examples that come to mind are <a rel="external noopener" href="https://codepen.io/sdras/details/jawPGa">Sarah Drasner’s brilliant CodePen</a> that uses Azure's Computer Vision <abbr title="Application Programming Interface">API</abbr> to automatically generate alt descriptions for images. <a rel="external noopener" href="https://airbnb.design/sketching-interfaces/">Airbnb’s sketching interfaces</a> project is also a tiny, powerful glimpse into this sort of future.</p>
+        <p>We’re starting to see hints of this kind of thinking already. Examples that come to mind are <a rel="external noopener" href="https://codepen.io/sdras/details/jawPGa">Sarah Drasner’s brilliant CodePen</a> that uses Azure's Computer Vision <abbr>API</abbr> to automatically generate alt descriptions for images. <a rel="external noopener" href="https://airbnb.design/sketching-interfaces/">Airbnb’s sketching interfaces</a> project is also a tiny, powerful glimpse into this sort of future.</p>
 
-        <h3 
+        <h3
             id="however"
             class="heading-gamma">
             However
@@ -114,7 +114,7 @@
         <p>Another way of saying it: implicitly defining the parameters of what is acceptable for expression via automation can have the effect of reducing individual autonomy. This is unconscionable.</p>
         <p>Finally, not every disabled user is a screen reader user. The machine learning approach doesn’t work for many different kinds of disability situations, notably <a rel="external noopener" href="https://webaim.org/articles/cognitive/">cognitive concerns</a>.</p>
 
-        <h2 
+        <h2
             id="social-solutions-to-technology-problems"
             class="heading-beta">
             Social solutions to technology problems
@@ -124,7 +124,7 @@
         <p>It’s also far more easy to destroy than it is to repair. If you don’t believe me, spend some time conducting a manual website accessibility audit. It oftentimes feels like a tedious, frustrating, thankless experience that firmly paints you as the enemy for people who just want to move fast and break things. However, it is a very vital thing to do.</p>
         <p>So, what can we do about this state of affairs?</p>
 
-        <h3 
+        <h3
             id="learn-from-history"
             class="heading-gamma">
             Learn from history
@@ -134,7 +134,7 @@
         <p>Some engineers who work with physical materials have a constant reminder of the gravity of the decisions they make. They <a rel="external noopener" href="https://blogs.scientificamerican.com/oscillator/ring-ritual-reminds-engineers-of-their-responsibility/">wear iron rings</a> to be reminded that they have an obligation to the public good, and that actual lives are on the line. I like that idea a lot—I think it's a concept we as an industry could benefit from if we borrowed from it thematically.</p>
         <p>It’d take some organizing to get to a place where we do such a thing. And maybe that’s a good thing—right now it feels like we’re an industry of <a rel="external noopener" href="https://twitter.com/ericwbailey/status/1082694786480513026">overpaid, fly-by-night plumbers</a> who have the luxury of saying they don’t believe in using wrenches.</p>
 
-        <h3 
+        <h3
             id="directed-effort"
             class="heading-gamma">
             Directed effort
@@ -142,7 +142,7 @@
         <p>It was a bitter, frustrating, oftentimes thankless task, but we should also acknowledge that <a rel="external noopener" href="https://www.webstandards.org/2013/03/01/our-work-here-is-done/index.html">web standards <em>won</em></a>. It took a ton of time and effort to get to this point, but think about what didn’t make it: closed, centralized, brittle technologies that were pay-to-play and difficult to understand and maintain.</p>
         <p>We should also think about what technologies are available to us today, how they serve the people that use them, and how so much of it is built from these standards. While it may feel frustrating doing the work now, maybe that inflection point is just beyond the horizon.</p>
 
-        <h3 
+        <h3
             id="reframing"
             class="heading-gamma">
             Reframing
@@ -153,7 +153,7 @@
         <p>It’s been great seeing more and more accessibility talks appearing on the conference circuit, as well. The subject matter hasn’t historically gotten a lot of mainstream stage presence. This meant that there have been less opportunities for people to discover digital accessibility was even was a concern, much less be positioned as a glamorous subject that was worth spending a few thousand dollars on a ticket to hear someone talk about.</p>
         <p>I also think the push to diversify our industry voices has helped bring accessibility concerns to the forefront, as well as other important topics. And speaking of diversification, I’d be remiss if I didn’t mention <a rel="external noopener" href="https://twitter.com/katholmes">Kat Holmes</a>’ work on Inclusive Design. If you want to read a brilliant treatise on reframing, read <a rel="external noopener" href="https://mitpress.mit.edu/books/mismatch"><cite>Mismatch</cite></a>.</p>
 
-        <h2 
+        <h2
             id="acknowledgment"
             class="heading-beta">
             Acknowledgment
