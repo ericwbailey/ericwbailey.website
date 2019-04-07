@@ -75,17 +75,11 @@
 
     &__illustration {
         margin-bottom: ms(0.75, rem);
-        margin-left: -0.5ch;
         width: ms(4, rem);
 
         // Breakpoints
         @include mappy-bp(palm-medium) {
-            margin-left: -3ch;
             width: ms(5, rem);
-        }
-
-        @include mappy-bp(lap-small) {
-            margin-left: -4ch;
         }
     }
 
