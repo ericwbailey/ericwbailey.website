@@ -1,23 +1,23 @@
-// ============================================================================
-// Typography
+// TYPOGRAPHY
 // Hyphenation
-// ============================================================================
 
 
 /// Use `&shy;` to  insert a hyphenation hint.
 ///
 /// @group Typography
 ///
-/// @parameter {String} $add-or-remove [add] - Adds or removes hyphenation
-///
 /// @example scss
 ///  @include typography-hyphenation();
 
 
-@mixin typography-hyphenation($add-or-remove: add) {
+@mixin typography-hyphenation($add-or-remove) {
     @if ($add-or-remove == "add") {
         word-break: break-word;
         hyphens: auto;
+        hyphenate-limit-chars: 6 3 2;
+        hyphenate-limit-lines: 2;
+        hyphenate-limit-last: always;
+        hyphenate-limit-zone: 8%;
     }
 
     @else if ($add-or-remove == "remove") {
@@ -34,8 +34,8 @@
 }
 
 
-// Toggles --------------------------------------------------------------------
-// Enables functional class toggles. See `_config.scss`
+// TOGGLES --------------------------------------------------------------------
+// Enables functional class toggles. See `_toggles.scss`
 @if $toggle-typography-hyphenation-add == true {
     .typography-hyphenation-add {
         @include typography-hyphenation(add);
