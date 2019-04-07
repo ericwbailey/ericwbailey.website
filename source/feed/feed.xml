@@ -295,9 +295,17 @@
 	<entry>
 		<title>slashbot</title>
 		<link href="https://thoughtbot.com/blog/slashbot"/>
-		<updated>2019-13-05T12:00:00Z</updated>
+		<updated>2019-03-15T12:00:00Z</updated>
 		<id>https://thoughtbot.com/blog/slashbot</id>
 		<summary>All about a little Slack bot built during investment time.</summary>
+	</entry>
+
+	<entry>
+		<title>The intersection of performance and accessibility</title>
+		<link href="https://thoughtbot.com/blog/slashbot"/>
+		<updated>2019-04-03T12:00:00Z</updated>
+		<id>https://noti.st/ericwbailey/Yfyaxa/the-intersection-of-performance-and-accessibility</id>
+		<summary>This talk highlights opportunities and techniques to improve your website or web app’s performance by embracing an accessible, inclusive mindset.</summary>
 	</entry>
 
 </feed>
