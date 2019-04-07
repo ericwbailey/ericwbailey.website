@@ -9,9 +9,16 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## vNext - Unreleased
 - Performance optimizations
 
-## v0.3.2 - 2019-03-15
-- Add [slashbot](https://thoughtbot.com/blog/slashbot)
+## v0.3.4 - 2019-04-07
+- Add [The intersection of performance and accessibility](https://noti.st/ericwbailey/Yfyaxa/the-intersection-of-performance-and-accessibility)
+- Update URLs for performance and accessibility reports
+- Add alt descriptions to Open Graph images
+- Style tweaks
+- Updated schema information
 - RSS fixes
+
+## v0.3.3 - 2019-03-15
+- Add [slashbot](https://thoughtbot.com/blog/slashbot)
 
 ## v0.3.2 - 2019-03-06
 - Copy tweaks
