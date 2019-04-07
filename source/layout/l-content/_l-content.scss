@@ -22,6 +22,11 @@
 .l-content {
     z-index: z(l-content);
 
+    // States
+    &:focus {
+        outline: none; // Removes browser default focus ring when jumping to main content
+    }
+
     &__title {
         padding: rem(20) rem(40) ms(1, rem) rem(40);
 
