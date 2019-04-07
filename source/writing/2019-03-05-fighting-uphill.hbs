@@ -35,8 +35,13 @@
 
 <main
     id="section-main"
+    itemscope itemtype="https://schema.org/BlogPosting"
     class="l-content"
     tabindex="-1">
+
+    <meta
+        itemprop="mainEntityOfPage"
+        content="https://ericwbailey.design/writing/2019-03-05-fighting-uphill.html">
 
     <header
         class="l-content__title l-content__title--writing"
@@ -46,13 +51,16 @@
 
         <h1
             id="{{content.post.fighting-uphill.id}}"
+            itemprop="name headline"
             class="heading-alpha">
             {{content.post.fighting-uphill.title}}
         </h1>
 
     </header>
 
-    <section class="l-content__body l-content__body--post">
+    <section
+        class="l-content__body l-content__body--post"
+        itemprop="articleBody">
 
         <p class="c-lede">As someone with a good deal of interest in the digital accessibility space, I follow <a rel="external noopener" href="https://webaim.org/">WebAIM</a>’s work closely. Their survey results are priceless <a rel="external noopener" href="https://webaim.org/projects/screenreadersurvey7/">insights into how disabled people actually use the web</a>, so when the organization speaks with authority on a subject, I listen.</p>
         <p>WebAIM’s <a rel="external noopener" href="https://webaim.org/projects/million/">accessibility analysis of the top 1,000,000 homepages</a> was <a rel="external noopener" href="https://twitter.com/webaim/status/1100844774163009536">released to the public on February 27, 2019</a>. I’ve had a few days to process it, and frankly, it’s left me feeling pretty depressed. In a sea of already demoralizing findings, probably the most notable one is that pages containing <a rel="external noopener" href="https://www.w3.org/WAI/standards-guidelines/aria/"><abbr>ARIA<abbr></a>—a specialized language intended to aid accessibility—are actually <em>more</em> likely to have accessibility issues.</p>
@@ -176,6 +184,19 @@
 {{>meta/scripts/main}}
 {{>meta/scripts/offline}}
 {{>meta/analytics/gauges}}
+
+<!-- Blog post metadata -->
+<div itemprop="author" itemscope itemtype="https://schema.org/Person">
+    <meta itemprop="name" content="{{content.site.title}}">
+</div>
+<meta itemprop="datePublished" content="2019-03-05T12:00:00Z">
+<meta itemprop="image" content="https://ericwbailey.design/static/favicons/social/twitter-summary-image.png">
+<div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+    <meta itemprop="name" content="{{content.source.ericwbailey}}">
+    <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+        <div itemprop="url" content="http://ericwbailey.design/static/favicons/social/twitter-summary-image.png"></div>
+    </div>
+</div>
 
 </body>
 </html>
