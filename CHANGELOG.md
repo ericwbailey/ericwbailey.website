@@ -9,6 +9,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## vNext - Unreleased
 - Performance optimizations
 
+## v0.3.5 - 2019-05-24
+- Add Vox Media Day of Learning event for the [If it’s interactive, it needs a focus style talk](https://noti.st/ericwbailey/TcMJFP/if-it-s-interactive-it-needs-a-focus-style)
+
 ## v0.3.4 - 2019-04-07
 - Add [The intersection of performance and accessibility](https://noti.st/ericwbailey/Yfyaxa/the-intersection-of-performance-and-accessibility)
 - Update URLs for performance and accessibility reports
