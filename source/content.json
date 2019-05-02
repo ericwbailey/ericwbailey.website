@@ -184,6 +184,12 @@
             "url":   "https://css-tricks.com/introduction-reduced-motion-media-query/",
             "year":  "2017"
         },
+        "revisiting-reduced-motion": {
+            "title": "Revisiting prefers-reduced-motion, the reduced motion media query",
+            "id":    "revisiting-prefers-reduced-motion-the-reduced-motion-media-query",
+            "url":   "https://css-tricks.com/revisiting-prefers-reduced-motion-the-reduced-motion-media-query/",
+            "year":  "2019"
+        },
         "responsive-buy-in": {
             "title": "Organizational buy-in on Responsive Design",
             "id":    "organizational-buy-in-on-responsive-design",
