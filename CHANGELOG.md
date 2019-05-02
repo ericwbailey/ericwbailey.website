@@ -9,7 +9,10 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## vNext - Unreleased
 - Performance optimizations
 
-## v0.3.5 - 2019-05-24
+## v0.3.6 - 2019-05-01
+- Add [Revisiting prefers-reduced-motion, the reduced motion media query](https://css-tricks.com/revisiting-prefers-reduced-motion-the-reduced-motion-media-query/)
+
+## v0.3.5 - 2019-04-24
 - Add Vox Media Day of Learning event for the [If it’s interactive, it needs a focus style talk](https://noti.st/ericwbailey/TcMJFP/if-it-s-interactive-it-needs-a-focus-style)
 
 ## v0.3.4 - 2019-04-07
