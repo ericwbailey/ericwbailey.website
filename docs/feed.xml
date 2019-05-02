@@ -302,10 +302,18 @@
 
 	<entry>
 		<title>The intersection of performance and accessibility</title>
-		<link href="https://thoughtbot.com/blog/slashbot"/>
+		<link href="https://noti.st/ericwbailey/Yfyaxa/the-intersection-of-performance-and-accessibility"/>
 		<updated>2019-04-03T12:00:00Z</updated>
 		<id>https://noti.st/ericwbailey/Yfyaxa/the-intersection-of-performance-and-accessibility</id>
 		<summary>This talk highlights opportunities and techniques to improve your website or web app’s performance by embracing an accessible, inclusive mindset.</summary>
+	</entry>
+
+	<entry>
+		<title>Revisiting prefers-reduced-motion, the reduced motion media query</title>
+		<link href="https://css-tricks.com/revisiting-prefers-reduced-motion-the-reduced-motion-media-query/"/>
+		<updated>2019-04-30T12:00:00Z</updated>
+		<id>https://css-tricks.com/revisiting-prefers-reduced-motion-the-reduced-motion-media-query/</id>
+		<summary>Two years ago, I wrote about prefers-reduced-motion, a media query introduced into Safari 10.1 to help people with vestibular and seizure disorders use the web. The article provided some background about the media query, why it was needed, and how to work with it to avoid creating disability-triggering visual effects…</summary>
 	</entry>
 
 </feed>
