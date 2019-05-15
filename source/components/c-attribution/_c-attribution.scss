@@ -1,0 +1,17 @@
+// ============================================================================
+// Component
+// Attribution
+// ============================================================================
+
+
+// Component Styling ----------------------------------------------------------
+.c-attribution {
+    border-top: border(thinnest) solid c(l-content, background-title);
+    margin-top: ms(1.5);
+    padding-top: ms(0.5);
+
+    p {
+        font-size: ms(0.6, em);
+        line-height: 1.5;
+    }
+}
