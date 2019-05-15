@@ -17,6 +17,10 @@
     }
 }
 
+@mixin l-content-embedded-media() {
+    max-width: $global-type-measure * 1.2;
+}
+
 
 // Layout Styling -------------------------------------------------------------
 .l-content {
@@ -126,6 +130,24 @@
     cite,
     em {
         font-style: italic;
+    }
+
+    img {
+        @include l-content-embedded-media();
+
+        margin-top: ms(2);
+    }
+
+    figure {
+        @include l-content-embedded-media();
+
+        text-align: left;
+    }
+
+    figcaption {
+        margin-top: ms(0.5, em);
+
+        font-size: ms(0.6, em);
     }
 
     code {
