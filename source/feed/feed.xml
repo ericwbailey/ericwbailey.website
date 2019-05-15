@@ -316,4 +316,12 @@
 		<summary>Two years ago, I wrote about prefers-reduced-motion, a media query introduced into Safari 10.1 to help people with vestibular and seizure disorders use the web. The article provided some background about the media query, why it was needed, and how to work with it to avoid creating disability-triggering visual effects…</summary>
 	</entry>
 
+	<entry>
+		<title>Lighthouse</title>
+		<link href="https://ericwbailey.design/writing/2019-05-14-lighthouse.html"/>
+		<updated>2019-05-15T12:00:00Z</updated>
+		<id>https://ericwbailey.design/writing/2019-05-14-lighthouse.html</id>
+		<summary>Lighthouse is an open source auditing tool made by Google to help developers understand how well their site is doing in terms of four metrics: Performance, Best Practices, Search Engine Optimization (SEO), and Accessibility…</summary>
+	</entry>
+
 </feed>
