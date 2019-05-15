@@ -138,7 +138,7 @@
         },
         "lighthouse": {
             "title": "Lighthouse",
-            "desc":  "Lighthouse is an open source auditing tool put out by Google to help developers understand how well their site is doing in terms of four metrics: Performance, Best Practices, Search Engine Optimization (SEO), and Accessibility.",
+            "desc":  "Lighthouse is an open source auditing tool made by Google to help developers understand how well their site is doing in terms of four metrics: Performance, Best Practices, Search Engine Optimization (SEO), and Accessibility.",
             "id":    "lighthouse",
             "url":   "writing/2019-05-14-lighthouse.html",
             "year":  "2019"
