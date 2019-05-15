@@ -9,6 +9,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## vNext - Unreleased
 - Performance optimizations
 
+## v0.3.7 - 2019-05-14
+- Add [Lighthouse](https://ericwbailey.design/writing/2019-05-14-lighthouse.html) post
+
 ## v0.3.6 - 2019-05-01
 - Add [Revisiting prefers-reduced-motion, the reduced motion media query](https://css-tricks.com/revisiting-prefers-reduced-motion-the-reduced-motion-media-query/)
 
