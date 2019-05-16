@@ -8,22 +8,22 @@ a {
     @include component-theme-color(color);
 
     // States
-    .is-offline &[href*="http"]:not(.is-cached) {
-        @include content-remove-interaction();
+    // .is-offline &[href*="http"]:not(.is-cached) {
+    //     @include content-remove-interaction();
 
-        box-shadow: none !important; // [1]
+    //     box-shadow: none !important; // [1]
 
-        text-decoration: line-through !important;
-        text-shadow: none !important; // [1]
+    //     text-decoration: line-through !important;
+    //     text-shadow: none !important; // [1]
 
-        &:focus {
-            outline: none !important; // [1]
+    //     &:focus {
+    //         outline: none !important; // [1]
 
-            background-color: transparent !important; // [1]
+    //         background-color: transparent !important; // [1]
 
-            color: currentColor !important; // [1]
-        }
-    }
+    //         color: currentColor !important; // [1]
+    //     }
+    // }
 
     // &:hover {
     //
