@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": "source/"
+  },
+  "exclude": [
+    ".build",
+    ".test",
+    "docs",
+    "node_modules"
+  ]
+}
