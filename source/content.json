@@ -227,6 +227,12 @@
             "url":   "https://a11yproject.com/posts/large-touch-targets/",
             "year":  "2018"
         },
+        "universal-design-practical-tips": {
+            "title": "Universal Design: 11 Practical Tips to Make Your Sites and Apps More Accessible",
+            "id":    "universal-design-11-practical-tips-to-make-your-sites-and-apps-more-accessible",
+            "url":   "https://www.shopify.com/partners/blog/universal-design",
+            "year":  "2019"
+        },
         "web-components": {
             "title": "Web components still need to be accessible",
             "id":    "web-components-still-need-to-be accessible",
@@ -256,7 +262,7 @@
             "title":    "The intersection of performance and accessibility",
             "id":       "the-intersection-of-performance-and-accessibility",
             "url":      "https://noti.st/ericwbailey/Yfyaxa/the-intersection-of-performance-and-accessibility",
-            "location": "Delivered at <a class='c-link-list__sublink' href='https://perfmattersconf.com/talks/' rel='external noopener'>#PerfMatters Conference 2019</a>."
+            "location": "Delivered at <a class='c-link-list__sublink' href='https://youtu.be/EGKNN4MVLq8' rel='external noopener'>#PerfMatters Conference 2019</a> and <a class='c-link-list__sublink' href='https://www.meetup.com/Boston-CSS/events/260703797/' rel='external noopener'>Boston CSS</a>."
         },
         "interactive-focus-style": {
             "title":    "If it&rsquo;s interactive, it needs a focus style",
@@ -266,19 +272,20 @@
         }
     },
     "source": {
-        "24-a11y":      "24 Accessibility",
-        "24-ways":      "24 ways",
-        "ala":          "A List Apart",
-        "a11y-project": "The A11Y Project",
-        "cantina":      "Cantina",
-        "css-tricks":   "CSS&#8202;-&#8202;Tricks",
-        "ericwbailey":  "ericwbailey.design",
-        "tutsplus":     "Envato Tuts+",
-        "thitm":        "The Human in the Machine",
-        "imgur":        "Imgur",
-        "poynter":      "Poynter",
-        "smashing":     "Smashing Magazine",
-        "thoughtbot":   "thoughtbot"
+        "24-a11y":         "24 Accessibility",
+        "24-ways":         "24 ways",
+        "ala":             "A List Apart",
+        "a11y-project":    "The A11Y Project",
+        "cantina":         "Cantina",
+        "css-tricks":      "CSS&#8202;-&#8202;Tricks",
+        "ericwbailey":     "ericwbailey.design",
+        "tutsplus":        "Envato Tuts+",
+        "thitm":           "The Human in the Machine",
+        "imgur":           "Imgur",
+        "poynter":         "Poynter",
+        "shopifypartners": "Shopify Partners",
+        "smashing":        "Smashing Magazine",
+        "thoughtbot":      "thoughtbot"
     },
     "title": {
         "about":         "About",
