@@ -10,28 +10,37 @@
 /// @group Components
 ///
 /// @parameter {String} $color-name    - Calls a value from the `_colors.scss` map
-/// @parameter {String} $color-variant - Calls a sub-value from the `_colors.scss` map
+/// @parameter {String} $color-theme   - Calls a sub-value from the `_colors.scss` map
+/// @parameter {String} $color-variant - Calls a sub-value of a `$color-theme` from the `_colors.scss` map, if present
 ///
 /// @returns {Color}
 ///
 /// @require {variable} $colors
 ///
 /// @example scss
-///  background-color: c(button, background);
+///  background-color: c(button, dark, background);
 ///
 /// @see {mixin} component-theme-color
 
 
-@function c($color-name, $color-variant:null) {
+@function c(
+    $color-name,
+    $color-theme:null,
+    $color-variant:null
+) {
 
-    // Color variant is optional
-    @if ($color-variant != null) {
-        // Return `map-get` for cleaner declaration
-        @return map-get(map-get($colors, $color-name), $color-variant);
+    // Basic palette
+    @if ($color-theme == null) and ($color-variant == null) {
+      @return map-get($colors, $color-name);
     }
 
-    // Color with color variant
-    @else if ($color-variant == null) {
-        @return map-get($colors, $color-name);
+    // Component without theme
+    @else if ($color-theme != null) and ($color-variant == null) {
+        @return map-get(map-get($colors, $color-name), $color-theme);
+    }
+
+    // Component with theme
+    @else {
+        @return map-get(map-get(map-get($colors, $color-name), $color-theme), $color-variant);
     }
 }
