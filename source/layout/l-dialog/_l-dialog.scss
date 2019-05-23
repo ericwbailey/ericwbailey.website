@@ -62,6 +62,7 @@ $l-dialog-browser-chrome: rem(0.5);
         animation-fill-mode: both;
         animation-name: slide-in-up;
 
+        // Modes
         @media (prefers-reduced-motion) {
             animation: none;
         }
