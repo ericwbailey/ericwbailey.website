@@ -23,13 +23,13 @@
             "year":  "2017"
         },
         "battery-status": {
-            "title": "Battery Status <abbr title='Application Program Interface'>API</abbr>: We need to talk",
+            "title": "Battery Status API: We need to talk",
             "id":    "battery-status-api-we-need-to-talk",
             "url":   "https://cantina.co/battery-status-api-we-need-to-talk/",
             "year":  "2016"
         },
         "better-button-css": {
-            "title": "Building a better button in <abbr>CSS</abbr>",
+            "title": "Building a better button in CSS",
             "id":    "building-a-better-button-in-css",
             "url":   "https://cantina.co/building-a-better-button-in-css/",
             "year":  "2016"
@@ -113,7 +113,7 @@
             "url":   "https://www.poynter.org/news/how-accessible-your-website-disabled-consider-doing-audit-find-out/"
         },
         "iot-firmware": {
-            "title": "Improving the User Experience of <abbr title='Internet of Things'>IoT</abbr> Firmware Updates",
+            "title": "Improving the User Experience of IoT Firmware Updates",
             "id":    "improving-the-user-experience-of-iot-firmware-updates",
             "url":   "https://cantina.co/improving-the-user-experience-of-iot-firmware-updates/",
             "year":  "2017"
@@ -216,7 +216,7 @@
             "year":  "2017"
         },
         "svg-high-contrast": {
-            "title": "Accessible <abbr title='Scalable Vector Graphics'>SVG</abbr>s in High Contrast Mode",
+            "title": "Accessible SVGs in High Contrast Mode",
             "id":    "accessible-svgs-in-high-contrast-mode",
             "url":   "https://css-tricks.com/accessible-svgs-high-contrast-mode/",
             "year":  "2016"
