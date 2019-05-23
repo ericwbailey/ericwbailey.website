@@ -9,6 +9,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## vNext - Unreleased
 - Performance optimizations
 
+## v0.3.10 - 2019-05-23
+- Fix the [accessibility feedback link issue](https://github.com/ericwbailey/ericwbailey.design/issues/1) for blog posts
+
 ## v0.3.9 - 2019-05-23
 - Add support for dark mode
 - Copy tweaks
