@@ -9,6 +9,10 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## vNext - Unreleased
 - Performance optimizations
 
+## v0.3.9 - 2019-05-23
+- Add support for dark mode
+- Copy tweaks
+
 ## v0.3.8 - 2019-05-16
 - Add [Universal Design: 11 Practical Tips to Make Your Sites and Apps More Accessible](https://www.shopify.com/partners/blog/universal-design) post
 - Add Boston CSS to the The intersection of performance and accessibility talk, add [YouTube recording for PerfMatters](https://youtu.be/EGKNN4MVLq8)
