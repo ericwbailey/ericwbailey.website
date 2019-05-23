@@ -61,6 +61,17 @@ $l-section-mobile-line-height: $global-type-line-height + 100;
 
         line-height: 1.45;
 
+        // Modes
+        @media (prefers-color-scheme: dark) {
+            color: c(type, dark);
+
+            a {
+                &:active {
+                    color: c(type, dark) !important;
+                }
+            }
+        }
+
         // Breakpoints
         @include mappy-bp(wrist-large) {
             line-height: $global-type-line-height;
@@ -77,6 +88,16 @@ $l-section-mobile-line-height: $global-type-line-height + 100;
         @include typography-hyphenation(remove);
 
         background-color: c(l-section, contact);
+
+        // Modes
+        @media (prefers-color-scheme: dark) {
+            a,
+            button {
+                &:focus {
+                    outline: em(3) solid c(type, dark) !important;
+                }
+            }
+        }
     }
 
     &__errata {
@@ -84,6 +105,11 @@ $l-section-mobile-line-height: $global-type-line-height + 100;
 
         @supports #{$supports-viewportunits} {
             padding-top: ms(1); // Controls spacing between portfolio and errata
+        }
+
+        // Modes
+        @media (prefers-color-scheme: dark) {
+            background-color: c(l-section, dark, errata);
         }
     }
 
@@ -106,6 +132,11 @@ $l-section-mobile-line-height: $global-type-line-height + 100;
 
         @supports #{$supports-viewportunits} {
             padding-bottom: 0; // Visually connects portfolio and errata sections
+        }
+
+        // Modes
+        @media (prefers-color-scheme: dark) {
+            background-color: c(l-section, dark, errata);
         }
     }
 

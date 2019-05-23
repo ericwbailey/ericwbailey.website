@@ -107,11 +107,25 @@
 
         &:active {
             @include content-shift-click();
+
+            // Modes
+            @media (prefers-color-scheme: dark) {
+                background-color: c(l-section, dark, errata) !important;
+            }
+        }
+
+        // Modes
+        @media (prefers-color-scheme: dark) {
+            box-shadow: none !important;
+
+            text-shadow: none !important;
         }
 
         // Breakpoints
         @include mappy-bp(palm-medium) {
             @include errata-underline();
+
+            box-shadow: none;
         }
 
         &--copyright {

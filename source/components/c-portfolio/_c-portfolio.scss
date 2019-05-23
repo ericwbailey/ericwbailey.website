@@ -41,6 +41,15 @@
             }
         }
 
+        // Modes
+        @media (prefers-color-scheme: dark) {
+            background-color: c(l-section, dark, errata);
+            box-shadow: none !important;
+
+            text-shadow: none !important;
+            text-decoration: underline !important;
+        }
+
         // Font loaded
         .wf-active & {
             &:hover {
