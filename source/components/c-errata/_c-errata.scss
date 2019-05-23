@@ -12,8 +12,8 @@
     display: inline;
 
     text-shadow:
-     -#{$global-underline-outline} -#{$global-underline-outline}  c(background, dark), // Top lefthand corner
-     -#{$global-underline-outline}  $global-underline-outline     c(background, dark), // Bottom lefhand corner
+     -#{$global-underline-outline} -#{$global-underline-outline} c(background, dark), // Top lefthand corner
+     -#{$global-underline-outline}  $global-underline-outline    c(background, dark), // Bottom lefhand corner
        $global-underline-outline   -#{$global-underline-outline} c(background, dark), // Top righthand corner
        $global-underline-outline    $global-underline-outline    c(background, dark); // Bottom righthand corner
 
@@ -39,8 +39,8 @@
 
         color: c(link, dark);
         text-shadow:
-         -#{$global-underline-outline} -#{$global-underline-outline}  c(background, light), // Top lefthand corner
-         -#{$global-underline-outline}  $global-underline-outline     c(background, light), // Bottom lefhand corner
+         -#{$global-underline-outline} -#{$global-underline-outline} c(background, light), // Top lefthand corner
+         -#{$global-underline-outline}  $global-underline-outline    c(background, light), // Bottom lefhand corner
           $global-underline-outline    -#{$global-underline-outline} c(background, light), // Top righthand corner
           $global-underline-outline     $global-underline-outline    c(background, light); // Bottom righthand corner
 

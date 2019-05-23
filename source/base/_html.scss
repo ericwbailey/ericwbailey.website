@@ -33,6 +33,11 @@ html {
             @include typography-hyphenation(add); // [3]
         }
     }
+
+    // Modes
+    @media (prefers-color-scheme: dark) {
+        color: c(type, light);
+    }
 }
 
 

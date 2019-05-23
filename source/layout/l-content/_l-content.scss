@@ -45,6 +45,11 @@
             padding-right: 8vw;
         }
 
+        // Modes
+        @media (prefers-color-scheme: dark) {
+            background-color: c(l-content, dark, background-title);
+        }
+
         // Breakpoints
         @include mappy-bp(palm-medium) {
             padding-top: 25vh;
@@ -81,6 +86,13 @@
         margin-bottom: ms(0.75, rem);
         width: ms(4, rem);
 
+        fill: c(type, dark);
+
+        // Modes
+        @media (prefers-color-scheme: dark) {
+            fill: c(type, light);
+        }
+
         // Breakpoints
         @include mappy-bp(palm-medium) {
             width: ms(5, rem);
@@ -91,6 +103,11 @@
         @include l-content();
 
         background-color: c(l-content, background-content);
+
+        // Modes
+        @media (prefers-color-scheme: dark) {
+            background-color: c(l-content, dark, background-content);
+        }
     }
 
     &__body--post {
@@ -124,7 +141,12 @@
 
     a,
     button[data-message-subject] {
-        @include content-underline($underline-background-color: white);
+        @include content-underline($underline-background-color: c(background, light));
+
+        // Modes
+        @media (prefers-color-scheme: dark) {
+            @include content-underline($underline-background-color: c(background, dark));
+        }
     }
 
     cite,
@@ -148,16 +170,26 @@
         margin-top: ms(0.5, em);
 
         font-size: ms(0.6, em);
+
+        a {
+            text-decoration: underline;
+
+            // States
+            &:hover,
+            &:focus {
+                text-decoration: none;
+            }
+
+            &:active {
+                @include content-shift-click();
+
+                text-decoration: none;
+            }
+        }
     }
 
     code {
-        padding: 0 0.25em;
         margin: 0 0.2em;
-
-        background-color: c(l-content, code-background);
-
-        border: border(thinner) solid c(l-content, code-background);
-        border-radius: border(thinner);
     }
 
     hr {

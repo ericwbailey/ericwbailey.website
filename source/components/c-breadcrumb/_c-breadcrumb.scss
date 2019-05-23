@@ -17,11 +17,7 @@
 
         text-shadow: none;
 
-        // Breakpoints
-        @include mappy-bp(palm-medium) {
-            padding-bottom: em(8);
-        }
-
+        // States
         &:active {
             background-color: transparent !important;
             box-shadow: none !important;
@@ -42,7 +38,16 @@
 
             color: c(type, dark);
             text-shadow: none;
+
+            // Modes
+            @media (prefers-color-scheme: dark) {
+                color: c(type, light);
+            }
+        }
+
+        // Breakpoints
+        @include mappy-bp(palm-medium) {
+            padding-bottom: em(8);
         }
     }
-
 }

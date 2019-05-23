@@ -43,9 +43,19 @@
 
     &:focus {
         background-color: c(link, dark);
+
         outline: border(thick) solid c(link, dark);
 
         color: c(link, light);
+
+        // Modes
+        @media (prefers-color-scheme: dark) {
+            background-color: c(link, light);
+
+            outline: border(thick) solid c(link, light);
+
+            color: c(link, dark);
+        }
     }
 
     &:active {
@@ -110,6 +120,19 @@
                   -#{$underline-outline}  #{$underline-outline} c(link, dark),
                    #{$underline-outline} -#{$underline-outline} c(link, dark),
                    #{$underline-outline}  #{$underline-outline} c(link, dark);
+
+                // Modes
+                @media (prefers-color-scheme: dark) {
+                    box-shadow:
+                    inset 0 -#{$underline-baseline-distance} c(link, light),
+                    inset 0 -#{$underline-thickness} $underline-color;
+
+                  text-shadow:
+                    -#{$underline-outline} -#{$underline-outline} c(link, light),
+                    -#{$underline-outline}  #{$underline-outline} c(link, light),
+                     #{$underline-outline} -#{$underline-outline} c(link, light),
+                     #{$underline-outline}  #{$underline-outline} c(link, light);
+                }
             }
 
             &:hover {
@@ -117,6 +140,13 @@
                     box-shadow:
                       inset 0 -#{$underline-baseline-distance} c(link, dark),
                       inset 0 -#{$underline-thickness} c(link, dark);
+
+                    // Modes
+                    @media (prefers-color-scheme: dark) {
+                        box-shadow:
+                          inset 0 -#{$underline-baseline-distance} c(link, light),
+                          inset 0 -#{$underline-thickness} c(link, light);
+                    }
                 }
             }
         }
@@ -138,6 +168,11 @@
                       -#{$underline-outline}  #{$underline-outline} $underline-background-color,
                        #{$underline-outline} -#{$underline-outline} $underline-background-color,
                        #{$underline-outline}  #{$underline-outline} $underline-background-color;
+
+                    // Modes
+                    @media (prefers-color-scheme: dark) {
+                        color: c(link, light);
+                    }
                 }
             }
         }

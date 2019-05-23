@@ -10,6 +10,11 @@
     margin-top: ms(1.5);
     padding-top: ms(0.5);
 
+    // Modes
+    @media (prefers-color-scheme: dark) {
+        border-top-color: c(l-content, dark, background-title);
+    }
+
     p {
         font-size: ms(0.6, em);
         line-height: 1.5;

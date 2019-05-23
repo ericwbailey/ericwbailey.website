@@ -43,6 +43,11 @@
 
         fill: c(type, dark);
 
+        // Modes
+        @media (prefers-color-scheme: dark) {
+            fill: c(type, light);
+        }
+
         // Breakpoints
         @include mappy-bp(palm-medium) {
             top: rem(2);

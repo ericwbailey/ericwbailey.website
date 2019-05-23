@@ -37,6 +37,11 @@ $c-home-outline-small: em(3);
     &:hover {
         background-color: c(c-home, background-hover);
 
+        // Modes
+        @media (prefers-color-scheme: dark) {
+            background-color: c(c-home, dark, background-hover);
+        }
+
         &:focus {
             background-color: c(c-home, background-hover);
 
@@ -45,6 +50,13 @@ $c-home-outline-small: em(3);
             outline: none;
 
             transition: none;
+
+            // Modes
+            @media (prefers-color-scheme: dark) {
+                background-color: c(c-home, dark, background-hover);
+
+                color: c(c-home, dark, text-base);
+            }
         }
     }
 
@@ -56,6 +68,22 @@ $c-home-outline-small: em(3);
         color: c(c-home, text-focus);
 
         transition: none;
+
+        // Modes
+        @media (prefers-color-scheme: dark) {
+            background-color: c(c-home, dark, background-focus);
+
+            outline: border(thin) solid c(c-home, dark, outline-focus);
+
+            color: c(c-home, dark, text-focus);
+        }
+    }
+
+    // Modes
+    @media (prefers-color-scheme: dark) {
+        background-color: c(c-home, dark, background-base);
+
+        color: c(c-home, dark, text-base);
     }
 
     // Breakpoints

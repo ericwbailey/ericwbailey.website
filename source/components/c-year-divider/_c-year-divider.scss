@@ -18,4 +18,12 @@
       box-shadow:
         0 -0.5rem 1rem 0 c(l-content, background-content),
         shadow(medium) c(l-content, background-content);
+
+      // Modes
+      @media (prefers-color-scheme: dark) {
+          background-color: c(l-content, dark, background-content);
+          box-shadow:
+            0 -0.5rem 1rem 0 c(l-content, dark, background-content),
+            shadow(medium) c(l-content, dark, background-content);
+      }
 }
