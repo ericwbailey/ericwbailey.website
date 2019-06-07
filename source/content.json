@@ -22,6 +22,12 @@
             "url":   "https://css-tricks.com/aria-spackle-not-rebar/",
             "year":  "2017"
         },
+        "attempting-to-corral-colors": {
+            "title": "Attempting to corral colors with a Sass function",
+            "id":    "attempting-to-corral-colors-with-a-sass-function",
+            "url":   "https://thoughtbot.com/blog/attempting-to-corral-colors-with-a-sass-function",
+            "year":  "2019"
+        },
         "battery-status": {
             "title": "Battery Status API: We need to talk",
             "id":    "battery-status-api-we-need-to-talk",

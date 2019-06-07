@@ -332,4 +332,12 @@
 		<summary>Accessibility has come a long way over the last few years. It used to be a niche discipline focused on people with disabilities, but recently this focus has shifted towards inclusive design and the understanding that websites and apps need to work for everyone regardless of disabilities, hardware or software in use, or internet speed…</summary>
 	</entry>
 
+	<entry>
+		<title>Attempting to corral colors with a Sass function</title>
+		<link href="https://www.shopify.com/partners/blog/universal-design"/>
+		<updated>2019-06-07T12:00:00Z</updated>
+		<id>https://thoughtbot.com/blog/attempting-to-corral-colors-with-a-sass-function</id>
+		<summary>I’ve been experimenting with a Sass color function, and I can’t tell if I love it or hate it…</summary>
+	</entry>
+
 </feed>
