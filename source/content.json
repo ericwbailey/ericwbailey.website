@@ -247,6 +247,12 @@
         }
     },
     "talk": {
+        "accessibility-at-scale": {
+            "title":    "Accessibility at Scale",
+            "id":       "accessibility-at-scale",
+            "url":      "https://noti.st/ericwbailey/bYNh0Y/accessibility-at-scale",
+            "location": "Keynote speaker for <a class='c-link-list__sublink' rel='external noopener' href='https://www.enterjs.de/single?id=8411&keynote%3A-accessibility-at-scale'>enterJS 2019</a>"
+        },
         "accessibility-inclusive-design": {
             "title":    "Accessibility and Inclusive Design",
             "id":       "accessibility-and-Inclusive-Design",
@@ -268,7 +274,7 @@
             "title":    "The intersection of performance and accessibility",
             "id":       "the-intersection-of-performance-and-accessibility",
             "url":      "https://noti.st/ericwbailey/Yfyaxa/the-intersection-of-performance-and-accessibility",
-            "location": "Delivered at <a class='c-link-list__sublink' href='https://youtu.be/EGKNN4MVLq8' rel='external noopener'>#PerfMatters Conference 2019</a> and <a class='c-link-list__sublink' href='https://www.meetup.com/Boston-CSS/events/260703797/' rel='external noopener'>Boston CSS</a>."
+            "location": "Delivered at <a class='c-link-list__sublink' href='https://youtu.be/EGKNN4MVLq8' rel='external noopener'>#PerfMatters Conference 2019</a> and <a class='c-link-list__sublink' href='https://www.meetup.com/Boston-CSS/events/260703797/' rel='external noopener'>Boston CSS</a>"
         },
         "interactive-focus-style": {
             "title":    "If it&rsquo;s interactive, it needs a focus style",
