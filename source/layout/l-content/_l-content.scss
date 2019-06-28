@@ -73,12 +73,20 @@
             border-top-color: c(l-content, border-colophon);
         }
 
+        &--office-hours {
+            border-top-color: c(l-content, border-office-hours);
+        }
+
         &--old-stuff {
             border-top-color: c(l-content, border-old-stuff);
         }
 
         &--writing {
             border-top-color: c(l-content, border-writing);
+        }
+
+        &--speaking {
+            border-top-color: c(l-content, border-speaking);
         }
     }
 

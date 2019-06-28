@@ -1,0 +1,76 @@
+<!doctype html>
+<html itemscope itemtype="http://schema.org/Webpage" lang="en-US">
+<head>
+
+{{>meta/description/charset-and-viewport}}
+
+<title>{{content.title.speaking}} | {{content.site.title}}</title>
+{{>meta/description/description pageDescription=content.site.tagline}}
+{{>meta/description/author}}
+{{>meta/structure/feed-and-sitemap}}
+
+{{>meta/styles/main}}
+
+{{>meta/icons-and-theming/icons-and-theming}}
+{{>meta/social-media/twitter socialMediaTitle=content.title.speaking socialMediaDescription=content.site.tagline}}
+{{>meta/social-media/facebook socialMediaTitle=content.title.speaking socialMediaDescription=content.site.tagline}}
+
+{{>meta/performance/dns-prefetches}}
+{{>meta/performance/prefetches}}
+{{>meta/performance/preconnects}}
+
+{{>meta/scripts/type}}
+
+</head>
+<body>
+
+{{>components/c-skipnav/c-skipnav}}
+
+<!-- Icon Sprite -->
+<div class="icon-sprite">
+{{>elements/icon-sprite}}
+</div>
+
+{{>components/c-home/c-home}}
+
+{{>components/c-honeypot/c-honeypot}}
+
+<main
+    id="section-main"
+    class="l-content"
+    tabindex="-1">
+
+    <header
+        class="l-content__title l-content__title--speaking"
+        aria-labelledby="title-speaking">
+
+        <h1
+            id="title-speaking"
+            class="heading-alpha">
+            {{content.title.speaking}}
+        </h1>
+
+    </header>
+
+    <section class="l-content__body">
+
+        <p class="c-lede">
+            Interested in having me come speak at your event? Let's <a rel="me" data-message-subject="Speaking inquiry" href="mailto:&#101;&#114;&#105;&#099;&#046;&#119;&#046;&#098;&#097;&#105;&#108;&#101;&#121;☛REMOVE-THIS☚&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">get a conversation going</a>!
+        </p>
+
+        {{>components/c-link-list/c-speaking-full}}
+
+    </section>
+
+</main>
+
+{{>layout/l-section/l-errata currentSpeaking='aria-current="page"'}}
+
+{{>layout/l-dialog/l-dialog}}
+
+{{>meta/scripts/main}}
+{{!-- {{>meta/scripts/offline}} --}}
+{{>meta/analytics/gauges}}
+
+</body>
+</html>

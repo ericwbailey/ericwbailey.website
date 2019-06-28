@@ -91,7 +91,7 @@
         margin-right: ms(1, rem);
 
         // Breakpoints
-        @include mappy-bp(palm-medium) {
+        @include mappy-bp(lap-small) {
             display: inline;
         }
     }
