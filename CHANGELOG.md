@@ -9,6 +9,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## vNext - Unreleased
 - Performance optimizations
 
+## v0.3.12 - 2019-06-28
+- Add a [Speaking](https://ericwbailey.design/speaking/) page
+
 ## v0.3.12 - 2019-06-27
 - Add [Accessibility at Scale](https://noti.st/ericwbailey/bYNh0Y/accessibility-at-scale)
 - Fixed footer landmark role
