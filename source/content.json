@@ -233,6 +233,12 @@
             "url":   "https://a11yproject.com/posts/large-touch-targets/",
             "year":  "2018"
         },
+        "truths-about-digital-accessibility": {
+            "title": "Truths about digital accessibility",
+            "id":    "truths-about-digital-accessibility",
+            "url":   "writing/truths-about-digital-accessibility.html",
+            "year":  "2019"
+        },
         "universal-design-practical-tips": {
             "title": "Universal Design: 11 Practical Tips to Make Your Sites and Apps More Accessible",
             "id":    "universal-design-11-practical-tips-to-make-your-sites-and-apps-more-accessible",
