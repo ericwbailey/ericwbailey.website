@@ -5,8 +5,8 @@
 
 // Code Logic -----------------------------------------------------------------
 @mixin code-inline-spacing() {
-    margin-left: em(2);
-    margin-right: em(2);
+    margin-left: em(4);
+    margin-right: em(4);
     padding-left: em(4);
     padding-right: em(4);
 }
@@ -44,9 +44,19 @@ var {
 // }
 //
 //
-// kbd {
-//     @include code-inline-spacing();
-// }
+kbd {
+    @include code-inline-spacing();
+
+    padding: 0.5ch 1ch;
+
+    background-color: c(kbd, background);
+    border-radius: $global-border-radius;
+
+    // Modes
+    @media (prefers-color-scheme: dark) {
+        color: c(type, dark);
+    }
+}
 //
 //
 // pre {
