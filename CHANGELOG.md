@@ -9,7 +9,11 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## vNext - Unreleased
 - Performance optimizations
 
-## v0.3.12 - 2019-06-28
+## v0.3.14 - 2019-06-28
+- Add [Truths About Digital Accessibility](https://ericwbailey.design/writing/truths-about-digital-accessibility.html) post
+- Update skipnav to point at each page's `h1` element
+
+## v0.3.13 - 2019-06-28
 - Add a [Speaking](https://ericwbailey.design/speaking/) page
 
 ## v0.3.12 - 2019-06-27
