@@ -58,16 +58,17 @@
 
 // Beta
 @mixin heading-beta() {
-    @include typography-measure();
     @include typography-tracking(tight);
 
     margin-top: ms(1.25, em);
     margin-bottom: ms(0.25, em);
     margin-left: -0.5ch;
+    max-width: $global-type-measure / 1.5;
 
     font-size: ms(1.25, em);
     font-style: italic;
     font-weight: $font-weight-bold;
+    hyphens: none;
     line-height: 1.1;
 
     // Contexts
