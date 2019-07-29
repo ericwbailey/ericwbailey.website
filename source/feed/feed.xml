@@ -347,4 +347,12 @@
 		<id>https://noti.st/ericwbailey/bYNh0Y/accessibility-at-scale</id>
 		<summary>Accessibility is a holistic practice, essential to some but useful to all. In an enterprise environment, the decisions we make about the technologies we use carry the weight of being used by many.</summary>
 	</entry>
+
+	<entry>
+		<title>Truths about digital accessibility</title>
+		<link href="https://ericwbailey.design/writing/truths-about-digital-accessibility.html"/>
+		<updated>2019-07-29T12:00:00Z</updated>
+		<id>https://ericwbailey.design/writing/truths-about-digital-accessibility.html</id>
+		<summary>Creating, maintaining, or evaluating accessible technology? Here are some things to keep in mind:</summary>
+	</entry>
 </feed>
