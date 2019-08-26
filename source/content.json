@@ -130,6 +130,13 @@
             "url":   "https://webdesign.tutsplus.com/articles/the-importance-of-heading-levels-for-assistive-technology--cms-31753",
             "year":  "2018"
         },
+        "its-all-disparate": {
+            "title": "It’s all disparate, it’s all connected",
+            "desc":  "I will never forget when my father calmly explained to us how Jews controlled the media during dinnertime conversation. My mother, sister, and I were speechless. We were raised Jewish.",
+            "id":    "its-all-disparate-its-all-connected",
+            "url":   "writing/its-all-disparate-its-all-connected.html",
+            "year":  "2019"
+        },
         "lead-better-user-interviews": {
             "title": "How to Lead Better User Interviews",
             "id":    "how-to-lead-better-user-interviews",
@@ -265,6 +272,13 @@
             "id":       "accessibility-and-Inclusive-Design",
             "location": "Delivered for the Wayfair Enterprise Product Design group",
             "year":     "2018"
+        },
+        "getting-audited": {
+            "title":    "Getting Audited: The Consequences of Delivering Inaccessible Code & Design",
+            "id":       "getting-audited-the-consequences-of-delivering-inaccessible-code-design",
+            "url":      "https://www.eventbrite.com/e/getting-audited-the-consequences-of-delivering-inaccessible-code-design-tickets-65934352423#",
+            "location": "Delivered with <a class='c-link-list__sublink' rel='external noopener' href='https://www.scottohara.me/'>Scott O'Hara</a> at <a class='c-link-list__sublink' rel='external noopener' href='https://www.upstatement.com/'>Upstatement</a>'s Friday lecture series",
+            "year":     "2019"
         },
         "inclusion-media-queries": {
             "title":    "Designing for Inclusion with Media Queries",
