@@ -9,6 +9,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## vNext - Unreleased
 - Performance optimizations
 
+## v0.3.15 - 2019-08-26
+- Add [It’s all disparate, it’s all connected](https://ericwbailey.design/writing/its-all-disparate-its-all-connected.html)
+
 ## v0.3.14 - 2019-06-28
 - Add [Truths About Digital Accessibility](https://ericwbailey.design/writing/truths-about-digital-accessibility.html) post
 - Update skipnav to point at each page's `h1` element
