@@ -31,9 +31,11 @@ picture {
 
 
 // Individual Styles ----------------------------------------------------------
-// img {
-//
-// }
+img {
+  @media (inverted-colors: inverted) {
+    filter: invert(100%);
+  }
+}
 
 
 // figure {
