@@ -10,7 +10,11 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Performance optimizations
 
 ## v0.3.16 - 2019-10-14
-- Add Inclusive Design 24 2019 to the the Intersection of Performance and Accessibility talk
+- Add [a11yTO Conf 2019](https://conf.a11yto.com/2019/) event
+- Re-add Twitter link
+
+## v0.3.16 - 2019-10-14
+- Add Inclusive Design 24 2019 to the the [Intersection of Performance and Accessibility](https://inclusivedesign24.org/2019/schedule/#talk13) talk
 
 ## v0.3.15 - 2019-08-26
 - Add [It’s all disparate, it’s all connected](https://ericwbailey.design/writing/its-all-disparate-its-all-connected.html)
