@@ -260,6 +260,13 @@
         }
     },
     "talk": {
+        "a11ytoconf2019": {
+            "title":    "a11yTO Conf 2019",
+            "id":       "a11yto-conf-2019",
+            "url":      "https://conf.a11yto.com/2019/",
+            "location": "Co-host along with <a class='c-link-list__sublink' rel='external noopener' href='https://www.cordeliadillon.com/'>Cordelia McGee-Tubb</a>",
+            "year":     "2019"
+        },
         "accessibility-at-scale": {
             "title":    "Accessibility at Scale",
             "id":       "accessibility-at-scale",
