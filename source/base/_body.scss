@@ -23,4 +23,8 @@ body {
         opacity: 0;
         transition: none;
     }
+
+    &.js-body-is-blurred {
+        filter: grayscale(1);
+    }
 }

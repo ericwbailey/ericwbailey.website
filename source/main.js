@@ -157,6 +157,38 @@ clipboard.on('error', function( e ) {
 
 
 // ============================================================================
+// Faded inactive background
+// ============================================================================
+
+
+/**
+ * Applies a grayscale effect to the entire website when the browser window is
+ * blurred. See: https://github.com/bytte/thomasbyttebier/blob/master/js/main.js
+ *
+ * @example blurInactiveWebsite()
+ * @public
+ */
+function blurInactiveWebsite() {
+  document.body.className = 'js-body-is-blurred';
+};
+
+/**
+ * Removes the blur effect.
+ *
+ * @example removeBlurInactiveWebsite()
+ * @public
+ */
+function removeBlurInactiveWebsite() {
+  document.body.classList.remove('js-body-is-blurred');
+};
+
+window.onfocus = removeBlurInactiveWebsite;
+window.onblur = blurInactiveWebsite;
+
+
+
+
+// ============================================================================
 // Konami Code
 // ============================================================================
 
