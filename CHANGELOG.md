@@ -9,7 +9,11 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## vNext - Unreleased
 - Performance optimizations
 
-## v0.3.16 - 2019-10-14
+## v0.3.18 - 2019-11-06
+- Add [Tech metaphors](ttps://ericwbailey.design/writing/tech-metaphors.html)
+- Add grayscale effect for a blurred browser window
+
+## v0.3.17 - 2019-10-14
 - Add [a11yTO Conf 2019](https://conf.a11yto.com/2019/) event
 - Re-add Twitter link
 
