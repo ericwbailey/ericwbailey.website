@@ -234,6 +234,13 @@
             "url":   "https://css-tricks.com/accessible-svgs-high-contrast-mode/",
             "year":  "2016"
         },
+        "tech-metaphors": {
+            "title": "Tech metaphors",
+            "desc":  "Tired of referencing the same yaks, sheds, and cars over and over again? Here’s a few new metaphors to drop at your next sprint planning meeting:",
+            "id":    "tech-metaphors",
+            "url":   "writing/tech-metaphors.html",
+            "year":  "2019"
+        },
         "touch-targets": {
             "title": "Quick test: Large touch targets",
             "id":    "quick-test-large-touch-targets",
