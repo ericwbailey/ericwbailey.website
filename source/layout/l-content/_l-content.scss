@@ -110,8 +110,6 @@
     &__body {
         @include l-content();
 
-        max-width: em(1060);
-
         background-color: c(l-content, background-content);
 
         // Modes
