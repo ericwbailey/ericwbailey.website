@@ -15,13 +15,11 @@
 
         border-bottom: border(thinnest) solid c(l-section, writing);
 
-        text-shadow: none;
+        text-decoration: none;
 
         // States
         &:active {
             background-color: transparent !important;
-            box-shadow: none !important;
-            text-shadow: none !important;
         }
 
         &:hover {
@@ -37,7 +35,6 @@
             border-bottom: none;
 
             color: c(type, dark);
-            text-shadow: none;
 
             // Modes
             @media (prefers-color-scheme: dark) {

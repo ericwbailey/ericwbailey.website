@@ -149,11 +149,11 @@
 
     a,
     button[data-message-subject] {
-        @include content-underline($underline-background-color: c(background, light));
+//        @include content-underline($underline-background-color: c(background, light));
 
         // Modes
         @media (prefers-color-scheme: dark) {
-            @include content-underline($underline-background-color: c(background, dark));
+//            @include content-underline($underline-background-color: c(background, dark));
         }
     }
 

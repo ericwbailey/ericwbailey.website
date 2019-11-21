@@ -135,7 +135,7 @@
 
     }
 
-    &__coffee {
+    &--coffee-icon {
         @include component-size(rem(22));
 
         margin-left: rem(6);
@@ -167,7 +167,7 @@
     &__link {
         // States
         &:hover {
-            + .c-link-list__coffee {
+            + .c-link-list--coffee-icon {
                 fill: c(type, dark);
 
                 animation-duration: animation-duration(longer);
@@ -175,50 +175,6 @@
                 animation-iteration-count: 1;
                 animation-name: bounce-in;
             }
-        }
-
-        // Contexts
-        .l-section__contact & {
-            @include content-underline($underline-background-color: c(l-section, contact));
-        }
-
-        .l-section__passions & {
-            @include content-underline($underline-background-color: c(l-section, passions));
-        }
-
-        .l-section__projects & {
-            @include content-underline($underline-background-color: c(l-section, projects));
-        }
-
-        .l-section__speaking & {
-            @include content-underline($underline-background-color: c(l-section, speaking));
-        }
-
-        .l-section__writing & {
-            @include content-underline($underline-background-color: c(l-section, writing));
-        }
-    }
-
-    &__sublink {
-        // States
-        &:hover {
-            text-decoration: none;
-        }
-
-        &:focus {
-            background-color: c(link, dark);
-            outline: border(thick) solid c(link, dark);
-
-            color: c(link, light);
-        }
-
-        &:active {
-            @include content-shift-click();
-
-            background-color: transparent;
-            outline: none;
-
-            color: c(link, dark);
         }
     }
 }

@@ -3,39 +3,50 @@
 // ============================================================================
 
 
-// [1] Forces immutability
 a {
     @include component-theme-color(color);
 
-    // States
-    // .is-offline &[href*="http"]:not(.is-cached) {
-    //     @include content-remove-interaction();
+    text-decoration-thickness: 0.05em;
+    text-underline-offset: 0.1em;
 
-    //     box-shadow: none !important; // [1]
+    &:hover {
+        text-decoration: none;
+    }
 
-    //     text-decoration: line-through !important;
-    //     text-shadow: none !important; // [1]
+    &:focus {
+        background-color: c(type, dark);
+        outline: 0.5em solid c(type, dark);
 
-    //     &:focus {
-    //         outline: none !important; // [1]
+        color: c(type, light);
+    }
 
-    //         background-color: transparent !important; // [1]
+    &:active {
+        @include content-shift-click();
+    }
 
-    //         color: currentColor !important; // [1]
-    //     }
-    // }
+    // Modes
+    @media (prefers-color-scheme: dark) {
+        // States
+        &:focus {
+            background-color: c(type, light);
+            outline: 0.5em solid c(type, light);
 
-    // &:hover {
-    //
-    // }
+            color: c(type, dark);
+        }
+    }
 
-    // &:focus {
-    //     outline: none;
-    // }
+    // Contexts
+    .l-section__contact & {
+        // Modes
+        @media (prefers-color-scheme: dark) {
+            // States
+            &:focus {
+                background-color: c(type, dark);
 
-    // &:active {
-    //
-    // }
+                color: c(type, light);
+            }
+        }
+    }
 
     // &:visited {
     //

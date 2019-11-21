@@ -110,6 +110,7 @@ $c-home-outline-small: em(3);
         &:active {
             bottom: initial;
             top: ms(2.02, rem);
+            position: fixed;
         }
     }
 }

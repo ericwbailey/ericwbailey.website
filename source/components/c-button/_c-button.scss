@@ -106,13 +106,99 @@
 .is-contact-button {
     border-radius: 0;
 
-    // Contexts
-    .c-link-list & {
-        height: em(29.5);
+    background: linear-gradient(to bottom, c(type, light) 0%, c(type, light) 79%, c(type, dark) 80%, c(type, dark) 82.4%, c(type, light) 82%, c(type, light) 100%);
+
+    color: c(type, dark);
+
+    // States
+    &:hover {
+        background: linear-gradient(to bottom, c(type, light) 0%, c(type, light) 100%);
     }
 
-    // Breakpoints
-    @include mappy-bp(palm-medium) {
-        height: em(30);
+    &:focus {
+        outline: 0.5em solid c(type, dark);
+
+        background: linear-gradient(to bottom, c(type, dark) 0%, c(type, dark) 79%, c(type, light) 80%, c(type, light) 82.4%, c(type, dark) 82%, c(type, dark) 100%);
+
+        color: c(type, light);
+
+        &:hover {
+            background: linear-gradient(to bottom, c(type, dark) 0%, c(type, dark) 100%);
+        }
+    }
+
+    &:active {
+        outline: 0.5em solid c(type, dark);
+
+        background: linear-gradient(to bottom, c(type, dark) 0%, c(type, dark) 100%);
+
+        color: c(type, light);
+    }
+
+    // Modes
+    @media (prefers-color-scheme: dark) {
+        background: linear-gradient(to bottom, c(type, dark) 0%, c(type, dark) 79%, c(type, light) 80%, c(type, light) 82.4%, c(type, dark) 82%, c(type, dark) 100%);
+
+        color: c(type, light);
+
+        // States
+        &:hover {
+            background: linear-gradient(to bottom, c(type, dark) 0%, c(type, dark) 100%);
+        }
+
+        &:focus {
+            outline: 0.5em solid c(type, light);
+
+            background: linear-gradient(to bottom, c(type, light) 0%, c(type, light) 79%, c(type, dark) 80%, c(type, dark) 82.4%, c(type, light) 82%, c(type, light) 100%);
+
+            color: c(type, dark);
+
+            &:hover {
+                background: linear-gradient(to bottom, c(type, light) 0%, c(type, light) 100%);
+            }
+        }
+
+        &:active {
+            outline: 0.5em solid c(type, light);
+
+            background: linear-gradient(to bottom, c(type, light) 0%, c(type, light) 100%);
+
+            color: c(type, dark);
+        }
+    }
+
+    // Contexts
+    .l-section__contact & {
+        // Modes
+        @media (prefers-color-scheme: dark) {
+            background: linear-gradient(to bottom, c(type, light) 0%, c(type, light) 79%, c(type, dark) 80%, c(type, dark) 82.4%, c(type, light) 82%, c(type, light) 100%);
+
+            color: c(type, dark);
+
+            // States
+            &:hover {
+                background: linear-gradient(to bottom, c(type, light) 0%, c(type, light) 100%);
+            }
+
+            &:focus {
+                outline: 0.5em solid c(type, dark);
+
+                background: linear-gradient(to bottom, c(type, dark) 0%, c(type, dark) 79%, c(type, light) 80%, c(type, light) 82.4%, c(type, dark) 82%, c(type, dark) 100%);
+
+                color: c(type, light);
+
+                &:hover {
+                    background: linear-gradient(to bottom, c(type, dark) 0%, c(type, dark) 100%);
+                }
+            }
+
+            &:active {
+                outline: 0.5em solid c(type, dark);
+
+                background: linear-gradient(to bottom, c(type, dark) 0%, c(type, dark) 100%);
+
+                color: c(type, light);
+            }
+        }
     }
 }

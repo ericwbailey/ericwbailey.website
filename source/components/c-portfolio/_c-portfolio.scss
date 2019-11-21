@@ -12,96 +12,40 @@
     color: darken(c(type, light), 25%);
 
     &__link {
-        @include content-underline($underline-background-color: c(l-section, portfolio));
+        background: linear-gradient(to bottom, c(type, dark) 0%, c(type, dark) 79%, c(type, light) 80%, c(type, light) 82.4%, c(type, dark) 82%, c(type, dark) 100%);
 
         margin-right: rem(2);
 
         color: c(type, light);
 
         // States
-        &:focus {
-            background-color: c(background, light);
+        &:hover {
+            background: linear-gradient(to bottom, c(type, dark) 0%, c(type, dark) 100%);
+        }
 
-            outline: border(thick) solid c(link, light);
+        &:focus {
+            outline: 0.5em solid c(type, light);
+
+            background: linear-gradient(to bottom, c(type, light) 0%, c(type, light) 79%, c(type, dark) 80%, c(type, dark) 82.4%, c(type, light) 82%, c(type, light) 100%);
 
             color: c(type, dark);
 
             > .c-portfolio__icon {
                 fill: c(type, dark);
             }
-        }
 
-        &:hover {
-            &:active {
-                color: c(type, light);
-
-                > .c-portfolio__icon {
-                    fill: c(type, light);
-                }
+            &:hover {
+                background: linear-gradient(to bottom, c(type, light) 0%, c(type, light) 100%);
             }
         }
 
         // Modes
         @media (prefers-color-scheme: dark) {
-            background-color: c(l-section, dark, errata);
-            box-shadow: none !important;
+            background: linear-gradient(to bottom, c(l-section, dark, errata) 0%, c(l-section, dark, errata) 79%, c(type, light) 80%, c(type, light) 82.4%, c(l-section, dark, errata) 82%, c(l-section, dark, errata) 100%);
 
-            text-shadow: none !important;
-            text-decoration: underline !important;
-        }
-
-        // Font loaded
-        .wf-active & {
+            // States
             &:hover {
-                @supports #{$supports-boxshadow} {
-                    box-shadow:
-                      inset 0 -#{$global-underline-baseline-distance} c(type, dark),
-                      inset 0 -#{$global-underline-thickness} c(type, dark);
-                }
-            }
-
-            &:focus {
-                @supports #{$supports-boxshadow} {
-                    box-shadow:
-                      inset 0 -#{$global-underline-baseline-distance} c(link, light),
-                      inset 0 -#{$global-underline-thickness} c(link, dark);
-
-                    text-decoration: none;
-                    text-shadow:
-                      -#{$global-underline-outline} -#{$global-underline-outline} c(link, light),
-                      -#{$global-underline-outline}  #{$global-underline-outline} c(link, light),
-                       #{$global-underline-outline} -#{$global-underline-outline} c(link, light),
-                       #{$global-underline-outline}  #{$global-underline-outline} c(link, light);
-                }
-
-                &:hover {
-                    @supports #{$supports-boxshadow} {
-                        box-shadow:
-                          inset 0 -#{$global-underline-baseline-distance} c(link, light),
-                          inset 0 -#{$global-underline-thickness} c(link, light);
-                    }
-                }
-            }
-
-            &:active {
-                &:active {
-                    @supports #{$supports-boxshadow} {
-                        box-shadow:
-                          inset 0 -#{$global-underline-baseline-distance} c(link, dark),
-                          inset 0 -#{$global-underline-thickness} c(link, dark);
-                        outline: none;
-
-                        background-color: c(link, dark);
-
-                        color: c(link, light);
-                        text-decoration: none;
-                        text-shadow:
-                          -#{$global-underline-outline} -#{$global-underline-outline} c(link, dark),
-                          -#{$global-underline-outline}  #{$global-underline-outline} c(link, dark),
-                           #{$global-underline-outline} -#{$global-underline-outline} c(link, dark),
-                           #{$global-underline-outline}  #{$global-underline-outline} c(link, dark);
-                    }
-                }
+                background: linear-gradient(to bottom, c(l-section, dark, errata) 0%, c(l-section, dark, errata) 100%);
             }
         }
     }

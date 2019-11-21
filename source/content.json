@@ -271,14 +271,14 @@
             "title":    "a11yTO Conf 2019",
             "id":       "a11yto-conf-2019",
             "url":      "https://conf.a11yto.com/2019/",
-            "location": "Co-host along with <a class='c-link-list__sublink' rel='external noopener' href='https://www.cordeliadillon.com/'>Cordelia McGee-Tubb</a>",
+            "location": "Co-host along with <a rel='external noopener' href='https://www.cordeliadillon.com/'>Cordelia McGee-Tubb</a>",
             "year":     "2019"
         },
         "accessibility-at-scale": {
             "title":    "Accessibility at Scale",
             "id":       "accessibility-at-scale",
             "url":      "https://noti.st/ericwbailey/bYNh0Y/accessibility-at-scale",
-            "location": "Keynote speaker for <a class='c-link-list__sublink' rel='external noopener' href='https://www.enterjs.de/single?id=8411&keynote%3A-accessibility-at-scale'>enterJS 2019</a>",
+            "location": "Keynote speaker for <a rel='external noopener' href='https://www.enterjs.de/single?id=8411&keynote%3A-accessibility-at-scale'>enterJS 2019</a>",
             "year":     "2019"
         },
         "accessibility-inclusive-design": {
@@ -291,35 +291,35 @@
             "title":    "Getting Audited: The Consequences of Delivering Inaccessible Code & Design",
             "id":       "getting-audited-the-consequences-of-delivering-inaccessible-code-design",
             "url":      "https://www.eventbrite.com/e/getting-audited-the-consequences-of-delivering-inaccessible-code-design-tickets-65934352423#",
-            "location": "Delivered with <a class='c-link-list__sublink' rel='external noopener' href='https://www.scottohara.me/'>Scott O'Hara</a> at <a class='c-link-list__sublink' rel='external noopener' href='https://www.upstatement.com/'>Upstatement</a>'s Friday lecture series",
+            "location": "Delivered with <a rel='external noopener' href='https://www.scottohara.me/'>Scott O'Hara</a> at <a rel='external noopener' href='https://www.upstatement.com/'>Upstatement</a>'s Friday lecture series",
             "year":     "2019"
         },
         "inclusion-media-queries": {
             "title":    "Designing for Inclusion with Media Queries",
             "id":       "designing-for-inclusion-with-media-queries",
             "url":      "https://noti.st/ericwbailey/QxdLmO/designing-for-inclusion-with-media-queries/",
-            "location": "Delivered at the <a class='c-link-list__sublink' rel='external noopener' href='https://www.inclusivedesign24.org/2017/#talk2'>Inclusive Design 24 2017</a> webinar and at the <a class='c-link-list__sublink' rel='external noopener' href='https://youtu.be/MAwC-JWDxxc'>Boston CSS</a> meetup group",
+            "location": "Delivered at the <a rel='external noopener' href='https://www.inclusivedesign24.org/2017/#talk2'>Inclusive Design 24 2017</a> webinar and at the <a rel='external noopener' href='https://youtu.be/MAwC-JWDxxc'>Boston CSS</a> meetup group",
             "year":     "2017"
         },
         "high-contrast-mode": {
             "title":    "Working with High Contrast Mode",
             "id":       "working-with-high-contrast-mode",
             "url":      "https://noti.st/ericwbailey/3HM9en/working-with-high-contrast-mode",
-            "location": "Delivered at <a class='c-link-list__sublink' href='http://www.accessibilitycampto.org/talks' rel='external noopener'>Accessibility Camp Toronto 2017</a> and the <a class='c-link-list__sublink' href='https://inclusivedesign24.org/2018/schedule/#talk21' rel='external noopener'>Inclusive Design 24 2018</a> webinar",
+            "location": "Delivered at <a href='http://www.accessibilitycampto.org/talks' rel='external noopener'>Accessibility Camp Toronto 2017</a> and the <a href='https://inclusivedesign24.org/2018/schedule/#talk21' rel='external noopener'>Inclusive Design 24 2018</a> webinar",
             "year":     "2017"
         },
         "intersection-of-performance-and-accessibility": {
             "title":    "The intersection of performance and accessibility",
             "id":       "the-intersection-of-performance-and-accessibility",
             "url":      "https://noti.st/ericwbailey/Yfyaxa/the-intersection-of-performance-and-accessibility",
-            "location": "Delivered at <a class='c-link-list__sublink' href='https://youtu.be/EGKNN4MVLq8' rel='external noopener'>#PerfMatters Conference 2019</a>, <a class='c-link-list__sublink' href='https://www.meetup.com/Boston-CSS/events/260703797/' rel='external noopener'>Boston CSS</a>, and the <a class='c-link-list__sublink' href='https://inclusivedesign24.org/2019/schedule/#talk13' rel='external noopener'>Inclusive Design 24 2019</a> webinar",
+            "location": "Delivered at <a href='https://youtu.be/EGKNN4MVLq8' rel='external noopener'>#PerfMatters Conference 2019</a>, <a href='https://www.meetup.com/Boston-CSS/events/260703797/' rel='external noopener'>Boston CSS</a>, and the <a href='https://inclusivedesign24.org/2019/schedule/#talk13' rel='external noopener'>Inclusive Design 24 2019</a> webinar",
             "year":     "2019"
         },
         "interactive-focus-style": {
             "title":    "If it&rsquo;s interactive, it needs a focus style",
             "id":       "if-its-interactive-it-needs-a-focus-style",
             "url":      "https://noti.st/ericwbailey/TcMJFP/if-it-s-interactive-it-needs-a-focus-style",
-            "location": "Delivered at the 2018 <a class='c-link-list__sublink' href='http://conf.a11yto.com/' rel='external noopener'>a11yTOConf</a> conference, the <a class='c-link-list__sublink' href='https://www.meetup.com/A11yNYC/events/256247885/' rel='external noopener'>A11yNYC</a> meetup group, and the 2019 Vox Media Day of Learning",
+            "location": "Delivered at the 2018 <a href='http://conf.a11yto.com/' rel='external noopener'>a11yTOConf</a> conference, the <a href='https://www.meetup.com/A11yNYC/events/256247885/' rel='external noopener'>A11yNYC</a> meetup group, and the 2019 Vox Media Day of Learning",
             "year":     "2018"
         }
     },
