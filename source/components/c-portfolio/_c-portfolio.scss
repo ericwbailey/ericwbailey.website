@@ -12,30 +12,15 @@
     color: darken(c(type, light), 25%);
 
     &__link {
-        background: linear-gradient(to bottom, c(type, dark) 0%, c(type, dark) 79%, c(type, light) 80%, c(type, light) 82.4%, c(type, dark) 82%, c(type, dark) 100%);
+        @include button-link-background(dark-background);
 
         margin-right: rem(2);
 
         color: c(type, light);
 
-        // States
-        &:hover {
-            background: linear-gradient(to bottom, c(type, dark) 0%, c(type, dark) 100%);
-        }
-
         &:focus {
-            outline: 0.5em solid c(type, light);
-
-            background: linear-gradient(to bottom, c(type, light) 0%, c(type, light) 79%, c(type, dark) 80%, c(type, dark) 82.4%, c(type, light) 82%, c(type, light) 100%);
-
-            color: c(type, dark);
-
             > .c-portfolio__icon {
                 fill: c(type, dark);
-            }
-
-            &:hover {
-                background: linear-gradient(to bottom, c(type, light) 0%, c(type, light) 100%);
             }
         }
 

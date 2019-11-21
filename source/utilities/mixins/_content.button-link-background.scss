@@ -1,0 +1,79 @@
+// ============================================================================
+// Content
+// Button Link Background
+// ============================================================================
+
+
+/// Uses gradients to mimic the underline effect applied to text links.
+///
+/// @group Content
+///
+/// @parameter {String} $light-or-dark-background - Sets the background and text color. Can be `light-background` or `dark-background`
+///
+/// @example scss
+///  @include button-link-background(light-background);
+
+
+@mixin button-link-background($light-or-dark-background) {
+    @if ($light-or-dark-background == "light-background") {
+        background: linear-gradient(to bottom, c(type, light) 0%, c(type, light) 79%, c(type, dark) 80%, c(type, dark) 82.4%, c(type, light) 82%, c(type, light) 100%);
+
+        color: c(type, dark);
+
+        // States
+        &:hover {
+            background: linear-gradient(to bottom, c(type, light) 0%, c(type, light) 100%);
+        }
+
+        &:focus {
+            outline: 0.5em solid c(type, dark);
+
+            background: linear-gradient(to bottom, c(type, dark) 0%, c(type, dark) 79%, c(type, light) 80%, c(type, light) 82.4%, c(type, dark) 82%, c(type, dark) 100%);
+
+            color: c(type, light);
+
+            &:hover {
+                background: linear-gradient(to bottom, c(type, dark) 0%, c(type, dark) 100%);
+            }
+        }
+
+        &:active {
+            outline: 0.5em solid c(type, dark);
+
+            background: linear-gradient(to bottom, c(type, dark) 0%, c(type, dark) 100%);
+
+            color: c(type, light);
+        }
+    }
+
+    @if ($light-or-dark-background == "dark-background") {
+        background: linear-gradient(to bottom, c(type, dark) 0%, c(type, dark) 79%, c(type, light) 80%, c(type, light) 82.4%, c(type, dark) 82%, c(type, dark) 100%);
+
+        color: c(type, light);
+
+        // States
+        &:hover {
+            background: linear-gradient(to bottom, c(type, dark) 0%, c(type, dark) 100%);
+        }
+
+        &:focus {
+            outline: 0.5em solid c(type, light);
+
+            background: linear-gradient(to bottom, c(type, light) 0%, c(type, light) 79%, c(type, dark) 80%, c(type, dark) 82.4%, c(type, light) 82%, c(type, light) 100%);
+
+            color: c(type, dark);
+
+            &:hover {
+                background: linear-gradient(to bottom, c(type, light) 0%, c(type, light) 100%);
+            }
+        }
+
+        &:active {
+            outline: 0.5em solid c(type, light);
+
+            background: linear-gradient(to bottom, c(type, light) 0%, c(type, light) 100%);
+
+            color: c(type, dark);
+        }
+    }
+}
