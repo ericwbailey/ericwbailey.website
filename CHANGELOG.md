@@ -9,6 +9,11 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## vNext - Unreleased
 - Performance optimizations
 
+## v0.3.19 - 2019-11-20
+- Replace underline logic with new CSS text underline and decoration properties
+- Fix sticky header content clipping issue at larger breakpoints
+- Add [favicon.svg](https://blog.tomayac.com/2019/09/21/prefers-color-scheme-in-svg-favicons-for-dark-mode-icons/)
+
 ## v0.3.18 - 2019-11-06
 - Add [Tech metaphors](ttps://ericwbailey.design/writing/tech-metaphors.html)
 - Add grayscale effect for a blurred browser window
