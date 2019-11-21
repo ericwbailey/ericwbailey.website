@@ -264,6 +264,12 @@
             "id":    "web-components-still-need-to-be accessible",
             "url":   "https://www.24a11y.com/2018/web-components-still-need-to-be-accessible/",
             "year":  "2018"
+        },
+        "what-the-web": {
+            "title": "What the Web Still Is",
+            "id":    "what-the-web-still-is",
+            "url":   "https://css-tricks.com/what-the-web-still-is/",
+            "year":  "2019"
         }
     },
     "talk": {
