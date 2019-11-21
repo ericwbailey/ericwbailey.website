@@ -9,6 +9,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## vNext - Unreleased
 - Performance optimizations
 
+## v0.3.20 - 2019-11-21
+- Add [What the Web Still Is](https://css-tricks.com/what-the-web-still-is/)
+
 ## v0.3.19 - 2019-11-20
 - Replace underline logic with new CSS text underline and decoration properties
 
