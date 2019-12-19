@@ -9,8 +9,8 @@
 
 // Component Styling ----------------------------------------------------------
 .c-year-divider {
-    padding-top: ms(0.25);
-    padding-bottom: ms(0.25);
+    padding-top: ms(0, $unit: rem);
+    padding-bottom: ms(0, $unit: rem);
     position: sticky;
       top: -1px;
 

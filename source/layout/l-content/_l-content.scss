@@ -8,8 +8,8 @@
 @mixin l-content() {
     @include component-page-side-margins();
 
-    padding-top: rem(50);
-    padding-bottom: rem(240);
+    padding-top: rem(40);
+    padding-bottom: rem(200);
 
     @supports #{$supports-viewportunits} {
         padding-top: 8vh;
@@ -32,7 +32,7 @@
     }
 
     &__title {
-        padding: rem(20) rem(40) ms(1, rem) rem(40);
+        padding: rem(20) rem(40) ms(1, $unit: rem) rem(40);
 
         border-top-style: solid;
         border-top-width: border(thicker) * 2;
@@ -53,12 +53,12 @@
         // Breakpoints
         @include mappy-bp(palm-medium) {
             padding-top: 25vh;
-            padding-bottom: ms(2, rem);
+            padding-bottom: ms(2, $unit: rem);
         }
 
         @include mappy-bp(lap-small) {
             padding-top: 30vh;
-            padding-bottom: ms(3, rem);
+            padding-bottom: ms(12, $unit: rem);
         }
 
         &--404 {
@@ -91,8 +91,8 @@
     }
 
     &__illustration {
-        margin-bottom: ms(0.75, rem);
-        width: ms(4, rem);
+        margin-bottom: ms(1, $unit: rem);
+        width: ms(4, $unit: rem);
 
         fill: c(type, dark);
 
@@ -103,7 +103,7 @@
 
         // Breakpoints
         @include mappy-bp(palm-medium) {
-            width: ms(5, rem);
+            width: ms(16, $unit: rem);
         }
     }
 
@@ -126,34 +126,24 @@
     }
 
     p {
-        margin-top: ms(1.25);
+        margin-top: ms(4, $unit: em);
         max-width: $global-type-measure;
     }
 
     ul,
     ol {
-        margin-top: ms(1.25);
+        margin-top: ms(4, $unit: em);
     }
 
     li {
-        margin-top: ms(0.25);
-        margin-left: ms(1);
+        margin-top: ms(-2, $unit: em);
+        margin-left: ms(1, $unit: em);
 
         list-style-type: disc;
 
         // Breakpoints
         @include mappy-bp(palm-medium) {
             margin-left: 0;
-        }
-    }
-
-    a,
-    button[data-message-subject] {
-//        @include content-underline($underline-background-color: c(background, light));
-
-        // Modes
-        @media (prefers-color-scheme: dark) {
-//            @include content-underline($underline-background-color: c(background, dark));
         }
     }
 
@@ -165,7 +155,7 @@
     img {
         @include l-content-embedded-media();
 
-        margin-top: ms(2);
+        margin-top: ms(8, $unit: rem);
     }
 
     figure {
@@ -175,25 +165,9 @@
     }
 
     figcaption {
-        margin-top: ms(0.5, em);
+        margin-top: ms(0, $unit: em);
 
-        font-size: ms(0.6, em);
-
-        a {
-            text-decoration: underline;
-
-            // States
-            &:hover,
-            &:focus {
-                text-decoration: none;
-            }
-
-            &:active {
-                @include content-shift-click();
-
-                text-decoration: none;
-            }
-        }
+        font-size: ms(-1, $unit: em);
     }
 
     code {
@@ -202,8 +176,8 @@
 
     hr {
         border-color: c(l-content, border-writing);
-        margin-top: ms(2);
-        margin-bottom: ms(2);
+        margin-top: ms(6, $unit: rem);
+        margin-bottom: ms(6, $unit: rem);
         max-width: $global-type-measure;
     }
 }

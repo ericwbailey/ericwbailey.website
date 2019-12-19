@@ -51,8 +51,7 @@
         @include typography-tracking(slight);
 
         display: block;
-        margin-top: ms(0.25, rem);
-        padding: ms(0.25, em) ms(0.5, em);
+        padding: ms(-4);
         width: 100%;
 
         border-bottom: border(thinnest) solid c(input, border-base);

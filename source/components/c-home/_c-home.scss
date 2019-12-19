@@ -10,10 +10,10 @@ $c-home-outline-small: em(3);
 
 // Component Styling ----------------------------------------------------------
 .c-home {
-    padding: ms(0.5, em) ms(1, em);
+    padding: ms(-1, $unit: rem) ms(2, $unit: rem);
     position: fixed;
-      bottom: ms(0.5, rem);
-      right: ms(0.5, rem);
+      bottom: ms(0, $unit: rem);
+      right: ms(0, $unit: rem);
     z-index: z(c-home);
 
     outline: $c-home-outline-small solid c(c-home, outline-base);
@@ -31,7 +31,8 @@ $c-home-outline-small: em(3);
 
     // States
     &:active {
-        bottom: ms(0.45, rem);
+        position: fixed;
+        bottom: 0;
     }
 
     &:hover {
@@ -88,29 +89,17 @@ $c-home-outline-small: em(3);
 
     // Breakpoints
     @include mappy-bp(wrist-large) {
-        bottom: ms(1, rem);
-        right: ms(1, rem);
-
-        // States
-        &:active {
-            bottom: ms(0.97, rem);
-        }
+        bottom: ms(1, $unit: rem);
+        right: ms(1, $unit: rem);
     }
 
     @include mappy-bp(palm-medium) {
         bottom: initial;
-        padding: ms(0.7, em) ms(1, em);
-        right: ms(0.25, rem);
-        top: ms(2, rem);
+        padding: ms(-1, $unit: rem) ms(1, $unit: rem);
+        right: ms(-10, $unit: rem);
+        top: ms(9, $unit: rem);
         transform: rotate(90deg);
 
         outline: none;
-
-        // States
-        &:active {
-            bottom: initial;
-            top: ms(2.02, rem);
-            position: fixed;
-        }
     }
 }

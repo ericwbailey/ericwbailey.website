@@ -9,16 +9,15 @@
 
 // Component Styling ----------------------------------------------------------
 .c-lede {
-    font-size: 104%;
-    line-height: 1.7;
+    font-size: 105%;
+    line-height: 1.8;
 
     .l-content & {
-        margin-bottom: ms(1.75);
+        margin-bottom: ms(4, $unit: rem);
     }
 
     // Breakpoints
     @include mappy-bp(palm-medium) {
-        font-size: 108%;
-        line-height: $global-type-line-height;
+        font-size: 110%;
     }
 }

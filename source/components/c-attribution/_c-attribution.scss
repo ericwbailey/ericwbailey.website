@@ -7,8 +7,8 @@
 // Component Styling ----------------------------------------------------------
 .c-attribution {
     border-top: border(thinnest) solid c(l-content, background-title);
-    margin-top: ms(1.5);
-    padding-top: ms(0.5);
+    margin-top: ms(10, $unit: rem);
+    padding-top: ms(0, $unit: rem);
 
     // Modes
     @media (prefers-color-scheme: dark) {
@@ -16,7 +16,7 @@
     }
 
     p {
-        font-size: ms(0.6, em);
+        font-size: ms(-1, $unit: em);
         line-height: 1.5;
     }
 }

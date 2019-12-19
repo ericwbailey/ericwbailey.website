@@ -59,7 +59,7 @@
 
 // Component Styling ----------------------------------------------------------
 .c-link-list {
-    margin-top: ms(2);
+    margin-top: ms(8, $unit: rem);
 
     // Breakpoints
     @include mappy-bp(lap-small) {
@@ -82,8 +82,8 @@
     }
 
     &__container {
-        margin-bottom: ms(1.25, rem);
-        padding-right: ms(1, rem);
+        margin-bottom: ms(5, $unit: rem);
+        padding-right: ms(5, $unit: rem);
 
         // Contexts
         .l-section__contact & {
@@ -122,8 +122,8 @@
     }
 
     &__description {
-        margin-top: rem(5);
-        margin-bottom: ms(1.25, rem);
+        margin-top: rem(2);
+        margin-bottom: ms(5, $unit: rem);
 
         font-size: 80%;
         line-height: 1.2;
@@ -132,7 +132,6 @@
         .c-link-list__container & {
             margin-bottom: 0; // NOTE: `<div>` elements wrapping `<dt>`/`</dd>` pairings
         }
-
     }
 
     &--coffee-icon {
@@ -152,8 +151,8 @@
     }
 
     &__location {
-        margin-top: ms(0.25, em);
-        margin-bottom: ms(1.25, rem);
+        margin-top: rem(4);
+        margin-bottom: ms(5, $unit: rem);
 
         font-size: 80%;
         line-height: 1.5;

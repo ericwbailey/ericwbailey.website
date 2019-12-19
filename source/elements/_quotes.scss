@@ -179,9 +179,9 @@ q {
 // [2] In­dent the text block be­neonate half an inch and a full inch on the left
 // side, and op­tion­ally the same on the right. Or on the web, about 2–5 ems.
 // blockquote {
-//     margin: ms(1.5, em) ms(1, em); // [1]
+//     margin: ms(1) ms(1); // [1]
 //
-//     font-size: ms(1, em); // [1]
+//     font-size: ms(1); // [1]
 //
 //     &::before {
 //         display: inline;
@@ -201,7 +201,7 @@ q {
 //     cite {
 //         display: block;
 //
-//         font-size: ms(0.6, em);
+//         font-size: ms(0);
 //         text-indent: 0;
 //
 //         &::before {

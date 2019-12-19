@@ -5,7 +5,7 @@
 
 
 // Component Logic ------------------------------------------------------------
-$service-icon-size: ms(1.25, rem);
+$service-icon-size: ms(5, $unit: rem);
 
 
 // Component Styling ----------------------------------------------------------
@@ -18,21 +18,17 @@ $service-icon-size: ms(1.25, rem);
     &__service {
         height: $service-icon-size;
         flex-basis: 45%; // 2 columns
-        margin: ms(0.25, em);
+        margin: ms(-2, $unit: rem);
 
         // States
         &:hover {
             .c-services__link {
-                outline: border(thin) solid c(c-service, background-hover);
-
                 background-color: c(c-service, background-hover);
             }
         }
 
         &:active {
             .c-services__link {
-                outline: border(thin) solid c(c-service, background-active);
-
                 background-color: c(c-service, background-active);
 
                 color: c(c-service, text-active);
@@ -72,8 +68,6 @@ $service-icon-size: ms(1.25, rem);
 
         // States
         &:focus {
-            outline: border(thin) solid c(c-service, background-active);
-
             background-color: c(c-service, background-active);
 
             color: c(c-service, text-active);
@@ -81,11 +75,6 @@ $service-icon-size: ms(1.25, rem);
             .c-services__icon {
                 fill: c(c-service, text-active);
             }
-        }
-
-        // Breakpoints
-        @include mappy-bp(palm-medium) {
-            font-size: 85%;
         }
     }
 

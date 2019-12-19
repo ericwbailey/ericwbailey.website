@@ -26,7 +26,7 @@
             display: block;
             padding: 2.5vw 5vw 3vw 5vw;
             position: fixed;
-              top: ms(0.75);
+              top: ms(0, $unit: rem);
               left: 6.25vw;
             width: 84.375vw;
             z-index: z(ceiling);

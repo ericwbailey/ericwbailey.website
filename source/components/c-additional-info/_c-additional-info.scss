@@ -9,25 +9,21 @@
 
 // Component Styling ----------------------------------------------------------
 .c-additional-info {
-    margin-top: ms(2);
+    margin-top: ms(2, $unit: rem);
 
     // Contexts
-    .l-section__writing & {
-        margin-top: ms(2.25);
-    }
-
+    .l-section__writing &,
     .l-section__speaking & {
-        margin-top: ms(2.25);
+        margin-top: ms(8, $unit: rem);
     }
 
     // Breakpoints
     @include mappy-bp(lap-small) {
-        margin-top: ms(1);
+        margin-top: ms(1, $unit: rem);
     }
 
     &__description {
         display: block;
-        margin-top: rem(5);
 
         font-size: 80%;
         line-height: 1.2;

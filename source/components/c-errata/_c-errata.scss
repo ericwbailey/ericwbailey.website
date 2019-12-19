@@ -19,12 +19,12 @@
     }
 
     &__item {
-        margin-top: ms(0.5, rem);
-        margin-right: ms(1, rem);
+        margin-top: ms(-2, $unit: rem);
 
         // Breakpoints
         @include mappy-bp(lap-small) {
             display: inline;
+            margin-right: ms(1, $unit: rem);
         }
     }
 
@@ -53,15 +53,11 @@
     }
 
     &__copyright {
-        margin-top: ms(1.5);
+        margin-top: ms(6, $unit: rem);
 
         // Breakpoints
         @include mappy-bp(palm-medium) {
-            margin-top: ms(1);
+            margin-top: ms(1, $unit: rem);
         }
-    }
-
-    &__copyright-item {
-        margin-right: ms(1);
     }
 }

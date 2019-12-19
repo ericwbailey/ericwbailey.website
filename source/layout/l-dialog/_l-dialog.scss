@@ -19,24 +19,12 @@ $l-dialog-browser-chrome: rem(0.5);
 }
 
 
-// @keyframes slide-out-down {
-//   from {
-//     transform: translate3d(0, 0, 0);
-//   }
-//
-//   to {
-//     visibility: hidden;
-//     transform: translate3d(0, 100%, 0);
-//   }
-// }
-
-
 // Component Styling ----------------------------------------------------------
 .l-dialog {
     @include component-page-side-margins();
 
     margin-bottom: $l-dialog-browser-chrome; // HACK: Used to get around iOS Safari's bottom toolbar obscuring the close button
-    padding-top: rem(12);
+    padding-top: rem(24);
     padding-bottom: rem(25);
     position: fixed;
       bottom: 0;
@@ -48,7 +36,7 @@ $l-dialog-browser-chrome: rem(0.5);
     box-shadow: shadow(large) c(l-dialog, shadow);
 
     @supports #{$supports-viewportunits} {
-        padding-top: 2vh;
+        padding-top: 4vh;
         padding-bottom: calc(4vh + $l-dialog-browser-chrome);
     }
 
@@ -67,12 +55,6 @@ $l-dialog-browser-chrome: rem(0.5);
             animation: none;
         }
     }
-
-    // &.js-slide-out-down {
-    //     animation-duration: animation-duration(shorter);
-    //     animation-fill-mode: both;
-    //     animation-name: slide-out-down;
-    // }
 
     // Breakpoints
     @include mappy-bp(palm-medium) {
@@ -98,14 +80,14 @@ $l-dialog-browser-chrome: rem(0.5);
     }
 
     &__email-services {
-        margin-top: ms(1, rem);
+        margin-top: ms(0, $unit: rem);
         z-index: z(l-dialog-email-services);
 
         // Breakpoints
         @include mappy-bp(lap-small) {
             @include component-align(float, start);
 
-            margin-top: rem(42); // Lines services up vertically with email address input field
+            margin-top: rem(50); // Lines services up vertically with email address input field
             width: calc(100% - #{rem(450)});
         }
     }

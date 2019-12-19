@@ -4,16 +4,22 @@
 // ============================================================================
 
 
-/// Outputs a number scaled by the document's specified Modular Scale. Use
-/// `$global-type-ratio` when you want to use a unitless ratio.
+// UNITS
+// Modular Scale
+
+
+/// Outputs a number scaled by the document's specified Modular Scale. Set
+/// `$unit` to `null` if you want a unitless ratio value.
 ///
 /// @group Modular Scale
 ///
-/// @parameter {Number}      $scale-by  - Sets the factor for the modular scale to be multiplied by
-/// @parameter {Measurement} $unit [em] - Specifies the unit
+/// @parameter {Number}      $increment                     - Sets the factor for the modular scale to be multiplied by
+/// @parameter {Measurement} $base-size [$global-type-size] - Specifies base font size
+/// @parameter {Number}      $ratio [$global-type-ratio]    - Specifies modular scale ratio to be multiplied by
+/// @parameter {Measurement} $unit [em]                    - Specifies the unit
 ///
 /// @example scss
-///  margin-top: ms(3, em);
+///  margin-top: ms(2);
 ///
 /// @see {function} em
 /// @see {function} rem
@@ -22,25 +28,26 @@
 /// @link http://type-scale.com/ Type Scale - A Visual Calculator
 
 
-@function ms($scale-by, $unit: em) {
+@function ms(
+    $increment,
+    $base-size: $global-type-size,
+    $ratio: $global-type-ratio,
+    $unit: em
+) {
+    @for $i from 1 through $increment {
 
-    // Check to see if scale is a number
-    @if (type-of($scale-by) != number) {
-        @error "`#{$scale-by}`"
-        + $meta-invalid-argument
-        + $meta-invalid-argument-provide
-        + "a number.";
+        @if $increment > 0 {
+            $base-size: $base-size * $ratio;
+        }
+
+        @else if $increment == 0 {
+            $base-size: $base-size;
+        }
+
+        @else {
+            $base-size: $base-size / $ratio;
+        }
     }
 
-    // Check to see if unit is a valid unit
-    @if ($unit == null)
-    or (type-of($unit) == number)
-    or not ($units) {
-        @error "`#{$unit}`"
-        + $meta-invalid-argument
-        + $meta-invalid-argument-provide
-        + "a valid CSS unit.";
-    }
-
-    @return #{$scale-by * $global-type-ratio}#{$unit};
+    @return ($base-size / $global-type-size) * 1 + $unit;
 }

@@ -37,11 +37,11 @@ $l-section-mobile-line-height: $global-type-line-height + 100;
 
 // Removes the bottom margin of the last row of `c-link_list__item`s
 @mixin l-section-bottom-margin() {
-    padding-bottom: calc($l-section-vertical-padding-mobile - #{ms(1, rem)});
+    padding-bottom: calc($l-section-vertical-padding-mobile - #{ms(1, $unit: rem)});
 
     // Breakpoints
     @include mappy-bp(palm-medium) {
-        padding-bottom: calc($l-section-vertical-padding-palm - #{ms(1, rem)});
+        padding-bottom: calc($l-section-vertical-padding-palm - #{ms(1, $unit: rem)});
     }
 }
 
@@ -103,9 +103,7 @@ $l-section-mobile-line-height: $global-type-line-height + 100;
     &__errata {
         background-color: c(l-section, errata);
 
-        @supports #{$supports-viewportunits} {
-            padding-top: ms(1); // Controls spacing between portfolio and errata
-        }
+        padding-top: ms(6); // Controls spacing between portfolio and errata
 
         // Modes
         @media (prefers-color-scheme: dark) {

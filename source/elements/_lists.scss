@@ -18,7 +18,7 @@ ul,
 ol {
 
    li {
-       margin-left: ms(1, em);
+       margin-left: ms(1, $unit: em);
    }
 }
 
@@ -32,7 +32,7 @@ ul {
            @include typography-align(center);
 
            display: inline-block;
-           margin-right: ms(0.25, em);
+           margin-right: ms(0, $unit: em);
            position: relative;
              bottom: em(1);
            width: 1em;

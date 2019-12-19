@@ -8,7 +8,7 @@
 
 // Giga
 // @mixin heading-giga() {
-//     font-size: ms(5, em);
+//     font-size: ms(5);
 // }
 //
 // .heading-giga {
@@ -18,7 +18,7 @@
 //
 // // Mega
 // @mixin heading-mega() {
-//     font-size: ms(4.5, em);
+//     font-size: ms(4);
 // }
 //
 // .heading-mega {
@@ -31,7 +31,7 @@
     @include typography-measure();
     @include typography-tracking(tight);
 
-    font-size: ms(2, em);
+    font-size: ms(8, $unit: em);
     font-style: italic;
     font-weight: $font-weight-bold;
     line-height: 1.1;
@@ -43,11 +43,11 @@
 
     // Breakpoints
     @include mappy-bp(palm-medium) {
-        font-size: ms(2, em);
+        font-size: ms(10, $unit: em);
     }
 
     @include mappy-bp(lap-small) {
-        font-size: ms(3, em);
+        font-size: ms(12, $unit: em);
     }
 }
 
@@ -60,12 +60,12 @@
 @mixin heading-beta() {
     @include typography-tracking(tight);
 
-    margin-top: ms(1.25, em);
-    margin-bottom: ms(0.25, em);
+    margin-top: ms(1, $unit: em);
+    margin-bottom: ms(0, $unit: em);
     margin-left: -0.5ch;
     max-width: $global-type-measure / 1.5;
 
-    font-size: ms(1.25, em);
+    font-size: ms(4, $unit: em);
     font-style: italic;
     font-weight: $font-weight-bold;
     hyphens: none;
@@ -78,7 +78,7 @@
 
     // Breakpoints
     @include mappy-bp(palm-medium) {
-        margin-top: ms(1.5, em);
+        margin-top: ms(6, $unit: em);
         margin-left: -1ch;
     }
 }
@@ -93,10 +93,10 @@
     @include typography-measure();
     @include typography-tracking(tight);
 
-    margin-top: ms(1.5, em);
+    margin-top: ms(6, $unit: em);
     margin-bottom: 0;
 
-    font-size: ms(1, em);
+    font-size: ms(1, $unit: em);
     font-style: italic;
     font-weight: $font-weight-bold;
     line-height: 1.1;
@@ -116,14 +116,12 @@
 @mixin heading-delta() {
     @include typography-measure();
     @include typography-small-caps()
-    @include typography-tracking(loose);
 
-    margin-top: ms(1.25, em);
-    margin-bottom: -0.75em;
+    margin-top: ms(4, $unit: em);
+    margin-bottom: -0.5em;
 
-    font-size: ms(1, em);
+    font-size: ms(1, $unit: em);
     line-height: 1.1;
-    // text-transform: uppercase;
 }
 
 .heading-delta {
