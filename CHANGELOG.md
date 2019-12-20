@@ -9,6 +9,13 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## vNext - Unreleased
 - Performance optimizations
 
+## v0.3.21 - 2019-12-20
+- Fix modular scaling
+- Update Yellow Labs test result URL
+- Remove content-shift-click mixin on links
+- Fix sticky header masking
+- Add [Boston CSS](https://www.meetup.com/Boston-CSS/) to speaking
+
 ## v0.3.20 - 2019-11-21
 - Add [What the Web Still Is](https://css-tricks.com/what-the-web-still-is/)
 
