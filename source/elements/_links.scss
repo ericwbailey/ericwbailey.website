@@ -20,10 +20,6 @@ a {
         color: c(type, light);
     }
 
-    &:active {
-        @include content-shift-click();
-    }
-
     // Modes
     @media (prefers-color-scheme: dark) {
         // States
