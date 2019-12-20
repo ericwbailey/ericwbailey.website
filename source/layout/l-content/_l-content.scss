@@ -24,11 +24,18 @@
 
 // Layout Styling -------------------------------------------------------------
 .l-content {
+    background-color: c(l-content, background-content);
+
     z-index: z(l-content);
 
     // States
     &:focus {
         outline: none; // Removes browser default focus ring when jumping to main content
+    }
+
+    // Modes
+    @media (prefers-color-scheme: dark) {
+        background-color: c(l-content, dark, background-content);
     }
 
     &__title {
@@ -110,6 +117,8 @@
     &__body {
         @include l-content();
 
+        max-width: 85ch;
+
         background-color: c(l-content, background-content);
 
         // Modes
@@ -119,6 +128,8 @@
     }
 
     &__body--post {
+        max-width: initial;
+
         // Breakpoints
         @include mappy-bp(palm-medium) {
             line-height: 1.8;

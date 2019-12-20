@@ -14,10 +14,10 @@
     position: sticky;
       top: -1px;
 
-      background-color: c(l-content, background-content);
+    background-color: c(l-content, background-content);
 
-      // Modes
-      @media (prefers-color-scheme: dark) {
-          background-color: c(l-content, dark, background-content);
-      }
+    // Modes
+    @media (prefers-color-scheme: dark) {
+        background-color: c(l-content, dark, background-content);
+    }
 }
