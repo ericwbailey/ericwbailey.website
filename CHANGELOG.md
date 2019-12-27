@@ -9,6 +9,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## vNext - Unreleased
 - Performance optimizations
 
+## v0.3.22 - 2019-12-27
+- Load TypeKit fonts via CSS and use `font-display: swap;`
+
 ## v0.3.21 - 2019-12-20
 - Fix modular scaling
 - Update Yellow Labs test result URL
