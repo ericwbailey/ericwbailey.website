@@ -1,7 +1,0 @@
-@mixin link() {
-    display: none;
-}
-
-%link {
-    @extend %hidden; //display: none;
-}

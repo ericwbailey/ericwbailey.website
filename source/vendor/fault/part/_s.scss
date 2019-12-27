@@ -1,7 +1,0 @@
-@mixin s() {
-    text-decoration: line-through;
-}
-
-%s {
-    @include s;
-}

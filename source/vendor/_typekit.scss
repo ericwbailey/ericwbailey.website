@@ -1,0 +1,29 @@
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * abril-text:
+ *   - http://typekit.com/eulas/0000000000000000000119bd
+ *   - http://typekit.com/eulas/0000000000000000000119c0
+ *
+ * © 2009-2019 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2017-01-25 02:52:50 UTC"}*/
+
+@import url("https://p.typekit.net/p.css?s=1&k=eld0xqc&ht=tk&f=14044.14047&a=722427&app=typekit&e=css");
+
+@font-face {
+font-family:"abril-text";
+src:url("https://use.typekit.net/af/c70000/0000000000000000000119bd/27/l?primer=7ceb210e49ade74e23101e10f006f110a0b6588c7c57777a6e3d98a38b749696&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/c70000/0000000000000000000119bd/27/d?primer=7ceb210e49ade74e23101e10f006f110a0b6588c7c57777a6e3d98a38b749696&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/c70000/0000000000000000000119bd/27/a?primer=7ceb210e49ade74e23101e10f006f110a0b6588c7c57777a6e3d98a38b749696&fvd=n4&v=3") format("opentype");
+font-display:swap;font-style:normal;font-weight:400;
+}
+
+@font-face {
+font-family:"abril-text";
+src:url("https://use.typekit.net/af/8fc4c7/0000000000000000000119c0/27/l?primer=7ceb210e49ade74e23101e10f006f110a0b6588c7c57777a6e3d98a38b749696&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/8fc4c7/0000000000000000000119c0/27/d?primer=7ceb210e49ade74e23101e10f006f110a0b6588c7c57777a6e3d98a38b749696&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/8fc4c7/0000000000000000000119c0/27/a?primer=7ceb210e49ade74e23101e10f006f110a0b6588c7c57777a6e3d98a38b749696&fvd=i7&v=3") format("opentype");
+font-display:swap;font-style:italic;font-weight:700;
+}
+
+.tk-abril-text { font-family: "abril-text","Georgia","Times","Times New Roman",serif; }

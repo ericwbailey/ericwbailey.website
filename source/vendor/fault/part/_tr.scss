@@ -1,9 +1,0 @@
-@mixin tr() {
-    display: table-row;
-    vertical-align: inherit;
-    border-color: inherit;
-}
-
-%tr {
-    @include tr;
-}

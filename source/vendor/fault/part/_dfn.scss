@@ -1,7 +1,0 @@
-@mixin dfn() {
-  font-style: italic;
-}
-
-%dfn {
-    @extend %italic; //font-style: italic;
-}

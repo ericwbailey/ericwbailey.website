@@ -1,7 +1,0 @@
-@mixin bdo() {
-  unicode-bidi: bidi-override;
-}
-
-%bdo {
-  @include bdo;
-}

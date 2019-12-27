@@ -1,7 +1,0 @@
-@mixin div() {
-  display:block;
-}
-
-%div {
-    @extend %display-block;
-}

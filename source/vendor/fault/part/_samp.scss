@@ -1,7 +1,0 @@
-@mixin samp() {
-    font-family: monospace;
-}
-
-%samp {
-    @extend %monospaced; //font-family: monospace;
-}

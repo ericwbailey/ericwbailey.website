@@ -10,6 +10,12 @@
 // classes.
 
 
+// Vendor ---------------------------------------------------------------------
+@import
+    "vendor/typekit",
+    "../node_modules/mappy-breakpoints/mappy-breakpoints"; // https://github.com/zellwk/mappy-breakpoints
+
+
 // Variables ------------------------------------------------------------------
 @import
     "utilities/variables/meta",
@@ -129,14 +135,6 @@
 
     "utilities/mixins/component.page-side-margins",
     "utilities/mixins/component.button"; // [1]
-
-
-// Vendor ---------------------------------------------------------------------
-@import
-    "../node_modules/family.scss/source/src/family",       // http://lukyvj.github.io/family.scss/
-    "vendor/fault/fault",                                  // https://github.com/jpdevries/fault
-    "vendor/fukol-grids/fukol-grids",                      // https://github.com/Heydon/fukol-grids
-    "../node_modules/mappy-breakpoints/mappy-breakpoints"; // https://github.com/zellwk/mappy-breakpoints
 
 
 // Modes ----------------------------------------------------------------------

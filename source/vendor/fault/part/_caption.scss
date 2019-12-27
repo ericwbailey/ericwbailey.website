@@ -1,8 +1,0 @@
-@mixin caption() {
-  display: table-caption;
-  text-align: center;
-}
-
-%caption {
-    @include caption;
-}

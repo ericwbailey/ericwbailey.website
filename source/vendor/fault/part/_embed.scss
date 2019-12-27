@@ -1,9 +1,0 @@
-@mixin embed() {
-  &:focus {
-      outline: none;
-  }
-}
-
-%embed {
-  @include embed;
-}

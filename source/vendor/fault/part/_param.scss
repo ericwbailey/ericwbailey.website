@@ -1,7 +1,0 @@
-@mixin param() {
-  display:none;
-}
-
-%param {
-    @extend %hidden; //display: none;
-}

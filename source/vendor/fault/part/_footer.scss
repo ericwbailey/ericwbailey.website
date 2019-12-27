@@ -1,7 +1,0 @@
-@mixin footer() {
-  display:block;
-}
-
-%footer {
-  @extend %display-block;
-}

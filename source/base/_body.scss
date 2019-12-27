@@ -11,7 +11,7 @@ body {
 
     opacity: 1; // For when `.is-faded` is removed
 
-    transition: opacity animation-duration(long); // Transitions `.is-faded`
+    transition: filter animation-duration(long); // Transitions `.is-faded`
 
     // Breakpoints
     @include mappy-bp(palm-medium) {
@@ -19,12 +19,7 @@ body {
     }
 
     // States
-    &.is-faded {
-        opacity: 0;
-        transition: none;
-    }
-
     &.js-body-is-blurred {
-        filter: grayscale(1);
+        filter: grayscale(0.75);
     }
 }

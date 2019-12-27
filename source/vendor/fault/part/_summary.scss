@@ -1,7 +1,0 @@
-@mixin summary() {
-    display:block;
-}
-
-%summary {
-    @extend %display-block;
-}

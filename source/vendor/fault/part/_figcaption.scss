@@ -1,7 +1,0 @@
-@mixin figcaption {
-    display: block;
-}
-
-%figcaption {
-  @include figcaption;
-}

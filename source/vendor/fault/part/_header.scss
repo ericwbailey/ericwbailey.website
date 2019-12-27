@@ -1,7 +1,0 @@
-@mixin header() {
-  display:block;
-}
-
-%header {
-  @extend %display-block;
-}

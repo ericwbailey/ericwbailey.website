@@ -1,7 +1,0 @@
-@mixin b() {
-  font-weight:bold;
-}
-
-%b {
-    @extend %bold; //font-weight: bold;
-}

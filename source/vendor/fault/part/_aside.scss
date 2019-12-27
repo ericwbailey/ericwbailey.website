@@ -1,7 +1,0 @@
-@mixin aside() {
-  display:block;
-}
-
-%aside {
-    @extend %display-block;
-}

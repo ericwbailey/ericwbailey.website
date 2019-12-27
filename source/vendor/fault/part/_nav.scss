@@ -1,7 +1,0 @@
-@mixin nav() {
-  display:block;
-}
-
-%nav {
-    @extend %display-block;
-}
