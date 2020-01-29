@@ -379,4 +379,12 @@
 		<id>https://css-tricks.com/what-the-web-still-is/</id>
 		<summary>Being a pessimist is an easy thing to fall back on, and I’m trying to be better about it. As we close the year out, I thought it would be a good exercise to take stock of the state of the web and count our blessings…</summary>
 	</entry>
+
+	<entry>
+		<title>Operating System and Browser Accessibility Display Modes</title>
+		<link href="https://a11yproject.com/posts/operating-system-and-browser-accessibility-display-modes/"/>
+		<updated>2019-11-22T12:00:00Z</updated>
+		<id>https://a11yproject.com/posts/operating-system-and-browser-accessibility-display-modes/</id>
+		<summary>Most computers, laptops, tablets, smartphones, and web browsers have specialized tools to help people read and take action on the content they display…</summary>
+	</entry>
 </feed>
