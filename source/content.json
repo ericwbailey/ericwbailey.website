@@ -16,6 +16,12 @@
             "url":   "https://cantina.co/instituting-a-culture-of-accessibility-in-your-organization-part-2/",
             "year":  "2016"
         },
+        "accessibility-display-modes": {
+            "title": "Operating System and Browser Accessibility Display Modes",
+            "id":    "operating-system-and-browser-accessibility-display-modes",
+            "url":   "https://a11yproject.com/posts/operating-system-and-browser-accessibility-display-modes/",
+            "year":  "2019"
+        },
         "aria-is-spackle-not-rebar": {
             "title": "ARIA is Spackle, Not Rebar",
             "id":    "aria-is-spackle-not-rebar",
