@@ -9,6 +9,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## vNext - Unreleased
 - Performance optimizations
 
+## v0.3.23 - 2020-01-29
+- Add [Operating System and Browser Accessibility Display Modes](https://a11yproject.com/posts/operating-system-and-browser-accessibility-display-modes/)
+
 ## v0.3.22 - 2019-12-27
 - Load TypeKit fonts via CSS and use `font-display: swap;`
 
