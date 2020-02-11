@@ -32,7 +32,7 @@ gulp.task('browsersync-test', help.browsersync.test, function() {
         },
         minify: false,
         notify: false,
-        browser: ["firefox", "google chrome", "safari", "opera"],
+        browser: ["firefox", "google chrome", "safari", "microsoft edge"],
         logPrefix: "TEST"
     });
 });
