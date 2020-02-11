@@ -9,6 +9,11 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## vNext - Unreleased
 - Performance optimizations
 
+## v0.3.24 - 2020-02-10
+- Repair [broken Ubersleep URL](https://github.com/ericwbailey/ericwbailey.design/issues/2) (thanks, Ian!)
+- Add note about structure.exposed being broken due to Heroku
+- Replace Opera with Microsoft Edge for testing task
+
 ## v0.3.23 - 2020-01-29
 - Add [Operating System and Browser Accessibility Display Modes](https://a11yproject.com/posts/operating-system-and-browser-accessibility-display-modes/)
 
