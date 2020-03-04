@@ -9,6 +9,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## vNext - Unreleased
 - Performance optimizations
 
+## v0.3.25 - 2020-03-04
+- Add [Using personas in the Product Design Sprint](https://thoughtbot.com/blog/using-personas-in-the-product-design-sprint)
+
 ## v0.3.24 - 2020-02-10
 - Repair [broken Ubersleep URL](https://github.com/ericwbailey/ericwbailey.design/issues/2) (thanks, Ian!)
 - Add note about structure.exposed being broken due to Heroku
