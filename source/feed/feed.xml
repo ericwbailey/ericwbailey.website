@@ -387,4 +387,12 @@
 		<id>https://a11yproject.com/posts/operating-system-and-browser-accessibility-display-modes/</id>
 		<summary>Most computers, laptops, tablets, smartphones, and web browsers have specialized tools to help people read and take action on the content they display…</summary>
 	</entry>
+
+	<entry>
+		<title>Using personas in the Product Design Sprint</title>
+		<link href="https://thoughtbot.com/blog/using-personas-in-the-product-design-sprint"/>
+		<updated>2020-03-05T12:00:00Z</updated>
+		<id>https://thoughtbot.com/blog/using-personas-in-the-product-design-sprint</id>
+		<summary>Hi, my name is Eric, and I used to hate personas.</summary>
+	</entry>
 </feed>
