@@ -9,6 +9,10 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## vNext - Unreleased
 - Performance optimizations
 
+## v0.3.27 - 2020-04-07
+- Add [SingaporeCSS talk](https://singaporecss.github.io/49/)
+- Add [How to not make a résumé in React](https://ericwbailey.design/writing/how-to-not-make-a-resume-in-react.html)
+
 ## v0.3.26 - 2020-03-29
 - Add SVG favicon with Dark Mode support
 
