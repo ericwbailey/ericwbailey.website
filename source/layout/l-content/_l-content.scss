@@ -200,9 +200,16 @@
     }
 
     code {
-        margin: 0 0.2em;
-        background-color: c(l-content, code-background);
         outline: border(thin) solid c(l-content, code-background);
+
+        background-color: c(l-content, code-background);
+
+        margin: 0 0.2em;
+
+        // Modes
+        @media (prefers-color-scheme: dark) {
+            color: c(l-content, dark, background-content);
+        }
     }
 
     hr {
