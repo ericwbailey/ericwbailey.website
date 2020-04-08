@@ -146,6 +146,12 @@
         margin-top: ms(4, $unit: em);
     }
 
+    ol {
+        li {
+            list-style-type: decimal;
+        }
+    }
+
     li {
         margin-top: ms(-2, $unit: em);
         margin-left: ms(1, $unit: em);
@@ -156,6 +162,18 @@
         @include mappy-bp(palm-medium) {
             margin-left: 0;
         }
+    }
+
+    ol li ol {
+        margin-top: 0;
+    }
+
+    ol li ol li {
+        margin-left: ms(1, $unit: em);;
+    }
+
+    ol li ol li ol li {
+        margin-left: ms(1, $unit: em);;
     }
 
     cite,
@@ -183,6 +201,8 @@
 
     code {
         margin: 0 0.2em;
+        background-color: c(l-content, code-background);
+        outline: border(thin) solid c(l-content, code-background);
     }
 
     hr {
