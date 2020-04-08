@@ -395,4 +395,12 @@
 		<id>https://thoughtbot.com/blog/using-personas-in-the-product-design-sprint</id>
 		<summary>Hi, my name is Eric, and I used to hate personas.</summary>
 	</entry>
+
+	<entry>
+		<title>How to not make a résumé in React</title>
+		<link href="https://ericwbailey.design/writing/how-to-not-make-a-resume-in-react.html"/>
+		<updated>2020-04-07T12:00:00Z</updated>
+		<id>https://ericwbailey.design/writing/how-to-not-make-a-resume-in-react.html</id>
+		<summary>I’ve seen a fair share of tutorial links floating around in newsletters and Twitter and the like recently. They all promise the same thing, namely how to use React to create a résumé…</summary>
+	</entry>
 </feed>
