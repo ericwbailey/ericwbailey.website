@@ -115,10 +115,10 @@
 // Delta
 @mixin heading-delta() {
     @include typography-measure();
-    @include typography-small-caps()
+    @include typography-small-caps();
 
-    margin-top: ms(4, $unit: em);
-    margin-bottom: -0.5em;
+    margin-top: ms(5, $unit: em);
+    margin-bottom: -0.75em;
 
     font-size: ms(1, $unit: em);
     line-height: 1.1;
