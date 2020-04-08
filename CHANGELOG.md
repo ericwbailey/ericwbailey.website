@@ -9,6 +9,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## vNext - Unreleased
 - Performance optimizations
 
+## v0.3.28 - 2020-04-09
+- Remove CSS for [Naked CSS Day](https://css-naked-day.github.io/)
+
 ## v0.3.27 - 2020-04-07
 - Add [SingaporeCSS talk](https://singaporecss.github.io/49/)
 - Add [How to not make a résumé in React](https://ericwbailey.design/writing/how-to-not-make-a-resume-in-react.html)
