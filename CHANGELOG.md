@@ -9,6 +9,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## vNext - Unreleased
 - Performance optimizations
 
+## v0.3.29 - 2020-04-10
+- Re-add CSS
+
 ## v0.3.28 - 2020-04-09
 - Remove CSS for [Naked CSS Day](https://css-naked-day.github.io/)
 
