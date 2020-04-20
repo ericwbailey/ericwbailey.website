@@ -9,6 +9,11 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## vNext - Unreleased
 - Performance optimizations
 
+## v0.3.30 - 2020-04-19
+- Update progressive enhancement link to point to the [CERN browser emulator](https://worldwideweb.cern.ch/browser/#https://ericwbailey.design/)
+- Updated [Yellow Lab Tools test link](https://yellowlab.tools/result/fmo0qm55ll)
+- Remove structure.exposed and internetdotpdf.biz
+
 ## v0.3.29 - 2020-04-10
 - Re-add CSS
 
