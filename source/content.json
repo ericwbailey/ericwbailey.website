@@ -240,6 +240,12 @@
             "url": "https://css-tricks.com/lets-talk-speech-css/",
             "year": "2017"
         },
+        "svg-favicon": {
+            "title": "SVG, Favicons, and All the Fun Things We Can Do With Them",
+            "id": "svg-favicons-and-all-the-fun-things-we-can-do-with-them",
+            "url": "https://css-tricks.com/svg-favicons-and-all-the-fun-things-we-can-do-with-them/",
+            "year": "2020"
+        },
         "svg-high-contrast": {
             "title": "Accessible SVGs in High Contrast Mode",
             "id": "accessible-svgs-in-high-contrast-mode",
