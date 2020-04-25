@@ -9,6 +9,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## vNext - Unreleased
 - Performance optimizations
 
+## v0.3.31 - 2020-04-25
+- Add [SVG, Favicons, and All the Fun Things We Can Do With Them](https://css-tricks.com/svg-favicons-and-all-the-fun-things-we-can-do-with-them/)
+
 ## v0.3.30 - 2020-04-19
 - Update progressive enhancement link to point to the [CERN browser emulator](https://worldwideweb.cern.ch/browser/#https://ericwbailey.design/)
 - Updated [Yellow Lab Tools test link](https://yellowlab.tools/result/fmo0qm55ll)
