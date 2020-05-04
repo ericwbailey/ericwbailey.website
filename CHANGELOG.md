@@ -9,6 +9,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## vNext - Unreleased
 - Performance optimizations
 
+## v0.3.32 - 2020-05-04
+- Add [A Complete Guide to CSS Functions](https://css-tricks.com/complete-guide-to-css-functions/)
+
 ## v0.3.31 - 2020-04-25
 - Add [SVG, Favicons, and All the Fun Things We Can Do With Them](https://css-tricks.com/svg-favicons-and-all-the-fun-things-we-can-do-with-them/)
 
