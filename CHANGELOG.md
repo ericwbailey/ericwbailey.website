@@ -9,6 +9,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## vNext - Unreleased
 - Performance optimizations
 
+## v0.3.33 - 2020-05-15
+- Add [Myth: ARIA Has Perfect Support](https://a11yproject.com/posts/aria-has-perfect-support/)
+
 ## v0.3.32 - 2020-05-04
 - Add [A Complete Guide to CSS Functions](https://css-tricks.com/complete-guide-to-css-functions/)
 
