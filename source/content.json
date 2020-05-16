@@ -192,6 +192,12 @@
             "url": "https://www.smashingmagazine.com/2018/09/importance-manual-accessibility-testing/",
             "year": "2018"
         },
+        "myth-aria-has-perfect-support": {
+            "title": "Myth: ARIA Has Perfect Support",
+            "id": "myth-aria-has-perfect-support",
+            "url": "https://a11yproject.com/posts/aria-has-perfect-support/",
+            "year": "2018"
+        },
         "paint-picture-not-frame": {
             "title": "Paint the Picture, Not the Frame: How Browsers Provide Everything Users Need",
             "id": "paint-the-picture-not-the-frame",
