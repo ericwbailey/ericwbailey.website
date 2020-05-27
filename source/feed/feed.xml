@@ -403,4 +403,12 @@
 		<id>https://ericwbailey.design/writing/how-to-not-make-a-resume-in-react.html</id>
 		<summary>I’ve seen a fair share of tutorial links floating around in newsletters and Twitter and the like recently. They all promise the same thing, namely how to use React to create a résumé…</summary>
 	</entry>
+
+	<entry>
+		<title>Equivalent Experiences: What Are They?</title>
+		<link href="https://www.smashingmagazine.com/2020/05/equivalent-experiences-part1/"/>
+		<updated>2020-05-27T12:00:00Z</updated>
+		<id>https://www.smashingmagazine.com/2020/05/equivalent-experiences-part1/</id>
+		<summary>If you spend enough time interacting with digital accessibility practitioners, you may encounter the phrase “equivalent experience.” This saying concisely sums up a lot of the philosophy behind accessibility work…</summary>
+	</entry>
 </feed>

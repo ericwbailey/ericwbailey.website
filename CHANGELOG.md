@@ -9,6 +9,10 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## vNext - Unreleased
 - Performance optimizations
 
+## v0.3.34 - 2020-05-27
+- Add [Equivalent Experiences: What Are They?](https://www.smashingmagazine.com/2020/05/equivalent-experiences-part1/)
+- Update [How to not make a résumé in React](https://ericwbailey.design/writing/how-to-not-make-a-resume-in-react.html) to reference [Max Böck's Eleventy Résumé Builder](https://mxb.dev/blog/eleventy-resume-builder/)
+
 ## v0.3.33 - 2020-05-15
 - Add [Myth: ARIA Has Perfect Support](https://a11yproject.com/posts/aria-has-perfect-support/)
 
