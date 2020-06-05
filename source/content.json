@@ -112,6 +112,12 @@
             "url": "https://www.smashingmagazine.com/2020/05/equivalent-experiences-part1/",
             "year": "2020"
         },
+        "equivalent-experiences-2": {
+            "title": "Equivalent Experiences: Thinking Equivalently",
+            "id": "equivalent-experiences-thinking-equivalently",
+            "url": "https://www.smashingmagazine.com/2020/06/equivalent-experiences-part2/",
+            "year": "2020"
+        },
         "exception": {
             "title": "I&rsquo;ll Make an Exception Just for You: Using the Exception Comment to Help Maintain Mature, Large-scale Sass Projects",
             "id": "ill-make-an-exception-just-for-you",
