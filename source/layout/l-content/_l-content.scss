@@ -97,6 +97,18 @@
         }
     }
 
+    &__pubdate {
+        position: relative;
+          bottom: ms(-1, $unit: rem);
+
+        font-size: ms(-1, $unit: em);
+
+        // Breakpoints
+        @include mappy-bp(palm-medium) {
+            bottom: ms(1, $unit: rem);
+        }
+    }
+
     &__illustration {
         margin-bottom: ms(1, $unit: rem);
         width: ms(4, $unit: rem);
@@ -181,6 +193,27 @@
         font-style: italic;
     }
 
+    strong {
+        color: c(l-content, text-strong);
+        font-weight: $font-weight-bold;
+
+        // Modes
+        @media (prefers-color-scheme: dark) {
+            color: c(l-content, background-content);
+        }
+    }
+
+    blockquote {
+        padding-left: ms(4, $unit: em);
+
+        border-left: border(thinnest) solid c(l-content, border-writing);
+
+    // Breakpoints
+    @include mappy-bp(palm-medium) {
+        margin-left: rem(-35);
+    }
+    }
+
     img {
         @include l-content-embedded-media();
 
@@ -191,6 +224,17 @@
         @include l-content-embedded-media();
 
         text-align: left;
+
+        pre {
+            margin-top: ms(8, $unit: em);
+            padding: ms(1, $unit: em);
+
+            background-color: c(l-content, code-background);
+
+            code {
+                word-break: keep-all;
+            }
+        }
     }
 
     figcaption {
