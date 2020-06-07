@@ -204,6 +204,13 @@
             "url": "https://www.smashingmagazine.com/2018/09/importance-manual-accessibility-testing/",
             "year": "2018"
         },
+        "mug-handles": {
+            "title": "Mug Handles",
+            "desc": "My two-part piece on equivalent experiences is now live on Smashing Magazine. I have complicated feelings about it.",
+            "id": "mug-handles",
+            "url": "writing/mug-handles.html",
+            "year": "2018"
+        },
         "myth-aria-has-perfect-support": {
             "title": "Myth: ARIA Has Perfect Support",
             "id": "myth-aria-has-perfect-support",
