@@ -419,4 +419,12 @@
 		<id>https://www.smashingmagazine.com/2020/06/equivalent-experiences-part2/</id>
 		<summary>This is the second of two articles on the topic of how digital accessibility is informed by equivalency. Previously, we have learned about the underlying biases that inform digital product creation, what isn’t an equivalent experience, the compounding effects of inaccessible design and code, and powerful motivating forces for doing better…</summary>
 	</entry>
+
+	<entry>
+		<title>Mug Handles</title>
+		<link href="https://ericwbailey.design/writing/mug-handles.html"/>
+		<updated>2020-06-08T12:00:00Z</updated>
+		<id>https://ericwbailey.design/writing/mug-handles.html</id>
+		<summary>My two-part piece on equivalent experiences is now live on Smashing Magazine. I have complicated feelings about it…</summary>
+	</entry>
 </feed>
