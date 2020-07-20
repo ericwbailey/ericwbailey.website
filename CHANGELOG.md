@@ -9,6 +9,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## vNext - Unreleased
 - Performance optimizations
 
+## v0.3.37 - 2020-07-20
+- Add development work for [The A11Y Project](https://www.a11yproject.com/) as a featured project
+
 ## v0.3.36 - 2020-06-08
 - Add [Mug Handles](https://ericwbailey.design/writing/mug-handles.html)
 - Add publication dates
