@@ -148,6 +148,12 @@
             "url": "writing/how-to-not-make-a-resume-in-react.html",
             "year": "2020"
         },
+        "i-dont-want-your-job": {
+            "title": "I don’t want your job",
+            "id": "i-dont-want-your-job",
+            "url": "https://thoughtbot.com/blog/i-dont-want-your-job",
+            "year": "2020"
+        },
         "iot-firmware": {
             "title": "Improving the User Experience of IoT Firmware Updates",
             "id": "improving-the-user-experience-of-iot-firmware-updates",
