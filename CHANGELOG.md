@@ -9,6 +9,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## vNext - Unreleased
 - Performance optimizations
 
+## v0.3.38 - 2020-08-06
+- Add [Improving the usability and accessibility of a healthcare website by being mindful of reading level](https://thoughtbot.com/blog/improving-the-usability-and-accessibility-of-a-healthcare-website-by-being-mindful-of-reading-level)
+
 ## v0.3.38 - 2020-07-21
 - Add [I don't want your job](https://thoughtbot.com/blog/i-dont-want-your-job)
 - Update `.nvmrc`
