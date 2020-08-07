@@ -247,6 +247,12 @@
             "url": "https://webdesign.tutsplus.com/tutorials/use-the-lang-attribute-for-better-accessibility--cms-31961",
             "year": "2018"
         },
+        "reading-level": {
+            "title": "Improving the usability and accessibility of a healthcare website by being mindful of reading level",
+            "id": "improving-the-usability-and-accessibility-of-a-healthcare-website-by-being-mindful-of-reading-level",
+            "url": "https://thoughtbot.com/blog/improving-the-usability-and-accessibility-of-a-healthcare-website-by-being-mindful-of-reading-level",
+            "year": "2020"
+        },
         "reduced-motion-intro": {
             "title": "An Introduction to the Reduced Motion Media Query",
             "id": "an-introduction-to-the-reduced-motion-media-query",
