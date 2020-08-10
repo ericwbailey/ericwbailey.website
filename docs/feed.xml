@@ -427,4 +427,13 @@
 		<id>https://ericwbailey.design/writing/mug-handles.html</id>
 		<summary>My two-part piece on equivalent experiences is now live on Smashing Magazine. I have complicated feelings about it…</summary>
 	</entry>
+
+	<entry>
+		<title>Mug Handles</title>
+		<link href="https://ericwbailey.design/writing/a11y-is-web-accessibility.html"/>
+		<updated>2020-08-10T12:00:00Z</updated>
+		<id>https://ericwbailey.design/writing/a11y-is-web-accessibility.html</id>
+		<summary>The observation, “The term ‘a11y’ isn’t very accessible.” seems to pop up like clockwork. Most of the time, I bite my tongue when I see this surface-level remark and move on.…</summary>
+	</entry>
+
 </feed>
