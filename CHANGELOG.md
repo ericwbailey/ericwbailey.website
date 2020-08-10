@@ -9,6 +9,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## vNext - Unreleased
 - Performance optimizations
 
+## v0.3.39 - 2020-08-10
+- Add [a11y is web acccessibility](https://ericwbailey.design/writing/a11y-is-web-accessibility.html)
+
 ## v0.3.38 - 2020-08-06
 - Add [Improving the usability and accessibility of a healthcare website by being mindful of reading level](https://thoughtbot.com/blog/improving-the-usability-and-accessibility-of-a-healthcare-website-by-being-mindful-of-reading-level)
 
@@ -86,7 +89,7 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Replace underline logic with new CSS text underline and decoration properties
 
 ## v0.3.18 - 2019-11-06
-- Add [Tech metaphors](ttps://ericwbailey.design/writing/tech-metaphors.html)
+- Add [Tech metaphors](https://ericwbailey.design/writing/tech-metaphors.html)
 - Add grayscale effect for a blurred browser window
 
 ## v0.3.17 - 2019-10-14
