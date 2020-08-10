@@ -148,13 +148,10 @@
         }
     }
 
-    p {
-        margin-top: ms(4, $unit: em);
-        max-width: $global-type-measure;
-    }
-
+    p,
     ul,
     ol {
+        max-width: $global-type-measure;
         margin-top: ms(4, $unit: em);
     }
 
@@ -165,7 +162,7 @@
     }
 
     li {
-        margin-top: ms(-2, $unit: em);
+        margin-top: ms(-1, $unit: em);
         margin-left: ms(1, $unit: em);
 
         list-style-type: disc;
@@ -218,6 +215,11 @@
         @include l-content-embedded-media();
 
         margin-top: ms(8, $unit: rem);
+    }
+
+    .twitter-tweet {
+        padding-top: ms(6, $unit: rem);
+        padding-bottom: ms(1, $unit: rem);
     }
 
     figure {
