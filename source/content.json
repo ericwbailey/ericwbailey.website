@@ -22,6 +22,13 @@
             "url": "https://a11yproject.com/posts/operating-system-and-browser-accessibility-display-modes/",
             "year": "2019"
         },
+        "a11y-is-web-accessibility": {
+            "title": "a11y is web accessibility",
+            "desc": "One observation, “The term ‘a11y’ isn’t very accessible.” seems to pop up like clockwork. Most of the time, I bite my tongue when I see this surface-level remark and move on.",
+            "id": "a11y-is-web-accessibility",
+            "url": "writing/a11y-is-web-accessibility.html",
+            "year": "2020"
+        },
         "aria-is-spackle-not-rebar": {
             "title": "ARIA is Spackle, Not Rebar",
             "id": "aria-is-spackle-not-rebar",
