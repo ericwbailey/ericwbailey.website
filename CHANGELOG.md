@@ -9,6 +9,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## vNext - Unreleased
 - Performance optimizations
 
+## v0.3.41 - 2020-08-25
+- Add [The radium craze](https://ericwbailey.design/writing/the-radium-craze.html)
+
 ## v0.3.40 - 2020-08-12
 - Add [If it's interactive it needs a focus style talk for Accessibility Talks](https://www.youtube.com/watch?v=XvA3ZjdCk7w)
 - Fix RSS post title
