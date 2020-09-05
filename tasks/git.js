@@ -28,7 +28,7 @@ gulp.task('git-commit', help.git.commit, function() {
 
 // Push
 gulp.task('git-push', help.git.push, function() {
-    git.push('origin', 'master', function (err) {
+    git.push('origin', 'main', function (err) {
         if (err) throw err;
     });
 });
