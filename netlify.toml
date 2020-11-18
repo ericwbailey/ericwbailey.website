@@ -1,0 +1,63 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[[redirects]]
+  from = "/accessibility-statement.html"
+  to = "/accessibility-statement/"
+
+[[redirects]]
+  from = "/writing.html"
+  to = "/writing/"
+
+[[redirects]]
+  from = "/speaking.html"
+  to = "/speaking/"
+
+[[redirects]]
+  from = "/office-hours.html"
+  to = "/office-hours/"
+
+[[redirects]]
+  from = "/colophon.html"
+  to = "/colophon/"
+
+[[redirects]]
+  from = "/old-stuff.html"
+  to = "/old-stuff/"
+
+[[redirects]]
+  from = "/writing/the-radium-craze.html"
+  to = "/posts/the-radium-craze/"
+
+[[redirects]]
+  from = "/writing/a11y-is-web-accessibility.html"
+  to = "/posts/a11y-is-web-accessibility/"
+
+[[redirects]]
+  from = "/writing/mug-handles.html"
+  to = "/posts/mug-handles/"
+
+[[redirects]]
+  from = "/writing/how-to-not-make-a-resume-in-react.html"
+  to = "/posts/how-to-not-make-a-resume-in-react/"
+
+[[redirects]]
+  from = "/writing/tech-metaphors.html"
+  to = "/posts/tech-metaphors/"
+
+[[redirects]]
+  from = "/writing/its-all-disparate-its-all-connected.html"
+  to = "/posts/its-all-disparate-its-all-connected/"
+
+[[redirects]]
+  from = "/writing/truths-about-digital-accessibility.html"
+  to = "/posts/truths-about-digital-accessibility/"
+
+[[redirects]]
+  from = "/writing/2019-05-14-lighthouse.html"
+  to = "/posts/2019-05-14-lighthouse/"
+
+[[redirects]]
+  from = "/writing/2019-03-05-fighting-uphill.html"
+  to = "/posts/2019-03-05-fighting-uphill/"

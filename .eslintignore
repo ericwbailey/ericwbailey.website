@@ -1,0 +1,5 @@
+dist
+*.njk
+*.md
+node_modules
+rollup.config.js

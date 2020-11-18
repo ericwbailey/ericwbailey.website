@@ -1,17 +1,8 @@
-## Project-specific files and folders #########################################
-
-.build
-.sass-cache/
-.test/
-documentation/
-screenshots/
-source/element-patterns.html
-source/vendor/jquery/jquery.min.js
+## Project-specific files and folders
+dist/
 
 
-
-## Generic files to ignore ####################################################
-
+## Generic files to ignore
 *~
 *.DS_Store
 ._*
@@ -27,10 +18,7 @@ ehthumbs.db
 Thumbs.db
 
 
-
-
-## Project Files ##############################################################
-
+## Project Files
 *.project
 *.settings
 *.tmproj
@@ -46,9 +34,7 @@ node_modules
 npm-debug.log
 
 
-
-## Compiled source ############################################################
-
+## Compiled source
 *.com
 *.class
 *.dll
@@ -57,19 +43,14 @@ npm-debug.log
 *.so
 
 
-
-
-## Logs and databases #########################################################
+## Logs and databases
 
 *.log
 *.sql
 *.sqlite
 
 
-
-
-## Packages (better to unpack these files and commit the raw source) ##########
-
+## Packages
 *.7z
 *.dmg
 *.gz
