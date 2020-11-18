@@ -1,0 +1,40 @@
+// [1] Ensures hyphenation won't interfere with code
+code,
+kbd,
+pre,
+samp,
+var {
+  font-family: var(--font-family-code);
+  font-feature-settings: normal;
+  line-height: var(--modular-scale);
+  overflow: auto; // [1]
+  white-space: pre-wrap; // [1]
+  word-break: keep-all; // [1]
+  word-wrap: break-word; // [1]
+}
+
+
+kbd {
+  background-color: var(--color-white);
+  border: var(--border-thinnest) solid var(--color-white);
+  border-radius: 0.25rem;
+  padding: 0 0.5ch;
+  word-break: break-word;
+}
+
+
+pre {
+  background-color: var(--color-black);
+  color: var(--color-white);;
+  padding: 1rem 1.5rem;
+}
+
+
+samp {
+
+}
+
+
+var {
+
+}

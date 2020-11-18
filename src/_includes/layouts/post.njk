@@ -1,0 +1,45 @@
+{% include "head.njk" %}
+
+<main
+  id="section-main"
+  itemscope itemtype="https://schema.org/BlogPosting">
+  <meta itemprop="mainEntityOfPage" content="{{ title | slugify | url }}">
+
+  <h1
+    id="title"
+    itemprop="name headline">
+    {{ title }}
+  </h1>
+  <p>
+    <time datetime="2019-11-06T12:00:00Z">
+      November 11&#8202;th, 2019
+    </time>
+  </p>
+
+  <div itemprop="articleBody">
+    {{ content | safe }}
+  </div>
+
+  {% if furtherReading %}
+  <h2 id="further-reading">
+    Further reading
+  </h2>
+  <ul>
+    <li>
+      <a href="">Links will go here</a>
+    </li>
+  </ul>
+  {% endif %}
+
+  {% if attribution %}
+  <aside
+    aria-label="Attribution"
+    class="c-attribution">
+    <p>
+      {{ attribution }}
+    </p>
+  </aside>
+  {% endif %}
+
+{% include "meta/post-info.njk" %}
+{% include "foot.njk" %}

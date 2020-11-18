@@ -1,0 +1,60 @@
+<aside
+  id="section-projects"
+  class="[ l-center-column ] [ c-homepage-section ] [ u-color-background-gray-tint ]">
+
+  <h2 id="subtitle-projects" class="u-hide-visually">
+    Projects
+  </h2>
+
+  <p class="[ u-lede ]">
+    I also like working on the occasional side project. Here are some things&nbsp;I&rsquo;ve&nbsp;made:
+  </p>
+
+  {% set projectList = projects.items %}
+  <ul class="[ l-list-grid l-list-grid--projects ] [ c-link-list ]">
+  {% for item in projectList %}
+    {% if item.schema %}
+
+    <li
+      class="c-link-list__item"
+      itemprop="workExample"
+      itemscope
+      itemtype="http://schema.org/{{ item.schema }}">
+      <a
+        class="c-link-list__link"
+        itemprop="url"
+        href="{{ item.url }}">
+          <span itemprop="name">{{ item.title | safe }}:</span>
+      </a>
+      {% if item.additional %}
+        <span class="c-link-list__additional">
+          {{ item.additional | safe }}
+        </span>
+      {% endif %}
+      <span class="c-link-list__description">
+        {{ item.description | safe }}
+      </span>
+    </li>
+
+    {% else %}
+
+    <li class="c-link-list__item">
+      <a
+        class="c-link-list__link"
+        href="{{ item.url }}">
+        {{ item.title | safe }}
+      </a>
+      {% if item.additional %}
+        <span class="c-link-list__additional">
+          {{ item.additional | safe }}
+        </span>
+      {% endif %}
+      <span class="c-link-list__description">
+        {{ item.description | safe }}
+      </span>
+    </li>
+
+    {% endif %}
+  {% endfor %}
+  </ul>
+</aside>

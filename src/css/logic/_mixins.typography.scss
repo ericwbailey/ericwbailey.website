@@ -1,0 +1,296 @@
+// Text that references past methods of presentation.
+@mixin typography-alternates-historical() {
+  -ms-font-feature-settings: "hist";
+  font-variant-alternates: historical-forms;
+
+  @supports not (font-variant-alternates: historical-forms) {
+    -webkit-font-feature-settings: "hist";
+    font-feature-settings: "hist";
+  }
+}
+
+
+// Alternate characters for display text.
+@mixin typography-alternates-titling() {
+  -ms-font-feature-settings: "titl";
+  font-variant-caps: titling-caps;
+
+  @supports not (font-variant-caps: titling-caps) {
+    -webkit-font-feature-settings: "titl", "titl";
+    font-feature-settings: "titl", "titl";
+  }
+}
+
+
+// Converts all letters, not just lowercase letters, into Small Caps.
+@mixin typography-caps-to-small-caps() {
+  font-variant-caps: all-small-caps;
+  text-transform: uppercase;
+  -ms-font-feature-settings: "smcp" 0, "c2sc";
+
+  @supports (font-variant-caps: all-small-caps) or (font-feature-settings: "c2sc") {
+    text-transform: lowercase;
+  }
+
+  @supports not (font-variant-caps: all-small-caps) {
+    -webkit-font-feature-settings: "onum", "smcp" 0, "c2sc", "smcp", "c2sc";
+    font-feature-settings: "onum", "smcp" 0, "c2sc", "smcp", "c2sc";
+  }
+}
+
+
+// Alternate glyphs that are specifically designed to work alongside all caps
+// settings, or alongside text.
+@mixin typography-case-sensitive-forms() {
+  -webkit-font-feature-settings: "case";
+  font-feature-settings: "case";
+}
+
+
+// Disables all OpenType features.
+@mixin typography-disable-opentype() {
+  font-feature-settings: normal;
+}
+
+
+// Enables kerning pairs, if present.
+@mixin typography-kerning() {
+  font-kerning: normal;
+  -moz-font-feature-settings: "kern";
+  -ms-font-feature-settings: "kern";
+  -webkit-font-feature-settings: "kern";
+  font-feature-settings: "kern";
+}
+
+
+// Mitigate spacing issues between specific combinations of letters within a
+// typeface.
+@mixin typography-ligatures-common() {
+  -ms-font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: common-ligatures;
+  font-variant-ligatures: common-ligatures;
+
+  @supports not ((-webkit-font-variant-ligatures: common-ligatures) or (font-variant-ligatures: common-ligatures)) {
+    -webkit-font-feature-settings: "liga", "liga", "clig";
+    font-feature-settings: "liga", "liga", "clig";
+  }
+}
+
+
+// Turns common plaintext number lockups into properly spaced fractions (i.e.
+// `1/4` to `¼`).
+@mixin typography-numbers-fractions-diagonal() {
+  -ms-font-feature-settings: "frac", "afrc" 0;
+  font-variant-numeric: diagonal-fractions;
+
+  @supports not (font-variant-numeric: diagonal-fractions) {
+    -webkit-font-feature-settings: "frac", "afrc" 0, "frac";
+    font-feature-settings: "frac", "afrc" 0, "frac";
+  }
+}
+
+
+// Support for a less-common stacked presentation for fractions.
+@mixin typography-numbers-fractions-stacked() {
+  -ms-font-feature-settings: "frac", "afrc";
+  font-variant-numeric: stacked-fractions;
+
+  @supports not (font-variant-numeric: stacked-fractions) {
+    -webkit-font-feature-settings: "frac", "afrc", "afrc";
+    font-feature-settings: "frac", "afrc", "afrc";
+  }
+}
+
+
+// Sets figures to align with the baseline and cap height.
+@mixin typography-numbers-lining() {
+  font-variant-numeric: lining-nums;
+
+  @supports not (font-variant-numeric: lining-nums) {
+    -webkit-font-feature-settings: "lnum", "onum" 0, "lnum";
+    font-feature-settings: "lnum", "onum" 0, "lnum";
+  }
+}
+
+
+// Tends to have descenders that sit below the baseline. Typically default.
+@mixin typography-numbers-oldstyle() {
+  font-variant-numeric: oldstyle-nums;
+
+  @supports not (font-variant-numeric: oldstyle-nums) {
+      -webkit-font-feature-settings: "lnum" 0, "onum", "onum";
+      font-feature-settings: "lnum" 0, "onum", "onum";
+  }
+}
+
+
+// Tabular numerals are monospaced, so different information can be easily
+// compared when stacked vertically.
+@mixin typography-numbers-proportional-lining() {
+  @include typography-numbers-proportional();
+  @include typography-numbers-lining();
+
+  -ms-font-feature-settings: "lnum", "onum" 0, "pnum", "tnum" 0;
+
+  @supports not ((-webkit-font-feature-settings: "lnum" inherit) or (font-feature-settings: "lnum" inherit)) {
+      -webkit-font-feature-settings: "lnum", "onum" 0, "pnum", "tnum" 0;
+      font-feature-settings: "lnum", "onum" 0, "pnum", "tnum" 0;
+  }
+}
+
+
+// Good for when placed in long form, serifed text.
+@mixin typography-numbers-proportional() {
+  font-variant-numeric: proportional-nums;
+
+  @supports not (font-variant-numeric: proportional-nums) {
+    -webkit-font-feature-settings: "pnum", "tnum" 0, "pnum";
+    font-feature-settings: "pnum", "tnum" 0, "pnum";
+  }
+}
+
+
+@mixin typography-numbers-tabular-lining() {
+  @include typography-numbers-tabular();
+  @include typography-numbers-lining();
+
+  -ms-font-feature-settings: "lnum", "onum" 0, "pnum" 0, "tnum";
+
+  @supports not ((-webkit-font-feature-settings: "lnum" inherit) or (font-feature-settings: "lnum" inherit)) {
+    -webkit-font-feature-settings: "lnum", "onum" 0, "pnum" 0, "tnum";
+    font-feature-settings: "lnum", "onum" 0, "pnum" 0, "tnum";
+  }
+}
+
+
+@mixin typography-numbers-tabular-oldstyle() {
+  @include typography-numbers-tabular();
+  @include typography-numbers-oldstyle();
+
+  -ms-font-feature-settings: "lnum" 0, "onum", "pnum" 0, "tnum";
+
+  @supports not ((-webkit-font-feature-settings: "onum" inherit) or (font-feature-settings: "onum" inherit)) {
+    -webkit-font-feature-settings: "lnum" 0, "onum", "pnum" 0, "tnum";
+    font-feature-settings: "lnum" 0, "onum", "pnum" 0, "tnum";
+  }
+}
+
+
+// Good for easily comparing when stacked into columns.
+@mixin typography-numbers-tabular() {
+  font-variant-numeric: tabular-nums;
+
+  @supports not (font-variant-numeric: tabular-nums) {
+    -webkit-font-feature-settings: "pnum" 0, "tnum", "tnum";
+    font-feature-settings: "pnum" 0, "tnum", "tnum";
+  }
+}
+
+
+// Glpyhs that commonly follow a number (ex: 1st, 2nd). Also sometimes used
+// with foreign languages.
+@mixin typography-ordinals() {
+  -ms-font-feature-settings: "ordn";
+  font-variant-numeric: ordinal;
+
+  @supports not (font-variant-numeric: ordinal) {
+      -webkit-font-feature-settings: "ordn", "ordn";
+      font-feature-settings: "ordn", "ordn";
+  }
+}
+
+
+@mixin typography-scientific-inferiors() {
+  text-transform: lowercase;
+  font-size: inherit;
+  font-variant-position: sub;
+
+  @supports not (font-variant-position: sub) {
+    -webkit-font-feature-settings: "subs", "subs";
+    font-feature-settings: "subs", "subs";
+
+    @supports ((-webkit-font-feature-settings: "subs") or (font-feature-settings: "subs")) {
+      font-size: 1em;
+      vertical-align: baseline;
+    }
+
+    @supports (overflow: -webkit-marquee) and (justify-content:inherit) {
+      vertical-align: sub;
+      font-size: smaller;
+    }
+  }
+
+  @supports ((-webkit-font-feature-settings: "sinf") or (font-feature-settings: "sinf")) {
+    font-variant-position: normal;
+    -webkit-font-feature-settings: "sinf", "subs" off, "sups" off;
+    font-feature-settings: "sinf", "subs" off, "sups" off;
+    vertical-align: baseline;
+  }
+
+  @supports (overflow: -webkit-marquee) and (justify-content:inherit) {
+    vertical-align: sub;
+    font-size: smaller;
+  }
+}
+
+
+// Less distracting than all capitals for longer form text settings. Renders
+// all applicable glyphs as small caps, regardless of initial case.
+@mixin typography-small-caps() {
+  text-transform: uppercase;
+  font-variant-caps: all-small-caps;
+  -ms-font-feature-settings: "smcp" 0, "c2sc";
+
+  @supports (font-variant-caps: all-small-caps) or (font-feature-settings: "c2sc") {
+      text-transform: lowercase;
+  }
+
+  @supports not (font-variant-caps: all-small-caps) {
+      -webkit-font-feature-settings: "smcp" 0, "c2sc", "smcp", "c2sc";
+      font-feature-settings: "smcp" 0, "c2sc", "smcp", "c2sc";
+  }
+}
+
+
+// Less distracting than all capitals for longer form text settings. Renders
+// all applicable glyphs as small caps, regardless of initial case.
+@mixin typography-subscript() {
+  text-transform: lowercase;
+  font-size: inherit;
+  font-variant-position: sub;
+
+  @supports not (font-variant-position: sub) {
+    -webkit-font-feature-settings: "subs", "subs";
+    font-feature-settings: "subs", "subs";
+
+    @supports ((-webkit-font-feature-settings: "subs") or (font-feature-settings: "subs")) {
+      font-size: 1em;
+      vertical-align: baseline;
+    }
+
+    @supports (overflow: -webkit-marquee) and (justify-content:inherit) {
+      vertical-align: sub;
+      font-size: smaller;
+    }
+  }
+}
+
+// Generates superscript glyphs, if present.
+@mixin typography-superscript() {
+  text-transform: lowercase;
+  font-variant-position: super;
+
+  @supports not (font-variant-position: sup) {
+    -webkit-font-feature-settings: "sups", "sups";
+    font-feature-settings: "sups", "sups";
+
+    @supports ((-webkit-font-feature-settings: "sups") or (font-feature-settings: "sups")) {
+      font-size: 1em;
+      vertical-align: baseline;
+    }
+
+    @supports (overflow: -webkit-marquee) and (justify-content:inherit) {
+      vertical-align: super;
+    }
+  }
+}

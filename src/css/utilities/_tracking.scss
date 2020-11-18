@@ -1,0 +1,10 @@
+$_tracking: map-get($tokens, "tracking");
+
+
+@each $tracking-name, $tracking-value in $_tracking {
+  .u-tracking-#{$tracking-name} {
+    @include typography-disable-opentype();
+
+    letter-spacing: $tracking-value;
+  }
+}

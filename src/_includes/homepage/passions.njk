@@ -1,0 +1,25 @@
+<div
+  id="section-passions"
+  class="[ l-center-column ] [ c-homepage-section ] [ u-color-background-yellow ]">
+
+  <h2 id="subtitle-passions" class="u-hide-visually">
+    Passions
+  </h2>
+
+  <p class="u-lede">
+    I am passionate about:
+  </p>
+
+  {% set passions = passions.items %}
+  <ul class="[ l-list-grid l-list-grid--passions ] [ c-link-list ]">
+    {% for item in passions %}
+    <li class="c-link-list__item">
+      <a
+        class="c-link-list__link"
+        href="{{ item.url }}">
+        {{ item.title | safe }}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

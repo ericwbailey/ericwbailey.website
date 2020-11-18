@@ -1,0 +1,19 @@
+@function ms(
+  $increment,
+  $base-size: $global-type-size,
+  $ratio: $global-type-scale,
+  $unit: null
+) {
+  @for $i from 1 through $increment {
+    @if $increment > 0 {
+      $base-size: $base-size * $ratio;
+    }
+    @else if $increment == 0 {
+      $base-size: $base-size;
+    }
+    @else {
+      $base-size: $base-size / $ratio;
+    }
+  }
+  @return ($base-size / $global-type-size) * 1 + $unit;
+}

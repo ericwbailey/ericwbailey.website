@@ -1,0 +1,8 @@
+a {
+  color: var(--color-gray);
+
+  // States
+  &:hover {
+    text-decoration: none;
+  }
+}

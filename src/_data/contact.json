@@ -1,0 +1,72 @@
+{
+  "items": [
+    {
+      "title":   "Twitter",
+      "url":     "https://twitter.com/ericwbailey",
+      "external": true,
+      "rel":     "me",
+      "schema":  "Organization"
+    },
+    {
+      "title":   "GitHub",
+      "url":     "https://github.com/ericwbailey",
+      "external": true,
+      "rel":     "me",
+      "schema":  "Organization"
+    },
+    {
+      "title":   "Instagram",
+      "url":     "https://instagram.com/eric.w.bailey/",
+      "external": true,
+      "rel":     "me",
+      "schema":  "Organization"
+    },
+    {
+      "title":   "Pinboard",
+      "url":     "https://pinboard.in/u:ericwbailey",
+      "external": true,
+      "rel":     "me",
+      "schema":  "Organization"
+    },
+    {
+      "title":   "CodePen",
+      "url":     "https://codepen.io/ericwbailey/",
+      "external": true,
+      "rel":     "me",
+      "schema":  "Organization"
+    },
+    {
+      "title":   "MDN",
+      "url":     "https://developer.mozilla.org/en-US/profiles/ericwbailey",
+      "external": true,
+      "rel":     "me",
+      "schema":  "Organization"
+    },
+    {
+      "title":   "Goodreads",
+      "url":     "https://goodreads.com/ericwbailey",
+      "external": true,
+      "rel":     "me",
+      "schema":  "Organization"
+    },
+    {
+      "title":  "LinkedIn",
+      "url":    "https://www.linkedin.com/in/ericwbailey/",
+      "external": true,
+      "rel":    "me",
+      "schema": "Organization"
+    },
+    {
+      "title":   "Email",
+      "url":     "mailto:&#101;&#114;&#105;&#099;&#046;&#119;&#046;&#098;&#097;&#105;&#108;&#101;&#121;☛REMOVE-THIS☚&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;",
+      "external": false,
+      "rel":     "me",
+      "data":    "data-message-subject"
+    },
+    {
+      "title":   "Over (Virtual) Coffee",
+      "url":     "mailto:&#101;&#114;&#105;&#099;&#046;&#119;&#046;&#098;&#097;&#105;&#108;&#101;&#121;☛REMOVE-THIS☚&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;",
+      "external": false
+    }
+  ]
+}

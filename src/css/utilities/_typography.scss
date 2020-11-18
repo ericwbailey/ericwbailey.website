@@ -1,0 +1,98 @@
+.u-typography-alternates-historical {
+  @include typography-alternates-historical();
+}
+
+
+.u-typography-alternates-titling {
+  @include typography-alternates-titling();
+}
+
+
+.u-typography-caps-to-small-caps {
+  @include typography-caps-to-small-caps();
+}
+
+
+.u-typography-case-sensitive-forms {
+  @include typography-case-sensitive-forms();
+}
+
+
+.u-typography-disable-opentype {
+  @include typography-disable-opentype();
+}
+
+
+.u-typography-kerning {
+  @include typography-kerning();
+}
+
+
+.u-typography-ligatures-common {
+  @include typography-ligatures-common();
+}
+
+
+.u-typography-numbers-fractions-diagonal {
+  @include typography-numbers-fractions-diagonal();
+}
+
+
+.u-typography-numbers-fractions-stacked {
+  @include typography-numbers-fractions-stacked();
+}
+
+
+.u-typography-numbers-lining {
+  @include typography-numbers-lining();
+}
+
+
+.u-typography-numbers-oldstyle {
+  @include typography-numbers-oldstyle();
+}
+
+
+.u-typography-numbers-proportional-lining {
+  @include typography-numbers-proportional-lining();
+}
+
+
+.u-typography-numbers-proportional {
+  @include typography-numbers-proportional();
+}
+
+
+.u-typography-numbers-tabular-lining {
+  @include typography-numbers-tabular-lining();
+}
+
+
+.u-typography-numbers-tabular-oldstyle {
+  @include typography-numbers-tabular-oldstyle();
+}
+
+
+.u-typography-numbers-tabular {
+  @include typography-numbers-tabular();
+}
+
+
+.u-typography-ordinals {
+  @include typography-ordinals();
+}
+
+
+.u-typography-small-caps {
+  @include typography-small-caps();
+}
+
+
+.u-typography-subscript {
+  @include typography-subscript();
+}
+
+
+.u-typography-superscript {
+  @include typography-superscript();
+}

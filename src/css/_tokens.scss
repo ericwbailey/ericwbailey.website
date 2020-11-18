@@ -1,0 +1,70 @@
+$tokens: (
+  animation-duration: (
+    shortest: 50ms,
+    shorter: 100ms,
+    short: 200ms,
+    medium: 300ms,
+    long: 500ms,
+    longer: 700ms,
+    longest: 1000ms
+  ),
+  animation-easing: (
+    character: ease-in-out,
+    dialogue: ease-out,
+    background: linear
+  ),
+  base-type-size: 20px,
+  borders: (
+    hairline: 0.025em,
+    thinnest: 1px,
+    thinner: 2px,
+    thin: 3px,
+    thick: 1rem,
+    thicker: 3rem,
+    thickest: 5rem
+  ),
+  colors: (
+    black: #000000,
+    white: #ffffff,
+    gray-tint: #e8e8e8,
+    gray: #4a4a4a,
+    gray-shade: #111111,
+    blue: #48d7e7,
+    green: #69ddae,
+    purple: #faafe1,
+    red: #ff8764,
+    yellow: #f5ed52
+  ),
+  fonts: (
+    primary: 'primary',
+    secondary: 'secondary',
+    code: 'code',
+    system: 'system'
+  ),
+  modular-scale: 1.25,
+  tracking: (
+    tight: -0.25ch,
+    loose: 0.25ch
+  ),
+  type-measure: 62ex,
+  shadows: (
+    small: 0 0.25rem 1rem 0,
+    medium: 0 0.5rem 1rem 0,
+    large: 0 -0.125rem 5.555rem -1.111rem
+  ),
+  weights: (
+    thin: 100,
+    ultra-light: 200,
+    light: 300,
+    book: 400,
+    normal: 400,
+    regular: 400,
+    medium: 500,
+    semi-bold: 600,
+    bold: 700,
+    extra-bold: 800,
+    black: 900,
+    heavy: 900,
+    ultra-black: 900
+  )
+);

@@ -1,0 +1,12 @@
+.l-list-grid {
+  display: grid;
+}
+
+.l-list-grid--passions,
+.l-list-grid--projects {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.l-list-grid--contact {
+  grid-template-columns: repeat(5, 1fr);
+}
