@@ -1,0 +1,16 @@
+{% include "head.njk" %}
+
+<main id="section-main">
+  <a href="{{ '/' | url }}">Home</a>
+  <h1 id="title">
+    {{ title | safe }}
+  </h1>
+
+  <p>
+    {{ lede | safe }}
+  </p>
+
+  {{ content | safe }}
+</main>
+
+{% include "foot.njk" %}

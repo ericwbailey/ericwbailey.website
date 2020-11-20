@@ -1,8 +1,0 @@
-$_fonts: map-get($tokens, "fonts");
-
-
-@each $font-name, $font-value in $_fonts {
-  .u-font-family-#{$font-name} {
-    font-family: var(--font-family-#{$font-name});
-  }
-}

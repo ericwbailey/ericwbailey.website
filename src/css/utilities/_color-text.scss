@@ -1,8 +1,0 @@
-$_colors: map-get($tokens, "colors");
-
-
-@each $color-name, $color-value in $_colors {
-  .u-color-text-#{$color-name} {
-    color: var(--color-#{$color-name});
-  }
-}

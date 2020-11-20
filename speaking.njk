@@ -1,0 +1,33 @@
+---
+layout: layouts/landing.njk
+title: Speaking
+lede: Interested in having me come speak at your event? Let's get a conversation going!
+eleventyNavigation:
+  key: Speaking
+  parent: Landing
+  order: 2
+---
+
+{% set talks = talks.items %}
+<ul>
+  {% for item in talks %}
+    <li>
+      {% if item.url %}
+      <a href="{{ item.url }}">
+        {{ item.title | safe }}
+      </a>
+      {% else %}
+        {{ item.title | safe }}
+      {% endif %}
+      {% if item.locations %}
+      <ul>
+        {% for item in [].concat(item.locations) %}
+          <li>
+            {{ item.description | safe }}
+          </li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>

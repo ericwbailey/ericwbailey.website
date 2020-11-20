@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en" itemscope itemtype="http://schema.org/Webpage">
+<head>
+  {% include "meta/charset-viewport.njk" %}
+
+  {% include "meta/title-description-author.njk" %}
+  {% include "meta/feed-sitemap.njk" %}
+
+  {# {% include "meta/styles.njk" %} #}
+  {% include "meta/icons-theming.njk" %}
+  {% include "meta/social-media.njk" %}
+
+  {% include "meta/scripts/mustard-cutting.njk" %}
+  {# {% include "meta/performance.njk" %} #}
+  <style>
+    body {
+      background-color: #ffffff;
+      color: #404040;
+      font-family: sans-serif;
+      font-size: 1.2em;
+      line-height: 1.6;
+      margin: 2rem;
+      max-width: 65ch;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      line-height: 1.2;
+    }
+    h1 {
+      margin-top: 0;
+    }
+    h2 {
+      margin-top: 3rem;
+    }
+    img {
+      max-height: 100%;
+      max-width: 50vw;
+    }
+    p {
+      margin-top: 1.5rem;
+    }
+    a,
+    a:visited {
+      color: #1D818C;
+    }
+    a:hover,
+    a:focus {
+      text-decoration: none;
+    }
+    .banner {
+      background-color: #f5ed52;
+      margin-bottom: 1rem;
+      padding: 0.25rem 1.5rem;
+    }
+    .banner h2 {
+      margin-top: 1.5rem;
+    }
+    @media screen and (prefers-color-scheme: dark) {
+      body {
+        background-color: #404040;
+        color: #ffffff;
+      }
+      a,
+      a:visited {
+        color: #48d7e7;
+      }
+      .banner {
+        color: #404040;
+      }
+    }
+  </style>
+</head>
+<body
+  {% if templateClass %}class="{{ templateClass }}"{% endif %}
+  itemscope itemtype="http://schema.org/ProfilePage">
+
+{% include "components/skipnav.njk" %}
+
+<header id="section-banner" class="banner">
+  <h2 id="this-site-is-updating-in-the-open">
+    This site is updating in the open
+  </h2>
+  <p>
+    Things might look a little janky for a bit, but that’s okay! I am in the process of replatforming this site to use <a style="color: #404040;" href="https://www.11ty.dev/">Eleventy</a>, as well as refresh the design. Follow along on <a style="color: #404040;" href="https://github.com/ericwbailey/ericwbailey.design">GitHub</a>.
+  </p>
+</header>
+
+{# {% include "icon-sprite.njk" %} #}
+{# {% include "components/honeypot.njk" %} #}

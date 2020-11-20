@@ -1,0 +1,9 @@
+<title>
+  {% if title %}
+    {{ title | striptags }} – {{ metadata.title }}
+  {% else %}
+    {{ metadata.title }} – {{ metadata.description }}
+  {% endif %}
+</title>
+<meta name="description" content="{% if excerpt %}{{ excerpt | striptags }}{% else %}{{ metadata.description }}{% endif %}">
+<meta name="author" content="{{ metadata.author.name }}" />

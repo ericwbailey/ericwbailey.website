@@ -1,6 +1,6 @@
 [build]
-  command = "npm run build"
-  publish = "dist"
+  publish = "_site"
+  command = "DEBUG=* eleventy"
 
 [[redirects]]
   from = "/accessibility-statement.html"

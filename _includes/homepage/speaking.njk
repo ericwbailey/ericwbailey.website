@@ -1,0 +1,49 @@
+<div
+  id="section-speaking"
+  class="[ l-center-column ] [ c-homepage-section ] [ u-color-background-purple ]">
+
+  <h2 id="subtitle-speaking" class="u-hide-visually">
+    Speaking
+  </h2>
+
+  <p class="u-lede">
+    I&rsquo;ve been fortunate enough to share what I know:
+  </p>
+
+  {% set talks = talks.items %}
+  <ul>
+    {% for item in talks %}
+      {% if item.featured == true %}
+      <li>
+        {% if item.url %}
+        <a href="{{ item.url }}">
+          {{ item.title | safe }}
+        </a>
+        {% else %}
+          {{ item.title | safe }}
+        {% endif %}
+        {% if item.locations %}
+        <ul>
+          {% for item in [].concat(item.locations) %}
+            <li>
+              {{ item.description | safe }}
+            </li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+
+  <p
+    class="c-additional-info"
+    data-archive-years>
+    <a
+      href="{{ '/speaking/' | url }}"
+      rel="external noopener">
+      Full speaking archive
+    </a>
+    <span style="display: block;" class="c-additional-info__description">2017&#8210;2020</span>
+  </p>
+</div>

@@ -1,0 +1,24 @@
+{
+  "title": "Eric Bailey",
+  "description": "Boston-based user experience designer",
+  "url": "https://ericwbailey.design",
+  "logo": "static/favicons/avatar.png",
+  "feed": {
+    "subtitle": "Boston-based user experience designer",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://ericwbailey.design/"
+  },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "https://ericwbailey.design/feed/feed.json"
+  },
+  "author": {
+    "name": "Eric Bailey",
+    "email": "eric.w.bailey@gmail.com",
+    "url": "https://ericwbailey.design"
+  },
+  "social": {
+    "twitter": "ericwbailey"
+  }
+}

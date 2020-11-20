@@ -1,8 +1,0 @@
-$_weights: map-get($tokens, "weights");
-
-
-@each $weight-name, $weight-value in $_weights {
-  .u-font-weight-#{$weight-name} {
-    font-family: var(--font-weight-#{$weight-name});
-  }
-}
