@@ -1,0 +1,33 @@
+---
+layout: layouts/landing.njk
+title: Speaking
+lede: Interested in having me come speak at your event? Let's <a rel="external me noopener" data-message-subject="Office hours" href="mailto:&#101;&#114;&#105;&#099;&#046;&#119;&#046;&#098;&#097;&#105;&#108;&#101;&#121;☛REMOVE-THIS☚&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">get a conversation going</a>!
+eleventyNavigation:
+  key: Speaking
+  parent: Landing
+  order: 2
+---
+
+{% set talks = talks.items %}
+<ul>
+  {% for item in talks %}
+    <li>
+      {% if item.url %}
+      <a href="{{ item.url }}">
+        {{ item.title | safe }}
+      </a>
+      {% else %}
+        {{ item.title | safe }}
+      {% endif %}
+      {% if item.locations %}
+      <ul>
+        {% for item in [].concat(item.locations) %}
+          <li>
+            {{ item.description | safe }}
+          </li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "title":    "Working in the open",
+      "url":      "https://github.com/ericwbailey/ericwbailey.design",
+      "external": true
+    },
+    {
+      "title":    "Accessible and inclusive design",
+      "url":      "https://www.webpagetest.org/result/190407_TJ_6b8eeb18bebf6a79069508f41c60658f/#accessibility",
+      "external": true
+    },
+    {
+      "title":    "Semantics and interoperability",
+      "url":      "https://search.google.com/structured-data/testing-tool/u/0/#url=http%3A%2F%2Fericwbailey.design%2F",
+      "external": true
+    },
+    {
+      "title":    "CSS architecture at scale",
+      "url":      "http://cssstats.com/stats?url=http%3A%2F%2Fericwbailey.design&ua=Browser%20Default",
+      "external": true
+    },
+    {
+      "title":    "Progressive enhancement",
+      "url":      "https://worldwideweb.cern.ch/browser/#https://ericwbailey.design/",
+      "external": true
+    },
+    {
+      "title":    "Performance and internationalization",
+      "url":      "https://yellowlab.tools/result/fmo0qm55ll",
+      "external": true
+    }
+  ]
+}

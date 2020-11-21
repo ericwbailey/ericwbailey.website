@@ -1,0 +1,40 @@
+<address
+  id="section-contact"
+  class="[ l-center-column ] [ c-homepage-section ] [ u-background-color-white ]">
+
+  <h2 id="subtitle-contact" class="u-hide-visually">
+    Contact
+  </h2>
+
+  <p class="u-lede typography-measure">
+    Here&rsquo;s how to get in contact with me, or see what I've been up to:
+  </p>
+
+  {% set contactItem = contact.items %}
+  <ul class="[ l-list-grid l-list-grid--contact ] [ c-link-list ]">
+    {% for item in contactItem %}
+    <li
+      class="c-link-list__item"
+      {% if item.schema %}
+        itemscope
+        itemtype="http://schema.org/Organization"
+      {% endif %}>
+      <a
+        class="c-link-list__link"
+        {% if item.rel %}
+          rel="me"
+        {% endif %}
+        {% if item.data %}
+          {{ item.data }}
+        {% endif %}
+        href="{{ item.url }}">
+        {% if item.schema %}
+          <span itemprop="memberOf">{{ item.title | safe }}</span>
+        {% else %}
+          {{ item.title | safe }}
+        {% endif %}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</address>

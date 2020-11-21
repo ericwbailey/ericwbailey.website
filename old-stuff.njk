@@ -1,0 +1,21 @@
+---
+layout: layouts/landing.njk
+title: Old Stuff
+lede: Here's some archived work from my old site. Some of it <a href="http://themesbyeris23.tumblr.com/credits#inspiration">wound up in strange places</a>. It’s a big, weird internet out there!
+eleventyNavigation:
+  key: Old Stuff
+  parent: Landing
+  order: 6
+---
+
+{% set stuff = oldstuff.items %}
+<ul>
+  {% for item in stuff %}
+    <li>
+      <a href="{{ item.url }}">
+        {{ item.title | safe }}
+      </a>
+      <small style="display: block;">{{ item.description }}</small>
+    </li>
+  {% endfor %}
+</ul>

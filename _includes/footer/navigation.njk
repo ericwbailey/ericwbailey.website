@@ -1,0 +1,47 @@
+<div
+  class="u-color-background-gray"
+  id="section-navigation">
+  <h2 id="subtitle-navigation" class="u-hide-visually">
+    Navigation
+  </h2>
+
+  <nav id="nav-primary" aria-label="Primary">
+    {% set landingPages = collections.all | eleventyNavigation("Landing") %}
+    <ul
+      itemscope
+      itemtype="https://schema.org/SiteNavigationElement">
+      {% for landingPage in landingPages %}
+      <li>
+        <a
+          class="u-color-text-white"
+          itemprop="url"
+          {% if landingPage.url == page.url %}aria-current="page"{% endif %}
+          href="{{ landingPage.url }}">
+          {{ landingPage.title }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </nav>
+
+  <nav id="nav-secondary" aria-label="Copyright and RSS">
+    <ul>
+      <li>
+        <a
+          class="u-color-text-white"
+          rel="copyright license"
+          itemprop="license"
+          href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+          <abbr>CC BY-NC-SA</abbr>
+        </a>
+      </li>
+      <li>
+        <a
+          class="u-color-text-white"
+          href="{{ '/feed/feed.xml' | url }}">
+          <abbr>RSS</abbr>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>

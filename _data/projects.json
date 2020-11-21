@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "title":       "Accessible <abbr>HTML</abbr> Content Patterns",
+      "url":         "https://github.com/ericwbailey/accessible-html-content-patterns",
+      "description": "Better building blocks",
+      "schema":      "SoftwareSourceCode"
+    },
+    {
+      "title":       "Millennials to Snake People",
+      "url":         "https://chrome.google.com/webstore/detail/millennials-to-snake-peop/jhkibealmjkbkafogihpeidfcgnigmlf",
+      "description": "Infamous browser extension",
+      "schema":      "SoftwareSourceCode"
+    },
+    {
+      "title":       "Ubersleep",
+      "url":         "https://www.amazon.com/dp/B00E1XAD7W/",
+      "description": "Layout, design, and typography"
+    },
+    {
+      "title":       "The A11Y Project",
+      "url":         "https://www.a11yproject.com/",
+      "description": "Redesign developer",
+      "schema":      "WebSite"
+    },
+    {
+      "title":       "hancock&#8202;.&#8202;lighting",
+      "url":         "http://hancock.lighting/",
+      "description": "Digitizing a landmark",
+      "schema":      "WebSite"
+    },
+    {
+      "title":       "You Dubber",
+      "additional":  "(autoplaying media)",
+      "url":         "http://www.youdubber.com/index.php?video=bO9ugnn8DbE&video_start=0&audio=B1i4UgkC_kI&audio_start=0",
+      "description": "Recontextualizing You Tube",
+      "schema":      "WebSite"
+    },
+    {
+      "title":       "Empathy Prompts",
+      "url":         "https://empathyprompts.net/",
+      "description": "Quick exercises",
+      "schema":      "WebSite"
+    },
+    {
+      "title":       "Fresh Garbage Newsletter",
+      "url":         "https://tinyletter.com/hot-garbage/archive",
+      "description": "Weekly links of note",
+      "schema":      "WebSite"
+    }
+  ]
+}
