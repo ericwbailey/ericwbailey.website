@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en" itemscope itemtype="http://schema.org/Webpage">
 <head>
   {% include "meta/charset-viewport.njk" %}
@@ -16,13 +16,18 @@
     body {
       background-color: #ffffff;
       color: #404040;
-      font-family: sans-serif;
+      font-family: Georgia, Times, "Times New Roman", serif;
       font-size: 1.2em;
       line-height: 1.6;
       margin: 2rem;
-      max-width: 65ch;
+      max-width: 62ch;
+    }
+    address {
+      font-style: normal;
     }
     h1, h2, h3, h4, h5, h6 {
+      font-style: italic;
+      font-weight: bold;
       line-height: 1.2;
     }
     h1 {
@@ -46,13 +51,29 @@
     a:focus {
       text-decoration: none;
     }
+    a:focus {
+      background-color: #1D818C;
+      color: #ffffff;
+      outline: 0.25rem solid #1D818C;
+    }
     .banner {
       background-color: #f5ed52;
-      margin-bottom: 1rem;
+      font-family: sans-serif;
+      margin-bottom: 2rem;
       padding: 0.25rem 1.5rem;
     }
     .banner h2 {
+      font-style: normal;
       margin-top: 1.5rem;
+      margin-bottom: 0;
+    }
+    .banner p {
+      margin-top: 0.5rem;
+    }
+    .banner a:focus {
+      background-color: transparent;
+      outline: initial;
+      text-decoration: none;
     }
     @media screen and (prefers-color-scheme: dark) {
       body {
@@ -62,6 +83,11 @@
       a,
       a:visited {
         color: #48d7e7;
+      }
+      a:focus {
+        background-color: #48d7e7;
+        color: #404040;
+        outline: 0.25rem solid #48d7e7;
       }
       .banner {
         color: #404040;
@@ -75,12 +101,15 @@
 
 {% include "components/skipnav.njk" %}
 
-<header id="section-banner" class="banner">
+<header
+  id="section-banner"
+  class="banner"
+  aria-labelledby="this-site-is-updating-in-the-open">
   <h2 id="this-site-is-updating-in-the-open">
     This site is updating in the open
   </h2>
   <p>
-    Things might look a little janky for a bit, but that’s okay! I am in the process of replatforming this site to use <a style="color: #404040;" href="https://www.11ty.dev/">Eleventy</a>, as well as refresh the design. Follow along on <a style="color: #404040;" href="https://github.com/ericwbailey/ericwbailey.design">GitHub</a>.
+    Things might look a little janky for a bit, but that’s okay! I am in the process of replatforming this site to use <a style="color: #404040;" href="https://www.11ty.dev/">Eleventy</a>, as well as refreshing the design. Follow along on <a style="color: #404040;" href="https://github.com/ericwbailey/ericwbailey.design">GitHub</a>.
   </p>
 </header>
 
