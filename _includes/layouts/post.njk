@@ -28,7 +28,7 @@ templateClass: tmpl-post
   </h1>
   <p>
 
-    <time datetime="{{ date | htmlDateString }}">
+    <time id="date-published" datetime="{{ date | htmlDateString }}">
       {{ date | readableDate }}
     </time>
   </p>
