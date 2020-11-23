@@ -9,6 +9,12 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## vNext - Unreleased
 - Performance optimizations
 
+## v1.0.1 - 2020-11-22
+- Add [Using a folder other than <code>posts/</code> with Eleventy](https://ericwbailey.design/writing/using-a-folder-other-than-posts-with-eleventy/)
+
+## v1.0.0 - 2020-11-21
+- Replatform to use [Eleventy](https://www.11ty.dev/)
+
 ## v0.3.41 - 2020-08-25
 - Add [The radium craze](https://ericwbailey.design/writing/the-radium-craze.html)
 
