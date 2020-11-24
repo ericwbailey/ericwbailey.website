@@ -1,7 +1,7 @@
 {
   "name": "ericwbailey.design",
   "description": "Boston-based user experience designer",
-  "version": "1.0.1",
+  "version": "1.2.0",
   "license": "CC-BY-NC-SA-4.0",
   "homepage": "https://github.com/ericwbailey/ericwbailey.design/blob/main/README.md",
   "author": {
@@ -36,6 +36,7 @@
     "@11ty/eleventy-navigation": "^0.1.6",
     "@11ty/eleventy-plugin-rss": "^1.0.9",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
+    "eleventy-plugin-sass": "^1.1.1",
     "luxon": "^1.21.3",
     "markdown-it": "^8.4.2",
     "markdown-it-anchor": "^5.2.5"

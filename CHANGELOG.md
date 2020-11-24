@@ -9,6 +9,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## vNext - Unreleased
 - Performance optimizations
 
+## v1.1.0 - 2020-11-23
+- Add Sass compiling
+
 ## v1.0.1 - 2020-11-22
 - Add [Using a folder other than <code>posts/</code> with Eleventy](https://ericwbailey.design/writing/using-a-folder-other-than-posts-with-eleventy/)
 
