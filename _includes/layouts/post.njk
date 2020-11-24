@@ -33,7 +33,7 @@ templateClass: tmpl-post
     </time>
     {% if originallyPublished %}
       {% for source in originallyPublished %}
-        . Originally published at <a href="{{ source.url }}">{{ source.title }}</a>
+        · Originally published at <a href="{{ source.url }}">{{ source.title }}</a>
       {% endfor %}
     {% endif %}
   </p>

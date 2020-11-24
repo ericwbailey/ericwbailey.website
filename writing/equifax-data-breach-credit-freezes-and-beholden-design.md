@@ -31,13 +31,17 @@ Equifax is one of the three main United States credit reporting companies. Credi
 
 Pretty messed up, right?
 
-Ignoring for the moment that these data gathering techniques are less than perfect, the entire US population is essentially auto-opted into participating in these privately-run services. This is an especially terrifying fact in the wake of the Equifax data breach of September 2017, where the personal data of 143 million unwitting people was compromised.
+Ignoring for the moment that these data gathering techniques are less than perfect (and definitely prone to [algorithmic bias](https://en.m.wikipedia.org/wiki/Algorithmic_bias)), the entire US population is essentially auto-opted into participating in these privately-run services. This is an especially terrifying fact in the wake of the Equifax data breach of September 2017, where the personal data of 143 million unwitting people was compromised.
 
-For a tech-savvy individual, access to about two thirds of the US population’s [personally identifying information](https://en.m.wikipedia.org/wiki/Personally_identifiable_information) means mass credit fraud is essentially now a turnkey process. All the information required to pretend to be someone else and take out a loan in their name has been removed from the purportedly secure Equifax servers. There is no historical precedent for the scale of this kind of event, or its ramifications.
+For a tech-savvy individual, access to about two thirds of the US population’s [personally identifying information](https://en.m.wikipedia.org/wiki/Personally_identifiable_information) means mass credit fraud is essentially now a turnkey process.
+
+All the information required to pretend to be someone else and take out a loan in their name has been removed from the purportedly secure Equifax servers. There is no historical precedent for the scale of this kind of event, or its ramifications.
 
 One of the options an individual can take—either as a victim or proactively—is to request what is known as a Credit Freeze. [A Credit Freeze places restrictions](https://www.washingtonpost.com/news/the-switch/wp/2017/09/09/after-the-equifax-breach-heres-how-to-freeze-your-credit-to-protect-your-identity/) on who can view your credit report, effectively preventing new lines of credit from being issued. A code is then issued by the company the freeze is requested at, which can be used at a later date to reinstate credit report access.
 
-Vexingly, the information required to request a lift on a Credit Freeze is also the information that was stolen in the breach. While this entire system is a perfect opportunity for the application of some big-picture [Service Design thinking](https://en.m.wikipedia.org/wiki/Service_design), I’m going to focus on the experience of a person requesting a Credit Freeze.
+Vexingly, the information required to request a lift on a Credit Freeze is also the information that was stolen in the breach.
+
+While this entire system is a perfect opportunity for the application of some big-picture [Service Design thinking](https://en.m.wikipedia.org/wiki/Service_design), I’m going to focus on the experience of a person requesting a Credit Freeze.
 
 ## Inwardly focused
 
@@ -94,7 +98,9 @@ Validation is the process of verifying that information entered into a form is b
 
 [Good form validation](https://uxplanet.org/designing-more-efficient-forms-assistance-and-validation-f26a5241199d) walks the line between being easy to use and keeping malformed/malicious input from being entered. In Beholden Design, form validation is combative and unintuitive. It is concerned with getting the text entered into its systems with as little behind-the-scenes manipulation as possible.
 
-An example of this is requiring phone numbers to not use parenthesis for the area code, even if a person is used to writing out that information in other contexts. While it is trivial to programmatically manipulate this information to be standardized after the user submits the form, Beholden Design is satisfied with the cheaper option: letting the user do all the work.
+An example of this is requiring phone numbers to not use parenthesis for the area code, even if a person is used to writing out that information in other contexts.
+
+While it is trivial to programmatically manipulate this information to be standardized after the user submits the form, Beholden Design is satisfied with the cheaper option: letting the user do all the work.
 
 Beholden Design is also lazy. It will typically only expose these kinds of formatting needs only after the form is submitted, and usually in an angry blob of messaging at the top of the form. This practice violates the [Gestalt Principles](http://graphicdesign.spokanefalls.edu/tutorials/process/gestaltprinciples/gestaltprinc.htm) of <em>proximity</em> and <em>continuation</em>.
 
@@ -109,7 +115,9 @@ Beholden Design is also lazy. It will typically only expose these kinds of forma
   </figcaption>
 </figure>
 
-Curiously, this approach to validation tends to have the unintended consequence of encouraging bad input. A frustrated user will attempt to fix form errors with expedience instead of accuracy—even if the information they are entering is of utmost importance. Ever slapped the side of a computer when it’s not responding to try and get it to work? It’s exactly like that.
+Curiously, this approach to validation tends to have the unintended consequence of encouraging bad input.
+
+A frustrated user will attempt to fix form errors with expedience instead of accuracy—even if the information they are entering is of utmost importance. Ever slapped the side of a computer when it’s not responding to try and get it to work? It’s exactly like that.
 
 Another interesting aspect of Beholden Design form validation is that it tends to make gross assumptions about the kind of content it will be reviewing. When you don’t [accommodate for the nuance involved in the kinds of information you’re asking for](http://spaceninja.com/2015/12/07/falsehoods-programmers-believe/), the potential to lock people out increases exponentially—especially if operating at a national scale.
 
@@ -123,7 +131,7 @@ The [horrid details](https://twitter.com/webster/status/906346071210778625) of E
 
 However, it is important to remember that the presentation of the Credit Freeze request form in its entirety is also a consideration. Simply put, if the page does not feel legitimate, it will be treated as such. Sorry Equifax, that patronizing stock photo of a confident woman won’t count for much.
 
-Beholden Design loves to ignore these kinds of less sexy, yet critical pages in favor of splashy homepages that giddily announce new features. Eventually, the gap between these internally prioritized pages and the neglected ones becomes too wide, and the experience becomes incongruous.
+Beholden Design loves to ignore these kinds of less glamorous, yet critical pages in favor of splashy homepages that giddily announce new features. Eventually, the gap between these internally prioritized pages and the neglected ones becomes too wide, and the experience becomes incongruous.
 
 <figure
   role="figure"
@@ -140,7 +148,9 @@ Another large contributor to this split is the proliferation of third party feat
 
 Of all the issues presented in this post, this one might be the easiest to plead a case for remediating in the wake of the Equifax hack. While assurances of [security and credibility are somewhat a cultural issue](https://www.nngroup.com/articles/credibility-china/), it is comparatively trivial to make cosmetic updates to bring these orphaned, lower priority pages back in step with the rest of the site.
 
-[Living styleguides](https://www.smashingmagazine.com/2016/05/creating-a-living-style-guide-case-study/)—catalogs of common interface and branding elements that are built from the live site's code—are a great way to ensure these kinds of visual tweaks can affect every page in the site quickly and with minimal fuss. Components such as form inputs that have been derived from a centralized source have the benefit being able to be quickly and globally updated from upstream changes, so long as they maintain code parity.
+[Living styleguides](https://www.smashingmagazine.com/2016/05/creating-a-living-style-guide-case-study/)—catalogs of common interface and branding elements that are built from the live site's code—are a great way to ensure these kinds of visual tweaks can affect every page in the site quickly and with minimal fuss.
+
+Components such as form inputs that have been derived from a centralized source have the benefit being able to be quickly and globally updated from upstream changes, so long as they maintain code parity.
 
 This consistency is great for both QA and security efforts. Vetting the initial component means a good deal of edge case issues get killed off before they can ever become a problem, allowing them to be used with confidence. This frees QA testers and security auditors to efficiently focus their efforts on larger, more important tasks.
 
@@ -150,7 +160,9 @@ Beholden Designed systems are indifferent. With them, the truth is irrelevant an
 
 The Credit Freeze process typically asks the user requesting it to verify themselves by having them select some personally identifying information contained in a few multiple choice questions. Ignoring the fact that this information is typically easy to gather from publicly available sources, these systems don’t communicate how they came to know this information, or how it’s being used. Creepy.
 
-Furthermore, as these information gathering systems are fallible, the situation can arise where there is a difference between the system’s truth and the actual truth. Here, there is no obvious method to set the record straight. Instead, a user must typically make a guess as to what the system believes to be true, otherwise they cannot progress through the remainder of the Credit Freeze request process.
+Furthermore, as these information gathering systems are fallible, the situation can arise where there is a difference between the system’s truth and the actual truth.
+
+There is no obvious method to set the record straight in this situation. Instead, a user must typically make a guess as to what the system believes to be true, otherwise they cannot progress through the remainder of the Credit Freeze request process.
 
 Not a great way to maintain trust, if you ask me.
 
@@ -171,7 +183,9 @@ For the services that mail a Credit Freeze unlock code instead of a delivering i
 
 Turning a blind eye to the massive inefficiencies and potential for errors in this processes, it is baffling that the systems that require contact information they already possess don’t use it to communicate where they are in the process of addressing the request.
 
-I guarantee you that while people may be fretting about the status of their requests, they certainly aren’t waiting at home for the code to show up. A little communication would go a long way in this situation. A good model to build from is a package delivery service such as FedEx emailing a person about what is happening to their holiday gift order at every stage in the process until delivery.
+I guarantee you that while people may be fretting about the status of their requests, they certainly aren’t waiting at home for the code to show up.
+
+A little communication would go a long way in this situation. A good model to build from is a package delivery service such as FedEx emailing a person about what is happening to their holiday gift order at every stage in the process until delivery.
 
 ## Unresponsive
 
@@ -213,7 +227,7 @@ Oftentimes, the forms discussed in this post are the end result of long-negotiat
   aria-label="Which way am I supposed to scan this form?">
   <img
     alt="Screenshot illustrating ambiguity in the visual scan pattern of Equifax's form. It is unclear if you are supposed to read the form vertically or horizontally."
-    src="{{ '/img/posts/equifax-data-breach-credit-freezes-and-beholden-design/transunion-unresponsive.png' | url }}" />
+    src="{{ '/img/posts/equifax-data-breach-credit-freezes-and-beholden-design/equifax-scan-patterns.png' | url }}" />
   <figcaption>
     <p>Which way am I supposed to scan this form?</p>
   </figcaption>
@@ -248,9 +262,9 @@ Beholden Design also loves to ignore the truth.
 
 Accessibility compliance is more than just accommodating blind individuals. It is also more than thinking a separate-but-equal companion site is acceptable. It is a fallacy that every individual [navigating the web with a screen reader](http://adrianroselli.com/2017/02/not-all-screen-reader-users-are-blind.html) is blind. Not every person who is able-bodied will be forever—remember, [we’re all just temporarily abled](http://uxmag.com/articles/we-re-just-temporarily-abled).
 
-Some may argue that the alternatives—a phone support help line and a physically mailed request form—obviate the need to make these webpages compliant. However, these options are limited in their capacity to accommodate. It’s also worth noting that in the wake of the breach, both the call and mail processing centers for these institutions are going to be overloaded. Errors and neglect will inevitably follow.
+Some may argue that the alternatives—a phone support help line and a physically mailed request form—obviate the need to make these webpages compliant. However, these options are limited in their capacity to accommodate. It’s also worth noting that in the wake of the breach, both the call and mail processing centers for these institutions are going to be overloaded (to say nothing of trust issues with another poorly-paid human handling this info). Errors and neglect will inevitably follow.
 
-It is cheaper, easier, and more convenient to let a person access the information they need in a manner that works for them. These alternative options may fall short of every possible combination of conditions someone can experience. One of the strengths of accessible digital technology is that it is interoperable, meaning that it can be modified to satisfy the needs of the person using it.
+It is cheaper, easier, more secure, and more convenient to let a person access the information they need in a manner that works for them. These alternative options may fall short of every possible combination of conditions someone can experience. One of the strengths of accessible digital technology is that it is interoperable, meaning that it can be modified to satisfy the needs of the person using it.
 
 ## So, what’s to be done?
 
