@@ -12,6 +12,8 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## v1.1.1 - 2020-11-24
 - Separate layout categories
 - Update content wrapper
+- Add [normalize.css](https://www.npmjs.com/package/normalize.css)
+- Add base and reset styles
 
 ## v1.1.0 - 2020-11-23
 - Add Sass compiling

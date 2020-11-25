@@ -13,7 +13,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
   eleventyConfig.addPlugin(pluginNavigation);
-  eleventyConfig.addPlugin(pluginSass);
+  eleventyConfig.addPlugin(pluginSass, {sourcemaps: true});
 
   eleventyConfig.setDataDeepMerge(true);
 

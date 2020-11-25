@@ -1,0 +1,65 @@
+table {
+
+  caption {
+  }
+
+  // Styles all table rows
+  tr {
+    // transition: background-color $animation-duration-shorter $animation-easing-character; // TODO: VAR
+  }
+
+  // Styles all table cells
+  col,
+  th,
+  td {
+    // border-color: $color-gray-shade; // TODO: VAR
+    padding: 0.75rem;
+  }
+
+  th {
+    font-weight: bold; // TODO: VAR
+    vertical-align: bottom;
+  }
+
+  // colgroup {
+
+  //   col {
+  //   }
+  // }
+
+  thead {
+    // border-bottom: $border-thinner solid $color-black; // TODO: VAR
+
+    tr {
+
+      th {
+        // font-family: $font-family-secondary; // TODO: VAR
+        // font-size: $font-size-body; // TODO: VAR
+        // font-weight: $font-weight-bold; // TODO: VAR
+      }
+    }
+  }
+
+  tbody {
+
+    tr {
+      th {
+        // border-top: $border-thinnest solid currentColor; // TODO: VAR
+      }
+
+      td {
+        // border-top: $border-thinnest solid currentColor; // TODO: VAR
+      }
+    }
+  }
+
+  tfoot {
+
+    tr {
+
+      td {
+        // border-top: $border-thinnest solid currentColor; // TODO: VAR
+      }
+    }
+  }
+}
