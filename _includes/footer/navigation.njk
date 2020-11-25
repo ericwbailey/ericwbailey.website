@@ -6,18 +6,37 @@
   </h2>
 
   <nav id="nav-primary" aria-label="Primary">
-    {% set landingPages = collections.all | eleventyNavigation("Landing") %}
+    {% set primaryNav = collections.all | eleventyNavigation("Primary") %}
     <ul
       itemscope
       itemtype="https://schema.org/SiteNavigationElement">
-      {% for landingPage in landingPages %}
+      {% for page in primaryNav %}
       <li>
         <a
           class="u-color-text-white"
           itemprop="url"
-          {% if landingPage.url == page.url %}aria-current="page"{% endif %}
-          href="{{ landingPage.url }}">
-          {{ landingPage.title }}
+          {% if page.url == page.url %}aria-current="page"{% endif %}
+          href="{{ page.url }}">
+          {{ page.title }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </nav>
+
+  <nav id="nav-secondary" aria-label="Secondary">
+    {% set primaryNav = collections.all | eleventyNavigation("Secondary") %}
+    <ul
+      itemscope
+      itemtype="https://schema.org/SiteNavigationElement">
+      {% for page in primaryNav %}
+      <li>
+        <a
+          class="u-color-text-white"
+          itemprop="url"
+          {% if page.url == page.url %}aria-current="page"{% endif %}
+          href="{{ page.url }}">
+          {{ page.title }}
         </a>
       </li>
       {% endfor %}
