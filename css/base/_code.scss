@@ -1,0 +1,30 @@
+code,
+kbd,
+pre,
+samp,
+var {
+  // font-family: $font-family-code; // TODO: VAR
+  font-feature-settings: normal;
+  // line-height: $line-height-tight; // TODO: VAR
+  overflow: auto;
+  white-space: pre-wrap;
+  word-break: keep-all;
+  word-wrap: break-word;
+}
+
+
+kbd {
+  // background-color: $color-white; // TODO: VAR
+  // border: rem(4) solid $color-white; // TODO: VAR
+  // border-radius: rem(4); // TODO: VAR
+  // box-shadow: 0 2px 1px 0 $color-gray-shade; // TODO: VAR
+  padding: 0 0.5ch;
+  word-break: break-word;
+}
+
+
+pre {
+  // background-color: $color-black; // TODO: VAR
+  // color: $color-white; // TODO: VAR
+  padding: 1rem 1.5rem;
+}

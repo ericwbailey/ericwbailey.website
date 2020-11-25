@@ -1,15 +1,30 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  vertical-align: baseline;
-}
+@charset "UTF-8";
 
-* + * {
-  margin-top: 1rem;
-}
+// Imports
+// @import
+//   "../node_modules/normalize.css/normalize";
+  // "../../node_modules/mappy-breakpoints/mappy-breakpoints",
+  // "imports/fonts";
+
+// Logic
+@import
+  "base/all",
+  "base/root",
+  "base/html",
+  "base/body",
+  "base/global-attributes",
+  "base/resets",
+  "base/code",
+  "base/links",
+  "base/lists",
+  "base/tables";
+
+  // Vendor
+
+// Media
+
+
+
 
 body {
   background-color: #ffffff;
@@ -38,8 +53,20 @@ img {
   height: auto;
   max-width: 100%;
 }
-p {
+p,
+img,
+figure,
+ol,
+ul {
   margin-top: 1.5rem;
+}
+ol,
+ul {
+  ol,
+  ul {
+    margin-top: 0;
+    margin-left: 1.5rem;
+  }
 }
 pre {
   overflow: auto;
@@ -60,8 +87,9 @@ a:focus {
 .banner {
   background-color: #f5ed52;
   font-family: sans-serif;
+  margin-top: 2rem;
   margin-bottom: 2rem;
-  padding: 0.25rem 1.5rem;
+  padding: 0.25rem 1.5rem 1.5rem 1.5rem ;
 }
 .banner h2 {
   font-style: normal;
