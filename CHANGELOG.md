@@ -9,6 +9,10 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## vNext - Unreleased
 - Performance optimizations
 
+## v1.1.1 - 2020-11-24
+- Separate layout categories
+- Update content wrapper
+
 ## v1.1.0 - 2020-11-23
 - Add Sass compiling
 
