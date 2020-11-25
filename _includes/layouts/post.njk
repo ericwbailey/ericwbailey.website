@@ -38,33 +38,37 @@ templateClass: tmpl-post
     {% endif %}
   </p>
 
-  <div itemprop="articleBody">
+  <div id="content" itemprop="articleBody">
     {{ content | safe }}
   </div>
 
-  {% if furtherReading %}
-  <h2 id="further-reading">
-    Further reading
-  </h2>
-  <ul>
-    {% for link in furtherReading %}
-    <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-    {% endfor %}
-  </ul>
-  {% endif %}
+
+  <div id="additional">
+    {% if furtherReading %}
+    <h2 id="further-reading">
+      Further reading
+    </h2>
+    <ul>
+      {% for link in furtherReading %}
+      <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if attribution %}
+    <aside
+      aria-label="Attribution"
+      class="c-attribution">
+      <p>
+        {{ attribution | safe }}
+      </p>
+    </aside>
+    {% endif %}
+  </div>
+
 </main>
 
-  {% if attribution %}
-  <hr>
 
-  <aside
-    aria-label="Attribution"
-    class="c-attribution">
-    <p>
-      {{ attribution | safe }}
-    </p>
-  </aside>
-  {% endif %}
 
 {# <ul>
   {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
