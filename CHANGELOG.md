@@ -9,6 +9,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## vNext - Unreleased
 - Performance optimizations
 
+## v1.1.2 - 2020-11-26
+- Add [So you wanna create an eco-friendly website](https://thoughtbot.com/blog/so-you-wanna-create-an-eco-friendly-website)
+
 ## v1.1.2 - 2020-11-25
 - Add Sass variables
 - Add `:root` custom properties
