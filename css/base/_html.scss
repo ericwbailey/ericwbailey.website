@@ -1,10 +1,5 @@
 html {
-  // background-color: $color-sand; // TODO: VAR
-  // color: $color-black; // TODO: VAR
-  // font-family: $font-family-primary; // TODO: VAR
-  // font-size: $global-type-size; // TODO: VAR
-  // font-weight: $font-weight-regular; // TODO: VAR
-  // line-height: $line-height-loose; // TODO: VAR
+  background-color: var(--color-background);
   margin: 0;
   min-height: 100%;
   overflow-y: scroll;
@@ -27,10 +22,10 @@ html {
     word-break: break-word;
   }
 
-  // Supports // TODO: VAR
-  // @supports #{$supports-hanging-punctuation} {
-  //   hanging-punctuation: first;
-  // }
+  // Supports
+  @supports #{$supports-hanging-punctuation} {
+    hanging-punctuation: first;
+  }
 
   // Media Queries
   @media screen and (-webkit-min-device-pixel-ratio: 2),

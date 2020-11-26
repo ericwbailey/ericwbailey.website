@@ -1,3 +1,95 @@
 :root {
+  --max-width: 65ch;
+  --gutter: "1rem";
+  --ratio: 1.125;
 
+  --scale-5: calc(var(--scale-4) / var(--ratio));
+  --scale-4: calc(var(--scale-3) / var(--ratio));
+  --scale-3: calc(var(--scale-2) / var(--ratio));
+  --scale-2: calc(var(--scale-1) / var(--ratio));
+  --scale-1: calc(var(--scale0) / var(--ratio));
+  --scale0: 1;
+  --scale1: calc(var(--scale0) * var(--ratio));
+  --scale2: calc(var(--scale1) * var(--ratio));
+  --scale3: calc(var(--scale2) * var(--ratio));
+  --scale4: calc(var(--scale3) * var(--ratio));
+  --scale5: calc(var(--scale4) * var(--ratio));
+  --scale6: calc(var(--scale5) * var(--ratio));
+  --scale7: calc(var(--scale6) * var(--ratio));
+  --scale8: calc(var(--scale7) * var(--ratio));
+  --scale9: calc(var(--scale8) * var(--ratio));
+  --scale10: calc(var(--scale9) * var(--ratio));
+
+  --animation-duration-shortest: "100ms";
+  --animation-duration-shorter: "200ms";
+  --animation-duration-short: "300ms";
+  --animation-duration-long: "500ms";
+  --animation-duration-longer: "700ms";
+  --animation-duration-longest: "900ms";
+  --animation-ease-character: "ease-in-out";
+  --animation-ease-dialogue: "ease-in";
+  --animation-ease-background: "linear";
+
+  --border-thickest: 1.5vw;
+  --border-thicker: 7px;
+  --border-thick: 0.5em;
+  --border-thin: 3px;
+  --border-thinner: 2px;
+  --border-thinnest: 1px;
+  --border-hairline: 0.25em;
+
+  --color-type-tint: #{map-get($colors, "gray-lighter")};
+  --color-type: #{map-get($colors, "gray")};
+  --color-type-shade: #{map-get($colors, "gray-dark")};
+  --color-background-tint: #{map-get($colors, "gray-lighter")};
+  --color-background: #{map-get($colors, "white")};
+  --color-background-shade: #{map-get($colors, "gray-dark")};
+  --color-writing-tint: #{map-get($colors, "green")};
+  --color-writing: #{map-get($colors, "green")};
+  --color-writing-shade: #{map-get($colors, "green")};
+  --color-speaking-tint: #{map-get($colors, "purple")};
+  --color-speaking: #{map-get($colors, "purple")};
+  --color-speaking-shade: #{map-get($colors, "purple")};
+  --color-office-hours-tint: #{map-get($colors, "gray")};
+  --color-office-hours: #{map-get($colors, "gray")};
+  --color-office-hours-shade: #{map-get($colors, "gray")};
+  --color-accessibility-statement-tint: #{map-get($colors, "blue")};
+  --color-accessibility-statement: #{map-get($colors, "blue")};
+  --color-accessibility-statement-shade: #{map-get($colors, "blue")};
+  --color-colophon-tint: #{map-get($colors, "gray")};
+  --color-colophon: #{map-get($colors, "gray")};
+  --color-colophon-shade: #{map-get($colors, "gray")};
+  --color-old-stuff-tint: #{map-get($colors, "yellow")};
+  --color-old-stuff: #{map-get($colors, "yellow")};
+  --color-old-stuff-shade: #{map-get($colors, "yellow")};
+  --color-404-tint: #{map-get($colors, "red")};
+  --color-404: #{map-get($colors, "red")};
+  --color-404-shade: #{map-get($colors, "red")};
+
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+  --font-weight-black: 900;
+
+  --tracking-tight: "-.025ch";
+  --tracking-loose: "0.25ch";
+
+  --typeface-primary: "Georgia, Times, 'Times New Roman', serif";
+  --typeface-secondary: "'Helvetica Neue', Helvetica, Arial, sans-serif; ";
+  --typeface-code: "'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;";
+
+  --line-height-none: 0;
+  --line-height-tightest: 1;
+  --line-height-tighter: 1.2;
+  --line-height-tight: 1.3;
+  --line-height-slight: 1.5;
+  --line-height-looser: 1.7;
+  --line-height-loosest: 2;
+
+  --shadow-small: "0 0.25rem 1rem 0";
+  --shadow-medium: "0 0.5rem 1rem 0";
+  --shadow-large: "0 -0.125rem 5.555rem -1.111rem";
+
+  --z-index-basement: "-999999";
+  --z-index-ceiling: "999999";
 }

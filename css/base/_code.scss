@@ -3,9 +3,9 @@ kbd,
 pre,
 samp,
 var {
-  // font-family: $font-family-code; // TODO: VAR
+  font-family: var(--typeface-code);
   font-feature-settings: normal;
-  // line-height: $line-height-tight; // TODO: VAR
+  line-height: var(--line-height-tight);
   overflow: auto;
   white-space: pre-wrap;
   word-break: keep-all;
@@ -14,7 +14,7 @@ var {
 
 
 kbd {
-  // background-color: $color-white; // TODO: VAR
+  background-color: var(--color-background);
   // border: rem(4) solid $color-white; // TODO: VAR
   // border-radius: rem(4); // TODO: VAR
   // box-shadow: 0 2px 1px 0 $color-gray-shade; // TODO: VAR
@@ -24,7 +24,7 @@ kbd {
 
 
 pre {
-  // background-color: $color-black; // TODO: VAR
-  // color: $color-white; // TODO: VAR
+  background-color: var(--color-background-shade);
+  color: var(--color-type-tint);
   padding: 1rem 1.5rem;
 }

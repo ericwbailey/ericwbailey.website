@@ -83,7 +83,7 @@ h6 {
 }
 
 ins {
-  // border-bottom: $border-thin double; // TODO: VAR
+  border-bottom: var(--border-thin) double;
   text-decoration: none;
 }
 
@@ -117,13 +117,8 @@ input[type="week"],
 input datalist,
 select,
 textarea {
-  // font-size: $font-size-body; // TODO: VAR
+  font-size: calc(var(--scale0) * 1rem);
   line-height: 1.05;
-}
-
-mark {
-  padding: em(2);
-  // background-color: $color-yellow; // TODO: VAR
 }
 
 
