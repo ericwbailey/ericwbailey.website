@@ -1,5 +1,8 @@
+html,
 body {
   background-color: #ffffff;
+}
+body {
   color: #404040;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 1.2em;
@@ -77,8 +80,11 @@ a:focus {
   text-decoration: none;
 }
 @media screen and (prefers-color-scheme: dark) {
+  html,
   body {
     background-color: #404040;
+  }
+  body {
     color: #ffffff;
   }
   a,
