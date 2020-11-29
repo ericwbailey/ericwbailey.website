@@ -1,10 +1,9 @@
 @charset "UTF-8";
 
 // Imports
-// @import
-//   "../node_modules/normalize.css/normalize";
-  // "../../node_modules/mappy-breakpoints/mappy-breakpoints",
-  // "imports/fonts";
+@import
+  "imports/normalize",
+  "imports/fonts";
 
 // Logic
 @import
