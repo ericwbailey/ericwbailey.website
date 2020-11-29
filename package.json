@@ -10,8 +10,8 @@
     "url": "http://ericwbailey.design"
   },
   "scripts": {
-    "watch:sass": "sass --watch css/site.scss _site/site.css",
-    "build:sass": "sass css/site.scss _site/site.css",
+    "watch:sass": "sass --embed-sources --watch css/site.scss _site/site.css",
+    "build:sass": "sass --no-source-map css/site.scss _site/site.css",
     "watch:eleventy": "eleventy --serve",
     "build:eleventy": "eleventy",
     "start": "npm-run-all build:sass --parallel watch:*",
