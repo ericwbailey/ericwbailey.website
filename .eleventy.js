@@ -82,8 +82,8 @@ module.exports = function(eleventyConfig) {
     return [...tagSet];
   });
 
+  eleventyConfig.addWatchTarget("./css/");
 
-  eleventyConfig.addPassthroughCopy("css");
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("js");
   eleventyConfig.addPassthroughCopy("static");

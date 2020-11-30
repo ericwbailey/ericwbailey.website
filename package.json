@@ -10,14 +10,13 @@
     "url": "http://ericwbailey.design"
   },
   "scripts": {
-    "watch:sass": "sass --embed-sources --watch css/site.scss _site/site.css",
-    "build:sass": "sass --no-source-map css/site.scss _site/site.css",
+    "watch:sass": "sass --no-source-map --watch css:_site",
     "watch:eleventy": "eleventy --serve",
+    "build:sass": "sass  --no-source-map css:_site",
     "build:eleventy": "eleventy",
+    "postbuild": "postcss _site/css/*.css -u autoprefixer cssnano -r",
     "start": "npm-run-all build:sass --parallel watch:*",
-    "build": "npm-run-all build:*",
-    "serve": "eleventy --serve",
-    "debug": "DEBUG=* eleventy"
+    "build": "npm-run-all build:sass build:eleventy"
   },
   "repository": {
     "type": "git",
@@ -34,6 +33,9 @@
     "boston",
     "design"
   ],
+  "browserslist": [
+    "last 2 versions"
+  ],
   "devDependencies": {
     "@11ty/eleventy": "^0.11.1",
     "@11ty/eleventy-navigation": "^0.1.6",
@@ -46,6 +48,10 @@
     "npm-run-all": "^4.1.5"
   },
   "dependencies": {
+    "autoprefixer": "^10.0.4",
+    "cross-env": "^7.0.2",
+    "cssnano": "^4.1.10",
+    "postcss-cli": "^8.3.0",
     "sass": "^1.29.0"
   }
 }
