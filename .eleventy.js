@@ -82,22 +82,22 @@ module.exports = function(eleventyConfig) {
     return [...tagSet];
   });
 
-  eleventyConfig.addWatchTarget("./css/");
+  eleventyConfig.addWatchTarget("./source/sass/");
 
-  eleventyConfig.addPassthroughCopy("img");
-  eleventyConfig.addPassthroughCopy("js");
-  eleventyConfig.addPassthroughCopy("static");
-  eleventyConfig.addPassthroughCopy("browserconfig.xml");
-  eleventyConfig.addPassthroughCopy("CNAME");
-  eleventyConfig.addPassthroughCopy("crossdomain.xml");
-  eleventyConfig.addPassthroughCopy("humans.txt");
-  eleventyConfig.addPassthroughCopy("favicon.ico");
-  eleventyConfig.addPassthroughCopy("favicon-16x16.png");
-  eleventyConfig.addPassthroughCopy("favicon-32x32.png");
-  eleventyConfig.addPassthroughCopy("favicon-48x48.png");
-  eleventyConfig.addPassthroughCopy("favicon.svg");
-  eleventyConfig.addPassthroughCopy("manifest.json");
-  eleventyConfig.addPassthroughCopy("robots.txt");
+  eleventyConfig.addPassthroughCopy("./source/img");
+  eleventyConfig.addPassthroughCopy("./source/js");
+  eleventyConfig.addPassthroughCopy("./source/static");
+  eleventyConfig.addPassthroughCopy("./source/browserconfig.xml");
+  eleventyConfig.addPassthroughCopy("./source/CNAME");
+  eleventyConfig.addPassthroughCopy("./source/crossdomain.xml");
+  eleventyConfig.addPassthroughCopy("./source/humans.txt");
+  eleventyConfig.addPassthroughCopy("./source/favicon.ico");
+  eleventyConfig.addPassthroughCopy("./source/favicon-16x16.png");
+  eleventyConfig.addPassthroughCopy("./source/favicon-32x32.png");
+  eleventyConfig.addPassthroughCopy("./source/favicon-48x48.png");
+  eleventyConfig.addPassthroughCopy("./source/favicon.svg");
+  eleventyConfig.addPassthroughCopy("./source/manifest.json");
+  eleventyConfig.addPassthroughCopy("./source/robots.txt");
 
 
   /* Markdown Overrides */
@@ -114,17 +114,6 @@ module.exports = function(eleventyConfig) {
 
   // Browsersync Overrides
   eleventyConfig.setBrowserSyncConfig({
-    callbacks: {
-      ready: function(err, browserSync) {
-        const content_404 = fs.readFileSync('_site/404.html');
-
-        browserSync.addMiddleware("*", (req, res) => {
-          // Provides the 404 content without redirect.
-          res.write(content_404);
-          res.end();
-        });
-      },
-    },
     ui: false,
     ghostMode: false
   });
@@ -145,7 +134,7 @@ module.exports = function(eleventyConfig) {
     // Best paired with the `url` filter: https://www.11ty.dev/docs/filters/url/
 
     // You can also pass this in on the command line using `--pathprefix`
-    // pathPrefix: "/",
+    pathPrefix: "/",
 
     markdownTemplateEngine: "liquid",
     htmlTemplateEngine: "njk",
@@ -153,10 +142,10 @@ module.exports = function(eleventyConfig) {
 
     // These are all optional, defaults are shown:
     dir: {
-      input: ".",
-      includes: "_includes",
-      data: "_data",
-      output: "_site"
+      input: "source",
+      // includes: "_includes",
+      // data: "_data",
+      output: "published"
     }
   };
 };
