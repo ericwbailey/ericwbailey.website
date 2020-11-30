@@ -1,4 +1,5 @@
 .github/
+**/*.scss
 
 CHANGELOG.md
 LICENSE.md
