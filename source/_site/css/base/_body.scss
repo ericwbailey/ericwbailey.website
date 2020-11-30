@@ -1,0 +1,10 @@
+body {
+  background-color: var(--color-background); // Extends background color to full width on an iPhone X in landscape mode: http://stephenradford.me/removing-the-white-bars-in-safari-on-iphone-x/
+  color: var(--color-type);
+  font-family: var(--typeface-primary);
+  font-weight: var(--font-weight-regular);
+  font-size: 125%;
+  line-height: var(--line-height-slight);
+  min-height: 100%; // Ensure the page always fills at least the entire height of the viewport
+  overflow-x: hidden;
+}

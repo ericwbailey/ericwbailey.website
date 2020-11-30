@@ -1,0 +1,312 @@
+
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/Webpage">
+<head>
+  <meta charset="utf-8" />
+<meta http-equiv="x-ua-compatible" content="ie=edge" />
+<meta http-equiv="cleartype" content="on" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+  <title>
+  
+    Using a folder other than posts/ with Eleventy – Eric Bailey
+  
+</title>
+<meta name="description" content="I don’t want to wrestle with overwrought Webpack configuration, write GraphQL queries for basic navigation, or scream at types for failing to transpile or whatever. I want to write">
+<meta name="author" content="Eric Bailey" />
+
+  <link
+  rel="alternate"
+  href="/feed/feed.xml"
+  type="application/atom+xml"
+  title="Eric Bailey" />
+<link
+  rel="alternate"
+  href="/feed/feed.json"
+  type="application/json"
+  title="Eric Bailey" />
+
+
+  <link rel="stylesheet" href="/site.css" as="style" />
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/static/favicons/apple/apple-touch-icon.png" />
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
+<link rel="manifest" href="/manifest.json" />
+<link rel="mask-icon" href="/static/favicons/apple/safari-pinned-tab.svg" color="#48d7e7" />
+<link rel="icon" type="image/svg+xml" href="/static/favicons/favicon.svg">
+<link rel="alternate icon" href="/favicon.ico" />
+<meta name="apple-mobile-web-app-title" content="ericwbailey" />
+<meta name="application-name" content="ericwbailey" />
+<meta name="msapplication-TileColor" content="#48d7e7" />
+<meta name="msapplication-TileImage" content="/static/favicons/microsoft/mstile-144x144.png" />
+<meta name="msapplication-config" content="/static/favicons/browserconfig.xml" />
+<meta name="theme-color" content="#48d7e7" />
+
+  <meta content="summary" name="twitter:card" />
+<meta content="Using a folder other than posts/ with Eleventy" name="twitter:title" />
+<meta content="I don’t want to wrestle with overwrought Webpack configuration, write GraphQL queries for basic navigation, or scream at types for failing to transpile or whatever. I want to write…" name="twitter:description" />
+<meta content="@ericwbailey" name="twitter:site" />
+<meta content="https://ericwbailey.design/static/favicons/social/twitter-summary-image.png" name="twitter:image" />
+
+<meta content="website" property="og:type" />
+<meta content="en_US" property="og:locale" />
+<meta content="Using a folder other than posts/ with Eleventy" property="og:title" />
+<meta content="Eric Bailey" property="og:site_name" />
+<meta content="I don’t want to wrestle with overwrought Webpack configuration, write GraphQL queries for basic navigation, or scream at types for failing to transpile or whatever. I want to write…" property="og:description" />
+<meta content="https://ericwbailey.design" property="og:url" />
+<meta content="https://ericwbailey.design/static/favicons/social/facebook.png" property="og:image" />
+<meta content="Stylized script treatment of the words Eric W Bailey on a light blue background." property="og:image:alt" />
+<meta content="599" property="og:image:width" />
+<meta content="314" property="og:image:height" />
+
+
+  <script type="module">
+  document.documentElement.classList.add('js')
+</script>
+
+  
+</head>
+<body
+  class="tmpl-post"
+  itemscope itemtype="http://schema.org/ProfilePage">
+
+<ul
+  id="section-skipnav"
+  class="c-skipnav"
+  aria-label="Skipnav">
+
+  <li class="c-skipnav__item">
+    <a class="c-skipnav__link" href="#title">
+      Skip to main content
+    </a>
+  </li>
+  <li class="c-skipnav__item">
+    <a class="c-skipnav__link" href="/accessibility-statement#accessibility-issues">
+      Accessibility feedback
+    </a>
+  </li>
+
+</ul>
+
+
+<header
+  id="section-banner"
+  class="banner"
+  aria-labelledby="this-site-is-updating-in-the-open">
+  <h2 id="this-site-is-updating-in-the-open">
+    This site is updating in the open
+  </h2>
+  <p>
+    Things might look a little janky for a bit, but that’s okay! I am in the process of replatforming this site to use <a style="color: #404040;" href="https://www.11ty.dev/">Eleventy</a>, as well as refreshing the design. Follow along on <a style="color: #404040;" href="https://github.com/ericwbailey/ericwbailey.design">GitHub</a>.
+  </p>
+</header>
+
+<div class="l-grid">
+  
+  
+
+
+<nav id="nav-breadcrumb" aria-label="Breadcrumb">
+  <ol>
+    <li>
+      <a href="/">Home</a>
+    </li>
+    <li>
+      <a href="/writing/">Writing</a>
+    </li>
+  </ol>
+</nav>
+
+<main
+  id="section-main"
+  itemscope itemtype="https://schema.org/BlogPosting">
+  <meta itemprop="mainEntityOfPage" content="using-a-folder-other-than-lesscodegreaterposts/less/codegreater-with-eleventy">
+
+  <h1
+    id="title"
+    aria-current="page"
+    itemprop="name headline">
+    Using a folder other than <code>posts/</code> with Eleventy
+  </h1>
+
+  <p>
+    <time id="date-published" datetime="2020-11-22">
+      Sunday November 22, 2020
+    </time>
+    
+  </p>
+
+  <div id="content" itemprop="articleBody">
+    <p>I just updated this site to use <a href="https://www.11ty.dev/">Eleventy</a>.</p>
+<p>I don’t update <a href="https://github.com/ericwbailey/enchilada">enchilada</a> that much anymore. It’s now more a place to centralize all the little tweaks and gotchas of web work, and less a platform for scaffolding websites.</p>
+<p>In all honestly, enchilada was intended more to be more a simple site generator, and less a blogging platform. I never originally intended for my site to be a blog, but it turns out <a href="/writing/">I enjoy writing</a>, and do it a lot!</p>
+<p>Eleventy was a natural fit for the next iteration of this site. It’s a static site generator allows me to focus on what I want to, namely writing, semantics, and CSS styling. It’s also got <a href="https://www.11ty.dev/docs/how-to-support/">a great community</a> behind it.</p>
+<p>Converting this site was straightforward. It took roughly half a day—most of that was adding metadata for posts on other sites. I did run into one little snag, namely using a directory other than <code>posts/</code> to house my writing.</p>
+<p>Fortunately, the wonderful <a href="https://daverupert.com/">Dave Rupert</a> got me sorted:</p>
+<pre class="language-js"><code class="language-js">module<span class="token punctuation">.</span><span class="token function-variable function">exports</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">eleventyConfig</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br>  <span class="token comment">// Filter source file names using a glob</span><br>  eleventyConfig<span class="token punctuation">.</span><span class="token function">addCollection</span><span class="token punctuation">(</span><span class="token string">"posts"</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">collectionApi</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br>    <span class="token keyword">return</span> collectionApi<span class="token punctuation">.</span><span class="token function">getFilteredByGlob</span><span class="token punctuation">(</span><span class="token string">"writing/*.md"</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br>  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br><span class="token punctuation">}</span><span class="token punctuation">;</span></code></pre>
+<p>How great is that? You can also target multiple directories, so something like <code>getFilteredByGlob([&quot;writing/*.md&quot;, &quot;notes/*.md&quot;])</code> is totally valid. I might poke around with <a href="https://www.netlifycms.org/">Netlify CMS</a> and get <a href="https://www.matuzo.at/til/">a TIL section</a> set up.</p>
+<p>I’m not a developer. I don’t want to wrestle with overwrought Webpack configuration, write GraphQL queries for basic navigation, or scream at types for failing to transpile or whatever. I want to <em>write</em>.</p>
+<p>This is more of the kind of content I want to self-publish: shorter, and more scoped. I still enjoy writing longform (especially about accessibility and inclusive design), but I think that kind of content is best served on other sites where there’s better reach.</p>
+<p>Anyhow, <a href="/feed/feed.xml">this site has a RSS feed</a>, if that’s your thing.</p>
+
+  </div>
+
+
+  <div id="additional">
+    
+
+    
+  </div>
+
+</main>
+
+
+
+
+
+<div itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <meta itemprop="name" content="Using a folder other than &lt;code&gt;posts/&lt;/code&gt; with Eleventy">
+</div>
+<meta itemprop="datePublished" content="2020-11-22">
+<meta itemprop="image" content="/static/favicons/social/twitter-summary-image.png">
+<div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+  <meta itemprop="name" content="Eric Bailey">
+  <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+    <div itemprop="url" content="/static/favicons/social/twitter-summary-image.png"></div>
+  </div>
+</div>
+
+  <div
+  class="u-color-background-gray"
+  id="section-navigation">
+  <h2 id="subtitle-navigation" class="u-hide-visually">
+    Navigation
+  </h2>
+
+  <nav id="nav-primary" aria-label="Primary">
+    
+    <ul
+      itemscope
+      itemtype="https://schema.org/SiteNavigationElement">
+      
+      <li>
+        <a
+          class="u-color-text-white"
+          itemprop="url"
+          aria-current="page"
+          href="/writing/">
+          Writing
+        </a>
+      </li>
+      
+      <li>
+        <a
+          class="u-color-text-white"
+          itemprop="url"
+          aria-current="page"
+          href="/speaking/">
+          Speaking
+        </a>
+      </li>
+      
+      <li>
+        <a
+          class="u-color-text-white"
+          itemprop="url"
+          aria-current="page"
+          href="/office-hours/">
+          Office Hours
+        </a>
+      </li>
+      
+    </ul>
+  </nav>
+
+  <nav id="nav-secondary" aria-label="Secondary">
+    
+    <ul
+      itemscope
+      itemtype="https://schema.org/SiteNavigationElement">
+      
+      <li>
+        <a
+          class="u-color-text-white"
+          itemprop="url"
+          aria-current="page"
+          href="/accessibility-statement/">
+          Accessibility Statement
+        </a>
+      </li>
+      
+      <li>
+        <a
+          class="u-color-text-white"
+          itemprop="url"
+          aria-current="page"
+          href="/colophon/">
+          Colophon
+        </a>
+      </li>
+      
+      <li>
+        <a
+          class="u-color-text-white"
+          itemprop="url"
+          aria-current="page"
+          href="/old-stuff/">
+          Old Stuff
+        </a>
+      </li>
+      
+    </ul>
+  </nav>
+
+  <nav id="nav-secondary" aria-label="Copyright and RSS">
+    <ul>
+      <li>
+        <a
+          class="u-color-text-white"
+          rel="copyright license"
+          itemprop="license"
+          href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+          <abbr>CC BY-NC-SA</abbr>
+        </a>
+      </li>
+      <li>
+        <a
+          class="u-color-text-white"
+          href="/feed/feed.xml">
+          <abbr>RSS</abbr>
+        </a>
+      </li>
+      <li>
+        Built with <a href="https://www.11ty.dev/">Eleventy</a> and <a href="https://www.netlify.com/">Netlify</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+</div>
+
+<script type="text/javascript" src="/js/main.js" async></script>
+
+<script type="text/javascript">
+  var _gauges = _gauges || [];
+  (function() {
+    var t   = document.createElement('script');
+    t.type  = 'text/javascript';
+    t.async = true;
+    t.id    = 'gauges-tracker';
+    t.setAttribute('data-site-id', '5bb38dd3c9a61a2115bfc7f3');
+    t.setAttribute('data-track-path', 'https://track.gaug.es/track.gif');
+    t.src = 'https://d2fuc4clr7gvcn.cloudfront.net/track.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(t, s);
+  })();
+</script>
+
+</body>
+</html>
+

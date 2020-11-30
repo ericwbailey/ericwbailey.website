@@ -10,11 +10,11 @@
     "url": "http://ericwbailey.design"
   },
   "scripts": {
-    "watch:sass": "sass --no-source-map --watch css:_site",
+    "watch:sass": "sass --no-source-map --watch source/sass:published",
     "watch:eleventy": "eleventy --serve",
-    "build:sass": "sass  --no-source-map css:_site",
+    "build:sass": "sass  --no-source-map source/sass:published",
     "build:eleventy": "eleventy",
-    "postbuild": "postcss _site/css/*.css -u autoprefixer cssnano -r",
+    "postbuild": "postcss published/*.css -u autoprefixer cssnano -r",
     "start": "npm-run-all build:sass --parallel watch:*",
     "build": "npm-run-all build:sass build:eleventy"
   },
