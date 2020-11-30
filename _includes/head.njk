@@ -46,23 +46,21 @@
     }
     p,
     img,
-    figure,
-    ol,
-    ul {
+    figure {
       margin-top: 1.5rem;
     }
     ol,
     ul {
       list-style-type: disc;
+      margin-top: 1.5rem;
       margin-left: 1.5rem;
-
-      ol,
-      ul {
-        list-style-type: circle;
-        margin-top: 0;
-        margin-left: 1.5rem;
-        margin-bottom: 1rem;
-      }
+    }
+    ol ol,
+    ul ul {
+      list-style-type: circle;
+      margin-top: 0;
+      margin-left: 1.5rem;
+      margin-bottom: 1rem;
     }
     pre {
       overflow: auto;
