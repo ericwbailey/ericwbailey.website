@@ -9,6 +9,11 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## vNext - Unreleased
 - Performance optimizations
 
+## v1.2.0 - 2020-12-30
+- Use a separate directory for site-specific files
+- Rename `_site/` to `published/`
+- Improved asset building scripts
+
 ## v1.1.2 - 2020-11-26
 - Add [So you wanna create an eco-friendly website](https://thoughtbot.com/blog/so-you-wanna-create-an-eco-friendly-website)
 
