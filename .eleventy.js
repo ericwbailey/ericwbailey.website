@@ -36,10 +36,6 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
 
 
-  // Watch targets
-  eleventyConfig.addWatchTarget("./source/sass/");
-
-
   // Filters
   eleventyConfig.addFilter("readableDate", dateObj => {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("EEEE MMMM d, yyyy");
