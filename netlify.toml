@@ -1,6 +1,6 @@
 [build]
   publish = "published"
-  command = "CI= npm run publish"
+  command = "npm rebuild"
 
 [[redirects]]
   from = "/accessibility-statement.html"
