@@ -1,3 +1,7 @@
+[build]
+  publish = "published"
+  command = "npm run publish"
+
 [[redirects]]
   from = "/accessibility-statement.html"
   to = "/accessibility-statement/"
