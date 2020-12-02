@@ -1,5 +1,11 @@
-html {
+@mixin _core-background-color() {
   background-color: var(--color-background);
+}
+
+
+html {
+  @include _core-background-color();
+
   margin: 0;
   min-height: 100%;
   overflow-y: scroll;
@@ -39,4 +45,17 @@ html {
   @-ms-viewport {
     width: device-width; // https://msdn.microsoft.com/en-us/library/hh869615(v=vs.85).aspx
   }
+}
+
+
+body {
+  @include _core-background-color(); // Extends background color to full width on an iPhone X in landscape mode: http://stephenradford.me/removing-the-white-bars-in-safari-on-iphone-x/
+
+  color: var(--color-type);
+  font-family: var(--typeface-primary);
+  font-weight: var(--font-weight-regular);
+  font-size: 125%; // 20px on most browsers
+  line-height: var(--line-height-slight);
+  min-height: 100%; // Ensure the page always fills at least the entire height of the viewport
+  overflow-x: hidden;
 }
