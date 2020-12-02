@@ -15,6 +15,10 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginNavigation);
 
 
+  // Watch
+  eleventyConfig.addWatchTarget("./source/sass/");
+
+
   // Copy
   eleventyConfig.addPassthroughCopy("./source/img");
   eleventyConfig.addPassthroughCopy("./source/js");
