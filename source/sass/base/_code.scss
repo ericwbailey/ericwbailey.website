@@ -31,6 +31,7 @@ pre {
   background-color: var(--color-background-shade);
   padding: 1rem 1.5rem;
   color: var(--color-type-tint);
+  overflow: auto;
 
   // Text-level formatting
   code {
