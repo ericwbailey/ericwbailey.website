@@ -16,7 +16,7 @@
     "compile:eleventy": "eleventy",
     "postbuild": "postcss published/*.css -u autoprefixer cssnano -r",
     "start": "npm-run-all compile:sass --parallel watch:*",
-    "publish": "npm-run-all compile:sass compile:eleventy"
+    "build": "npm-run-all compile:sass compile:eleventy"
   },
   "repository": {
     "type": "git",
