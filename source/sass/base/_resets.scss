@@ -83,7 +83,7 @@ h6 {
 }
 
 ins {
-  border-bottom: var(--border-thin) double;
+  border-bottom: var(--border-width-thin) double;
   text-decoration: none;
 }
 
@@ -117,8 +117,8 @@ input[type="week"],
 input datalist,
 select,
 textarea {
-  font-size: calc(var(--scale0) * 1rem);
-  line-height: 1.05;
+  font-size: var(--scale0);
+  line-height: 1.05; // https://twitter.com/simevidas/status/1312784025833136128
 }
 
 

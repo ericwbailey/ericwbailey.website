@@ -3,12 +3,17 @@
   --gutter: "1rem";
   --ratio: 1.125;
 
+  --scale-10: calc(var(--scale-9) / var(--ratio));
+  --scale-9: calc(var(--scale-8) / var(--ratio));
+  --scale-8: calc(var(--scale-7) / var(--ratio));
+  --scale-7: calc(var(--scale-6) / var(--ratio));
+  --scale-6: calc(var(--scale-5) / var(--ratio));
   --scale-5: calc(var(--scale-4) / var(--ratio));
   --scale-4: calc(var(--scale-3) / var(--ratio));
   --scale-3: calc(var(--scale-2) / var(--ratio));
   --scale-2: calc(var(--scale-1) / var(--ratio));
   --scale-1: calc(var(--scale0) / var(--ratio));
-  --scale0: 1;
+  --scale0: 1rem;
   --scale1: calc(var(--scale0) * var(--ratio));
   --scale2: calc(var(--scale1) * var(--ratio));
   --scale3: calc(var(--scale2) * var(--ratio));
@@ -30,13 +35,19 @@
   --animation-ease-dialogue: "ease-in";
   --animation-ease-background: "linear";
 
-  --border-thickest: 1.5vw;
-  --border-thicker: 7px;
-  --border-thick: 0.5em;
-  --border-thin: 3px;
-  --border-thinner: 2px;
-  --border-thinnest: 1px;
-  --border-hairline: 0.25em;
+  --border-radius-tiny: 0.05rem;
+  --border-radius-small: 0.25rem;
+  --border-radius-medium: 0.5rem;
+  --border-radius-large: 1rem;
+  --border-radius-circle: 100%;
+
+  --border-width-thickest: 1.5vw;
+  --border-width-thicker: 7px;
+  --border-width-thick: 0.5em;
+  --border-width-thin: 3px;
+  --border-width-thinner: 2px;
+  --border-width-thinnest: 1px;
+  --border-width-hairline: 0.25em;
 
   --color-type-tint: #{map-get($colors, "gray-lighter")};
   --color-type: #{map-get($colors, "gray")};
@@ -71,13 +82,6 @@
   --font-weight-bold: 700;
   --font-weight-black: 900;
 
-  --tracking-tight: "-.025ch";
-  --tracking-loose: "0.25ch";
-
-  --typeface-primary: "Georgia, Times, 'Times New Roman', serif";
-  --typeface-secondary: "'Helvetica Neue', Helvetica, Arial, sans-serif; ";
-  --typeface-code: "'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;";
-
   --line-height-none: 0;
   --line-height-tightest: 1;
   --line-height-tighter: 1.2;
@@ -86,9 +90,16 @@
   --line-height-looser: 1.7;
   --line-height-loosest: 2;
 
-  --shadow-small: "0 0.25rem 1rem 0";
-  --shadow-medium: "0 0.5rem 1rem 0";
-  --shadow-large: "0 -0.125rem 5.555rem -1.111rem";
+  --tracking-tight: "-0.025ch";
+  --tracking-loose: "0.25ch";
+
+  --typeface-primary: Georgia, Times, 'Times New Roman', serif;
+  --typeface-secondary: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --typeface-code: monaco, Consolas, 'Lucida Console', 'Lucida Sans Typewriter', 'Bitstream Vera Sans Mono', monospace;
+
+  --shadow-size-small: "0 0.25rem 1rem 0";
+  --shadow-size-medium: "0 0.5rem 1rem 0";
+  --shadow-size-large: "0 -0.125rem 5.555rem -1.111rem";
 
   --z-index-basement: "-999999";
   --z-index-ceiling: "999999";
