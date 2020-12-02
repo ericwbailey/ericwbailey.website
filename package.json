@@ -10,9 +10,9 @@
     "url": "http://ericwbailey.design"
   },
   "scripts": {
-    "watch:sass": "sass --embed-source-map --watch source/sass:published",
+    "watch:sass": "node-sass-chokidar ./source/sass -o ./published --watch",
     "watch:eleventy": "eleventy --serve",
-    "compile:sass": "sass --no-source-map source/sass:published",
+    "compile:sass": "node-sass-chokidar ./source/sass -o ./published",
     "compile:eleventy": "eleventy",
     "postbuild": "postcss published/*.css -u autoprefixer cssnano -r",
     "start": "npm-run-all compile:sass --parallel watch:*",
