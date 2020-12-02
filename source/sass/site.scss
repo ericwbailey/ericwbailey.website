@@ -3,17 +3,15 @@
 // Imports
 @import
   "imports/normalize",
-  "imports/fonts";
+  "imports/fonts",
 
-// Logic
-@import
+  // Logic
   "logic/map.colors",
   "logic/variables.paths",
   "logic/variables.supports",
-  "logic/variables.symbols";
+  "logic/variables.symbols",
 
-// Base
-@import
+  // Base
   "base/all",
   "base/root",
   "base/html",
@@ -24,10 +22,10 @@
   "base/links",
   "base/lists",
   "base/icons",
-  "base/tables";
+  "base/tables",
 
-// Vendor
+  // Vendor
 
-// Media
+  // Media
 
-@import "temp";
+"temp";
