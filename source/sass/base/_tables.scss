@@ -28,13 +28,13 @@ table {
   // }
 
   thead {
-    // border-bottom: $border-thinner solid $color-black; // TODO: VAR
+    border-bottom: var(--border-width-thinner) solid currentColor;
 
     tr {
 
       th {
         font-family: var(--typeface-secondary);
-        font-size: calc(var(--scale0) * 1rem);
+        font-size: var(--scale0);
         font-weight: var(--font-weight-bold);
       }
     }
@@ -44,11 +44,11 @@ table {
 
     tr {
       th {
-        // border-top: $border-thinnest solid currentColor; // TODO: VAR
+        border-top: var(--border-width-thinnest) solid currentColor;
       }
 
       td {
-        // border-top: $border-thinnest solid currentColor; // TODO: VAR
+        border-top: var(--border-width-thinnest) solid currentColor;
       }
     }
   }
@@ -58,7 +58,7 @@ table {
     tr {
 
       td {
-        // border-top: $border-thinnest solid currentColor; // TODO: VAR
+        border-top: var(--border-width-thinnest) solid currentColor;
       }
     }
   }
