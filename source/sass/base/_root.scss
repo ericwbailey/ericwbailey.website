@@ -3,6 +3,11 @@
   --gutter: "1rem";
   --ratio: 1.125;
 
+  --scale-10: calc(var(--scale-9) / var(--ratio));
+  --scale-9: calc(var(--scale-8) / var(--ratio));
+  --scale-8: calc(var(--scale-7) / var(--ratio));
+  --scale-7: calc(var(--scale-6) / var(--ratio));
+  --scale-6: calc(var(--scale-5) / var(--ratio));
   --scale-5: calc(var(--scale-4) / var(--ratio));
   --scale-4: calc(var(--scale-3) / var(--ratio));
   --scale-3: calc(var(--scale-2) / var(--ratio));
