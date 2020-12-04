@@ -116,7 +116,7 @@ Think of how many times a friend or family member has asked you to fix their com
 
 Is it so much of a stretch to imagine that a motivated individual can research and install a browser extension? Or that a technical person can create or configure a specialized software or hardware solution for someone they care about? No, of course not.
 
-For those people who self-serve, it’s also important to remember that there are levels of technical complexity, many of them unnecessarily artificial. Chances are good that someone can learn to tweak <code>.u-color-black</code> to be green without knowing what a [utility class namespace](https://adamwathan.me/css-utility-classes-and-separation-of-concerns/) is. Compare this to reverse-engineering a declaration like <code translate="no">.css-1dbjc4n.r-1awozwy.r-1iusvr4.r-16y2uox.r-1wtj0ep.r-pu8h1j.r-jzbu7t.r-bcqeeo.r-bnwqim</code>.
+For those people who self-serve, it’s also important to remember that there are levels of technical complexity, many of them unnecessarily artificial. Chances are good that someone can learn to tweak <code>.u-color-black</code> to be green without knowing what a [utility class namespace](https://adamwathan.me/css-utility-classes-and-separation-of-concerns/) is. Compare this to [reverse-engineering a declaration](https://www.arp242.net/api-ux.html) like <code translate="no">.css-1dbjc4n.r-1awozwy.r-1iusvr4.r-16y2uox.r-1wtj0ep.r-pu8h1j.r-jzbu7t.r-bcqeeo.r-bnwqim</code>.
 
 Does this mean abandoning modern frameworks and development tools entirely? No. Just remember that what they output, and how they output it is potentially another user-facing interface.
 
