@@ -1,0 +1,29 @@
+.logo {
+  border-right: 1px solid #F2F2F2;
+  grid-area: logo;
+
+  @media screen and (min-width: map-get($breakpoint, "large")) {
+    padding-top: var(--scale2);
+    padding-left: var(--scale1);
+  }
+}
+
+
+.breadcrumb {
+  grid-area: breadcrumb;
+}
+
+
+.content {
+  grid-area: content;
+}
+
+
+.additional {
+  grid-area: additional;
+}
+
+
+.sidebar {
+  grid-area: sidebar;
+}

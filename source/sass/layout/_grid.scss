@@ -1,0 +1,21 @@
+.grid {
+  display: grid;
+  grid-template-rows: auto;
+}
+
+
+.grid__post {
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "logo"
+    "content"
+    "additional"
+    "sidebar";
+
+  @media screen and (min-width: map-get($breakpoint, "large")) {
+    grid-template-columns: var(--scale5) 1fr repeat(7, 6ch) repeat(5, 1fr);
+    grid-template-areas:
+      "logo . content    content    content    content    content    content    content    . . sidebar sidebar sidebar"
+      "logo . additional additional additional additional additional additional additional . . sidebar sidebar sidebar";
+  }
+}
