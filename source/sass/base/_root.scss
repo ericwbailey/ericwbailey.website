@@ -1,7 +1,7 @@
 :root {
   --max-width: 65ch;
-  --gutter: "1rem";
-  --ratio: 1.125;
+  --gutter: 1rem;
+  --ratio: 1.414;
 
   --scale-10: calc(var(--scale-9) / var(--ratio));
   --scale-9: calc(var(--scale-8) / var(--ratio));
@@ -90,8 +90,8 @@
   --line-height-looser: 1.7;
   --line-height-loosest: 2;
 
-  --tracking-tight: "-0.025ch";
-  --tracking-loose: "0.25ch";
+  --tracking-tight: -0.025ch;
+  --tracking-loose: 0.075ch;
 
   --typeface-primary: Georgia, Times, 'Times New Roman', serif;
   --typeface-secondary: 'Helvetica Neue', Helvetica, Arial, sans-serif;
