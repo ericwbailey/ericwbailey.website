@@ -9,10 +9,13 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## vNext - Unreleased
 - Performance optimizations
 
-## v1.3.0 - 2020-12-30
+## v1.3.1 - 2020-12-09
+- Add grid-based blog post layout
+
+## v1.3.0 - 2020-11-30
 - Update [build task names](https://community.netlify.com/t/support-guide-frequently-encountered-problems-during-builds/213)
 
-## v1.2.0 - 2020-12-30
+## v1.2.0 - 2020-11-30
 - Use a separate directory for site-specific files
 - Rename `_site/` to `published/`
 - Improved asset building scripts
