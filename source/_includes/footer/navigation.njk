@@ -1,69 +1,11 @@
 <div
-  class="u-color-background-gray"
+  class="flow u-color-background-gray"
   id="section-navigation">
-  <h2 id="subtitle-navigation" class="u-hide-visually">
+  <h2 id="subtitle-navigation" class="u-hide-visually" style="margin-top:var(--scale2);">
     Navigation
   </h2>
 
-  <nav id="nav-primary" aria-label="Primary">
-    {% set primaryNav = collections.all | eleventyNavigation("Primary") %}
-    <ul
-      itemscope
-      itemtype="https://schema.org/SiteNavigationElement">
-      {% for page in primaryNav %}
-      <li>
-        <a
-          class="u-color-text-white"
-          itemprop="url"
-          {% if page.url == page.url %}aria-current="page"{% endif %}
-          href="{{ page.url }}">
-          {{ page.title }}
-        </a>
-      </li>
-      {% endfor %}
-    </ul>
-  </nav>
+  {% include "nav/primary.njk" %}
+  {% include "nav/secondary.njk" %}
 
-  <nav id="nav-secondary" aria-label="Secondary">
-    {% set primaryNav = collections.all | eleventyNavigation("Secondary") %}
-    <ul
-      itemscope
-      itemtype="https://schema.org/SiteNavigationElement">
-      {% for page in primaryNav %}
-      <li>
-        <a
-          class="u-color-text-white"
-          itemprop="url"
-          {% if page.url == page.url %}aria-current="page"{% endif %}
-          href="{{ page.url }}">
-          {{ page.title }}
-        </a>
-      </li>
-      {% endfor %}
-    </ul>
-  </nav>
-
-  <nav id="nav-secondary" aria-label="Copyright and RSS">
-    <ul>
-      <li>
-        <a
-          class="u-color-text-white"
-          rel="copyright license"
-          itemprop="license"
-          href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
-          <abbr>CC BY-NC-SA</abbr>
-        </a>
-      </li>
-      <li>
-        <a
-          class="u-color-text-white"
-          href="{{ '/feed/feed.xml' | url }}">
-          <abbr>RSS</abbr>
-        </a>
-      </li>
-      <li>
-        Built with <a href="https://www.11ty.dev/">Eleventy</a> and <a href="https://www.netlify.com/">Netlify</a>
-      </li>
-    </ul>
-  </nav>
 </div>
