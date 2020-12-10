@@ -1,7 +1,14 @@
+---
+templateClass: template-landing
+---
+
 {% include "head.njk" %}
 
 <main id="section-main" class="flow">
   <a href="{{ '/' | url }}">Home</a>
+
+  {% include "banner.njk" %}
+
   <h1 id="title">
     {{ title | safe }}
   </h1>
