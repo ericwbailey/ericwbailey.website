@@ -14,13 +14,10 @@
   {# {% include "meta/performance.njk" %} #}
 </head>
 <body
-  {% if templateClass %}class="{{ templateClass }}"{% endif %}
+  class="{% if (templateClass == "template-home") or (templateClass == "template-landing") %}framepad {% endif %}{% if templateClass %}{{ templateClass }}{% endif %}"
   itemscope itemtype="http://schema.org/ProfilePage">
 
 {% include "components/skipnav.njk" %}
 
-{% include "banner.njk" %}
-
-<div class="l-grid">
-  {# {% include "icon-sprite.njk" %} #}
-  {# {% include "components/honeypot.njk" %} #}
+{# {% include "icon-sprite.njk" %} #}
+{# {% include "components/honeypot.njk" %} #}

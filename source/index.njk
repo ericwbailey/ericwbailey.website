@@ -1,5 +1,6 @@
 ---
 layout: layouts/base.njk
+templateClass: template-home
 eleventyNavigation:
   key: Home
   order: 1
@@ -8,6 +9,8 @@ eleventyNavigation:
 <h1 id="title" class="u-hide-visually">
   {{ metadata.title }}
 </h1>
+
+{% include "banner.njk" %}
 
 {% include "homepage/about.njk" %}
 {% include "homepage/philosophy.njk" %}
