@@ -1,6 +1,11 @@
 .grid {
   display: grid;
   grid-template-rows: auto;
+  padding : var(--scale2);
+
+  @media screen and (min-width: map-get($breakpoint, "large")) {
+    padding: 0;
+  }
 }
 
 
@@ -8,6 +13,7 @@
   grid-template-columns: 1fr;
   grid-template-areas:
     "logo"
+    "banner"
     "content"
     "additional"
     "sidebar";
@@ -15,6 +21,7 @@
   @media screen and (min-width: map-get($breakpoint, "large")) {
     grid-template-columns: var(--scale5) 1fr repeat(7, 6ch) repeat(5, 1fr);
     grid-template-areas:
+      "logo . banner     banner     banner     banner     banner     banner     banner     . . sidebar sidebar sidebar"
       "logo . content    content    content    content    content    content    content    . . sidebar sidebar sidebar"
       "logo . additional additional additional additional additional additional additional . . sidebar sidebar sidebar";
   }

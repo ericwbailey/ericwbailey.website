@@ -1,7 +1,3 @@
-body {
-  margin: var(--scale4);
-  max-width:  var(--max-width);
-}
 address {
   font-style: normal;
 }
@@ -11,10 +7,10 @@ h1, h2, h3, h4, h5, h6 {
   line-height: var(--line-height-tighter);
 }
 h1 {
-  margin-top: 0;
+  // margin-top: 0;
 }
 h2 {
-  margin-top: 3rem;
+  // margin-top: 3rem;
 }
 p,
 img,
@@ -22,7 +18,7 @@ figure,
 pre,
 ol,
 ul {
-  margin-top: var(--scale4);
+  // margin-top: var(--scale4);
 }
 ol,
 ul {
@@ -33,8 +29,8 @@ ul {
   ul {
     list-style-type: circle;
     margin-top: 0;
-    margin-left: var(--scale4);
-    margin-bottom: var(--scale2);
+    margin-left: var(--scale2);
+    margin-bottom: var(--scale1);
   }
 }
 a,
@@ -53,9 +49,8 @@ a:focus {
 .banner {
   background-color: #f5ed52;
   font-family: sans-serif;
-  margin-top: var(--scale4);
-  margin-bottom: var(--scale4);
-  padding: var(--scale-10) var(--scale2) var(--scale2) var(--scale2) ;
+  margin-top: var(--scale2);
+  padding: var(--scale-10) var(--scale2) var(--scale2) var(--scale2);
 }
 .banner h2 {
   font-style: normal;
@@ -93,4 +88,55 @@ a:focus {
   .banner {
     color: #404040;
   }
+}
+.publish-date {
+  display: block;
+  font-size: var(--scale0);
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+.breadcrumb {
+  margin-top: var(--scale3);
+}
+.sidebar {
+  @media screen and (min-width: map-get($breakpoint, "large")) {
+    margin-top: var(--scale2);
+  }
+}
+.post__content {
+  margin-bottom: var(--scale3);
+}
+.additional {
+  border-top: 1px solid #F2F2F2;
+  margin-bottom: var(--scale4);
+  padding-top: var(--scale2);
+}
+.c-homepage-section {
+  margin-top: var(--scale3);
+}
+.skipnav {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+
+  &:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: absolute;
+      top: 1rem;
+      left: 1rem;
+    width: auto;
+  }
+}
+.framepad {
+  padding : var(--scale2);
+  max-width: var(--max-width);
 }
