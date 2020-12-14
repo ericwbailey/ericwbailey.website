@@ -3,6 +3,7 @@
 permalink: "{{ metadata.feed.path }}"
 eleventyExcludeFromCollections: true
 ---
+
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title>{{ metadata.title }}</title>
@@ -10,7 +11,7 @@ eleventyExcludeFromCollections: true
 	{% set absoluteUrl %}{{ metadata.feed.path | url | absoluteUrl(metadata.url) }}{% endset %}
 	<link href="{{ absoluteUrl }}" rel="self"/>
 	<link href="{{ metadata.url }}"/>
-	<updated>{{ collections.all | rssLastUpdatedDate }}</updated>
+	<updated>{{ collections.posts | rssLastUpdatedDate }}</updated>
 	<id>{{ metadata.feed.id }}</id>
 	<author>
 		<name>{{ metadata.author.name }}</name>
