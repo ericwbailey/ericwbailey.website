@@ -9,6 +9,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## vNext - Unreleased
 - Performance optimizations
 
+## v1.3.2 - 2020-12-15
+- Add [Representation Matters](https://css-tricks.com/representation-matters/)
+
 ## v1.3.1 - 2020-12-09
 - Add grid-based blog post layout
 
