@@ -140,3 +140,8 @@ a:focus {
   padding : var(--scale2);
   max-width: var(--max-width);
 }
+.grid__post {
+  li {
+    margin-top: var(--scale0);
+  }
+}
