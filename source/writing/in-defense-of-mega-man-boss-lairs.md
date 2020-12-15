@@ -3,7 +3,7 @@ layout: "layouts/post.njk"
 title: In defense of Mega Man boss lairs
 source: ericwbailey.design
 excerpt: "Mega Man games are light on plot, but do a lot of showing not telling. This happens to be my favorite form of storytelling, so of course I spent too much time thinking about the Mega Man universe"
-date: 2020-12-15
+date: 2020-12-16
 year: "2020"
 share:
   twitterImage: "share-image.png"
@@ -11,7 +11,7 @@ share:
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}
-  order: 21
+  order: 22
 ---
 
 Mega Man games are light on plot, but do a lot of [showing not telling](https://youtu.be/8FpigqfcvlM). This happens to be [my favorite form of storytelling](https://en.m.wikipedia.org/wiki/Show,_don%27t_tell), so of course I spent too much time thinking about the Mega Man universe.
