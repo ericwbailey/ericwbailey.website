@@ -2,7 +2,8 @@
 <meta content="{{ title | striptags }}" name="twitter:title" />
 <meta content="{% if excerpt %}{{ excerpt | striptags }}…{% else %}{{ metadata.description }}{% endif %}" name="twitter:description" />
 <meta content="@{{ metadata.social.twitter }}" name="twitter:site" />
-<meta content="{{ metadata.url }}/static/favicons/social/twitter-summary-image.png" name="twitter:image" />
+<meta content="{% if share %}{{ metadata.url }}/img/posts/{{ title | striptags | slugify }}/{{ share.twitterImage }}{% else %}{{ metadata.url }}/static/favicons/social/twitter-summary-image.png{% endif %}" name="twitter:image" />
+<meta content="{% if share %}{{ share.description }}{% else %}Stylized script treatment of the letter E on a light blue background.{% endif %}" name="twitter:image:alt" />
 
 <meta content="website" property="og:type" />
 <meta content="en_US" property="og:locale" />
