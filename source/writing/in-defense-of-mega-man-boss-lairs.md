@@ -85,7 +85,8 @@ Clues of this level of technological advancement are everywhere. Many robot enem
   <video
     controls
     loop
-    aria-label="A large, robotic chicken constantly laying eggs. Each egg immediately hatches, revealing a small robotic chick that runs towards the enemy.">
+    aria-label="A large, robotic chicken constantly laying eggs. Each egg immediately hatches, revealing a small robotic chick that runs towards the enemy."
+    poster="{{ '/img/posts/in-defense-of-mega-man-boss-lairs/poster-mega-man-5-cocco.png' | url }}">
     <source
       src="{{ '/img/posts/in-defense-of-mega-man-boss-lairs/mega-man-5-cocco.mp4' | url }}"
       type="video/mp4" />
@@ -111,7 +112,8 @@ The key to this puzzle is how the player begins each level by dropping from the 
   <video
     controls
     loop
-    aria-label="Mega Man falling from the sky as a narrow blue cylinder. It lands in a snowy environment with iced-over palm trees in the background.">
+    aria-label="Mega Man falling from the sky as a narrow blue cylinder. It lands in a snowy environment with iced-over palm trees in the background."
+    poster="{{ '/img/posts/in-defense-of-mega-man-boss-lairs/poster-mega-man-1-teleport.png' | url }}">>
     <source
       src="{{ '/img/posts/in-defense-of-mega-man-boss-lairs/mega-man-1-teleport.mp4' | url }}"
       type="video/mp4" />
@@ -140,7 +142,8 @@ Regardless of the technique, the operative word is *speed*. Mega Man appears out
   <video
     controls
     loop
-     aria-label="A huge robotic cat falling from the sky, much like how Mega Man does. After landing, it attacks by vomiting a metallic hairball.">
+     aria-label="A huge robotic cat falling from the sky, much like how Mega Man does. After landing, it attacks by vomiting a metallic hairball."
+     poster="{{ '/img/posts/in-defense-of-mega-man-boss-lairs/poster-mega-man-3-tama.png' | url }}">>
     <source
       src="{{ '/img/posts/in-defense-of-mega-man-boss-lairs/mega-man-3-tama.mp4' | url }}"
       type="video/mp4" />
