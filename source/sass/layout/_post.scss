@@ -6,6 +6,14 @@
     padding-top: var(--scale2);
     padding-left: var(--scale1);
   }
+
+  svg {
+    fill: var(--color-type);
+
+    @media screen and (prefers-color-scheme: dark) {
+      --color-type: #{map-get($colors, "white")};
+    }
+  }
 }
 
 

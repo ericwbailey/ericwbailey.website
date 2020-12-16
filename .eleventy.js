@@ -49,7 +49,7 @@ module.exports = function(eleventyConfig) {
   // Collections
   // Treat writing/ as a collection
   eleventyConfig.addCollection("posts", function(collectionApi) {
-    return collectionApi.getFilteredByGlob("writing/*.md");
+    return collectionApi.getFilteredByGlob("source/writing/*.md");
   });
 
   eleventyConfig.addCollection("tagList", function(collection) {

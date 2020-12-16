@@ -2,7 +2,8 @@
 <meta content="{{ title | striptags }}" name="twitter:title" />
 <meta content="{% if excerpt %}{{ excerpt | striptags }}…{% else %}{{ metadata.description }}{% endif %}" name="twitter:description" />
 <meta content="@{{ metadata.social.twitter }}" name="twitter:site" />
-<meta content="{{ metadata.url }}/static/favicons/social/twitter-summary-image.png" name="twitter:image" />
+<meta content="{% if share %}{{ metadata.url }}/img/posts/{{ title | striptags | slugify }}/{{ share.twitterImage }}{% else %}{{ metadata.url }}/static/favicons/social/twitter-summary-image.png{% endif %}" name="twitter:image" />
+<meta content="{% if share %}{{ share.twitterDescription }}{% else %}Stylized script treatment of the letter E on a light blue background.{% endif %}" name="twitter:image:alt" />
 
 <meta content="website" property="og:type" />
 <meta content="en_US" property="og:locale" />
@@ -10,7 +11,7 @@
 <meta content="{{ metadata.title }}" property="og:site_name" />
 <meta content="{% if excerpt %}{{ excerpt | striptags }}…{% else %}{{ metadata.description }}{% endif %}" property="og:description" />
 <meta content="{{ metadata.url }}" property="og:url" />
-<meta content="{{ metadata.url }}/static/favicons/social/facebook.png" property="og:image" />
-<meta content="Stylized script treatment of the words Eric W Bailey on a light blue background." property="og:image:alt" />
+<meta content="{% if share %}{{ metadata.url }}/img/posts/{{ title | striptags | slugify }}/{{ share.facebookImage }}{% else %}{{ metadata.url }}/static/favicons/social/facebook.png{% endif %}" property="og:image" />
+<meta content="{% if share %}{{ share.facebookDescription }}{% else %}Stylized script treatment of the words Eric W Bailey on a light blue background.{% endif %}" property="og:image:alt" />
 <meta content="599" property="og:image:width" />
 <meta content="314" property="og:image:height" />
