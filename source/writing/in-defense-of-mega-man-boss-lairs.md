@@ -210,4 +210,4 @@ In addition to the problems Dr. Light’s monster represents, I’m still left p
 - Why aren’t multiple Mega Mans deployed? Proto Man, Roll, etc. all indicate that Dr. Light can reproduce AGI.
 - Are other actors attempting to thwart Dr. Wily? Every villain is the hero of their own story, so maybe Dr. Light is the real problem here…
 
-Got an answer? Let’s chat it out on Twitter!
+Got an answer? Let’s [chat it out on Twitter](https://twitter.com/ericwbailey/status/1339229716503519233)!
