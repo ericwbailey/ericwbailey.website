@@ -6,8 +6,10 @@ excerpt: "Mega Man games are light on plot, but do a lot of showing not telling.
 date: 2020-12-16
 year: "2020"
 share:
-  twitterImage: "share-image.png"
-  description: "Mega Man looking concerned."
+  facebookImage: "share-image-facebook.png"
+  facebookDescription: "Crash Man's stage from Mega Man 2."
+  twitterImage: "share-image-twitter.png"
+  twitterDescription: "Mega Man looking concerned."
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}
