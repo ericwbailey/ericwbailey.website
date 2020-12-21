@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Performance optimizations
 
 ## v1.3.3 - 2020-12-16
+- Add [A website is like a puppy](https://ericwbailey.design/writing/a-website-is-like-a-puppy/)
+
+## v1.3.3 - 2020-12-16
 - Add [In defense of Mega Man boss lairs](https://ericwbailey.design/writing/in-defense-of-mega-man-boss-lairs/)
 
 ## v1.3.2 - 2020-12-15
