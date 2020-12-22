@@ -1,0 +1,26 @@
+.banner {
+  background-color: #f5ed52;
+  font-family: sans-serif;
+  margin-top: var(--scale2);
+  padding: var(--scale-10) var(--scale2) var(--scale2) var(--scale2);
+
+  h2 {
+    font-style: normal;
+    margin-top: var(--scale2);
+    margin-bottom: 0;
+  }
+
+  p {
+    margin-top: var(--scale-2);
+  }
+
+  a {
+    color: #404040;
+
+    &:focus {
+      background-color: transparent;
+      outline: initial;
+      text-decoration: none;
+    }
+  }
+}

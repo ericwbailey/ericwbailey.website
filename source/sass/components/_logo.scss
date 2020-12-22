@@ -1,0 +1,17 @@
+.logo {
+  border-right: 1px solid #F2F2F2;
+  grid-area: logo;
+
+  @media screen and (min-width: map-get($breakpoint, "large")) {
+    padding-top: var(--scale2);
+    padding-left: var(--scale1);
+  }
+
+  svg {
+    fill: var(--color-type);
+
+    @media screen and (prefers-color-scheme: dark) {
+      --color-type: #{map-get($colors, "white")};
+    }
+  }
+}
