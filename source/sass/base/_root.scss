@@ -25,29 +25,21 @@
   --scale9: calc(var(--scale8) * var(--ratio));
   --scale10: calc(var(--scale9) * var(--ratio));
 
-  --animation-duration-shortest: "100ms";
-  --animation-duration-shorter: "200ms";
-  --animation-duration-short: "300ms";
-  --animation-duration-long: "500ms";
-  --animation-duration-longer: "700ms";
-  --animation-duration-longest: "900ms";
-  --animation-ease-character: "ease-in-out";
-  --animation-ease-dialogue: "ease-in";
-  --animation-ease-background: "linear";
+  @each $name, $value in $animation-durations {
+    --animation-duration-#{$name}: #{$value};
+  }
 
-  --border-radius-tiny: 0.05rem;
-  --border-radius-small: 0.25rem;
-  --border-radius-medium: 0.5rem;
-  --border-radius-large: 1rem;
-  --border-radius-circle: 100%;
+  @each $name, $value in $animation-easing {
+    --animation-ease-#{$name}: #{$value};
+  }
 
-  --border-width-thickest: 1.5vw;
-  --border-width-thicker: 7px;
-  --border-width-thick: 0.5em;
-  --border-width-thin: 3px;
-  --border-width-thinner: 2px;
-  --border-width-thinnest: 1px;
-  --border-width-hairline: 0.25em;
+  @each $name, $value in $border-radii {
+    --border-radius-#{$name}: #{$value};
+  }
+
+  @each $name, $value in $border-widths {
+    --border-width-#{$name}: #{$value};
+  }
 
   --color-type-tint: #{map-get($colors, "gray-lighter")};
   --color-type: #{map-get($colors, "gray")};
@@ -77,29 +69,25 @@
   --color-404: #{map-get($colors, "red")};
   --color-404-shade: #{map-get($colors, "red")};
 
-  --font-weight-light: 300;
-  --font-weight-regular: 400;
-  --font-weight-bold: 700;
-  --font-weight-black: 900;
+  @each $name, $value in $type-weights {
+    --font-weight-#{$name}: #{$value};
+  }
 
-  --line-height-none: 0;
-  --line-height-tightest: 1;
-  --line-height-tighter: 1.2;
-  --line-height-tight: 1.3;
-  --line-height-slight: 1.5;
-  --line-height-looser: 1.7;
-  --line-height-loosest: 2;
+  @each $name, $value in $type-line-heights {
+    --line-height-#{$name}: #{$value};
+  }
 
-  --tracking-tight: -0.025ch;
-  --tracking-loose: 0.075ch;
+  @each $name, $value in $type-tracking {
+    --tracking-#{$name}: #{$value};
+  }
 
-  --typeface-primary: Georgia, Times, 'Times New Roman', serif;
-  --typeface-secondary: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  --typeface-code: monaco, Consolas, 'Lucida Console', 'Lucida Sans Typewriter', 'Bitstream Vera Sans Mono', monospace;
+  @each $name, $value in $type-typefaces {
+    --typeface-#{$name}: #{$value};
+  }
 
-  --shadow-size-small: "0 0.25rem 1rem 0";
-  --shadow-size-medium: "0 0.5rem 1rem 0";
-  --shadow-size-large: "0 -0.125rem 5.555rem -1.111rem";
+  @each $name, $value in $shadows {
+    --shadow-size-#{$name}: #{$value};
+  }
 
   --z-index-basement: "-999999";
   --z-index-ceiling: "999999";
