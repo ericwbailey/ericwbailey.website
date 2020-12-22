@@ -41,33 +41,16 @@
     --border-width-#{$name}: #{$value};
   }
 
-  --color-type-tint: #{map-get($colors, "gray-lighter")};
-  --color-type: #{map-get($colors, "gray")};
-  --color-type-shade: #{map-get($colors, "gray-dark")};
-  --color-background-tint: #{map-get($colors, "gray-lighter")};
-  --color-background: #{map-get($colors, "white")};
-  --color-background-shade: #{map-get($colors, "gray-dark")};
-  --color-writing-tint: #{map-get($colors, "green")};
-  --color-writing: #{map-get($colors, "green")};
-  --color-writing-shade: #{map-get($colors, "green")};
-  --color-speaking-tint: #{map-get($colors, "purple")};
-  --color-speaking: #{map-get($colors, "purple")};
-  --color-speaking-shade: #{map-get($colors, "purple")};
-  --color-office-hours-tint: #{map-get($colors, "gray")};
-  --color-office-hours: #{map-get($colors, "gray")};
-  --color-office-hours-shade: #{map-get($colors, "gray")};
-  --color-accessibility-statement-tint: #{map-get($colors, "blue")};
-  --color-accessibility-statement: #{map-get($colors, "blue")};
-  --color-accessibility-statement-shade: #{map-get($colors, "blue")};
-  --color-colophon-tint: #{map-get($colors, "gray")};
-  --color-colophon: #{map-get($colors, "gray")};
-  --color-colophon-shade: #{map-get($colors, "gray")};
-  --color-old-stuff-tint: #{map-get($colors, "yellow")};
-  --color-old-stuff: #{map-get($colors, "yellow")};
-  --color-old-stuff-shade: #{map-get($colors, "yellow")};
-  --color-404-tint: #{map-get($colors, "red")};
-  --color-404: #{map-get($colors, "red")};
-  --color-404-shade: #{map-get($colors, "red")};
+  --color-type-tint: #{map-get($colors-palette, gray-lighter)};
+  --color-type: #{map-get($colors-palette, gray)};
+  --color-type-shade: #{map-get($colors-palette, gray-dark)};
+  --color-background-tint: #{map-get($colors-palette, gray-lighter)};
+  --color-background: #{map-get($colors-palette, white)};
+  --color-background-shade: #{map-get($colors-palette, gray-dark)};
+
+  @each $name, $value in $colors-sections {
+    --color-#{$name}: #{map-get($colors-palette, $value)};
+  }
 
   @each $name, $value in $type-weights {
     --font-weight-#{$name}: #{$value};
