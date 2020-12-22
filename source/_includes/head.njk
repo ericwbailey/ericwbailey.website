@@ -12,6 +12,7 @@
 
   {% include "meta/scripts/mustard-cutting.njk" %}
   {# {% include "meta/performance.njk" %} #}
+  {% include "meta/scripts/analytics.njk" %}
 </head>
 <body
   class="{% if (templateClass == "template-home") or (templateClass == "template-landing") %}framepad {% endif %}{% if templateClass %}{{ templateClass }}{% endif %}"
