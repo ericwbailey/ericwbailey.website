@@ -6,8 +6,19 @@
   "imports/fonts",
 
   // Logic
+  "logic/map.animation-durations",
+  "logic/map.animation-easing",
+  "logic/map.border-radii",
+  "logic/map.border-widths",
   "logic/map.breakpoints",
   "logic/map.colors",
+  "logic/map.shadows",
+  "logic/map.type-line-heights",
+  "logic/map.type-tracking",
+  "logic/map.type-typefaces",
+  "logic/map.type-weights",
+  "logic/list.directions",
+  "logic/variables.global",
   "logic/variables.paths",
   "logic/variables.supports",
   "logic/variables.symbols",
@@ -25,6 +36,17 @@
   "base/tables",
 
   // Utilities
+  "utilities/border-radius",
+  "utilities/font-weight",
+  "utilities/font-size",
+  "utilities/line-height",
+  "utilities/margin",
+  "utilities/measure",
+  "utilities/padding",
+  "utilities/text-align-center",
+  "utilities/tracking",
+  "utilities/typeface",
+  "utilities/uppercase",
 
   // Layout
   "layout/flex",

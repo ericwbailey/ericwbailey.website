@@ -1,0 +1,5 @@
+@each $name, $value in $type-weights {
+  .font-weight-#{$name} {
+    font-weight: #{$value};
+  }
+}

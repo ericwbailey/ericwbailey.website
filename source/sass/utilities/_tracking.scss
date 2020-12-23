@@ -1,0 +1,5 @@
+@each $name, $value in $type-tracking {
+  .tracking-#{$name} {
+    letter-spacing: #{$value};
+  }
+}

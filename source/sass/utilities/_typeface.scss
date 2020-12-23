@@ -1,0 +1,5 @@
+@each $name, $value in $type-typefaces {
+  .typeface-#{$name} {
+    font-family: #{$value};
+  }
+}
