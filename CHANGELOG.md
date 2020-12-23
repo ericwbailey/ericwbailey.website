@@ -9,6 +9,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## vNext - Unreleased
 - Performance optimizations
 
+## v1.3.4 - 2020-12-16
+- Add utility classes
+
 ## v1.3.3 - 2020-12-16
 - Add [A website is like a puppy](https://ericwbailey.design/writing/a-website-is-like-a-puppy/)
 
