@@ -1,29 +1,16 @@
 :root {
-  --max-width: 65ch;
-  --gutter: 1rem;
-  --ratio: 1.414;
+  --max-width: #{$global-type-measure};
+  --gutter: #{$global-gutter};
+  --ratio: #{$global-ratio};
+  --scale0: #{$global-base-scale};
 
-  --scale-10: calc(var(--scale-9) / var(--ratio));
-  --scale-9: calc(var(--scale-8) / var(--ratio));
-  --scale-8: calc(var(--scale-7) / var(--ratio));
-  --scale-7: calc(var(--scale-6) / var(--ratio));
-  --scale-6: calc(var(--scale-5) / var(--ratio));
-  --scale-5: calc(var(--scale-4) / var(--ratio));
-  --scale-4: calc(var(--scale-3) / var(--ratio));
-  --scale-3: calc(var(--scale-2) / var(--ratio));
-  --scale-2: calc(var(--scale-1) / var(--ratio));
-  --scale-1: calc(var(--scale0) / var(--ratio));
-  --scale0: 1rem;
-  --scale1: calc(var(--scale0) * var(--ratio));
-  --scale2: calc(var(--scale1) * var(--ratio));
-  --scale3: calc(var(--scale2) * var(--ratio));
-  --scale4: calc(var(--scale3) * var(--ratio));
-  --scale5: calc(var(--scale4) * var(--ratio));
-  --scale6: calc(var(--scale5) * var(--ratio));
-  --scale7: calc(var(--scale6) * var(--ratio));
-  --scale8: calc(var(--scale7) * var(--ratio));
-  --scale9: calc(var(--scale8) * var(--ratio));
-  --scale10: calc(var(--scale9) * var(--ratio));
+  @for $i from 1 through $global-iteration {
+    --scale-#{$i}: calc(var(--scale-#{$i - 1}) / var(--ratio));
+  }
+
+  @for $i from 1 through $global-iteration {
+    --scale#{$i}: calc(var(--scale#{$i - 1}) * var(--ratio));
+  }
 
   @each $name, $value in $animation-durations {
     --animation-duration-#{$name}: #{$value};
