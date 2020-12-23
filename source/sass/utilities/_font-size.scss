@@ -1,0 +1,5 @@
+@for $i from 1 through $global-iteration {
+  .font-size-#{$i} {
+    font-size: var(--scale#{$i});
+  }
+}
