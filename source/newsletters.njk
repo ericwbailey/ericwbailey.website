@@ -1,0 +1,21 @@
+---
+layout: layouts/landing.njk
+title: Newsletters
+lede: "I read a lot of newsletters. Here’s the list:"
+eleventyNavigation:
+  key: Newsletters
+  parent: Orphans
+  order: 1
+---
+
+{% set newsletter = newsletters.items %}
+<ul>
+  {% for item in newsletter %}
+    <li>
+      <a href="{{ item.url }}">
+        {{ item.title | safe }}
+      </a>
+      <small style="display: block;">{{ item.description }}</small>
+    </li>
+  {% endfor %}
+</ul>
