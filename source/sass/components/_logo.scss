@@ -1,8 +1,8 @@
 .logo {
-  border-right: 1px solid #F2F2F2;
   grid-area: logo;
 
   @media screen and (min-width: map-get($breakpoint, "large")) {
+    border-right: 1px solid #F2F2F2;
     padding-top: var(--scale2);
     padding-left: var(--scale1);
   }
