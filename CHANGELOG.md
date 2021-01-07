@@ -9,6 +9,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## vNext - Unreleased
 - Performance optimizations
 
+## v1.3.6 - 2020-01-07
+- Add [Undercover Founder](https://thoughtbot.com/blog/undercover-founder)
+
 ## v1.3.5 - 2020-12-16
 - Add [Newsletters](https://ericwbailey.design/newsletters/)
 
