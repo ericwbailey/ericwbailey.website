@@ -97,7 +97,31 @@ a:focus {
 }
 
 .grid__post {
+  h3 {
+    font-style: normal;
+  }
+
   li {
     margin-top: var(--scale0);
+  }
+
+  code {
+    font-size: 85%;
+    letter-spacing: var(--tracking-code);
+    margin-left: 0.25ch;
+    margin-right: 0.25ch;
+    outline: var(--border-width-thinner) solid var(--color-type-tint);
+
+    @media screen and (prefers-color-scheme: dark) {
+      outline: var(--border-width-thinner) solid var(--color-type-shade);
+    }
+  }
+
+  pre {
+    margin-top: var(--scale2);
+  }
+
+  pre code {
+    outline: none;
   }
 }
