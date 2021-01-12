@@ -70,14 +70,14 @@ As a thought exercise, what if the Web Component naming limitation didn’t exis
 To unpack this code example some:
 
 - `<legend>` has been renamed `<form-title>`. I can count on one hand the number of developers I’ve worked with who were aware of the `<legend>` element, much less who have used it.
-- `<option>` now becomes `<select-option>`. In this model, it could be one of multiple use-based aliases for `<select>`, all with the same mappings under the hood.
+- `<option>` now becomes `<select-option>`. In this model, it could be one of multiple use-based aliases, all with the same mappings under the hood.
 - `<label>` becomes `<input-label>` to better communicate what it should be paired with.
 - `<textarea>` becomes `<input-textarea>` because honestly, `<textarea>` is just an `<input>` you can put line breaks into.
 - `<input type="submit">` becomes `<input-submit>`. I know a lot of spec wonks expressed regret on not making each input type its own element, so I’m building from that.
 
 ### Where this starts to fall apart
 
-Why isn’t everything prepended with `form-`? What happens if `<select-option>` is declared inside of `<datalist>`? Why is it `<input-submit>`, and not `<button-submit>` instead? And what about the hundreds of other corner cases I’m not smart enough to anticipate?
+Why isn’t everything prepended with `form-`? What happens if `<select-option>` is declared inside of `<datalist>`? Why is it `<input-submit>`, and not `<button-submit>` or `form-submit` instead? And what about the hundreds of other corner cases I’m not smart enough to anticipate?
 
 This post is reflective of some of the issues you run into doing this sort of work. Hopefully it also clues you into the direction Open UI would like to head.
 
@@ -85,7 +85,7 @@ This post is reflective of some of the issues you run into doing this sort of wo
 
 As mentioned previously, the presence of Web Components means that this is nothing more than a hypothetical exercise.
 
-Anything Open UI produces will ultimately have to be boiled down into single-word elements. And that’s okay! One of the most important things is making sure that new innovations don’t break an ever-growing corpus of existing content. After all, you can’t know will be important to who, or when.
+Anything Open UI produces will ultimately have to be boiled down into single-word elements. And that’s okay! One of the most important things is making sure that new innovations don’t break an ever-growing corpus of existing content. After all, you can’t know what will be important to who, or when.
 
 ## Existential threats
 
