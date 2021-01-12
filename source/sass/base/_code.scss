@@ -15,6 +15,10 @@ var {
 
 code {
   background-color: var(--color-type-tint);
+
+  @media screen and (prefers-color-scheme: dark) {
+    background-color: var(--color-type-shade);
+  }
 }
 
 
