@@ -15,7 +15,7 @@ This phenomenon indirectly came up recently in an Open UI meeting I was attendin
 
 ## Background
 
-HTML elements are single words, each one grown (relatively) organically from identified content needs. Want a button? Type `<button>` into your code editor. Want to define the main content of the page? The `<main>` element has you covered.
+HTML elements are single words, each one [grown (relatively) organically](https://www.w3.org/TR/html-design-principles/#pave-the-cowpaths) from identified content needs. Want a button? Type `<button>` into your code editor. Want to define the main content of the page? The `<main>` element has you covered.
 
 However, there are a few elements who need to be placed inside of another specific element in order to function properly. The `<option>` element is a good example of this:
 
@@ -28,7 +28,7 @@ However, there are a few elements who need to be placed inside of another specif
 </select>
 ```
 
-`<option>` can be placed inside of `<datalist>` and `<optgroup>`, as well. Thanks to HTML’s fault-tolerant nature, the content of an `<option>` element will be displayed if declared outside of `<select>`, `<datalist>`, or `<optgroup>`. It’s just that in this context you can’t do anything interactive with it.
+`<option>` can be placed inside of `<datalist>` and `<optgroup>`, as well. Thanks to [HTML’s fault-tolerant nature](https://www.w3.org/TR/html-design-principles/#degrade-gracefully), the content of an `<option>` element will be displayed if declared outside of `<select>`, `<datalist>`, or `<optgroup>`. It’s just that in this context you can’t do anything interactive with it.
 
 The `<label>` element is similar. You can write it where ever you want, but [it really only should be used with an explicit `for`/`id` attribute](https://developer.paciellogroup.com/blog/2011/07/html5-accessibility-chops-form-control-labeling/) paired with a small suite of other elements (`input`, `textarea`, `select`, etc.)
 
@@ -77,7 +77,7 @@ To unpack this code example some:
 
 ### Where this starts to fall apart
 
-Why isn’t everything prepended with `form-`? What happens if `<select-option>` is declared inside of `<datalist>`? Why is it `<input-submit>`, and not `<button-submit>` or `form-submit` instead? And what about the hundreds of other corner cases I’m not smart enough to anticipate?
+Why isn’t everything prepended with `<form-`? What happens if `<select-option>` is declared inside of `<datalist>`? Why is it `<input-submit>`, and not `<button-submit>` or `<form-submit>` instead? And what about the hundreds of other corner cases I’m not smart enough to anticipate?
 
 This post is reflective of some of the issues you run into doing this sort of work. Hopefully it also clues you into the direction Open UI would like to head.
 
@@ -97,7 +97,7 @@ To piss off as many people as possible, I guess I should also mention that I hav
 
 ## Sea change
 
-This is a moment of weird friction on the web. The platform continues to shift from a document-based model to an application-based one. Growing pains are inevitable, but I worry.
+This is a moment of weird friction on the web. The platform continues to shift from a document-based model to an application-based one. [Growing pains are inevitable](https://www.w3.org/TR/html-design-principles/#evolution-not-revolution), but I worry.
 
 In treating HTML like a compile target, I wonder if we’re turning people who are HTML-literate into the equivalent of engineers who can program in [Assembly](https://en.m.wikipedia.org/wiki/Assembly_language). We can forgive earlier spec authors for not having the gift of foresight, but I wonder if we’re doing enough as an industry to continually teach and re-teach the fundamentals.
 
