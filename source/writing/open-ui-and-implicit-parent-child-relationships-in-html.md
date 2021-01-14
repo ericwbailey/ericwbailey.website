@@ -50,25 +50,28 @@ As a thought exercise, what if the Web Component naming limitation didn’t exis
 
 ```html
 <form>
-  <form-title>Customer Support</form-title>
+  <form-section>
+    <form-title>Customer Support</form-title>
 
-  <select id="message-type">
-    <select-option value="question">Question</select-option>
-    <select-option value="feedback">Feedback</select-option>
-    <select-option value="request">Request</select-option>
-    <select-option value="cancellation">Cancellation</select-option>
-    <select-option value="other">Other</select-option>
-  </select>
+    <select id="message-type">
+      <select-option value="question">Question</select-option>
+      <select-option value="feedback">Feedback</select-option>
+      <select-option value="request">Request</select-option>
+      <select-option value="cancellation">Cancellation</select-option>
+      <select-option value="other">Other</select-option>
+    </select>
 
-  <input-label for="message">Your message</input-label>
-  <input-textarea id="message" />
+    <input-label for="message">Your message</input-label>
+    <input-textarea id="message" />
 
-  <input-submit>Send message<input-submit>
+    <input-submit>Send message<input-submit>
+  </form-section>
 </form>
 ```
 
 To unpack this code example some:
 
+- `<fieldset>` becomes `<form-section>`, a name that I think makes the element's purse way easier to grok.
 - `<legend>` has been renamed `<form-title>`. I can count on one hand the number of developers I’ve worked with who were aware of the `<legend>` element, much less who have used it.
 - `<option>` now becomes `<select-option>`. In this model, it could be one of multiple use-based aliases, all with the same mappings under the hood.
 - `<label>` becomes `<input-label>` to better communicate what it should be paired with.
