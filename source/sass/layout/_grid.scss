@@ -1,23 +1,15 @@
 .grid {
-  display: grid;
-  grid-template-rows: auto;
-  padding : var(--scale2);
+  padding: var(--scale1);
 
   @media screen and (min-width: map-get($breakpoint, "large")) {
-    padding: 0;
+    display: grid;
+    grid-template-rows: auto;
+    padding: var(--scale2);
   }
 }
 
 
 .grid__post {
-  grid-template-columns: 1fr;
-  grid-template-areas:
-    "logo"
-    "banner"
-    "content"
-    "additional"
-    "sidebar";
-
   @media screen and (min-width: map-get($breakpoint, "large")) {
     grid-template-columns: var(--scale5) 1fr repeat(7, 6ch) repeat(5, 1fr);
     grid-template-areas:
