@@ -15,7 +15,7 @@
   {% include "meta/scripts/analytics.njk" %}
 </head>
 <body
-  class="{% if (templateClass == "template-home") or (templateClass == "template-landing") %}framepad {% endif %}{% if templateClass %}{{ templateClass }}{% endif %}"
+  class="{% if templateClass %}{{ templateClass }}{% endif %}"
   itemscope itemtype="http://schema.org/ProfilePage">
 
 {% include "components/skipnav.njk" %}
