@@ -1,40 +1,39 @@
 ---
+gridLayout: grid-landing
 templateClass: template-landing
 ---
 
 {% include "head.njk" %}
 
-<div class="grid grid__post gutter">
-  {% include "components/logo.njk" %}
+{% include "components/logo.njk" %}
 
-  {% include "banner.njk" %}
+{% include "banner.njk" %}
 
-  <main
-    id="section-main"
-    class="content">
+<main
+  id="section-main"
+  class="content">
 
-    <h1
-      id="title"
-      aria-current="page">
-      {{ title | safe }}
-    </h1>
-
-    <div
-      id="content"
-      class="flow post__content">
-      <p>
-        {{ lede | safe }}
-      </p>
-
-      {{ content | safe }}
-    </div>
-  </main>
+  <h1
+    id="title"
+    aria-current="page">
+    {{ title | safe }}
+  </h1>
 
   <div
-    id="sidebar"
-    class="flow sidebar">
+    id="content"
+    class="flow post__content">
+    <p>
+      {{ lede | safe }}
+    </p>
 
-    {% include "nav/primary.njk" %}
-    {% include "nav/secondary.njk" %}
+    {{ content | safe }}
   </div>
+</main>
+
+<div
+  id="sidebar"
+  class="[ flow ] [ sidebar ]">
+
+  {% include "nav/primary.njk" %}
+  {% include "nav/secondary.njk" %}
 </div>

@@ -1,93 +1,90 @@
 ---
+gridLayout: grid-post
 templateClass: template-posts
 ---
 
 {% include "head.njk" %}
 
-<div class="grid grid__post gutter">
-  {% include "components/logo.njk" %}
+{% include "components/logo.njk" %}
+{% include "banner.njk" %}
 
-  {% include "banner.njk" %}
+<main
+  id="section-main"
+  class="content"
+  itemscope itemtype="https://schema.org/BlogPosting">
+  <meta itemprop="mainEntityOfPage" content="{{ title | slugify | url }}">
 
-  <main
-    id="section-main"
-    class="content"
-    itemscope itemtype="https://schema.org/BlogPosting">
-    <meta itemprop="mainEntityOfPage" content="{{ title | slugify | url }}">
+  <p class="breadcrumb">
+    <a href="{{ '/writing/' | url }}">Writing</a>
+  </p>
+  <h1
+    id="title"
+    style="margin-top:0;"
+    aria-current="page"
+    itemprop="name headline">
+    {{ title | safe }}
+  </h1>
 
-    <p class="breadcrumb" >
-      <a href="{{ '/writing/' | url }}">Writing</a>
-    </p>
-    <h1
-      id="title"
-      style="margin-top:0;"
-      aria-current="page"
-      itemprop="name headline">
-      {{ title | safe }}
-    </h1>
-
-    <p>
-      <time id="date-published" class="publish-date" datetime="{{ date | htmlDateString }}">
-        {{ date | readableDate }}
-      </time>
-      {% if originallyPublished %}
-        {% for source in originallyPublished %}
-          · Originally published at <a href="{{ source.url }}">{{ source.title }}</a>
-        {% endfor %}
-      {% endif %}
-    </p>
-
-    <div
-      id="content"
-      class="flow post__content"
-      itemprop="articleBody">
-      {{ content | safe }}
-    </div>
-
-    {% if (furtherReading) or (attribution) %}
-    <div
-      id="additional"
-      class="additional">
-      {% if furtherReading %}
-      <h2 id="further-reading">
-        Further reading
-      </h2>
-      <ul>
-        {% for link in furtherReading %}
-        <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-        {% endfor %}
-      </ul>
-      {% endif %}
-
-      {% if attribution %}
-      <aside
-        aria-label="Attribution"
-        class="c-attribution">
-        <p>
-          {{ attribution | safe }}
-        </p>
-      </aside>
-      {% endif %}
-    </div>
+  <p>
+    <time id="date-published" class="publish-date" datetime="{{ date | htmlDateString }}">
+      {{ date | readableDate }}
+    </time>
+    {% if originallyPublished %}
+      {% for source in originallyPublished %}
+        · Originally published at <a href="{{ source.url }}">{{ source.title }}</a>
+      {% endfor %}
     {% endif %}
-
-  </main>
+  </p>
 
   <div
-    id="sidebar"
-    class="flow sidebar">
-
-    {% include "nav/primary.njk" %}
-    {% include "nav/secondary.njk" %}
-
-    {# <ul>
-      {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
-      {%- if nextPost %}<li>Next: <a href="{{ nextPost.url | url }}">{{ nextPost.data.title }}</a></li>{% endif %}
-      {%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
-      {%- if previousPost %}<li>Previous: <a href="{{ previousPost.url | url }}">{{ previousPost.data.title }}</a></li>{% endif %}
-    </ul> #}
-
+    id="content"
+    class="flow post__content"
+    itemprop="articleBody">
+    {{ content | safe }}
   </div>
+
+  {% if (furtherReading) or (attribution) %}
+  <div
+    id="additional"
+    class="additional">
+    {% if furtherReading %}
+    <h2 id="further-reading">
+      Further reading
+    </h2>
+    <ul>
+      {% for link in furtherReading %}
+      <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if attribution %}
+    <aside
+      aria-label="Attribution"
+      class="c-attribution">
+      <p>
+        {{ attribution | safe }}
+      </p>
+    </aside>
+    {% endif %}
+  </div>
+  {% endif %}
+
+</main>
+
+<div
+  id="sidebar"
+  class="flow sidebar">
+
+  {% include "nav/primary.njk" %}
+  {% include "nav/secondary.njk" %}
+
+  {# <ul>
+    {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
+    {%- if nextPost %}<li>Next: <a href="{{ nextPost.url | url }}">{{ nextPost.data.title }}</a></li>{% endif %}
+    {%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
+    {%- if previousPost %}<li>Previous: <a href="{{ previousPost.url | url }}">{{ previousPost.data.title }}</a></li>{% endif %}
+  </ul> #}
 </div>
 
 {% include "meta/post-info.njk" %}

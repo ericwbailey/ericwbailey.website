@@ -8,16 +8,19 @@
   }
 }
 
-.grid__home {
+
+.grid-home {
   @media screen and (min-width: map-get($breakpoint, "large")) {
     grid-template-columns: 1fr;
+    max-width: $global-type-measure;
   }
 }
 
 
-.grid__post {
+.grid-post,
+.grid-landing {
   @media screen and (min-width: map-get($breakpoint, "large")) {
-    grid-template-columns: var(--scale5) 1fr repeat(7, 6ch) repeat(5, 1fr);
+    grid-template-columns: repeat(15, 1fr);
     grid-template-areas:
       "logo . banner     banner     banner     banner     banner     banner     banner     . . sidebar sidebar sidebar"
       "logo . content    content    content    content    content    content    content    . . sidebar sidebar sidebar"
