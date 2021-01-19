@@ -8,9 +8,12 @@ h1, h2, h3, h4, h5, h6 {
   line-height: var(--line-height-tighter);
 }
 
-ol,
 ul {
   list-style-type: disc;
+}
+
+ol,
+ul {
   margin-left: 1.5rem;
 
   ol,
