@@ -6,16 +6,18 @@ eleventyNavigation:
   order: 1
 ---
 
-<h1 id="title" class="u-hide-visually">
-  {{ metadata.title }}
-</h1>
+<div style="padding: var(--scale1);">
+  <h1 id="title" class="u-hide-visually">
+    {{ metadata.title }}
+  </h1>
 
-{% include "banner.njk" %}
+  {% include "banner.njk" %}
 
-{% include "homepage/about.njk" %}
-{% include "homepage/philosophy.njk" %}
-{% include "homepage/passions.njk" %}
-{% include "homepage/writing.njk" %}
-{% include "homepage/speaking.njk" %}
-{% include "homepage/projects.njk" %}
-{% include "homepage/contact.njk" %}
+  {% include "homepage/about.njk" %}
+  {% include "homepage/philosophy.njk" %}
+  {% include "homepage/passions.njk" %}
+  {% include "homepage/writing.njk" %}
+  {% include "homepage/speaking.njk" %}
+  {% include "homepage/projects.njk" %}
+  {% include "homepage/contact.njk" %}
+</div>

@@ -4,20 +4,37 @@ templateClass: template-landing
 
 {% include "head.njk" %}
 
-<main id="section-main" class="flow">
-  <a href="{{ '/' | url }}">Home</a>
+<div class="grid grid__post gutter">
+  {% include "components/logo.njk" %}
 
   {% include "banner.njk" %}
 
-  <h1 id="title">
-    {{ title | safe }}
-  </h1>
+  <main
+    id="section-main"
+    class="content">
 
-  <p>
-    {{ lede | safe }}
-  </p>
+    <h1
+      id="title"
+      aria-current="page">
+      {{ title | safe }}
+    </h1>
 
-  {{ content | safe }}
-</main>
+    <div
+      id="content"
+      class="flow post__content">
+      <p>
+        {{ lede | safe }}
+      </p>
 
-{% include "foot.njk" %}
+      {{ content | safe }}
+    </div>
+  </main>
+
+  <div
+    id="sidebar"
+    class="flow sidebar">
+
+    {% include "nav/primary.njk" %}
+    {% include "nav/secondary.njk" %}
+  </div>
+</div>
