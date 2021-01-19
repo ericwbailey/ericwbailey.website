@@ -11,6 +11,7 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 
 ## v1.3.8 - 2020-01-18
 - Add landing page grid layout
+- Move grid to the `body` element
 
 ## v1.3.7 - 2020-01-12
 - Add [Undercover Founder](https://ericwbailey.design/writing/open-ui-and-implicit-parent-child-relationships-in-html)

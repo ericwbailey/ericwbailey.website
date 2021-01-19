@@ -71,7 +71,7 @@ As a thought exercise, what if the Web Component naming limitation didn’t exis
 
 To unpack this code example some:
 
-- `<fieldset>` becomes `<form-section>`, a name that I think makes the element's purse way easier to grok.
+- `<fieldset>` becomes `<form-section>`, a name that I think makes the element's purpose way easier to grok.
 - `<legend>` has been renamed `<form-title>`. I can count on one hand the number of developers I’ve worked with who were aware of the `<legend>` element, much less who have used it.
 - `<option>` now becomes `<select-option>`. In this model, it could be one of multiple use-based aliases, all with the same mappings under the hood.
 - `<label>` becomes `<input-label>` to better communicate what it should be paired with.
