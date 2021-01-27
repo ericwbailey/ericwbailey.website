@@ -9,6 +9,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## vNext - Unreleased
 - Performance optimizations
 
+## v1.3.9 - 2020-01-26
+- Add [An introduction to macOS Head Pointer](https://thoughtbot.com/blog/an-introduction-to-macos-head-pointer)
+
 ## v1.3.8 - 2020-01-18
 - Add landing page grid layout
 - Move grid to the `body` element
