@@ -9,6 +9,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## vNext - Unreleased
 - Performance optimizations
 
+## v1.3.10 - 2020-01-28
+- Add [How-to: Use the tabindex attribute](https://www.a11yproject.com/posts/2021-01-28-how-to-use-the-tabindex-attribute/)
+
 ## v1.3.9 - 2020-01-26
 - Add [An introduction to macOS Head Pointer](https://thoughtbot.com/blog/an-introduction-to-macos-head-pointer)
 
