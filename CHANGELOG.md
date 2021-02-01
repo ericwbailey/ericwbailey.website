@@ -9,6 +9,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## vNext - Unreleased
 - Performance optimizations
 
+## v1.3.12 - 2020-02-02
+- Add a [blogroll](https://ericwbailey.design/blogroll)
+
 ## v1.3.11 - 2020-02-01
 - Add [Presentation panic](https://ericwbailey.design/writing/presentation-panic)
 
