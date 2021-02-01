@@ -1,0 +1,1952 @@
+{
+  "items": [
+    {
+      "blog": {
+        "name": "Aaron Gustafson",
+        "url": "https://www.aaron-gustafson.com/notebook/"
+      },
+      "twitter": "AaronGustafson",
+      "feed": "http://aaron-gustafson.com/atom.xml"
+    },
+    {
+      "blog": {
+        "name": "Aaron Leventhal",
+        "url": "https://accessgarage.wordpress.com/"
+      },
+      "twitter": "aaronlev",
+      "feed": "https://accessgarage.wordpress.com/feed/"
+    },
+    {
+      "blog": {
+        "name": "Adam Norris",
+        "url": "https://acnorris.uk/blog/"
+      },
+      "twitter": "acnorrisuk",
+      "feed": "https://acnorris.uk/feed/feed.xml"
+    },
+    {
+      "blog": {
+        "name": "Adam Silver",
+        "url": "https://adamsilver.io/articles/"
+      },
+      "twitter": "adambsilver",
+      "feed": "https://adamsilver.io/atom.xml"
+    },
+    {
+      "blog": {
+        "name": "Adem Cifcioglu",
+        "url": "https://ademcifcioglu.com.au/blog/"
+      },
+      "twitter": "ademcifci",
+      "feed": "https://ademcifcioglu.com.au/feed/"
+    },
+    {
+      "blog": {
+        "name": "Adrian Roselli",
+        "url": "https://adrianroselli.com/"
+      },
+      "twitter": "aardrian",
+      "feed": "https://adrianroselli.com/feed/"
+    },
+    {
+      "blog": {
+        "name": "Ahmad Shadeed",
+        "url": "https://ishadeed.com/articles/"
+      },
+      "twitter": "shadeed9",
+      "feed": "https://ishadeed.com/feed.xml"
+    },
+    {
+      "blog": {
+        "name": "Aisha Blake",
+        "url": "https://aisha.codes/"
+      },
+      "twitter": "AishaBlake",
+      "feed": "https://aisha.codes/rss.xml"
+    },
+    {
+      "blog": {
+        "name": "Alastair Campbell",
+        "url": "https://alastairc.uk/blog/"
+      },
+      "twitter": "alastc",
+      "feed": "https://alastairc.uk/feed/"
+    },
+    {
+      "blog": {
+        "name": "Alex Carpenter",
+        "url": "https://alexcarpenter.me/posts"
+      },
+      "twitter": "hybrid_alex",
+      "feed": "https://alexcarpenter.me/feed.xml"
+    },
+    {
+      "blog": {
+        "name": "Ally Palanzi",
+        "url": "https://allypalanzi.com/writing/"
+      },
+      "twitter": "mylifeasalllly",
+      "feed": "https://allypalanzi.com/feed.xml"
+    },
+    {
+      "blog": {
+        "name": "Amber Wilson",
+        "url": "https://amberwilson.co.uk/blog/"
+      },
+      "twitter": "ambrwlsn90",
+      "feed": "https://amberwilson.co.uk/rss.xml"
+    },
+    {
+      "blog": {
+        "name": "Amberley Romo",
+        "url": "https://amberley.dev/blog"
+      },
+      "twitter": "amber1ey"
+    },
+    {
+      "blog": {
+        "name": "Amelia Wattenberger",
+        "url": "https://wattenberger.com/blog"
+      },
+      "twitter": "Wattenberger",
+      "feed": "https://wattenberger.com/rss"
+    },
+    {
+      "blog": {
+        "name": "Amy Carney",
+        "url": "https://carneydevelopit.wordpress.com/"
+      },
+      "twitter": "click2carney",
+      "feed": "https://carneydevelopit.wordpress.com/feed/"
+    },
+    {
+      "blog": {
+        "name": "Amy Hupe",
+        "url": "https://amyhupe.co.uk/articles/"
+      },
+      "twitter": "Amy_Hupe",
+      "feed": "https://amyhupe.co.uk/atom.xml"
+    },
+    {
+      "blog": {
+        "name": "Andres Galante",
+        "url": "http://andresgalante.com/"
+      },
+      "twitter": "andresgalante",
+      "feed": "http://andresgalante.com/feed"
+    },
+    {
+      "blog": {
+        "name": "Andrew Hinton",
+        "url": "https://andrewhinton.com/blog/"
+      },
+      "twitter": "inkblurt",
+      "feed": "https://andrewhinton.com/feed/"
+    },
+    {
+      "blog": {
+        "name": "Anna Debenham",
+        "url": "https://www.maban.co.uk/writing/"
+      },
+      "twitter": "anna_debenham"
+    },
+    {
+      "blog": {
+        "name": "Anselm Hannemann",
+        "url": "https://helloanselm.com/writings"
+      },
+      "twitter": "helloanselm",
+      "feed": "http://helloanselm.com/atom.xml"
+    },
+    {
+      "blog": {
+        "name": "Andy Bell",
+        "url": "https://piccalil.li/blog"
+      },
+      "twitter": "piccalilli_",
+      "feed": "https://piccalil.li/feed.xml"
+    },
+    {
+      "blog": {
+        "name": "Andy Davies",
+        "url": "https://andydavies.me/"
+      },
+      "twitter": "AndyDavies",
+      "feed": "https://feeds.feedburner.com/andydavies"
+    },
+    {
+      "blog": {
+        "name": "Anne Gibson",
+        "url": "http://kirabug.com/"
+      },
+      "twitter": "kirabug",
+      "feed": "http://kirabug.com/feed/"
+    },
+    {
+      "blog": {
+        "name": "Ashlee M Boyer",
+        "url": "https://ashleemboyer.com/"
+      },
+      "twitter": "AshleeMBoyer"
+    },
+    {
+      "blog": {
+        "name": "Austin Gil",
+        "url": "https://austingil.com/blog/"
+      },
+      "twitter": "Stegosource",
+      "feed": "https://stegosource.com/feed/"
+    },
+    {
+      "blog": {
+        "name": "Ben Frain",
+        "url": "https://benfrain.com/blog/"
+      },
+      "twitter": "benfrain",
+      "feed": "https://benfrain.com/feed/"
+    },
+    {
+      "blog": {
+        "name": "Ben Myers",
+        "url": "https://benmyers.dev/"
+      },
+      "twitter": "BenDMyers"
+    },
+    {
+      "blog": {
+        "name": "Ben Robertson",
+        "url": "https://benrobertson.io/blog"
+      },
+      "twitter": "benrobertsonio",
+      "feed": "https://benrobertson.io/feed.xml"
+    },
+    {
+      "blog": {
+        "name": "Blake Watson",
+        "url": "https://blakewatson.com/microblog/"
+      },
+      "twitter": "blakewatson",
+      "feed": "https://blakewatson.com/feed"
+    },
+    {
+      "blog": {
+        "name": "Brad Frost",
+        "url": "https://bradfrost.com/blog/"
+      },
+      "twitter": "brad_frost",
+      "feed": "https://feeds.feedburner.com/brad-frosts-blog"
+    },
+    {
+      "blog": {
+        "name": "Bradley Taunt",
+        "url": "https://uglyduck.ca/articles/"
+      },
+      "twitter": "bradtaunt",
+      "feed": "https://uglyduck.ca/atom.xml"
+    },
+    {
+      "blog": {
+        "name": "Bramus Van Damme",
+        "url": "https://www.bram.us/category/original-content/"
+      },
+      "twitter": "bramus",
+      "feed": "https://www.bram.us/category/original-content/feed/"
+    },
+    {
+      "blog": {
+        "name": "Brian Kardell",
+        "url": "https://bkardell.com/"
+      },
+      "twitter": "briankardell",
+      "feed": "https://bkardell.com/blog/feed.rss"
+    },
+    {
+      "blog": {
+        "name": "Bruce Lawson",
+        "url": "https://www.brucelawson.co.uk/archive/"
+      },
+      "twitter": "brucel",
+      "feed": "feed:https://www.brucelawson.co.uk/feed/"
+    },
+    {
+      "blog": {
+        "name": "Catalin Rosu",
+        "url": "https://catalin.red/archive/"
+      },
+      "twitter": "catalinred",
+      "feed": "http://www.red-team-design.com/feed/"
+    },
+    {
+      "blog": {
+        "name": "Caitlin Geier",
+        "url": "http://www.caitlingeier.com/blog/"
+      },
+      "twitter": "CaitlinGeier",
+      "feed": "http://www.caitlingeier.com/feed/"
+    },
+    {
+      "blog": {
+        "name": "Caitlyn Mayers",
+        "url": "https://caitlynmayers.com/blog.html"
+      },
+      "twitter": "caitlynmayers"
+    },
+    {
+      "blog": {
+        "name": "Cameron Cundiff",
+        "url": "https://www.ckundo.com/"
+      },
+      "twitter": "ckundo"
+    },
+    {
+      "blog": {
+        "name": "Cassie Evans",
+        "url": "https://www.cassie.codes/writing/"
+      },
+      "twitter": "cassiecodes",
+      "feed": "https://www.cassie.codes/feed.xml"
+    },
+    {
+      "blog": {
+        "name": "Cathy Dutton",
+        "url": "https://cathydutton.co.uk/posts/"
+      },
+      "twitter": "cathy_dutton",
+      "feed": "https://cathydutton.co.uk/feed.xml"
+    },
+    {
+      "blog": {
+        "name": "Charlie Gerard",
+        "url": "https://charliegerard.dev/blog"
+      },
+      "twitter": "devdevcharlie",
+      "feed": "https://charliegerard.dev/rss.xml"
+    },
+    {
+      "blog": {
+        "name": "Charlie Owen",
+        "url": "https://www.sonniesedge.net/articles"
+      },
+      "twitter": "sonniesedge",
+      "feed": "https://www.sonniesedge.net/rss/everything.xml"
+    },
+    {
+      "blog": {
+        "name": "Chen Hui Jing",
+        "url": "https://chenhuijing.com/blog/"
+      },
+      "twitter": "hj_chen",
+      "feed": "https://chenhuijing.com/feed.xml"
+    },
+    {
+      "blog": {
+        "name": "Cherry Thompson",
+        "url": "https://www.cherryrae.com/blog"
+      },
+      "twitter": "cherryrae"
+    },
+    {
+      "blog": {
+        "name": "Chip Cullen",
+        "url": "https://chipcullen.com/"
+      },
+      "twitter": "chipcullen",
+      "feed": "https://chipcullen.com/index.xml"
+    },
+    {
+      "blog": {
+        "name": "Chris Cid",
+        "url": "https://www.cjcid.com/articles/"
+      },
+      "twitter": "cjcid",
+      "feed": "https://www.cjcid.com/feeds/articles.xml"
+    },
+    {
+      "blog": {
+        "name": "Chris Coyier",
+        "url": "https://chriscoyier.net/blog/"
+      },
+      "twitter": "chriscoyier",
+      "feed": "http://chriscoyier.net/feed/"
+    },
+    {
+      "blog": {
+        "name": "Christopher Schmitt",
+        "url": "http://christopher.org/blog/"
+      },
+      "twitter": "teleject",
+      "feed": "http://christopherschmitt.com/rss/"
+    },
+    {
+      "blog": {
+        "name": "Dan Perrera",
+        "url": "https://perrera.com/"
+      },
+      "twitter": "dperrera",
+      "feed": "https://perrera.com/feed.json"
+    },
+    {
+      "blog": {
+        "name": "Dan Wilson",
+        "url": "https://danielcwilson.com/blog/"
+      },
+      "twitter": "dancwilson",
+      "feed": "https://danielcwilson.com/feed.xml"
+    },
+    {
+      "blog": {
+        "name": "Daniel E Sandoval",
+        "url": "https://desandoval.net/posts/"
+      },
+      "twitter": "d3sandoval",
+      "feed": "https://desandoval.net/index.xml"
+    },
+    {
+      "blog": {
+        "name": "Darice de Cuba",
+        "url": "https://www.darice.org/"
+      },
+      "twitter": "Darice",
+      "feed": "https://www.darice.org/feed/"
+    },
+    {
+      "blog": {
+        "name": "Dave Rupert",
+        "url": "https://daverupert.com/archive/"
+      },
+      "twitter": "davatron5000",
+      "feed": "https://daverupert.com/atom.xml"
+    },
+    {
+      "blog": {
+        "name": "David Dias",
+        "url": "https://thedaviddias.dev/blog"
+      },
+      "twitter": "TheDavidDias"
+    },
+    {
+      "blog": {
+        "name": "David Hoang",
+        "url": "https://www.davidhoang.com/blog"
+      },
+      "twitter": "davidhoang",
+      "feed": "https://davidhoang.substack.com/feed/"
+    },
+    {
+      "blog": {
+        "name": "David A. Kennedy",
+        "url": "https://davidakennedy.com/blog/"
+      },
+      "twitter": "DavidAKennedy",
+      "feed": "https://davidakennedy.com/feed/"
+    },
+    {
+      "blog": {
+        "name": "David Sleight",
+        "url": "https://stuntbox.com/blog/"
+      },
+      "twitter": "stuntbox",
+      "feed": "https://stuntbox.com/feed/"
+    },
+    {
+      "blog": {
+        "name": "David Sloan",
+        "url": "https://58sound.com/"
+      },
+      "twitter": "sloandr",
+      "feed": "https://58sound.com/feed/"
+    },
+    {
+      "blog": {
+        "name": "Deborah Edwards-Oñoro",
+        "url": "https://www.lireo.com/blog/"
+      },
+      "twitter": "redcrew",
+      "feed": "https://www.lireo.com/feed/"
+    },
+    {
+      "blog": {
+        "name": "Dennis Deacon",
+        "url": "http://www.dennisdeacon.com/"
+      },
+      "twitter": "deconspray",
+      "feed": "http://www.dennisdeacon.com/feed/"
+    },
+    {
+      "blog": {
+        "name": "Dennis Lembrée",
+        "url": "http://www.webaxe.org/"
+      },
+      "twitter": "dennisl",
+      "feed": "http://www.webaxe.org/feed/"
+    },
+    {
+      "blog": {
+        "name": "Derek Featherstone",
+        "url": "https://feather.ca/"
+      },
+      "twitter": "feather",
+      "feed": "https://feather.ca/rss.xml"
+    },
+    {
+      "blog": {
+        "name": "Divya",
+        "url": "https://shortdiv.com/"
+      },
+      "twitter": "shortdiv",
+      "feed": "https://shortdiv.com/index.xml"
+    },
+    {
+      "blog": {
+        "name": "Doug Schepers",
+        "url": "http://schepers.cc/"
+      },
+      "twitter": "shepazu",
+      "feed": "http://schepers.cc/feed"
+    },
+    {
+      "blog": {
+        "name": "Dudley Storey",
+        "url": "http://thenewcode.com/"
+      },
+      "twitter": "dudleystorey",
+      "feed": "http://thenewcode.com/feed.php"
+    },
+    {
+      "blog": {
+        "name": "Dylan Wilbanks",
+        "url": "http://dylanwilbanks.com/blog/"
+      },
+      "twitter": "dylanw",
+      "feed": "http://dylanwilbanks.com/blog/feed/"
+    },
+    {
+      "blog": {
+        "name": "Eric Eggert",
+        "url": "https://yatil.net/posts/"
+      },
+      "twitter": "yatil",
+      "feed": "https://yatil.net/feed/"
+    },
+    {
+      "blog": {
+        "name": "Eric Meyer",
+        "url": "https://meyerweb.com/eric/thoughts/"
+      },
+      "twitter": "meyerweb",
+      "feed": "https://meyerweb.com/eric/thoughts/feed/"
+    },
+    {
+      "blog": {
+        "name": "Erik Kroes",
+        "url": "https://www.erikkroes.nl/blog/"
+      },
+      "twitter": "erikkroes",
+      "feed": "https://www.erikkroes.nl/feed/"
+    },
+    {
+      "blog": {
+        "name": "Erin Newby",
+        "url": "https://www.erinnewby.com/new-blog"
+      },
+      "twitter": "Erin_Newby",
+      "feed": "https://www.erinnewby.com/work?format=rss"
+    },
+    {
+      "blog": {
+        "name": "Ernie Smith",
+        "url": "https://tedium.co/"
+      },
+      "twitter": "ShortFormErnie",
+      "feed": "https://feed.tedium.co/"
+    },
+    {
+      "blog": {
+        "name": "Estelle Weyl",
+        "url": "http://www.standardista.com/"
+      },
+      "twitter": "estellevw",
+      "feed": "http://www.standardista.com/feed/"
+    },
+    {
+      "blog": {
+        "name": "Ethan Marcotte",
+        "url": "https://ethanmarcotte.com/wrote/"
+      },
+      "twitter": "beep",
+      "feed": "https://ethanmarcotte.com/wrote/feed.xml"
+    },
+    {
+      "blog": {
+        "name": "fantasai",
+        "url": "http://fantasai.inkedblade.net/weblog/"
+      },
+      "twitter": "fantasai",
+      "feed": "http://fantasai.inkedblade.net/weblog/all/rss1"
+    },
+    {
+      "blog": {
+        "name": "Frank Chimero",
+        "url": "https://frankchimero.com/"
+      },
+      "twitter": "frank_chimero",
+      "feed": "https://frankchimero.com/feed.xml"
+    },
+    {
+      "blog": {
+        "name": "Gemma Petrie",
+        "url": "https://www.gemmapetrie.com/blog"
+      },
+      "twitter": "GemmaPetrie",
+      "feed": "http://feeds.feedburner.com/GemmaPetrie"
+    },
+    {
+      "blog": {
+        "name": "Gift Egwuenu",
+        "url": "https://www.giftegwuenu.dev/writing/"
+      },
+      "twitter": "lauragift_"
+    },
+    {
+      "blog": {
+        "name": "Greg Whitworth",
+        "url": "http://www.gwhitworth.com/blog/"
+      },
+      "twitter": "gregwhitworth"
+    },
+    {
+      "blog": {
+        "name": "Harry Roberts",
+        "url": "https://csswizardry.com/archive/"
+      },
+      "twitter": "csswizardry",
+      "feed": "http://csswizardry.com/feed.xml"
+    },
+    {
+      "blog": {
+        "name": "Henry Desroches",
+        "url": "https://henry.codes/writing"
+      },
+      "twitter": "xdesro"
+    },
+    {
+      "blog": {
+        "name": "Heydon Pickering",
+        "url": "https://heydonworks.com/latest/"
+      },
+      "twitter": "heydonworks",
+      "feed": "https://heydonworks.com/feed.xml"
+    },
+    {
+      "blog": {
+        "name": "Hidde de Vries",
+        "url": "https://hiddedevries.nl/en/blog/"
+      },
+      "twitter": "hdv",
+      "feed": "https://hiddedevries.nl/rss/full/"
+    },
+    {
+      "blog": {
+        "name": "Ian Devlin",
+        "url": "https://iandevlin.com/blog/"
+      },
+      "twitter": "iandevlin"
+    },
+    {
+      "blog": {
+        "name": "Ian Pouncey",
+        "url": "https://ianpouncey.com/"
+      },
+      "twitter": "IanPouncey",
+      "feed": "https://ianpouncey.com/feed/"
+    },
+    {
+      "blog": {
+        "name": "Ian Storm Taylor",
+        "url": "https://ianstormtaylor.com/"
+      },
+      "twitter": "ianstormtaylor",
+      "feed": "http://ianstormtaylor.com/atom.xml"
+    },
+    {
+      "blog": {
+        "name": "Imani Barbarin",
+        "url": "https://crutchesandspice.com/"
+      },
+      "twitter": "Imani_Barbarin",
+      "feed": "https://crutchesandspice.com/feed/"
+    },
+    {
+      "blog": {
+        "name": "Ira F. Cummings",
+        "url": "http://www.iracummings.com/blog/"
+      },
+      "twitter": "irafcummings"
+    },
+    {
+      "blog": {
+        "name": "Ire Aderinokun",
+        "url": "https://bitsofco.de/"
+      },
+      "twitter": "ireaderinokun",
+      "feed": "https://bitsofco.de/rss/"
+    },
+    {
+      "blog": {
+        "name": "Jackie Balzer",
+        "url": "http://jackiebalzer.com/"
+      },
+      "twitter": "jackiebackwards"
+    },
+    {
+      "blog": {
+        "name": "James Williamson,",
+        "url": "http://simpleprimate.com/index.html"
+      },
+      "feed": "http://simpleprimate.com/feed.xml"
+    },
+    {
+      "blog": {
+        "name": "Jamie Knight,",
+        "url": "https://spacedoutandsmiling.com/blog/"
+      },
+      "twitter": "spacedoutsmiles"
+    },
+    {
+      "blog": {
+        "name": "Jamie Teh",
+        "url": "https://www.jantrid.net/"
+      },
+      "twitter": "jcsteh",
+      "feed": "https://www.jantrid.net/feeds/posts/default/"
+    },
+    {
+      "blog": {
+        "name": "Janet Riley",
+        "url": "https://janetriley.net/"
+      },
+      "twitter": "janet_riley_net",
+      "feed": "http://janetriley.net/feed.xml"
+    },
+    {
+      "blog": {
+        "name": "Jared Sinclair",
+        "url": "https://jaredsinclair.com/"
+      },
+      "twitter": "jaredsinclair",
+      "feed": "https://jaredsinclair.com/feed.xml"
+    },
+    {
+      "blog": {
+        "name": "Jason Pamental",
+        "url": "https://rwt.io/blog"
+      },
+      "twitter": "jpamental",
+      "feed": "https://rwt.io/typography-tips/feed"
+    },
+    {
+      "blog": {
+        "name": "Jason Santa Maria",
+        "url": "https://jasonsantamaria.com/articles/"
+      },
+      "twitter": "jasonsantamaria",
+      "feed": "https://feeds.feedburner.com/jsm-rss"
+    },
+    {
+      "blog": {
+        "name": "Jeffrey Zeldman",
+        "url": "https://www.zeldman.com/"
+      },
+      "twitter": "zeldman",
+      "feed": "https://www.zeldman.com/feed"
+    },
+    {
+      "blog": {
+        "name": "Jen Kramer",
+        "url": "https://learnnocode.dev/"
+      },
+      "twitter": "jen4web",
+      "feed": "http://learnnocode.dev/feed.xml"
+    },
+    {
+      "blog": {
+        "name": "Jen Morrow",
+        "url": "http://www.donotlick.com/blog/"
+      },
+      "twitter": "Boriss",
+      "feed": "http://www.donotlick.com/feed/"
+    },
+    {
+      "blog": {
+        "name": "Jeremy Church",
+        "url": "https://j.eremy.net/"
+      },
+      "twitter": "jeremybchurch",
+      "feed": "https://j.eremy.net/feed/"
+    },
+    {
+      "blog": {
+        "name": "Jeremy Keith",
+        "url": "https://adactio.com/articles"
+      },
+      "twitter": "adactio",
+      "feed": "https://adactio.com/articles/rss"
+    },
+    {
+      "blog": {
+        "name": "Jeremy Neander",
+        "url": "https://www.jneander.com/writing/"
+      },
+      "twitter": "jeremyneander"
+    },
+    {
+      "blog": {
+        "name": "Jeremy Wagner",
+        "url": "https://jeremy.codes/writing/"
+      },
+      "twitter": "malchata",
+      "feed": "https://jeremy.codes/rss.xml"
+    },
+    {
+      "blog": {
+        "name": "Jerry Jones",
+        "url": "https://jerryjones.dev/"
+      },
+      "twitter": "juryjowns",
+      "feed": "https://jerryjones.dev/feed/"
+    },
+    {
+      "blog": {
+        "name": "Jim Kang",
+        "url": "https://jimkang.com/weblog/"
+      },
+      "feed": "https://jimkang.com/weblog/feed.xml"
+    },
+    {
+      "blog": {
+        "name": "Joe Dolson",
+        "url": "https://www.joedolson.com/blog/"
+      },
+      "twitter": "joedolson",
+      "feed": "https://www.joedolson.com/feed/"
+    },
+    {
+      "blog": {
+        "name": "Joel Califa",
+        "url": "http://joelcalifa.com/blog/"
+      },
+      "twitter": "notdetails"
+    },
+    {
+      "blog": {
+        "name": "Johnny Taylor",
+        "url": "https://abledaccess.com/"
+      },
+      "twitter": "abledaccess",
+      "feed": "https://abledaccess.com/feed/"
+    },
+    {
+      "blog": {
+        "name": "Jon Gibbins",
+        "url": "https://dotjay.com/blog"
+      },
+      "twitter": "dotjay",
+      "feed": "https://dotjay.com/feed/"
+    },
+    {
+      "blog": {
+        "name": "Jonathan Snook",
+        "url": "https://snook.ca/archives/"
+      },
+      "twitter": "snookca",
+      "feed": "http://feeds.feedburner.com/snookca"
+    },
+    {
+      "blog": {
+        "name": "Joni Korpi",
+        "url": "https://jonikorpi.com/"
+      },
+      "twitter": "jonikorpi"
+    },
+    {
+      "blog": {
+        "name": "Joseph O’Connor",
+        "url": "http://accessiblejoe.com/"
+      },
+      "twitter": "AccessibleJoe",
+      "feed": "http://accessiblejoe.com/feed/"
+    },
+    {
+      "blog": {
+        "name": "Josh Clayton",
+        "url": "https://joshuaclayton.me/posts/"
+      },
+      "twitter": "joshuaclayton"
+    },
+    {
+      "blog": {
+        "name": "Josh W. Comeau",
+        "url": "https://www.joshwcomeau.com/tutorials/"
+      },
+      "twitter": "JoshWComeau",
+      "feed": "https://www.joshwcomeau.com/rss.xml"
+    },
+    {
+      "blog": {
+        "name": "Julia Evans",
+        "url": "https://jvns.ca/"
+      },
+      "twitter": "b0rk",
+      "feed": "http://jvns.ca/atom.xml"
+    },
+    {
+      "blog": {
+        "name": "Julie Grundy",
+        "url": "http://www.juliegrundy.id.au/articles.php"
+      },
+      "twitter": "stringy"
+    },
+    {
+      "blog": {
+        "name": "Justin McDowell",
+        "url": "http://revoltpuppy.com/archive"
+      },
+      "twitter": "revoltpuppy",
+      "feed": "http://revoltpuppy.com/atom/"
+    },
+    {
+      "blog": {
+        "name": "K. Adam White",
+        "url": "https://www.kadamwhite.com/blog"
+      },
+      "twitter": "kadamwhite",
+      "feed": "https://www.kadamwhite.com/feed"
+    },
+    {
+      "blog": {
+        "name": "Karen McGrane",
+        "url": "https://karenmcgrane.com/articles/  "
+      },
+      "twitter": "karenmcgrane",
+      "feed": "https://karenmcgrane.com/feed/"
+    },
+    {
+      "blog": {
+        "name": "Karl Groves",
+        "url": "https://karlgroves.com/"
+      },
+      "twitter": "karlgroves"
+    },
+    {
+      "blog": {
+        "name": "Karolina Szczur",
+        "url": "https://thefox.is/writing"
+      },
+      "twitter": "fox"
+    },
+    {
+      "blog": {
+        "name": "Kat Fukui",
+        "url": "https://www.tinykat.cafe/blog"
+      },
+      "twitter": "katfukui"
+    },
+    {
+      "blog": {
+        "name": "Kathleen McMahon",
+        "url": "https://www.kathleenmcmahon.dev/write/"
+      },
+      "twitter": "resource11",
+      "feed": "https://www.kathleenmcmahon.dev/rss.xml"
+    },
+    {
+      "blog": {
+        "name": "Katie Sylor-Miller",
+        "url": "https://sylormiller.com/writing/"
+      },
+      "twitter": "ksylor",
+      "feed": "https://sylormiller.com/feed/feed.xml"
+    },
+    {
+      "blog": {
+        "name": "Keith J. Grant",
+        "url": "https://keithjgrant.com/posts/"
+      },
+      "twitter": "keithjgrant",
+      "feed": "https://keithjgrant.com/posts/index.xml"
+    },
+    {
+      "blog": {
+        "name": "Kelsey Scherer",
+        "url": "http://www.kelseyscherer.com/writing"
+      },
+      "twitter": "kelsa_"
+    },
+    {
+      "blog": {
+        "name": "Kilian Valkhof",
+        "url": "https://kilianvalkhof.com/"
+      },
+      "twitter": "kilianvalkhof",
+      "feed": "http://kilianvalkhof.com/feed/"
+    },
+    {
+      "blog": {
+        "name": "Kitt Hodsden",
+        "url": "https://kitt.hodsden.org/"
+      },
+      "twitter": "kitt",
+      "feed": "http://kitt.hodsden.org/node/feed"
+    },
+    {
+      "blog": {
+        "name": "Kitty Giraudel",
+        "url": "https://hugogiraudel.com/"
+      },
+      "twitter": "HugoGiraudel",
+      "feed": "https://hugogiraudel.com/rss/index.xml"
+    },
+    {
+      "blog": {
+        "name": "Khoi Vinh",
+        "url": "https://www.subtraction.com/"
+      },
+      "twitter": "khoi",
+      "feed": "https://feeds2.feedburner.com/subtraction"
+    },
+    {
+      "blog": {
+        "name": "Kjell Reigstad",
+        "url": "https://kjellr.com/thoughts/"
+      },
+      "twitter": "kjellr",
+      "feed": "https://kjellr.com/feed/"
+    },
+    {
+      "blog": {
+        "name": "Koos Looijesteijn",
+        "url": "https://www.kooslooijesteijn.net/"
+      },
+      "twitter": "kslstn",
+      "feed": "https://www.kooslooijesteijn.net/feed-blog.xml"
+    },
+    {
+      "blog": {
+        "name": "Kyle Fiedler",
+        "url": "https://kylefiedler.com/blog/"
+      },
+      "twitter": "kylefiedler"
+    },
+    {
+      "blog": {
+        "name": "Kyle Mitchell",
+        "url": "http://kylemitchell.co/writing/"
+      },
+      "twitter": "jaggedlines",
+      "feed": "http://kylemitchell.co/feed/"
+    },
+    {
+      "blog": {
+        "name": "Lara Schenck",
+        "url": "https://notlaura.com/blog/"
+      },
+      "twitter": "laras126",
+      "feed": "https://notlaura.com/feed/"
+    },
+    {
+      "blog": {
+        "name": "Laura Kalbag",
+        "url": "https://laurakalbag.com/posts/"
+      },
+      "twitter": "LauraKalbag",
+      "feed": "https://laurakalbag.com/posts/index.xml"
+    },
+    {
+      "blog": {
+        "name": "Lea Verou",
+        "url": "https://lea.verou.me/"
+      },
+      "twitter": "leaverou",
+      "feed": "https://feeds.feedburner.com/leaverou"
+    },
+    {
+      "blog": {
+        "name": "Lenny Bogdonoff",
+        "url": "https://blog.rememberlenny.com/"
+      },
+      "twitter": "rememberlenny",
+      "feed": "https://blog.rememberlenny.com/feed/"
+    },
+    {
+      "blog": {
+        "name": "Léonie Watson",
+        "url": "https://tink.uk/"
+      },
+      "twitter": "LeonieWatson",
+      "feed": "https://tink.uk/feed.xml"
+    },
+    {
+      "blog": {
+        "name": "Lindsey Kopacz",
+        "url": "https://www.a11ywithlindsey.com/blog"
+      },
+      "twitter": "LittleKope",
+      "feed": "https://www.a11ywithlindsey.com/rss.xml"
+    },
+    {
+      "blog": {
+        "name": "Lisa Maria Marquis",
+        "url": "https://thefutureislikepie.com/blog/"
+      },
+      "twitter": "redsesame"
+    },
+    {
+      "blog": {
+        "name": "Liz Jackson",
+        "url": "http://www.thegirlwiththepurplecane.com/i-write/"
+      },
+      "twitter": "elizejackson",
+      "feed": "http://www.thegirlwiththepurplecane.com/feed/"
+    },
+    {
+      "blog": {
+        "name": "Lynn Fisher",
+        "url": "https://lynnandtonic.com/thoughts/"
+      },
+      "twitter": "lynnandtonic",
+      "feed": "https://lynnandtonic.com/feed.xml"
+    },
+    {
+      "blog": {
+        "name": "Madalyn Parker",
+        "url": "https://madalyn.dev/blog"
+      },
+      "twitter": "madalynrose",
+      "feed": "https://madalyn.dev/rss.xml"
+    },
+    {
+      "blog": {
+        "name": "Mandy Brown",
+        "url": "https://aworkinglibrary.com/writing/"
+      },
+      "twitter": "aworkinglibrary",
+      "feed": "https://aworkinglibrary.com/feed/index.xml"
+    },
+    {
+      "blog": {
+        "name": "Marcus Herrmann",
+        "url": "https://marcus.io/"
+      },
+      "feed": "https://marcus.io/feed/"
+    },
+    {
+      "blog": {
+        "name": "Matsuko Friedland",
+        "url": "https://www.matsuko.ca/blog"
+      },
+      "twitter": "missmatsuko"
+    },
+    {
+      "blog": {
+        "name": "Matt Ström",
+        "url": "https://matthewstrom.com/"
+      },
+      "twitter": "ilikescience",
+      "feed": "https://matthewstrom.com/feed.xml"
+    },
+    {
+      "blog": {
+        "name": "Mel Choyce-Dwan",
+        "url": "https://melchoyce.design/archive/"
+      },
+      "twitter": "melchoyce",
+      "feed": "https://melchoyce.design/feed/"
+    },
+    {
+      "blog": {
+        "name": "Melanie Richards",
+        "url": "https://melanie-richards.com/blog"
+      },
+      "twitter": "soMelanieSaid",
+      "feed": "https://melanie-richards.com/feed.xml"
+    },
+    {
+      "blog": {
+        "name": "Michael Arestad",
+        "url": "https://michael.blog/"
+      },
+      "twitter": "michaelarestad",
+      "feed": "https://michael.blog/feed/"
+    },
+    {
+      "blog": {
+        "name": "Michael Scharnagl",
+        "url": "https://justmarkup.com/archive/"
+      },
+      "twitter": "justmarkup",
+      "feed": "https://justmarkup.com/feed/feed.xml"
+    },
+    {
+      "blog": {
+        "name": "Michelle Barker",
+        "url": "https://css-irl.info/"
+      },
+      "twitter": "MicheBarks",
+      "feed": "https://css-irl.info/rss.xml"
+    },
+    {
+      "blog": {
+        "name": "Michele A. Williams",
+        "url": "https://mawconsultingllc.com/blog/"
+      },
+      "twitter": "MAWConsultngLLC",
+      "feed": "https://mawconsultingllc.com/feed/"
+    },
+    {
+      "blog": {
+        "name": "Miriam Suzanne",
+        "url": "https://www.miriamsuzanne.com/tags/writing/"
+      },
+      "twitter": "MiriSuzanne",
+      "feed": "https://www.miriamsuzanne.com/feed.xml"
+    },
+    {
+      "blog": {
+        "name": "Manuel Matuzovic",
+        "url": "https://www.matuzo.at/blog/"
+      },
+      "twitter": "mmatuzo",
+      "feed": "https://www.matuzo.at/feed.xml"
+    },
+    {
+      "blog": {
+        "name": "Marco Zehe",
+        "url": "https://www.marcozehe.de/articles/"
+      },
+      "twitter": "MarcoInEnglish",
+      "feed": "https://www.marcozehe.de/rss.xml"
+    },
+    {
+      "blog": {
+        "name": "Marcy Sutton",
+        "url": "https://marcysutton.com/writing/"
+      },
+      "twitter": "marcysutton",
+      "feed": "https://marcysutton.com/rss.xml"
+    },
+    {
+      "blog": {
+        "name": "Margie Chubin",
+        "url": "https://margie.xyz/blog/"
+      },
+      "twitter": "margarinemargie"
+    },
+    {
+      "blog": {
+        "name": "Mathias Bynens",
+        "url": "https://mathiasbynens.be/notes"
+      },
+      "twitter": "mathias",
+      "feed": "https://mathiasbynens.be/notes.rss"
+    },
+    {
+      "blog": {
+        "name": "Matt Stow",
+        "url": "http://mattstow.com/"
+      },
+      "twitter": "stowball"
+    },
+    {
+      "blog": {
+        "name": "Matt Wilcox",
+        "url": "https://mattwilcox.net/"
+      },
+      "twitter": "MattWilcox",
+      "feed": "http://feeds.mattwilcox.net/stay-updated/rss/everything"
+    },
+    {
+      "blog": {
+        "name": "Max Böck",
+        "url": "https://mxb.dev/blog/"
+      },
+      "twitter": "mxbck",
+      "feed": "https://mxb.dev/feed.xml"
+    },
+    {
+      "blog": {
+        "name": "Micah Godbolt",
+        "url": "https://www.micahgodbolt.com/"
+      },
+      "twitter": "micahgodbolt",
+      "feed": "https://micahgodbolt.com/rss.xml"
+    },
+    {
+      "blog": {
+        "name": "Michael Spellacy",
+        "url": "https://michaelspellacy.com/articles/"
+      },
+      "twitter": "Spellacy",
+      "feed": "https://michaelspellacy.com/rss.xml"
+    },
+    {
+      "blog": {
+        "name": "Mina Markham",
+        "url": "http://mina.codes/articles/"
+      },
+      "twitter": "MinaMarkham"
+    },
+    {
+      "blog": {
+        "name": "Molly Holzschlag",
+        "url": "http://www.molly.com/"
+      },
+      "twitter": "mholzschlag",
+      "feed": "http://www.molly.com/feed/"
+    },
+    {
+      "blog": {
+        "name": "Molly White",
+        "url": "https://blog.mollywhite.net/"
+      },
+      "twitter": "molly0xFFF",
+      "feed": "https://blog.mollywhite.net/atom.xml"
+    },
+    {
+      "blog": {
+        "name": "Monica Dinculescu",
+        "url": "https://meowni.ca/blog/"
+      },
+      "twitter": "notwaldorf",
+      "feed": "https://meowni.ca/blog.xml"
+    },
+    {
+      "blog": {
+        "name": "Monica Powell",
+        "url": "https://www.aboutmonica.com/writing/"
+      },
+      "twitter": "indigitalcolor"
+    },
+    {
+      "blog": {
+        "name": "Nathan Ford",
+        "url": "http://artequalswork.com/"
+      },
+      "twitter": "nathan_ford",
+      "feed": "http://artequalswork.com/feed.xml"
+    },
+    {
+      "blog": {
+        "name": "Nic Chan",
+        "url": "https://www.nicchan.me/blog/"
+      },
+      "twitter": "NicMakesStuff",
+      "feed": "https://www.nicchan.me/feed.xml"
+    },
+    {
+      "blog": {
+        "name": "Nick Colley",
+        "url": "https://nickcolley.co.uk/"
+      },
+      "twitter": "nickcolley"
+    },
+    {
+      "blog": {
+        "name": "Nic Steenhout",
+        "url": "https://incl.ca/archives/"
+      },
+      "twitter": "vavroom",
+      "feed": "https://incl.ca/feed/"
+    },
+    {
+      "blog": {
+        "name": "Olu",
+        "url": "https://olu.online/posts/"
+      },
+      "twitter": "oluoluoxenfree",
+      "feed": "https://olu.online/feed.xml"
+    },
+    {
+      "blog": {
+        "name": "Orde Saunders",
+        "url": "https://decadecity.net/blog/"
+      },
+      "twitter": "decadecity",
+      "feed": "http://feeds.feedburner.com/decadecity"
+    },
+    {
+      "blog": {
+        "name": "Osvaldas Valutis",
+        "url": "https://osvaldas.info/blog"
+      },
+      "twitter": "osvaldas",
+      "feed": "http://osvaldas.info/rss/blog"
+    },
+    {
+      "blog": {
+        "name": "Pat Cable",
+        "url": "https://pcable.net/posts/"
+      },
+      "twitter": "patcable",
+      "feed": "https://pcable.net/posts/index.xml"
+    },
+    {
+      "blog": {
+        "name": "Paul Irish",
+        "url": "https://www.paulirish.com/"
+      },
+      "twitter": "paul_irish",
+      "feed": "https://feeds.feedburner.com/paul-irish"
+    },
+    {
+      "blog": {
+        "name": "Paul Kinchla",
+        "url": "https://paulkinchla.com/blog/"
+      },
+      "twitter": "PK_info",
+      "feed": "https://paulkinchla.com/feed/"
+    },
+    {
+      "blog": {
+        "name": "Paul Kruczynski",
+        "url": "https://kruczynsk.is/ambivalence/"
+      },
+      "twitter": "paulkruczynski",
+      "feed": "https://kruczynsk.is/feed/"
+    },
+    {
+      "blog": {
+        "name": "Peter Gasston",
+        "url": "https://petergasston.co.uk/blog/"
+      },
+      "twitter": "stopsatgreen",
+      "feed": "https://petergasston.co.uk/feed/"
+    },
+    {
+      "blog": {
+        "name": "Preethi Sam",
+        "url": "https://preethisam.com/"
+      },
+      "twitter": "rpsthecoder",
+      "feed": "https://preethisam.com/feed/"
+    },
+    {
+      "blog": {
+        "name": "Quentin Bellanger",
+        "url": "https://quentin-bellanger.com/blog/"
+      },
+      "twitter": "bellanger_q",
+      "feed": "https://quentin-bellanger.com/feed.xml"
+    },
+    {
+      "blog": {
+        "name": "Rachel Andrew",
+        "url": "https://rachelandrew.co.uk/archives/"
+      },
+      "twitter": "rachelandrew",
+      "feed": "https://rachelandrew.co.uk/archives/rss.php"
+    },
+    {
+      "blog": {
+        "name": "Rachel Leggett",
+        "url": "https://devyarns.com/"
+      },
+      "twitter": "rleggos",
+      "feed": "https://devyarns.com/rss.xml"
+    },
+    {
+      "blog": {
+        "name": "Rachele DiTullio",
+        "url": "https://racheleditullio.com/blog/"
+      },
+      "twitter": "racheleditullio",
+      "feed": "https://racheleditullio.com/feed/"
+    },
+    {
+      "blog": {
+        "name": "Remy Sharp",
+        "url": "https://remysharp.com/"
+      },
+      "twitter": "rem",
+      "feed": "https://remysharp.com/feed.xml"
+    },
+    {
+      "blog": {
+        "name": "Rian Rietveld",
+        "url": "https://rianrietveld.com/blog/"
+      },
+      "twitter": "RianRietveld",
+      "feed": "https://rianrietveld.com/feed/"
+    },
+    {
+      "blog": {
+        "name": "Ricky Onsman",
+        "url": "https://onsman.com/posts/"
+      },
+      "twitter": "onsman",
+      "feed": "https://onsman.com/feed/"
+    },
+    {
+      "blog": {
+        "name": "Rob Weychert",
+        "url": "https://v6.robweychert.com/blog/"
+      },
+      "twitter": "robweychert",
+      "feed": "https://feeds.feedburner.com/robweychert"
+    },
+    {
+      "blog": {
+        "name": "Robin Rendle",
+        "url": "https://www.robinrendle.com/"
+      },
+      "twitter": "robinrendle",
+      "feed": "https://www.robinrendle.com/feed.xml"
+    },
+    {
+      "blog": {
+        "name": "Robin Whittleton",
+        "url": "https://www.robinwhittleton.com/"
+      },
+      "twitter": "robinwhittleton",
+      "feed": "https://www.robinwhittleton.com/feed.xml"
+    },
+    {
+      "blog": {
+        "name": "Roger Johansson",
+        "url": "https://www.456bereastreet.com/"
+      },
+      "twitter": "rogerjohansson",
+      "feed": "https://www.456bereastreet.com/feed.xml"
+    },
+    {
+      "blog": {
+        "name": "Rowan Manning",
+        "url": "https://rowanmanning.com/posts/"
+      },
+      "twitter": "rowanmanning",
+      "feed": "https://rowanmanning.com/posts/feed.xml"
+    },
+    {
+      "blog": {
+        "name": "ryelle",
+        "url": "https://ryelle.codes/"
+      },
+      "twitter": "ryelle",
+      "feed": "https://ryelle.codes/feed/"
+    },
+    {
+      "blog": {
+        "name": "Sabrina Hall",
+        "url": "https://www.sabrinahalldesigns.com/writing/"
+      },
+      "twitter": "SabrinaHallnyc",
+      "feed": "https://www.sabrinahalldesigns.com/feed/"
+    },
+    {
+      "blog": {
+        "name": "Sameera Kapila",
+        "url": "https://samkapila.com/posts/"
+      },
+      "twitter": "SamKap",
+      "feed": "https://samkapila.com/feed.xml"
+    },
+    {
+      "blog": {
+        "name": "Sami Keijonen",
+        "url": "https://foxland.fi/blog/"
+      },
+      "twitter": "samikeijonen"
+    },
+    {
+      "blog": {
+        "name": "Saptak Sengupta",
+        "url": "https://saptaks.blog/"
+      },
+      "twitter": "Saptak013",
+      "feed": "https://saptaks.blog/rss.xml"
+    },
+    {
+      "blog": {
+        "name": "Sara Soueidan",
+        "url": "https://www.sarasoueidan.com/blog/"
+      },
+      "twitter": "SaraSoueidan",
+      "feed": "https://www.sarasoueidan.com/blog/index.xml"
+    },
+    {
+      "blog": {
+        "name": "Sarah Drasner",
+        "url": "https://sarah.dev/writing"
+      },
+      "twitter": "sarah_edo"
+    },
+    {
+      "blog": {
+        "name": "Sarah Esterman",
+        "url": "https://www.sarahesterman.com/blog"
+      },
+      "twitter": "SarahEsterman"
+    },
+    {
+      "blog": {
+        "name": "Sarah Horton",
+        "url": "https://sarahhortondesign.com/category/articles/"
+      },
+      "twitter": "gradualclearing",
+      "feed": "https://sarahhortondesign.com/feed/"
+    },
+    {
+      "blog": {
+        "name": "Sarah L. Fossheim",
+        "url": "https://fossheim.io/writing/"
+      },
+      "twitter": "liatrisbian",
+      "feed": "https://fossheim.io/feed.xml"
+    },
+    {
+      "blog": {
+        "name": "Sarah Higley",
+        "url": "https://sarahmhigley.com/writing/"
+      },
+      "twitter": "codingchaos",
+      "feed": "https://sarahmhigley.com/feed.xml"
+    },
+    {
+      "blog": {
+        "name": "Scott de Jonge",
+        "url": "https://scottdejonge.com/writing/"
+      },
+      "twitter": "scottdejonge"
+    },
+    {
+      "blog": {
+        "name": "Scott O'Hara",
+        "url": "https://www.scottohara.me/writing/"
+      },
+      "twitter": "scottohara",
+      "feed": "https://www.scottohara.me/feed.xml"
+    },
+    {
+      "blog": {
+        "name": "Scott Vinkle",
+        "url": "https://scottvinkle.me/blogs/work"
+      },
+      "twitter": "svinkle",
+      "feed": "https://scottvinkle.me/blogs/work.atom"
+    },
+    {
+      "blog": {
+        "name": "Segun Ola",
+        "url": "https://blog.segunolalive.com/"
+      },
+      "twitter": "segunolalive",
+      "feed": "https://blog.segunolalive.com/feed.xml"
+    },
+    {
+      "blog": {
+        "name": "Sheri Byrne-Haber",
+        "url": "https://sheribyrnehaber.com/blog/"
+      },
+      "twitter": "ByrneHaber",
+      "feed": "https://sheribyrnehaber.com/feed/"
+    },
+    {
+      "blog": {
+        "name": "Sia Karamalegos",
+        "url": "https://sia.codes/posts/"
+      },
+      "twitter": "thegreengreek",
+      "feed": "https://sia.codes/feed/feed.xml"
+    },
+    {
+      "blog": {
+        "name": "simurai",
+        "url": "https://simurai.com/blog/"
+      },
+      "twitter": "simurai",
+      "feed": "http://simurai.com/rss"
+    },
+    {
+      "blog": {
+        "name": "Sophie Shepherd",
+        "url": "http://sophieshepherd.com/"
+      },
+      "twitter": "sophshepherd",
+      "feed": "http://sophieshepherd.com/atom.xml"
+    },
+    {
+      "blog": {
+        "name": "Søren Birkemeyer",
+        "url": "https://annualbeta.com/blog/"
+      },
+      "twitter": "polarbirke",
+      "feed": "https://annualbeta.com/feed.xml"
+    },
+    {
+      "blog": {
+        "name": "Stefan Judis",
+        "url": "https://www.stefanjudis.com/blog/"
+      },
+      "twitter": "stefanjudis",
+      "feed": "https://www.stefanjudis.com/rss.xml"
+    },
+    {
+      "blog": {
+        "name": "Stephanie Eckles ",
+        "url": "https://moderncss.dev/"
+      },
+      "twitter": "5t3ph",
+      "feed": "https://moderncss.dev/feed/"
+    },
+    {
+      "blog": {
+        "name": "Stephanie Hobson",
+        "url": "https://stephaniehobson.ca/"
+      },
+      "twitter": "stephaniehobson",
+      "feed": "http://stephaniehobson.ca/feed/"
+    },
+    {
+      "blog": {
+        "name": "Stephen Hanson",
+        "url": "https://shanson.co/"
+      },
+      "twitter": "stephenhanson",
+      "feed": "https://shanson.co/feed.xml"
+    },
+    {
+      "blog": {
+        "name": "Stephen Lindberg",
+        "url": "https://phse.net/post/"
+      },
+      "twitter": "setphen_"
+    },
+    {
+      "blog": {
+        "name": "Stephanie Stimac",
+        "url": "https://blog.stephaniestimac.com/"
+      },
+      "twitter": "seaotta",
+      "feed": "https://blog.stephaniestimac.com/feed/feed.xml"
+    },
+    {
+      "blog": {
+        "name": "Stéphanie Walter",
+        "url": "https://stephaniewalter.design/blog/"
+      },
+      "twitter": "WalterStephanie",
+      "feed": "https://feedpress.me/stephaniewalter-blog-en"
+    },
+    {
+      "blog": {
+        "name": "Steve Faulkner",
+        "url": "https://stevefaulkner.github.io/Articles/index.html"
+      },
+      "twitter": "stevefaulkner"
+    },
+    {
+      "blog": {
+        "name": "Steve Krug",
+        "url": "https://sensible.com/blog/"
+      },
+      "twitter": "skrug",
+      "feed": "https://sensible.com/feed/"
+    },
+    {
+      "blog": {
+        "name": "Steve Lee",
+        "url": "https://opendirective.net/"
+      },
+      "twitter": "SteveALee",
+      "feed": "https://opendirective.net/atom.xml"
+    },
+    {
+      "blog": {
+        "name": "Stu Robson",
+        "url": "https://www.alwaystwisted.com/"
+      },
+      "twitter": "sturobson",
+      "feed": "https://www.alwaystwisted.com/rss.php"
+    },
+    {
+      "blog": {
+        "name": "Susan Robertson",
+        "url": "https://www.susanjeanrobertson.com/journal/"
+      },
+      "twitter": "susanjrobertson",
+      "feed": "https://www.susanjeanrobertson.com/feed-journal.xml"
+    },
+    {
+      "blog": {
+        "name": "Tab Atkins-Bittner",
+        "url": "https://xanthir.com/blog/"
+      },
+      "twitter": "tabatkins",
+      "feed": "https://xanthir.com/blog/atom/"
+    },
+    {
+      "blog": {
+        "name": "Tara Robertson",
+        "url": "https://tararobertson.ca/blog/"
+      },
+      "twitter": "tararobertson",
+      "feed": "https://tararobertson.ca/feed/"
+    },
+    {
+      "blog": {
+        "name": "Tatiana Mac",
+        "url": "https://tatianamac.com/writing"
+      },
+      "twitter": "TatianaTMac",
+      "feed": "https://tatianamac.com/feed/feed.xml"
+    },
+    {
+      "blog": {
+        "name": "Terence Eden",
+        "url": "https://shkspr.mobi/blog/"
+      },
+      "twitter": "edent",
+      "feed": "http://shkspr.mobi/blog/feed/"
+    },
+    {
+      "blog": {
+        "name": "Thomas Byttebier",
+        "url": "https://thomasbyttebier.be/blog/"
+      },
+      "twitter": "bytte",
+      "feed": "http://feeds.feedburner.com/thehotseat"
+    },
+    {
+      "blog": {
+        "name": "Thomas Mullaly",
+        "url": "https://thomasmullaly.codes/"
+      },
+      "twitter": "thomas_mullaly",
+      "feed": "https://thomasmullaly.codes/index.xml"
+    },
+    {
+      "blog": {
+        "name": "Tim Kadlec",
+        "url": "https://timkadlec.com/remembers/"
+      },
+      "twitter": "tkadlec",
+      "feed": "https://timkadlec.com/remembers/atom.xml"
+    },
+    {
+      "blog": {
+        "name": "Tim Wright",
+        "url": "https://timwright.org/blog/"
+      },
+      "twitter": "iamtimwright"
+    },
+    {
+      "blog": {
+        "name": "Tobias Ahlin",
+        "url": "https://tobiasahlin.com/blog/"
+      },
+      "twitter": "tobiasahlin",
+      "feed": "https://tobiasahlin.com/feed/"
+    },
+    {
+      "blog": {
+        "name": "Todd Libby",
+        "url": "https://toddl.dev/blog/"
+      },
+      "twitter": "toddlibby",
+      "feed": "https://toddl.dev/feed/feed.xml"
+    },
+    {
+      "blog": {
+        "name": "Trent Walton",
+        "url": "https://trentwalton.com/category/articles/"
+      },
+      "twitter": "TrentWalton",
+      "feed": "https://trentwalton.com/feed.xml"
+    },
+    {
+      "blog": {
+        "name": "Tristan Harward",
+        "url": "https://www.trisweb.com/blog/"
+      },
+      "twitter": "trisweb",
+      "feed": "https://feedly.com/i/subscription/feed/https://www.trisweb.com/blog/rss/"
+    },
+    {
+      "blog": {
+        "name": "Tolu Adegbite",
+        "url": "https://www.tolu.xyz/blog"
+      },
+      "twitter": "tolu_xyz"
+    },
+    {
+      "blog": {
+        "name": "Tyler Gaw",
+        "url": "https://tylergaw.com/articles/"
+      },
+      "twitter": "tylergaw",
+      "feed": "https://tylergaw.com/rss.xml"
+    },
+    {
+      "blog": {
+        "name": "Una Kravets",
+        "url": "https://una.im/archive/"
+      },
+      "twitter": "Una",
+      "feed": "https://una.im/feed.xml"
+    },
+    {
+      "blog": {
+        "name": "Val Head",
+        "url": "https://valhead.com/blog/"
+      },
+      "twitter": "vlh",
+      "feed": "https://valhead.com/feed/"
+    },
+    {
+      "blog": {
+        "name": "Vasilis Van Gemert",
+        "url": "https://vasilis.nl/"
+      },
+      "twitter": "vasilis",
+      "feed": "https://vasilis.nl/feeds/vasilis-all.xml"
+    },
+    {
+      "blog": {
+        "name": "Veni Kunche",
+        "url": "https://veni.dev/blog/"
+      },
+      "twitter": "venikunche",
+      "feed": "https://veni.dev/feed.xml"
+    },
+    {
+      "blog": {
+        "name": "Veronica Lewis",
+        "url": "https://veroniiiica.com/"
+      },
+      "twitter": "veron4ica",
+      "feed": "https://veroniiiica.com/feed/"
+    },
+    {
+      "blog": {
+        "name": "Weston Thayer",
+        "url": "http://westonthayer.com/writing/"
+      },
+      "twitter": "WestonThayer5",
+      "feed": "http://westonthayer.com/writing/rss.xml"
+    },
+    {
+      "blog": {
+        "name": "Zach Leatherman",
+        "url": "https://www.zachleat.com/web/"
+      },
+      "twitter": "zachleat",
+      "feed": "https://www.zachleat.com/web/feed/"
+    },
+    {
+      "blog": {
+        "name": "Zoraida Cabrera-Mieles",
+        "url": "https://www.zoracabrera.com/blog"
+      },
+      "twitter": "zoracreates"
+    }
+  ]
+}
