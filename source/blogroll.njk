@@ -1,0 +1,36 @@
+---
+layout: layouts/landing.njk
+title: Blogroll
+lede: "Some of my favorite authors on the web."
+eleventyNavigation:
+  key: Blogroll
+  parent: Orphans
+  order: 2
+---
+
+<p>Read a little bit more about <a href="{{ '/writing/blogroll/' | url }}">how this blogroll came to be</a>.</p>
+
+{% set blog = blogroll.items %}
+<ul>
+  {% for item in blog %}
+    <li id="{{ item.blog.name | slugify }}">
+      <a href="{{ item.blog.url }}">
+        {{ item.blog.name | safe }}
+      </a>
+      {% if (item.twitter) or (item.feed) %}
+      <ul>
+        {% if item.twitter %}
+        <li>
+          <a href="https://twitter.com/{{ item.twitter }}">@{{ item.twitter }}</a>
+        </li>
+        {% endif %}
+        {% if item.feed %}
+        <li>
+          <a href="{{ item.feed }}">RSS Feed<span class="hide-visually"> for {{ item.blog.name }}</span></a>
+        </li>
+        {% endif %}
+      </ul>
+    </li>
+    {% endif %}
+  {% endfor %}
+</ul>

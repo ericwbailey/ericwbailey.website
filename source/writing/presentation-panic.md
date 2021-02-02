@@ -2,7 +2,7 @@
 layout: "layouts/post.njk"
 title: Presentation Panic
 source: ericwbailey.design
-excerpt: ""
+excerpt: "I used to get panic attacks when I had to give a client presentation."
 date: 2021-02-01
 year: "2021"
 eleventyNavigation:
@@ -11,7 +11,9 @@ eleventyNavigation:
   order: 5
 ---
 
-I used to get panic attacks when I had to give a client presentation. This was before I was really aware of my anxiety and depression—I didn’t know what they were or what caused them. Because of this, I spent way too much time fixating on the symptoms, and not the cause.
+I used to get panic attacks when I had to give a client presentation.
+
+This was before I was really aware of my anxiety and depression—I didn’t know what they were or what caused them. Because of this, I spent way too much time fixating on the symptoms, and not the cause.
 
 Both my school and my early jobs didn’t do a good job preparing me for the experience of speaking in front clients. I don’t necessarily blame them, though. A designer’s role has changed so rapidly in the past decade, and with it comes a completely different skillset.
 
