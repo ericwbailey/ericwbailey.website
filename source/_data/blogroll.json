@@ -824,6 +824,14 @@
     },
     {
       "blog": {
+        "name": "Jim Nielsen",
+        "url": "https://blog.jim-nielsen.com/"
+      },
+      "twitter": "jimniels",
+      "feed": "https://blog.jim-nielsen.com/feed.xml"
+    },
+    {
+      "blog": {
         "name": "Joe Dolson",
         "url": "https://www.joedolson.com/blog/"
       },
