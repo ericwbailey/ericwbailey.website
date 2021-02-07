@@ -1251,6 +1251,13 @@
     },
     {
       "blog": {
+        "name": "Marisa Morby",
+        "url": "https://marisamorby.com/"
+      },
+      "twitter": "marisamorby"
+    },
+    {
+      "blog": {
         "name": "Mathias Bynens",
         "url": "https://mathiasbynens.be/notes"
       },
@@ -1747,9 +1754,10 @@
     {
       "blog": {
         "name": "Steve Faulkner",
-        "url": "https://stevefaulkner.github.io/Articles/index.html"
+        "url": "https://html5accessibility.com/stuff/category/htmlaccessibility/"
       },
-      "twitter": "stevefaulkner"
+      "twitter": "stevefaulkner",
+      "feed": "https://html5accessibility.com/stuff/category/htmlaccessibility/feed/"
     },
     {
       "blog": {
@@ -1940,6 +1948,14 @@
       },
       "twitter": "WestonThayer5",
       "feed": "http://westonthayer.com/writing/rss.xml"
+    },
+    {
+      "blog": {
+        "name": "Yakim van Zuijlen",
+        "url": "https://yakim.nl/articles/"
+      },
+      "twitter": "yakimvanzuijlen",
+      "feed": "https://yakim.nl/feed.xml"
     },
     {
       "blog": {
