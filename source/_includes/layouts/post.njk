@@ -41,35 +41,34 @@ templateClass: template-posts
     class="flow post__content"
     itemprop="articleBody">
     {{ content | safe }}
-  </div>
 
-  {% if (furtherReading) or (attribution) %}
-  <div
-    id="additional"
-    class="additional">
-    {% if furtherReading %}
-    <h2 id="further-reading">
-      Further reading
-    </h2>
-    <ul>
-      {% for link in furtherReading %}
-      <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-      {% endfor %}
-    </ul>
+    {% if (furtherReading) or (attribution) %}
+    <div
+      id="additional"
+      class="additional">
+      {% if furtherReading %}
+      <h2 id="further-reading">
+        Further reading
+      </h2>
+      <ul>
+        {% for link in furtherReading %}
+        <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+
+      {% if attribution %}
+      <aside
+        aria-label="Attribution"
+        class="attribution">
+        <p>
+          {{ attribution | safe }}
+        </p>
+      </aside>
+      {% endif %}
+    </div>
     {% endif %}
-
-    {% if attribution %}
-    <aside
-      aria-label="Attribution"
-      class="c-attribution">
-      <p>
-        {{ attribution | safe }}
-      </p>
-    </aside>
-    {% endif %}
   </div>
-  {% endif %}
-
 </main>
 
 <div
