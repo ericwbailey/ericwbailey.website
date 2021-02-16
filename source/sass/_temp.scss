@@ -97,7 +97,10 @@ a:focus {
   margin-top: var(--scale4);
   margin-bottom: var(--scale4);
   padding-top: var(--scale2);
-  padding-right: var(--scale7);
+}
+
+ul + .attribution {
+  margin-top: var(--scale4);
 }
 
 .c-homepage-section {
