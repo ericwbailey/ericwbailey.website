@@ -42,10 +42,22 @@ templateClass: template-posts
     itemprop="articleBody">
     {{ content | safe }}
 
-    {% if (furtherReading) or (attribution) %}
+    {% if (furtherReading) or (responses) or (attribution) %}
     <div
       id="additional"
-      class="additional">
+      class="additional flow">
+
+      {% if responses %}
+      <h2 id="responses">
+        Responses
+      </h2>
+      <ul>
+        {% for link in responses %}
+        <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+
       {% if furtherReading %}
       <h2 id="further-reading">
         Further reading
