@@ -8,6 +8,6 @@ eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}
   order: 1
-  url: https://cantina.co/battery-status-api-we-need-to-talk/
+  url: https://cantina.co/fighting-for-control-of-your-smartphone-battery/
 permalink: false
 ---
