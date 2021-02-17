@@ -2,13 +2,13 @@
 layout: "layouts/post.njk"
 title: My typical day
 source: ericwbailey.design
-excerpt: "UPDATE"
-date: 2021-02-15
+excerpt: "Here’s my daily routine, warts and all"
+date: 2021-02-17
 year: "2021"
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}
-  order: 9
+  order: 8
 ---
 
 [Hidde kindly nominated me](https://twitter.com/hdv/status/1361303828486885378) to write one of the “typical day” posts that have been making the blogging rounds. I’ve been enjoying reading them, as they give a nice look into how other people are holding up in quarantine.
