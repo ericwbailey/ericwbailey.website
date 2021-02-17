@@ -9,6 +9,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## vNext - Unreleased
 - Performance optimizations
 
+## v1.3.14 - 2020-02-17
+- Add a [My typical day](https://ericwbailey.design/writing/my-typical-day)
+
 ## v1.3.13 - 2020-02-09
 - Add a [Accessibility auditing and ego](https://ericwbailey.design/writing/accessibility-auditing-and-ego)
 
