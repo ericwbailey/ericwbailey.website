@@ -25,13 +25,18 @@ templateClass: template-posts
     {{ title | safe }}
   </h1>
 
-  <p>
-    <time id="date-published" class="publish-date" datetime="{{ date | htmlDateString }}">
+  <p class="publish-date" >
+    <time id="date-published" datetime="{{ date | htmlDateString }}">
       {{ date | readableDate }}
     </time>
     {% if originallyPublished %}
       {% for source in originallyPublished %}
         · Originally published at <a href="{{ source.url }}">{{ source.title }}</a>
+      {% endfor %}
+    {% endif %}
+    {% if tweetThread %}
+      {% for thread in tweetThread %}
+        · This post is sourced from <a href="{{ thread.url }}">a Tweet thread</a>, posted on {{ thread.date }}:
       {% endfor %}
     {% endif %}
   </p>
@@ -42,7 +47,7 @@ templateClass: template-posts
     itemprop="articleBody">
     {{ content | safe }}
 
-    {% if (furtherReading) or (responses) or (attribution) %}
+    {% if (tweetThread) or (responses) or (furtherReading) or (attribution) %}
     <div
       id="additional"
       class="additional flow">
