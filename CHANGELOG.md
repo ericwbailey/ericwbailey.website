@@ -9,6 +9,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## vNext - Unreleased
 - Performance optimizations
 
+- Add a [Implicit cultural norms and accessible social media](https://ericwbailey.design/writing/implicit-cultural-norms-and-accessible-social-media)
+- Include Tweet thread source, if present
+
 ## v1.3.15 - 2020-02-19
 - Add a [How 3 hours of conversation saved a company hundreds of thousands of dollars](https://thoughtbot.com/blog/how-3-hours-of-conversation-saved-a-company-hundreds-of-thousands-of-dollars)
 
