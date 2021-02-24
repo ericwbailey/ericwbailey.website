@@ -31,12 +31,12 @@ templateClass: template-posts
     </time>
     {% if originallyPublished %}
       {% for source in originallyPublished %}
-        · Originally published at <a href="{{ source.url }}">{{ source.title }}</a>
+        . Originally published at <a href="{{ source.url }}">{{ source.title }}</a>.
       {% endfor %}
     {% endif %}
     {% if tweetThread %}
       {% for thread in tweetThread %}
-        · This post is sourced from <a href="{{ thread.url }}">a Tweet thread</a>, posted on {{ thread.date }}:
+        . This post is sourced from <a href="{{ thread.url }}">a Tweet thread</a>, posted on {{ thread.date }}.
       {% endfor %}
     {% endif %}
   </p>
@@ -47,7 +47,7 @@ templateClass: template-posts
     itemprop="articleBody">
     {{ content | safe }}
 
-    {% if (tweetThread) or (responses) or (furtherReading) or (attribution) %}
+    {% if (responses) or (furtherReading) or (attribution) %}
     <div
       id="additional"
       class="additional flow">
