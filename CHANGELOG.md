@@ -9,7 +9,11 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## vNext - Unreleased
 - Performance optimizations
 
-- Add a [Implicit cultural norms and accessible social media](https://ericwbailey.design/writing/implicit-cultural-norms-and-accessible-social-media)
+## v1.3.16 - 2020-03-02
+- Add [An Introduction to macOS Voice Control](https://thoughtbot.com/blog/an-introduction-to-macos-voice-control)
+
+## v1.3.15 - 2020-02-19
+- Add [Implicit cultural norms and accessible social media](https://ericwbailey.design/writing/implicit-cultural-norms-and-accessible-social-media)
 - Include Tweet thread source, if present
 
 ## v1.3.15 - 2020-02-19
