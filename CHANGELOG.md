@@ -9,6 +9,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## vNext - Unreleased
 - Performance optimizations
 
+## v1.3.17 - 2020-03-04
+- Add [Give me a definition for the word “dashboard”](https://ericwbailey.design/writing/give-me-a-definition-for-the-word-dashboard)
+
 ## v1.3.16 - 2020-03-02
 - Add [An Introduction to macOS Voice Control](https://thoughtbot.com/blog/an-introduction-to-macos-voice-control)
 
