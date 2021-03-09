@@ -9,6 +9,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## vNext - Unreleased
 - Performance optimizations
 
+## v1.3.18 - 2020-03-08
+- Add [Should I use an accessibility overlay?](https://www.a11yproject.com/posts/2021-03-08-should-i-use-an-accessibility-overlay/)
+
 ## v1.3.17 - 2020-03-04
 - Add [Give me a definition for the word “dashboard”](https://ericwbailey.design/writing/give-me-a-definition-for-the-word-dashboard)
 
