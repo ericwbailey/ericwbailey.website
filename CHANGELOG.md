@@ -9,48 +9,51 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## vNext - Unreleased
 - Performance optimizations
 
-## v1.3.18 - 2020-03-08
+## v1.3.19 - 2021-03-08
+- Add [Be the Villain](https://noti.st/ericwbailey/QGBiUS/be-the-villain)
+
+## v1.3.18 - 2021-03-08
 - Add [Should I use an accessibility overlay?](https://www.a11yproject.com/posts/2021-03-08-should-i-use-an-accessibility-overlay/)
 
-## v1.3.17 - 2020-03-04
+## v1.3.17 - 2021-03-04
 - Add [Give me a definition for the word “dashboard”](https://ericwbailey.design/writing/give-me-a-definition-for-the-word-dashboard)
 
-## v1.3.16 - 2020-03-02
+## v1.3.16 - 2021-03-02
 - Add [An Introduction to macOS Voice Control](https://thoughtbot.com/blog/an-introduction-to-macos-voice-control)
 
-## v1.3.15 - 2020-02-19
+## v1.3.15 - 2021-02-19
 - Add [Implicit cultural norms and accessible social media](https://ericwbailey.design/writing/implicit-cultural-norms-and-accessible-social-media)
 - Include Tweet thread source, if present
 
-## v1.3.15 - 2020-02-19
+## v1.3.15 - 2021-02-19
 - Add a [How 3 hours of conversation saved a company hundreds of thousands of dollars](https://thoughtbot.com/blog/how-3-hours-of-conversation-saved-a-company-hundreds-of-thousands-of-dollars)
 
-## v1.3.14 - 2020-02-17
+## v1.3.14 - 2021-02-17
 - Add a [My typical day](https://ericwbailey.design/writing/my-typical-day)
 
-## v1.3.13 - 2020-02-09
+## v1.3.13 - 2021-02-09
 - Add a [Accessibility auditing and ego](https://ericwbailey.design/writing/accessibility-auditing-and-ego)
 
-## v1.3.12 - 2020-02-02
+## v1.3.12 - 2021-02-02
 - Add a [blogroll](https://ericwbailey.design/blogroll)
 
-## v1.3.11 - 2020-02-01
+## v1.3.11 - 2021-02-01
 - Add [Presentation panic](https://ericwbailey.design/writing/presentation-panic)
 
-## v1.3.10 - 2020-01-28
+## v1.3.10 - 2021-01-28
 - Add [How-to: Use the tabindex attribute](https://www.a11yproject.com/posts/2021-01-28-how-to-use-the-tabindex-attribute/)
 
-## v1.3.9 - 2020-01-26
+## v1.3.9 - 2021-01-26
 - Add [An introduction to macOS Head Pointer](https://thoughtbot.com/blog/an-introduction-to-macos-head-pointer)
 
-## v1.3.8 - 2020-01-18
+## v1.3.8 - 2021-01-18
 - Add landing page grid layout
 - Move grid to the `body` element
 
-## v1.3.7 - 2020-01-12
+## v1.3.7 - 2021-01-12
 - Add [Undercover Founder](https://ericwbailey.design/writing/open-ui-and-implicit-parent-child-relationships-in-html)
 
-## v1.3.6 - 2020-01-07
+## v1.3.6 - 2021-01-07
 - Add [Undercover Founder](https://thoughtbot.com/blog/undercover-founder)
 
 ## v1.3.5 - 2020-12-16
