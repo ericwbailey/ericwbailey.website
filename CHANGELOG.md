@@ -9,6 +9,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## vNext - Unreleased
 - Performance optimizations
 
+## v1.4.0 - 2021-03-21
+- Update Eleventy
+
 ## v1.3.19 - 2021-03-08
 - Add [Be the Villain](https://noti.st/ericwbailey/QGBiUS/be-the-villain)
 
