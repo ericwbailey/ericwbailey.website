@@ -31,6 +31,12 @@ The rub? Pope Formosus had been dead and buried for a year before his accusation
 
 Formosus was found guilty, stripped of his vestments, and had his papacy retroactively declared null.
 
+## Ever Given
+
+A gigantic container ship gets jammed in the Suez Canal. In doing so, it blocked global trade, creating ripple effects in every nation's economy.
+
+The ship’s size is far larger than the original designers of the Suez Canal ever anticipated, making it possible to stretch across the Canal’s entire width. Every tugboat Egypt could source was diverted to help extract it, to no avail.
+
 ## Jefferson Bible
 
 Officially titled <cite>The Life and Morals of Jesus of Nazareth</cite>, the Jefferson Bible is a religious book constructed by Thomas Jefferson by cutting select passages from the gospels of Matthew, Mark, Luke, and John from the King James Version. Jefferson picked, pasting them together to form a narrative better aligned to his worldview.
@@ -38,6 +44,20 @@ Officially titled <cite>The Life and Morals of Jesus of Nazareth</cite>, the Jef
 ## Wan Hu’s Chair
 
 This is an apocryphal story about a Wan Hu, an alleged Ming dynasty official. Hu, desiring to reach the moon, attached forty-seven gunpowder rockets to a large wicker chair. He then sat on the chair and instructed forty-seven subordinates to ignite the rocket’s fuses. There was a massive explosion. When the smoke cleared, both the chair and Wan Hu were nowhere to be found.
+
+## Vasa
+
+When it set sail on August 10th, 1628 <i>Vasa</i> was the the most high-tech warship of it’s time. It was armed with 64 cannons, 28 more than the original design that called for 36. The ship also featured a sleek design and beautiful ornamentation.
+
+<i>Vasa</i> succumbed to a gust of wind on it’s maiden voyage and sank in full view of the public. This included the Swedish king, Gustav Ⅱ Adolf, who had commissioned the ship.
+
+A postmortem revealed three main issues:
+
+- The sleek design prioritized aesthetics over seaworthiness,
+- The weight of the extra guns and the gun deck needed to support them, and
+- The weight of the ornamentation caused.
+
+It was also revealed the gun deck was designed and built by someone with no prior experience. In addition, Gustav Ⅱ Adolf rushed production.
 
 ## Baby centrifuge
 

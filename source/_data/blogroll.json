@@ -554,6 +554,14 @@
     },
     {
       "blog": {
+        "name": "Eriol Fox",
+        "url": "https://erioldoesdesign.com/#blog"
+      },
+      "twitter": "EriolDoesDesign",
+      "feed": "https://erioldoesdesign.com/feed/"
+    },
+    {
+      "blog": {
         "name": "Ernie Smith",
         "url": "https://tedium.co/"
       },
