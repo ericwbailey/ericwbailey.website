@@ -12,7 +12,7 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## v1.4.1 - 2021-03-23
 - Add [A conversation can be an output](https://thoughtbot.com/blog/a-conversation-can-be-an-output)
 - Add [Minor version bump](https://ericwbailey.design/writing/minor-version-bump)
-- Add [Myth: Alternate text can be automated](https://www.a11yproject.com/posts/2021-03-23-myth-alternate-text-can-be-automated/)
+- Add [Myth: Alternate text and automation](https://www.a11yproject.com/posts/2021-03-23-alternate-text-and-automation/)
 
 ## v1.4.0 - 2021-03-21
 - Update Eleventy
