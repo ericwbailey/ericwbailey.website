@@ -1,6 +1,6 @@
 ---
 layout: "layouts/post.njk"
-title: "Myth: Alternate text can be automated"
+title: "Myth: Alternate text and automation"
 source: The A11Y Project
 excerpt: "Alternate (alt) text help people who use assistive technology understand images, and are a core part of the Web Content Accessibility Guidelines (WCAG). They require a human’s input to be effective"
 date: 2021-03-24
