@@ -222,6 +222,14 @@
     },
     {
       "blog": {
+        "name": "Benjy Stanton",
+        "url": "https://www.benjystanton.co.uk/blog/"
+      },
+      "twitter": "benjystanton",
+      "feed": "https://www.benjystanton.co.uk/feed.xml"
+    },
+    {
+      "blog": {
         "name": "Blake Watson",
         "url": "https://blakewatson.com/microblog/"
       },
