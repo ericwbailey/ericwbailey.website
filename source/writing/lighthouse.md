@@ -66,7 +66,7 @@ Google Panda specifically targeted a lot of unsavory SEO techniques, including c
   aria-label="Source: What is Google Panda? How Content Matters in SEO by Riverbed Marketing.">
   <img
     alt="A graph showing how search engine traffic drastically dropped in early January 2011 from just under 7.5 million to under a million in just a few weeks. Ads traffic is a steady zero throughout the entire graph. A tooltip is highlighting September 2014, showing search engine traffic of 14,485, and ads traffic of 0."
-    src="{{ '/img/posts/2019-05-14-lighthouse/google-panda-graph.png' | url }}" />
+    src="{{ '/img/posts/lighthouse/google-panda-graph.png' | url }}" />
   <figcaption>
     <span class="typography-small-caps">Source:</span> <a href="https://www.riverbedmarketing.com/what-is-google-panda/">What is Google Panda? How Content Matters in SEO</a> by Riverbed Marketing.
   </figcaption>

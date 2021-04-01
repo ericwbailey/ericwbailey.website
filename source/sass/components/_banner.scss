@@ -2,7 +2,11 @@
   background-color: #fffdd9;
   font-family: sans-serif;
   margin-top: var(--scale2);
-  padding: var(--scale2) var(--scale2) var(--scale1) var(--scale2);
+  padding: var(--scale1) var(--scale1) var(--scale0) var(--scale1);
+
+  p {
+    font-size: var(--scale0);
+  }
 
   h2 {
     font-family: sans-serif;
