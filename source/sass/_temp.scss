@@ -3,13 +3,13 @@ address {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-style: italic;
-  font-weight: bold;
+  font-variation-settings: "wght" 600;
+  font-family: 'BespokeSlab-VariableItalic';
   line-height: var(--line-height-tighter);
 }
 
 h3 {
-  font-style: normal;
+  font-family: 'BespokeSlab-Variable';
 }
 
 ul {
@@ -19,6 +19,10 @@ ul {
 ol,
 ul {
   margin-left: 1.5rem;
+
+  li {
+    margin-top: var(--scale0);
+  }
 
   ol,
   ul {
@@ -70,7 +74,7 @@ a:focus {
 .publish-date {
   display: block;
   font-size: var(--scale0);
-  font-style: italic;
+  font-variation-settings: "wght" 350;
   margin-bottom: 2rem;
 }
 
