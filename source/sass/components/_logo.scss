@@ -5,13 +5,27 @@
     border-right: 1px solid #F2F2F2;
     padding-top: var(--scale2);
     padding-left: var(--scale1);
+
+    @media screen and (prefers-color-scheme: dark) {
+      border-right-color: #4a4a4a;
+    }
   }
 
   svg {
-    fill: var(--color-type);
+    fill: var(--color-type-shade);
+
+    &:hover,
+    &:focus {
+      fill: var(--color-type);
+    }
 
     @media screen and (prefers-color-scheme: dark) {
-      --color-type: #{map-get($colors-palette, white)};
+      fill: #{map-get($colors-palette, white)};
+
+      &:hover,
+      &:focus {
+        fill: #{map-get($colors-palette, gray-light)};
+      }
     }
   }
 }

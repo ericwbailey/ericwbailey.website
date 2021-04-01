@@ -36,7 +36,7 @@ templateClass: template-posts
     {% endif %}
     {% if tweetThread %}
       {% for thread in tweetThread %}
-        . This post is sourced from <a href="{{ thread.url }}">a Tweet thread</a>, posted on {{ thread.date }}.
+        . Sourced from <a href="{{ thread.url }}">a Tweet thread</a>, posted on {{ thread.date }}.
       {% endfor %}
     {% endif %}
   </p>

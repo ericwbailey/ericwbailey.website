@@ -3,9 +3,14 @@ address {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-variation-settings: "wght" 600;
-  font-family: 'BespokeSlab-VariableItalic';
+  color: #111111;
+  font-variation-settings: "wght" 500;
   line-height: var(--line-height-tighter);
+  letter-spacing: var(--tracking-tight);
+
+  @media screen and (prefers-color-scheme: dark) {
+    color: #ffffff;
+  }
 }
 
 h3 {
@@ -84,7 +89,7 @@ a:focus {
 
 .sidebar {
   @media screen and (min-width: map-get($breakpoint, "large")) {
-    margin-top: var(--scale8);
+    margin-top: 15.15rem;
   }
 }
 
@@ -160,5 +165,11 @@ blockquote {
     left: 0;
     width: 100%;
     height: 100%;
+  }
+}
+
+.homepage-frame {
+  @media screen and (min-width: map-get($breakpoint, "large")) {
+    padding: var(--scale1);
   }
 }
