@@ -14,10 +14,16 @@ var {
 
 
 code {
-  background-color: var(--color-type-tint);
+  background-color: var(--color-background);
+  font-size: 80%;
+  letter-spacing: var(--tracking-code);
+  margin-left: 0.15ch;
+  margin-right: 0.15ch;
+  padding-left: 0.25ch;
+  padding-right: 0.25ch;
 
   @media screen and (prefers-color-scheme: dark) {
-    background-color: var(--color-type-shade);
+    background-color: #2b2b2b;
   }
 }
 

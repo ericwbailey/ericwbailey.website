@@ -10,10 +10,10 @@
     letter-spacing: var(--tracking-loose);
     margin-bottom: 0;
     text-transform: uppercase;
-  }
 
-  p {
-    margin-top: var(--scale0);
+    @media screen and (prefers-color-scheme: dark) {
+      color: #111111;
+    }
   }
 
   a {
