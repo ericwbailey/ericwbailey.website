@@ -60,7 +60,7 @@ a:focus {
     background-color: #404040;
   }
   body {
-    color: #ffffff;
+    color: #e8e8e8;
   }
   a,
   a:visited {
@@ -89,7 +89,7 @@ a:focus {
 
 .sidebar {
   @media screen and (min-width: map-get($breakpoint, "large")) {
-    margin-top: 15.15rem;
+    margin-top: 13.25rem;
   }
 }
 
@@ -106,6 +106,10 @@ a:focus {
   margin-top: var(--scale4);
   margin-bottom: var(--scale4);
   padding-top: var(--scale2);
+
+  @media screen and (prefers-color-scheme: dark) {
+    border-top-color: #4a4a4a;
+  }
 }
 
 ul + .attribution {
