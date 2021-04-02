@@ -1,10 +1,19 @@
-// @font-face {
-//   font-family: anaheim;
-//   font-style: normal;
-//   font-weight: 400;
-//   src:
-//     local("Anaheim"),
-//     local("Anaheim"),
-//     url("../fonts/Anaheim-Regular.woff2") format("woff2"),
-//     url("../fonts/Anaheim-Regular.woff") format("woff");
-// }
+@font-face {
+  font-family: 'BespokeSlab-Variable';
+  src:
+    url('/static/fonts/BespokeSlab-Variable.woff2') format('woff2'),
+    url('/static/fonts/BespokeSlab-Variable.woff') format('woff');
+  font-weight: 370;
+  font-display: fallback;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BespokeSlab-VariableItalic';
+  src:
+    url('/static/fonts/BespokeSlab-VariableItalic.woff2') format('woff2'),
+    url('/static/fonts/BespokeSlab-VariableItalic.woff') format('woff');
+  font-display: fallback;
+  font-style: italic;
+  font-style: oblique 0deg 20deg;
+}

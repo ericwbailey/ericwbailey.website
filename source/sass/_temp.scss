@@ -3,13 +3,18 @@ address {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-style: italic;
-  font-weight: bold;
+  color: #111111;
+  font-variation-settings: "wght" 500;
   line-height: var(--line-height-tighter);
+  letter-spacing: var(--tracking-tight);
+
+  @media screen and (prefers-color-scheme: dark) {
+    color: #ffffff;
+  }
 }
 
 h3 {
-  font-style: normal;
+  font-family: 'BespokeSlab-Variable';
 }
 
 ul {
@@ -19,6 +24,10 @@ ul {
 ol,
 ul {
   margin-left: 1.5rem;
+
+  li {
+    margin-top: var(--scale0);
+  }
 
   ol,
   ul {
@@ -51,7 +60,7 @@ a:focus {
     background-color: #404040;
   }
   body {
-    color: #ffffff;
+    color: #e8e8e8;
   }
   a,
   a:visited {
@@ -70,7 +79,7 @@ a:focus {
 .publish-date {
   display: block;
   font-size: var(--scale0);
-  font-style: italic;
+  font-variation-settings: "wght" 350;
   margin-bottom: 2rem;
 }
 
@@ -80,7 +89,7 @@ a:focus {
 
 .sidebar {
   @media screen and (min-width: map-get($breakpoint, "large")) {
-    margin-top: var(--scale8);
+    margin-top: 13.25rem;
   }
 }
 
@@ -97,6 +106,10 @@ a:focus {
   margin-top: var(--scale4);
   margin-bottom: var(--scale4);
   padding-top: var(--scale2);
+
+  @media screen and (prefers-color-scheme: dark) {
+    border-top-color: #4a4a4a;
+  }
 }
 
 ul + .attribution {
@@ -156,5 +169,11 @@ blockquote {
     left: 0;
     width: 100%;
     height: 100%;
+  }
+}
+
+.homepage-frame {
+  @media screen and (min-width: map-get($breakpoint, "large")) {
+    padding: var(--scale1);
   }
 }
