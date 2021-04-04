@@ -1,5 +1,5 @@
 @for $i from 1 through $global-iteration {
-  padding-#{$i} {
+  .padding-#{$i} {
     padding: var(--scale#{$i});
   }
 }
@@ -7,7 +7,7 @@
 
 @for $i from 1 through $global-iteration {
   @each $direction in $directions {
-    margin-#{$direction}-#{$i} {
+    .margin-#{$direction}-#{$i} {
       margin-#{$direction}: var(--scale#{$i});
     }
   }
