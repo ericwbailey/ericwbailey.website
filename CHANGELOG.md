@@ -9,6 +9,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## vNext - Unreleased
 - Performance optimizations
 
+## v1.4.3 - 2021-04-04
+- Add [How to make an ineffective 404 page](https://ericwbailey.design/writing/how-to-make-an-ineffective-404-page)
+
 ## v1.4.2 - 2021-03-31
 - Add [Bespoke Slab](https://www.fontshare.com/fonts/bespoke-slab)
 
