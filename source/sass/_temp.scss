@@ -4,7 +4,7 @@ address {
 
 h1, h2, h3, h4, h5, h6 {
   color: #111111;
-  font-variation-settings: "wght" 500;
+  font-variation-settings: "wght" 200;
   line-height: var(--line-height-tighter);
   letter-spacing: var(--tracking-tight);
 
@@ -23,7 +23,7 @@ ul {
 
 ol,
 ul {
-  margin-left: 1.5rem;
+  margin-left: var(--scale2);
 
   li {
     margin-top: var(--scale0);
@@ -149,7 +149,7 @@ blockquote {
 }
 
 .content {
-
+  max-width: var(--max-width);
 }
 
 .video-wrapper {
@@ -176,4 +176,9 @@ blockquote {
   @media screen and (min-width: map-get($breakpoint, "large")) {
     padding: var(--scale1);
   }
+}
+
+figcaption {
+  font-size: 80%;
+  margin-top: 1rem;
 }
