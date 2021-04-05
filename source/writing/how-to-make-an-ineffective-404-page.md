@@ -2,9 +2,14 @@
 layout: "layouts/post.njk"
 title: How to make an ineffective 404 page
 source: ericwbailey.design
-excerpt: ""
+excerpt: "The backlash was immediate, understandable, and entirely predictable"
 date: 2021-04-04
 year: "2021"
+share:
+  facebookImage: "share-image-facebook.png"
+  facebookDescription: "A happy path with a smiley face and a broken path with a frowny face."
+  twitterImage: "share-image-twitter.png"
+  twitterDescription: "A red frowny face."
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}
