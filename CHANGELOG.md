@@ -9,6 +9,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## vNext - Unreleased
 - Performance optimizations
 
+## v1.4.4 - 2021-04-07
+- Add [I love my not-smart TV](https://ericwbailey.design/writing/i-love-my-not-smart-tv)
+
 ## v1.4.3 - 2021-04-04
 - Add [How to make an ineffective 404 page](https://ericwbailey.design/writing/how-to-make-an-ineffective-404-page)
 
