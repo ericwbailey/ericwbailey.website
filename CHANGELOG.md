@@ -9,6 +9,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## vNext - Unreleased
 - Performance optimizations
 
+## v1.4.6 - 2021-04-13
+- Add [CSS is a Strongly Typed Language](https://css-tricks.com/css-is-a-strongly-typed-language/)
+
 ## v1.4.5 - 2021-04-09
 - Add [Mobile Accessibility: How to Build Apps that Work for All Users](https://www.shopify.com/partners/blog/mobile-accessibility)
 
