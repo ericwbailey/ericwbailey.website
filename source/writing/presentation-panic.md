@@ -15,9 +15,9 @@ I used to get panic attacks when I had to give a client presentation.
 
 This was before I was really aware of my anxiety and depression—I didn’t know what they were or what caused them. Because of this, I spent way too much time fixating on the symptoms, and not the cause.
 
-Both my school and my early jobs didn’t do a good job preparing me for the experience of speaking in front clients. I don’t necessarily blame them, though. A designer’s role has changed so rapidly in the past decade, and with it comes a completely different skillset.
+Both my school and my early jobs didn’t do a good job preparing me for the experience of speaking in front of clients. I don’t necessarily blame them, though. A designer’s role has changed so rapidly in the past decade, and with it comes a completely different skillset.
 
-I still know enough to be dangerous in Photoshop, but practicing how to speak in public has been a lot more valuable long-term skill.
+[I still know enough to be dangerous in Photoshop](https://imgur.com/a/0lbiT), but practicing how to speak in public has been a lot more valuable long-term skill.
 
 The funny thing about anxiety is that the memory of my parking lot panic attack is more or less permanently seared into my brain. While I’ll never be able to forgive myself of the shame and embarrassment I felt, the experience did help push me towards getting the help I needed to start taking care of myself. After that, I was able to start to work on everything else.
 

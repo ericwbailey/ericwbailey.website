@@ -5,6 +5,9 @@ source: ericwbailey.design
 excerpt: "It turns out that naming things is difficult."
 date: 2021-01-12
 year: "2021"
+responses:
+  - title: "Web Languages as Compile Targets"
+    url: https://blog.jim-nielsen.com/2021/web-languages-as-compile-targets/
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}
