@@ -53,11 +53,21 @@ When it set sail on August 10th, 1628 <i>Vasa</i> was the the most high-tech war
 
 A postmortem revealed three main issues:
 
-- The sleek design prioritized aesthetics over seaworthiness,
-- The weight of the extra guns and the gun deck needed to support them, and
-- The weight of the ornamentation caused.
+1. The sleek design prioritized aesthetics over seaworthiness,
+1. The weight of the extra guns and the gun deck needed to support them, and
+1. The weight of the ornamentation caused.
 
 It was also revealed the gun deck was designed and built by someone with no prior experience. In addition, Gustav Ⅱ Adolf rushed production.
+
+## Antarctic Snow Cruiser
+
+The Antarctic Snow Cruiser was built to help the United States Antarctic Service with transportation in the Antartic.
+
+The design of the Snow Cruiser featured many interesting and novel features, including retractable wheels, engine coolant recirculation used for heating the main cabin, and a top-mounted pad for housing a small aerial surveillance aircraft. However, the Snow Cruiser had one major flaw:
+
+Its large, smooth, treadless tires were originally designed for use in a swamp environment, and could not grip the Antarctic snow. On its maiden voyage the Snow Cruiser’s tires spun freely and caused the entire vehicle to sink. Only by placing the Snow Cruiser's in reverse was the crew was able to move it.
+
+The Antarctic Snow Cruiser was abandoned and disappeared under deep snow cover and shifting ice.
 
 ## Baby centrifuge
 
