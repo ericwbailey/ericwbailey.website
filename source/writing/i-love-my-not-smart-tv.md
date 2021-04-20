@@ -4,7 +4,10 @@ title: I love my not-smart TV
 source: ericwbailey.design
 excerpt: "A TV is a passive device, used for passive consumption"
 date: 2021-04-07
-year: "2021"
+year: 2021
+tags:
+  - ericwbailey
+  - iot
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

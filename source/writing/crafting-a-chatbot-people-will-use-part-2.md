@@ -4,6 +4,11 @@ source: Cantina
 excerpt: "Chatbots contain multitudes"
 date: 2017-07-06
 year: 2017
+tags:
+  - cantina
+  - chatbot
+  - design
+  - series
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

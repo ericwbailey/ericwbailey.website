@@ -4,6 +4,10 @@ source: thoughtbot
 excerpt: "It’s arrogant to assume you can waltz into a client engagement and fix everything just because you’re good at computers"
 date: 2020-07-21
 year: 2020
+tags:
+  - thoughtbot
+  - design
+  - personal
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

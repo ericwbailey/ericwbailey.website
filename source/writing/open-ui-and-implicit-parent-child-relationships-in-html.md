@@ -2,9 +2,14 @@
 layout: "layouts/post.njk"
 title: Open UI and implicit parent/child relationships in HTML
 source: ericwbailey.design
-excerpt: "It turns out that naming things is difficult."
+excerpt: "It turns out that naming things is difficult"
 date: 2021-01-12
-year: "2021"
+year: 2021
+tags:
+  - ericwbailey
+  - development
+  - html
+  - open-ui
 responses:
   - title: "Web Languages as Compile Targets"
     url: https://blog.jim-nielsen.com/2021/web-languages-as-compile-targets/

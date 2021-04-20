@@ -4,7 +4,12 @@ title: How to make an ineffective 404 page
 source: ericwbailey.design
 excerpt: "The backlash was immediate, understandable, and entirely predictable"
 date: 2021-04-04
-year: "2021"
+year: 2021
+tags:
+  - ericwbailey
+  - design
+  - personal
+  - user-testing
 share:
   facebookImage: "share-image-facebook.png"
   facebookDescription: "A happy path with a smiley face and a broken path with a frowny face."

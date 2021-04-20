@@ -4,7 +4,13 @@ title: Implicit cultural norms and accessible social media
 source: ericwbailey.design
 excerpt: "Implicit cultural norms and accessible social media have come up in conversation a few times with different groups in the past week, so I want to talk about it"
 date: 2021-02-22
-year: "2021"
+year: 2021
+tags:
+  - ericwbailey
+  - accessibility
+  - design
+  - social-media
+  - tweet-thread
 tweetThread:
   - url: https://twitter.com/ericwbailey/status/1363912374466584587
     date: "February 22, 2021"

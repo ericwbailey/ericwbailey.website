@@ -4,6 +4,15 @@ source: Smashing Magazine
 excerpt: "The placeholder attribute contains a surprising amount of issues that prevent it from delivering on what it promises. Let’s clarify why you need to stop using it."
 date: 2018-06-20
 year: 2018
+tags:
+  - smashing-magazine
+  - accessibility
+  - assistive-technology
+  - attributes
+  - css
+  - design
+  - development
+  - user-queries
 featured: true
 eleventyNavigation:
   key: {{ title }}

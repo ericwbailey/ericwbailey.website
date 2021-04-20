@@ -4,7 +4,11 @@ title: Lighthouse
 source: ericwbailey.design
 excerpt: "Lighthouse is an open source auditing tool made by Google to help developers understand how well their site is doing in terms of four metrics: Performance, Best Practices, Search Engine Optimization (SEO), and Accessibility"
 date: 2019-05-14
-year: "2019"
+year: 2019
+tags:
+  - ericwbailey
+  - accessibility
+  - development
 attribution: "Thank you to <a href='https://ethanmarcotte.com/'>Ethan Marcotte</a> for his thoughts and feedback."
 eleventyNavigation:
   key: {{ title }}

@@ -4,7 +4,11 @@ title: Using a folder other than <code>posts/</code> with Eleventy
 source: ericwbailey.design
 excerpt: "I don’t want to wrestle with overwrought Webpack configuration, write GraphQL queries for basic navigation, or scream at types for failing to transpile or whatever. I want to write"
 date: 2020-11-22
-year: "2020"
+year: 2020
+tags:
+  - ericwbailey
+  - development
+  - eleventy
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

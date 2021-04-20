@@ -3,7 +3,12 @@ title: How 3 hours of conversation saved a company hundreds of thousands of doll
 source: thoughtbot
 excerpt: "De-risking ideas early and often is an effective, enlightening way of figuring out the how"
 date: 2021-02-19
-year: "2021"
+year: 2021
+tags:
+  - thoughtbot
+  - design
+  - design-sprints
+  - user-testing
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

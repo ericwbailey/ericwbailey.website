@@ -4,6 +4,12 @@ source: thoughtbot
 excerpt: "Improving the reading level is often overlooked or downplayed as unglamorous work. Yet it is one of the most effective things you can do to make a product more usable"
 date: 2020-08-06
 year: 2020
+tags:
+  - thoughtbot
+  - accessibility
+  - user-research
+  - user-testing
+  - writing
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

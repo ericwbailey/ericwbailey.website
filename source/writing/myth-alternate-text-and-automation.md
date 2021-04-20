@@ -4,7 +4,14 @@ title: "Myth: Alternate text and automation"
 source: The A11Y Project
 excerpt: "Alternate (alt) text help people who use assistive technology understand images, and are a core part of the Web Content Accessibility Guidelines (WCAG). They require a human’s input to be effective"
 date: 2021-03-24
-year: "2021"
+year: 2021
+tags:
+  - a11y-project
+  - alt-text
+  - assistive-technology
+  - development
+  - html
+  - overlays
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

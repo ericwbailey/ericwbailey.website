@@ -4,6 +4,10 @@ source: CSS-Tricks
 excerpt: "Considering that written words are the foundation of any interface, it makes sense to give your website's typography first-class treatment"
 date: 2017-10-04
 year: 2017
+tags:
+  - css-tricks
+  - css
+  - typography
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

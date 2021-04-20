@@ -4,6 +4,12 @@ source: thoughtbot
 excerpt: "I’ve been experimenting with a Sass color function, and I can’t tell if I love it or hate it"
 date: 2019-06-07
 year: 2019
+tags:
+  - thoughtbot
+  - color
+  - css
+  - design
+  - development
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}
