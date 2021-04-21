@@ -4,6 +4,13 @@ source: CSS-Tricks
 excerpt: "Making your SVG accessible includes adding extra steps to your workflow, but is well-worth it"
 date: 2017-06-21
 year: 2017
+tags:
+  - css-tricks
+  - accessibility
+  - css
+  - html
+  - svg
+  - user-queries
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

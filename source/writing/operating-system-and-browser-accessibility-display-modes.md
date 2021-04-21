@@ -4,6 +4,12 @@ source: The A11Y Project
 excerpt: "Most computers, laptops, tablets, smartphones, and web browsers have specialized tools to help people read and take action on the content they display"
 date: 2020-01-23
 year: 2020
+tags:
+  - a11y-project
+  - accessibility
+  - assistive-technology
+  - development
+  - user-queries
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

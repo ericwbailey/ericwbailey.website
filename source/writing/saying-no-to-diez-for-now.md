@@ -4,6 +4,11 @@ source: thoughtbot
 excerpt: "I had some time to evaluate a different few design token solutions, and decided to give Diez a shot. Here are my impressions"
 date: 2020-09-18
 year: 2020
+tags:
+  - thoughtbot
+  - design
+  - design-tokens
+  - development
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

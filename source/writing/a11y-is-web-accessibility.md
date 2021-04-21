@@ -4,7 +4,10 @@ title: a11y is web accessibility
 source: ericwbailey.design
 excerpt: "The observation, “The term ‘a11y’ isn’t very accessible.” seems to pop up like clockwork. Most of the time, I bite my tongue when I see this surface-level remark and move on"
 date: 2020-08-10
-year: "2020"
+year: 2020
+tags:
+  - ericwbailey
+  - accessibility
 furtherReading:
   - title: "In Defense of the a11y Hashtag"
     url: https://www.customerservant.com/defense-a11y-hashtag/

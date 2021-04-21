@@ -4,7 +4,13 @@ title: Give me a definition for the word dashboard
 source: ericwbailey.design
 excerpt: "I finished up a research project a couple of weeks ago, and I'd like to share a detail that completely threw me for a loop"
 date: 2021-03-03
-year: "2021"
+year: 2021
+tags:
+  - ericwbailey
+  - design
+  - user-testing
+  - tweet-thread
+  - writing
 tweetThread:
   - url: https://twitter.com/ericwbailey/status/1359896677063221249
     date: "February 11, 2021"

@@ -4,6 +4,11 @@ source: Cantina
 excerpt: "Chatbots are weird. There's no other way to say it. We spent the past month working on a chatbot project and it was one of the most difficult design problems I've faced in my professional career"
 date: 2017-06-21
 year: 2017
+tags:
+  - cantina
+  - chatbot
+  - design
+  - series
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

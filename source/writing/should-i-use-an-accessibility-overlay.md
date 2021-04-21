@@ -4,7 +4,14 @@ title: Should I use an accessibility overlay
 source: The A11Y Project
 excerpt: "Due to their technical, social, and moral issues, The A11Y Project does not recommend using permanent plugins. We view these kinds of products as actively harmful, and a step backwards for digital accessibility efforts."
 date: 2021-03-08
-year: "2021"
+year: 2021
+tags:
+  - a11y-project
+  - accessibility
+  - development
+  - inclusion
+  - overlays
+  - performance
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

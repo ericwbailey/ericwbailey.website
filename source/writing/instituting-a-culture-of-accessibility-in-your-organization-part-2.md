@@ -4,6 +4,10 @@ source: Cantina
 excerpt: "I won't lie: What I'm proposing is tricky. Part of the challenge of converting an organization and its body of work into an accessible one is deciding where to begin"
 date: 2016-07-27
 year: 2016
+tags:
+  - cantina
+  - accessibility
+  - series
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

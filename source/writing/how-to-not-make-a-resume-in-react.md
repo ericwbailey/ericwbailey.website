@@ -4,7 +4,12 @@ title: How to not make a résumé in React
 source: ericwbailey.design
 excerpt: "I’ve seen a fair share of tutorial links floating around in newsletters and Twitter and the like recently. They all promise the same thing, namely how to use React to create a résumé"
 date: 2020-04-07
-year: "2020"
+year: 2020
+tags:
+  - ericwbailey
+  - development
+  - performance
+  - responsive-design
 attribution: "Max Böck, who is a far better person than I am, actually did something about this issue. Check out his post on <a href='https://mxb.dev/blog/eleventy-resume-builder/'>making an Eleventy Résumé Builder</a>."
 eleventyNavigation:
   key: {{ title }}

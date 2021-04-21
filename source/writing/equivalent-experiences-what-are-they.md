@@ -4,6 +4,14 @@ source: Smashing Magazine
 excerpt: "If you spend enough time interacting with digital accessibility practitioners, you may encounter the phrase “equivalent experience.” This saying concisely sums up a lot of the philosophy behind accessibility work"
 date: 2020-05-27
 year: 2020
+tags:
+  - smashing-magazine
+  - accessibility
+  - assistive-technology
+  - design
+  - development
+  - inclusion
+  - series
 featured: true
 eleventyNavigation:
   key: {{ title }}

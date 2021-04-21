@@ -7,7 +7,12 @@ This project adheres to [Semantic Versioning](http://semver.org/) and tries to f
 A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1) is available.
 
 ## vNext - Unreleased
+- Design updates
 - Performance optimizations
+
+## v1.4.7 - 2021-04-20
+- Add tags to posts
+- Add [Add punctuation to your alt text](https://thoughtbot.com/blog/add-punctuation-to-your-alt-text)
 
 ## v1.4.6 - 2021-04-13
 - Add [CSS is a Strongly Typed Language](https://css-tricks.com/css-is-a-strongly-typed-language/)

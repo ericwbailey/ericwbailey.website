@@ -4,6 +4,10 @@ source: Cantina
 excerpt: "When I bought a couple of Internet of Things devices recently, I had a simple goal: to save some money"
 date: 2016-11-15
 year: 2016
+tags:
+  - cantina
+  - design
+  - iot
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

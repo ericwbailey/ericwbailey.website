@@ -4,7 +4,11 @@ title: Accessibility auditing and ego
 source: ericwbailey.design
 excerpt: "At its core, an accessibility audit is about determining if a disabled person can use a digital experience"
 date: 2021-02-09
-year: "2021"
+year: 2021
+tags:
+  - ericwbailey
+  - accessibility
+  - personal
 responses:
   - title: "Accessibility auditing and pushing for more"
     url: https://alastairc.uk/2021/02/accessibility-auditing-and-pushing-for-more/

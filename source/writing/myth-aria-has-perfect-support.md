@@ -4,6 +4,12 @@ source: The A11Y Project
 excerpt: "ARIA should be the last tool you pull out of your toolbox, not your first"
 date: 2020-05-13
 year: 2020
+tags:
+  - a11y-project
+  - accessibility
+  - aria
+  - development
+  - html
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

@@ -4,6 +4,10 @@ source: Cantina
 excerpt: "Using the EXCEPTION comment to help maintain mature, large-scale Sass projects"
 date: 2015-10-30
 category: 2015
+tags:
+  - cantina
+  - css
+  - development
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

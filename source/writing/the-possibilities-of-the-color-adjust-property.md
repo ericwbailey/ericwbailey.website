@@ -4,6 +4,11 @@ source: CSS-Tricks
 excerpt: "With the web's growth comes new features to better accommodate its new form factors and use cases. One feature I'm excited about is the color-adjust property, proposed in CSS Color Module Level 4. It is an acknowledgement that the web will continue to show up on devices that have less-than-stellar displays"
 date: 2018-08-14
 year: 2018
+tags:
+  - css-tricks
+  - development
+  - color
+  - css
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

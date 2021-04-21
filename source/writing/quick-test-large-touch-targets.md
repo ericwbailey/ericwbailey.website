@@ -4,6 +4,11 @@ source: The A11Y Project
 excerpt: "A touch target is the total area a person can click or tap on to activate an interactive element such as a link, input, or button"
 date: 2018-11-21
 year: 2018
+tags:
+  - a11y-project
+  - accessibility
+  - css
+  - design
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

@@ -4,7 +4,12 @@ title: The Radium Craze
 source: ericwbailey.design
 excerpt: "Radium was discovered in 1898 by Polish chemist Marie Sklodowska Curie. To produce radium, you need to extract it from pitchblende, an ore that contains uranium"
 date: 2020-08-25
-year: "2020"
+year: 2020
+tags:
+  - ericwbailey
+  - development
+  - history
+  - performance
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

@@ -4,7 +4,10 @@ title: A website is like a puppy
 source: ericwbailey.design
 excerpt: "It’s exciting and fun, but also comes with a lot of responsibility"
 date: 2020-12-21
-year: "2020"
+year: 2020
+tags:
+  - ericwbailey
+  - internet
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

@@ -4,6 +4,9 @@ source: The Human in the Machine
 excerpt: "I've noticed myself repeatedly giving out these two pieces of advice. Maybe they'll resonate with you"
 date: 2017-07-20
 year: 2017
+tags:
+  - human-in-the-machine
+  - personal
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

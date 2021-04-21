@@ -3,7 +3,13 @@ title: So you wanna create an eco-friendly website
 source: thoughtbot
 excerpt: "We can’t talk about making green websites. Instead, we need to think in terms of harm reduction"
 date: 2020-11-26
-year: "2020"
+year: 2020
+tags:
+  - thoughtbot
+  - development
+  - environment
+  - internet
+  - performance
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

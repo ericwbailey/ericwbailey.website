@@ -4,7 +4,10 @@ title: Minor version bump
 source: ericwbailey.design
 excerpt: "I got a title change today. I’m now a Senior Designer"
 date: 2021-03-23
-year: "2021"
+year: 2021
+tags:
+  - ericwbailey
+  - personal
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

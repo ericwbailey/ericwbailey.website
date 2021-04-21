@@ -3,7 +3,12 @@ title: "How-to: Use the tabindex attribute"
 source: The A11Y Project
 excerpt: "tabindex is a global attribute that allows an HTML element to receive focus. It needs a value of zero or a negative number in order to work in an accessible way"
 date: 2021-01-28
-year: "2021"
+year: 2021
+tags:
+  - a11y-project
+  - accessibility
+  - attributes
+  - html
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

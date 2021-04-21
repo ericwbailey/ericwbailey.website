@@ -4,7 +4,10 @@ title: My typical day
 source: ericwbailey.design
 excerpt: "Here’s my daily routine, warts and all"
 date: 2021-02-17
-year: "2021"
+year: 2021
+tags:
+  - ericwbailey
+  - personal
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}
@@ -46,6 +49,7 @@ A new thing I’ve added to my routine is checking what album is next on [1001al
 
 - a new album every weekday translates to a little under four years worth of listening, and
 - it’s a really cool idea that I’d like to spread awareness of.
+
 ## 9:30 AM–12:00 PM
 
 I make coffee and then do client work.

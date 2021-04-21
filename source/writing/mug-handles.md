@@ -4,7 +4,13 @@ title: Mug handles
 source: ericwbailey.design
 excerpt: "My two-part piece on equivalent experiences is now live on Smashing Magazine. I have complicated feelings about it"
 date: 2020-08-06
-year: "2020"
+year: 2020
+tags:
+  - ericwbailey
+  - accessibility
+  - assistive-technology
+  - design
+  - inclusion
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}
