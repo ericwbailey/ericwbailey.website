@@ -5,9 +5,8 @@ excerpt: "The important bit I learned this year is the same thing I learn over a
 date: 2020-12-15
 year: 2020
 tags:
-  - css-tricks
-  - accessibility
-  - inclusion
+  - Accessibility
+  - Inclusion
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

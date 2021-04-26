@@ -5,8 +5,7 @@ excerpt: "I've noticed myself repeatedly giving out these two pieces of advice. 
 date: 2017-07-20
 year: 2017
 tags:
-  - human-in-the-machine
-  - personal
+  - Personal
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

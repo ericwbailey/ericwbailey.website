@@ -5,11 +5,10 @@ excerpt: "Web components are an exciting technology that allows developers to cr
 date: 2018-12-20
 year: 2018
 tags:
-  - 24-accessibility
-  - accessibility
-  - development
-  - narrated
-  - web-components
+  - Accessibility
+  - Development
+  - Narrated
+  - Web Components
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

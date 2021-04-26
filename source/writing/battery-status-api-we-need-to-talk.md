@@ -5,10 +5,9 @@ excerpt: "As the browser continues to become more aware of its host device's cap
 date: 2016-01-13
 year: 2016
 tags:
-  - cantina
-  - design
-  - development
-  - iot
+  - Design
+  - Development
+  - IoT
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

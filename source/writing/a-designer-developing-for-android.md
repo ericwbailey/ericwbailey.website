@@ -5,10 +5,9 @@ excerpt: "We are working with a client who tasked us with helping them create an
 date: 2018-11-08
 year: 2018
 tags:
-  - thoughtbot
-  - apps
-  - design
-  - development
+  - Apps
+  - Design
+  - Development
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

@@ -5,10 +5,9 @@ excerpt: "De-risking ideas early and often is an effective, enlightening way of 
 date: 2021-02-19
 year: 2021
 tags:
-  - thoughtbot
-  - design
-  - design-sprints
-  - user-testing
+  - Design
+  - Design Sprints
+  - User Testing
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

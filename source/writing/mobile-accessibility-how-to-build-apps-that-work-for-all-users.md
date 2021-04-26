@@ -5,13 +5,12 @@ excerpt: "Inclusive design and accessibility advocate Eric Bailey recommends che
 date: 2021-04-06
 year: 2021
 tags:
-  - shopify-partners
-  - accessibility
-  - apps
-  - assistive-technology
-  - design
-  - development
-  - user-testing
+  - Accessibility
+  - Apps
+  - Assistive Technology
+  - Design
+  - Development
+  - User Testing
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

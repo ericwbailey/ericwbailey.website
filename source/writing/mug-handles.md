@@ -6,11 +6,10 @@ excerpt: "My two-part piece on equivalent experiences is now live on Smashing Ma
 date: 2020-08-06
 year: 2020
 tags:
-  - ericwbailey
-  - accessibility
-  - assistive-technology
-  - design
-  - inclusion
+  - Accessibility
+  - Assistive Technology
+  - Design
+  - Inclusion
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

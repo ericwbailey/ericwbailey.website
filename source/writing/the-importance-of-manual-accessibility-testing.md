@@ -5,10 +5,9 @@ excerpt: "Automated accessibility tests are a great resource to have, but they c
 date: 2018-09-12
 year: 2018
 tags:
-  - smashing-magazine
-  - accessibility
-  - assistive-technology
-  - user-testing
+  - Accessibility
+  - Assistive Technology
+  - User Testing
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

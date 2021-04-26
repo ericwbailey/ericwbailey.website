@@ -5,10 +5,9 @@ excerpt: "Boston, like many large cities, has a subway system. Commuters on it a
 date: 2017-07-11
 year: 2017
 tags:
-  - css-tricks
-  - accessibility
-  - assistive-technology
-  - css
+  - Accessibility
+  - Assistive Technology
+  - CSS
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

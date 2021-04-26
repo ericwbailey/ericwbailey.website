@@ -6,9 +6,8 @@ excerpt: "Lighthouse is an open source auditing tool made by Google to help deve
 date: 2019-05-14
 year: 2019
 tags:
-  - ericwbailey
-  - accessibility
-  - development
+  - Accessibility
+  - Development
 attribution: "Thank you to <a href='https://ethanmarcotte.com/'>Ethan Marcotte</a> for his thoughts and feedback."
 eleventyNavigation:
   key: {{ title }}

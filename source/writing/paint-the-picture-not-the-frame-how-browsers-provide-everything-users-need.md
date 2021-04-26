@@ -5,14 +5,13 @@ excerpt: "Every adjustment to the appearance and behavior of the features browse
 date: 2019-02-07
 year: 2019
 tags:
-  - a-list-apart
-  - accessibility
-  - design
-  - development
-  - inclusion
-  - performance
-  - user-queries
-  - user-testing
+  - Accessibility
+  - Design
+  - Development
+  - Inclusion
+  - Performance
+  - User Queries
+  - User Testing
 featured: true
 eleventyNavigation:
   key: {{ title }}

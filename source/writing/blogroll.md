@@ -6,9 +6,8 @@ excerpt: "I have a blogroll now!"
 date: 2021-02-02
 year: 2021
 tags:
-  - ericwbailey
-  - social-media
-  - writing
+  - Social Media
+  - Writing
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

@@ -5,10 +5,9 @@ excerpt: "The semantics inherent in HTML elements tell us what we're supposed to
 date: 2018-02-03
 year: 2018
 tags:
-  - css-tricks
-  - attributes
-  - development
-  - html
+  - Attributes
+  - Development
+  - HTML
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

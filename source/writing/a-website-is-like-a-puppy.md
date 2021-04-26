@@ -6,8 +6,7 @@ excerpt: "It’s exciting and fun, but also comes with a lot of responsibility"
 date: 2020-12-21
 year: 2020
 tags:
-  - ericwbailey
-  - internet
+  - Internet
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

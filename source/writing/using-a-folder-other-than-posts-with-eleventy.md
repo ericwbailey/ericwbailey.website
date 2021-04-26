@@ -6,9 +6,8 @@ excerpt: "I don’t want to wrestle with overwrought Webpack configuration, writ
 date: 2020-11-22
 year: 2020
 tags:
-  - ericwbailey
-  - development
-  - eleventy
+  - Development
+  - Eleventy
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

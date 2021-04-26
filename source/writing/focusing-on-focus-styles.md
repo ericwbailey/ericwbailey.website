@@ -5,11 +5,10 @@ excerpt: "Not everyone uses a mouse to browse the internet. If you’re reading 
 date: 2018-03-29
 year: 2018
 tags:
-  - css-tricks
-  - accessibility
-  - css
-  - development
-  - focus
+  - Accessibility
+  - CSS
+  - Development
+  - Focus
 featured: true
 eleventyNavigation:
   key: {{ title }}

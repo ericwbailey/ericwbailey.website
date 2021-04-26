@@ -5,9 +5,8 @@ excerpt: "It’s arrogant to assume you can waltz into a client engagement and f
 date: 2020-07-21
 year: 2020
 tags:
-  - thoughtbot
-  - design
-  - personal
+  - Design
+  - Personal
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

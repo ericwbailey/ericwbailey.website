@@ -5,9 +5,8 @@ excerpt: "One of the ways you can classify a programming language is by how stro
 date: 2021-04-13
 year: 2021
 tags:
-  - css-tricks
-  - css
-  - development
+  - CSS
+  - Development
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

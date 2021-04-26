@@ -5,13 +5,12 @@ excerpt: "This is the second of two articles on the topic of how digital accessi
 date: 2020-06-05
 year: 2020
 tags:
-  - smashing-magazine
-  - accessibility
-  - assistive-technology
-  - design
-  - development
-  - inclusion
-  - series
+  - Accessibility
+  - Assistive Technology
+  - Design
+  - Development
+  - Inclusion
+  - Series
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

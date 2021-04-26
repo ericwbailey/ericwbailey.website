@@ -5,14 +5,13 @@ excerpt: "The placeholder attribute contains a surprising amount of issues that 
 date: 2018-06-20
 year: 2018
 tags:
-  - smashing-magazine
-  - accessibility
-  - assistive-technology
-  - attributes
-  - css
-  - design
-  - development
-  - user-queries
+  - Accessibility
+  - Assistive Technology
+  - Attributes
+  - CSS
+  - Design
+  - Development
+  - User Queries
 featured: true
 eleventyNavigation:
   key: {{ title }}

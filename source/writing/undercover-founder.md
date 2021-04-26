@@ -5,10 +5,9 @@ excerpt: "Drift can happen between business goals and boots on the ground. When 
 date: 2021-01-05
 year: 2020
 tags:
-  - thoughtbot
-  - design
-  - user-research
-  - user-testing
+  - Design
+  - User Research
+  - User Testing
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

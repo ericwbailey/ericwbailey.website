@@ -5,9 +5,8 @@ excerpt: "Like any other programming language, CSS has functions. They can be in
 date: 2020-05-27
 year: 2020
 tags:
-  - css-tricks
-  - css
-  - development
+  - CSS
+  - Development
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

@@ -6,9 +6,8 @@ excerpt: "Tired of referencing the same yaks, sheds, and cars over and over agai
 date: 2019-11-11
 year: 2019
 tags:
-  - ericwbailey
-  - development
-  - history
+  - Development
+  - History
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

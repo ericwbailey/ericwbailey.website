@@ -6,10 +6,9 @@ excerpt: "Radium was discovered in 1898 by Polish chemist Marie Sklodowska Curie
 date: 2020-08-25
 year: 2020
 tags:
-  - ericwbailey
-  - development
-  - history
-  - performance
+  - Development
+  - History
+  - Performance
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

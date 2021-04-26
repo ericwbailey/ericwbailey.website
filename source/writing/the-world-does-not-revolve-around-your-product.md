@@ -5,10 +5,9 @@ excerpt: "A common problem I run into with product founders and larger organizat
 date: 2020-08-06
 year: 2020
 tags:
-  - thoughtbot
-  - design
-  - user-research
-  - user-testing
+  - Design
+  - User Research
+  - User Testing
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

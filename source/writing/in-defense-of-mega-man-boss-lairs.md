@@ -6,8 +6,7 @@ excerpt: "Mega Man games are light on plot, but do a lot of showing not telling.
 date: 2020-12-16
 year: 2020
 tags:
-  - ericwbailey
-  - games
+  - Games
 share:
   facebookImage: "share-image-facebook.png"
   facebookDescription: "Crash Man's stage from Mega Man 2."

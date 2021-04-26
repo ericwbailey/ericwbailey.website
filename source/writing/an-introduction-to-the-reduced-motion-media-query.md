@@ -5,11 +5,10 @@ excerpt: "The open web's success is built on interoperable technologies. The abi
 date: 2019-04-24
 year: 2019
 tags:
-  - css-tricks
-  - accessibility
-  - css
-  - development
-  - user-queries
+  - Accessibility
+  - CSS
+  - Development
+  - User Queries
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

@@ -6,8 +6,8 @@ excerpt: "The observation, “The term ‘a11y’ isn’t very accessible.” se
 date: 2020-08-10
 year: 2020
 tags:
-  - ericwbailey
-  - accessibility
+  - Accessibility
+  - Inclusion
 furtherReading:
   - title: "In Defense of the a11y Hashtag"
     url: https://www.customerservant.com/defense-a11y-hashtag/

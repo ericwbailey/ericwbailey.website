@@ -5,12 +5,11 @@ excerpt: "Favicons are the little icons you see in your browser tab. They help y
 date: 2020-04-24
 year: 2020
 tags:
-  - css-tricks
-  - css
-  - design
-  - development
-  - favicon
-  - svg
+  - CSS
+  - Design
+  - Development
+  - Favicon
+  - SVG
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

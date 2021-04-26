@@ -5,11 +5,10 @@ excerpt: "We can’t talk about making green websites. Instead, we need to think
 date: 2020-11-26
 year: 2020
 tags:
-  - thoughtbot
-  - development
-  - environment
-  - internet
-  - performance
+  - Development
+  - Environment
+  - Internet
+  - Performance
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

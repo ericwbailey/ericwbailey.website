@@ -5,10 +5,9 @@ excerpt: "tabindex is a global attribute that allows an HTML element to receive 
 date: 2021-01-28
 year: 2021
 tags:
-  - a11y-project
-  - accessibility
-  - attributes
-  - html
+  - Accessibility
+  - Attributes
+  - HTML
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

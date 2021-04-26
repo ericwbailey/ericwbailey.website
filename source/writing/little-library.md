@@ -5,10 +5,9 @@ excerpt: "At the end of the year, thoughtbot sets aside two days for a hackathon
 date: 2019-01-14
 year: 2019
 tags:
-  - thoughtbot
-  - design
-  - development
-  - hackathon
+  - Design
+  - Development
+  - Hackathon
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

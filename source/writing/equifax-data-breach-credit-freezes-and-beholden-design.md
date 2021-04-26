@@ -6,9 +6,8 @@ excerpt: "Ever been frustrated because a movie theater plays advertisements befo
 date: 2017-09-11
 year: 2017
 tags:
-  - cantina
-  - design
-  - subversion
+  - Design
+  - Subversion
 originallyPublished:
   - title: "Cantina"
     url: https://web.archive.org/web/20170914030151/https://cantina.co/equifax-data-breach-credit-freezes-and-beholden-design/

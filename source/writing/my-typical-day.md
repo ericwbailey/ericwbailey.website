@@ -6,8 +6,7 @@ excerpt: "Here’s my daily routine, warts and all"
 date: 2021-02-17
 year: 2021
 tags:
-  - ericwbailey
-  - personal
+  - Personal
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

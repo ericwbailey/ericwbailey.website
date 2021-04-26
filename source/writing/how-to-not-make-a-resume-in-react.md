@@ -6,10 +6,9 @@ excerpt: "I’ve seen a fair share of tutorial links floating around in newslett
 date: 2020-04-07
 year: 2020
 tags:
-  - ericwbailey
-  - development
-  - performance
-  - responsive-design
+  - Development
+  - Performance
+  - Responsive Design
 attribution: "Max Böck, who is a far better person than I am, actually did something about this issue. Check out his post on <a href='https://mxb.dev/blog/eleventy-resume-builder/'>making an Eleventy Résumé Builder</a>."
 eleventyNavigation:
   key: {{ title }}
