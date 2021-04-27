@@ -5,10 +5,9 @@ excerpt: "While alt text end punctuation isn’t technically required for compli
 date: 2021-04-20
 year: 2021
 tags:
-  - thoughtbot
-  - accessibility
-  - attributes
-  - html
+  - Accessibility
+  - Attributes
+  - HTML
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

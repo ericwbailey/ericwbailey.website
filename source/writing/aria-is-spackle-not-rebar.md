@@ -5,11 +5,10 @@ excerpt: "Much like their physical counterparts, the materials we use to build w
 date: 2019-05-20
 year: 2019
 tags:
-  - css-tricks
-  - accessibility
-  - aria
-  - assistive-technology
-  - development
+  - Accessibility
+  - ARIA
+  - Assistive Technology
+  - Development
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

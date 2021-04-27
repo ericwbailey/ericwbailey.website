@@ -5,14 +5,13 @@ excerpt: "Finally! A way to yell at your computer and have it actually listen"
 date: 2021-03-02
 year: 2021
 tags:
-  - thoughtbot
-  - accessibility
-  - aria
-  - assistive-technology
-  - design
-  - development
-  - localization
-  - series
+  - Accessibility
+  - ARIA
+  - Assistive Technology
+  - Design
+  - Development
+  - Localization
+  - Series
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

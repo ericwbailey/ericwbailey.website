@@ -5,11 +5,10 @@ excerpt: "The HTML specification describes six heading elements: h1, h2, h3, h4,
 date: 2018-10-22
 year: 2018
 tags:
-  - envato-tuts
-  - accessibility
-  - assistive-technology
-  - development
-  - html
+  - Accessibility
+  - Assistive Technology
+  - Development
+  - HTML
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

@@ -5,10 +5,9 @@ excerpt: "Accessibility has come a long way over the last few years. It used to 
 date: 2019-05-15
 year: 2019
 tags:
-  - shopify-partners
-  - accessibility
-  - apps
-  - design
+  - Accessibility
+  - Apps
+  - Design
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

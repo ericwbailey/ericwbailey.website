@@ -5,11 +5,10 @@ excerpt: "There’s a really cool way of operating your computer buried deep in 
 date: 2021-01-26
 year: 2021
 tags:
-  - thoughtbot
-  - accessibility
-  - assistive-technology
-  - design
-  - series
+  - Accessibility
+  - Assistive Technology
+  - Design
+  - Series
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

@@ -6,12 +6,11 @@ excerpt: "Due to their technical, social, and moral issues, The A11Y Project doe
 date: 2021-03-08
 year: 2021
 tags:
-  - a11y-project
-  - accessibility
-  - development
-  - inclusion
-  - overlays
-  - performance
+  - Accessibility
+  - Development
+  - Inclusion
+  - Overlays
+  - Performance
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

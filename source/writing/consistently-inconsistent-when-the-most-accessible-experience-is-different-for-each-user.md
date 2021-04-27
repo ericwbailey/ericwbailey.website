@@ -5,9 +5,8 @@ excerpt: "While working on a web app to make it more accessible, a coworker rece
 date: 2017-11-14
 year: 2017
 tags:
-  - cantina
-  - accessibility
-  - assistive-technology
+  - Accessibility
+  - Assistive Technology
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

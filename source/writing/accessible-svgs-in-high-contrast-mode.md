@@ -5,12 +5,11 @@ excerpt: "Making your SVG accessible includes adding extra steps to your workflo
 date: 2017-06-21
 year: 2017
 tags:
-  - css-tricks
-  - accessibility
-  - css
-  - html
-  - svg
-  - user-queries
+  - Accessibility
+  - CSS
+  - HTML
+  - SVG
+  - User Queries
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

@@ -5,9 +5,8 @@ excerpt: "As more and more services necessary to living life go online, it becom
 date: 2017-12-17
 year: 2017
 tags:
-  - 24-accessibility
-  - accessibility
-  - assistive-technology
+  - Accessibility
+  - Assistive Technology
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

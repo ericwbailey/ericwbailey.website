@@ -5,10 +5,9 @@ excerpt: "I had some time to evaluate a different few design token solutions, an
 date: 2020-09-18
 year: 2020
 tags:
-  - thoughtbot
-  - design
-  - design-tokens
-  - development
+  - Design
+  - Design Tokens
+  - Development
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

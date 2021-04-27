@@ -5,11 +5,10 @@ excerpt: "Most computers, laptops, tablets, smartphones, and web browsers have s
 date: 2020-01-23
 year: 2020
 tags:
-  - a11y-project
-  - accessibility
-  - assistive-technology
-  - development
-  - user-queries
+  - Accessibility
+  - Assistive Technology
+  - Development
+  - User Queries
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

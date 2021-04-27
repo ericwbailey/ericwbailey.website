@@ -5,12 +5,11 @@ excerpt: "If you're not careful, it becomes quite easy to paint yourself into a 
 date: 2016-10-19
 year: 2016
 tags:
-  - cantina
-  - accessibility
-  - css
-  - design
-  - development
-  - html
+  - Accessibility
+  - CSS
+  - Design
+  - Development
+  - HTML
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

@@ -5,9 +5,8 @@ excerpt: "An interview with Melody Kramer for Poynter"
 date: 2017-11-14
 year: 2017
 tags:
-  - poynter
-  - accessibility
-  - user-testing
+  - Accessibility
+  - User Testing
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

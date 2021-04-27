@@ -5,11 +5,10 @@ excerpt: "Focus management is the practice of coordinating what can and cannot r
 date: 2020-10-19
 year: 2020
 tags:
-  - css-tricks
-  - accessibility
-  - assistive-technology
-  - focus
-  - development
+  - Accessibility
+  - Assistive Technology
+  - Focus
+  - Development
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

@@ -6,9 +6,8 @@ excerpt: "As someone with a good deal of interest in the digital accessibility s
 date: 2019-05-03
 year: 2019
 tags:
-  - ericwbailey
-  - accessibility
-  - history
+  - Accessibility
+  - History
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

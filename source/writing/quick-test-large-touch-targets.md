@@ -5,10 +5,9 @@ excerpt: "A touch target is the total area a person can click or tap on to activ
 date: 2018-11-21
 year: 2018
 tags:
-  - a11y-project
-  - accessibility
-  - css
-  - design
+  - Accessibility
+  - CSS
+  - Design
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

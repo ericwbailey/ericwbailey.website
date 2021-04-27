@@ -5,9 +5,8 @@ excerpt: "Considering that written words are the foundation of any interface, it
 date: 2017-10-04
 year: 2017
 tags:
-  - css-tricks
-  - css
-  - typography
+  - CSS
+  - Typography
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

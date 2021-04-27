@@ -5,9 +5,8 @@ excerpt: "Remember those Reese's Peanut Butter Cups commercials from the 1980s? 
 date: 2016-04-05
 year: 2016
 tags:
-  - cantina
-  - accessibility
-  - series
+  - Accessibility
+  - Series
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

@@ -6,11 +6,10 @@ excerpt: "Creating, maintaining, or evaluating accessible technology? Here are s
 date: 2019-07-29
 year: 2019
 tags:
-  - ericwbailey
-  - accessibility
-  - design
-  - development
-  - inclusion
+  - Accessibility
+  - Design
+  - Development
+  - Inclusion
 attribution: "Thank you to <a href='https://www.scottohara.me/'>Scott O'Hara</a> for his feedback."
 eleventyNavigation:
   key: {{ title }}

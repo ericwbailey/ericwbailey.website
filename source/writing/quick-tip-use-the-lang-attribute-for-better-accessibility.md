@@ -4,12 +4,11 @@ source: Envato Tuts+
 excerpt: "The lang attribute is one of the global HTML attributes developers can apply to any HTML element, and it can really help with accessibility"
 date: 2018-10-23
 year: 2018
-  - envato-tuts
-  - accessibility
-  - assistive-technology
-  - attributes
-  - html
-  - localization
+  - Accessibility
+  - Assistive Technology
+  - Attributes
+  - HTML
+  - Localization
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

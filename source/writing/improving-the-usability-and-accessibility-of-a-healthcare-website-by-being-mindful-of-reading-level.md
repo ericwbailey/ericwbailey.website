@@ -5,11 +5,10 @@ excerpt: "Improving the reading level is often overlooked or downplayed as ungla
 date: 2020-08-06
 year: 2020
 tags:
-  - thoughtbot
-  - accessibility
-  - user-research
-  - user-testing
-  - writing
+  - Accessibility
+  - User Research
+  - User Testing
+  - Writing
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

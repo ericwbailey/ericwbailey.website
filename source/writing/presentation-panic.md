@@ -6,8 +6,7 @@ excerpt: "I used to get panic attacks when I had to give a client presentation."
 date: 2021-02-01
 year: 2021
 tags:
-  - ericwbailey
-  - personal
+  - Personal
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

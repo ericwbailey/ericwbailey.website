@@ -5,10 +5,9 @@ excerpt: "Chatbots are weird. There's no other way to say it. We spent the past 
 date: 2017-06-21
 year: 2017
 tags:
-  - cantina
-  - chatbot
-  - design
-  - series
+  - Chatbot
+  - Design
+  - Series
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

@@ -5,10 +5,9 @@ excerpt: "With the web's growth comes new features to better accommodate its new
 date: 2018-08-14
 year: 2018
 tags:
-  - css-tricks
-  - development
-  - color
-  - css
+  - Development
+  - Color
+  - CSS
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

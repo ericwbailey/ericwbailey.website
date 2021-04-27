@@ -5,11 +5,10 @@ excerpt: "Hi, my name is Eric, and I used to hate personas"
 date: 2020-03-04
 year: 2020
 tags:
-  - thoughtbot
-  - design
-  - design-sprints
-  - personas
-  - user-research
+  - Design
+  - Design Sprints
+  - Personas
+  - User Research
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

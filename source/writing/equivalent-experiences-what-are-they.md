@@ -5,13 +5,12 @@ excerpt: "If you spend enough time interacting with digital accessibility practi
 date: 2020-05-27
 year: 2020
 tags:
-  - smashing-magazine
-  - accessibility
-  - assistive-technology
-  - design
-  - development
-  - inclusion
-  - series
+  - Accessibility
+  - Assistive Technology
+  - Design
+  - Development
+  - Inclusion
+  - Series
 featured: true
 eleventyNavigation:
   key: {{ title }}

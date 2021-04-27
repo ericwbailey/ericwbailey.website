@@ -5,9 +5,8 @@ excerpt: "I won't lie: What I'm proposing is tricky. Part of the challenge of co
 date: 2016-07-27
 year: 2016
 tags:
-  - cantina
-  - accessibility
-  - series
+  - Accessibility
+  - Series
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

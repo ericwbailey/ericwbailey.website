@@ -6,12 +6,11 @@ excerpt: "Alternate (alt) text help people who use assistive technology understa
 date: 2021-03-24
 year: 2021
 tags:
-  - a11y-project
-  - alt-text
-  - assistive-technology
-  - development
-  - html
-  - overlays
+  - Alt Text
+  - Assistive Technology
+  - Development
+  - HTML
+  - Overlays
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

@@ -5,10 +5,9 @@ excerpt: "As a young nerd, I loved to immerse myself in digital worlds, learning
 date: 2019-01-07
 year: 2019
 tags:
-  - css-tricks
-  - design
-  - development
-  - html
+  - Design
+  - Development
+  - HTML
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

@@ -5,10 +5,9 @@ excerpt: "Inclusive Design is the practice of making products and services acces
 date: 2018-12-06
 year: 2018
 tags:
-  - 24-ways
-  - design
-  - inclusion
-  - subversion
+  - Design
+  - Inclusion
+  - Subversion
 featured: true
 eleventyNavigation:
   key: {{ title }}

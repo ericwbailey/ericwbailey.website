@@ -6,10 +6,9 @@ excerpt: "Rapidly and inexpensively de-risking ideas by talking to people is the
 date: 2021-03-23
 year: 2021
 tags:
-  - thoughtbot
-  - design
-  - design-sprint
-  - user-testing
+  - Design
+  - Design Sprints
+  - User Testing
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

@@ -5,11 +5,10 @@ excerpt: "I’ve been experimenting with a Sass color function, and I can’t te
 date: 2019-06-07
 year: 2019
 tags:
-  - thoughtbot
-  - color
-  - css
-  - design
-  - development
+  - Color
+  - CSS
+  - Design
+  - Development
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

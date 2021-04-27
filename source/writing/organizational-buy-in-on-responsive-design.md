@@ -5,9 +5,8 @@ excerpt: "It is no longer appropriate to expect your users to sit down at a desk
 date: 2016-06-02
 year: 2016
 tags:
-  - cantina
-  - development
-  - responsive-design
+  - Development
+  - Responsive Design
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

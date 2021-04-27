@@ -5,9 +5,8 @@ excerpt: "When I bought a couple of Internet of Things devices recently, I had a
 date: 2016-11-15
 year: 2016
 tags:
-  - cantina
-  - design
-  - iot
+  - Design
+  - IoT
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

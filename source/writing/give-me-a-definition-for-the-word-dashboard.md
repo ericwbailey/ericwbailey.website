@@ -6,11 +6,10 @@ excerpt: "I finished up a research project a couple of weeks ago, and I'd like t
 date: 2021-03-03
 year: 2021
 tags:
-  - ericwbailey
-  - design
-  - user-testing
-  - tweet-thread
-  - writing
+  - Design
+  - User Testing
+  - Tweet Thread
+  - Writing
 tweetThread:
   - url: https://twitter.com/ericwbailey/status/1359896677063221249
     date: "February 11, 2021"

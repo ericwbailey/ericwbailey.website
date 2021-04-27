@@ -6,11 +6,10 @@ excerpt: "Implicit cultural norms and accessible social media have come up in co
 date: 2021-02-22
 year: 2021
 tags:
-  - ericwbailey
-  - accessibility
-  - design
-  - social-media
-  - tweet-thread
+  - Accessibility
+  - Design
+  - Social Media
+  - Tweet Thread
 tweetThread:
   - url: https://twitter.com/ericwbailey/status/1363912374466584587
     date: "February 22, 2021"

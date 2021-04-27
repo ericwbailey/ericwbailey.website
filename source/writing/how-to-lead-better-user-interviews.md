@@ -5,9 +5,8 @@ excerpt: "This isn't a post about convincing you of the benefits of user intervi
 date: 2018-06-12
 year: 2018
 tags:
-  - thoughtbot
-  - design
-  - user-testing
+  - Design
+  - User Testing
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}
