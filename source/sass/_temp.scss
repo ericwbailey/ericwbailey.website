@@ -182,3 +182,18 @@ figcaption {
   font-size: 80%;
   margin-top: 1rem;
 }
+
+.tag {
+  color: var(--color-type);
+  text-transform: capitalize;
+
+  &:hover,
+  &:visited {
+    color: var(--color-type);
+  }
+
+  &:focus,
+  &:active {
+    color: #ffffff;
+  }
+}
