@@ -19,33 +19,43 @@ templateClass: template-posts
   </p>
   <h1
     id="title"
-    style="margin-top:0;"
+    style="margin-top:0; margin-bottom: var(--scale3);"
     aria-current="page"
     itemprop="name headline">
     {{ title | safe }}
   </h1>
-
-  <p class="publish-date" >
-    <time id="date-published" datetime="{{ date | htmlDateString }}">
-      {{ date | readableDate }}
-    </time>
-    {% if originallyPublished %}
-      {% for source in originallyPublished %}
-        . Originally published at <a href="{{ source.url }}">{{ source.title }}</a>.
-      {% endfor %}
-    {% endif %}
-    {% if tweetThread %}
-      {% for thread in tweetThread %}
-        . Sourced from <a href="{{ thread.url }}">a Tweet thread</a>, posted on {{ thread.date }}.
-      {% endfor %}
-    {% endif %}
-  </p>
 
   <div
     id="content"
     class="flow post__content"
     itemprop="articleBody">
     {{ content | safe }}
+
+    <div class="metadata">
+      <p class="publish-date" >
+        Published on
+        <time id="date-published" datetime="{{ date | htmlDateString }}">
+          {{ date | readableDate }}.
+        </time>
+
+        {% if originallyPublished %}
+          {% for source in originallyPublished %}
+            Originally published at <a href="{{ source.url }}">{{ source.title }}</a>.
+          {% endfor %}
+        {% endif %}
+
+        {% if tweetThread %}
+          {% for thread in tweetThread %}
+            Sourced from <a href="{{ thread.url }}">a Tweet thread</a>, posted on {{ thread.date }}.
+          {% endfor %}
+        {% endif %}
+
+        {% set comma = joiner() %}
+        {% for tag in tags -%}
+          {{ comma() }} <a class="tag" href="{{ '/tags/' + tag | url }}">{{ tag }}</a>
+        {%- endfor %}.
+      </p>
+    </div>
 
     {% if (responses) or (furtherReading) or (attribution) %}
     <div
