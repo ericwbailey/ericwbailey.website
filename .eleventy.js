@@ -42,7 +42,7 @@ module.exports = function(eleventyConfig) {
 
   // Filters
   eleventyConfig.addFilter("readableDate", dateObj => {
-    return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("EEEE MMMM d, yyyy");
+    return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("MMMM d, yyyy");
   });
 
 
@@ -85,7 +85,7 @@ module.exports = function(eleventyConfig) {
   // Filters
   // Universal slug filter strips unsafe chars from URLs
   eleventyConfig.addFilter("slugify", function (str) {
-    return slugify(str, {
+    return slugify(str.replace(/<\/?("[^"]*"|'[^']*'|[^>])*(>|$)/g, ''), {
       lower: true,
       replacement: "-",
       remove: /[*+~.·,()'"`´%!?¿:@»]/g
