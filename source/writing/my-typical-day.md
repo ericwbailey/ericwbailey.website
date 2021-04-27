@@ -7,6 +7,7 @@ date: 2021-02-17
 year: 2021
 tags:
   - Personal
+attribution: "Here’s <a href='https://melchoyce.design/2021/02/18/my-typical-day/'>Mel's Typical Day</a>."
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}
