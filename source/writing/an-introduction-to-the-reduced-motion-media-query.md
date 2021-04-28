@@ -6,6 +6,7 @@ date: 2019-04-24
 year: 2019
 tags:
   - Accessibility
+  - Animation
   - CSS
   - Development
   - User Queries

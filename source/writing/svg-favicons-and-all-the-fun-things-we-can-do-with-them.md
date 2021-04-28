@@ -9,6 +9,7 @@ tags:
   - Design
   - Development
   - Favicon
+  - HTML
   - SVG
 eleventyNavigation:
   key: {{ title }}
