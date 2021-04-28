@@ -35,7 +35,7 @@ This [front matter](https://www.11ty.dev/docs/data-frontmatter/) addition will m
 ```yml
 eleventyNavigation:
   key: {{ title }}
-  parent: {{ year }}
+  parent: {{ category }}
 ```
 {% endraw %}
 
@@ -50,7 +50,7 @@ title: "Post title"
 date: yyyy-mm-dd
 eleventyNavigation:
   key: {{ title }}
-  parent: {{ year }}
+  parent: {{ category }}
   url: post-url
 permalink: false
 ---
