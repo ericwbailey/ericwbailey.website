@@ -52,6 +52,10 @@ a:focus {
   background-color: #1D818C;
   color: #ffffff;
   outline: 0.25rem solid #1D818C;
+
+  code {
+    color: #4a4a4a;
+  }
 }
 
 @media screen and (prefers-color-scheme: dark) {
@@ -74,6 +78,10 @@ a:focus {
   .banner {
     color: #404040;
   }
+}
+
+.banner a {
+  color: #404040;
 }
 
 .publish-date {
@@ -183,7 +191,7 @@ figcaption {
   margin-top: 1rem;
 }
 
-.tag {
+.post-tag {
   color: var(--color-type);
   text-transform: capitalize;
 
@@ -195,5 +203,16 @@ figcaption {
   &:focus,
   &:active {
     color: #ffffff;
+  }
+
+  @media screen and (prefers-color-scheme: dark) {
+    color: #e8e8e8;
+
+    &:hover,
+    &:visited,
+    &:focus,
+    &:active {
+      color: #ffffff;
+    }
   }
 }

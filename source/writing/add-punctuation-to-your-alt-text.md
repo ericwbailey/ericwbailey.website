@@ -6,6 +6,7 @@ date: 2021-04-20
 year: 2021
 tags:
   - Accessibility
+  - Alt Text
   - Attributes
   - HTML
 eleventyNavigation:

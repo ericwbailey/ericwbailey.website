@@ -52,7 +52,7 @@ templateClass: template-posts
 
         {% set comma = joiner() %}
         {% for tag in tags -%}
-          {{ comma() }} <a class="tag" href="{{ '/tags/' + tag | url }}">{{ tag }}</a>
+          {{ comma() }} <a class="post-tag" href="{{ '/tags/' + tag | url }}">{{ tag }}</a>
         {%- endfor %}.
       </p>
     </div>

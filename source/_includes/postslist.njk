@@ -1,7 +1,7 @@
 <ol reversed class="postlist" style="counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }}">
   {% for post in postslist | reverse %}
   <li class="c-link-list__item">
-    <a href="{% if post.data.permalink == false %}{{ post.data.eleventyNavigation.url }}{% else %}{{ post.url | url }}{% endif %}" class="c-link-list__link" rel="author" id="{{ post.data.title | slugify }}">{{ post.data.title }}</a>
+    <a href="{% if post.data.permalink == false %}{{ post.data.eleventyNavigation.url }}{% else %}{{ post.url | url }}{% endif %}" class="c-link-list__link" rel="author" id="{{ post.data.title | slugify }}">{{ post.data.title | safe }}</a>
     <small style="display: block;" class="c-link-list__description">Published <time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time> for {{ post.data.source  }}.</small>
   </li>
   {% endfor %}
