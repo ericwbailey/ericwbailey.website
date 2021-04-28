@@ -10,8 +10,13 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Design updates
 - Performance optimizations
 
+## v1.4.9 - 2021-04-27
+- Add [Listing posts in Eleventy when you publish offsite](https://ericwbailey.design/writing/listing-posts-in-eleventy-when-you-publish-offsite)
+- Dark mode style tweaks
+- Update post tags
+
 ## v1.4.8 - 2021-04-25
-- Add [I love my not-smart TV](https://ericwbailey.design/writing/to-subset-or-not-subset-fonts)
+- Add [To subset or not subset fonts](https://ericwbailey.design/writing/to-subset-or-not-subset-fonts)
 
 ## v1.4.7 - 2021-04-20
 - Add tags to posts
