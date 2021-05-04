@@ -20,10 +20,11 @@
 .grid-post,
 .grid-landing {
   @media screen and (min-width: map-get($breakpoint, "large")) {
-    grid-template-columns: repeat(15, 1fr);
+    grid-template-columns: repeat(8, 1fr);
     grid-template-areas:
-      "logo . banner     banner     banner     banner     banner     banner     banner     . . sidebar sidebar sidebar"
-      "logo . content    content    content    content    content    content    content    . . sidebar sidebar sidebar"
-      "logo . additional additional additional additional additional additional additional . . sidebar sidebar sidebar";
+      "banner     banner     banner     .         .          .          .  ."
+      "heading    heading    heading    heading    heading    heading    heading ."
+      "content    content    content    content    content    content    .       ."
+      "additional additional additional additional additional additional .       ."
   }
 }
