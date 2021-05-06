@@ -10,6 +10,10 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Design updates
 - Performance optimizations
 
+## v1.4.10 - 2021-05-05
+- Add [How I grew The A11Y Project to 10k followers on Twitter](https://ericwbailey.design/writing/how-I-grew-the-a11y-project-to-10k-followers-on-twitter)
+- Update layout, increase font size
+
 ## v1.4.9 - 2021-04-27
 - Add [Listing posts in Eleventy when you publish offsite](https://ericwbailey.design/writing/listing-posts-in-eleventy-when-you-publish-offsite)
 - Dark mode style tweaks
