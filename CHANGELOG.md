@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Design updates
 - Performance optimizations
 
+## v1.4.11 - 2021-05-05
+- [Downgrade autoprefixer](https://stackoverflow.com/questions/64057023/error-postcss-plugin-autoprefixer-requires-postcss-8-update-postcss-or-downgra)
+
 ## v1.4.10 - 2021-05-05
 - Add [How I grew The A11Y Project to 10k followers on Twitter](https://ericwbailey.design/writing/how-I-grew-the-a11y-project-to-10k-followers-on-twitter)
 - Update layout, increase font size
