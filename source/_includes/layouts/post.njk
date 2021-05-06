@@ -5,7 +5,6 @@ templateClass: template-posts
 
 {% include "head.njk" %}
 
-{% include "components/logo.njk" %}
 {% include "banner.njk" %}
 
 <main
@@ -15,11 +14,11 @@ templateClass: template-posts
   <meta itemprop="mainEntityOfPage" content="{{ title | slugify | url }}">
 
   <p class="breadcrumb">
-    <a href="{{ '/writing/' | url }}">Writing</a>
+    <a href="{{ '/' | url }}">Home</a> <span aria-hidden="true">➞</span> <a href="{{ '/writing/' | url }}">Writing</a>
   </p>
   <h1
     id="title"
-    style="margin-top:0; margin-bottom: var(--scale3);"
+    style="margin-top:0; margin-bottom: var(--scale4);"
     aria-current="page"
     itemprop="name headline">
     {{ title | safe }}
@@ -98,19 +97,6 @@ templateClass: template-posts
   </div>
 </main>
 
-<div
-  id="sidebar"
-  class="flow sidebar">
-
-  {% include "nav/primary.njk" %}
-  {% include "nav/secondary.njk" %}
-
-  {# <ul>
-    {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
-    {%- if nextPost %}<li>Next: <a href="{{ nextPost.url | url }}">{{ nextPost.data.title }}</a></li>{% endif %}
-    {%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
-    {%- if previousPost %}<li>Previous: <a href="{{ previousPost.url | url }}">{{ previousPost.data.title }}</a></li>{% endif %}
-  </ul> #}
-</div>
+{% include "foot.njk" %}
 
 {% include "meta/post-info.njk" %}

@@ -1,9 +1,9 @@
 @each $name, $value in $colors-sections {
-  color-type-#{$name} {
+  .color-type-#{$name} {
     color: #{map-get($colors-palette, $value)};
   }
 
-  color-background-#{$name} {
+  .color-background-#{$name} {
     color: #{map-get($colors-palette, $value)};
   }
 }

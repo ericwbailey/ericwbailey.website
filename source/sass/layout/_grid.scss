@@ -3,7 +3,7 @@
 
   @media screen and (min-width: map-get($breakpoint, "large")) {
     display: grid;
-    grid-template-rows: auto;
+    grid-template-columns: repeat(8, 1fr);
     padding: 0;
   }
 }
@@ -12,7 +12,18 @@
 .grid-home {
   @media screen and (min-width: map-get($breakpoint, "large")) {
     grid-template-columns: 1fr;
-    max-width: $global-type-measure;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-areas:
+      ". banner banner banner .      .      .      ."
+      ". frame  frame  frame  frame  frame  frame  ."
+      ". footer footer footer footer footer footer .";
+  }
+}
+
+
+.grid-footer {
+  background-color: red;
+  @media screen and (min-width: map-get($breakpoint, "large")) {
   }
 }
 
@@ -20,10 +31,12 @@
 .grid-post,
 .grid-landing {
   @media screen and (min-width: map-get($breakpoint, "large")) {
-    grid-template-columns: repeat(15, 1fr);
+    grid-template-columns: repeat(8, 1fr);
     grid-template-areas:
-      "logo . banner     banner     banner     banner     banner     banner     banner     . . sidebar sidebar sidebar"
-      "logo . content    content    content    content    content    content    content    . . sidebar sidebar sidebar"
-      "logo . additional additional additional additional additional additional additional . . sidebar sidebar sidebar";
+      ".    banner     banner     banner     .          .          .       ."
+      ".    heading    heading    heading    heading    heading    heading ."
+      ".    content    content    content    content    content    .       ."
+      ".    additional additional additional additional additional .       ."
+      ".    footer     footer     footer     footer     footer     footer  .";
   }
 }
