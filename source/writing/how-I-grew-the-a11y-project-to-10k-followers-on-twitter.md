@@ -16,7 +16,7 @@ eleventyNavigation:
   order: 24
 ---
 
-One thing I’ve been doing for [The A11Y project](https://www.a11yproject.com/) is managing its social media efforts. Since doing so, I’ve slowly grown its Twitter followers to 10,0000+.
+One thing I’ve been doing for [The A11Y project](https://www.a11yproject.com/) is managing its social media efforts. Since doing so, I’ve slowly grown its Twitter followers to 10,000+.
 
 Now, before I get into it, there’s some things worth pointing out:
 
@@ -37,7 +37,7 @@ The linked posts are the bulk of the content. I read each article, find a compel
 
 And that’s it.
 
-There’s no hustle or hacks. I don’t buy followers, glom onto hashtags, do auto-followbacks, or other gross growthhack bullshit. I don’t run polls, do mass @mentions, or ask open-ended narcissist-bait questions.
+There’s no hustle or hacks. I don’t buy followers, glom onto hashtags, do auto-followbacks, or other gross growthhack nonsense. I don’t run polls, do mass @mentions, or ask open-ended narcissist-bait questions.
 
 Every Sunday I plug posts for the week into [Buffer](https://buffer.com/) from a list I keep. I try to do a mix of technical and social, new and old information, news and perspective, and known and unknown authors.
 
