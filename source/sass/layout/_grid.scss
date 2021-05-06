@@ -3,7 +3,7 @@
 
   @media screen and (min-width: map-get($breakpoint, "large")) {
     display: grid;
-    grid-template-rows: auto;
+    grid-template-columns: repeat(8, 1fr);
     padding: 0;
   }
 }
@@ -12,7 +12,18 @@
 .grid-home {
   @media screen and (min-width: map-get($breakpoint, "large")) {
     grid-template-columns: 1fr;
-    max-width: $global-type-measure;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-areas:
+      ". banner banner banner .      .      .      ."
+      ". frame  frame  frame  frame  frame  frame  ."
+      ". footer footer footer footer footer footer .";
+  }
+}
+
+
+.grid-footer {
+  background-color: red;
+  @media screen and (min-width: map-get($breakpoint, "large")) {
   }
 }
 
@@ -22,9 +33,10 @@
   @media screen and (min-width: map-get($breakpoint, "large")) {
     grid-template-columns: repeat(8, 1fr);
     grid-template-areas:
-      "banner     banner     banner     .         .          .          .  ."
-      "heading    heading    heading    heading    heading    heading    heading ."
-      "content    content    content    content    content    content    .       ."
-      "additional additional additional additional additional additional .       ."
+      ".    banner     banner     banner     .          .          .       ."
+      ".    heading    heading    heading    heading    heading    heading ."
+      ".    content    content    content    content    content    .       ."
+      ".    additional additional additional additional additional .       ."
+      ".    footer     footer     footer     footer     footer     footer  .";
   }
 }

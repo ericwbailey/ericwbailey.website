@@ -55,6 +55,6 @@ body {
   font-family: var(--typeface-primary);
   font-weight: var(--font-weight-regular);
   font-size: 187.5%; // 30px on most browsers
-  line-height: var(--line-height-slight);
+  line-height: var(--line-height-looser);
   min-height: 100%; // Ensure the page always fills at least the entire height of the viewport
 }

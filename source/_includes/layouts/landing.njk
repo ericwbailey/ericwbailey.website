@@ -5,16 +5,18 @@ templateClass: template-landing
 
 {% include "head.njk" %}
 
-{% include "components/logo.njk" %}
-
 {% include "banner.njk" %}
 
 <main
   id="section-main"
   class="content">
 
+  <p class="breadcrumb">
+    <a href="{{ '/' | url }}">Home</a>
+  </p>
   <h1
     id="title"
+    style="margin-top:0;"
     aria-current="page">
     {{ title | safe }}
   </h1>
@@ -30,10 +32,6 @@ templateClass: template-landing
   </div>
 </main>
 
-<div
-  id="sidebar"
-  class="[ flow ] [ sidebar ]">
-
-  {% include "nav/primary.njk" %}
-  {% include "nav/secondary.njk" %}
+<div class="footer">
+  {% include "foot.njk" %}
 </div>

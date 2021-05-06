@@ -4,7 +4,6 @@ address {
 
 h1, h2, h3, h4, h5, h6 {
   color: #111111;
-  font-variation-settings: "wght" 200;
   line-height: var(--line-height-tighter);
   letter-spacing: var(--tracking-tight);
 
@@ -13,8 +12,18 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+h1 {
+  font-size: var(--scale4);
+}
+
+h2 {
+  margin-top: var(--scale5) !important;
+  font-size: var(--scale3);
+}
+
 h3 {
-  font-family: 'BespokeSlab-Variable';
+  margin-top: var(--scale4) !important;
+  font-size: var(--scale2);
 }
 
 ul {
@@ -26,7 +35,7 @@ ul {
   margin-left: var(--scale2);
 
   li {
-    margin-top: var(--scale0);
+    margin-top: var(--scale1);
   }
 
   ol,
@@ -36,6 +45,10 @@ ul {
     margin-left: var(--scale2);
     margin-bottom: var(--scale1);
   }
+}
+
+a {
+  text-decoration-thickness: 0.05em;
 }
 
 a,
@@ -50,8 +63,9 @@ a:focus {
 
 a:focus {
   background-color: #1D818C;
+  box-shadow: 0 0 0 0.25rem #1D818C;
   color: #ffffff;
-  outline: 0.25rem solid #1D818C;
+  outline: 0.25rem solid transparent;
 
   code {
     color: #4a4a4a;
@@ -72,8 +86,9 @@ a:focus {
   }
   a:focus {
     background-color: #48d7e7;
+    box-shadow: 0 0 0 0.25rem #48d7e7;
     color: #404040;
-    outline: 0.25rem solid #48d7e7;
+    outline: 0.25rem solid transparent;
   }
   .banner {
     color: #404040;
@@ -86,7 +101,7 @@ a:focus {
 
 .publish-date {
   display: block;
-  font-size: var(--scale0);
+  font-size: var(--scale1);
   font-variation-settings: "wght" 350;
   margin-bottom: 2rem;
 }
@@ -103,14 +118,10 @@ a:focus {
 
 .post__content {
   padding-bottom: var(--scale3);
-
-  @media screen and (min-width: map-get($breakpoint, "large")) {
-    padding-bottom: var(--scale9);
-  }
 }
 
 .additional {
-  border-top: 1px solid #F2F2F2;
+  border-top: 1px solid #ffffff;
   margin-top: var(--scale4);
   margin-bottom: var(--scale4);
   padding-top: var(--scale2);
@@ -136,7 +147,6 @@ ul + .attribution {
 blockquote {
   background-color: #F2F2F2;
   font-size: var(--scale2);
-  font-style: italic;
   outline: 1rem solid #F2F2F2;
   padding: 1rem;
 
@@ -181,9 +191,7 @@ blockquote {
 }
 
 .homepage-frame {
-  @media screen and (min-width: map-get($breakpoint, "large")) {
-    padding: var(--scale1);
-  }
+  grid-area: frame;
 }
 
 figcaption {
@@ -215,4 +223,8 @@ figcaption {
       color: #ffffff;
     }
   }
+}
+
+.twitter-tweet {
+  margin-top: var(--scale3) !important;
 }

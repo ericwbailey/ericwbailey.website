@@ -5,7 +5,6 @@ templateClass: template-posts
 
 {% include "head.njk" %}
 
-{# {% include "components/logo.njk" %} #}
 {% include "banner.njk" %}
 
 <main
@@ -19,7 +18,7 @@ templateClass: template-posts
   </p>
   <h1
     id="title"
-    style="margin-top:0; margin-bottom: var(--scale3);"
+    style="margin-top:0; margin-bottom: var(--scale4);"
     aria-current="page"
     itemprop="name headline">
     {{ title | safe }}
@@ -98,6 +97,6 @@ templateClass: template-posts
   </div>
 </main>
 
-
+{% include "foot.njk" %}
 
 {% include "meta/post-info.njk" %}

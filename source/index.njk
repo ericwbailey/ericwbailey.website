@@ -7,12 +7,12 @@ eleventyNavigation:
   order: 1
 ---
 
-<div class="homepage-frame">
+{% include "banner.njk" %}
+
+<div class="homepage-frame measure">
   <h1 id="title" class="hide-visually">
     {{ metadata.title }}
   </h1>
-
-  {% include "banner.njk" %}
 
   {% include "homepage/about.njk" %}
   {% include "homepage/philosophy.njk" %}
