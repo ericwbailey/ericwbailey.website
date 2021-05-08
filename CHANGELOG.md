@@ -10,6 +10,10 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Design updates
 - Performance optimizations
 
+## v1.4.12 - 2021-05-07
+- Fix [RSS feed links](https://github.com/ericwbailey/ericwbailey.design/issues/121)
+- Use full content for posts hosted on this site for RSS updates
+
 ## v1.4.11 - 2021-05-05
 - Downgrade dependencies until Netlify stabilizes
 
