@@ -1,5 +1,4 @@
 ---
-# Metadata comes from _data/metadata.json
 permalink: "{{ metadata.feed.path }}"
 eleventyExcludeFromCollections: true
 ---
@@ -21,14 +20,17 @@ eleventyExcludeFromCollections: true
 	<entry>
 		<title>{{ post.data.title }}</title>
 		{% if post.data.source == "ericwbailey.design" %}
-			<link href="{{ absolutePostUrl }}"/>
+    <link href="{{ absolutePostUrl }}"/>
 		{% else %}
-			<link href="{{ post.data.eleventyNavigation.url }}"/>
+    <link href="{{ post.data.eleventyNavigation.url }}"/>
 		{% endif %}
 		<updated>{{ post.date | rssDate }}</updated>
 		<id>{{ absolutePostUrl }}</id>
-
-		<summary>{{ post.data.excerpt }}…</summary>
+		{% if post.data.source == "ericwbailey.design" %}
+    <content type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
+		{% else %}
+    <summary>Posted on {{ post.data.source }}: {{ post.data.excerpt }}…</summary>
+		{% endif %}
 	</entry>
 	{%- endfor %}
 </feed>
