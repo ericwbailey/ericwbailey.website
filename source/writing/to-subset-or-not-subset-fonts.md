@@ -98,6 +98,8 @@ This is also why I’m wary of approaches that [subset fonts based on what chara
 
 One of the reasons I feel comfortable serving non-subsetted fonts is that I maintain a [performance budget](https://addyosmani.com/blog/performance-budgets/) for my site. Because I serve lightweight HTML and CSS and minimal JavaScript, I have the opportunity to spend more bandwidth points loading nice-looking fonts.
 
+<small>Update: I now serve a local font stack for even more fabulous savings.</small>
+
 My site is [predominately written words](https://ia.net/topics/the-web-is-all-about-typography-period), so this prioritization makes sense. It is an intentional choice that emphasizes typography.
 
 ## That being said
@@ -124,7 +126,9 @@ To be more blunt about this: a poor person should be able to look at a luxury go
 
 The [CSS Media Queries Level 5 Spec](https://www.w3.org/TR/mediaqueries-5/) includes a new [user query](https://decadecity.net/blog/2015/06/28/user-queries) I’m quite excited about: [`prefers-reduced-data`](https://polypane.app/blog/creating-websites-with-prefers-reduced-data/).
 
-Much as how someone can currently [express a desire for a reduced motion experience](https://css-tricks.com/introduction-reduced-motion-media-query/), we’ll soon be able to conditionally target people who want to save on data:
+Much as how someone can currently [express a desire for a reduced motion experience](https://css-tricks.com/introduction-reduced-motion-media-query/), we’ll soon be able to conditionally target people who want to save on data.
+
+Here's some pseudocode of what that might look like, although [the actual implementation might be a lot more complicated](https://github.com/w3c/csswg-drafts/issues/5272#issuecomment-786785976):
 
 ```css
 /* Only load Noto Sans if data saver mode is not enabled */
