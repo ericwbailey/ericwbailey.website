@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Design updates
 - Performance optimizations
 
+## v1.4.13 - 2021-05-18
+- Add [Don’t use custom CSS mouse cursors](https://ericwbailey.design/writing/dont-use-custom-css-mouse-cursors)
+
 ## v1.4.12 - 2021-05-07
 - Fix [RSS feed links](https://github.com/ericwbailey/ericwbailey.design/issues/121)
 - Use full content for posts hosted on this site for RSS updates
