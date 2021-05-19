@@ -135,6 +135,10 @@ Performance and inclusion are deeply intertwined. Because of that, we should be 
 
 A custom cursor will probably be a small download, sure. But given that a custom cursor invites a huge amount of usability risk, this download is unnecessary.
 
+## What about browser extensions and user stylesheets?
+
+[People may be resourceful](https://ericwbailey.design/writing/truths-about-digital-accessibility/#non-technical-people-may-make-highly-technical-modifications-to-their-technology), but you shouldn't assume they’ll always be aware or motivated enough to fix the problem you created.
+
 ## So, why design anything?
 
 Don’t be so petulant.
@@ -165,6 +169,6 @@ I think so. I also think [browsers could do a lot of work in this area](https://
 
 ## You can’t know
 
-We can’t know the circumstances a person is experiencing when they use your website or webapp. Because of this, it’s on us to make sure we’re proactively accommodating the widest possible range of ways people interact with technology.
+We can’t know the circumstances a person is experiencing when they use your website or web app. Because of this, it’s on us to make sure we’re proactively accommodating the widest possible range of ways people interact with technology.
 
 Vanity is almost always at odds with user needs. While a custom CSS cursor may seem flashy and fun, consider that it may present a significant, unnecessary barrier to access.
