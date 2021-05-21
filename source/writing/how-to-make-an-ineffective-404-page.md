@@ -192,3 +192,5 @@ For me, it was a question of diminishing returns. I do think part of a designer�
 
 It’s a little bit better, but honestly still not too great. I guess at this point the damage has already been done.
 
+<small>Update: Boston​.​com re-redesigned on May 13th, 2021. The 404 page design was overlooked.</small>
+
