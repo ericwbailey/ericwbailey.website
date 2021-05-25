@@ -10,6 +10,10 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Design updates
 - Performance optimizations
 
+## v1.4.14 - 2021-05-25
+- Add [Modifications we’ve made to the Design Sprint](https://thoughtbot.com/blog/modifications-we-ve-made-to-the-design-sprint)
+- Add [The lawnmower button](https://ericwbailey.design/writing/the-lawnmower-button)
+
 ## v1.4.13 - 2021-05-18
 - Add [Don’t use custom CSS mouse cursors](https://ericwbailey.design/writing/dont-use-custom-css-mouse-cursors)
 
