@@ -308,6 +308,13 @@
     },
     {
       "blog": {
+        "name": "Cassey Lottman",
+        "url": "https://www.cassey.dev/blog/"
+      },
+      "twitter": "CasseyLottman"
+    },
+    {
+      "blog": {
         "name": "Cassie Evans",
         "url": "https://www.cassie.codes/writing/"
       },
@@ -1916,6 +1923,14 @@
       },
       "twitter": "tylergaw",
       "feed": "https://tylergaw.com/rss.xml"
+    },
+    {
+      "blog": {
+        "name": "Tyler Sticka",
+        "url": "https://tylersticka.com/journal/"
+      },
+      "twitter": "tylersticka",
+      "feed": "https://tylersticka.com/journal/feed.xml"
     },
     {
       "blog": {
