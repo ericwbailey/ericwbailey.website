@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Design updates
 - Performance optimizations
 
+## v1.4.15 - 2021-06-17
+- Add [Your Image Is Probably Not Decorative](https://www.smashingmagazine.com/2021/06/img-alt-attribute-alternate-description-decorative/)
+
 ## v1.4.14 - 2021-05-25
 - Add [Modifications we’ve made to the Design Sprint](https://thoughtbot.com/blog/modifications-we-ve-made-to-the-design-sprint)
 - Add [The lawnmower button](https://ericwbailey.design/writing/the-lawnmower-button)
