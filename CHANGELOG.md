@@ -10,6 +10,12 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Design updates
 - Performance optimizations
 
+## v1.4.16 - 2021-06-21
+- Add [Organize your CSS declarations alphabetically](https://ericwbailey.design/writing/organize-your-css-declarations-alphabetically)
+- Copy tweaks
+- Update newsletters
+- Update blogroll
+
 ## v1.4.15 - 2021-06-17
 - Add [Your Image Is Probably Not Decorative](https://www.smashingmagazine.com/2021/06/img-alt-attribute-alternate-description-decorative/)
 
