@@ -3,7 +3,7 @@ layout: "layouts/post.njk"
 title: Organize your CSS declarations alphabetically
 source: ericwbailey.design
 excerpt: ""
-date: 2021-06-25
+date: 2021-06-21
 year: 2021
 tags:
   - Approach
