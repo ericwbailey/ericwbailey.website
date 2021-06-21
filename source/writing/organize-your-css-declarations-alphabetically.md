@@ -3,7 +3,7 @@ layout: "layouts/post.njk"
 title: Organize your CSS declarations alphabetically
 source: ericwbailey.design
 excerpt: ""
-date: 2021-05-25
+date: 2021-06-25
 year: 2021
 tags:
   - Approach
@@ -26,7 +26,7 @@ Two examples of CSS declaration ordering that come to mind are:
 1. Jonathan Snook’s [SMACSS](http://smacss.com/book/formatting#grouping).
 2.  Anton Korzunov’s [stylelint-semantic-groups](https://github.com/theKashey/stylelint-semantic-groups).
 
-There are other examples out there, equally as thoughtful and purposeful. As [someone who is really, <em>really</em> into CSS](https://css-tricks.com/authors/), I wish I could enthusiastically recommend an approach other than alphabetical. However, I’m unfortunately here to tell you not to.
+There are other examples out there, equally as thoughtful and purposeful. As [someone who is really, <em>really</em> into CSS](https://css-tricks.com/author/ericwbailey/), I wish I could enthusiastically recommend an approach other than alphabetical. However, I’m unfortunately here to tell you not to.
 
 The most common CSS declaration organization technique I come across is none whatsoever. I say this with the authority of a seasoned consultant who has worked on multiple project codebases spanning multiple organizations and departments.
 
