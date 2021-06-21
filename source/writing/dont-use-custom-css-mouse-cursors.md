@@ -86,7 +86,7 @@ Nowadays I’ve been seeing them being applied to trendy luxury ecommerce sites 
 
 ## Why using custom cursors is a bad idea
 
-One of the many modifications a person can make to their OS is changing the cursor. This can include increasing its size, as well as swapping it out for a more high contrast version (why high contrast isn’t the default is a separate post until itself).
+One of the many modifications a person can make to their OS is changing the cursor. This can include increasing its size, as well as swapping it out for a more high contrast version (why high contrast isn’t the default is a separate post unto itself).
 
 These modifications allow a user to be able to perceive, and therefore use a cursor to interact with the OS and the apps it runs.
 
