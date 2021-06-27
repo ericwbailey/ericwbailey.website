@@ -10,6 +10,10 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Design updates
 - Performance optimizations
 
+## v1.4.17 - 2021-06-27
+- Add Comcast Accessibility Forum as a talk source for Be The Villain
+- Copy tweaks
+
 ## v1.4.16 - 2021-06-21
 - Add [Organize your CSS declarations alphabetically](https://ericwbailey.design/writing/organize-your-css-declarations-alphabetically)
 - Copy tweaks
