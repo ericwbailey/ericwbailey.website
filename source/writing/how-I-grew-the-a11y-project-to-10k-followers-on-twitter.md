@@ -21,7 +21,7 @@ One thing I’ve been doing for [The A11Y project](https://www.a11yproject.com/)
 Now, before I get into it, there’s some things worth pointing out:
 
 - This work was built on top of the efforts of the project maintainers who came before me, and I should acknowledge their labor.
-- 10,000 followers is kind of arbitrary, in that it is both a lot, and not a lot of followers on Twitter. The only reason it is Twitter-significant is that it’s when the follower count switches from listing each follower to only incrementing with each new 1,000 followers.
+- 10,000 followers is kind of arbitrary, in that it is both a lot, and not a lot of followers on Twitter. The only reason it is Twitter-significant is that it’s when the follower count switches from listing each follower to only incrementing with each new 100 followers.
 - I’m sure some amount of our follower count are bots and sockpuppets.
 - Twitter is a bad product run by a bad man.
 
