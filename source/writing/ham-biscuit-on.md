@@ -86,13 +86,13 @@ The other wrinkle is the sign [blinks](https://en.m.wikipedia.org/wiki/Blinkenli
 - A GPS device indicating it is searching for a signal,
 - etc.
 
+Big-picture, most these flashing lights means a change in normal operating mode, which further muddies the waters of what the heck is going on in ham biscuit land. “Most” is the operative word in the previous sentence, in that not every example is a change in operating mode.
+
 To quote another friend on the Slack:
 
 <blockquote>
   hey, look at this sign, the ham biscuits are poppin right now
 </blockquote>
-
-Big-picture, most these flashing lights means a change in normal operating mode, which further muddies the waters of what the heck is going on in ham biscuit land. “Most” is the operative word in the previous sentence, in that not every example is a change in operating mode.
 
 ## Overthinking it
 
