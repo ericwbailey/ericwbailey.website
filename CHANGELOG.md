@@ -10,6 +10,10 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Design updates
 - Performance optimizations
 
+## v1.4.18 - 2021-06-28
+- Add [Ham biscuit on](https://ericwbailey.design/writing/ham-biscuit-on)
+- Create metadata for posts with inline styles
+
 ## v1.4.17 - 2021-06-27
 - Add Comcast Accessibility Forum as a talk source for Be The Villain
 - Copy tweaks
