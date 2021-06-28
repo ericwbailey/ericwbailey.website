@@ -2,7 +2,7 @@
 layout: "layouts/post.njk"
 title: Organize your CSS declarations alphabetically
 source: ericwbailey.design
-excerpt: ""
+excerpt: "There are a few schools of thought when it comes to organizing your CSS declarations"
 date: 2021-06-21
 year: 2021
 tags:
