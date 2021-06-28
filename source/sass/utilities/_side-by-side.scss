@@ -1,0 +1,9 @@
+.side-by-side {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--scale2);
+
+  @media screen and (min-width: map-get($breakpoint, "large")) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
