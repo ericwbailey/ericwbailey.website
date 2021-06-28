@@ -10,6 +10,7 @@ tags:
   - CSS
   - Design
   - Inclusion
+inlineStyles: true
 share:
   facebookImage: "share-image-facebook.png"
   facebookDescription: "A hello kitty mouse cursor."
