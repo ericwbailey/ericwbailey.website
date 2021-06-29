@@ -72,7 +72,7 @@ When the ham biscuit sign is lit up, it means ham biscuits are available. When i
 
 ## Or is he?
 
-Red is commonly used to indicate errors. Now I’m wondering if this means there’s a problem with ham biscuit supply, and that they’re indicating that there are none left. Maybe this is a signal to suppliers instead of consumers.
+Red is commonly used to [indicate errors in Western culture](https://graphicdesign.stackexchange.com/questions/6982/except-china-which-country-will-use-red-for-up-and-green-for-down). Now I’m wondering if this means there’s a problem with ham biscuit supply, and that they’re indicating that there are none left. Maybe this is a signal to suppliers instead of consumers.
 
 The other wrinkle is the sign [blinks](https://en.m.wikipedia.org/wiki/Blinkenlights) when it is active. Blinking adds an extra layer of consideration, in that other examples of blinking things we can reference to determine intent have multiple meanings. Think:
 
