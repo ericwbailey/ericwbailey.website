@@ -37,22 +37,93 @@ The sign is used to indicate if that particular McDonalds had [Country Ham Biscu
 
 The Ham Biscuit sign is also absurd. It features as a recurring joke in one of the Slack groups I participate in, enough to warrant creating custom emoji for it:
 
+<style>
+.object-and-details {
+  display: inline-block;
+  position: relative;
+}
+
+summary {
+  color: #ffffff;
+  background: #000000;
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  z-index: 2;
+  border-radius: 50%;
+  background-image: url("https://assets.codepen.io/128034/play_circle_filled-24px.svg");
+  background-size: 90% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+  cursor: pointer;
+}
+
+[open] summary {
+  background-image: url("https://assets.codepen.io/128034/pause_circle_filled-24px.svg");
+  box-shadow: 0 0 0 2px #fff;
+  background-color: white;
+}
+
+details summary::-webkit-details-marker {
+  display: none; /* For blink/webkit */
+}
+
+details > summary:first-of-type {
+  list-style: none; /* For firefox */
+}
+
+summary + * {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 1rem;
+  padding-top: 3rem;
+  color: #ffffff;
+  overflow-y: auto;
+}
+
+summary + * a {
+  color: #ffffff;
+}
+summary:focus {
+  box-shadow: 0 0 0 0.25rem #000000;
+  outline: transparent;
+}
+
+.object-and-details1 img {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: visible;
+}
+</style>
+
 <div style="display: flex; gap: var(--scale2);">
-  <a download href="{{ '/img/posts/ham-biscuit-on/ham-biscuit-on.png' | url }}">
+  <img
+    alt="Ham biscuit on."
+    src="{{ '/img/posts/ham-biscuit-on/ham-biscuit-on.png' | url }}" />
+  <img
+    alt="Ham biscuit off."
+    src="{{ '/img/posts/ham-biscuit-on/ham-biscuit-off.png' | url }}" />
+  <div class="object-and-details">
     <img
-      alt="Ham biscuit on."
-      src="{{ '/img/posts/ham-biscuit-on/ham-biscuit-on.png' | url }}" />
-  </a>
-  <a download href="{{ '/img/posts/ham-biscuit-on/ham-biscuit-off.png' | url }}">
-    <img
-      alt="Ham biscuit off."
-      src="{{ '/img/posts/ham-biscuit-on/ham-biscuit-off.png' | url }}" />
-  </a>
-  <a download href="{{ '/img/posts/ham-biscuit-on/ham-biscuit-indeterminate.gif' | url }}">
-    <img
-      alt="Ham biscuit indeterminate."
-      src="{{ '/img/posts/ham-biscuit-on/ham-biscuit-indeterminate.gif' | url }}" />
-  </a>
+      src="{{ '/img/posts/ham-biscuit-on/ham-biscuit-on.png' | url }}"
+      alt="Static: Vincent Vega as portrayed by John Travolta, waiting on the beach" />
+    <details>
+    <summary role="button" aria-label="Animated image"></summary>
+    <div class="object-and-details1">
+      <img
+        src="{{ '/img/posts/ham-biscuit-on/ham-biscuit-indeterminate.gif' | url }}"
+        alt="Animated: Vincent Vega as portrayed by John Travolta, waiting on the beach" />
+    </div>
+  </details>
+</div>
 </div>
 
 A few days ago, one of my friends commented:
