@@ -55,7 +55,7 @@ If you are unfamiliar with the concept of accessibility overlays, know this: The
 
 This is not news. It is [knowledge that has been painstakingly-assembled by others](https://adrianroselli.com/2020/06/accessibe-will-get-you-sued.html). The reason why you might not be aware of this is the focus of this post. Before we get any further, know that accessiBe:
 
-- [Has been repeatedly sued](https://adrianroselli.com/2020/06/accessibe-will-get-you-sued.html#Lawsuit) for failing to deliver on what its product promises,
+- [Has been repeatedly identified as a source of inacessibility in lawsuit](https://adrianroselli.com/2020/06/accessibe-will-get-you-sued.html#Lawsuit), failing to deliver on what its product promises,
 - Is [not recommended as a viable short or long-term strategy](https://go.forrester.com/blogs/whats-wrong-with-quick-fix-products-for-digital-accessibility/) by Forrester,
 - Was [disavowed by The National Federation of the Blind](https://nfb.org/about-us/press-room/national-convention-sponsorship-statement-regarding-accessibe) because of their actions, and
 - Was [cautioned against](https://www.youtube.com/watch?v=R12Z1Sp-u4U) by [Haben freakin’ Girma](https://habengirma.com/) herself.
@@ -208,7 +208,7 @@ If one of your subordinates sent you this post, know that my agenda is a simple 
 
 I’m not an employee of a manual auditing company, nor do I receive any compensation for writing this post. All I want are accessible web experiences for my friends and family, their friends and family, and so on.
 
-If you feel betrayed or defensive after learning about accessiBe, know that it means their strategies were working as intended. Your desire to do good has been taken advantage of by a large, organized, well-funded grift that is profiting directly at the expense of a vulnerable population.
+If you feel betrayed or defensive after learning about accessiBe, know that it means their strategies were working as intended. Your desire to do good has been taken advantage of by organized, well-funded opportunists that is profiting directly at the expense of a vulnerable population.
 
 I hope that you don’t take these feelings out on your subordinate, and instead consider constructive action.
 
