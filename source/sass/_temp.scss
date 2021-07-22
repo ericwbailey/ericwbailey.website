@@ -232,7 +232,8 @@ figcaption {
 .twitter-tweet-screenshot {
   border: 1px solid #E3E7EA;
   border-radius: map-get($border-radii, "medium");
-  max-width: 550px;
+  width: 550px;
+  height: auto;
 
   a:focus & {
     outline: var(--scale0) solid #1D818C;
@@ -250,5 +251,19 @@ figcaption {
 
   p:not(:first-of-type) {
     margin-top: var(--scale1);
+  }
+}
+
+.hide-at-large {
+  @media screen and (min-width: map-get($breakpoint, "large")) {
+    display: none;
+  }
+}
+
+.show-at-large {
+  display: none;
+
+  @media screen and (min-width: map-get($breakpoint, "large")) {
+    display: initial;
   }
 }
