@@ -78,7 +78,10 @@ templateClass: template-posts
       </h2>
       <ul>
         {% for link in furtherReading %}
-        <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+        <li>
+          <a href="{{ link.url }}">{{ link.title }}</a>
+          <span style="display: block; font-size: var(--scale1);">{{ link.source }}</span>
+        </li>
         {% endfor %}
       </ul>
       {% endif %}

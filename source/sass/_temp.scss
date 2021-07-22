@@ -228,3 +228,27 @@ figcaption {
 .twitter-tweet {
   margin-top: var(--scale3) !important;
 }
+
+.twitter-tweet-screenshot {
+  border: 1px solid #E3E7EA;
+  border-radius: map-get($border-radii, "medium");
+  max-width: 550px;
+
+  a:focus & {
+    outline: var(--scale0) solid #1D818C;
+  }
+}
+
+.warning {
+  background-color: #ffffff;
+  font-size: var(--scale1);
+  padding: var(--scale2);
+
+  @media screen and (prefers-color-scheme: dark) {
+    background-color: #000000;
+  }
+
+  p:not(:first-of-type) {
+    margin-top: var(--scale1);
+  }
+}

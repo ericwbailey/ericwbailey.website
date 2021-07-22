@@ -10,16 +10,19 @@ tags:
   - Inclusion
 furtherReading:
   - title: "In Defense of the a11y Hashtag"
-    url: https://www.customerservant.com/defense-a11y-hashtag/
+    source: "Customer Servant Consultancy"
+    url: https://web.archive.org/web/20190428135319/https://www.customerservant.com/defense-a11y-hashtag/
   - title: "a11y = Accessibility"
+    source: "Adrian Roselli"
     url: http://adrianroselli.com/2016/11/a11y-accessibility.html
   - title: "Quick tip: a11y and a brief numeronyms - primer"
+    source: "The A11Y Project"
     url: https://www.a11yproject.com/posts/2017-08-26-a11y-and-other-numeronyms/
-  - title: "In Defense of - the #a11y Hashtag"
-    url: https://web.archive.org/web/20190428135203/https://www.customerservant.com/defense-a11y-hashtag/
   - title: "Is ‘a11y’ our ally? - Thoughts on a tag for web accessibility"
+    source: "The '58 sound"
     url: https://58sound.com/2010/04/16/is-a11y-our-ally-thoughts-on-a-tag-for-web-accessibility/
   - title: "Origin Of The Abbreviation I18n"
+    source: "I18nGuy"
     url: http://www.i18nguy.com/origini18n.html
 eleventyNavigation:
   key: {{ title }}
