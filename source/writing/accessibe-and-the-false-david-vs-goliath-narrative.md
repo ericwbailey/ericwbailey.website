@@ -3,7 +3,7 @@ layout: "layouts/post.njk"
 title: accessiBe and the false David vs. Goliath narrative
 source: ericwbailey.design
 excerpt: "This isn’t a case of some grandiose Machiavellian, mafioso consortium gleefully separating companies from their money over the the threat of ADA lawsuits."
-date: 2021-07-14
+date: 2021-07-22
 year: 2021
 tags:
   - Accessibility
