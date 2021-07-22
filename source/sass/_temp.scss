@@ -253,3 +253,17 @@ figcaption {
     margin-top: var(--scale1);
   }
 }
+
+.hide-at-large {
+  @media screen and (min-width: map-get($breakpoint, "large")) {
+    display: none;
+  }
+}
+
+.show-at-large {
+  display: none;
+
+  @media screen and (min-width: map-get($breakpoint, "large")) {
+    display: initial;
+  }
+}
