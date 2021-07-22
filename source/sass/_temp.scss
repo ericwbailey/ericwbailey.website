@@ -232,7 +232,8 @@ figcaption {
 .twitter-tweet-screenshot {
   border: 1px solid #E3E7EA;
   border-radius: map-get($border-radii, "medium");
-  max-width: 550px;
+  width: 550px;
+  height: auto;
 
   a:focus & {
     outline: var(--scale0) solid #1D818C;
