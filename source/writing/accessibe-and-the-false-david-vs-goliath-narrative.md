@@ -55,7 +55,7 @@ If you are unfamiliar with the concept of accessibility overlays, know this: The
 
 This is not news. It is [knowledge that has been painstakingly-assembled by others](https://adrianroselli.com/2020/06/accessibe-will-get-you-sued.html). The reason why you might not be aware of this is the focus of this post. Before we get any further, know that accessiBe:
 
-- [Has been repeatedly identified as a source of inacessibility in lawsuit](https://adrianroselli.com/2020/06/accessibe-will-get-you-sued.html#Lawsuit), failing to deliver on what its product promises,
+- [Has been repeatedly identified as a source of inacessibility in lawsuits](https://adrianroselli.com/2020/06/accessibe-will-get-you-sued.html#Lawsuit), failing to deliver on what its product promises,
 - Is [not recommended as a viable short or long-term strategy](https://go.forrester.com/blogs/whats-wrong-with-quick-fix-products-for-digital-accessibility/) by Forrester,
 - Was [disavowed by The National Federation of the Blind](https://nfb.org/about-us/press-room/national-convention-sponsorship-statement-regarding-accessibe) because of their actions, and
 - Was [cautioned against](https://www.youtube.com/watch?v=R12Z1Sp-u4U) by [Haben freakin’ Girma](https://habengirma.com/) herself.
@@ -165,9 +165,17 @@ accessiBe has also recently started targeting influencers. It’s a smart play: 
 <p>
   <a href="https://twitter.com/lilachbullock/status/1416723695578537984">
     <img
-      alt="How to ensure your website is ADA-compliant with @AccessiBe #ADA #WCAG #web #accessibility. Screenshotted tweet by Lilach Bullock, posted to Twitter on July 18th, 2021 via the Agorapulse app."
+      alt="How to ensure your website is ADA-compliant with @AccessiBe #ADA #WCAG #web #accessibility. Screenshot of a tweet by Lilach Bullock, posted to Twitter on July 18th, 2021 via the Agorapulse app."
       class="twitter-tweet-screenshot"
       src="{{ '/img/posts/accessibe-and-the-false-david-vs-goliath-narrative/lilach-bullock.png' | url }}" />
+  </a>
+</p>
+
+<p>
+  <a href="https://www.linkedin.com/posts/parthdetroja_unlockwebaccessibility-ad-productmanagement-ugcPost-6821865557697146880-JN9P">
+    <img
+      alt="One of the biggest growth levers for any digital business is hidden in plain sight. Disabilities affect 1 in every 5 people but the majority of websites in the world aren't optimized to be accessible for all. Just take a look at the video below. Enabling accessibility not only improves user experience and boosts SEO, but it's also the right thing to do. Accessibility used to be something that only behemoth corporations could afford to hire costly consultants for. But now, there's an AI powered tool called accessiBe that's offering the most advanced, affordable, simple and compliant accessibility tool I have ever seen. Please tag business owners you think would benefit from taking their site accessibility to the next level! #UnlockWebAccessibility #AD #ProductManagement. Screenshot of a LinkedIn post by Parth Detroja, posted on July 17, 2021."
+      src="{{ '/img/posts/parth-detroja.png' | url }}" />
   </a>
 </p>
 
