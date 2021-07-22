@@ -216,7 +216,7 @@ If one of your subordinates sent you this post, know that my agenda is a simple 
 
 I’m not an employee of a manual auditing company, nor do I receive any compensation for writing this post. All I want are accessible web experiences for my friends and family, their friends and family, and so on.
 
-If you feel betrayed or defensive after learning about accessiBe, know that it means their strategies were working as intended. Your desire to do good has been taken advantage of by organized, well-funded opportunists that is profiting directly at the expense of a vulnerable population.
+If you feel betrayed or defensive after learning about accessiBe, know that it means their strategies were working as intended. Your desire to do good has been taken advantage of by organized, well-funded opportunists that are profiting directly at the expense of a vulnerable population.
 
 I hope that you don’t take these feelings out on your subordinate, and instead consider constructive action.
 
