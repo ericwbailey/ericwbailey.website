@@ -11,12 +11,16 @@ tags:
   - Typography
 furtherReading:
   - title: "Wakamaifondue"
+    source: "Wakamaifondue"
     url: https://wakamaifondue.com/
-  - title: " zachleat/glyphhanger "
+  - title: "zachleat/glyphhanger"
+    source: "GitHub"
     url: https://github.com/zachleat/glyphhanger/
-  - title: "How I set up Glyphhanger on macOS for optimizing and converting font files for the Web - Sara Soueidan"
+  - title: "How I set up Glyphhanger on macOS for optimizing and converting font files for the Web"
+    source: "Sara Soueidan"
     url: https://www.sarasoueidan.com/blog/glyphhanger/
   - title: "A font-display setting for slow connections - Web Performance Calendar"
+    source: "Web Performance Calendar"
     url: https://calendar.perfplanet.com/2020/a-font-display-setting-for-slow-connections/
 eleventyNavigation:
   key: {{ title }}
