@@ -10,6 +10,11 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Design updates
 - Performance optimizations
 
+## v1.4.19 - 2021-07-21
+- Add [accessiBe and the false David vs. Goliath narrative](https://ericwbailey.design/writing/accessibe-and-the-false-david-vs-goliath-narrative)
+- Shorter max content width
+- Add Further Reading link sources
+
 ## v1.4.18 - 2021-06-28
 - Add [Ham biscuit on](https://ericwbailey.design/writing/ham-biscuit-on)
 - Create metadata for posts with inline styles
