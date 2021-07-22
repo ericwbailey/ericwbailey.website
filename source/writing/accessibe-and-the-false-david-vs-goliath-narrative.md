@@ -117,7 +117,7 @@ accessiBe capitalizes on this, positioning themselves as a turnkey way to avoid 
 
 The narrative accessiBe seems to be pushing is that they’re a scrappy startup underdog fighting the entrentched “establishment.” Here, the establishment are [companies that perform manual auditing and remediation](https://www.a11yproject.com/resources/#professional-help).
 
-This is a very effecti, dangerous message they’re crafting—a message that also could not be further from the truth. Considering the audience they target, the seeming ease of their solution, the time it takes to implement, and the feel good vibes of sticking it to the man make for a very compelling case.
+This is a very effective, dangerous message they’re crafting—a message that also could not be further from the truth. Considering the audience they target, the seeming ease of their solution, the time it takes to implement, and the feel good vibes of sticking it to the man make for a very compelling case.
 
 accessiBe is not David, as much as they want you to believe it. [They have venture capital (<abbr>VC</abbr>) backing](https://techcrunch.com/2021/02/10/accessibility-overlay-startup-accessibe-closes-28m-series-a/), meaning that they have ~40 million dollars in operating capital even before you factor in profit from sales. They also have [an estimated 60+ employees](https://craft.co/accessibe), and aggressive marketing efforts.
 
