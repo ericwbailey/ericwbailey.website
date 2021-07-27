@@ -68,7 +68,7 @@ Unfortunately, I don’t see the needle moving on CSS being taken more seriously
 
 To the earlier point of code being too clever, this is not that. This is a scenario where platform features are going unused due to [bulwarks we’ve constructed around learning](https://adactio.com/notes/18208).
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Today I helped a client make their site faster by reducing a lot of JS that was preventing server-side rendering. <br><br>I was able to do this because...<br><br>I know CSS.</p>&mdash; Sia Karamalegos (@TheGreenGreek) <a href="https://twitter.com/TheGreenGreek/status/1395794309576806407?ref_src=twsrc%5Etfw">May 21, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" aria-label="Today I helped a client make their site faster by reducing a lot of JS that was preventing server-side rendering. I was able to do this because... I know CSS. Tweet by Sia Karamalegos, posted on May 21, 2021."><p lang="en" dir="ltr">Today I helped a client make their site faster by reducing a lot of JS that was preventing server-side rendering. <br><br>I was able to do this because...<br><br>I know CSS.</p>&mdash; Sia Karamalegos (@TheGreenGreek) <a href="https://twitter.com/TheGreenGreek/status/1395794309576806407?ref_src=twsrc%5Etfw">May 21, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 These concerns aren’t abstract, academic quibbling. They have a direct impact on things like performance and accessibility, concerns that map directly back to a person’s experience (or lack thereof) in using a website or web app.
 
@@ -76,7 +76,7 @@ These concerns aren’t abstract, academic quibbling. They have a direct impact 
 
 I’m reluctant to blame developers for this lack of knowledge, especially new ones. As an industry we do a terrible job at teaching anything other than JavaScript. I’m also hesitant to blame the schools. They [teach what the market demands](https://ericwbailey.design/writing/fighting-uphill#what-if-we%E2%80%99re-losing%3F), which is another loop we need to break.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Hiring a frontend engineer who&#39;s really great at HTML + CSS is surprisingly difficult.</p>&mdash; Josh Pigford (@Shpigford) <a href="https://twitter.com/Shpigford/status/1405626129180987394?ref_src=twsrc%5Etfw">June 17, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" aria-label="Hiring a frontend engineer who's really great at HTML + CSS is surprisingly difficult. Tweet by Josh Pigford, posted on June 17, 2021."><p lang="en" dir="ltr">Hiring a frontend engineer who&#39;s really great at HTML + CSS is surprisingly difficult.</p>&mdash; Josh Pigford (@Shpigford) <a href="https://twitter.com/Shpigford/status/1405626129180987394?ref_src=twsrc%5Etfw">June 17, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 We can do so much better than hope a handful of people break through an echo chamber of misogynistic rise-and-grind [javagrifters](https://twitter.com/javagrifter) preying on the ignorant.
 

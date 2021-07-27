@@ -133,7 +133,7 @@ Subconsciously or consciously, the mental models that construct our world-views 
 
 The thing is: perfect is static, but the world is dynamic. Participating in culture means constantly reevaluating your position in it, and how it affects and is affected by others (see the emergence of [identity-first language](https://thebodyisnotanapology.com/magazine/i-am-disabled-on-identity-first-versus-people-first-language/)). This takes work. But consider the alternative.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">So much of our language is ableist or othering, and we don&#39;t realize it. I see language in accessibility audits like &quot;the screen reader user&quot;, or even heard someone say &quot;these people&quot; when referring to disabled folks in a conference talk about accessibility. <a href="https://twitter.com/hashtag/a11y?src=hash&amp;ref_src=twsrc%5Etfw">#a11y</a>
+<blockquote class="twitter-tweet" aria-label="So much of our language is ableist or othering, and we don't realize it. I see language in accessibility audits like “the screen reader user”, or even heard someone say “these people” when referring to disabled folks in a conference talk about accessibility. #a11y. Tweet by Nicolas Steenhout, posted on June 6, 2019."><p lang="en" dir="ltr">So much of our language is ableist or othering, and we don&#39;t realize it. I see language in accessibility audits like &quot;the screen reader user&quot;, or even heard someone say &quot;these people&quot; when referring to disabled folks in a conference talk about accessibility. <a href="https://twitter.com/hashtag/a11y?src=hash&amp;ref_src=twsrc%5Etfw">#a11y</a>
 &mdash; Nicolas Steenhout (@vavroom) <a href="https://twitter.com/vavroom/status/1136774417298542592?ref_src=twsrc%5Etfw">June 6, 2019</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ### Allyship
@@ -180,7 +180,7 @@ Some people mention that “a11y” may not be pronounced as expected in a scree
 
 A screen reader reads the screen the way the person using it has instructed it to. You don’t want to try and overwrite its verbosity and pronunciation settings, as you’d be disrupting someone’s explicit preferences and expectations. Doing so also indirectly communicates that you think that the way they interact with technology is invalid.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I&#39;ve had web devs ask me if they can control what the screen reader says or which voice or speed it is said in. I said no, and that&#39;s a good thing. All that would achieve is that your users would hate you. <a href="https://t.co/UsuAB3Zajv">https://t.co/UsuAB3Zajv</a>
+<blockquote class="twitter-tweet" aria-label="I've had web devs ask me if they can control what the screen reader says or which voice or speed it is said in. I said no, and that's a good thing. All that would achieve is that your users would hate you. Tweet by Geoff Shang, posted on August 9, 2020."><p lang="en" dir="ltr">I&#39;ve had web devs ask me if they can control what the screen reader says or which voice or speed it is said in. I said no, and that&#39;s a good thing. All that would achieve is that your users would hate you. <a href="https://t.co/UsuAB3Zajv">https://t.co/UsuAB3Zajv</a>
 &mdash; Geoff Shang (@GShang) <a href="https://twitter.com/GShang/status/1292454216099926018?ref_src=twsrc%5Etfw">August 9, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## How do I use it?
