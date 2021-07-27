@@ -33,6 +33,11 @@ furtherReading:
     source: "overlayfactsheet.com"
     url: https://overlayfactsheet.com/
 inlineStyles: true
+translations:
+  - language: Japanese
+    url: https://gist.github.com/yamanoku/53e53c56496d7c9b22b5cf09bf029c2b
+    translatorName: "Okuto Oyama"
+    translatorUrl: https://yamanoku.net/en
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

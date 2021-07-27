@@ -9,6 +9,11 @@ tags:
   - Assistive Technology
   - Development
   - HTML
+translations:
+  - language: Russian
+    url: https://medium.com/web-standards/heading-levels-229def4e0e33
+    translatorName: "Tatiana Fokina"
+    translatorUrl: https://medium.com/@fokinatatiana
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}
