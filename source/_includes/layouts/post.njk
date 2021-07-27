@@ -56,18 +56,18 @@ templateClass: template-posts
       </p>
     </div>
 
-    {% if (responses) or (furtherReading) or (attribution) %}
+    {% if (responses) or (translations) or (furtherReading) or (attribution) %}
     <div
       id="additional"
       class="additional flow">
 
-      {% if responses %}
-      <h2 id="responses">
-        Responses
+      {% if translations %}
+      <h2 id="translations">
+        Translations
       </h2>
       <ul>
-        {% for link in responses %}
-        <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+        {% for lang in translations %}
+        <p>This post has been <a href="{{ lang.url }}">translated into {{ lang.language }}</a> by <a href="{{ lang.translatorUrl }}">{{ lang.translatorName }}</a>.</p>
         {% endfor %}
       </ul>
       {% endif %}
