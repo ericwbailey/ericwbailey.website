@@ -29,6 +29,9 @@ furtherReading:
   - title: "Background: Should I use an accessibility overlay?"
     source: "The A11Y Project"
     url: https://www.a11yproject.com/posts/2021-03-08-should-i-use-an-accessibility-overlay/
+  - title: "AccessiBe and data protection?"
+    source: "Léonie Watson"
+    url: https://tink.uk/accessibe-and-data-protection/
   - title: "Overlay Fact Sheet"
     source: "overlayfactsheet.com"
     url: https://overlayfactsheet.com/
