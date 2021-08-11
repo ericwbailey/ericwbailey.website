@@ -83,7 +83,7 @@ In the past, I’d see custom cursors applied to tumblr and Myspace themes, Geoc
   </figcaption>
 </figure>
 
-Nowadays I’ve been seeing them being applied to trendy luxury ecommerce sites with increasing frequency. It’s one of those things that you probably don’t really notice until you start actively looking, unless you’re affected by it.
+Nowadays I’ve been seeing them being applied to [trendy luxury ecommerce sites](https://designshack.net/articles/graphics/custom-cursors-web-design-tips-ideas-tutorials/) with increasing frequency. It’s one of those things that you probably don’t really notice until you start actively looking, unless you’re affected by it.
 
 ## Why using custom cursors is a bad idea
 

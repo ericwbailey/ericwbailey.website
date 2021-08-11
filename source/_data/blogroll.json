@@ -601,6 +601,14 @@
     },
     {
       "blog": {
+        "name": "Eva PenzeyMoog",
+        "url": "http://evapenzeymoog.com/blog/"
+      },
+      "twitter": "epenzeymoog",
+      "feed": "http://evapenzeymoog.com/feed.xml"
+    },
+    {
+      "blog": {
         "name": "fantasai",
         "url": "http://fantasai.inkedblade.net/weblog/"
       },
