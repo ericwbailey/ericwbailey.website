@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Design updates
 - Performance optimizations
 
+## v1.4.20 - 2021-08-24
+- Add [Forbidden noodles](https://ericwbailey.design/writing/forbidden-noodles)
+
 ## v1.4.19 - 2021-07-21
 - Add [accessiBe and the false David vs. Goliath narrative](https://ericwbailey.design/writing/accessibe-and-the-false-david-vs-goliath-narrative)
 - Shorter max content width
