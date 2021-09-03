@@ -1,7 +1,13 @@
 .centered-media-outer {
-  align-items: center;
-  display: flex;
-  justify-content: center;
+  display: grid;
+}
+
+
+.centered-media-inner-1,
+.centered-media-inner-2,
+.centered-media-inner-3,
+.centered-media-inner-4 {
+  justify-self: center;
 }
 
 
