@@ -262,7 +262,7 @@ I’m not saying that these approaches will never be understood. Hopefully what 
 <div class="centered-media-outer">
 <img
   role="img"
-  alt="Three links in a row. English, Español, and 한글."
+  alt="Three links in a row: English, Español, and 한글."
   class="centered-media-inner-2"
   src="{{ '/img/posts/what-they-dont-tell-you-when-you-translate-your-app/languages.svg' | url }}" />
 </div>
