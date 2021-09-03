@@ -136,7 +136,7 @@ The notion of supporting as many languages as possible generates warm, fuzzy fee
 
 The other thing to keep in mind is translation and localization aren’t a one-and-done affair. You’ll need resources to stay on top of maintenance as your content inevitably updates.
 
-## You’ll need to translate/localize more than you think you will
+## You’ll need to translate / localize more than you think you will
 
 If you do user testing ([and you should](https://abookapart.com/products/just-enough-research)), you’ll also need to translate or localize your user tests. If the user tests are moderated, your scripts will also need to be translated or localized. If nobody at your organization speaks the language(s) you are testing, you’ll also need to have someone translate the recordings, and potentially the synthesis.
 
@@ -172,7 +172,7 @@ If you’re fortunate enough to be in a position where you can choose the [typef
 
 Do a little work to see what languages you should prioritize support of, and then see if the typeface you’re evaluating accommodates it.
 
-### Working with a typeface that’s picked for you
+### Working with a typeface that’s already been chosen
 
 If you don’t have the luxury of picking a typeface, you’ll need to balance performance and inclusion. Know there’s not always an easy answer.
 
