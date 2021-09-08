@@ -6,6 +6,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #111111;
   line-height: var(--line-height-tighter);
   letter-spacing: var(--tracking-tight);
+  word-break: break-word;
 
   @media screen and (prefers-color-scheme: dark) {
     color: #ffffff;
