@@ -10,6 +10,10 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Design updates
 - Performance optimizations
 
+## v1.5.0 - 2021-09-07
+- Update homepage content and design
+- Use temporary homepage styles
+
 ## v1.4.21 - 2021-09-02
 - Add [What they don’t tell you when you translate your app](https://ericwbailey.design/writing/what-they-dont-tell-you-when-you-translate-your-app)
 
