@@ -31,15 +31,15 @@ If you go to [thoughtbot.com](https://thoughtbot.com/) now you can see for yours
 
 ![Screenshot of the thoughtbot.com homepage with dark mode enabled.]({{ '/img/posts/thoughtbot-com-dark-mode-and-other-user-preferences/thoughtbot-dark-mode.png' | url }})
 
-# Why
+## Why
 
 [The *how* part of dark mode](https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/) has been thoroughly addressed. Instead, I’m going to talk a little bit about the *why*.
 
-## Developer appeal
+### Developer appeal
 
 I think that one reason dark mode took off is because it’s attractive to a lot of developers. Many code editors, terminal shells, browser extensions, etc. are purposely set to use darker colors. Extending this treatment to the websites and web apps they work on day-in and day-out feels natural.
 
-## Respecting user preferences
+### Respecting user preferences
 
 There’s more to dark mode than just developer convenience. It can help:
 
@@ -48,7 +48,6 @@ There’s more to dark mode than just developer convenience. It can help:
 - Provide an enjoyable reading experience for some people with ADHD.
 
 On the web, the logic that triggers dark mode is part of [a suite of new media queries](https://www.w3.org/TR/mediaqueries-5/#mf-user-preferences) that react to settings someone explicitly enables. You can, or will soon be able to target:
-
 
 - [Motion](https://www.w3.org/TR/mediaqueries-5/#prefers-reduced-motion),
 - [Data](https://www.w3.org/TR/mediaqueries-5/#prefers-reduced-data),
@@ -59,7 +58,7 @@ On the web, the logic that triggers dark mode is part of [a suite of new media q
 
 These are welcome additions to the platform. Reacting to how someone wants to view the web is being accommodating to their expressed preferences. Like a good host, website and web app makers should strive to make everyone feel comfortable and welcome when they visit.
 
-# Better defaults
+## Better defaults
 
 User preference queries also pose an interesting thing to think about: why do extra work?
 
@@ -69,7 +68,7 @@ If you accommodate these concerns from the beginning, you need to write far less
 
 It’s also worth mentioning that [the preference toggles for these features are oftentimes buried or obfuscated](https://developer.paciellogroup.com/blog/2019/05/short-note-on-prefers-reduced-motion-and-puzzled-windows-users/). This means a person may not know these features exist, and consequently won’t enable them.
 
-# Flip mode is the greatest
+## Flip mode is the greatest
 
 Consider an opt-in approach rather than opt-out:
 
@@ -83,7 +82,7 @@ Consider an opt-in approach rather than opt-out:
 
 [Start with all your autoplaying media paused](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-dis-audio.html), and let the user decide what’s interesting enough to interact with. Data-saver mode is turned off? Great! Conditionally serve up that video. Type over a semitransparent background? Maybe rethink that design choice, friend.
 
-# thoughtbot​.​com is quiet by design
+## thoughtbot​.​com is quiet by design
 
 While our website utilizes bold color choices and large type, you’ll notice that we don’t employ dirty tricks you might see on other agency sites. There’s no distracting autoplaying video backgrounds, [nausea-inducing parallax effects](https://alistapart.com/article/accessibility-for-vestibular/), tiny light gray text on a white background, or gigantic data plan-murdering hero images.
 
