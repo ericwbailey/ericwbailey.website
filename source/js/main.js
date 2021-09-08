@@ -20,11 +20,13 @@
 
 
 function onBlur() {
-  document.body.className = 'js-is-blurred';
+  document.body.classList.remove('js-is-focused');
+  document.body.classList.add('js-is-blurred');
 };
 
 function onFocus() {
-  document.body.className = 'js-is-focused';
+  document.body.classList.remove('js-is-blurred');
+  document.body.classList.add('js-is-focused');
 };
 
 window.onfocus = onFocus;
