@@ -14,7 +14,7 @@ body {
 }
 
 .js-is-blurred {
-  // opacity: 0.4;
+  opacity: 0.4;
 }
 
 
@@ -35,6 +35,8 @@ body {
     text-align: center;
     text-decoration-color: #48d7e7;
     width: calc(100% - var(--scale4));
+
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
   }
 
   @media screen and (prefers-color-scheme: dark) {
@@ -101,7 +103,7 @@ body {
     }
 
     @media screen and (prefers-reduced-motion) {
-      // transition: none;
+      transition: none;
     }
   }
 }
