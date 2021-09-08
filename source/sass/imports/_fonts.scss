@@ -1,19 +1,42 @@
 @font-face {
-  font-family: 'BespokeSlab-Variable';
+  font-family: 'Metropolis';
   src:
-    url('/static/fonts/BespokeSlab-Variable.woff2') format('woff2'),
-    url('/static/fonts/BespokeSlab-Variable.woff') format('woff');
-  font-weight: 370;
+    url('/static/fonts/Metropolis-Medium.woff2') format('woff2'),
+    url('/static/fonts/Metropolis-Medium.woff') format('woff');
+  font-weight: 500;
   font-display: fallback;
   font-style: normal;
 }
 
+
 @font-face {
-  font-family: 'BespokeSlab-VariableItalic';
+  font-family: 'Metropolis';
   src:
-    url('/static/fonts/BespokeSlab-VariableItalic.woff2') format('woff2'),
-    url('/static/fonts/BespokeSlab-VariableItalic.woff') format('woff');
+    url('/static/fonts/Metropolis-MediumItalic.woff2') format('woff2'),
+    url('/static/fonts/Metropolis-MediumItalic.woff') format('woff');
+  font-weight: 500;
   font-display: fallback;
   font-style: italic;
-  font-style: oblique 0deg 20deg;
+}
+
+
+@font-face {
+  font-family: 'Metropolis';
+  src:
+    url('/static/fonts/Metropolis-Black.woff2') format('woff2'),
+    url('/static/fonts/Metropolis-Black.woff') format('woff');
+  font-weight: 900;
+  font-display: fallback;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Metropolis';
+  src:
+    url('/static/fonts/Metropolis-BlackItalic.woff2') format('woff2'),
+    url('/static/fonts/Metropolis-BlackItalic.woff') format('woff');
+  font-weight: 900;
+  font-display: fallback;
+  font-style: italic;
 }
