@@ -17,17 +17,3 @@
     i = 1;
   }
 })();
-
-
-function onBlur() {
-  document.body.classList.remove('js-is-focused');
-  document.body.classList.add('js-is-blurred');
-};
-
-function onFocus() {
-  document.body.classList.remove('js-is-blurred');
-  document.body.classList.add('js-is-focused');
-};
-
-window.onfocus = onFocus;
-window.onblur = onBlur;

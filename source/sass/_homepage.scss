@@ -1,7 +1,6 @@
 html,
 body {
   background-color: #ffffff;
-  transition: opacity 300ms ease-in-out;
 
   @media screen and (prefers-color-scheme: dark) {
     background-color: #111111;
@@ -12,11 +11,6 @@ body {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
 }
-
-.js-is-blurred {
-  opacity: 0.4;
-}
-
 
 .c-homepage__skipnav {
   @include hide-visually();
