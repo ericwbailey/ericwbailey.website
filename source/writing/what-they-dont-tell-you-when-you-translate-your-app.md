@@ -79,7 +79,7 @@ Many sites that offer a translated experience do so via Google Translate, or ano
 
 The more complicated the language you’re translating and the more jargon and abstract concepts you use, the more an automated solution won’t be able to provide a comparable experience. Because of this, some people may prefer to muddle along in English—potentially with the assistance of a bilingual speaker—for fear that a vital concept may be perverted or lost.
 
-This fact also has a more subtle effect: Some people may never even bother translate your digital experience because they have the expectation that the translated experience will be bad, even if you do the work to have a high-quality translated or localized experience.
+This fact also has a more subtle effect: Some people may never even bother to translate your digital experience because they have the expectation that the translated experience will be bad, even if you do the work to have a high-quality translated or localized experience.
 
 The takeaway here is to identify the main thing your digital experience does and make it overwhelmingly obvious to access, regardless of the language used.
 
