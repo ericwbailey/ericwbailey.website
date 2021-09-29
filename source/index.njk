@@ -37,14 +37,14 @@
       My interests are:
     </h2>
 
-    <ul class="c-homepage__list">
-      <li><a href="https://github.com/ericwbailey/ericwbailey.design">Working in the open</a></li>
-      <li><a href="https://www.webpagetest.org/result/190407_TJ_6b8eeb18bebf6a79069508f41c60658f/#accessibility">Accessible and inclusive design</a></li>
-      <li><a href="https://search.google.com/structured-data/testing-tool/u/0/#url=http%3A%2F%2Fericwbailey.design%2F">Semantics and interoperability</a></li>
-      <li><a href="https://ericwbailey.design/#:~:text=CSS%20architecture%20at%20scale">CSS architecture at scale</a></li>
-      <li><a href="https://worldwideweb.cern.ch/browser/#https://ericwbailey.design/">Progressive enhancement</a></li>
-      <li><a href="https://yellowlab.tools/result/fmo0qm55ll">Web performance</a></li>
-      <li><a href="{{ '/writing/what-they-dont-tell-you-when-you-translate-your-app' | url }}">Internationalization and localization</a></li>
+    <ul role="list" class="c-homepage__list">
+      <li role="listitem"><a href="https://github.com/ericwbailey/ericwbailey.design">Working in the open</a></li>
+      <li role="listitem"><a href="https://www.webpagetest.org/result/190407_TJ_6b8eeb18bebf6a79069508f41c60658f/#accessibility">Accessible and inclusive design</a></li>
+      <li role="listitem"><a href="https://search.google.com/structured-data/testing-tool/u/0/#url=http%3A%2F%2Fericwbailey.design%2F">Semantics and interoperability</a></li>
+      <li role="listitem"><a href="https://ericwbailey.design/#:~:text=CSS%20architecture%20at%20scale">CSS architecture at scale</a></li>
+      <li role="listitem"><a href="https://worldwideweb.cern.ch/browser/#https://ericwbailey.design/">Progressive enhancement</a></li>
+      <li role="listitem"><a href="https://yellowlab.tools/result/fmo0qm55ll">Web performance</a></li>
+      <li role="listitem"><a href="{{ '/writing/what-they-dont-tell-you-when-you-translate-your-app' | url }}">Internationalization and localization</a></li>
     </ul>
   </div>
 
@@ -54,9 +54,9 @@
     </h2>
 
     <p class="c-homepage__featured-title">
-      <a rel="author" href="{{ '/writing/thoughtbot-com-dark-mode-and-other-user-preferences' | url }}">thoughtbot.com, dark mode, and other user preferences</a>
+      <a rel="author" href="https://www.smashingmagazine.com/2021/09/improving-accessibility-of-markdown/">Improving the Accessibility of your Markdown</a>
       <span class="c-homepage__featured-source">
-        Published on this site
+        Published on Smashing Magazine
       </span>
     </p>
   </div>
@@ -96,29 +96,29 @@
       Here’s how to contact&nbsp;me:
     </h2>
 
-    <ul class="c-homepage__list c-homepage__list--contact">
-      <li itemscope itemtype="http://schema.org/Organization">
+    <ul role="list" class="c-homepage__list c-homepage__list--contact">
+      <li role="listitem" itemscope itemtype="http://schema.org/Organization">
         <a rel="me" href="https://twitter.com/ericwbailey"><span itemprop="memberOf">Twitter</span></a>
       </li>
-      <li itemscope itemtype="http://schema.org/Organization">
+      <li role="listitem" itemscope itemtype="http://schema.org/Organization">
         <a rel="me" href="https://github.com/ericwbailey"><span itemprop="memberOf">GitHub</span></a>
       </li>
-      <li itemscope itemtype="http://schema.org/Organization">
+      <li role="listitem" itemscope itemtype="http://schema.org/Organization">
         <a rel="me" href="https://www.linkedin.com/in/ericwbailey/"><span itemprop="memberOf">LinkedIn</span></a>
       </li>
-      <li itemscope itemtype="http://schema.org/Organization">
+      <li role="listitem" itemscope itemtype="http://schema.org/Organization">
         <a rel="me" href="https://www.polywork.com/ericwbailey"><span itemprop="memberOf">Polywork</span></a>
       </li>
-      <li itemscope itemtype="http://schema.org/Organization">
+      <li role="listitem" itemscope itemtype="http://schema.org/Organization">
         <a rel="me" href="https://codepen.io/ericwbailey/"><span itemprop="memberOf">CodePen</span></a>
       </li>
-      <li itemscope itemtype="http://schema.org/Organization">
+      <li role="listitem" itemscope itemtype="http://schema.org/Organization">
         <a rel="me" href="https://instagram.com/eric.w.bailey/"><span itemprop="memberOf">Instagram</span></a>
       </li>
-      <li>
+      <li role="listitem">
         <a href="mailto:&#101;&#114;&#105;&#99;&#46;&#119;&#46;&#98;&#97;&#105;&#108;&#101;&#121;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">Email</a>
       </li>
-      <li>
+      <li role="listitem">
         <a href="{{ '/office-hours/' | url }}">Virtual Coffee</a>
       </li>
     </ul>
@@ -133,20 +133,20 @@
 
   <div class="c-homepage__nav-wrapper">
     <nav id="nav-primary" aria-label="Primary">
-      <ul class="c-homepage__list">
-        <li><a href="{{ '/writing/' | url }}">Writing</a></li>
-        <li><a href="{{ '/speaking/' | url }}">Speaking</a></li>
-        <li><a href="{{ '/projects/' | url }}">Projects</a></li>
-        <li><a href="{{ '/office-hours/' | url }}">Office Hours</a></li>
+      <ul role="list" class="c-homepage__list">
+        <li role="listitem"><a href="{{ '/writing/' | url }}">Writing</a></li>
+        <li role="listitem"><a href="{{ '/speaking/' | url }}">Speaking</a></li>
+        <li role="listitem"><a href="{{ '/projects/' | url }}">Projects</a></li>
+        <li role="listitem"><a href="{{ '/office-hours/' | url }}">Office Hours</a></li>
       </ul>
     </nav>
 
     <nav id="nav-secondary" aria-label="Secondary">
-      <ul class="c-homepage__list">
-        <li><a href="{{ '/feed/feed.xml' | url }}">RSS Feed</a></li>
-        <li><a href="{{ '/accessibility-statement//' | url }}">Accessibility Statement</a></li>
-        <li><a href="{{ '/colophon/' | url }}">Colophon</a></li>
-        <li><a href="{{ '/old-stuff/' | url }}">Old Stuff</a></li>
+      <ul role="list" class="c-homepage__list">
+        <li role="listitem"><a href="{{ '/feed/feed.xml' | url }}">RSS Feed</a></li>
+        <li role="listitem"><a href="{{ '/accessibility-statement//' | url }}">Accessibility Statement</a></li>
+        <li role="listitem"><a href="{{ '/colophon/' | url }}">Colophon</a></li>
+        <li role="listitem"><a href="{{ '/old-stuff/' | url }}">Old Stuff</a></li>
       </ul>
     </nav>
   </div>
