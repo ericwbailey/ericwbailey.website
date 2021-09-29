@@ -10,6 +10,10 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Design updates
 - Performance optimizations
 
+## v1.5.1 - 2021-09-29
+- Add [100]()
+- Add [Improving the Accessibility of your Markdown](https://www.smashingmagazine.com/2021/09/improving-accessibility-of-markdown/)
+
 ## v1.5.0 - 2021-09-07
 - Update homepage content and design
 - Use temporary homepage styles
