@@ -10,8 +10,11 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Design updates
 - Performance optimizations
 
+## v1.5.2 - 2021-10-12
+- Add [Insulin dump](https://ericwbailey.design/writing/insulin-dump)
+
 ## v1.5.1 - 2021-09-29
-- Add [100]()
+- Add [100](https://ericwbailey.design/writing/100)
 - Add [Improving the Accessibility of your Markdown](https://www.smashingmagazine.com/2021/09/improving-accessibility-of-markdown/)
 
 ## v1.5.0 - 2021-09-07
