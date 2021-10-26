@@ -31,11 +31,11 @@ Slack is also permissive in terms of how you present yourself as a person who us
 
 You have two different names on Slack, your full name and your display name.
 
-Your full name is a name you can chose for yourself, oftentimes people use it for nicknames, or to do things like list their pronouns or status (i.e. “Katrina Santos [On Vacation]”). Your display name is oftentimes set by the organization running the Slack, and is used to @mention you.
+Your full name is a name you can chose for yourself. People often use it for nicknames, or to do things like list their pronouns or status (i.e. “Katrina Santos [On Vacation]”). Your display name is oftentimes set by the organization running the Slack, and is used to @mention you.
 
-A good way to think about these two types of modes is your display name is like your email address, and your full name is like the name you use with that account.
+A good way to think about these two name types is your display name is like your email address, and your full name is like the name you use with that account.
 
-Your Slack full and display names can be a single a single character, or use non-English languages—a breath of fresh air compared to systems with Western biases that [don’t accept things like diacritics](https://shkspr.mobi/blog/2021/05/what-are-unusual-characters/) or two-letter names. You can even use a `DROP_TABLE` statement for your name, and it’s smart enough to sanitize the input and avoid a [little Bobby tables](https://xkcd.com/327/) scenario.
+Your Slack full and display names can be a single character, or use non-English languages—a breath of fresh air compared to systems with Western biases that [don’t accept things like diacritics](https://shkspr.mobi/blog/2021/05/what-are-unusual-characters/) or two-letter names. You can even use a `DROP_TABLE` statement for your name, and it’s smart enough to sanitize the input and avoid a [little Bobby tables](https://xkcd.com/327/) scenario.
 
 ### Avatars
 
@@ -73,7 +73,7 @@ Unfortunately, this flexibility can work against an organization. To cut to the 
   </figure>
 </div>
 
-Now before you start drafting a rebuttal, know I’m aware of these four things:
+Now before you start drafting a response, know I’m aware of these four things:
 
 1. You can view a full profile to see someone’s display name, and that they’re pretending to be Slackbot,
 2. @mentioning someone’s display name can also reveal the truth of things,
@@ -94,13 +94,13 @@ For our purposes, we’ll need to identify important people with both a high deg
 
 ## Create a problem, then offer a solution
 
-To keep someone from being skeptical, we’ll want to put them in a panicky state where they’re focusing on the immediate problem, then offer an easy way out of it. To do that, we stir up a little panic:
+To keep someone from being skeptical, we’ll want to put them in a panicky state where they’re focusing on the immediate problem. Then, offer an easy way out of it. To do that, we stir up a little panic:
 
 <img
   alt="Direct Message conversation between the fake Slackbot and Trey Spence. Slackbot: “Your Slack password is set to expire in 3 days. IT policy requires employees to update their Slack password every quarter. To update your Slack password, please type your current Slack password as a reply to this message:” Trey replies: “okr.2022”. Slackbot: “Great! Now type your new Slack password:”. Trey: “next.level.2022”. Slackbot: “Thank you, your password has been updated to next.level.2022. Please use your new password the next time you log into Slack. Screenshot."
   src="{{ '/img/posts/spear-phishing-with-slackbot-for-fun-and-profit/password-reset.png' | url }}" />
 
-Offering to update their password provides an immediate solution to the problem at hand, and the convenience we offer may outweigh that vital moment where they’d check to see if it’s legit. On top of that, we’re borrowing the look and language of Slack to reinforce a sense of automated authority.
+Offering to update their password provides an immediate solution to the problem at hand. The convenience of the solution we offer may outweigh that vital moment where they’d check to see if it’s legit. On top of that, we’re borrowing the look and language of Slack to reinforce a sense of automated authority.
 
 To extra mile it, make covering your tracks look intentional:
 
@@ -110,25 +110,25 @@ To extra mile it, make covering your tracks look intentional:
 
 ## Now what?
 
-We now have our target’s Slack password, which lets us access anything in Slack they have access to. A lot of people don’t use a unique password for each service, so we could also try logging into other services to see what works.
+We now have our target’s Slack password, which lets us access anything in Slack they have access to. A lot of people don’t use unique passwords, so we could also try logging into other services to see what works.
 
 If your attempt doesn’t work, you can always claim you were part of a security training initiative, thank your target to make them feel good about themselves, and wait to try again with someone else.
 
 ## Won't this get you fired?
 
-Corporate espionage is very real. A thing companies must contend with is the idea that applicants are trying to get access, not get a career.
+A thing companies must contend with is the idea that applicants are trying to get access, not get a career. Corporate espionage is very real.
 
-In addition, The Great Resignation has made it a job-seeker’s market, one where I’m willing to bet a lot of applications are rushed through and a lot of internal vetting processes have deteriorated.
+In addition, The Great Resignation has made it a job-seeker’s market, one where I’m willing to bet a lot of applications are rushed through and a lot of internal vetting processes have deteriorated (HR folks are also quitting en-masse).
 
 ## What about non-work Slacks?
 
-They exist, and many of them have a huge number of members. This is another tempting target if you do a little homework beforehand.
+They exist, and many of them have hundreds, if not thousands of members. This is another tempting target if you do a little homework beforehand.
 
 ## What Slack can do about it
 
 A few things!
 
-### Show the full name on a profile preview
+### Show the display name on a profile preview
 
 Make this information one level deep, not two. I can understand that there’s a lot of competing priorities for this piece of UI, but I think it’s a relatively easy lift that could do a lot of good.
 
@@ -232,7 +232,9 @@ Discord could also borrow this idea. Tech isn't neutral and [hate organizes on p
 
 It’s easy to be an armchair critic and point out potential solutions to problems you create. It’s another thing entirely to institute these kinds of fixes for a product already in motion, especially for one as complicated and popular as Slack.
 
-The reality is these features will need to compete with multiple existing initiatives, as well as the practical and ethical mindsets of the people working on these platforms. Some may think this is all paranoid delusion, some may run [cost-benefit analysis](https://philosophia.uncg.edu/phi361-matteson/module-1-why-does-business-need-ethics/case-the-ford-pinto/) and decide it’s an acceptable risk, and some might even be actively exploiting such a technique for their own gain.
+The reality is these features will need to compete with multiple existing initiatives, as well as the practical and ethical mindsets of the people working on these platforms.
+
+Some may think this is all paranoid delusion, some may run [cost-benefit analysis](https://philosophia.uncg.edu/phi361-matteson/module-1-why-does-business-need-ethics/case-the-ford-pinto/) and decide it’s an acceptable risk, and some might even be actively exploiting such a technique for their own gain.
 
 For harboring hate groups, the other cynical reality is that many organizations are already aware of the issue, but are unwilling to remove a source of profit. Twitter, for example, [flags many accounts that would violate German hate laws](https://www.cnbc.com/2019/08/02/twitter-users-switch-profiles-to-germany-to-escape-online-hate.html), but choses to display them to non-German accounts rather than removing them from its service.
 
