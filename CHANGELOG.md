@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Design updates
 - Performance optimizations
 
+## v1.5.3 - 2021-10-25
+- Add [Spear phishing with slackbot for fun and profit](https://ericwbailey.design/writing/spear-phishing-with-slackbot-for-fun-and-profit)
+
 ## v1.5.2 - 2021-10-12
 - Add [Insulin dump](https://ericwbailey.design/writing/insulin-dump)
 
