@@ -12,20 +12,28 @@
 
 
 .centered-media-inner-1 {
-  width: 10rem;
+  @media screen and (min-width: map-get($breakpoint, "medium")) {
+    width: 10rem;
+  }
 }
 
 
 .centered-media-inner-2 {
-  width: 20rem;
+  @media screen and (min-width: map-get($breakpoint, "medium")) {
+    width: 20rem;
+  }
 }
 
 
 .centered-media-inner-3 {
-  width: 30rem;
+  @media screen and (min-width: map-get($breakpoint, "medium")) {
+    width: 30rem;
+  }
 }
 
 
 .centered-media-inner-4 {
-  width: 40rem;
+  @media screen and (min-width: map-get($breakpoint, "medium")) {
+    width: 40rem;
+  }
 }

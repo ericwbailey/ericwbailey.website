@@ -194,7 +194,7 @@ Slack could use image hashing to detect someone trying to use Slackbot’s avata
     class="centered-media-inner-3"
     aria-label="Simulated feature.">
     <img
-      alt="The Slack avatar image cropping UI, with Slackbot’s avatar uploaded. An error message reads, “Whoa there, that’s my face! Maybe try another image?” The option to save the image has been disabled."
+      alt="The Slack avatar image cropping UI, with Slackbot’s avatar uploaded. An error message reads, “Whoa! That looks like Slackbot’s face! Maybe try another image?” The option to save the image has been disabled."
       src="{{ '/img/posts/spear-phishing-with-slackbot-for-fun-and-profit/avatar-warning.png' | url }}" />
     <figcaption>
       Simulated feature.
@@ -224,7 +224,7 @@ Image hashing and machine learning could, hypothetically, also prevent the use o
     alt="A Totenkopf death’s head, a swastika made out of syringes, Trump drawn as Pepe the Frog, the logo for The Base, the thin blue line flag superimposed over the Punisher skull, and the Klu Klux Klan’s blood drop cross."
     class="centered-media-inner-3"
     src="{{ '/img/posts/spear-phishing-with-slackbot-for-fun-and-profit/hate-symbols.png' | url }}" />
-  </div>
+</div>
 
 Discord could also borrow this idea. Tech isn't neutral and [hate organizes on platforms like these](https://www.wired.com/story/far-right-took-over-steam-discord/).
 
