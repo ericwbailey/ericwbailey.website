@@ -65,7 +65,8 @@ This is not news. It is [knowledge that has been painstakingly-assembled by othe
 
 - [Has been repeatedly identified as a source of inacessibility in lawsuits](https://adrianroselli.com/2020/06/accessibe-will-get-you-sued.html#Lawsuit), failing to deliver on what its product promises,
 - Is [not recommended as a viable short or long-term strategy](https://go.forrester.com/blogs/whats-wrong-with-quick-fix-products-for-digital-accessibility/) by Forrester,
-- Was [disavowed by The National Federation of the Blind](https://nfb.org/about-us/press-room/national-convention-sponsorship-statement-regarding-accessibe) because of their actions, and
+- Was [disavowed by The National Federation of the Blind](https://nfb.org/about-us/press-room/national-convention-sponsorship-statement-regarding-accessibe) because of their actions,
+- Won’t comply with [Data Protection Impact Assessment requests](https://tink.uk/accessibe-and-data-protection/), and
 - Was [cautioned against](https://www.youtube.com/watch?v=R12Z1Sp-u4U) by [Haben freakin’ Girma](https://habengirma.com/) herself.
 
 ## Approach

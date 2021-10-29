@@ -31,7 +31,7 @@ All that said, my not-smart TV will not:
 - Force me to use [an inefficient UI](https://www.inputmag.com/features/why-do-so-many-smart-tv-interfaces-still-suck-lg-samsung) that will likely never get UX updates,
 - Use data that counts towards my data cap,
 - Need me to [regularly run virus and malware checks](https://www.samsung.com/us/support/answer/ANS00077524/),
-- Load apps for content partners I have no interest in, but can’t remove,
+- Load apps for content partners I have no interest in, but [can’t remove](https://twitter.com/SamsungUK/status/1453432765656059907),
 - [Update itself into a bricked state](https://www.zdnet.com/article/samsungs-bad-software-update-bricks-smart-tvs/),
 - Record my voice,
 - Force me to register an account before working,
