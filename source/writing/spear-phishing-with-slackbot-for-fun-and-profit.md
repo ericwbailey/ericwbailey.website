@@ -122,7 +122,7 @@ In addition, The Great Resignation has made it a job-seeker’s market, one wher
 
 ## What about non-work Slacks?
 
-They exist, and many of them have hundreds, if not thousands of members. This is another tempting target if you do a little homework beforehand.
+They exist, and many of them have hundreds, if not thousands of members. This is [another tempting target](https://twitter.com/jina/status/1453027023614447621) if you do a little homework beforehand.
 
 ## What Slack can do about it
 
