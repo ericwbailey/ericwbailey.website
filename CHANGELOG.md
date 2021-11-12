@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Design updates
 - Performance optimizations
 
+## v1.5.4 - 2021-11-11
+- Add [The endless search for “here” in the unhelpful “click here” button](https://www.getstark.co/blog/the-endless-search-for-here-in-the-unhelpful-click-here-button)
+
 ## v1.5.3 - 2021-10-25
 - Add [Spear phishing with slackbot for fun and profit](https://ericwbailey.design/writing/spear-phishing-with-slackbot-for-fun-and-profit)
 - Update default Twitter social share image
