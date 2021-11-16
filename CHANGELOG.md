@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Design updates
 - Performance optimizations
 
+## v1.5.5 - 2021-11-15
+- Add [Your CSS is an interface](https://ericwbailey.design/writing/your-css-is-an-interface)
+
 ## v1.5.4 - 2021-11-11
 - Add [The endless search for “here” in the unhelpful “click here” button](https://www.getstark.co/blog/the-endless-search-for-here-in-the-unhelpful-click-here-button)
 
