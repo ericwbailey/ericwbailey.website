@@ -26,7 +26,7 @@ My partner is learning Japanese using the Duolingo app. They’ve been dutifully
     src="{{ '/img/posts/your-css-is-an-interface/duolingo-screenshot.png' | url }}" />
 </div>
 
-If I could wager a guess, it looks like there was a bug with dark mode color logic on the their multiple choice button component. I totally get it. Managing color across a large, complicated application like Duolingo is a complicated thing, and that’s even before you consider dark mode.
+If I could wager a guess, it looks like there was a bug with dark mode color logic on their multiple choice button component. I totally get it. Managing color across a mature application like Duolingo is a complicated thing, and that’s even before you consider dark mode.
 
 That being said, it’s [a pretty nasty color contrast issue](https://webaim.org/resources/contrastchecker/?fcolor=464B4F&bcolor=161F24), one that can keep a lot of people from being able to use the app until the bug is fixed with an update.
 
@@ -65,7 +65,10 @@ A person inspecting things can then modify these classes with a good deal of con
 A little more work like this and we can do stuff like [construct our own themes](https://userstyles.org/). We don’t need to petition the services to add our themes, either—we can just apply them and carry on.
 
 ### Robot-friendly CSS classes
-Minified CSS class names, like what you’d get on Twitter or Instagram, can be the result  of approaches like ultra efficient optimization strategies or React Native transpilation. Here, the qualities of the previous `.c-card__title` class may be broken up into more atomic classes by automation that recognizes declaration commonalities shared across multiple unrelated components.
+
+Minified CSS class names, like what you’d get on Twitter or Instagram, can be the result of approaches like ultra efficient optimization strategies or React Native transpilation.
+
+Here, the qualities of the previous `.c-card__title` class may be broken up into more atomic classes by automation that recognizes declaration commonalities shared across multiple unrelated components.
 
 ```css
 .jxks-901oao { … }
@@ -97,7 +100,7 @@ For a CSS class naming strategy, we need to weigh the value of providing a resou
 
 ## Against the grain
 
-Web apps like to pretend they’re native apps, and a native app mindset comes along for the ride. The same way class names get obfuscated is the same way [zooming and scaling is blocked](https://almanac.httparchive.org/en/2020/accessibility#zooming-and-scaling) is the same way [copying and pasting is restricted](https://developer.mozilla.org/en-US/docs/Web/CSS/user-select).
+Web apps like to pretend they’re native apps, and a native app mindset comes along for the ride. The same way class names get obfuscated is the same way [zooming and scaling is blocked](https://almanac.httparchive.org/en/2020/accessibility#zooming-and-scaling) is the same way [copying and pasting gets restricted](https://developer.mozilla.org/en-US/docs/Web/CSS/user-select).
 
 The problem is this isn’t [materially honest](https://alistapart.com/article/material-honesty-on-the-web/). The web is malleable, and that is a highly intentional design decision. Honoring it makes things better for everyone.
 
