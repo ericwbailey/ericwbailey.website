@@ -126,8 +126,8 @@ This is to say that if a multibillion dollar company with near-unlimited resourc
 
 [Stylus on the Chrome Web Store](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en) has more than half a million users. [Stylish](https://chrome.google.com/webstore/detail/stylish-custom-themes-for/fjnbnpbmkenffdnngjfgmeleoegfcffe?hl=en) has over three million. That’s a lot of people modifying the web to get what they want.
 
-We can also do a little bit better than an appeal to popularity. I’d like you to consider the ability for an individual to improve their quality of life.
+We can also do a little bit better than an appeal to popularity. I’d like you to consider the ability for an individual to improve their quality of life. Some web experiences you’re forced to use. Think jobs, medical portals, government services, etc.
 
-Some web experiences you’re forced to use. Think jobs, medical portals, government services, etc. If the bright red of the web app someone is forced to use for their job 8‒10 hours every day gives them tension headaches, shouldn’t they be able to dial it down to something more soothing?
+If the bright red of the web app someone is forced to use for their job 8‒10 hours every day gives them tension headaches, shouldn’t they be able to dial it down to something more soothing? Or what about someone with ADHD who wants to block auto playing video to be able to read the news? Or someone with a vestibular disorder who wants to scroll without throwing up?
 
 Being able to fix something you’re forced to endure creates an immediate and appreciable improvement on your quality of life. And that’s important.
