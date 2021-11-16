@@ -52,7 +52,7 @@ For the most part, CSS’ properties and values are easy for a layperson to unde
 
 Similarly, someone may not know what a `rem` is, but it is pretty easy to piece together that changing a value of `1rem` to `2rem` on a declaration of `margin-top` will increase the space on top of something.
 
-Taking this a step further, someone may not know what BEM methodology is, but can probably understand that a class named `.c-product__description` is the description of a product the same way a class named `.c-heading__secondary` is a variation of a heading.
+Taking this a step further, someone may not know what BEM methodology is, but can probably understand that a class named `.c-product__description` is the description of a product the same way a class named `.c-heading--secondary` is a variation of a heading.
 
 ### Human-friendly CSS class names
 
