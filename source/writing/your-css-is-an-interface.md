@@ -114,9 +114,9 @@ The more we move these kinds of concerns into the abstract, the more obscure and
 
 The trickle-down and side effects our choices create can have real-world consequences, and that’s something I think needs to be considered more when evaluating technology choices.
 
-## You’re not Instagram
+## You’re not Twitter
 
-I know of another large, popular technology company (not Instagram) that serves obfuscated CSS classes because the website is compiled using React Native.
+I know of another large, popular technology company ([not Twitter](https://giuseppegurgone.com/twitter-html/)) that serves obfuscated CSS classes because the website is compiled using React Native.
 
 The tragicomic bit is that the companies’ iOS and Android apps are built using native code. Both mobile development teams migrated away from React Native, and the website remains an awkward vestigial artifact of this failed approach.
 
