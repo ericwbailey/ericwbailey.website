@@ -10,6 +10,7 @@ tags:
   - CSS
   - Development
   - Performance
+inlineStyles: true
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}
@@ -37,7 +38,7 @@ If you can’t see the button’s content, you can’t use the app. And since it
 1. The bug is recognized,
 1. Triaged,
 1. Fixed,
-1. An update is pushed out and then
+1. An update is pushed out, and then
 1. Downloaded and applied.
 
 Let’s hope the bug is important enough that it’s not banished to the icebox forever.
