@@ -1,0 +1,29 @@
+<svg width="1210" height="572" viewBox="0 0 1210 572" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="1.5" y="101.5" width="347" height="27" fill="#48D7E7" fill-opacity="0.07" stroke="#48D7E7" stroke-width="3"/>
+<rect x="1" y="131" width="348" height="440" rx="23" fill="white" stroke="#C4C4C4" stroke-width="2"/>
+<path d="M24 131H326C338.703 131 349 141.297 349 154V280H1V154C1 141.297 11.2975 131 24 131Z" fill="#E8E8E8" stroke="#C4C4C4" stroke-width="2"/>
+<rect x="2" y="279" width="346" height="7" fill="white"/>
+<circle cx="175" cy="280" r="90" fill="#A4A4A4"/>
+<circle cx="290" cy="512" r="30" fill="#A4A4A4"/>
+<rect x="30" y="400" width="160" height="14" rx="7" fill="#4A4A4A" fill-opacity="0.5"/>
+<rect x="30" y="424" width="250" height="14" rx="7" fill="#4A4A4A" fill-opacity="0.5"/>
+<rect x="30" y="448" width="110" height="14" rx="7" fill="#4A4A4A" fill-opacity="0.5"/>
+<rect x="431" y="131" width="348" height="440" rx="23" fill="white" stroke="#C4C4C4" stroke-width="2"/>
+<path d="M454 131H756C768.703 131 779 141.297 779 154V280H431V154C431 141.297 441.297 131 454 131Z" fill="#E8E8E8" stroke="#C4C4C4" stroke-width="2"/>
+<rect x="432" y="279" width="346" height="7" fill="white"/>
+<circle cx="605" cy="280" r="90" fill="#A4A4A4"/>
+<circle cx="720" cy="512" r="30" fill="#A4A4A4"/>
+<rect x="460" y="400" width="160" height="14" rx="7" fill="#4A4A4A" fill-opacity="0.5"/>
+<rect x="460" y="424" width="250" height="14" rx="7" fill="#4A4A4A" fill-opacity="0.5"/>
+<rect x="460" y="448" width="110" height="14" rx="7" fill="#4A4A4A" fill-opacity="0.5"/>
+<rect x="431.5" y="61.5" width="347" height="67" fill="#48D7E7" fill-opacity="0.07" stroke="#48D7E7" stroke-width="3"/>
+<rect x="861" y="131" width="348" height="440" rx="23" fill="white" stroke="#C4C4C4" stroke-width="2"/>
+<path d="M884 131H1186C1198.7 131 1209 141.297 1209 154V280H861V154C861 141.297 871.297 131 884 131Z" fill="#E8E8E8" stroke="#C4C4C4" stroke-width="2"/>
+<rect x="862" y="279" width="346" height="7" fill="white"/>
+<circle cx="1035" cy="280" r="90" fill="#A4A4A4"/>
+<circle cx="1150" cy="512" r="30" fill="#A4A4A4"/>
+<rect x="890" y="400" width="160" height="14" rx="7" fill="#4A4A4A" fill-opacity="0.5"/>
+<rect x="890" y="424" width="250" height="14" rx="7" fill="#4A4A4A" fill-opacity="0.5"/>
+<rect x="890" y="448" width="110" height="14" rx="7" fill="#4A4A4A" fill-opacity="0.5"/>
+<rect x="861.5" y="1.5" width="347" height="127" fill="#48D7E7" fill-opacity="0.07" stroke="#48D7E7" stroke-width="3"/>
+</svg>
