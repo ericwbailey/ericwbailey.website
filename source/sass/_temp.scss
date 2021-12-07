@@ -31,13 +31,16 @@ h3 {
 }
 
 ul {
+  margin-left: 2ch;
   list-style-type: disc;
+}
+
+ol {
+  margin-left: 4ch;
 }
 
 ol,
 ul {
-  margin-left: 4ch;
-
   li {
     margin-top: var(--scale1);
   }
