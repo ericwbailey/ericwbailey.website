@@ -12,6 +12,7 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 
 ## v1.5.6 - 2021-12-07
 - Add [Where do you put spacing on design system components?](https://ericwbailey.design/writing/where-do-you-put-spacing-on-design-system-components/)
+- Add [Test Your Product on a Crappy Laptop](https://css-tricks.com/test-your-product-on-a-crappy-laptop/)
 
 ## v1.5.5 - 2021-11-15
 - Add [Your CSS is an interface](https://ericwbailey.design/writing/your-css-is-an-interface/)
