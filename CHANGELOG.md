@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Design updates
 - Performance optimizations
 
+## v1.5.7 - 2021-12-21
+- Add Sidebar.io webring
+
 ## v1.5.6 - 2021-12-07
 - Add [Where do you put spacing on design system components?](https://ericwbailey.design/writing/where-do-you-put-spacing-on-design-system-components/)
 - Add [Test Your Product on a Crappy Laptop](https://css-tricks.com/test-your-product-on-a-crappy-laptop/)

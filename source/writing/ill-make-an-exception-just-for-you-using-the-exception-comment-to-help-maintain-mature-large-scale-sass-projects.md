@@ -3,7 +3,7 @@ title: "I’ll Make an Exception Just for You: Using the Exception Comment to He
 source: Cantina
 excerpt: "Using the EXCEPTION comment to help maintain mature, large-scale Sass projects"
 date: 2015-10-30
-category: 2015
+year: 2015
 tags:
   - CSS
   - Development
