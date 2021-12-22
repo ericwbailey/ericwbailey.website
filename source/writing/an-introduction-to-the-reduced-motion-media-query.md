@@ -3,7 +3,7 @@ title: An Introduction to the Reduced Motion Media Query
 source: CSS-Tricks
 excerpt: "The open web's success is built on interoperable technologies. The ability to control animation now exists alongside important features such as zooming summary, installing extensions, enabling high contrast display, loading custom stylesheets, or disabling JavaScript"
 date: 2019-04-24
-year: 2019
+year: 2017
 tags:
   - Accessibility
   - Animation
