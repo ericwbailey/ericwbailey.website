@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Design updates
 - Performance optimizations
 
+## v1.5.8 - 2021-12-23
+- Add [Chinese rooms, wasps, slime molds, and the problem of other minds](https://ericwbailey.design/writing/chinese-rooms-wasps-slime-molds-and-the-problem-of-other-minds/)
+
 ## v1.5.7 - 2021-12-21
 - Add Sidebar.io webring
 
