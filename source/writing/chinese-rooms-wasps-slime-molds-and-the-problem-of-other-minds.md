@@ -101,7 +101,7 @@ As an aside, [fungi are… very disturbing](https://fracturedbird.tumblr.com/pos
 
 ## The problem of other minds
 
-The totality of experience that leads to an individual’s discrete actions is unavailable—you can only observe congition as an output of behavior.
+The totality of experience that leads to an individual’s discrete actions is unavailable—you can only form your own working model of someone else’s congition by observation of their behavior.
 
 [The problem of other minds](https://bigthink.com/thinking/problem-other-minds-js-mill/) means we can never truly know someone other than ourselves (and even then, I’m skeptical). Only by producing behaviors and artifacts can we control the narrative of how we wish to be known.
 
