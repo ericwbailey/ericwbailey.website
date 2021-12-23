@@ -79,13 +79,13 @@ I will stress that in this model, the English-speaking human does not know Chine
 
 ## Knowing and understanding
 
-Having information about something is not the same as understanding something—knowledge sets up understanding.
+Knowledge sets up understanding. Having information about something is not the same as understanding it.
 
 However, a person who knows something and a person who understands something can both act on [intentionality](https://iep.utm.edu/intentio/), the power of a mind to form a belief or desire.
 
 ## Sphexishness
 
-Sphexishness refers to the behavior of [a genus of wasps](https://www.inaturalist.org/taxa/48738-Sphex-pensylvanicus) who inspect their nests before taking prey into it to be ingested. This behavior looks highly intentional, but repeatedly moving the prey away from the nest causes the wasp to repeat the same exact inspection act each time.
+Sphexishness refers to the behavior of [a genus of wasps](https://www.inaturalist.org/taxa/48738-Sphex-pensylvanicus) who inspect their nests before captured taking prey into it. This behavior looks highly intentional at first, but moving the prey away from the nest causes the wasp to repeat the same exact inspection act. This act can be triggered multiple times in succession.
 
 The parameters of the prey, the wasp, its nest, and the distance of the prey to the wasp can all be variable, but the behavior is a trait of the genus. This behavior has the *appearance* of understanding, but it is more on the knowing end of the spectrum. While it isn’t mindless per se, it also isn’t an execution of free will.
 
@@ -93,9 +93,9 @@ The parameters of the prey, the wasp, its nest, and the distance of the prey to 
 
 Some eukaryotic organisms can form multicellular communities that operate as a single entity. These are commonly called slime molds.
 
-The eukaryotic organisms making up a slime mold operate independently, but in doing so create emergent behavior. This behavior can model complex adaptive systems, including [solving the traveling salesman problem](https://phys.org/news/2013-03-blob-salesman.html) and [map the structure of our universe](https://www.space.com/slime-mold-models-map-cosmic-web-filaments.html).
+The eukaryotic organisms making up a slime mold operate independently, but in doing so create emergent behavior. This behavior can model complex adaptive systems, including [solving the traveling salesman problem](https://phys.org/news/2013-03-blob-salesman.html) and [mapping the structure of our universe](https://www.space.com/slime-mold-models-map-cosmic-web-filaments.html).
 
-Slime molds are not aware of the problems they are set to solve, nor are they aware of the way in which they do it. However, they are adaptable enough to overcome variance in environment large enough to disrupt sphexish behavior.
+Slime molds are not aware of the problems they are set to solve, nor are they aware of the way in which they do it. However, they are adaptable enough to go beyond variance in environment large enough to disrupt sphexish behavior.
 
 As an aside, [fungi are… very disturbing](https://fracturedbird.tumblr.com/post/636903465102229504/tigerkat24-biggest-gaudiest-patronuses). [No, seriously (PDF)](https://arxiv.org/ftp/cs/papers/0703/0703128.pdf).
 
