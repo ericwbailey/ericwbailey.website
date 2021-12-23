@@ -22,7 +22,7 @@ eleventyNavigation:
   order: 44
 ---
 
-[The Chinese room](https://en.wikipedia.org/wiki/Chinese_room) is an argument created by philosopher [John Searle](https://en.wikipedia.org/wiki/John_Searle). It states that computer program swill never have consciousness, despite appearing so to an external human observer. Arguments about [strong artifical intelligence](https://www.ibm.com/cloud/learn/strong-ai), as well as the [philosophy of mind](https://en.wikipedia.org/wiki/Philosophy_of_mind) commonly cite it.
+[The Chinese room](https://en.wikipedia.org/wiki/Chinese_room) is an argument created by philosopher [John Searle](https://en.wikipedia.org/wiki/John_Searle). It states that computer programs will never have consciousness, despite appearing so to an external human observer. Arguments about [strong artifical intelligence](https://www.ibm.com/cloud/learn/strong-ai), as well as the [philosophy of mind](https://en.wikipedia.org/wiki/Philosophy_of_mind) commonly cite it.
 
 ## Chinese room logic
 
