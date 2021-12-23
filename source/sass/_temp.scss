@@ -202,13 +202,17 @@ blockquote {
 }
 
 figcaption {
-  color: var(--color-gray);
+  color: #111111;
   font-size: 80%;
   margin-top: 1rem;
+
+  @media screen and (prefers-color-scheme: dark) {
+    color: #dddddd;
+  }
 }
 
 .post-tag {
-  color: var(--color-type);
+  color: #111111;
   text-transform: capitalize;
 
   &:hover,
