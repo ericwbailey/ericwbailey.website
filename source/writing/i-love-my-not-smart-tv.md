@@ -42,7 +42,8 @@ All that said, my not-smart TV will not:
 - Be mistakenly marked as stolen and [remotely disabled](https://www.theverge.com/2021/8/25/22640876/samsung-television-block-function-stolen-tv-sets-south-africa),
 - [Bypass my network setup](https://labzilla.io/blog/force-dns-pihole),
 - Surreptitiously include a cellular modem or seek out nearby unsecured wifi to side-step my network entirely,
-- Be quietly taken over and made to [mine environment-destroying cryptocurrency](https://decrypt.co/18980/hacking-group-secretly-mining-crypto-android-smart-tvs), or
+- Be quietly taken over and made to [mine environment-destroying cryptocurrency](https://decrypt.co/18980/hacking-group-secretly-mining-crypto-android-smart-tvs),
+- [Deliberately support the false legitimacy of environment-destroying blockchain technologies](https://www.theverge.com/2022/1/2/22858698/samsung-2022-tvs-nft-support-announced-cryptocurrency), or
 - Update itself to make me [scream “McDonald’s!” to skip an ad](https://www.fastcompany.com/90185994/sony-files-patent-to-make-tv-ads-into-video-games).
 
 I would also like to extend kudos to the manufacturer, who included a separate single page leaflet on how to specifically [turn off telenovela mode](https://www.cined.com/the-soap-opera-effect-how-your-tv-is-destroying-cinematic-efforts/).
