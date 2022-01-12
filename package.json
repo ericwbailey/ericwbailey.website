@@ -46,7 +46,7 @@
     "cssnano": "^4.1.10",
     "eleventy-plugin-sass": "^1.1.1",
     "luxon": "^1.21.3",
-    "markdown-it": "^8.4.2",
+    "markdown-it": "^12.3.2",
     "markdown-it-anchor": "^5.2.5",
     "node-sass": "^5.0.0",
     "node-sass-chokidar": "^1.5.0",
