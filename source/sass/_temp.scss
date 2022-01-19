@@ -254,11 +254,12 @@ figcaption {
 
 .warning {
   background-color: #dddddd;
-  font-size: var(--scale1);
-  padding: var(--scale2);
+  margin-bottom: var(--scale4);
+  outline: var(--scale1) solid #dddddd;
 
   @media screen and (prefers-color-scheme: dark) {
     background-color: #000000;
+    outline: var(--scale1) solid #000000;
   }
 
   p:not(:first-of-type) {

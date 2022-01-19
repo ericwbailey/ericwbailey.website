@@ -181,6 +181,15 @@ accessiBe has also recently started targeting influencers. It’s a smart play: 
 </p>
 
 <p>
+  <a href="https://twitter.com/dgingiss/status/1417856738154450945">
+    <img
+      alt="Making websites accessible w/@AccessiBe. Boosting guest experience w/@centeredgesoft. No more Fleets w/@MarketingBrew. B2B & Social CX w/@toprank. Plus my interview with @FindTroy & events by @getfeedback @PointillistView @JohnDiJulius. Screenshot of a tweet by Dan Gingiss, posted to Twitter on July 21st, 2021 via the Twitter Web App."
+      class="twitter-tweet-screenshot"
+      src="{{ '/img/posts/accessibe-and-the-false-david-vs-goliath-narrative/dan-gingiss.png' | url }}" />
+  </a>
+</p>
+
+<p>
   <a href="https://www.linkedin.com/posts/parthdetroja_unlockwebaccessibility-ad-productmanagement-ugcPost-6821865557697146880-JN9P">
     <img
       alt="One of the biggest growth levers for any digital business is hidden in plain sight. Disabilities affect 1 in every 5 people but the majority of websites in the world aren't optimized to be accessible for all. Just take a look at the video below. Enabling accessibility not only improves user experience and boosts SEO, but it's also the right thing to do. Accessibility used to be something that only behemoth corporations could afford to hire costly consultants for. But now, there's an AI powered tool called accessiBe that's offering the most advanced, affordable, simple and compliant accessibility tool I have ever seen. Please tag business owners you think would benefit from taking their site accessibility to the next level! Screenshot of a LinkedIn post by Parth Detroja, posted on July 17, 2021."
