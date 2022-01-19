@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Design updates
 - Performance optimizations
 
+## v1.5.9 - 2022-01-19
+- Add [I’ve had enough! When access friction becomes an access barrier](https://makeitfable.com/article/ive-had-enough-when-access-friction-becomes-an-access-barrier/)
+
 ## v1.5.8 - 2021-12-23
 - Add [Chinese rooms, wasps, slime molds, and the problem of other minds](https://ericwbailey.design/writing/chinese-rooms-wasps-slime-molds-and-the-problem-of-other-minds/)
 
