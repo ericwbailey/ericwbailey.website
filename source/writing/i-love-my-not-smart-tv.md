@@ -37,6 +37,7 @@ All that said, my not-smart TV will not:
 - Force me to register an account before working,
 - [Opt me into a scammy TV-watching service](https://medium.com/@amandam_95165/what-you-dont-know-about-hp-instant-ink-until-it-s-too-late-fb730e752ab4) and stop working if I opt-out,
 - [Shove ads into a movie](https://arstechnica.com/gadgets/2015/02/samsung-smart-tvs-inserting-ads-into-third-party-apps/) I’m watching,
+- [Slap banner ads over live TV](https://arstechnica.com/gadgets/2022/01/some-roku-smart-tvs-are-now-showing-banner-ads-over-live-tv/) I'm watching
 - Send an undisclosed amount of [my personal information](https://www.washingtonpost.com/technology/2019/09/18/you-watch-tv-your-tv-watches-back/) to an unknown amount of third party information brokers, many of who will resell that information,
 - [Secretly collect information about me](https://www.consumerreports.org/privacy/how-to-turn-off-smart-tv-snooping-features/) and transmit it,
 - Be mistakenly marked as stolen and [remotely disabled](https://www.theverge.com/2021/8/25/22640876/samsung-television-block-function-stolen-tv-sets-south-africa),
