@@ -5,8 +5,12 @@ excerpt: "Get your hands on a craptop and try to use your website or web app."
 date: 2022-01-19
 year: 2022
 tags:
+  - Accessibility
+  - Approach
+  - Assistive Technology
+  - Design
   - Development
-  - Performance
+  - Inclusion
   - User Testing
 eleventyNavigation:
   key: {{ title }}
