@@ -10,6 +10,10 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Design updates
 - Performance optimizations
 
+## v1.5.10 - 2022-01-27
+- Update latest homepage post
+- Update viewport to extend to full width on iOS
+
 ## v1.5.9 - 2022-01-19
 - Add [I’ve had enough! When access friction becomes an access barrier](https://makeitfable.com/article/ive-had-enough-when-access-friction-becomes-an-access-barrier/)
 
