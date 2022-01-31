@@ -11,6 +11,7 @@ tags:
   - Design
   - Development
   - User Testing
+anthology: true
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}
