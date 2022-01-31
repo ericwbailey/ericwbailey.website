@@ -116,7 +116,7 @@ If your attempt doesn’t work, you can always claim you were part of a security
 
 ## Won't this get you fired?
 
-A thing companies must contend with is the idea that applicants are trying to get access, not get a career. Corporate espionage is very real.
+A thing companies must contend with is the idea that applicants are trying to get access, not get a career. [Corporate espionage is very real](https://www.askamanager.org/2022/01/the-new-hire-who-showed-up-is-not-the-same-person-we-interviewed.html).
 
 In addition, The Great Resignation has made it a job-seeker’s market, one where I’m willing to bet a lot of applications are rushed through and a lot of internal vetting processes have deteriorated (HR folks are also quitting en-masse).
 
