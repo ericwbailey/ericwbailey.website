@@ -11,6 +11,10 @@ tags:
   - Development
   - Inclusion
   - Series
+series:
+  next:
+    - title: "Equivalent Experiences: Thinking Equivalently"
+      url: https://www.smashingmagazine.com/2020/06/equivalent-experiences-part2/
 featured: true
 eleventyNavigation:
   key: {{ title }}

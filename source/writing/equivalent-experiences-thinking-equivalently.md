@@ -11,6 +11,13 @@ tags:
   - Development
   - Inclusion
   - Series
+series:
+  previous:
+    - title: "Equivalent Experiences: What Are They?"
+      url: https://www.smashingmagazine.com/2020/05/equivalent-experiences-part1/
+  next:
+    - title: "Mug handles"
+      url: https://ericwbailey.design/writing/mug-handles/
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

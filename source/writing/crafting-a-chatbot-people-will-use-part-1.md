@@ -8,6 +8,10 @@ tags:
   - Chatbot
   - Design
   - Series
+series:
+  next:
+    - title: "Crafting a Chatbot People Will Use - Part 2"
+      url: https://cantina.co/crafting-a-chatbot-people-will-use-part-2/
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}
