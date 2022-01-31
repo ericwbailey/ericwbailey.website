@@ -10,6 +10,11 @@ tags:
   - Assistive Technology
   - Design
   - Inclusion
+  - Series
+series:
+  previous:
+    - title: "Mug handles"
+      url: https://ericwbailey.design/writing/mug-handles/
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

@@ -7,6 +7,10 @@ year: 2016
 tags:
   - Accessibility
   - Series
+series:
+  previous:
+    - title: "Instituting a culture of accessibility in your organization: Part 1"
+      url: https://cantina.co/instituting-a-culture-of-accessibility-in-your-organization/
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

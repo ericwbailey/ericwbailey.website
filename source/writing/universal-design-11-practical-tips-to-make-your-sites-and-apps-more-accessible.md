@@ -8,6 +8,7 @@ tags:
   - Accessibility
   - Apps
   - Design
+anthology: true
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

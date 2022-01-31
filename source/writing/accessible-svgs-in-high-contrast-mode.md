@@ -2,8 +2,8 @@
 title: Accessible SVGs in High Contrast Mode
 source: CSS-Tricks
 excerpt: "Making your SVG accessible includes adding extra steps to your workflow, but is well-worth it"
-date: 2017-06-21
-year: 2017
+date: 2016-09-22
+year: 2016
 tags:
   - Accessibility
   - CSS
