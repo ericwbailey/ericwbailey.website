@@ -33,6 +33,7 @@ All that said, my not-smart TV will not:
 - Need me to [regularly run virus and malware checks](https://www.samsung.com/us/support/answer/ANS00077524/),
 - Load apps for content partners I have no interest in, but [can’t remove](https://twitter.com/SamsungUK/status/1453432765656059907),
 - [Update itself into a bricked state](https://www.zdnet.com/article/samsungs-bad-software-update-bricks-smart-tvs/),
+- [Refuse to work until I have updated its firmware](https://twitter.com/isislovecruft/status/1487947074901463040),
 - Record my voice,
 - Force me to register an account before working,
 - [Opt me into a scammy TV-watching service](https://medium.com/@amandam_95165/what-you-dont-know-about-hp-instant-ink-until-it-s-too-late-fb730e752ab4) and stop working if I opt-out,
