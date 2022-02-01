@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Design updates
 - Performance optimizations
 
+## v1.5.11 - 2022-02-01
+- Add [“Evergreen” Does Not Mean Immediately Available](https://css-tricks.com/evergreen-does-not-mean-immediately-available/)
+
 ## v1.5.10 - 2022-01-27
 - Update latest homepage post
 - Update viewport to extend to full width on iOS
