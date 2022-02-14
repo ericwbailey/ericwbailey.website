@@ -280,3 +280,9 @@ figcaption {
     display: initial;
   }
 }
+
+.typography-small-caps {
+  font-size: var(--scale0);
+  letter-spacing: 0.1ch;
+  text-transform: uppercase;
+}
