@@ -11,6 +11,10 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Performance optimizations
 
 ## v1.5.11 - 2022-02-01
+- Add [“Evergreen” Does Not Mean Immediately Available](https://ericwbailey.design/writing/maralinga-bomb-test/)
+- Clean up custom social share image logic
+
+## v1.5.11 - 2022-02-01
 - Add [“Evergreen” Does Not Mean Immediately Available](https://css-tricks.com/evergreen-does-not-mean-immediately-available/)
 
 ## v1.5.10 - 2022-01-27
