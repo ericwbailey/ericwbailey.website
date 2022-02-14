@@ -8,9 +8,7 @@ year: 2020
 tags:
   - Games
 share:
-  facebookImage: "share-image-facebook.png"
   facebookDescription: "Crash Man's stage from Mega Man 2."
-  twitterImage: "share-image-twitter.png"
   twitterDescription: "Mega Man looking concerned."
 eleventyNavigation:
   key: {{ title }}

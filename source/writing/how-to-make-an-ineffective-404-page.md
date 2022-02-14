@@ -10,9 +10,7 @@ tags:
   - Personal
   - User Testing
 share:
-  facebookImage: "share-image-facebook.png"
   facebookDescription: "A happy path with a smiley face and a broken path with a frowny face."
-  twitterImage: "share-image-twitter.png"
   twitterDescription: "A red frowny face."
 eleventyNavigation:
   key: {{ title }}

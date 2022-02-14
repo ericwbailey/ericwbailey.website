@@ -12,9 +12,7 @@ tags:
   - Design
   - Development
 share:
-  facebookImage: "share-image-facebook.png"
   facebookDescription: "Illustration of a robot head and a human head, both placed in a small box. Chinese words are being inserted into the top of the box and different Chinese words are coming out the bottom."
-  twitterImage: "share-image-twitter.png"
   twitterDescription: "Two sillhouetted heads overlapping each other, with a question mark in the center."
 eleventyNavigation:
   key: {{ title }}
