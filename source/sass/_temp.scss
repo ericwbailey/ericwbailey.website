@@ -158,8 +158,8 @@ blockquote {
   padding: 1rem;
 
   @media screen and (prefers-color-scheme: dark) {
-    background-color: #111111;
-    outline: 1rem solid #111111;
+    background-color: #000000;
+    outline: 1rem solid #000000;
   }
 
   p {
@@ -279,4 +279,10 @@ figcaption {
   @media screen and (min-width: map-get($breakpoint, "large")) {
     display: initial;
   }
+}
+
+.typography-small-caps {
+  font-size: var(--scale0);
+  letter-spacing: 0.1ch;
+  text-transform: uppercase;
 }

@@ -76,7 +76,7 @@ Nyarri Nyarri Morgan is a [Martu](https://en.wikipedia.org/wiki/Martu_people) Ab
     alt="An older aboriginal man with wrinkled brown skin and white beard and hair wearing a cowboy hat and a light blue jacket. He is holding an open hand up to the sky and staring at the viewer with a serious expression. Video still."
     src="{{ '/img/posts/maralinga-bomb-test/nyarri-nyarri-morgan.jpg' | url }}" />
   <figcaption>
-    <span class="typography-small-caps">Source:</span> <a href="https://www.abc.net.au/news/2016-10-07/aboriginal-mans-story-of-nuclear-bomb-survival-told-in-vr/7913874">Aboriginal man's story of Maralinga nuclear bomb survival told with virtual reality by Alex Mann</a> on ABC News.
+    <span class="typography-small-caps">Source:</span> <a href="https://www.abc.net.au/news/2016-10-07/aboriginal-mans-story-of-nuclear-bomb-survival-told-in-vr/7913874">Aboriginal man's story of Maralinga nuclear bomb survival told with virtual reality</a>, by Alex Mann on ABC News.
   </figcaption>
 </figure>
 
@@ -151,7 +151,7 @@ Defining an extreme runs afoul of the bias that the majority experience is defau
     alt="Three white people, a woman and two men, sitting on stools with virtual reality goggles covering their eyes. Each person is staring in a different direction. Video still."
     src="{{ '/img/posts/maralinga-bomb-test/collisions-viewers.jpg' | url }}" />
   <figcaption>
-    <span class="typography-small-caps">Source:</span> <a href="https://www.abc.net.au/news/2016-10-07/aboriginal-mans-story-of-nuclear-bomb-survival-told-in-vr/7913874">Aboriginal man's story of Maralinga nuclear bomb survival told with virtual reality by Alex Mann</a> on ABC News.
+    <span class="typography-small-caps">Source:</span> <a href="https://www.abc.net.au/news/2016-10-07/aboriginal-mans-story-of-nuclear-bomb-survival-told-in-vr/7913874">Aboriginal man's story of Maralinga nuclear bomb survival told with virtual reality</a>, by Alex Mann on ABC News.
   </figcaption>
 </figure>
 
