@@ -10,9 +10,7 @@ tags:
   - Food
 inlineStyles: true
 share:
-  facebookImage: "share-image-facebook.png"
   facebookDescription: "went to a mcdonalds and they just jad a random sign next to the drive through speaker flashing the words “ham biscuit” and i can't think of legitimate reason for why it exists."
-  twitterImage: "share-image-twitter.png"
   twitterDescription: "A powered off ham biscuit sign."
 eleventyNavigation:
   key: {{ title }}

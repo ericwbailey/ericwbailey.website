@@ -12,9 +12,7 @@ tags:
   - Inclusion
 inlineStyles: true
 share:
-  facebookImage: "share-image-facebook.png"
   facebookDescription: "A hello kitty mouse cursor."
-  twitterImage: "share-image-twitter.png"
   twitterDescription: "A four by two grid of CSS cursors, including OS default, text edit bar, link pointer, move, open drag hand, zoom in, column resize, and cell."
 eleventyNavigation:
   key: {{ title }}
