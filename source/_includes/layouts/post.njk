@@ -61,6 +61,16 @@ templateClass: template-posts
       id="additional"
       class="additional flow">
 
+      {% if attribution %}
+      <aside
+        aria-label="Attribution"
+        class="attribution">
+        <p>
+          {{ attribution | safe }}
+        </p>
+      </aside>
+      {% endif %}
+
       {% if translations %}
       <h2 id="translations">
         Translations
@@ -84,16 +94,6 @@ templateClass: template-posts
         </li>
         {% endfor %}
       </ul>
-      {% endif %}
-
-      {% if attribution %}
-      <aside
-        aria-label="Attribution"
-        class="attribution">
-        <p>
-          {{ attribution | safe }}
-        </p>
-      </aside>
       {% endif %}
     </div>
     {% endif %}
