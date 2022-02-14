@@ -4,7 +4,7 @@ title: Maralinga bomb test
 source: ericwbailey.design
 excerpt: "This is real, this happened. There is no way to emotionally understand the totality of this experience."
 date: 2022-02-13
-year: 2021
+year: 2022
 tags:
   - Cognition
   - Decolonizing
@@ -51,8 +51,8 @@ furtherReading:
     url: http://thepoliticsofdesign.com/
 attribution: "Thank you to <a href='https://samkapila.com/'>Sam Kapila</a> for her thoughts and feedback."
 share:
-  facebookDescription: "TK"
-  twitterDescription: "TK"
+  facebookDescription: "Three white people, a woman and two men, sitting on stools with virtual reality goggles covering their eyes. Each person is staring in a different direction."
+  twitterDescription: "A sitting woman with virtual reality goggles covering their eyes staring off into space."
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}
