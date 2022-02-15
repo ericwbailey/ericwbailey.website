@@ -1,10 +1,9 @@
 .grid {
   padding: $global-bleed;
 
-  @media screen and (min-width: map-get($breakpoint, "large")) {
+  @media screen and (min-width: map-get($breakpoint, "medium")) {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-    padding: 0;
   }
 
   @media (orientation: landscape) {
@@ -35,7 +34,7 @@
 
 .grid-post,
 .grid-landing {
-  @media screen and (min-width: map-get($breakpoint, "large")) {
+  @media screen and (min-width: map-get($breakpoint, "medium")) {
     grid-template-columns: repeat(8, 1fr);
     grid-template-areas:
       ".    banner     banner     banner     .          .          .       ."
@@ -43,5 +42,13 @@
       ".    content    content    content    content    content    .       ."
       ".    additional additional additional additional additional .       ."
       ".    footer     footer     footer     footer     footer     footer  .";
+  }
+}
+
+
+.grid-post {
+  @media (orientation: landscape) {
+    padding-right: var(--scale0);
+    padding-left: var(--scale0);
   }
 }
