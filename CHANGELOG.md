@@ -10,7 +10,10 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Design updates
 - Performance optimizations
 
-## v1.5.11 - 2022-02-01
+## v1.5.12 - 2022-02-14
+- Add [Tribble](https://ericwbailey.design/writing/tribble/)
+
+## v1.5.11 - 2022-02-13
 - Add [“Evergreen” Does Not Mean Immediately Available](https://ericwbailey.design/writing/maralinga-bomb-test/)
 - Clean up custom social share image logic
 
