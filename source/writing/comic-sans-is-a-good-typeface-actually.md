@@ -36,7 +36,7 @@ eleventyNavigation:
 
 In my ongoing, inadvertent quest to alienate myself from the design profession, I must now tell you all that Comic Sans is a good typeface.
 
-Much has been written about this much-maligned typeface, both criticizing and defending it. To cover the overall situation:
+A lot has been written about this much-maligned typeface, both criticizing and defending it. To cover the overall situation:
 
 - It was created by [Vincent Connare](https://en.wikipedia.org/wiki/Vincent_Connare) for [the Microsoft Bob Operating System](https://en.wikipedia.org/wiki/Microsoft_Bob) (OS) as a purpose-built typeface.
 - Microsoft included the typeface in its Windows OS, giving the a large population access to it.
