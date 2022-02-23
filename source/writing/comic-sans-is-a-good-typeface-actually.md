@@ -82,7 +82,7 @@ Most interfaces need words, and words need a typeface to display them.
 
 As a user experience designer, selecting a typeface means making an informed choice that balances legibility, thematic appropriateness, [language support, and bandwidth considerations](https://ericwbailey.design/writing/to-subset-or-not-subset-fonts/). There is a tremendous amount of power in this act, and it is one I don’t make lightly.
 
-Even though I put a lot of effort into selecting typefaces, I’m not precious about it. If someone changes the typeface, its font size, line height, letter spacing, and color to meet their needs, I’m delighted! It means that they’re interested enough in the content to expend effort to make it legible.
+Even though I put a lot of effort into selecting typefaces, I’m not precious about it. If someone changes the typeface, its font size, line height, letter spacing, and color to meet their needs, I’m delighted! It means that they’re interested enough in the content to [expend effort to make it legible](https://css-tricks.com/reader-mode-the-button-to-beat/).
 
 Changing the typeface might mean using Comic Sans. It might also mean [OpenDyslexic](https://opendyslexic.org/), Verdana, [Thesis Sans](https://en.wikipedia.org/wiki/Thesis_(typeface)), or any other of the hundreds of other typefaces out there in the world. The thing is, you can’t know what works for someone’s access needs, but you can provide mechanisms for them to help themselves, and that’s totally fine.
 
