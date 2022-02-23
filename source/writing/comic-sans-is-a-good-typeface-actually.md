@@ -46,7 +46,7 @@ A lot has been written about this much-maligned typeface, both criticizing and d
 - In spite of that, many people feel the typeface helps them read, as the distinct letterforms help with Dyslexia concerns.
 - Some people also feel [changing the typeface helps them write and edit](https://www.themarysue.com/comic-sans-writing/), as it shifts their reading context.
 
-So, there you have it: a purpose-built typeface adopted by the masses that is both viewed with scorn, but also helps people read and write.
+So, there you have it: a purpose-built typeface adopted by the masses that is both viewed negatively, but also helps people read and write.
 
 ## Scorn and disdain
 
@@ -84,6 +84,8 @@ As a user experience designer, selecting a typeface means making an informed cho
 
 Even though I put a lot of effort into selecting typefaces, I’m not precious about it. If someone changes the typeface, its font size, line height, letter spacing, and color to meet their needs, I’m delighted! It means that they’re interested enough in the content to [expend effort to make it legible](https://css-tricks.com/reader-mode-the-button-to-beat/).
 
-Changing the typeface might mean using Comic Sans. It might also mean [OpenDyslexic](https://opendyslexic.org/), Verdana, [Thesis Sans](https://en.wikipedia.org/wiki/Thesis_(typeface)), or any other of the hundreds of other typefaces out there in the world. The thing is, you can’t know what works for someone’s access needs, but you can provide mechanisms for them to help themselves, and that’s totally fine.
+Changing the typeface might mean using Comic Sans. It might also mean [OpenDyslexic](https://opendyslexic.org/), Verdana, [Thesis Sans](https://en.wikipedia.org/wiki/Thesis_(typeface)), or any other of the hundreds of other typefaces out there in the world.
 
-I view being resistant to this kind of thinking as being more interested in decoration than usability. It’s a print-centric, egotistical, top-down controlling mindset that is thankfully becoming more rare with each passing day.
+The thing is, you can’t know what works for someone’s access needs, but you can provide mechanisms for them to help themselves, and that’s totally fine.
+
+I view being resistant to this kind of thinking as being more interested in decoration than usability. It’s an antiquated, egotistical, top-down controlling mindset that is thankfully becoming more rare with each passing day.
