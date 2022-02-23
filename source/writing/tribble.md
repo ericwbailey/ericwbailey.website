@@ -8,7 +8,7 @@ year: 2022
 tags:
   - Personal
 share:
-  facebookDescription: A cute stripey cat with white paws, a pink nose, and a red collar. He's staring up at the camera white sitting on top of a small knit ball.""
+  facebookDescription: "A cute stripey cat with white paws, a pink nose, and a red collar. He's staring up at the camera white sitting on top of a small knit ball."
   twitterDescription: "A cute stripey cat with white paws, a pink nose, and a red collar. He's staring up at the camera white sitting on top of a small knit ball."
 eleventyNavigation:
   key: {{ title }}
