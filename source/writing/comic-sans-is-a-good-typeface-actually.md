@@ -30,7 +30,7 @@ eleventyNavigation:
 
 <style>
   body {
-    font-family: "Comic Sans MS", "Comic Sans", sans-serif;
+    font-family: "Comic Sans MS", "Comic Sans", "ChalkboardSE-Regular", sans-serif;
   }
 </style>
 
