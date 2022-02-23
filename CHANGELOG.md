@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Design updates
 - Performance optimizations
 
+## v1.5.13 - 2022-02-22
+- Add [Comic Sans is a good typeface, actually](https://ericwbailey.design/writing/comic-sans-is-a-good-typeface-actually/)
+
 ## v1.5.12 - 2022-02-14
 - Add [Tribble](https://ericwbailey.design/writing/tribble/)
 
