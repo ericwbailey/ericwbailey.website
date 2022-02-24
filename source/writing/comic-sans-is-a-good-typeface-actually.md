@@ -39,7 +39,7 @@ In my ongoing, inadvertent quest to alienate myself from the design industry, I 
 A lot has been written about this much-maligned typeface, both criticizing and defending it. To cover the overall situation:
 
 - It was created by [Vincent Connare](https://en.wikipedia.org/wiki/Vincent_Connare) for [the Microsoft Bob Operating System](https://en.wikipedia.org/wiki/Microsoft_Bob) (<abbr>OS</abbr>) as a purpose-built typeface.
-- Microsoft included the typeface in its Windows OS, giving the a large population access to it.
+- Microsoft included the typeface in its Windows OS, giving a large population access to it.
 - Many people repurposed the typeface for their own needs, due to its friendly appearance.
 - Many designers feel disdain for the typeface, seeing it as simplistic and childish, and joke about and judge its use.
 - This disdain has managed to enter into the [mainstream pop culture discourse](https://www.youtube.com/watch?v=zq7Eki5EZ8o).
@@ -52,9 +52,9 @@ So, there you have it: a purpose-built typeface adopted by the masses that is bo
 
 Perception of Comic Sans as an inferior typeface is a bit of a self-reinforcing phenomenon in the design community, and that’s a problem.
 
-Designers hear from other designers that it is a bad typeface, so they parrot the statement in order to appear legitimate to their peers. The flip of this is also true. If you don’t vocally hate Comic Sans like your peers do, you risk being perceived as not a “real” designer.
+Designers hear from other designers that it is a bad typeface, so they parrot the statement in order to appear legitimate to their peers. The flip of this is also true: if you don’t vocally hate Comic Sans like your peers do, you risk being perceived as not a “real” designer.
 
-This helps to enshrine a hegemonic, homogenized view of what design is. This, in turn, does its part to help shape what we consider “good design.” A notion of what good design is carries an incredible amount of power, as it helps to shape how we interact with systems.
+This helps to enshrine a hegemonic, homogenized view of what design is. This, in turn, does its part to help shape what we consider “good design.” The notion of what good design is carries an incredible amount of power, as it helps to shape how we interact with systems.
 
 This perception of Comic Sans also creates artificial friction in situations where it might be a good typeface to utilize. Given its popularity in the disability and writing spaces, it would be a great typeface to have in a feature where a user can select from multiple options (my e-reader comes immediately to mind).
 
@@ -72,7 +72,7 @@ This projection may ultimately affect how a person is treated, negatively affect
 
 Comic Sans is not a silver bullet. It does not “solve” Dyslexia, Dyscalculia, and other language processing conditions. It may help some people read, but that does not mean it works for everyone. More on this in a bit.
 
-Language processing disorders manifest in many different ways, and the disability community is not a monolith. It’s also bad practice to think about disabilities as a problem with a binary solution, as well as a problem to solve altogether.
+Language processing conditions manifest in many different ways, and the disability community is not a monolith. It’s also bad practice to think about disabilities as a problem with a binary solution, as well as a problem to solve altogether.
 
 The best way to know if your design works for Dyslexic people? Ask them.
 
