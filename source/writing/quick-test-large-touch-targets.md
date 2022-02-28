@@ -8,6 +8,7 @@ tags:
   - Accessibility
   - CSS
   - Design
+tweet: https://twitter.com/ericwbailey/status/1065308433090519040
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

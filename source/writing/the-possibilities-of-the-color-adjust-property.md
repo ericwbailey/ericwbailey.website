@@ -8,6 +8,7 @@ tags:
   - Development
   - Color
   - CSS
+tweet: https://twitter.com/ericwbailey/status/1029393166892507136
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

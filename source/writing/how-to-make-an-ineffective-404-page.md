@@ -9,6 +9,7 @@ tags:
   - Design
   - Personal
   - User Testing
+tweet: https://twitter.com/ericwbailey/status/1379079805866500103
 share:
   facebookDescription: "A happy path with a smiley face and a broken path with a frowny face."
   twitterDescription: "A red frowny face."

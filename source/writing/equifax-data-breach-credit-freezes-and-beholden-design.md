@@ -11,6 +11,7 @@ tags:
 originallyPublished:
   - title: "Cantina"
     url: https://web.archive.org/web/20170914030151/https://cantina.co/equifax-data-breach-credit-freezes-and-beholden-design/
+tweet: https://cantina.co/equifax-data-breach-is-a-lesson-in-beholden-design/
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

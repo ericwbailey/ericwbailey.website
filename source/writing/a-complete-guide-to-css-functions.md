@@ -7,6 +7,7 @@ year: 2020
 tags:
   - CSS
   - Development
+tweet: https://twitter.com/ericwbailey/status/1257339789981990913
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

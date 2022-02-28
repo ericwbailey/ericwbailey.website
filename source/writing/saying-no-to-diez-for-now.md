@@ -8,6 +8,7 @@ tags:
   - Design
   - Design Tokens
   - Development
+tweet: https://twitter.com/ericwbailey/status/1306958930757574659
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

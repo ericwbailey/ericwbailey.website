@@ -12,6 +12,11 @@ tags:
   - Development
   - Localization
   - Series
+series:
+  previous:
+    - title: "An introduction to macOS Head Pointer"
+      url: https://thoughtbot.com/blog/an-introduction-to-macos-head-pointer
+tweet: https://twitter.com/ericwbailey/status/1366767105434148867
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

@@ -9,6 +9,7 @@ tags:
   - Design Sprints
   - Personas
   - User Research
+tweet: https://twitter.com/ericwbailey/status/1235219571365339143
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

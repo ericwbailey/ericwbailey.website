@@ -41,6 +41,7 @@ translations:
     url: https://gist.github.com/yamanoku/53e53c56496d7c9b22b5cf09bf029c2b
     translatorName: "Okuto Oyama"
     translatorUrl: https://yamanoku.net/en
+tweet: https://twitter.com/ericwbailey/status/1418208693330399239
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

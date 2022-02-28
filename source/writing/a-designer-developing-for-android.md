@@ -8,6 +8,7 @@ tags:
   - Apps
   - Design
   - Development
+tweet: https://twitter.com/ericwbailey/status/1060548046646321153
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}
