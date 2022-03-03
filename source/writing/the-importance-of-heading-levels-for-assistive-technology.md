@@ -14,6 +14,7 @@ translations:
     url: https://medium.com/web-standards/heading-levels-229def4e0e33
     translatorName: "Tatiana Fokina"
     translatorUrl: https://medium.com/@fokinatatiana
+tweet: https://twitter.com/ericwbailey/status/1054365918279688193
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

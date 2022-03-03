@@ -11,6 +11,7 @@ series:
   next:
     - title: "Instituting a culture of accessibility in your organization: Part 2"
       url: https://cantina.co/instituting-a-culture-of-accessibility-in-your-organization-part-2/
+tweet: https://twitter.com/ericwbailey/status/717729787557621760
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

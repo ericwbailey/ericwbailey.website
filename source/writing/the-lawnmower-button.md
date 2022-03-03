@@ -8,6 +8,7 @@ year: 2021
 tags:
   - Approach
   - Personal
+tweet: https://twitter.com/ericwbailey/status/1397556079932882946
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}
