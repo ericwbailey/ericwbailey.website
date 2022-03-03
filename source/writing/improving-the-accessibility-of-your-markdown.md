@@ -16,6 +16,7 @@ tags:
   - HTML
   - Inclusion
   - Writing
+tweet: https://twitter.com/ericwbailey/status/1442909516991905792
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

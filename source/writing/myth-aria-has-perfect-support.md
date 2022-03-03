@@ -10,6 +10,7 @@ tags:
   - ARIA
   - Development
   - HTML
+tweet: https://twitter.com/ericwbailey/status/1260966225364103168
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

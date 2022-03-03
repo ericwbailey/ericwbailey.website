@@ -9,6 +9,11 @@ tags:
   - Assistive Technology
   - Design
   - Series
+series:
+  next:
+    - title: "An Introduction to macOS Voice Control"
+      url: https://thoughtbot.com/blog/an-introduction-to-macos-voice-control
+tweet: https://twitter.com/ericwbailey/status/1354448116464934912
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

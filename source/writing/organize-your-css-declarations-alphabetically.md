@@ -10,6 +10,7 @@ tags:
   - CSS
   - Development
 attribution: "Thank you to <a href='https://www.kathleenmcmahon.dev/'>Kathleen McMahon</a> for the inspiration for this post."
+tweet: https://twitter.com/ericwbailey/status/1407017945490935813
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

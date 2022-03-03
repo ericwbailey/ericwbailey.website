@@ -11,6 +11,7 @@ tags:
   - Favicon
   - HTML
   - SVG
+tweet: https://twitter.com/ericwbailey/status/1253711958689353730
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

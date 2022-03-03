@@ -8,6 +8,7 @@ tags:
   - Approach
   - CSS
   - Development
+tweet: https://twitter.com/ericwbailey/status/1321818339245760514
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

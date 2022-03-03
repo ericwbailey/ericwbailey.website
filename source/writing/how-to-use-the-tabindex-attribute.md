@@ -8,6 +8,7 @@ tags:
   - Accessibility
   - Attributes
   - HTML
+tweet: https://twitter.com/ericwbailey/status/1354828844369399809
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

@@ -50,6 +50,7 @@ furtherReading:
     source: "thepoliticsofdesign.com"
     url: http://thepoliticsofdesign.com/
 attribution: "Thank you to <a href='https://samkapila.com/'>Sam Kapila</a> for her thoughts and feedback."
+tweet: https://twitter.com/ericwbailey/status/1493239781341421570
 share:
   facebookDescription: "Three white people, a woman and two men, sitting on stools with virtual reality goggles covering their eyes. Each person is staring in a different direction."
   twitterDescription: "A sitting woman with virtual reality goggles covering their eyes staring off into space."

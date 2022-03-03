@@ -7,6 +7,7 @@ year: 2017
 tags:
   - CSS
   - Typography
+tweet: https://twitter.com/ericwbailey/status/915599241778794496
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

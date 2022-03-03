@@ -10,6 +10,7 @@ tags:
   - Development
   - Focus
 featured: true
+tweet: https://twitter.com/ericwbailey/status/979719843200012290
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

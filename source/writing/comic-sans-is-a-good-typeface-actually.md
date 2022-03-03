@@ -19,6 +19,7 @@ furtherReading:
     source: "Thai Pangsakulyanont"
     url: https://dtinth.github.io/comic-mono-font/
 inlineStyles: true
+tweet: https://twitter.com/ericwbailey/status/1496499961307054088
 share:
   facebookDescription: "Stylized script treatment of the words Eric W Bailey set in Comic Sans."
   twitterDescription: "Stylized script treatment of the letter E set in Comic Sans."

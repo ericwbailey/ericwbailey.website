@@ -7,6 +7,7 @@ year: 2018
 tags:
   - Design
   - User Testing
+tweet: https://twitter.com/ericwbailey/status/1006590213362192385
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

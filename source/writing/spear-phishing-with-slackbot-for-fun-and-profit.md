@@ -9,6 +9,7 @@ tags:
   - Chatbot
   - Inclusion
   - Subversion
+tweet: https://twitter.com/ericwbailey/status/1453008404205670412
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

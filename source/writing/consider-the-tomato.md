@@ -8,6 +8,7 @@ tags:
   - Design
   - History
   - Information Architecture
+tweet: https://twitter.com/ericwbailey/status/1303337997098774531
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}
