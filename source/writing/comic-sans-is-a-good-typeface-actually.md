@@ -44,7 +44,7 @@ A lot has been written about this much-maligned typeface, both criticizing and d
 - Many people repurposed the typeface for their own needs, due to its friendly appearance.
 - Many designers feel disdain for the typeface, seeing it as simplistic and childish, and joke about and judge its use.
 - This disdain has managed to enter into the [mainstream pop culture discourse](https://www.youtube.com/watch?v=zq7Eki5EZ8o).
-- In spite of that, many people feel the typeface helps them read, as the distinct letterforms help with Dyslexia concerns.
+- In spite of that, many people feel the typeface helps them read, as the distinct letterforms may help with some Dyslexia concerns.
 - Some people also feel [changing the typeface helps them write and edit](https://www.themarysue.com/comic-sans-writing/), as it shifts their reading context.
 
 So, there you have it: a purpose-built typeface adopted by the masses that is both viewed negatively, but also helps people read and write.
