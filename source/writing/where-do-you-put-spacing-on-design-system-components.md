@@ -44,7 +44,7 @@ The idea here is we collectively decide that each component only uses one measur
 
 <div class="centered-media-outer">
   <img
-  class="centered-media-inner-2"
+    class="centered-media-inner-2"
     role="img"
     alt="A card component with a light blue rectangle placed on top, indicating a set amount of vertical spacing."
     src="{{ '/img/posts/where-do-you-put-spacing-on-design-system-components/single-space-value.svg' | url }}">
