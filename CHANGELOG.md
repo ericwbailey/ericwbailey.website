@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Design updates
 - Performance optimizations
 
+## v1.5.14 - 2022-03-07
+- Add [The case for adding validation state to your design tokens](https://ericwbailey.design/writing/the-case-for-adding-validation-state-to-your-design-tokens/)
+
 ## v1.5.13 - 2022-02-22
 - Add [Comic Sans is a good typeface, actually](https://ericwbailey.design/writing/comic-sans-is-a-good-typeface-actually/)
 
