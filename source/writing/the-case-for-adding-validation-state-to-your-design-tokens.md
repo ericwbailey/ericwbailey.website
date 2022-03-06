@@ -44,11 +44,11 @@ Naming things is hard.
 
 One way to go about naming things is via topology, the practice of classifying things by way of their characteristics. It is a subtle art.
 
-Topology is a good approach for naming of [design tokens](https://css-tricks.com/what-are-design-tokens/). Unfortunately, in the context design token name creation we are burdened by [the tyranny of category](https://scottberkun.com/2012/the-tyranny-of-category/). It demands distilling everything down to a single word, and consequently, a linear order.
+Topology is a good approach for the naming of [design tokens](https://css-tricks.com/what-are-design-tokens/). Unfortunately, in the context design token name creation we are burdened by [the tyranny of category](https://scottberkun.com/2012/the-tyranny-of-category/). It demands distilling everything down to a single word, and consequently, a linear order.
 
 Because of this, you need to craft a taxonomical structure that leads to results whose end point should be immutable:
 
-![A tree-style mind map. The initial node is State. Brancing off of it are Resting, Hover, Active, Focus, Disabled, and Loading children nodes. Each of the children nodes have on light and on dark background nodes. Each of the light and dark background nodes have Light Mode active, Dark Mode active, and Forced Colors mode active nodes.]({{ '/img/posts/the-case-for-adding-validation-state-to-your-design-tokens/state-token-flowchart.png' | url }})
+![A tree-style mind map. The initial node is State. Branching off of it are Resting, Hover, Active, Focus, Disabled, and Loading children nodes. Each of the children nodes have on light and on dark background nodes. Each of the light and dark background nodes have Light Mode active, Dark Mode active, and Forced Colors mode active nodes.]({{ '/img/posts/the-case-for-adding-validation-state-to-your-design-tokens/state-token-flowchart.png' | url }})
 
 This kind of codification is desirable because it creates:
 
@@ -126,7 +126,7 @@ svg">
 </a>
 </div>
 
-This approach follows [Nathan Curtis](https://twitter.com/nathanacurtis)’ brilliant post, [Naming Tokens in Design Systems](https://medium.com/eightshapes-llc/naming-tokens-in-design-systems-9e86c7444676).
+This approach follows advice laid out in [Nathan Curtis](https://twitter.com/nathanacurtis)’ brilliant post, <cite>[Naming Tokens in Design Systems](https://medium.com/eightshapes-llc/naming-tokens-in-design-systems-9e86c7444676)</cite>.
 
 The token name might seem like a lot, potentially to the point of seeming absurd to you. However, I can assure you that in a large, mature design system that this level of detail is needed.
 
@@ -157,7 +157,7 @@ The design systems I work on have feedback-level considerations, so this definit
 
 In my experience, validation is oftentimes lumped in with [user-facing state](https://css-tricks.com/user-facing-state/), so you’ll have valid/invalid values exposed at the same level as hover/active/focus values. I’m not so sure that’s a great idea.
 
-Consider the following situation, where an invalid text input has a hover effect:
+Consider the following situation, where an invalid text input has a hover effect. How do we accommodate this?
 
 <div class="centered-media-outer">
 <img
