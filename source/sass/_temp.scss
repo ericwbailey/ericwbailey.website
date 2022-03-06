@@ -286,3 +286,15 @@ figcaption {
   letter-spacing: 0.1ch;
   text-transform: uppercase;
 }
+
+.post-breakout {
+  @media screen and (min-width: map-get($breakpoint, "large")) {
+    left: 0;
+    margin-left: 0;
+    margin-right: -50vw;
+    max-width: 80vw;
+    position: relative;
+    right: 50%;
+    width: 80vw;
+  }
+}
