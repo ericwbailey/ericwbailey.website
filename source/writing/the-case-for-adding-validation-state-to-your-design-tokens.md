@@ -48,7 +48,11 @@ Topology is a good approach for the naming of [design tokens](https://css-tricks
 
 Because of this, you need to craft a taxonomical structure that leads to results whose end point should be immutable:
 
-![A tree-style mind map. The initial node is State. Branching off of it are Resting, Hover, Active, Focus, Disabled, and Loading children nodes. Each of the children nodes have on light and on dark background nodes. Each of the light and dark background nodes have Light Mode active, Dark Mode active, and Forced Colors mode active nodes.]({{ '/img/posts/the-case-for-adding-validation-state-to-your-design-tokens/state-token-flowchart.png' | url }})
+<a href="{{ '/img/posts/the-case-for-adding-validation-state-to-your-design-tokens/state-token-flowchart' | url }}">
+<img
+  alt="A tree-style mind map. The initial node is State. Branching off of it are Resting, Hover, Active, Focus, Disabled, and Loading children nodes. Each of the children nodes have on light and on dark background nodes. Each of the light and dark background nodes have Light Mode active, Dark Mode active, and Forced Colors mode active nodes."
+  src="{{ '/img/posts/the-case-for-adding-validation-state-to-your-design-tokens/state-token-flowchart' | url }}">
+</a>
 
 This kind of codification is desirable because it creates:
 
@@ -59,7 +63,7 @@ This kind of codification is desirable because it creates:
 
 ## A mature token name
 
-Design token names can be as simple or as complicated as you need them to be. In my experience, it is best to start out simple, then grow them to meet the needs of your design system as it matures.
+Design token names can be as simple or as complicated as you need them to be. In my experience, it is best to start out simple, then grow them to meet the needs of your design system as it grows.
 
 This approach takes advantage of one of the main benefits of design tokens: being able to target a canonically described quality distributed across one or more systems, and then modify it with an extreme degree of confidence.
 
@@ -73,7 +77,7 @@ Mature token names are long, because they represent a ton of underlying abstract
   src="{{ '/img/posts/the-case-for-adding-validation-state-to-your-design-tokens/input-border.svg' | url }}">
 </div>
 
-This token’s name is derived using the grammar of a mature design system:
+This token’s name is derived using the grammar of an established design system:
 
 <div>
   <div class="centered-media-outer">
