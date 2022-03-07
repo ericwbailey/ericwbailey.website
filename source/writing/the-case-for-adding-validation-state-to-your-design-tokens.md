@@ -48,11 +48,9 @@ Topology is a good approach for the naming of [design tokens](https://css-tricks
 
 Because of this, you need to craft a taxonomical structure that leads to results whose end point should be immutable:
 
-<a href="{{ '/img/posts/the-case-for-adding-validation-state-to-your-design-tokens/state-token-flowchart' | url }}">
 <img
-  alt="A tree-style mind map. The initial node is State. Branching off of it are Resting, Hover, Active, Focus, Disabled, and Loading children nodes. Each of the children nodes have on light and on dark background nodes. Each of the light and dark background nodes have Light Mode active, Dark Mode active, and Forced Colors mode active nodes."
-  src="{{ '/img/posts/the-case-for-adding-validation-state-to-your-design-tokens/state-token-flowchart' | url }}">
-</a>
+  alt="A tree-style mind map. The initial node is State. Branching off of it are Resting, Hover, Active, Focus, Disabled, Read-only, and Loading children nodes. Each of the children nodes have on light and on dark background nodes. Each of the light and dark background nodes have Light Mode active, Dark Mode active, and Forced Colors mode active nodes."
+  src="{{ '/img/posts/the-case-for-adding-validation-state-to-your-design-tokens/state-token-flowchart.png' | url }}">
 
 This kind of codification is desirable because it creates:
 
@@ -341,8 +339,8 @@ Becasue of this, I propose that validation is placed <strong>after</strong> Type
 This is how our design token could be inserted into code. You’ll notice the Sass nesting strategy follows the token’s order of precedence:
 
 ``` scss
-.c-input-text {
-  // 1. Import border color token into initial component properties
+.c-text-field {
+  // 1. Import border color token into initial component-level properties
   --c-input-text-border-color: var(--core-color-border-textInput-default-solid-resting-onLightBg-lightActive);
   // Other initial component-level CSS Custom Property declarations
 
