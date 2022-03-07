@@ -43,7 +43,7 @@ eleventyNavigation:
 
 Naming things is hard.
 
-One way to go about naming things is via topology, the practice of classifying things by way of their characteristics. It is a subtle art.
+One way to go about naming things is via topology, the practice of classifying things by way of their visual characteristics. It is a subtle art.
 
 Topology is a good approach for the naming of [design tokens](https://css-tricks.com/what-are-design-tokens/). Unfortunately, in the context design token name creation we are burdened by [the tyranny of category](https://scottberkun.com/2012/the-tyranny-of-category/). It demands distilling everything down to a single word, and consequently, a linear order.
 
