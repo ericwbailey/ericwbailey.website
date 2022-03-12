@@ -41,6 +41,10 @@
         {
           "description": "<a href='https://uxuicc.webflow.io/'>UXUICC</a>",
           "year": 2021
+        },
+        {
+          "description": "<a href='https://github.com/Quansight-Labs/jupyter-accessibility-workshops#part-2-march-2022'>Jupyter Accessibility Workshops</a>",
+          "year": 2022
         }
       ]
     },
