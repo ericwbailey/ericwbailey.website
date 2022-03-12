@@ -10,7 +10,10 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Design updates
 - Performance optimizations
 
-## v1.5.14 - 2022-03-07
+## v1.5.15 - 2022-03-12
+- Add [It needs to map back to a role](https://ericwbailey.design/writing/it-needs-to-map-back-to-a-role/)
+- Add Accessibility and Inclusive design talk for [Jupyter Accessibility Workshops](https://github.com/Quansight-Labs/jupyter-accessibility-workshops#part-2-march-2022)
+## v1.5.14 - 2022-02-22
 - Add [The case for adding validation state to your design tokens](https://ericwbailey.design/writing/the-case-for-adding-validation-state-to-your-design-tokens/)
 
 ## v1.5.13 - 2022-02-22
