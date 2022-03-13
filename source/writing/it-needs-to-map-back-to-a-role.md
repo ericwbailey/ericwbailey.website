@@ -2,7 +2,7 @@
 layout: "layouts/post.njk"
 title: It needs to map back to a role
 source: ericwbailey.design
-excerpt: ""
+excerpt: "Without accurate, relevant names, roles, and values present, it can be incredibly difficult, if not impossible for someone to use your digital experience. That’s exclusion. Hard stop"
 date: 2022-03-14
 year: 2022
 tags:
@@ -15,6 +15,7 @@ tags:
   - HTML
   - Inclusion
   - Open UI
+attribution: "Thank you to <a href='https://adrianroselli.com/'>Adrian Roselli</a> for his feedback."
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}
