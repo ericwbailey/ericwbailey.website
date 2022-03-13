@@ -28,7 +28,7 @@ The history of websites, web apps, and native apps is full of countless widgets 
 
 One thing that’s important to keep in mind when creating these new experiences is ensuring that everyone is able to use them. Unfortunately, many of these new experiences fail to work with assistive technology.
 
-Even more unfortunately, the new experiences that don't work with assistive technology can be enthusiastically adopted by the mainstream. This means that access issues are then perpetuated at scale. I’d also be remiss if I didn’t mention that [this behavior is a contributing factor](https://en.wikipedia.org/wiki/Survivorship_bias) to why disability representation is so low in the contemporary digital product space.
+Even more unfortunately, the new experiences that don't work with assistive technology can be enthusiastically adopted by the mainstream. This means that access issues are then perpetuated at scale. I’d be remiss if I didn’t mention that [this behavior is also a contributing factor](https://en.wikipedia.org/wiki/Survivorship_bias) to why disability representation is so low in the contemporary digital product space.
 
 So, what can we do about this?
 
@@ -206,6 +206,6 @@ There is also the reality that some people are highly reluctant to upgrade their
 
 You can’t invent new roles and expect them to work just by virtue of declaring them, or hoping that eventually operating systems catch up. You also can't try to [twist an existing role into something it wasn't meant to do](https://adrianroselli.com/2020/04/when-is-a-vetted-pattern-no-longer-a-vetted-pattern.html) and expect people to understand your intent.
 
-When you are building brand-new experiences, keep if, and how you are providing accessible, understandable names, roles, and values top-of-mind. This will help ensure that the cool new thing you’re building will be usable by everyone.
+Keep how you are providing accessible, understandable names, roles, and values top-of-mind when you are creating brand-new experiences. This will help ensure that the cool new thing you’re building will be usable by everyone.
 
 This is one of the reasons I’m bullish on [Shift Left methodology](https://www.deque.com/shift-left/). Having disabled representation present early in the concepting phase of work can help help identify these kinds of concerns early on, addressed by someone who can speak with the authority of lived experience.
