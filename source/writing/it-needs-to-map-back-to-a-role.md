@@ -16,6 +16,7 @@ tags:
   - Inclusion
   - Open UI
 attribution: "Thank you to <a href='https://adrianroselli.com/'>Adrian Roselli</a> for his feedback."
+tweet: https://twitter.com/ericwbailey/status/1503370254684147716
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}
@@ -36,7 +37,7 @@ So, what can we do about this?
 
 All the rules in the Web Content Accessibility Guidelines (<abbr>WCAG</abbr>) are important. Some, however, are more important than others.
 
-[WCAG Success Criterion 4.1.2: Name, Role, Value](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value.html) is one of the most important rules of the whole document. If you are unfamiliar, it states that all interactive content needs to have the following:
+[WCAG Success Criterion 4.1.2: Name, Role, Value](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value.html) is one of the most important rules of the whole document. If you are unfamiliar, it states that <strong>all</strong> interactive content needs to have the following:
 
 ### 1. A name
 
