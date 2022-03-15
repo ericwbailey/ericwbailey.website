@@ -86,7 +86,7 @@ You can enter content into things like text input fields. This provides it with 
 
 If you use an `<input>` element with a `type` attribute set to `text`, the content you type into it will automatically translate into its value. Again, this is something you get with no additional effort on your part due to the element’s inherent semantics.
 
-A text input field built by using a [semantically neutral `<div>` element with the `contenteditable` attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/contenteditable) applied to it can’t do this. You’d have to do a lot more work behind the scenes to get this approach to provide an accessible value.
+A text input field built by using a [semantically neutral `<div>` element](https://www.scottohara.me/blog/2022/01/20/divisive.html) with [the `contenteditable` attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/contenteditable) applied to it can’t do this. You’d have to do a lot more work behind the scenes to get this approach to provide an accessible value.
 
 <img
   role="img"
