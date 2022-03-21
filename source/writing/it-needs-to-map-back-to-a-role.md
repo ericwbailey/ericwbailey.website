@@ -57,7 +57,10 @@ People are quick to think about blind people and screen readers when it comes to
 
 For the web, [roles](https://www.w3.org/TR/wai-aria/#dfn-role) come from a HTML element’s semantics (implicit), or from ARIA (explicit). For example, using the `<button>` element for a button provides it with a role of `button`. Other digital experiences use similar approaches for their user interface toolkits.
 
-Roles provide the “button” part of our save button. It’s why you don’t have to use [the phrase “Save button](https://adrianroselli.com/2019/10/stop-giving-control-hints-to-screen-readers.html)” in your save button UI. The “save” part is provided by either the button’s visible name (or, less ideally, [an invisible label supplied by ARIA](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-label)).
+Roles provide the “button” part of our save button. It’s why you don’t have to use [the phrase “Save button](https://adrianroselli.com/2019/10/stop-giving-control-hints-to-screen-readers.html)” in your save button UI. The “save” part is provided by either:
+
+1. The button’s visible name, or
+1. Less ideally, [an invisible label supplied by ARIA](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-label)).
 
 <div class="centered-media-outer">
 <img

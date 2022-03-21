@@ -10,6 +10,11 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Design updates
 - Performance optimizations
 
+## v1.5.16 - 2022-03-21
+- Add [Windows High Contrast Mode, Forced Colors Mode And CSS Custom Properties](https://www.smashingmagazine.com/2022/03/windows-high-contrast-colors-mode-css-custom-properties/)
+- Update newsletters
+- Copy tweaks
+
 ## v1.5.15 - 2022-03-12
 - Add [It needs to map back to a role](https://ericwbailey.design/writing/it-needs-to-map-back-to-a-role/)
 - Add Accessibility and Inclusive design talk for [Jupyter Accessibility Workshops](https://github.com/Quansight-Labs/jupyter-accessibility-workshops#part-2-march-2022)

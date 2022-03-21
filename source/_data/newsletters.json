@@ -2,271 +2,275 @@
   "items": [
     {
       "title": "24 Ways",
-      "url":   "https://24ways.org/"
+      "url": "https://24ways.org/"
     },
     {
       "title": "The A11Y Project",
-      "url":   "https://www.a11yproject.com/newsletter/"
+      "url": "https://www.a11yproject.com/newsletter/"
     },
     {
       "title": "A11y Weekly",
-      "url":   "https://a11yweekly.com/"
+      "url": "https://a11yweekly.com/"
     },
     {
       "title": "A List Apart",
-      "url":   "https://alistapart.com/email-signup/"
+      "url": "https://alistapart.com/email-signup/"
     },
     {
       "title": "Assistiv Labs",
-      "url":   "https://assistivlabs.com/product-updates-newsletter"
+      "url": "https://assistivlabs.com/product-updates-newsletter"
     },
     {
       "title": "Axess Lab",
-      "url":   "https://axesslab.com/what-is-a-screen-reader/"
+      "url": "https://axesslab.com/what-is-a-screen-reader/"
     },
     {
       "title": "Baldur Bjarnason's Notes on the Web",
-      "url":   "https://www.baldurbjarnason.com/"
+      "url": "https://www.baldurbjarnason.com/"
     },
     {
       "title": "bitsofcode",
-      "url":   "https://bitsofco.de/"
+      "url": "https://bitsofco.de/"
     },
     {
       "title": "Bizzaro Devs",
-      "url":   "http://bizzarodevs.com/"
+      "url": "http://bizzarodevs.com/"
     },
     {
       "title": "Changelog",
-      "url":   "https://changelog.com/"
+      "url": "https://changelog.com/"
     },
     {
       "title": "Codrops Collective",
-      "url":   "https://tympanus.net/codrops/"
+      "url": "https://tympanus.net/codrops/"
     },
     {
       "title": "Cognitive UXD",
-      "url":   "https://cognitiveuxd.com/issues/14"
+      "url": "https://cognitiveuxd.com/issues/14"
     },
     {
       "title": "CSS-Tricks",
-      "url":   "https://css-tricks.com/newsletters/"
+      "url": "https://css-tricks.com/newsletters/"
     },
     {
       "title": "CSS Wizardry Newsletter",
-      "url":   "https://csswizardry.com/newsletter/"
+      "url": "https://csswizardry.com/newsletter/"
     },
     {
       "title": "Curiously Green",
-      "url":   "https://www.wholegraindigital.com/curiously-green/"
+      "url": "https://www.wholegraindigital.com/curiously-green/"
     },
     {
       "title": "Daily Dev Links",
-      "url":   "https://dailydevlinks.com/"
+      "url": "https://dailydevlinks.com/"
     },
     {
       "title": "Dense Discovery",
-      "url":   "https://www.densediscovery.com/"
+      "url": "https://www.densediscovery.com/"
     },
     {
       "title": "Dev Diner",
-      "url":   "https://devdiner.com/newsletter"
+      "url": "https://devdiner.com/newsletter"
     },
     {
       "title": "Diversify Tech",
-      "url":   "https://www.diversifytech.co/join/"
+      "url": "https://www.diversifytech.co/join/"
     },
     {
       "title": "Friday Front-End",
-      "url":   "https://fridayfrontend.com/"
+      "url": "https://fridayfrontend.com/"
     },
     {
       "title": "Front-End Front",
-      "url":   "https://frontendfront.com/"
+      "url": "https://frontendfront.com/"
     },
     {
       "title": "Frontend Focus",
-      "url":   "https://frontendfoc.us/"
+      "url": "https://frontendfoc.us/"
     },
     {
       "title": "Frontend Horse",
-      "url":   "https://frontend.horse/"
+      "url": "https://frontend.horse/"
     },
     {
       "title": "Giant Robots Smashing Into Other Giant Robots",
-      "url":   "https://thoughtbot.com/blog"
+      "url": "https://thoughtbot.com/blog"
     },
     {
       "title": "Good Design by Adam Silver",
-      "url":   "https://adamsilver.io/signup/"
+      "url": "https://adamsilver.io/signup/"
     },
     {
       "title": "HeyDesigner Newsletter",
-      "url":   "https://heydesigner.com/newsletter/"
+      "url": "https://heydesigner.com/newsletter/"
     },
     {
       "title": "HTMHell",
-      "url":   "https://www.htmhell.dev/newsletter/"
+      "url": "https://www.htmhell.dev/newsletter/"
     },
     {
       "title": "🧶 ICYMI",
-      "url":   "https://buttondown.email/amberley"
+      "url": "https://buttondown.email/amberley"
     },
     {
       "title": "Ignore the Code",
-      "url":   "https://feedburner.google.com/fb/a/mailverify?uri=IgnoreTheCode&loc=en_US"
+      "url": "https://feedburner.google.com/fb/a/mailverify?uri=IgnoreTheCode&loc=en_US"
     },
     {
       "title": "Jamstacked",
-      "url":   "https://jamstack.email/"
+      "url": "https://jamstack.email/"
     },
     {
       "title": "Kenneth Ormandy Newsletter",
-      "url":   "https://kennethormandy.com/"
+      "url": "https://kennethormandy.com/"
     },
     {
       "title": "Laura Carlson's Web Design Update",
-      "url":   "https://www.d.umn.edu/itss/training/online/webdesign/webdev_listserv.html"
+      "url": "https://www.d.umn.edu/itss/training/online/webdesign/webdev_listserv.html"
     },
     {
       "title": "Letters from Nicole",
-      "url":   "https://tinyletter.com/nicoleslaw/"
+      "url": "https://tinyletter.com/nicoleslaw/"
     },
     {
       "title": "Matej Latin",
-      "url":   "https://matejlatin.co.uk/"
+      "url": "https://matejlatin.co.uk/"
     },
     {
       "title": "Mobile Dev Weekly",
-      "url":   "https://mobiledevweekly.com/"
+      "url": "https://mobiledevweekly.com/"
     },
     {
       "title": "Nielsen Norman Group Alertbox",
-      "url":   "https://www.nngroup.com/articles/subscribe/"
+      "url": "https://www.nngroup.com/articles/subscribe/"
     },
     {
       "title": "Panda",
-      "url":   "https://usepanda.com/"
+      "url": "https://usepanda.com/"
     },
     {
       "title": "Performance Newsletter by Calibre",
-      "url":   "https://perf.email/"
+      "url": "https://perf.email/"
     },
     {
       "title": "Pixels of the Week",
-      "url":   "https://stephaniewalter.design/blog/"
+      "url": "https://stephaniewalter.design/blog/"
     },
     {
       "title": "Ponyfoo",
-      "url":   "https://ponyfoo.com/"
+      "url": "https://ponyfoo.com/"
     },
     {
       "title": "Really Good UX",
-      "url":   "https://www.reallygoodux.io/"
+      "url": "https://www.reallygoodux.io/"
     },
     {
       "title": "rendezvous with cassidoo",
-      "url":   "https://cassidoo.co/newsletter/"
+      "url": "https://cassidoo.co/newsletter/"
     },
     {
       "title": "Sidebar",
-      "url":   "https://sidebar.io/"
+      "url": "https://sidebar.io/"
     },
     {
       "title": "Sass News",
-      "url":   "http://sass.news/"
+      "url": "http://sass.news/"
     },
     {
       "title": "sia.codes",
-      "url":   "https://buttondown.email/sia.codes/"
+      "url": "https://buttondown.email/sia.codes/"
     },
     {
       "title": "Sitepoint Versioning",
-      "url":   "https://www.sitepoint.com/newsletters/"
+      "url": "https://www.sitepoint.com/newsletters/"
     },
     {
       "title": "Smashing Email Newsletter",
-      "url":   "https://www.smashingmagazine.com/the-smashing-newsletter/"
+      "url": "https://www.smashingmagazine.com/the-smashing-newsletter/"
     },
     {
       "title": "t12t Newsletter",
-      "url":   "https://t12t.se/en/accessibility-newsletter/"
+      "url": "https://t12t.se/en/accessibility-newsletter/"
     },
     {
       "title": "The Thoughtful Net",
-      "url":   "https://broken-links.us8.list-manage.com/subscribe?u=af3aaa16cebde37363e7bea3d&id=48619e81ac"
+      "url": "https://broken-links.us8.list-manage.com/subscribe?u=af3aaa16cebde37363e7bea3d&id=48619e81ac"
     },
     {
       "title": "Think Do Be Create",
-      "url":   "https://thinkdobecreate.com/"
+      "url": "https://thinkdobecreate.com/"
     },
     {
       "title": "This Too Shall Grow",
-      "url":   "https://thistooshallgrow.com/#newsletter-form"
+      "url": "https://thistooshallgrow.com/#newsletter-form"
     },
     {
       "title": "Typewolf  Tuesday",
-      "url":   "https://www.typewolf.com/newsletter"
+      "url": "https://www.typewolf.com/newsletter"
     },
     {
       "title": "UI Dev Newsletter",
-      "url":   "https://tinyletter.com/starbist/"
+      "url": "https://tinyletter.com/starbist/"
     },
     {
       "title": "UX Booth",
-      "url":   "https://www.uxbooth.com/subscribe/"
+      "url": "https://www.uxbooth.com/subscribe/"
     },
     {
       "title": "UX Excellence",
-      "url":   "https://uxcellence.com/subscribe/"
+      "url": "https://uxcellence.com/subscribe/"
     },
     {
       "title": "UX Design Weekly",
-      "url":   "http://uxdesignweekly.com/"
+      "url": "http://uxdesignweekly.com/"
     },
     {
       "title": "viewBox",
-      "url":   "https://buttondown.email/viewBox/"
+      "url": "https://buttondown.email/viewBox/"
     },
     {
       "title": "The WebAIM Newsletter",
-      "url":   "https://webaim.org/newsletter/"
+      "url": "https://webaim.org/newsletter/"
     },
     {
       "title": "Web Design Weekly",
-      "url":   "https://web-design-weekly.com/"
+      "url": "https://web-design-weekly.com/"
     },
     {
       "title": "Web Designer News",
-      "url":   "https://www.webdesignernews.com/"
+      "url": "https://www.webdesignernews.com/"
     },
     {
       "title": "Web Development Reading List by Anselm Hannemann",
-      "url":   "https://wdrl.info/"
+      "url": "https://wdrl.info/"
     },
     {
       "title": "Web Field Manual Dispatch",
-      "url":   "https://webfieldmanual.com/"
+      "url": "https://webfieldmanual.com/"
     },
     {
       "title": "Web Platform News",
-      "url":   "https://webplatform.news/"
+      "url": "https://webplatform.news/"
     },
     {
       "title": "Web Tools Weekly",
-      "url":   "https://webtoolsweekly.com/"
+      "url": "https://webtoolsweekly.com/"
     },
     {
       "title": "Web Typography News",
-      "url":   "https://rwt.io/newsletter"
+      "url": "https://rwt.io/newsletter"
+    },
+    {
+      "title": "We're all Human",
+      "url": "https://www.wereallhuman.uno/index.html#mc_embed_signup"
     },
     {
       "title": "Winning the Internet",
-      "url":   "https://pudding.cool/projects/newsletter/"
+      "url": "https://pudding.cool/projects/newsletter/"
     },
     {
       "title": "Zell Liew's Newsletter",
-      "url":   "https://zellwk.com/newsletter/"
+      "url": "https://zellwk.com/newsletter/"
     }
   ]
 }
