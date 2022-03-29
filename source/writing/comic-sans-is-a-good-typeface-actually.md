@@ -85,7 +85,7 @@ As a user experience designer, selecting a typeface means making an informed cho
 
 Even though I put a lot of effort into selecting typefaces, I’m not precious about it. If someone changes the typeface, its font size, line height, letter spacing, and color to meet their needs, I’m delighted! It means that they’re interested enough in the content to [expend effort to make it legible](https://css-tricks.com/reader-mode-the-button-to-beat/).
 
-Changing the typeface might mean using Comic Sans. It might also mean [OpenDyslexic](https://opendyslexic.org/), Verdana, [Thesis Sans](https://en.wikipedia.org/wiki/Thesis_(typeface)), or any other of the hundreds of thousands of other typefaces out there in the world.
+Changing the typeface might mean using Comic Sans. It might also mean Verdana, [Thesis Sans](https://en.wikipedia.org/wiki/Thesis_(typeface)), Baskerville, or any other of the hundreds of thousands of other typefaces out there in the world.
 
 The thing is, you can’t know what works for someone’s access needs, but you can provide mechanisms for them to help themselves, and that’s totally fine.
 
