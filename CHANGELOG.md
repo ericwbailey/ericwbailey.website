@@ -10,6 +10,10 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Design updates
 - Performance optimizations
 
+## v1.5.17 - 2022-03-29
+- Add [#WorstWorkWednesday](https://ericwbailey.design/writing/worstworkwednesday/)
+- Update newsletters
+- Copy tweaks
 ## v1.5.16 - 2022-03-21
 - Add [Windows High Contrast Mode, Forced Colors Mode And CSS Custom Properties](https://www.smashingmagazine.com/2022/03/windows-high-contrast-colors-mode-css-custom-properties/)
 - Update newsletters
