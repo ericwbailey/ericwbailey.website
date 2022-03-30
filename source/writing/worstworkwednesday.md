@@ -126,7 +126,7 @@ You can remove someone’s name from a document, but still be able to identify t
 With all of that said, also know that a meeting like this can help to grow your organization’s maturity, strengthen existing relationships, and forge new ones. It can also model positive behaviors for new and existing employees.
 
 <div class="centered-media-outer">
-  <svg class="centered-media-inner-2" role="img" focusable="false" viewBox="0 0 500 311" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg style="padding: var(--scale2);" class="centered-media-inner-2" role="img" focusable="false" viewBox="0 0 500 311" fill="none" xmlns="http://www.w3.org/2000/svg">
   <title>A piece of Kintsugi pottery. A small bowl has its cracks filled in with gold to fill and highlight them.</title>
   <defs><style>
     .kintsugi-bowl { fill: #4A4A4A; }
@@ -220,11 +220,11 @@ Silence can be a space where someone is collecting their thoughts, or is working
 It can feel tempting to fill an awkward silence with a comment, or a joke to break some perceived tension. Don’t. These moments of silence can be pivotal experiences, and you don’t want to center yourself in them when they occur.
 
 <div class="centered-media-outer">
-  <svg class="centered-media-inner-2" role="img" focusable="false" viewBox="0 0 500 377" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg style="padding: var(--scale2);" class="centered-media-inner-2" role="img" focusable="false" viewBox="0 0 500 377" fill="none" xmlns="http://www.w3.org/2000/svg">
   <title>Two stick figures having a conversation. One participant's speech balloon is only slightly overlapping the other's.</title>
   <defs><style>
-    .speech-bubble-outer { fill: #4A4A4A; }
-    .speech-bubble-inner { fill: #E8E8E8; }
+    .speech-bubble-outer { fill: #dddddd; }
+    .speech-bubble-inner { fill: #4A4A4A; }
     @media (prefers-color-scheme: dark) {
       .speech-bubble-outer { fill: #4A4A4A; }
     }
