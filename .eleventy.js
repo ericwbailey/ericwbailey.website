@@ -88,7 +88,7 @@ module.exports = function(eleventyConfig) {
     return slugify(str.replace(/<\/?("[^"]*"|'[^']*'|[^>])*(>|$)/g, ''), {
       lower: true,
       replacement: "-",
-      remove: /[*+~.·,()'"`´%!?¿:@»]/g
+      remove: /[*+~.·,()'"`´%!?¿:@#»]/g
     });
   });
 

@@ -1165,6 +1165,14 @@
     },
     {
       "blog": {
+        "name": "Maggie Appleton",
+        "url": "https://maggieappleton.com/essays"
+      },
+      "twitter": "Mappletons",
+      "feed": "https://maggieappleton.com/rss.xml"
+    },
+    {
+      "blog": {
         "name": "Mandy Brown",
         "url": "https://aworkinglibrary.com/writing/"
       },

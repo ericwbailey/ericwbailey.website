@@ -2,7 +2,7 @@
 layout: "layouts/post.njk"
 title: "#WorstWorkWednesday"
 source: ericwbailey.design
-excerpt: "Does this all sound interesting to you? Interested in running your own #WorstWorkWednesday meeting?"
+excerpt: "Does this all sound compelling to you? Interested in running your own #WorstWorkWednesday meeting?"
 date: 2022-03-30
 year: 2022
 tags:
@@ -31,7 +31,7 @@ Unhappy is the operative word here, in that the shared work could be:
 - Ugly designs that didn’t work,
 - Ugly designs that did work,
 - Pretty designs that didn’t work, and
-- Pretty designs that did work
+- Pretty designs that did work.
 
 The meeting is about vulnerability. It was a great experience, and helped me relate to, and bond with my coworkers.
 
@@ -83,11 +83,11 @@ The flip side of this—only showing success—is a subtle trap. Modeling your n
 - Parroting [dangerous, flash-in-the-pan usability trends](https://dribbble.com/search/glassomorphism), and
 - Reinforcement of [white supremacy culture of perfectionism](https://publicallies.org/perfectionism-and-white-supremacy/).
 
-Does this all sound interesting to you? Interested in running your own #WorstWorkWednesday meeting?
+Does this all sound compelling to you? Interested in running your own #WorstWorkWednesday meeting?
 
 ## Before you try to run a meeting like this
 
-Be aware of the power dynamics at play with setting up something like this, and the potential consequences of conducting it in an irresponsible manner.
+Be aware of the power dynamics at play with setting up this type of meeting, as well as the potential consequences of conducting it in an irresponsible manner.
 
 ### Maturity
 
@@ -126,7 +126,7 @@ You can remove someone’s name from a document, but still be able to identify t
 With all of that said, also know that a meeting like this can help to grow your organization’s maturity, strengthen existing relationships, and forge new ones. It can also model positive behaviors for new and existing employees.
 
 <div class="centered-media-outer">
-  <svg class="centered-media-inner-2" role="img" focusable="false" viewBox="0 0 500 311" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg style="padding: var(--scale2);" class="centered-media-inner-2" role="img" focusable="false" viewBox="0 0 500 311" fill="none" xmlns="http://www.w3.org/2000/svg">
   <title>A piece of Kintsugi pottery. A small bowl has its cracks filled in with gold to fill and highlight them.</title>
   <defs><style>
     .kintsugi-bowl { fill: #4A4A4A; }
@@ -205,7 +205,9 @@ Even if you’re okay with questions, you’ll want to teach your participants a
   </svg>
 </div>
 
-Some good advice about active listening I’ve learned is to be a walkie-talkie: you can either speak or listen, but you can’t do both at once. If participants ask questions when the speaker has expressed a preference for no questions, gently remind the question-asker. This will take the pressure off the speaker to enforce their own request.
+Some good advice about active listening I’ve learned is to be a walkie-talkie: you can either speak or listen, but you can’t do both at once.
+
+If participants ask questions when the speaker has expressed a preference for no questions, gently remind the question-asker. This will take the pressure off the speaker to enforce their own request.
 
 Don’t be afraid to ask a speaker open-ended questions if they indicated the preference for questions, clearly wants to talk with someone about their work more in-depth, and other participants are hesitant to initially speak up.
 
@@ -218,11 +220,11 @@ Silence can be a space where someone is collecting their thoughts, or is working
 It can feel tempting to fill an awkward silence with a comment, or a joke to break some perceived tension. Don’t. These moments of silence can be pivotal experiences, and you don’t want to center yourself in them when they occur.
 
 <div class="centered-media-outer">
-  <svg class="centered-media-inner-2" role="img" focusable="false" viewBox="0 0 500 377" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg style="padding: var(--scale2);" class="centered-media-inner-2" role="img" focusable="false" viewBox="0 0 500 377" fill="none" xmlns="http://www.w3.org/2000/svg">
   <title>Two stick figures having a conversation. One participant's speech balloon is only slightly overlapping the other's.</title>
   <defs><style>
-    .speech-bubble-outer { fill: #4A4A4A; }
-    .speech-bubble-inner { fill: #E8E8E8; }
+    .speech-bubble-outer { fill: #dddddd; }
+    .speech-bubble-inner { fill: #4A4A4A; }
     @media (prefers-color-scheme: dark) {
       .speech-bubble-outer { fill: #4A4A4A; }
     }
@@ -258,7 +260,7 @@ A beautiful, successful design brought to the table might make you question your
 
 ## Don't fetishize it
 
-Remember: #WorstWorkWednesday does not give its participants carte blanche to be irresponsible. It is about unpacking decisions you’ve made that you’re not satisfied with, as well as asking for advice from peers with a range of backgrounds and experiences.
+#WorstWorkWednesday does not give its participants carte blanche to be irresponsible. It is about unpacking decisions you’ve made that you’re not satisfied with, as well as asking for advice from peers with a range of backgrounds and experiences.
 
 At the end of the day, we all still have to produce value for the place that employs us, with value being highly dependent on the organization’s priorities. #WorstWorkWednesday provides (dare I say it) safe space for industry practitioners to talk shop about a facet of their job that typically isn't supported.
 
