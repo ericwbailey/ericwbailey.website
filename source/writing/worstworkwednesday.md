@@ -10,7 +10,7 @@ tags:
   - Decolonizing
   - Design
   - Inclusion
-tweet: TK
+tweet: https://twitter.com/ericwbailey/status/1509168251770744839
 share:
   facebookDescription: "A bad-looking calendar icon drawn in MS Paint."
   twitterDescription: "The phrase #WorstWorkWednesday poorly written out in MS Paint."
