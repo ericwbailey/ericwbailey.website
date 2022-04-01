@@ -29,7 +29,10 @@ Dark mode is all the rage in web design right now. It’s a toggle in your opera
 
 If you go to [thoughtbot.com](https://thoughtbot.com/) now you can see for yourself. [Toggle dark mode](https://www.a11yproject.com/posts/2020-01-23-operating-system-and-browser-accessibility-display-modes/#toc_How-to-enable-it) on your operating system and (provided it has the capability, and [that your browser supports it](https://caniuse.com/#feat=prefers-color-scheme)), and revel in its gloomy glory.
 
-![Screenshot of the thoughtbot.com homepage with dark mode enabled.]({{ '/img/posts/thoughtbot-com-dark-mode-and-other-user-preferences/thoughtbot-dark-mode.png' | url }})
+<img
+  alt="Screenshot of the thoughtbot.com homepage with dark mode enabled."
+  loading="lazy"
+  src="{{ '/img/posts/thoughtbot-com-dark-mode-and-other-user-preferences/thoughtbot-dark-mode.png' | url }}" />
 
 ## Why
 

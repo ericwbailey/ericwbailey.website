@@ -29,4 +29,5 @@ I’ve said goodbye to you four times now, and this time was the last. Safe trav
 
 <img
   alt="A cute stripey cat with white paws, a pink nose, and a red collar. He's staring up at the camera white sitting on top of a small knit ball."
+  loading="lazy"
   src="{{ '/img/posts/tribble/tribble.jpg' | url }}" />

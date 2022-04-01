@@ -26,6 +26,7 @@ As far as metrics go, I think they’re great ones. The code it checks for cover
 
 <img
   alt="Lighthouse results for ericwbailey.design. There are four pie charts, each containing a ranking score. Performance has a rank of 100, accessibility has a rank of 98, best practices has a rank of 100, and SEO has a rank of 99. A legend is present, showing a score of 0-49 corresponding to red, 50-89 corresponding to yellow, and 90-100 corresponding to green."
+  loading="lazy"
   src="{{ '/img/posts/lighthouse/lighthouse.png' | url }}" />
 
 
@@ -70,6 +71,7 @@ Google Panda specifically targeted a lot of unsavory SEO techniques, including c
   aria-label="Source: What is Google Panda? How Content Matters in SEO by Riverbed Marketing.">
   <img
     alt="A graph showing how search engine traffic drastically dropped in early January 2011 from just under 7.5 million to under a million in just a few weeks. Ads traffic is a steady zero throughout the entire graph. A tooltip is highlighting September 2014, showing search engine traffic of 14,485, and ads traffic of 0."
+    loading="lazy"
     src="{{ '/img/posts/lighthouse/google-panda-graph.png' | url }}" />
   <figcaption>
     <span class="typography-small-caps">Source:</span> <a href="https://www.riverbedmarketing.com/what-is-google-panda/">What is Google Panda? How Content Matters in SEO</a> by Riverbed Marketing.

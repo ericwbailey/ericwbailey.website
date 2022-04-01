@@ -177,6 +177,7 @@ accessiBe has also recently started targeting influencers. It’s a smart play: 
     <img
       alt="How to ensure your website is ADA-compliant with @AccessiBe #ADA #WCAG #web #accessibility. Screenshot of a tweet by Lilach Bullock, posted to Twitter on July 18th, 2021 via the Agorapulse app."
       class="twitter-tweet-screenshot"
+      loading="lazy"
       src="{{ '/img/posts/accessibe-and-the-false-david-vs-goliath-narrative/lilach-bullock.png' | url }}" />
   </a>
 </p>
@@ -186,6 +187,7 @@ accessiBe has also recently started targeting influencers. It’s a smart play: 
     <img
       alt="Making websites accessible w/@AccessiBe. Boosting guest experience w/@centeredgesoft. No more Fleets w/@MarketingBrew. B2B & Social CX w/@toprank. Plus my interview with @FindTroy & events by @getfeedback @PointillistView @JohnDiJulius. Screenshot of a tweet by Dan Gingiss, posted to Twitter on July 21st, 2021 via the Twitter Web App."
       class="twitter-tweet-screenshot"
+      loading="lazy"
       src="{{ '/img/posts/accessibe-and-the-false-david-vs-goliath-narrative/dan-gingiss.png' | url }}" />
   </a>
 </p>
@@ -194,6 +196,7 @@ accessiBe has also recently started targeting influencers. It’s a smart play: 
   <a href="https://www.linkedin.com/posts/parthdetroja_unlockwebaccessibility-ad-productmanagement-ugcPost-6821865557697146880-JN9P">
     <img
       alt="One of the biggest growth levers for any digital business is hidden in plain sight. Disabilities affect 1 in every 5 people but the majority of websites in the world aren't optimized to be accessible for all. Just take a look at the video below. Enabling accessibility not only improves user experience and boosts SEO, but it's also the right thing to do. Accessibility used to be something that only behemoth corporations could afford to hire costly consultants for. But now, there's an AI powered tool called accessiBe that's offering the most advanced, affordable, simple and compliant accessibility tool I have ever seen. Please tag business owners you think would benefit from taking their site accessibility to the next level! Screenshot of a LinkedIn post by Parth Detroja, posted on July 17, 2021."
+      loading="lazy"
       src="{{ '/img/posts/accessibe-and-the-false-david-vs-goliath-narrative/parth-detroja.png' | url }}" />
   </a>
 </p>
@@ -202,6 +205,7 @@ This is aided by two other classic bad behaviors of an unscrupulous product: [as
 
 <img
   alt="Screenshot of a Google search for “accessibility.” The top result is an ad for accessiBe, which takes up the majority of the page. Immediately below it is an ad for AudioEye."
+  loading="lazy"
   src="{{ '/img/posts/accessibe-and-the-false-david-vs-goliath-narrative/google-ads.png' | url }}" />
 
 This is to say nothing of Trumpian social media tactics:
@@ -210,6 +214,7 @@ This is to say nothing of Trumpian social media tactics:
   <a href="https://twitter.com/search?q=Karl%20Groves%20is%20not%20a%20person%20with%20a%20disability.%20He%20owns%20his%20own%20manual%20coding%20business%20and%20he%20has%20been%20spreading%20malicious%20information%20about%20accessiBe%20for%20a%20year.%20DO%20NOT%20BELIEVE%20HIM!%20%23accessibeworks.&f=live">
     <img
       alt="A Twitter search for the phrase, “Karl Groves is not a person with a disability. He owns his own manual coding business and he has been spreading malicious information about accessiBe for a year. DO NOT BELIEVE HIM! #accessibeworks.” There are two results, both by an account called Sheldon Lewis. Screenshot."
+      loading="lazy"
       class="twitter-tweet-screenshot"
       src="{{ '/img/posts/accessibe-and-the-false-david-vs-goliath-narrative/sheldon-lewis.png' | url }}" />
   </a>

@@ -49,6 +49,7 @@ You can use whatever photo or illustration you like as your avatar. This is grea
     aria-label="It me.">
     <img
       alt="Screenshot of my Slack quick profile. It shows my photo, my full name, a green dot indicating that I’m online, my job title of UX Designer, and my pronouns of he/him/his. There are also prompts to view my full profile, set a status, and edit profile."
+      loading="lazy"
       src="{{ '/img/posts/spear-phishing-with-slackbot-for-fun-and-profit/quick-profile-work.png' | url }}" />
     <figcaption>
       It me.
@@ -67,6 +68,7 @@ Unfortunately, this flexibility can work against an organization. To cut to the 
     aria-label="It also me.">
     <img
       alt="Screenshot of my Slack quick profile, now changed to look like Slackbot’s quick profile. It shows Slackbot’s avatar, the name “Slackbot”, a green dot indicating that I’m online, and a description that reads, “Sometime helper, sometime messenger, always bot.” There are also prompts to view my full profile, set a status, and edit profile."
+      loading="lazy"
       src="{{ '/img/posts/spear-phishing-with-slackbot-for-fun-and-profit/quick-profile-fake-slackbot.png' | url }}" />
     <figcaption>
       It also me.
@@ -99,6 +101,7 @@ To keep someone from being skeptical, we’ll want to put them in a panicky stat
 
 <img
   alt="Direct Message conversation between the fake Slackbot and Trey Spence. Slackbot: “Your Slack password is set to expire in 3 days. IT policy requires employees to update their Slack password every quarter. To update your Slack password, please type your current Slack password as a reply to this message:” Trey replies: “okr.2022”. Slackbot: “Great! Now type your new Slack password:”. Trey: “next.level.2022”. Slackbot: “Thank you, your password has been updated to next.level.2022. Please use your new password the next time you log into Slack. Screenshot."
+  loading="lazy"
   src="{{ '/img/posts/spear-phishing-with-slackbot-for-fun-and-profit/password-reset.png' | url }}" />
 
 Offering to update their password provides an immediate solution to the problem at hand. The convenience of the solution we offer may outweigh that vital moment where they’d check to see if it’s legit. On top of that, we’re borrowing the look and language of Slack to reinforce a sense of automated authority.
@@ -107,6 +110,7 @@ To extra mile it, make covering your tracks look intentional:
 
 <img
   alt="Direct Message from the fake Slackbot: “For additional security, Slackbot will now delete these messages. We recommend you also delete your messages by clicking on the More Actions button, then clicking “Delete message”. Screenshot."
+  loading="lazy"
   src="{{ '/img/posts/spear-phishing-with-slackbot-for-fun-and-profit/additional-security.png' | url }}" />
 
 ## Now what?
@@ -140,6 +144,7 @@ Make this information one level deep, not two. I can understand that there’s a
     aria-label="Simulated feature.">
     <img
       alt="A Slack quick profile of someone pretending to be Slackbot, only now their Display Name of “Neer Dowell” is listed below their Full Name."
+      loading="lazy"
       src="{{ '/img/posts/spear-phishing-with-slackbot-for-fun-and-profit/display-full-name-on-profile.png' | url }}" />
     <figcaption>
       Simulated feature.
@@ -157,6 +162,7 @@ Slack currently prevents you from using “Slackbot” as a full or display name
   <img
     alt="A text field with the title of “Edit your profile,” a label of “Full name,” and input that reads “Slackbot.” A red focus indicator surrounds the text field, and an error message is displayed below it that reads, “That name’s already being used by Slack.” Screenshot."
     class="centered-media-inner-4"
+    loading="lazy"
     src="{{ '/img/posts/spear-phishing-with-slackbot-for-fun-and-profit/full-name-slackbot-invalid.png' | url }}" />
 </div>
 
@@ -166,6 +172,7 @@ It doesn’t, however, prevent people from being sneaky:
   <img
     alt="A text field with the title of “Edit your profile,” a label of “Full name,” and input that reads “Slackbot.” A blue focus indicator surrounds the text field, and no error message is present. Screenshot."
     class="centered-media-inner-4"
+    loading="lazy"
     src="{{ '/img/posts/spear-phishing-with-slackbot-for-fun-and-profit/full-name-slackbot-valid.png' | url }}" />
 </div>
 
@@ -196,6 +203,7 @@ Slack could use image hashing to detect someone trying to use Slackbot’s avata
     aria-label="Simulated feature.">
     <img
       alt="The Slack avatar image cropping UI, with Slackbot’s avatar uploaded. An error message reads, “Whoa! That looks like Slackbot’s face! Maybe try another image?” The option to save the image has been disabled."
+      loading="lazy"
       src="{{ '/img/posts/spear-phishing-with-slackbot-for-fun-and-profit/avatar-warning.png' | url }}" />
     <figcaption>
       Simulated feature.
@@ -211,6 +219,7 @@ Trust, but verify, as the saying goes. We’ll want to test a range of modificat
 <img
   alt="Six Slackbot avatars. The first one is labeled “Original,” and is unmodified. The next 5 labels are “Flipped Eyes,” “Desaturated,” “Rotated Colors.” “Accessories,” and “Textured."
   class="centered-media-inner-4"
+  loading="lazy"
   src="{{ '/img/posts/spear-phishing-with-slackbot-for-fun-and-profit/variations.png' | url }}" />
 </div>
 
@@ -224,6 +233,7 @@ Image hashing and machine learning could, hypothetically, also prevent the use o
   <img
     alt="A Totenkopf death’s head, a swastika made out of syringes, Trump drawn as Pepe the Frog, the logo for The Base, the thin blue line flag superimposed over the Punisher skull, and the Klu Klux Klan’s blood drop cross."
     class="centered-media-inner-3"
+    loading="lazy"
     src="{{ '/img/posts/spear-phishing-with-slackbot-for-fun-and-profit/hate-symbols.png' | url }}" />
 </div>
 

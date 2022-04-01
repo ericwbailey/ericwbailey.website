@@ -62,6 +62,7 @@ The forms these companies serve up are the holy grail of bad design. Every aspec
 
 <img
   alt="Screenshots of the first page for initiating a Credit Freeze for Equifax, TransUnion, Experian, Innovis, and ChexSystems."
+  loading="lazy"
   src="{{ '/img/posts/equifax-data-breach-credit-freezes-and-beholden-design/sites-thumb.png' | url }}" />
 
 ## Inconsistent
@@ -85,6 +86,7 @@ These forms all have too much content and not in the right place. For inward-fac
   aria-label="I'm not sure why ZIP Code is trademarked, Experian.">
   <img
     alt="ZIP Code™*"
+    loading="lazy"
     src="{{ '/img/posts/equifax-data-breach-credit-freezes-and-beholden-design/experian-trademark-zip-code.png' | url }}" />
   <figcaption>
     <p>I'm not sure why ZIP Code is trademarked, Experian.</p>
@@ -112,6 +114,7 @@ Beholden Design is also lazy. It will typically only expose these kinds of forma
   aria-label="Errors are not placed next to the form fields they apply to. Form fields with errors are not highlighted. Proper formats for required information are not specified. Color does not correspond to the required input indicator (*). Validation only occurs when the entire form is submitted.">
   <img
     alt="Screenshot of an angry blob of validation error messages at the top of the page."
+    loading="lazy"
     src="{{ '/img/posts/equifax-data-breach-credit-freezes-and-beholden-design/experian-validation-errors.png' | url }}" />
   <figcaption>
     <p>Errors are not placed next to the form fields they apply to. Form fields with errors are not highlighted. Proper formats for required information are not specified. Color does not correspond to the required input indicator (*). Validation only occurs when the entire form is submitted.</p>
@@ -141,6 +144,7 @@ Beholden Design loves to ignore these kinds of less glamorous, yet critical page
   aria-label="The slickly designed responsive Experian homepage compared to the clunky, fixed-width Credit Freeze request page.">
   <img
     alt="A side by side comparison of screenshots of Experian's homepage and Credit Freeze request form."
+    loading="lazy"
     src="{{ '/img/posts/equifax-data-breach-credit-freezes-and-beholden-design/experian-homepage-vs-credit-freeze-form.png' | url }}" />
   <figcaption>
     <p>The slickly designed responsive Experian homepage compared to the clunky, fixed-width Credit Freeze request page.</p>
@@ -174,6 +178,7 @@ Not a great way to maintain trust, if you ask me.
   aria-label="I don't know if I'm a victim of identity theft. Or if you think I'm a victim of identity theft. That's why I'm here, Innovis.">
   <img
     alt="Are you a victim of identity theft? A. No, I am not a victim of identity theft or B. Yes, I am a victim of identity theft."
+    loading="lazy"
     src="{{ '/img/posts/equifax-data-breach-credit-freezes-and-beholden-design/innovis-id-theft.png' | url }}" />
   <figcaption>
     <p>I don't know if I'm a victim of identity theft. Or if you think I'm a victim of identity theft. That's why I'm here, Innovis.</p>
@@ -201,6 +206,7 @@ In addition to the lack of responsiveness from the process outlined in the previ
   aria-label="TransUnion does not get points for being Responsive. Time for some squinting and pinching.">
   <img
     alt="Screenshot of TransUnion's unresponsive website in iOS Mobile Safari."
+    loading="lazy"
     src="{{ '/img/posts/equifax-data-breach-credit-freezes-and-beholden-design/transunion-unresponsive.png' | url }}" />
   <figcaption>
     <p>TransUnion does not get points for being Responsive. Time for some squinting and pinching.</p>
@@ -230,6 +236,7 @@ Oftentimes, the forms discussed in this post are the end result of long-negotiat
   aria-label="Which way am I supposed to scan this form?">
   <img
     alt="Screenshot illustrating ambiguity in the visual scan pattern of Equifax's form. It is unclear if you are supposed to read the form vertically or horizontally."
+    loading="lazy"
     src="{{ '/img/posts/equifax-data-breach-credit-freezes-and-beholden-design/equifax-scan-patterns.png' | url }}" />
   <figcaption>
     <p>Which way am I supposed to scan this form?</p>
@@ -249,6 +256,7 @@ Each of the five sites reported accessibility errors when audited. These errors 
   aria-label="Deque's aXe accessibility audit tool reporting 60 violations on a single page of the ChexSystems Credit Freeze request process.">
   <img
     alt="Screenshot of aXe's detailed accessibility report. There are 60 violations found, with errors detected for ARIA roles, color contrast, unique ID attributes, the lang attribute, alternate text, missing form labels, disabled zooming, and ungrouped radio inputs."
+    loading="lazy"
     src="{{ '/img/posts/equifax-data-breach-credit-freezes-and-beholden-design/chexsystems-accessibility-errors.png' | url }}" />
   <figcaption>
     <p>Deque's aXe accessibility audit tool reporting 60 violations on a single page of the ChexSystems Credit Freeze request process.</p>

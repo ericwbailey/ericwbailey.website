@@ -48,6 +48,7 @@ This is a string of unique text assistive technology can use to identify each in
   role="img"
   class="centered-media-inner-3"
   alt="A button HTML element with an attribute type of “button” and a text string called “Save.” An arrow identifies how the text string provides the name portion of the button’s accessible computed properties."
+  loading="lazy"
   src="{{ '/img/posts/it-needs-to-map-back-to-a-role/example-name.svg' | url }}">
 </div>
 
@@ -67,6 +68,7 @@ Roles provide the “button” part of our save button. It’s why you don’t h
   role="img"
   class="centered-media-inner-3"
   alt="A button HTML element with an attribute type of “button” and a text string called “Save.” There are two arrows. The first arrow identifies how the text string provides the name portion of the button’s accessible computed properties. The second arrow identifies how the button element provides the pushbutton role portion of the button’s accessible computed properties."
+  loading="lazy"
   src="{{ '/img/posts/it-needs-to-map-back-to-a-role/example-role.svg' | url }}">
 </div>
 
@@ -84,6 +86,7 @@ You can enter content into things like text input fields. This provides it with 
 <img
   role="img"
   alt="A text input field with a label called, “What is your favorite kind of soup?” and user-provided input of “french onion.” There are three arrows. The first arrow identifies how the label string provides the name portion of the input’s accessible computed properties. The second arrow identifies how the text input itself provides the entry role portion of the input’s accessible computed properties. The third arrow identifies how the user-provided input provides the value role portion of the input’s accessible computed properties."
+  loading="lazy"
   src="{{ '/img/posts/it-needs-to-map-back-to-a-role/example-value.svg' | url }}">
 
 
@@ -94,6 +97,7 @@ A text input field built by using a [semantically neutral `<div>` element](https
 <img
   role="img"
   alt="A text input field with a label called, “What is your favorite kind of soup?” and user-provided input of “french onion.” Following it is code that uses a paragraph element to create the label and a div with a contenteditable attribute and class called “input” declared on it. An arrow pointing to the div demonstrates how it provides the faux text input with a role of section. The name portion of the accessible computed properties is null, and the value is unknown."
+  loading="lazy"
   src="{{ '/img/posts/it-needs-to-map-back-to-a-role/example-non-semantic.svg' | url }}">
 
 ## Not meeting 4.1.2

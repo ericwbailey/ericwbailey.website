@@ -93,6 +93,7 @@ As mentioned earlier, redesigns are political. Since 404 pages are seen as fun, 
   aria-label="Source: Bill Buckner is the butt of painfully funny 404 error page - Network World.">
   <img
     alt="Sorry, this one's an error. The page you requested has either moved or been deleted. Below is a black and white photo Red Sox first baseman Bill Buckner bending over to catch a ground ball rolling towards him. Behind him is a referee. Screenshot."
+    loading="lazy"
     src="{{ '/img/posts/how-to-make-an-ineffective-404-page/boston-dot-com-old-404.png' | url }}" />
   <figcaption>
     <span class="typography-small-caps">Source:</span> <a href="https://www.networkworld.com/article/2226759/bill-buckner-is-the-butt-of-painfully-funny-404-error-page.html"> Bill Buckner is the butt of painfully funny 404 error page</a> - Network World.
@@ -183,6 +184,7 @@ For me, it was a question of diminishing returns. I do think part of a designer�
   aria-label="Bold move to include a banner ad.">
   <img
     alt="A yellow warning sign labeled “404”. This page isn't the first thing to get lost in Boston. Keep calm and return to the previous page. To report an issue, please contact us at feedback@boston.com. Screenshot."
+    loading="lazy"
     src="{{ '/img/posts/how-to-make-an-ineffective-404-page/boston-dot-com-new-404.png' | url }}" />
   <figcaption>
     Bold move to include a banner ad.

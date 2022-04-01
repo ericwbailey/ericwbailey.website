@@ -28,6 +28,7 @@ Each humanoid robot is the “boss” of its own level, and has a theme that dic
   aria-label="Heat Man, Mega Man Ⅱ.">
   <img
     alt="Get equipped with Atomic Fire. Screenshot."
+    loading="lazy"
     src="{{ '/img/posts/in-defense-of-mega-man-boss-lairs/mega-man-2-heat-man.png' | url }}" />
   <figcaption>
     Heat Man, Mega Man Ⅱ.
@@ -45,6 +46,7 @@ The lairs are, frankly, ridiculous. Each one is a labyrinthine, chaotic maze of 
   aria-label="This sure is a lot of snake. Snake Man, Mega Man Ⅲ.">
   <img
     alt="Three menacing robotic snake heads on a set of stairs made out of robotic snake bodies. Screenshot."
+    loading="lazy"
     src="{{ '/img/posts/in-defense-of-mega-man-boss-lairs/mega-man-3-snake-man.png' | url }}" />
   <figcaption>
     This sure is a lot of snake. Snake Man, Mega Man Ⅲ.
@@ -66,6 +68,7 @@ The world of Mega Man still has humans. Mega Man’s creator, Dr. Light, is a <i
   aria-label="Mega Man Ⅴ.">
   <img
     alt="An idyllic futuristic city at sunset. Screenshot."
+    loading="lazy"
     src="{{ '/img/posts/in-defense-of-mega-man-boss-lairs/mega-man-5-city.png' | url }}" />
   <figcaption>
     Mega Man Ⅴ.

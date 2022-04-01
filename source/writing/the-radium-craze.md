@@ -33,6 +33,7 @@ Radium’s most obvious property is its luminosity. It glows with a distinct, ee
   aria-label="Source: Radium Dials by Arma95 on Wikimedia Commons">
   <img
     alt="A glowing green watch dial floating in blackness."
+    loading="lazy"
     src="{{ '/img/posts/the-radium-craze/radium-dial.jpg' | url }}" />
   <figcaption>
     <span class="typography-small-caps">Source:</span> <a href="https://commons.wikimedia.org/wiki/File:Radium_Dial.jpg">Radium Dials by Arma95</a> on Wikimedia Commons.
@@ -64,6 +65,7 @@ Perhaps the most infamous radium product was Radithor, a beverage created by Bai
   aria-label="Source: Radium Dials by Arma95 on Wikimedia Commons">
   <img
     alt="A bottle of Radithor sitting in front of a paper advertisement for it. The Radithor bottle's label indicates that it is certified radioactive water."
+    loading="lazy"
     src="{{ '/img/posts/the-radium-craze/radithor.jpg' | url }}" />
   <figcaption>
     <span class="typography-small-caps">Source:</span> <a href="https://afistfulofneurons.com/radium-water-radithor/">“The Radium Water Worked Fine Until His Jaw Came Off”</a>.

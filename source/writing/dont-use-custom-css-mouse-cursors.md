@@ -76,6 +76,7 @@ In the past, I’d see custom cursors applied to tumblr and Myspace themes, Geoc
   aria-label="Shout-out to my misspent youth.">
   <img
     alt="A stylized cursor that looks like a severed, bloody hand. Above it are menu options for 'File', 'CPU', 'View', 'Settings', and 'Misc.' Screenshot."
+    loading="lazy"
     src="{{ '/img/posts/dont-use-custom-css-mouse-cursors/nesticle.png' | url }}" />
   <figcaption>
     Shout-out to my misspent youth.

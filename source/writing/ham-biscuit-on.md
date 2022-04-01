@@ -26,6 +26,7 @@ There is a tweet from a suspended Twitter user that shows a “ham biscuit sign�
   aria-label="Source: Reddit.">
   <img
     alt="Tweet by riley, Twitter username of @stabbityjoe: 'went to a mcdonalds and they just jad a random sign next to the drive through speaker flashing the words “ham biscuit” and i can't think of legitimate reason for why it exists. Tweet posted on Febrary 7th, 2020 at 10:21 PM via Twitter for iPhone."
+    loading="lazy"
     src="{{ '/img/posts/ham-biscuit-on/tweet.png' | url }}" />
   <figcaption>
     Source: <a href="https://www.reddit.com/r/WhitePeopleTwitter/comments/f1af77/hmmmmm/">Reddit</a>.
@@ -106,9 +107,11 @@ The overall effects these two broad types of inconsistency creates are confusion
   <div class="side-by-side">
     <img
       alt="Login form for WordPress showing the WordPress logo, a Username or Email Address label and input, a Password label and input, a Remember Me checkbox, and a Log In button. The Password input has an open eye icon. Screenshot."
+      loading="lazy"
       src="{{ '/img/posts/ham-biscuit-on/login-wordpress.png' | url }}" />
     <img
       alt="Login form for Gmail showing the Google logo, the text, 'Hi, Firstname', an account picker with the label 'email.address@gmail.com', an input field with the placeholder text of 'Enter your password', a checkbox labeled 'Show password', a link named 'Forgot password?', and Next button. Screenshot"
+      loading="lazy"
       src="{{ '/img/posts/ham-biscuit-on/login-gmail.png' | url }}" />
     </div>
   <figcaption>
@@ -124,6 +127,7 @@ To fix the ham biscuit sign, we need to [be more obvious](https://www.lukew.com/
 
 <img
     alt="Text and a checkmark icon glowing neon green on a dark gray background. The text reads, 'Ham biscuits available'."
+    loading="lazy"
     src="{{ '/img/posts/ham-biscuit-on/ham-biscuits-available.png' | url }}" />
 
 It’s a bit of a balancing act, in that you want that sweet spot of just enough information to remove ambiguity without totally overwhelming someone.
