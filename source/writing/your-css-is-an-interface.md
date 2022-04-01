@@ -60,7 +60,7 @@ Let’s also not forget support networks. Has a coworker shared a little tip wit
 For the most part, CSS’ properties and values are easy for a layperson to understand. `background-color` communicates its purpose in a straightforward manner, and a value of `#f78cd2` isn’t too hard to figure out, especially when browsers show you a little sample alongside the declaration.
 
 <img
-  alt="![Declarations for a card title class. The color property's value has a pink preview swatch that matches the supplied hex code. Screenshot of Chrome's inspect tool."
+  alt="Declarations for a card title class. The color property's value has a pink preview swatch that matches the supplied hex code. Screenshot of Chrome's inspect tool."
   loading="lazy"
   src="{{ '/img/posts/your-css-is-an-interface/browser-inspector-color-preview.png' | url }}" />
 
