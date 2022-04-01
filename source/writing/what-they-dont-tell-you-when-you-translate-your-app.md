@@ -72,6 +72,7 @@ Many sites that offer a translated experience do so via Google Translate, or ano
   aria-label="Every sign tells a story.">
   <img
     alt="A dropdown labeled “Select language, powered by Google Translate.” Below it is a link that reads “Disclaimer.” Screenshot."
+    loading="lazy"
     src="{{ '/img/posts/what-they-dont-tell-you-when-you-translate-your-app/select-language.png' | url }}" />
   <figcaption>
     <p>Every sign tells a story.</p>
@@ -223,6 +224,7 @@ There was an attempt to create a universal icon with [the Language Icon Project]
     role="img"
     alt="Two intersecting cards, one colored white and featuring an Asian-looking glyph and one colored black with an English capital letter A. Below the two cards is a curved arrow pointing left to right."
     class="centered-media-inner-1 margin-bottom-1"
+    loading="lazy"
     src="{{ '/img/posts/what-they-dont-tell-you-when-you-translate-your-app/language-project.svg' | url }}" />
 </div>
 
@@ -237,6 +239,7 @@ You may now be thinking, “Aha! I can just use a globe, then!” The problem he
     role="img"
     alt="The old Facebook notification icon, a white globe on a blue background. A red bage with the number 1 indicates there is an unread notification."
     class="centered-media-inner-1 margin-bottom-1"
+    loading="lazy"
     src="{{ '/img/posts/what-they-dont-tell-you-when-you-translate-your-app/facebook-notifications.svg' | url }}" />
 </div>
 
@@ -278,6 +281,7 @@ If you support many languages and space is at a premium, a hybrid approach is to
   role="img"
   alt="A button with a globe icon that is labeled “Translate.” Below the label is a sub-label that reads, “Translate. Español, 中文, Tiếng Việt +5 more.”"
   class="centered-media-inner-2"
+  loading="lazy"
   src="{{ '/img/posts/what-they-dont-tell-you-when-you-translate-your-app/translate-button.svg' | url }}" />
 </div>
 
@@ -307,6 +311,7 @@ Visual design also does a lot of work to help create these positive or negative 
   aria-label="Every sign tells a story.">
   <img
     alt="A poorly-designed government website with nonsensical inputs, a broken Java map applet, and Microsoft Word clipart. Each section of the site is contained in an iframe. Screenshot."
+    loading="lazy"
     src="{{ '/img/posts/what-they-dont-tell-you-when-you-translate-your-app/kentucky-superload-restriction-information-management.png' | url }}" />
   <figcaption>
     <p>Witness the glory that is the <a href="https://kyowod.kytc.ky.gov/Restrictions/restrictions.htm">Kentucky Transportation Cabinet Superload Restriction Information Management</a>'s website.</p>

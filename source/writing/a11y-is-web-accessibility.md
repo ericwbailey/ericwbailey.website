@@ -45,6 +45,7 @@ First off, we need to establish what a11y is. It is a numeronym that stands for 
 
 <img
   alt="Google search results for, “what does a11y mean”. The first result a structured data reply, taken from Wikipedia and the article, “What Does A11Y Even Mean?” by Matt D. Smith. It’s description reads, “Accessibility is often abbreviated as the numeronym a11y, where the number 11 refers to the number of letters omitted. This parallels the abbreviations of internationalization and localization as i18n and l10n respectively.” The image comes from Matt D. Smith’s article and shows how the term “a11y” is formed from the word “accessibility.”."
+  loading="lazy"
   src="{{ '/img/posts/a11y-is-web-accessibility/a11y-google-result.png' | url }}" />
 
 Numeronyms aren’t new, nor are they something foreign to the industry. To name a few:

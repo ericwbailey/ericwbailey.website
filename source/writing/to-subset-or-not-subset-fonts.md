@@ -93,6 +93,7 @@ This is also why I’m wary of approaches that [subset fonts based on what chara
   aria-label="Oh no.">
   <img
     alt="Screenshot of the Netflix homepage. Each letter has been replaced by a square tofu glyph character."
+    loading="lazy"
     src="{{ '/img/posts/to-subset-or-not-subset-fonts/netflix.png' | url }}" />
   <figcaption>
     Oh no.

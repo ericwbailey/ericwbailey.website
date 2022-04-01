@@ -47,6 +47,7 @@ The idea here is we collectively decide that each component only uses one measur
     class="centered-media-inner-2"
     role="img"
     alt="A card component with a light blue rectangle placed on top, indicating a set amount of vertical spacing."
+    loading="lazy"
     src="{{ '/img/posts/where-do-you-put-spacing-on-design-system-components/single-space-value.svg' | url }}">
 </div>
 
@@ -63,6 +64,7 @@ The idea here is the space on top of each component is a toggleable set of dista
 <img
   role="img"
   alt="Three card components with a light blue rectangle placed on top of each. Each rectangle has a different height, indicating predefined range of vertical spacing values."
+  loading="lazy"
   src="{{ '/img/posts/where-do-you-put-spacing-on-design-system-components/space-prop.svg' | url }}">
 
 This is my preferred approach! Threading spacing abstraction into a component in a systemized way like this tightly couples vertical spacing with each component instance.
@@ -80,7 +82,8 @@ Sketch exposes variants as submenus, so it takes a lot of digging to get what yo
   aria-label="This is a simplified example and it’s already too awkward.">
   <img
     role="img"
-    alt="TBD"
+    alt="Far too many branching options."
+    loading="lazy"
     src="{{ '/img/posts/where-do-you-put-spacing-on-design-system-components/sketch.svg' | url }}">
   <figcaption>
     This is a simplified example and it’s already too awkward.
@@ -97,6 +100,7 @@ Compare this to Figma, which exposes this information in a far more ergonomic wa
     <img
       role="img"
       alt="A compact component panel, showing four property dropdowns and their currently selected values. The properties and their values are: variant and primary, mode and light, state and default, and spacing and small."
+      loading="lazy"
       src="{{ '/img/posts/where-do-you-put-spacing-on-design-system-components/figma.svg' | url }}">
     <figcaption>
       Ahhh, that’s the stuff.
@@ -119,6 +123,7 @@ Here's how Sketch’s hierarchal component nesting approach compares to Figma’
     <img
       role="img"
       alt="An extremely tall mind map. The parent node is labeled Sketch Button Component, and has child nodes 6 levels deep. The 6 node levels are priority, icon, light/dark mode, state, on light/dark, and then space on top. There are hundreds of nodes due to the branching complexity."
+      loading="lazy"
       src="{{ '/img/posts/where-do-you-put-spacing-on-design-system-components/sketch-mind-map-thumbnail.png' | url }}">
     </a>
   <figcaption>
@@ -136,6 +141,7 @@ Here's how Sketch’s hierarchal component nesting approach compares to Figma’
     <img
       role="img"
       alt="An extremely tall mind map. The parent node is labeled Figma Button Component, and has child nodes 6 levels deep. The 6 node levels are priority, icon, light/dark mode, state, on light/dark, and then space on top. There are hundreds of nodes due to the branching complexity."
+      loading="lazy"
       src="{{ '/img/posts/where-do-you-put-spacing-on-design-system-components/figma-mind-map.png' | url }}">
     <figcaption>
       A far shallower surface area that still gets you what you want.
@@ -150,6 +156,7 @@ Since component props are off the table, the only real sensible thing to do is c
 <img
   role="img"
   alt="8 light blue squares whose sizes proportionately scale upward in size."
+  loading="lazy"
   src="{{ '/img/posts/where-do-you-put-spacing-on-design-system-components/spacer-components.svg' | url }}">
 
 Designers can then take these spacing components and use them to “Lego” components on a design together. This approach:

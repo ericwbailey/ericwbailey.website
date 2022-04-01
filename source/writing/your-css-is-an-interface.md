@@ -24,6 +24,7 @@ My partner is learning Japanese using the Duolingo app. They’ve been dutifully
   <img
     alt="Three buttons displaying options to try and match the phonetic spelling of the word “evening” in Japanese. The button’s background color is black, and their text is a dark gray. At the top of the screen is the prompt, “What sound does this make?” Screenshot of the Duolingo app."
     class="centered-media-inner-3"
+    loading="lazy"
     style="border: var(--scale0) solid var(--color-type-tint);"
     src="{{ '/img/posts/your-css-is-an-interface/duolingo-screenshot.png' | url }}" />
 </div>
@@ -58,7 +59,10 @@ Let’s also not forget support networks. Has a coworker shared a little tip wit
 
 For the most part, CSS’ properties and values are easy for a layperson to understand. `background-color` communicates its purpose in a straightforward manner, and a value of `#f78cd2` isn’t too hard to figure out, especially when browsers show you a little sample alongside the declaration.
 
-![Declarations for a card title class. The color property's value has a pink preview swatch that matches the supplied hex code. Screenshot of Chrome's inspect tool.]({{ '/img/posts/your-css-is-an-interface/browser-inspector-color-preview.png' | url }})
+<img
+  alt="![Declarations for a card title class. The color property's value has a pink preview swatch that matches the supplied hex code. Screenshot of Chrome's inspect tool."
+  loading="lazy"
+  src="{{ '/img/posts/your-css-is-an-interface/browser-inspector-color-preview.png' | url }}" />
 
 Similarly, someone may not know what a `rem` is, but it is pretty easy to piece together that changing a value of `1rem` to `2rem` on a declaration of `margin-top` will increase the space on top of something.
 

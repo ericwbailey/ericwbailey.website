@@ -51,6 +51,7 @@ Because of this, you need to craft a taxonomical structure that leads to results
 
 <img
   alt="A tree-style mind map. The initial node is State. Branching off of it are Resting, Hover, Active, Focus, Disabled, Read-only, and Loading children nodes. Each of the children nodes have on light and on dark background nodes. Each of the light and dark background nodes have Light Mode active, Dark Mode active, and Forced Colors mode active nodes."
+  loading="lazy"
   src="{{ '/img/posts/the-case-for-adding-validation-state-to-your-design-tokens/state-token-flowchart.png' | url }}">
 
 This kind of codification is desirable because it creates:
@@ -73,6 +74,7 @@ Mature token names are long, because they represent a ton of underlying abstract
   role="img"
   class="centered-media-inner-4"
   alt="An input component with a label, hint, and text input field. Inside the text input field is an icon and input text. An arrow pointing at the text input field's border is labeled input border color."
+  loading="lazy"
   src="{{ '/img/posts/the-case-for-adding-validation-state-to-your-design-tokens/input-border.svg' | url }}">
 </div>
 
@@ -200,6 +202,7 @@ The design systems I work on have feedback-level considerations, so this definit
   role="img"
   class="centered-media-inner-4"
   alt="An input component with a label, hint, and text input field. Inside the text input field is an icon and input text. Below the input is an error icon and validation text. The label, input border, and validation text are colored dark red. An arrow pointing at the text input field's border is labeled input border color."
+  loading="lazy"
   src="{{ '/img/posts/the-case-for-adding-validation-state-to-your-design-tokens/input-border-invalid.svg' | url }}">
 </div>
 
@@ -212,6 +215,7 @@ Consider the following situation, where an invalid text input has a hover effect
   role="img"
   class="centered-media-inner-4"
   alt="An input component with a label, hint, and text input field. Inside the text input field is an icon and input text. Below the input is an error icon and validation text. The label, and validation text are colored dark red. A cursor is hovering over the text input field, and the border color is now light red. An arrow pointing at the text input field's border is labeled input border color."
+  loading="lazy"
   src="{{ '/img/posts/the-case-for-adding-validation-state-to-your-design-tokens/input-border-invalid-hover.svg' | url }}">
 </div>
 
@@ -226,6 +230,7 @@ Remember: we want to whittle down our potential futures as much as possible.
   role="img"
   class="centered-media-inner-4"
   alt="A portion of a token labelled Validation, with arrows showing where it could potentially thread into the existing token structure."
+  loading="lazy"
   src="{{ '/img/posts/the-case-for-adding-validation-state-to-your-design-tokens/where-to-place.svg' | url }}">
 </div>
 
