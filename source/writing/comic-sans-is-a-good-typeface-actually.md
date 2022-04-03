@@ -18,6 +18,9 @@ furtherReading:
   - title: "Comic Mono"
     source: "Thai Pangsakulyanont"
     url: https://dtinth.github.io/comic-mono-font/
+  - title: "Type Tuesday: Two Polarizing Typefaces Combine in Comic Helvetic"
+    source: "PRINT Magazine"
+    url: https://www.printmag.com/type-tuesday/type-tuesday-comic-helvetic/
 inlineStyles: true
 tweet: https://twitter.com/ericwbailey/status/1496499961307054088
 share:
