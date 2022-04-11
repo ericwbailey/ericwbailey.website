@@ -19,7 +19,7 @@ eleventyNavigation:
   order: 30
 ---
 
-There is a tweet from a suspended Twitter user that shows a “ham biscuit sign” in its dark and lit-up state. Here’s a screenshot of the tweet:
+There is a tweet from a suspended Twitter user that shows a “ham biscuit sign” in its dark and lit-up state. Here’s a screenshot of it:
 
 <figure
   role="figure"
@@ -33,7 +33,7 @@ There is a tweet from a suspended Twitter user that shows a “ham biscuit sign�
   </figcaption>
 </figure>
 
-The sign is used to indicate if that particular McDonalds had [Country Ham Biscuits](https://national.restaurant/mcdonalds-country-ham-biscuit) left in stock. Presumably, they’re a popular enough menu item that installing the sign saves both people ordering and the people working time and anguish.
+The sign is used to indicate if that particular McDonald’s had [Country Ham Biscuits](https://national.restaurant/mcdonalds-country-ham-biscuit) left in stock. Presumably, they’re a popular enough menu item that installing the sign saves both people ordering and working at at McDonald’s time and anguish.
 
 The Ham Biscuit sign is also absurd. It features as a recurring joke in one of the Slack groups I participate in, enough to warrant creating custom emoji for it:
 
@@ -77,7 +77,7 @@ The other wrinkle is the sign [blinks](https://en.m.wikipedia.org/wiki/Blinkenli
 - A GPS device indicating it is searching for a signal,
 - etc.
 
-Big-picture, most these flashing lights means a change in normal operating mode, which further muddies the waters of what the heck is going on in ham biscuit land. “Most” is the operative word in the previous sentence, in that not every example is a change in operating mode.
+Big-picture, most these flashing lights means a change in normal operating mode, which further muddies the waters of what the heck is going on in ham biscuit land. “Most” is the operative word in the previous sentence, in that not every example actually does indicate a change in operating mode.
 
 To quote another friend on the Slack:
 
@@ -89,11 +89,11 @@ To quote another friend on the Slack:
 
 Okay, okay, okay, okay. This is ridiculous. But it’s also the point.
 
-The problem is we don’t know the initial state of the ham biscuit sign and who it is intended for. We can make assumptions, but it is guesswork to address unnecessary ambiguity. The only real way to actually know is to enter the McDonalds and verify if our guesses are true.
+The problem is we don’t know the initial state of the ham biscuit sign and who it is intended for. We can make assumptions, but it is guesswork to address unnecessary ambiguity. The only real way to actually know is to enter the McDonald’s and verify if our guesses are true.
 
 ## The state of things
 
-How many virtual meetings have you been on during quarantine where you had a panicky moment trying to [figure out if you were muted or not](https://www.viget.com/articles/unsolved-zoom-mysteries/)? How many pieces of UI have you encountered where you weren’t sure if taking action would start or stop something? How many times has pushing that button irrevocably altered or destroyed something?
+How many virtual meetings have had during quarantine where you had a panicky moment trying to [figure out if you were muted or not](https://www.viget.com/articles/unsolved-zoom-mysteries/)? How many pieces of UI have you encountered where you weren’t sure if taking action would start or stop something? How many times has pushing that button irrevocably altered or destroyed something?
 
 It’s a tough problem, and part of it is that there’s very little external consistency. Video Chat App A might indicate state one way, [while Video Chat App B uses a completely different approach](https://daverupert.com/2019/04/anthology-of-mute-buttons-in-chat-apps/).
 
@@ -149,7 +149,7 @@ The other part of this problem is we don’t truly know the circumstances of wha
 - How permanent the sign is intended to be,
 - etc.
 
-Only by [talking to people](https://abookapart.com/products/just-enough-research) can we actually know the true scope of the issue. Doing so highlights the actual motivations, uncovers the actual problems to address, and de-risks potential solutions. Without this crucial step, anything we produce is conjecture.
+Only by [talking to people](https://abookapart.com/products/just-enough-research) can we actually know the true scope of the issue. Doing so highlights the actual motivations, uncovers the actual problems to address, and de-risks potential solutions. Without this crucial step, anything we produce is solutioneering conjecture.
 
 ## Ham biscuit sign is the floor, not the ceiling
 
