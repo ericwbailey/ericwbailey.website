@@ -11,7 +11,8 @@ tags:
   - Development
 attribution: "Thank you to <a href='https://www.kathleenmcmahon.dev/'>Kathleen McMahon</a> for the inspiration for this post."
 responses:
-  - title: "Ordering CSS Declarations "
+  - title: "Ordering CSS Declarations"
+    name: "Jim Nielsen"
     url: https://blog.jim-nielsen.com/2022/ordering-css-delcarations/
 tweet: https://twitter.com/ericwbailey/status/1407017945490935813
 eleventyNavigation:
