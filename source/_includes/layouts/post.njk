@@ -71,6 +71,17 @@ templateClass: template-posts
       </aside>
       {% endif %}
 
+      {% if responses %}
+      <h2 id="responses">
+        Responses
+      </h2>
+      {% for response in responses %}
+      <p>
+        <a href="{{ response.url }}">{{ response.title | safe }}</a>, by {{ response.name }}
+      </p>
+      {% endfor %}
+      {% endif %}
+
       {% if translations %}
       <h2 id="translations">
         Translations
