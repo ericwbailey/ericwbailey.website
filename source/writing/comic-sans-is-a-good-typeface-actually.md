@@ -21,6 +21,9 @@ furtherReading:
   - title: "Type Tuesday: Two Polarizing Typefaces Combine in Comic Helvetic"
     source: "PRINT Magazine"
     url: https://www.printmag.com/type-tuesday/type-tuesday-comic-helvetic/
+  - title: "Best Font for Online Reading: No Single Answer"
+    source: "Nielsen Norman Group"
+    url: https://www.nngroup.com/articles/best-font-for-online-reading/
 inlineStyles: true
 tweet: https://twitter.com/ericwbailey/status/1496499961307054088
 share:
