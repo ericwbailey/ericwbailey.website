@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Design updates
 - Performance optimizations
 
+## v1.5.18 - 2022-04-28
+- Add [All the user-facing states](https://ericwbailey.design/writing/all-the-user-facing-states/)
+
 ## v1.5.17 - 2022-03-29
 - Add [#WorstWorkWednesday](https://ericwbailey.design/writing/worstworkwednesday/)
 - Add `#` to slugified content
