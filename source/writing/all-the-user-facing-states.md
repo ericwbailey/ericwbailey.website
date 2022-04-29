@@ -51,7 +51,7 @@ It should also not be confused with size, context, mode, and other design tokena
 
 ### Validation
 
-Validation is often lumped in with state—[I feel this is a mistake](https://ericwbailey.design/writing/the-case-for-adding-validation-state-to-your-design-tokens/). For completeness’ sake, here’s validation conditions that can augment state.
+Validation is often lumped in with state—[I feel this is a mistake](https://ericwbailey.design/writing/the-case-for-adding-validation-state-to-your-design-tokens/). For completeness’ sake, here’s validation conditions that can augment state:
 
 #### Valid
 
@@ -116,6 +116,10 @@ An element is marked for sending as data to another internal or external resourc
 ### Unchecked
 
 A Checked element that is no longer marked as wanting to be sent as data to another internal or external resource.
+
+### Indeterminate
+
+An Indeterminate element is triggered on a parent element when some, but not all children elements are placed in a Checked state (thanks to [Kilian Valkhof](https://kilianvalkhof.com/) for the suggestion).
 
 ### Selected
 
