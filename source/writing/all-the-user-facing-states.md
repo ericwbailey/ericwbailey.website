@@ -11,7 +11,7 @@ tags:
   - Design Systems
   - Development
   - HTML
-tweet: TK
+tweet: https://twitter.com/ericwbailey/status/1520040337774886912
 share:
   facebookDescription: "A hand cursor hovering over the phrase 'eric w. bailey'. The phrase is underlined."
   twitterDescription: "A hand cursor hovering over the letter E. The letter is underlined."
