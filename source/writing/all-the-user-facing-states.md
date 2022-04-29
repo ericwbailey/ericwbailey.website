@@ -11,7 +11,7 @@ tags:
   - Design Systems
   - Development
   - HTML
-tweet: TK
+tweet: https://twitter.com/ericwbailey/status/1520040337774886912
 share:
   facebookDescription: "A hand cursor hovering over the phrase 'eric w. bailey'. The phrase is underlined."
   twitterDescription: "A hand cursor hovering over the letter E. The letter is underlined."
@@ -101,6 +101,10 @@ An element has fetched data from another internal or external resource and indic
 
 An element has had its interactivity conditionally removed.
 
+### Hidden
+
+An element has been completely removed. It cannot be visually seen or accessed via assistive technology.
+
 ### Readonly
 
 Indicates element content that can only be read, and not interacted with.
@@ -155,7 +159,7 @@ An editable element has yet to be manipulated by someone.
 
 ### Saving
 
-An editable element in a Dirty state where someone signals that their changes should be captured. Once the changes are successfully captured it reverts back to a Pristine state.
+An indeterminate state. It is triggered when an editable element in a Dirty state, where someone signals that their changes should be captured. Once the changes are successfully captured it reverts back to a Pristine state.
 
 ## Did I miss something?
 
