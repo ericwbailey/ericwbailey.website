@@ -137,6 +137,10 @@ A Selected element that has had its selection removed. Elements that can be Sele
 
 An element has been Selected and is being moved to another location.
 
+### Dropped
+
+A Dragged element is placed in a new location (thanks to [Austin Gil](https://twitter.com/heyAustinGil/status/1520068536521019392)).
+
 ### Collapsed
 
 An element is hiding the bulk of its content.
@@ -145,9 +149,9 @@ An element is hiding the bulk of its content.
 
 An element is showing all of its collapsed content.
 
-### Resized
+### Resizing
 
-An element has had its height or width increased or decreased.
+An element has its height or width increased or decreased.
 
 ### Dirty
 
@@ -161,6 +165,34 @@ An editable element has yet to be manipulated by someone.
 
 An indeterminate state. It is triggered when an editable element in a Dirty state, where someone signals that their changes should be captured. Once the changes are successfully captured it reverts back to a Pristine state.
 
+### Overflowing
+
+A child element's visual content is partially obscured by a parent element that restricts its height or width (thanks to [Dave Rupert](https://twitter.com/davatron5000/status/1520041666945683456)).
+
+### Scrolling
+
+A child element is panning horizontally or vertically (thanks to [Dave Rupert](https://twitter.com/davatron5000/status/1520041666945683456)).
+
+### Playing
+
+An element is actively presenting prerecorded media or animation (thanks to [Austin Gil](https://twitter.com/heyAustinGil/status/1520068536521019392)).
+
+### Paused
+
+Prerecorded media or animation an element is Playing is temporarily halted (thanks to [Austin Gil](https://twitter.com/heyAustinGil/status/1520068536521019392)).
+
+### Stopped
+
+Prerecorded media or animation an element is playing reverted back to its start position.
+
+### Sticky
+
+An element attaches itself to the side of the viewport opposite the direction someone scrolls and does not move out of view along with its surrounding content (thanks to [LukaJ](https://twitter.com/ejnfoh_cehok/status/1521208805413040129)).
+
+### Unstuck
+
+A Sticky element is removed from the side of the viewport and moved back to its original position.
+
 ## Did I miss something?
 
-Let me know!
+[Let me know](https://twitter.com/ericwbailey/status/1520040337774886912)!
