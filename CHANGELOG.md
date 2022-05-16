@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Design updates
 - Performance optimizations
 
+## v1.5.19 - 2022-05-17
+- Add [The optics of pair programming](https://ericwbailey.design/writing/the-optics-of-pair-programming/)
+
 ## v1.5.18 - 2022-04-28
 - Add [All the user-facing states](https://ericwbailey.design/writing/all-the-user-facing-states/)
 
