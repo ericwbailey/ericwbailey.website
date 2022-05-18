@@ -9,7 +9,8 @@ tags:
   - Approach
   - Development
 attribution: "Thank you to <a href='https://appallingfarrago.com/'>Matt Sumner</a> and my other former thoughtbot coworkers for the input, feedback, and pairing help."
-tweet: TK
+tweet: https://twitter.com/ericwbailey/status/1526563868063023106
+toot: https://mastodon.technology/web/@ericwbailey/108317650810986888
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}
@@ -34,15 +35,15 @@ There are some subtle, below-the-surface aspects to an offer to pair. I’ve had
 
 ### Leverage
 
-thoughtbot offers consulting services, and these services aren't cheap. When a thoughtbot employee asks a client to pair, there are some unspoken power dynamics at play:
+thoughtbot offers consulting services, and these services aren't cheap. When a thoughtbot employee asks a client to pair, there are some unspoken power dynamics at play. A consultant
 
-- Consultants are typically brought in because something isn't going well.
-- A consultant operates largely independent of the client’s bureaucracy and has the latitude to use their workflows and tooling.
-- A consultant’s time is expensive.
+- Is typically brought in because something isn't going well.
+- Operates largely independent of the client’s bureaucracy and has the latitude to use their workflows and tooling.
+- Costs a lot.
 
 From a client’s perspective, it may be hard to say no to a request to pair knowing these circumstances, even if the offer is coming from a good place. This is especially relevant if the client does not have an existing pairing culture.
 
-On the flip side, this nuance can be easy to miss by the consultant doing the asking, and we didn't always stop to consider these dynamics. Moreover, we had internalized thoughtbot's pairing culture. Making an offer to pair is on a level playing field—a good faith gesture taken at face value.
+On the flip side, this nuance can be easy to miss by the consultant doing the asking, and we didn't always stop to consider these dynamics. Moreover, we had internalized thoughtbot's pairing culture. Making an offer to pair is on a level playing field—a good faith gesture made at face value.
 
 Only now I realize it might have unintentionally left the client developer or designer feeling uncomfortable, defensive, and powerless about the entire affair.
 
@@ -52,7 +53,7 @@ The same applies to internal politics, where you can substitute “consultant”
 
 When making an offer to pair, a common interpretation is an indirect negative assessment of someone's ability.
 
-Things can get very uncomfortable if the offer to pair is coming from observed behavior. This is magnified if the person you’ve offered to pair with is new to the industry—practice caution as the request might be interpreted as needing to "clean up" their work.
+Things can get very uncomfortable if the offer to pair is coming from observed behavior. This is magnified if the person you’ve offered to pair with is new to the industry or role—practice caution as the request might be interpreted as needing to "clean up" their work.
 
 The reverse is also true. Without a healthy pairing culture, asking to pair can be seen as lacking skill and not being up to the job.
 
