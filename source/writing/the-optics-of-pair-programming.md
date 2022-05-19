@@ -36,7 +36,7 @@ There are some subtle, below-the-surface aspects to an offer to pair. I’ve had
 
 ### Leverage
 
-thoughtbot offers consulting services, and these services aren't cheap. When a thoughtbot employee asks a client to pair, there are some unspoken power dynamics at play. A consultant
+thoughtbot offers consulting services, and these services aren't cheap. When a thoughtbot employee asks a client to pair, there are some unspoken power dynamics at play. A consultant:
 
 - Is typically brought in because something isn't going well.
 - Operates largely independent of the client’s bureaucracy and has the latitude to use their workflows and tooling.
