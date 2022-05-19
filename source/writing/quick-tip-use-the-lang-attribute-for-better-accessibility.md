@@ -9,7 +9,8 @@ year: 2018
   - Attributes
   - HTML
   - Localization
-tweet: https://twitter.com/ericwbailey/status/1062344766287953920
+sharedOn:
+  twitter: https://twitter.com/ericwbailey/status/1062344766287953920
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

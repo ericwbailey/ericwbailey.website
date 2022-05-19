@@ -9,7 +9,8 @@ tags:
   - Development
   - History
   - Performance
-tweet: https://twitter.com/ericwbailey/status/1298262696438018052
+sharedOn:
+  twitter: https://twitter.com/ericwbailey/status/1298262696438018052
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

@@ -12,7 +12,8 @@ tags:
 responses:
   - title: "Web Languages as Compile Targets"
     url: https://blog.jim-nielsen.com/2021/web-languages-as-compile-targets/
-tweet: https://twitter.com/ericwbailey/status/1349010116801155072
+sharedOn:
+  twitter: https://twitter.com/ericwbailey/status/1349010116801155072
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

@@ -25,7 +25,8 @@ furtherReading:
     source: "Nielsen Norman Group"
     url: https://www.nngroup.com/articles/best-font-for-online-reading/
 inlineStyles: true
-tweet: https://twitter.com/ericwbailey/status/1496499961307054088
+sharedOn:
+  twitter: https://twitter.com/ericwbailey/status/1496499961307054088
 share:
   facebookDescription: "Stylized script treatment of the words Eric W Bailey set in Comic Sans."
   twitterDescription: "Stylized script treatment of the letter E set in Comic Sans."

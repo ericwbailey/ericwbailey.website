@@ -7,7 +7,8 @@ date: 2021-04-07
 year: 2021
 tags:
   - IoT
-tweet: https://twitter.com/ericwbailey/status/1379815177693110282
+sharedOn:
+  twitter: https://twitter.com/ericwbailey/status/1379815177693110282
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

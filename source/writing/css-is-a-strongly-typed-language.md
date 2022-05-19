@@ -7,7 +7,8 @@ year: 2021
 tags:
   - CSS
   - Development
-tweet: https://twitter.com/ericwbailey/status/1382022821702930435
+sharedOn:
+  twitter: https://twitter.com/ericwbailey/status/1382022821702930435
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

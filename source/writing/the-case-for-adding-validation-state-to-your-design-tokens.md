@@ -22,7 +22,8 @@ furtherReading:
     source: "Frontside"
     url: https://frontside.com/blog/2021-01-15-design-tokens-and-components/
 inlineStyles: true
-tweet: https://twitter.com/ericwbailey/status/1500853354662088713
+sharedOn:
+  twitter: https://twitter.com/ericwbailey/status/1500853354662088713
 share:
   facebookDescription: "Stylized script treatment of the words Eric W Bailey on a light blue background."
   twitterDescription: "A design token icon on a light blue background."

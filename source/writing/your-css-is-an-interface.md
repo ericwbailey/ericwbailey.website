@@ -11,7 +11,8 @@ tags:
   - Development
   - Performance
 inlineStyles: true
-tweet: https://twitter.com/ericwbailey/status/1460633423756894208
+sharedOn:
+  twitter: https://twitter.com/ericwbailey/status/1460633423756894208
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

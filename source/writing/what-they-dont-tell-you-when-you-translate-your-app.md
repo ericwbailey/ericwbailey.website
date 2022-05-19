@@ -12,7 +12,8 @@ tags:
   - Performance
   - User Research
 attribution: "Thank you to <a href='https://twitter.com/codingchaos'>Sarah Higley</a> for her feedback."
-tweet: https://twitter.com/ericwbailey/status/1433791135999316000
+sharedOn:
+  twitter: https://twitter.com/ericwbailey/status/1433791135999316000
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

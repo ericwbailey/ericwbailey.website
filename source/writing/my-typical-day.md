@@ -8,7 +8,8 @@ year: 2021
 tags:
   - Personal
 attribution: "Here’s <a href='https://melchoyce.design/2021/02/18/my-typical-day/'>Mel's Typical Day</a>."
-tweet: https://twitter.com/ericwbailey/status/1362160101872779265
+sharedOn:
+  twitter: https://twitter.com/ericwbailey/status/1362160101872779265
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

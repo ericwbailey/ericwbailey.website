@@ -7,7 +7,8 @@ year: 2020
 tags:
   - Accessibility
   - Inclusion
-tweet: https://twitter.com/ericwbailey/status/1338863905485987840
+sharedOn:
+  twitter: https://twitter.com/ericwbailey/status/1338863905485987840
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

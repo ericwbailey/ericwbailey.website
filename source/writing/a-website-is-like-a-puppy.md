@@ -7,7 +7,8 @@ date: 2020-12-21
 year: 2020
 tags:
   - Internet
-tweet: https://twitter.com/ericwbailey/status/1341047183890669573
+sharedOn:
+  twitter: https://twitter.com/ericwbailey/status/1341047183890669573
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

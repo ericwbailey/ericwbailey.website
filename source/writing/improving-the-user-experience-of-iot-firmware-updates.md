@@ -7,7 +7,8 @@ year: 2016
 tags:
   - Design
   - IoT
-tweet: https://twitter.com/ericwbailey/status/798912619113545728
+sharedOn:
+  twitter: https://twitter.com/ericwbailey/status/798912619113545728
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

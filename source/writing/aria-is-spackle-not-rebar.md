@@ -9,7 +9,8 @@ tags:
   - ARIA
   - Assistive Technology
   - Development
-tweet: https://twitter.com/ericwbailey/status/928291257927000065
+sharedOn:
+  twitter: https://twitter.com/ericwbailey/status/928291257927000065
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

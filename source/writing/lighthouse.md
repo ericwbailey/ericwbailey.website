@@ -9,7 +9,8 @@ tags:
   - Accessibility
   - Development
 attribution: "Thank you to <a href='https://ethanmarcotte.com/'>Ethan Marcotte</a> for his thoughts and feedback."
-tweet: https://twitter.com/ericwbailey/status/1128665935827677184
+sharedOn:
+  twitter: https://twitter.com/ericwbailey/status/1128665935827677184
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

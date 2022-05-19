@@ -13,7 +13,8 @@ responses:
     name: "Alastair Campbell"
     url: https://alastairc.uk/2021/02/accessibility-auditing-and-pushing-for-more/
 attribution: "Thank you to <a href='https://twitter.com/soMelanieSaid'>Melanie Richards</a>, <a href='https://twitter.com/patrick_h_lauke'>Patrick H. Lauke</a>, and <a href='https://twitter.com/codingchaos'>Sarah Higley</a> for their feedback."
-tweet: https://twitter.com/ericwbailey/status/1359156773748420616
+sharedOn:
+  twitter: https://twitter.com/ericwbailey/status/1359156773748420616
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}
@@ -39,7 +40,6 @@ This is a thought I’ve been working through for awhile now. What really woke m
   frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-
 
 ## Destroy all monsters
 

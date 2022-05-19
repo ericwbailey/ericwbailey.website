@@ -9,8 +9,9 @@ tags:
   - Approach
   - Development
 attribution: "Thank you to <a href='https://appallingfarrago.com/'>Matt Sumner</a> and my other former thoughtbot coworkers for the input, feedback, and pairing help."
-tweet: https://twitter.com/ericwbailey/status/1526563868063023106
-toot: https://mastodon.technology/web/@ericwbailey/108317650810986888
+sharedOn:
+  mastodon: https://mastodon.technology/web/@ericwbailey/108317650810986888
+  twitter: https://twitter.com/ericwbailey/status/1526563868063023106
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

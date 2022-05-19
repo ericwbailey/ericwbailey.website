@@ -8,7 +8,8 @@ year: 2019
 tags:
   - Accessibility
   - History
-tweet: https://twitter.com/ericwbailey/status/1103043260631658497
+sharedOn:
+  twitter: https://twitter.com/ericwbailey/status/1103043260631658497
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

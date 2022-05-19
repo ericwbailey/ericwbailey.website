@@ -8,7 +8,8 @@ tags:
   - Accessibility
   - Design
   - Development
-tweet: https://twitter.com/ericwbailey/status/1488890147630419968
+sharedOn:
+  twitter: https://twitter.com/ericwbailey/status/1488890147630419968
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

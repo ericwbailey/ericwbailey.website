@@ -7,7 +7,8 @@ date: 2022-02-14
 year: 2022
 tags:
   - Personal
-tweet: https://twitter.com/ericwbailey/status/1493389530388443139
+sharedOn:
+  twitter: https://twitter.com/ericwbailey/status/1493389530388443139
 share:
   facebookDescription: "A cute stripey cat with white paws, a pink nose, and a red collar. He's staring up at the camera white sitting on top of a small knit ball."
   twitterDescription: "A cute stripey cat with white paws, a pink nose, and a red collar. He's staring up at the camera white sitting on top of a small knit ball."

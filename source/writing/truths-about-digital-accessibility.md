@@ -11,7 +11,8 @@ tags:
   - Development
   - Inclusion
 attribution: "Thank you to <a href='https://www.scottohara.me/'>Scott O'Hara</a> for his feedback."
-tweet: https://twitter.com/ericwbailey/status/1155871719179063296
+sharedOn:
+  twitter: https://twitter.com/ericwbailey/status/1155871719179063296
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

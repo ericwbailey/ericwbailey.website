@@ -9,7 +9,8 @@ tags:
   - Approach
   - Inclusion
   - Writing
-tweet: https://twitter.com/ericwbailey/status/1458851418752827394
+sharedOn:
+  twitter: https://twitter.com/ericwbailey/status/1458851418752827394
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

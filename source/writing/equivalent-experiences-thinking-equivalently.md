@@ -18,7 +18,8 @@ series:
   next:
     - title: "Mug handles"
       url: https://ericwbailey.design/writing/mug-handles/
-tweet: https://twitter.com/ericwbailey/status/1268915055443181568
+sharedOn:
+  twitter: https://twitter.com/ericwbailey/status/1268915055443181568
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

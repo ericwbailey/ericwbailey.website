@@ -11,7 +11,8 @@ tags:
   - Design
   - Inclusion
 inlineStyles: true
-tweet: https://twitter.com/ericwbailey/status/1395018716690145282
+sharedOn:
+  twitter: https://twitter.com/ericwbailey/status/1395018716690145282
 share:
   facebookDescription: "A hello kitty mouse cursor."
   twitterDescription: "A four by two grid of CSS cursors, including OS default, text edit bar, link pointer, move, open drag hand, zoom in, column resize, and cell."

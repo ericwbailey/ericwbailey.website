@@ -13,7 +13,8 @@ tags:
 tweetThread:
   - url: https://twitter.com/ericwbailey/status/1358831193303756800
     date: "February 8, 2021"
-tweet: https://twitter.com/ericwbailey/status/1430530742711463943
+sharedOn:
+  twitter: https://twitter.com/ericwbailey/status/1430530742711463943
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}
