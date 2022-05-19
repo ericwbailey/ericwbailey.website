@@ -8,7 +8,8 @@ tags:
   - Design
   - User Research
   - User Testing
-tweet: https://twitter.com/ericwbailey/status/1349739422774931456
+sharedOn:
+  twitter: https://twitter.com/ericwbailey/status/1349739422774931456
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

@@ -9,7 +9,8 @@ tags:
   - Assistive Technology
   - Development
   - User Queries
-tweet: https://twitter.com/ericwbailey/status/1222218608501235713
+sharedOn:
+  twitter: https://twitter.com/ericwbailey/status/1222218608501235713
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

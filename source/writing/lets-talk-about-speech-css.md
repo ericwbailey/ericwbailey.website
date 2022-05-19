@@ -8,7 +8,8 @@ tags:
   - Accessibility
   - Assistive Technology
   - CSS
-tweet: https://twitter.com/ericwbailey/status/884798507516915712
+sharedOn:
+  twitter: https://twitter.com/ericwbailey/status/884798507516915712
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

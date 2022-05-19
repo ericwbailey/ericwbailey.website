@@ -9,7 +9,8 @@ tags:
   - Inclusion
   - Subversion
 featured: true
-tweet: https://twitter.com/ericwbailey/status/1070686609639641089
+sharedOn:
+  twitter: https://twitter.com/ericwbailey/status/1070686609639641089
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

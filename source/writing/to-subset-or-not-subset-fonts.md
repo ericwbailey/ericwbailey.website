@@ -22,7 +22,8 @@ furtherReading:
   - title: "A font-display setting for slow connections - Web Performance Calendar"
     source: "Web Performance Calendar"
     url: https://calendar.perfplanet.com/2020/a-font-display-setting-for-slow-connections/
-tweet: https://twitter.com/ericwbailey/status/1386684694654328833
+sharedOn:
+  twitter: https://twitter.com/ericwbailey/status/1386684694654328833
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

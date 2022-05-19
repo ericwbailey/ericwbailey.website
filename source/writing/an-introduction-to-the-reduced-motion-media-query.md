@@ -10,7 +10,8 @@ tags:
   - CSS
   - Development
   - User Queries
-tweet: https://twitter.com/ericwbailey/status/830081994537177089
+sharedOn:
+  twitter: https://twitter.com/ericwbailey/status/830081994537177089
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

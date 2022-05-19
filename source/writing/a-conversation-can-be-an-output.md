@@ -9,7 +9,8 @@ tags:
   - Design
   - Design Sprints
   - User Testing
-tweet: https://twitter.com/ericwbailey/status/1374362887926525955
+sharedOn:
+  twitter: https://twitter.com/ericwbailey/status/1374362887926525955
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

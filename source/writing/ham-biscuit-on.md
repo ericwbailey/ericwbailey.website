@@ -9,7 +9,8 @@ tags:
   - Design
   - Food
 inlineStyles: true
-tweet: https://twitter.com/ericwbailey/status/1409513432248983556
+sharedOn:
+  twitter: https://twitter.com/ericwbailey/status/1409513432248983556
 share:
   facebookDescription: "went to a mcdonalds and they just jad a random sign next to the drive through speaker flashing the words “ham biscuit” and i can't think of legitimate reason for why it exists."
   twitterDescription: "A powered off ham biscuit sign."

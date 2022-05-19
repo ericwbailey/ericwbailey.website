@@ -10,7 +10,8 @@ tags:
   - Attributes
   - Focus
   - Development
-tweet: https://twitter.com/ericwbailey/status/1318195714543976448
+sharedOn:
+  twitter: https://twitter.com/ericwbailey/status/1318195714543976448
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

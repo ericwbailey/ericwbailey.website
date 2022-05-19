@@ -9,7 +9,8 @@ tags:
   - Development
   - IoT
   - Subversion
-tweet: https://twitter.com/ericwbailey/status/733704452394246144
+sharedOn:
+  twitter: https://twitter.com/ericwbailey/status/733704452394246144
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

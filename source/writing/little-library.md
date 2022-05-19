@@ -8,7 +8,8 @@ tags:
   - Design
   - Development
   - Hackathon
-tweet: https://twitter.com/ericwbailey/status/1084819722246459399
+sharedOn:
+  twitter: https://twitter.com/ericwbailey/status/1084819722246459399
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

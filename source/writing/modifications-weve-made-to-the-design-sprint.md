@@ -7,7 +7,8 @@ year: 2021
 tags:
   - Approach
   - Design Sprint
-tweet: https://twitter.com/ericwbailey/status/1397211277714497540
+sharedOn:
+  twitter: https://twitter.com/ericwbailey/status/1397211277714497540
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

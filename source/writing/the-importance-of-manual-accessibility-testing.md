@@ -8,7 +8,8 @@ tags:
   - Accessibility
   - Assistive Technology
   - User Testing
-tweet: https://twitter.com/ericwbailey/status/1039882510090559488
+sharedOn:
+  twitter: https://twitter.com/ericwbailey/status/1039882510090559488
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

@@ -11,7 +11,8 @@ tags:
   - Cognition
   - Design
   - Development
-tweet: https://twitter.com/ericwbailey/status/1474032448275193864
+sharedOn:
+  twitter: https://twitter.com/ericwbailey/status/1474032448275193864
 share:
   facebookDescription: "Illustration of a robot head and a human head, both placed in a small box. Chinese words are being inserted into the top of the box and different Chinese words are coming out the bottom."
   twitterDescription: "Two sillhouetted heads overlapping each other, with a question mark in the center."

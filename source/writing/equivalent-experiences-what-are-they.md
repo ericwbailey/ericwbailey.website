@@ -16,7 +16,8 @@ series:
     - title: "Equivalent Experiences: Thinking Equivalently"
       url: https://www.smashingmagazine.com/2020/06/equivalent-experiences-part2/
 featured: true
-tweet: https://twitter.com/ericwbailey/status/1265654231547162629
+sharedOn:
+  twitter: https://twitter.com/ericwbailey/status/1265654231547162629
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

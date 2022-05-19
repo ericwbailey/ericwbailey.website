@@ -11,7 +11,8 @@ tags:
   - Development
   - HTML
   - Overlays
-tweet: https://twitter.com/ericwbailey/status/1374724770080686080
+sharedOn:
+  twitter: https://twitter.com/ericwbailey/status/1374724770080686080
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

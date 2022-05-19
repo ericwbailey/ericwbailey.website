@@ -14,7 +14,8 @@ responses:
   - title: "Ordering CSS Declarations"
     name: "Jim Nielsen"
     url: https://blog.jim-nielsen.com/2022/ordering-css-delcarations/
-tweet: https://twitter.com/ericwbailey/status/1407017945490935813
+sharedOn:
+  twitter: https://twitter.com/ericwbailey/status/1407017945490935813
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

@@ -9,7 +9,8 @@ tags:
   - User Research
   - User Testing
   - Writing
-tweet: https://twitter.com/ericwbailey/status/1291420275519754245
+sharedOn:
+  twitter: https://twitter.com/ericwbailey/status/1291420275519754245
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

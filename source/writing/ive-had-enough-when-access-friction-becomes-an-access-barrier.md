@@ -12,7 +12,8 @@ tags:
   - Development
   - Inclusion
   - User Testing
-tweet: https://twitter.com/ericwbailey/status/1483846634039619584
+sharedOn:
+  twitter: https://twitter.com/ericwbailey/status/1483846634039619584
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

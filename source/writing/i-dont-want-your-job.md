@@ -7,7 +7,8 @@ year: 2020
 tags:
   - Design
   - Personal
-tweet: https://twitter.com/ericwbailey/status/1291420275519754245
+sharedOn:
+  twitter: https://twitter.com/ericwbailey/status/1291420275519754245
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

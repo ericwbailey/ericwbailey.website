@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Design updates
 - Performance optimizations
 
+## v1.5.20 - 2022-05-18
+- Updated `tweet` YAML entry to use a parent `sharedOn` object instead.
+
 ## v1.5.19 - 2022-05-17
 - Add [The optics of pair programming](https://ericwbailey.design/writing/the-optics-of-pair-programming/)
 

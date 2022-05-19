@@ -9,7 +9,8 @@ tags:
   - Animation
   - Development
   - User Queries
-tweet: https://twitter.com/ericwbailey/status/1123246833344622594
+sharedOn:
+  twitter: https://twitter.com/ericwbailey/status/1123246833344622594
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

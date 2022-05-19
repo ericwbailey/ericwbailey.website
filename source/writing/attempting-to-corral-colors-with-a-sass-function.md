@@ -9,7 +9,8 @@ tags:
   - CSS
   - Design
   - Development
-tweet: https://twitter.com/ericwbailey/status/1136999223638003712
+sharedOn:
+  twitter: https://twitter.com/ericwbailey/status/1136999223638003712
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

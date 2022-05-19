@@ -12,7 +12,8 @@ tags:
   - Design Tokens
   - Development
 inlineStyles: true
-tweet: https://twitter.com/ericwbailey/status/1468231638446448642
+sharedOn:
+  twitter: https://twitter.com/ericwbailey/status/1468231638446448642
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

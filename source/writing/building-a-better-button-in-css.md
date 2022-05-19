@@ -10,7 +10,8 @@ tags:
   - Design
   - Development
   - HTML
-tweet: https://twitter.com/ericwbailey/status/788746471415934976
+sharedOn:
+  twitter: https://twitter.com/ericwbailey/status/788746471415934976
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

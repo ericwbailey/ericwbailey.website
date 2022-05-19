@@ -16,7 +16,8 @@ tags:
   - Inclusion
   - Open UI
 attribution: "Thank you to <a href='https://adrianroselli.com/'>Adrian Roselli</a> for his feedback."
-tweet: https://twitter.com/ericwbailey/status/1503370254684147716
+sharedOn:
+  twitter: https://twitter.com/ericwbailey/status/1503370254684147716
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

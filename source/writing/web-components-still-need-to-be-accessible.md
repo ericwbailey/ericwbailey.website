@@ -9,7 +9,8 @@ tags:
   - Development
   - Narrated
   - Web Components
-tweet: https://twitter.com/ericwbailey/status/1075766616716132352
+sharedOn:
+  twitter: https://twitter.com/ericwbailey/status/1075766616716132352
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

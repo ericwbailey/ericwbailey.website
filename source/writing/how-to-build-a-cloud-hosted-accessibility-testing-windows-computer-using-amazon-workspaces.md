@@ -7,7 +7,8 @@ year: 2017
 tags:
   - Accessibility
   - Assistive Technology
-tweet: https://twitter.com/ericwbailey/status/942761561130663936
+sharedOn:
+  twitter: https://twitter.com/ericwbailey/status/942761561130663936
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

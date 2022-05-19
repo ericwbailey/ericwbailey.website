@@ -11,7 +11,8 @@ tags:
   - Eleventy
   - HTML
   - Writing
-tweet: https://twitter.com/ericwbailey/status/1387411838300786690
+sharedOn:
+  twitter: https://twitter.com/ericwbailey/status/1387411838300786690
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}
