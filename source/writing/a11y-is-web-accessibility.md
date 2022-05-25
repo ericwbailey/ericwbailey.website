@@ -24,6 +24,8 @@ furtherReading:
   - title: "Origin Of The Abbreviation I18n"
     source: "I18nGuy"
     url: http://www.i18nguy.com/origini18n.html
+embeddedContent:
+  - Tweet
 sharedOn:
   twitter: https://twitter.com/ericwbailey/status/1292827666505183234
 eleventyNavigation:
