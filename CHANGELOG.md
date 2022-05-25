@@ -10,6 +10,10 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Design updates
 - Performance optimizations
 
+## v1.5.21 - 2022-05-26
+- Add [Where do you start measuring distance from when the origin is the bottom of a block of text?](https://ericwbailey.design/writing/where-do-you-start-measuring-distance-from-when-the-origin-is-the-bottom-of-a-block-of-text/)
+- Add `embeddedContent` YAML object to posts
+
 ## v1.5.20 - 2022-05-18
 - Updated `tweet` YAML entry to use a parent `sharedOn` object instead.
 
