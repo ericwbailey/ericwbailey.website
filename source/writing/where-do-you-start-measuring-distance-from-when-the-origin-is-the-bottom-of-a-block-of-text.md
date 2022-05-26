@@ -39,7 +39,7 @@ Components tend to have a discrete outermost border. This makes it easy to under
 
 Text is a little different.
 
-When you place text on an artboard in design tooling, it provides four different “bottom edges” to measure from:
+When you place text on an artboard in design tooling, it provides four different “bottom edges” you can measure from:
 
 <svg class="" role="img" focusable="false" fill="none" viewBox="0 0 679 280" xmlns="http://www.w3.org/2000/svg">
 <title>The phrase ‘Sphinx of black quartz, judge my vow.’ A red line shows to the baseline. A purple box outlining the words ‘judge my vow’ shows the em height. A green fill on  the bottom part of the letter y shows the glyph’s descender. A blue box outlining the entire phrase shows the bounding box.</title>
@@ -235,7 +235,7 @@ A bounding box is the outermost bounds of a selection you have made in a design 
 
 ## The confusion
 
-At first blush, each one of these properties hypothetically makes a good origin point to measure from. However, there’s some nuance to consider:
+At first blush, each one of these properties hypothetically makes a good origin point to start measuring from. However, there’s some nuance to consider:
 
 ### Baseline
 
