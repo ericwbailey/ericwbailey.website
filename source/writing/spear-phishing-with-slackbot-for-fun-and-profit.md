@@ -94,7 +94,7 @@ Unlike the shotgun blast that is a regular phishing attack, spear phishing requi
 
 Perusing an organization’s about us or board or directors pages, public-facing org chart, LinkedIn, or annual reports is a good way to start collecting targets. You could also take the slow boil approach: target someone lower in the organizational hierarchy, see what they've got access to, and work your way in and up from there.
 
-For our purposes, we’ll need to identify important people with both a high degree of importance but with a low degree of tech literacy, i.e. your average white, male C-level executive.
+For our purposes, we’ll need to identify important people with both a high degree of importance but with a low degree of tech literacy, i.e. [your average white, male C-level executive](https://www.pcgamer.com/the-passwords-most-used-by-ceos-are-startlingly-dumb/).
 
 ## Create a problem, then offer a solution
 
