@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Design updates
 - Performance optimizations
 
+## v1.5.22 - 2022-06-24
+- Add Voice Control Usability Considerations For Partially Visually Hidden Link Names](https://www.smashingmagazine.com/2022/06/voice-control-usability-considerations-partially-visually-hidden-link-names/)
+
 ## v1.5.21 - 2022-05-26
 - Add [Where do you start measuring distance from when the origin is the bottom of a block of text?](https://ericwbailey.design/writing/where-do-you-start-measuring-distance-from-when-the-origin-is-the-bottom-of-a-block-of-text/)
 - Add `embeddedContent` YAML object to posts
