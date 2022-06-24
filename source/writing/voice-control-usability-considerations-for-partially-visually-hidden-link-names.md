@@ -10,7 +10,7 @@ tags:
   - Development
 sharedOn:
   twitter: https://twitter.com/ericwbailey/status/1540333434920370178
-  mastodon:
+  mastodon: TK
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}
