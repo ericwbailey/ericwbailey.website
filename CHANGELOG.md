@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Design updates
 - Performance optimizations
 
+## v1.5.23 - 2022-07-05
+- [The case for null in design systems](https://adhocteam.us/2022/07/05/null-in-design-systems/)
+
 ## v1.5.22 - 2022-06-24
 - Add Voice Control Usability Considerations For Partially Visually Hidden Link Names](https://www.smashingmagazine.com/2022/06/voice-control-usability-considerations-partially-visually-hidden-link-names/)
 
