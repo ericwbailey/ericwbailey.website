@@ -29,4 +29,4 @@ The recipient also doesn’t have to do anything with the email if they don’t 
 
 A thank you email feels like a personal and selfless act in a web that feels increasingly built to not facilitate this kind of interaction. I’ve given myself a challenge to send a thank you email each week to someone whose work I’ve enjoyed.
 
-Most blog post authors fall over themselves to give out their contact information (and if they don’t, don’t be creepy). It takes only a modicum of effort to break out of a consumptive mode and fire an email off. And hey, maybe sending a thank you email is something you could do too!
+Most blog post authors fall over themselves to give out their contact information (don’t be creepy if they don’t). It takes only a modicum of effort to break out of a consumptive mode and fire an email off. And hey, maybe sending a thank you email is something you could do too!
