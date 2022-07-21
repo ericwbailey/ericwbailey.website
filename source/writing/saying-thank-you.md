@@ -9,7 +9,8 @@ tags:
   - Personal
   - Writing
 sharedOn:
-  twitter: TK
+  twitter: https://twitter.com/ericwbailey/status/1550121793783881728
+  mastodon: https://mastodon.technology/web/@ericwbailey/108685747781198503
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}
