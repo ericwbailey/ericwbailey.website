@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Design updates
 - Performance optimizations
 
+## v1.5.24 - 2022-07-21
+- [Saying thank you](https://ericwbailey.design/writing/saying-thank-you/)
+
 ## v1.5.23 - 2022-07-05
 - [The case for null in design systems](https://adhocteam.us/2022/07/05/null-in-design-systems/)
 
