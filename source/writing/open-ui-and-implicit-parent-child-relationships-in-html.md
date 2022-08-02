@@ -1,7 +1,7 @@
 ---
 layout: "layouts/post.njk"
 title: Open UI and implicit parent/child relationships in HTML
-source: ericwbailey.design
+source: ericwbailey.website
 excerpt: "It turns out that naming things is difficult"
 date: 2021-01-12
 year: 2021

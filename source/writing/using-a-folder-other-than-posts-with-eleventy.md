@@ -1,7 +1,7 @@
 ---
 layout: "layouts/post.njk"
 title: Using a folder other than <code>posts/</code> with Eleventy
-source: ericwbailey.design
+source: ericwbailey.website
 excerpt: "I don’t want to wrestle with overwrought Webpack configuration, write GraphQL queries for basic navigation, or scream at types for failing to transpile or whatever. I want to write"
 date: 2020-11-22
 year: 2020

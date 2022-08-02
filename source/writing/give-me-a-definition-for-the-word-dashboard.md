@@ -1,7 +1,7 @@
 ---
 layout: "layouts/post.njk"
 title: Give me a definition for the word dashboard
-source: ericwbailey.design
+source: ericwbailey.website
 excerpt: "I finished up a research project a couple of weeks ago, and I'd like to share a detail that completely threw me for a loop"
 date: 2021-03-03
 year: 2021

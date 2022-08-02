@@ -1,7 +1,7 @@
 ---
 layout: "layouts/post.njk"
 title: Minor version bump
-source: ericwbailey.design
+source: ericwbailey.website
 excerpt: "I got a title change today. I’m now a Senior Designer"
 date: 2021-03-23
 year: 2021

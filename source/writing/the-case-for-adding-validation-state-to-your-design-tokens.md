@@ -1,7 +1,7 @@
 ---
 layout: "layouts/post.njk"
 title: The case for adding validation state to your design tokens
-source: ericwbailey.design
+source: ericwbailey.website
 excerpt: "Naming things is hard"
 date: 2022-02-22
 year: 2022

@@ -1,7 +1,7 @@
 ---
 layout: "layouts/post.njk"
 title: Chinese rooms, wasps, slime molds, and the problem of other minds
-source: ericwbailey.design
+source: ericwbailey.website
 excerpt: "I think about these things a lot. Now you are thinking about these things too."
 date: 2021-12-23
 year: 2021

@@ -1,7 +1,7 @@
 ---
 layout: "layouts/post.njk"
 title: How to not make a résumé in React
-source: ericwbailey.design
+source: ericwbailey.website
 excerpt: "I’ve seen a fair share of tutorial links floating around in newsletters and Twitter and the like recently. They all promise the same thing, namely how to use React to create a résumé"
 date: 2020-04-07
 year: 2020

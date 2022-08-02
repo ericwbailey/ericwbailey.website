@@ -1,7 +1,7 @@
 ---
 layout: "layouts/post.njk"
 title: Maralinga bomb test
-source: ericwbailey.design
+source: ericwbailey.website
 excerpt: "This is real, this happened. There is no way to emotionally understand the totality of this experience."
 date: 2022-02-13
 year: 2022

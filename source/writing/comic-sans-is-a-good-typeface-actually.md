@@ -1,7 +1,7 @@
 ---
 layout: "layouts/post.njk"
 title: Comic Sans is a good typeface, actually
-source: ericwbailey.design
+source: ericwbailey.website
 excerpt: "Perception of Comic Sans as an inferior typeface is a bit of a self-reinforcing phenomenon in the design community, and that’s a problem."
 date: 2022-02-22
 year: 2022
@@ -88,7 +88,7 @@ The best way to know if your design works for Dyslexic people? Ask them.
 
 Most interfaces need words, and words need a typeface to display them.
 
-As a user experience designer, selecting a typeface means making an informed choice that balances legibility, thematic appropriateness, [language support, and bandwidth considerations](https://ericwbailey.design/writing/to-subset-or-not-subset-fonts/). There is a tremendous amount of power in this act, and it is one I don’t make lightly.
+As a user experience designer, selecting a typeface means making an informed choice that balances legibility, thematic appropriateness, [language support, and bandwidth considerations](https://ericwbailey.website/writing/to-subset-or-not-subset-fonts/). There is a tremendous amount of power in this act, and it is one I don’t make lightly.
 
 Even though I put a lot of effort into selecting typefaces, I’m not precious about it. If someone changes the typeface, its font size, line height, letter spacing, and color to meet their needs, I’m delighted! It means that they’re interested enough in the content to [expend effort to make it legible](https://css-tricks.com/reader-mode-the-button-to-beat/).
 

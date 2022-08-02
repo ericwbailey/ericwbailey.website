@@ -1,7 +1,7 @@
 ---
 layout: "layouts/post.njk"
 title: Don’t use custom CSS mouse cursors
-source: ericwbailey.design
+source: ericwbailey.website
 excerpt: "Vanity is almost always at odds with user needs. While a custom CSS cursor may seem flashy and fun, consider that it may present a significant, unnecessary barrier to access"
 date: 2021-05-18
 year: 2021
@@ -139,7 +139,7 @@ A custom cursor will probably be a small download, sure. But given that a custom
 
 ## What about browser extensions and user stylesheets?
 
-[People may be resourceful](https://ericwbailey.design/writing/truths-about-digital-accessibility/#non-technical-people-may-make-highly-technical-modifications-to-their-technology), but you shouldn't assume they’ll always be aware or motivated enough to fix the problem you created.
+[People may be resourceful](https://ericwbailey.website/writing/truths-about-digital-accessibility/#non-technical-people-may-make-highly-technical-modifications-to-their-technology), but you shouldn't assume they’ll always be aware or motivated enough to fix the problem you created.
 
 ## So, why design anything?
 

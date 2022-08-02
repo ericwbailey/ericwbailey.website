@@ -1,7 +1,7 @@
 ---
 layout: "layouts/post.njk"
 title: "Saying thank you"
-source: ericwbailey.design
+source: ericwbailey.website
 excerpt: "A thank you email feels like a personal and selfless act in a web that feels increasingly built to not facilitate this kind of interaction"
 date: 2022-07-21
 year: 2022

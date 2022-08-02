@@ -4,14 +4,14 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](http://semver.org/) and tries to follow the [Keep a CHANGELOG](http://keepachangelog.com) convention.
 
-A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1) is available.
+A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/1) is available.
 
 ## vNext - Unreleased
 - Design updates
 - Performance optimizations
 
 ## v1.5.24 - 2022-07-21
-- [Saying thank you](https://ericwbailey.design/writing/saying-thank-you/)
+- [Saying thank you](https://ericwbailey.website/writing/saying-thank-you/)
 
 ## v1.5.23 - 2022-07-05
 - [The case for null in design systems](https://adhocteam.us/2022/07/05/null-in-design-systems/)
@@ -20,20 +20,20 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Add Voice Control Usability Considerations For Partially Visually Hidden Link Names](https://www.smashingmagazine.com/2022/06/voice-control-usability-considerations-partially-visually-hidden-link-names/)
 
 ## v1.5.21 - 2022-05-26
-- Add [Where do you start measuring distance from when the origin is the bottom of a block of text?](https://ericwbailey.design/writing/where-do-you-start-measuring-distance-from-when-the-origin-is-the-bottom-of-a-block-of-text/)
+- Add [Where do you start measuring distance from when the origin is the bottom of a block of text?](https://ericwbailey.website/writing/where-do-you-start-measuring-distance-from-when-the-origin-is-the-bottom-of-a-block-of-text/)
 - Add `embeddedContent` YAML object to posts
 
 ## v1.5.20 - 2022-05-18
 - Updated `tweet` YAML entry to use a parent `sharedOn` object instead.
 
 ## v1.5.19 - 2022-05-17
-- Add [The optics of pair programming](https://ericwbailey.design/writing/the-optics-of-pair-programming/)
+- Add [The optics of pair programming](https://ericwbailey.website/writing/the-optics-of-pair-programming/)
 
 ## v1.5.18 - 2022-04-28
-- Add [All the user-facing states](https://ericwbailey.design/writing/all-the-user-facing-states/)
+- Add [All the user-facing states](https://ericwbailey.website/writing/all-the-user-facing-states/)
 
 ## v1.5.17 - 2022-03-29
-- Add [#WorstWorkWednesday](https://ericwbailey.design/writing/worstworkwednesday/)
+- Add [#WorstWorkWednesday](https://ericwbailey.website/writing/worstworkwednesday/)
 - Add `#` to slugified content
 - Update blogroll
 - Copy tweaks
@@ -44,19 +44,19 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Copy tweaks
 
 ## v1.5.15 - 2022-03-12
-- Add [It needs to map back to a role](https://ericwbailey.design/writing/it-needs-to-map-back-to-a-role/)
+- Add [It needs to map back to a role](https://ericwbailey.website/writing/it-needs-to-map-back-to-a-role/)
 - Add Accessibility and Inclusive design talk for [Jupyter Accessibility Workshops](https://github.com/Quansight-Labs/jupyter-accessibility-workshops#part-2-march-2022)
 ## v1.5.14 - 2022-02-22
-- Add [The case for adding validation state to your design tokens](https://ericwbailey.design/writing/the-case-for-adding-validation-state-to-your-design-tokens/)
+- Add [The case for adding validation state to your design tokens](https://ericwbailey.website/writing/the-case-for-adding-validation-state-to-your-design-tokens/)
 
 ## v1.5.13 - 2022-02-22
-- Add [Comic Sans is a good typeface, actually](https://ericwbailey.design/writing/comic-sans-is-a-good-typeface-actually/)
+- Add [Comic Sans is a good typeface, actually](https://ericwbailey.website/writing/comic-sans-is-a-good-typeface-actually/)
 
 ## v1.5.12 - 2022-02-14
-- Add [Tribble](https://ericwbailey.design/writing/tribble/)
+- Add [Tribble](https://ericwbailey.website/writing/tribble/)
 
 ## v1.5.11 - 2022-02-13
-- Add [“Evergreen” Does Not Mean Immediately Available](https://ericwbailey.design/writing/maralinga-bomb-test/)
+- Add [“Evergreen” Does Not Mean Immediately Available](https://ericwbailey.website/writing/maralinga-bomb-test/)
 - Clean up custom social share image logic
 
 ## v1.5.11 - 2022-02-01
@@ -70,50 +70,50 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Add [I’ve had enough! When access friction becomes an access barrier](https://makeitfable.com/article/ive-had-enough-when-access-friction-becomes-an-access-barrier/)
 
 ## v1.5.8 - 2021-12-23
-- Add [Chinese rooms, wasps, slime molds, and the problem of other minds](https://ericwbailey.design/writing/chinese-rooms-wasps-slime-molds-and-the-problem-of-other-minds/)
+- Add [Chinese rooms, wasps, slime molds, and the problem of other minds](https://ericwbailey.website/writing/chinese-rooms-wasps-slime-molds-and-the-problem-of-other-minds/)
 
 ## v1.5.7 - 2021-12-21
 - Add Sidebar.io webring
 
 ## v1.5.6 - 2021-12-07
-- Add [Where do you put spacing on design system components?](https://ericwbailey.design/writing/where-do-you-put-spacing-on-design-system-components/)
+- Add [Where do you put spacing on design system components?](https://ericwbailey.website/writing/where-do-you-put-spacing-on-design-system-components/)
 - Add [Test Your Product on a Crappy Laptop](https://css-tricks.com/test-your-product-on-a-crappy-laptop/)
 
 ## v1.5.5 - 2021-11-15
-- Add [Your CSS is an interface](https://ericwbailey.design/writing/your-css-is-an-interface/)
+- Add [Your CSS is an interface](https://ericwbailey.website/writing/your-css-is-an-interface/)
 
 ## v1.5.4 - 2021-11-11
 - Add [The endless search for “here” in the unhelpful “click here” button](https://www.getstark.co/blog/the-endless-search-for-here-in-the-unhelpful-click-here-button)
 
 ## v1.5.3 - 2021-10-25
-- Add [Spear phishing with slackbot for fun and profit](https://ericwbailey.design/writing/spear-phishing-with-slackbot-for-fun-and-profit)
+- Add [Spear phishing with slackbot for fun and profit](https://ericwbailey.website/writing/spear-phishing-with-slackbot-for-fun-and-profit)
 - Update default Twitter social share image
 
 ## v1.5.2 - 2021-10-12
-- Add [Insulin dump](https://ericwbailey.design/writing/insulin-dump)
+- Add [Insulin dump](https://ericwbailey.website/writing/insulin-dump)
 
 ## v1.5.1 - 2021-09-29
-- Add [100](https://ericwbailey.design/writing/100)
+- Add [100](https://ericwbailey.website/writing/100)
 - Add [Improving the Accessibility of your Markdown](https://www.smashingmagazine.com/2021/09/improving-accessibility-of-markdown/)
 
 ## v1.5.0 - 2021-09-07
 - Update homepage content and design
 - Use temporary homepage styles
-- Add [thoughtbot.com, dark mode, and other user preferences](https://ericwbailey.design/writing/thoughtbot-com-dark-mode-and-other-user-preferences)
+- Add [thoughtbot.com, dark mode, and other user preferences](https://ericwbailey.website/writing/thoughtbot-com-dark-mode-and-other-user-preferences)
 
 ## v1.4.21 - 2021-09-02
-- Add [What they don’t tell you when you translate your app](https://ericwbailey.design/writing/what-they-dont-tell-you-when-you-translate-your-app)
+- Add [What they don’t tell you when you translate your app](https://ericwbailey.website/writing/what-they-dont-tell-you-when-you-translate-your-app)
 
 ## v1.4.20 - 2021-08-24
-- Add [Forbidden noodles](https://ericwbailey.design/writing/forbidden-noodles)
+- Add [Forbidden noodles](https://ericwbailey.website/writing/forbidden-noodles)
 
 ## v1.4.19 - 2021-07-21
-- Add [accessiBe and the false David vs. Goliath narrative](https://ericwbailey.design/writing/accessibe-and-the-false-david-vs-goliath-narrative)
+- Add [accessiBe and the false David vs. Goliath narrative](https://ericwbailey.website/writing/accessibe-and-the-false-david-vs-goliath-narrative)
 - Shorter max content width
 - Add Further Reading link sources
 
 ## v1.4.18 - 2021-06-28
-- Add [Ham biscuit on](https://ericwbailey.design/writing/ham-biscuit-on)
+- Add [Ham biscuit on](https://ericwbailey.website/writing/ham-biscuit-on)
 - Create metadata for posts with inline styles
 
 ## v1.4.17 - 2021-06-27
@@ -121,7 +121,7 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Copy tweaks
 
 ## v1.4.16 - 2021-06-21
-- Add [Organize your CSS declarations alphabetically](https://ericwbailey.design/writing/organize-your-css-declarations-alphabetically)
+- Add [Organize your CSS declarations alphabetically](https://ericwbailey.website/writing/organize-your-css-declarations-alphabetically)
 - Copy tweaks
 - Update newsletters
 - Update blogroll
@@ -131,29 +131,29 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 
 ## v1.4.14 - 2021-05-25
 - Add [Modifications we’ve made to the Design Sprint](https://thoughtbot.com/blog/modifications-we-ve-made-to-the-design-sprint)
-- Add [The lawnmower button](https://ericwbailey.design/writing/the-lawnmower-button)
+- Add [The lawnmower button](https://ericwbailey.website/writing/the-lawnmower-button)
 
 ## v1.4.13 - 2021-05-18
-- Add [Don’t use custom CSS mouse cursors](https://ericwbailey.design/writing/dont-use-custom-css-mouse-cursors)
+- Add [Don’t use custom CSS mouse cursors](https://ericwbailey.website/writing/dont-use-custom-css-mouse-cursors)
 
 ## v1.4.12 - 2021-05-07
-- Fix [RSS feed links](https://github.com/ericwbailey/ericwbailey.design/issues/121)
+- Fix [RSS feed links](https://github.com/ericwbailey/ericwbailey.website/issues/121)
 - Use full content for posts hosted on this site for RSS updates
 
 ## v1.4.11 - 2021-05-05
 - Downgrade dependencies until Netlify stabilizes
 
 ## v1.4.10 - 2021-05-05
-- Add [How I grew The A11Y Project to 10k followers on Twitter](https://ericwbailey.design/writing/how-I-grew-the-a11y-project-to-10k-followers-on-twitter)
+- Add [How I grew The A11Y Project to 10k followers on Twitter](https://ericwbailey.website/writing/how-I-grew-the-a11y-project-to-10k-followers-on-twitter)
 - Update layout, increase font size
 
 ## v1.4.9 - 2021-04-27
-- Add [Listing posts in Eleventy when you publish offsite](https://ericwbailey.design/writing/listing-posts-in-eleventy-when-you-publish-offsite)
+- Add [Listing posts in Eleventy when you publish offsite](https://ericwbailey.website/writing/listing-posts-in-eleventy-when-you-publish-offsite)
 - Dark mode style tweaks
 - Update post tags
 
 ## v1.4.8 - 2021-04-25
-- Add [To subset or not subset fonts](https://ericwbailey.design/writing/to-subset-or-not-subset-fonts)
+- Add [To subset or not subset fonts](https://ericwbailey.website/writing/to-subset-or-not-subset-fonts)
 
 ## v1.4.7 - 2021-04-20
 - Add tags to posts
@@ -166,17 +166,17 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Add [Mobile Accessibility: How to Build Apps that Work for All Users](https://www.shopify.com/partners/blog/mobile-accessibility)
 
 ## v1.4.4 - 2021-04-07
-- Add [I love my not-smart TV](https://ericwbailey.design/writing/i-love-my-not-smart-tv)
+- Add [I love my not-smart TV](https://ericwbailey.website/writing/i-love-my-not-smart-tv)
 
 ## v1.4.3 - 2021-04-04
-- Add [How to make an ineffective 404 page](https://ericwbailey.design/writing/how-to-make-an-ineffective-404-page)
+- Add [How to make an ineffective 404 page](https://ericwbailey.website/writing/how-to-make-an-ineffective-404-page)
 
 ## v1.4.2 - 2021-03-31
 - Add [Bespoke Slab](https://www.fontshare.com/fonts/bespoke-slab)
 
 ## v1.4.1 - 2021-03-23
 - Add [A conversation can be an output](https://thoughtbot.com/blog/a-conversation-can-be-an-output)
-- Add [Minor version bump](https://ericwbailey.design/writing/minor-version-bump)
+- Add [Minor version bump](https://ericwbailey.website/writing/minor-version-bump)
 - Add [Myth: Alternate text and automation](https://www.a11yproject.com/posts/2021-03-23-alternate-text-and-automation/)
 
 ## v1.4.0 - 2021-03-21
@@ -189,29 +189,29 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Add [Should I use an accessibility overlay?](https://www.a11yproject.com/posts/2021-03-08-should-i-use-an-accessibility-overlay/)
 
 ## v1.3.17 - 2021-03-04
-- Add [Give me a definition for the word “dashboard”](https://ericwbailey.design/writing/give-me-a-definition-for-the-word-dashboard)
+- Add [Give me a definition for the word “dashboard”](https://ericwbailey.website/writing/give-me-a-definition-for-the-word-dashboard)
 
 ## v1.3.16 - 2021-03-02
 - Add [An Introduction to macOS Voice Control](https://thoughtbot.com/blog/an-introduction-to-macos-voice-control)
 
 ## v1.3.15 - 2021-02-19
-- Add [Implicit cultural norms and accessible social media](https://ericwbailey.design/writing/implicit-cultural-norms-and-accessible-social-media)
+- Add [Implicit cultural norms and accessible social media](https://ericwbailey.website/writing/implicit-cultural-norms-and-accessible-social-media)
 - Include Tweet thread source, if present
 
 ## v1.3.15 - 2021-02-19
 - Add a [How 3 hours of conversation saved a company hundreds of thousands of dollars](https://thoughtbot.com/blog/how-3-hours-of-conversation-saved-a-company-hundreds-of-thousands-of-dollars)
 
 ## v1.3.14 - 2021-02-17
-- Add a [My typical day](https://ericwbailey.design/writing/my-typical-day)
+- Add a [My typical day](https://ericwbailey.website/writing/my-typical-day)
 
 ## v1.3.13 - 2021-02-09
-- Add a [Accessibility auditing and ego](https://ericwbailey.design/writing/accessibility-auditing-and-ego)
+- Add a [Accessibility auditing and ego](https://ericwbailey.website/writing/accessibility-auditing-and-ego)
 
 ## v1.3.12 - 2021-02-02
-- Add a [blogroll](https://ericwbailey.design/blogroll)
+- Add a [blogroll](https://ericwbailey.website/blogroll)
 
 ## v1.3.11 - 2021-02-01
-- Add [Presentation panic](https://ericwbailey.design/writing/presentation-panic)
+- Add [Presentation panic](https://ericwbailey.website/writing/presentation-panic)
 
 ## v1.3.10 - 2021-01-28
 - Add [How-to: Use the tabindex attribute](https://www.a11yproject.com/posts/2021-01-28-how-to-use-the-tabindex-attribute/)
@@ -224,22 +224,22 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Move grid to the `body` element
 
 ## v1.3.7 - 2021-01-12
-- Add [Undercover Founder](https://ericwbailey.design/writing/open-ui-and-implicit-parent-child-relationships-in-html)
+- Add [Undercover Founder](https://ericwbailey.website/writing/open-ui-and-implicit-parent-child-relationships-in-html)
 
 ## v1.3.6 - 2021-01-07
 - Add [Undercover Founder](https://thoughtbot.com/blog/undercover-founder)
 
 ## v1.3.5 - 2020-12-16
-- Add [Newsletters](https://ericwbailey.design/newsletters/)
+- Add [Newsletters](https://ericwbailey.website/newsletters/)
 
 ## v1.3.4 - 2020-12-16
 - Add utility classes
 
 ## v1.3.3 - 2020-12-16
-- Add [A website is like a puppy](https://ericwbailey.design/writing/a-website-is-like-a-puppy/)
+- Add [A website is like a puppy](https://ericwbailey.website/writing/a-website-is-like-a-puppy/)
 
 ## v1.3.3 - 2020-12-16
-- Add [In defense of Mega Man boss lairs](https://ericwbailey.design/writing/in-defense-of-mega-man-boss-lairs/)
+- Add [In defense of Mega Man boss lairs](https://ericwbailey.website/writing/in-defense-of-mega-man-boss-lairs/)
 
 ## v1.3.2 - 2020-12-15
 - Add [Representation Matters](https://css-tricks.com/representation-matters/)
@@ -273,20 +273,20 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Add Sass compiling
 
 ## v1.0.1 - 2020-11-22
-- Add [Using a folder other than <code>posts/</code> with Eleventy](https://ericwbailey.design/writing/using-a-folder-other-than-posts-with-eleventy/)
+- Add [Using a folder other than <code>posts/</code> with Eleventy](https://ericwbailey.website/writing/using-a-folder-other-than-posts-with-eleventy/)
 
 ## v1.0.0 - 2020-11-21
 - Replatform to use [Eleventy](https://www.11ty.dev/)
 
 ## v0.3.41 - 2020-08-25
-- Add [The radium craze](https://ericwbailey.design/writing/the-radium-craze.html)
+- Add [The radium craze](https://ericwbailey.website/writing/the-radium-craze.html)
 
 ## v0.3.40 - 2020-08-12
 - Add [If it's interactive it needs a focus style talk for Accessibility Talks](https://www.youtube.com/watch?v=XvA3ZjdCk7w)
 - Fix RSS post title
 
 ## v0.3.39 - 2020-08-10
-- Add [a11y is web acccessibility](https://ericwbailey.design/writing/a11y-is-web-accessibility.html)
+- Add [a11y is web acccessibility](https://ericwbailey.website/writing/a11y-is-web-accessibility.html)
 
 ## v0.3.38 - 2020-08-06
 - Add [Improving the usability and accessibility of a healthcare website by being mindful of reading level](https://thoughtbot.com/blog/improving-the-usability-and-accessibility-of-a-healthcare-website-by-being-mindful-of-reading-level)
@@ -299,7 +299,7 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Add development work for [The A11Y Project](https://www.a11yproject.com/) as a featured project
 
 ## v0.3.36 - 2020-06-08
-- Add [Mug Handles](https://ericwbailey.design/writing/mug-handles.html)
+- Add [Mug Handles](https://ericwbailey.website/writing/mug-handles.html)
 - Add publication dates
 
 ## v0.3.35 - 2020-06-05
@@ -308,7 +308,7 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 
 ## v0.3.34 - 2020-05-27
 - Add [Equivalent Experiences: What Are They?](https://www.smashingmagazine.com/2020/05/equivalent-experiences-part1/)
-- Update [How to not make a résumé in React](https://ericwbailey.design/writing/how-to-not-make-a-resume-in-react.html) to reference [Max Böck's Eleventy Résumé Builder](https://mxb.dev/blog/eleventy-resume-builder/)
+- Update [How to not make a résumé in React](https://ericwbailey.website/writing/how-to-not-make-a-resume-in-react.html) to reference [Max Böck's Eleventy Résumé Builder](https://mxb.dev/blog/eleventy-resume-builder/)
 
 ## v0.3.33 - 2020-05-15
 - Add [Myth: ARIA Has Perfect Support](https://a11yproject.com/posts/aria-has-perfect-support/)
@@ -320,7 +320,7 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Add [SVG, Favicons, and All the Fun Things We Can Do With Them](https://css-tricks.com/svg-favicons-and-all-the-fun-things-we-can-do-with-them/)
 
 ## v0.3.30 - 2020-04-19
-- Update progressive enhancement link to point to the [CERN browser emulator](https://worldwideweb.cern.ch/browser/#https://ericwbailey.design/)
+- Update progressive enhancement link to point to the [CERN browser emulator](https://worldwideweb.cern.ch/browser/#https://ericwbailey.website/)
 - Updated [Yellow Lab Tools test link](https://yellowlab.tools/result/fmo0qm55ll)
 - Remove structure.exposed and internetdotpdf.biz
 
@@ -332,7 +332,7 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 
 ## v0.3.27 - 2020-04-07
 - Add [SingaporeCSS talk](https://singaporecss.github.io/49/)
-- Add [How to not make a résumé in React](https://ericwbailey.design/writing/how-to-not-make-a-resume-in-react.html)
+- Add [How to not make a résumé in React](https://ericwbailey.website/writing/how-to-not-make-a-resume-in-react.html)
 
 ## v0.3.26 - 2020-03-29
 - Add SVG favicon with Dark Mode support
@@ -341,7 +341,7 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Add [Using personas in the Product Design Sprint](https://thoughtbot.com/blog/using-personas-in-the-product-design-sprint)
 
 ## v0.3.24 - 2020-02-10
-- Repair [broken Ubersleep URL](https://github.com/ericwbailey/ericwbailey.design/issues/2) (thanks, Ian!)
+- Repair [broken Ubersleep URL](https://github.com/ericwbailey/ericwbailey.website/issues/2) (thanks, Ian!)
 - Add note about structure.exposed being broken due to Heroku
 - Replace Opera with Microsoft Edge for testing task
 
@@ -365,7 +365,7 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Replace underline logic with new CSS text underline and decoration properties
 
 ## v0.3.18 - 2019-11-06
-- Add [Tech metaphors](https://ericwbailey.design/writing/tech-metaphors.html)
+- Add [Tech metaphors](https://ericwbailey.website/writing/tech-metaphors.html)
 - Add grayscale effect for a blurred browser window
 
 ## v0.3.17 - 2019-10-14
@@ -376,14 +376,14 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Add Inclusive Design 24 2019 to the the [Intersection of Performance and Accessibility](https://inclusivedesign24.org/2019/schedule/#talk13) talk
 
 ## v0.3.15 - 2019-08-26
-- Add [It’s all disparate, it’s all connected](https://ericwbailey.design/writing/its-all-disparate-its-all-connected.html)
+- Add [It’s all disparate, it’s all connected](https://ericwbailey.website/writing/its-all-disparate-its-all-connected.html)
 
 ## v0.3.14 - 2019-06-28
-- Add [Truths About Digital Accessibility](https://ericwbailey.design/writing/truths-about-digital-accessibility.html) post
+- Add [Truths About Digital Accessibility](https://ericwbailey.website/writing/truths-about-digital-accessibility.html) post
 - Update skipnav to point at each page's `h1` element
 
 ## v0.3.13 - 2019-06-28
-- Add a [Speaking](https://ericwbailey.design/speaking/) page
+- Add a [Speaking](https://ericwbailey.website/speaking/) page
 
 ## v0.3.12 - 2019-06-27
 - Add [Accessibility at Scale](https://noti.st/ericwbailey/bYNh0Y/accessibility-at-scale)
@@ -393,7 +393,7 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Add [Attempting to corral colors with a Sass function](https://thoughtbot.com/blog/attempting-to-corral-colors-with-a-sass-function)
 
 ## v0.3.10 - 2019-05-23
-- Fix the [accessibility feedback link issue](https://github.com/ericwbailey/ericwbailey.design/issues/1) for blog posts
+- Fix the [accessibility feedback link issue](https://github.com/ericwbailey/ericwbailey.website/issues/1) for blog posts
 
 ## v0.3.9 - 2019-05-23
 - Add support for dark mode
@@ -405,7 +405,7 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Add VS Code jsconfig
 
 ## v0.3.7 - 2019-05-14
-- Add [Lighthouse](https://ericwbailey.design/writing/2019-05-14-lighthouse.html) post
+- Add [Lighthouse](https://ericwbailey.website/writing/2019-05-14-lighthouse.html) post
 
 ## v0.3.6 - 2019-05-01
 - Add [Revisiting prefers-reduced-motion, the reduced motion media query](https://css-tricks.com/revisiting-prefers-reduced-motion-the-reduced-motion-media-query/)
@@ -433,7 +433,7 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Better social sharing
 
 ## v0.3.1 - 2019-03-05
-- Add [Fighting uphill](https://ericwbailey.design/writing/2019-03-05-fighting-uphill.html)
+- Add [Fighting uphill](https://ericwbailey.website/writing/2019-03-05-fighting-uphill.html)
 
 ## v0.3.0 - 2019-03-05
 - Add blog capability
@@ -450,7 +450,7 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 - Slight Writing page copy tweaks
 
 ## v0.2.0 - 2019-01-02
-- Add a [RSS feed](https://ericwbailey.design/feed/feed.xml)
+- Add a [RSS feed](https://ericwbailey.website/feed/feed.xml)
 - Fix broken link for [Improving the User Experience of IoT Firmware Updates](https://cantina.co/improving-the-user-experience-of-iot-firmware-updates/)
 
 ## v0.1.48 - 2018-12-20
@@ -495,7 +495,7 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## v0.1.39 - 2018-09-20
 - Changed presentations to use [Notist](https://noti.st/ericwbailey)
 - Updated [coffee shop location](https://goo.gl/maps/rp3nctpwPHT2)
-- Added sticky year headers to [writing](https://ericwbailey.design/writing.html)
+- Added sticky year headers to [writing](https://ericwbailey.website/writing.html)
 
 ## v0.1.38 - 2018-09-12
 - Added [The Importance Of Manual Accessibility Testing](https://www.smashingmagazine.com/2018/09/importance-manual-accessibility-testing/)
@@ -603,7 +603,7 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.design/projects/1
 ## v0.1.13 - 2017-07-10
 
 - Cleaned up copy to remove [overly-clever screen reader hacks](https://accessibility.blog.gov.uk/2017/02/08/advice-for-creating-content-that-works-well-with-screen-readers/)
-- Added a [writing section](https://ericwbailey.design/writing.html)
+- Added a [writing section](https://ericwbailey.website/writing.html)
 - Added support for [`aria-current`](https://tink.uk/using-the-aria-current-attribute/)
 
 

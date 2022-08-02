@@ -1,7 +1,7 @@
 ---
 layout: "layouts/post.njk"
 title: Tribble
-source: ericwbailey.design
+source: ericwbailey.website
 excerpt: "Goodbye, little friend."
 date: 2022-02-14
 year: 2022

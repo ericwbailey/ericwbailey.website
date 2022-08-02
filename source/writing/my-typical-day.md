@@ -1,7 +1,7 @@
 ---
 layout: "layouts/post.njk"
 title: My typical day
-source: ericwbailey.design
+source: ericwbailey.website
 excerpt: "Here’s my daily routine, warts and all"
 date: 2021-02-17
 year: 2021
@@ -39,13 +39,13 @@ My partner’s alarm goes off, so I wake up with them. They’re a teacher who h
 
 I mash snooze a few times, check my email, Slack, and Twitter in bed to make sure nothing is blowing up. I’ll also check [Nuzzel](https://nuzzel.com/) because FOMO is very real.
 
-I’ll then take my anti-anxiety medication for the day—thank you Past Eric for [getting your shit sorted](https://ericwbailey.design/writing/presentation-panic/). Most of the time I’ll take a quick shower afterwards, although that, like a lot of other things, has been slipping as of late.
+I’ll then take my anti-anxiety medication for the day—thank you Past Eric for [getting your shit sorted](https://ericwbailey.website/website/presentation-panic/). Most of the time I’ll take a quick shower afterwards, although that, like a lot of other things, has been slipping as of late.
 
 ## 9:05–9:30 AM
 
 I tell my work Slack channel what I’ll be working on during the day—it sort of feels like yelling into a void. We just re-orged, so I feel disconnected, directionless, and isolated more often than not.
 
-After that, I take about half an hour and read a collection of news and industry sites and aggregators, as well as [my RSS feed](https://ericwbailey.design/blogroll/) (again, FOMO). I’ve been doing this for around a decade now, and it really helps me stay on top of things in an industry that moves way too fast.
+After that, I take about half an hour and read a collection of news and industry sites and aggregators, as well as [my RSS feed](https://ericwbailey.website/blogroll/) (again, FOMO). I’ve been doing this for around a decade now, and it really helps me stay on top of things in an industry that moves way too fast.
 
 A new thing I’ve added to my routine is checking what album is next on [1001albumsgenerator.com](https://1001albumsgenerator.com/), adding it to an macOS Music playlist, and giving it a listen. This is worth noting as routine-worthy because:
 

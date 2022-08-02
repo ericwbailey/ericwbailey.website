@@ -1,7 +1,7 @@
 ---
 layout: "layouts/post.njk"
 title: Insulin dump
-source: ericwbailey.design
+source: ericwbailey.website
 excerpt: "Far too many “smart” things fail to consider who they’re ultimately made for: people."
 date: 2021-10-12
 year: 2021

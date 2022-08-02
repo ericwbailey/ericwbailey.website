@@ -1,7 +1,7 @@
 ---
 layout: "layouts/post.njk"
 title: Blogroll
-source: ericwbailey.design
+source: ericwbailey.website
 excerpt: "I have a blogroll now!"
 date: 2021-02-02
 year: 2021
@@ -18,11 +18,11 @@ If you are unfamiliar, blogrolls are a simple list of links to other blogs that 
 
 Blogrolls mostly fell on the wayside as the web matured and industrialized. In an era that is obsessed with conversion funnels, the idea that you’d want to provide a mechanism to voluntarily leave your website seems absurd. However, they’ve begun to have a resurgence with the IndieWeb crowd.
 
-Given that I’m not trying to sell anyone anything (directly), I thought I’d add a blogroll as well. I started to set up a list of people I’d want to feature and it gave me a moment to pause. I read a lot of blogs. I also [read a lot of newsletters](https://ericwbailey.design/newsletters/). I am who I am in this industry due to the collective advice and wisdom I’ve absorbed from what I’ve read, so it seemed weird to play favorites.
+Given that I’m not trying to sell anyone anything (directly), I thought I’d add a blogroll as well. I started to set up a list of people I’d want to feature and it gave me a moment to pause. I read a lot of blogs. I also [read a lot of newsletters](https://ericwbailey.website/newsletters/). I am who I am in this industry due to the collective advice and wisdom I’ve absorbed from what I’ve read, so it seemed weird to play favorites.
 
 Traditionally, it’s considered good form to reciprocate blogroll links. As I started to map out who was including me (a totally humbling feeling, thank you), it occurred to me that I could include them, but also include everyone else.
 
-So, [here is my blogroll](https://ericwbailey.design/blogroll/).
+So, [here is my blogroll](https://ericwbailey.website/blogroll/).
 
 It’s a long list, but creating it gave me some opportunities:
 
@@ -42,4 +42,4 @@ I include people who aren’t mutuals on Twitter. I also include blogs that have
 
 If we’re mutuals on Twitter and you’re not on the list, my bad. Message me and I’ll happily add you.
 
-[Happy reading](https://ericwbailey.design/blogroll/)!
+[Happy reading](https://ericwbailey.website/blogroll/)!

@@ -1,7 +1,7 @@
 ---
 layout: "layouts/post.njk"
 title: Fighting uphill
-source: ericwbailey.design
+source: ericwbailey.website
 excerpt: "As someone with a good deal of interest in the digital accessibility space, I follow WebAIM’s work closely. Their survey results are priceless insights into how disabled people actually use the web, so when the organization speaks with authority on a subject, I listen"
 date: 2019-05-03
 year: 2019

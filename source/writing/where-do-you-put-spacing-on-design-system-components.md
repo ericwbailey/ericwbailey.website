@@ -1,7 +1,7 @@
 ---
 layout: "layouts/post.njk"
 title: Where do you put spacing on design system components?
-source: ericwbailey.design
+source: ericwbailey.website
 excerpt: "While creating mature components in Sketch and Figma both take a lot of upfront work, the way a designer interacts with the component differs based on design choices the app developers made about how components are constructed."
 date: 2021-12-07
 year: 2021

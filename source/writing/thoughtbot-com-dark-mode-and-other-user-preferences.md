@@ -1,7 +1,7 @@
 ---
 layout: "layouts/post.njk"
 title: thoughtbot.com, dark mode, and other user preferences
-source: ericwbailey.design
+source: ericwbailey.website
 excerpt: "The how part of dark mode has been thoroughly addressed. Instead, I’m going to talk a little bit about the why."
 date: 2021-09-07
 year: 2021

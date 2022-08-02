@@ -1,7 +1,7 @@
 ---
 layout: "layouts/post.njk"
 title: Ham biscuit on
-source: ericwbailey.design
+source: ericwbailey.website
 excerpt: "The problem is we don’t know the initial state of the ham biscuit sign and who it is intended for"
 date: 2021-06-28
 year: 2021

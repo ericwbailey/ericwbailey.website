@@ -1,7 +1,7 @@
 ---
 layout: "layouts/post.njk"
 title: Your CSS is an interface
-source: ericwbailey.design
+source: ericwbailey.website
 excerpt: "The more we move these kinds of concerns into the abstract, the more obscure and inaccessible they become."
 date: 2021-11-15
 year: 2021

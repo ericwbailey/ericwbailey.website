@@ -1,7 +1,7 @@
 ---
 layout: "layouts/post.njk"
 title: What they don’t tell you when you translate your app
-source: ericwbailey.design
+source: ericwbailey.website
 excerpt: "Forget inverting binary trees, translating or localizing a digital experience is one of the most difficult things you can do with software."
 date: 2021-09-02
 year: 2021
@@ -167,7 +167,7 @@ Not every typeface supports every language. This is especially true for less-com
 
 ### Subsetting
 
-You may have to [undo subsetting efforts](https://ericwbailey.design/writing/to-subset-or-not-subset-fonts/), or load an entirely new typeface to display the language you want to support.
+You may have to [undo subsetting efforts](https://ericwbailey.website/writing/to-subset-or-not-subset-fonts/), or load an entirely new typeface to display the language you want to support.
 
 ### Picking typefaces
 

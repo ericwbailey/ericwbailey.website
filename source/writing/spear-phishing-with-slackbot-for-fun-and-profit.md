@@ -1,7 +1,7 @@
 ---
 layout: "layouts/post.njk"
 title: Spear phishing with Slackbot for fun and profit
-source: ericwbailey.design
+source: ericwbailey.website
 excerpt: "You can pretend to be Slackbot, and that’s not great."
 date: 2021-10-25
 year: 2021

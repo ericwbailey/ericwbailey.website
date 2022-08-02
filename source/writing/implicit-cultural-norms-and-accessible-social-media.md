@@ -1,7 +1,7 @@
 ---
 layout: "layouts/post.njk"
 title: Implicit cultural norms and accessible social media
-source: ericwbailey.design
+source: ericwbailey.website
 excerpt: "Implicit cultural norms and accessible social media have come up in conversation a few times with different groups in the past week, so I want to talk about it"
 date: 2021-02-22
 year: 2021

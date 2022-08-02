@@ -1,7 +1,7 @@
 ---
 layout: "layouts/post.njk"
 title: "All the user-facing states"
-source: ericwbailey.design
+source: ericwbailey.website
 excerpt: "User-facing state is what someone experiences when they interact with (or try to interact with) an element in some capacity"
 date: 2022-04-29
 year: 2022
@@ -52,7 +52,7 @@ It should also not be confused with size, context, mode, and other design tokena
 
 ### Validation
 
-Validation is often lumped in with state—[I feel this is a mistake](https://ericwbailey.design/writing/the-case-for-adding-validation-state-to-your-design-tokens/). For completeness’ sake, here’s validation conditions that can augment state:
+Validation is often lumped in with state—[I feel this is a mistake](https://ericwbailey.website/writing/the-case-for-adding-validation-state-to-your-design-tokens/). For completeness’ sake, here’s validation conditions that can augment state:
 
 #### Valid
 

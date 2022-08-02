@@ -1,7 +1,7 @@
 ---
 layout: "layouts/post.njk"
 title: Tech metaphors
-source: ericwbailey.design
+source: ericwbailey.website
 excerpt: "Tired of referencing the same yaks, sheds, and cars over and over again? Here’s a few new metaphors to drop at your next sprint planning meeting"
 date: 2019-11-11
 year: 2019

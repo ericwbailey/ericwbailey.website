@@ -1,22 +1,22 @@
 {
   "title": "Eric Bailey",
   "description": "Inclusive design advocate, writer, developer, and speaker",
-  "url": "https://ericwbailey.design",
+  "url": "https://ericwbailey.website",
   "logo": "static/favicons/avatar.png",
   "feed": {
     "subtitle": "Inclusive design advocate, writer, developer, and speaker",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://ericwbailey.design/"
+    "id": "https://ericwbailey.website/"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://ericwbailey.design/feed/feed.json"
+    "url": "https://ericwbailey.website/feed/feed.json"
   },
   "author": {
     "name": "Eric Bailey",
     "email": "eric.w.bailey@gmail.com",
-    "url": "https://ericwbailey.design"
+    "url": "https://ericwbailey.website"
   },
   "social": {
     "twitter": "ericwbailey"

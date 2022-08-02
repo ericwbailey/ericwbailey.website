@@ -1,7 +1,7 @@
 ---
 layout: "layouts/post.njk"
 title: How I grew The A11Y Project to 10k followers on Twitter
-source: ericwbailey.design
+source: ericwbailey.website
 excerpt: "Letting people speak about accessibility and disability in their own words is powerful enough that it can stand on its own"
 date: 2021-05-05
 year: 2021

@@ -1,7 +1,7 @@
 ---
 layout: "layouts/post.njk"
 title: "Where do you start measuring distance from when the origin is the bottom of a block of text?"
-source: ericwbailey.design
+source: ericwbailey.website
 excerpt: "This is one of those situations where everyone assumed their way of doing things is the way everyone does things."
 date: 2022-05-26
 year: 2022

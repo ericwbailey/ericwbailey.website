@@ -1,7 +1,7 @@
 ---
 layout: "layouts/post.njk"
 title: Equifax Data Breach, Credit Freezes, and Beholden Design
-source: ericwbailey.design
+source: ericwbailey.website
 excerpt: "Ever been frustrated because a movie theater plays advertisements before the trailers even start? This is a kind of experience I call 'Beholden Design'"
 date: 2017-09-11
 year: 2017
@@ -292,4 +292,4 @@ To be completely honest, institutional memory and habit are difficult forces to 
 
 Recognize some dark part of yourself in this post? You don’t have to go it alone.
 
-Cantina offers expertise in the kinds of disciplines needed, including organizational and service design, technical architecture, internet of things, responsive front end development and design, and product development. If you’d like to make the transition away from being a Beholden Design-led organization, [make contact](https://ericwbailey.design/#section-contact) today.
+Cantina offers expertise in the kinds of disciplines needed, including organizational and service design, technical architecture, internet of things, responsive front end development and design, and product development. If you’d like to make the transition away from being a Beholden Design-led organization, [make contact](https://ericwbailey.website/#section-contact) today.

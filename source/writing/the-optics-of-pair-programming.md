@@ -1,7 +1,7 @@
 ---
 layout: "layouts/post.njk"
 title: "The optics of pair programming"
-source: ericwbailey.design
+source: ericwbailey.website
 excerpt: "I had a culture shock moment when I offered to pair at my new, post-thoughtbot job. I've now come to understand some of the nuance that lives within the offer"
 date: 2022-05-17
 year: 2022

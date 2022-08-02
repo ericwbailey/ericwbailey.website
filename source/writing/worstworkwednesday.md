@@ -1,7 +1,7 @@
 ---
 layout: "layouts/post.njk"
 title: "#WorstWorkWednesday"
-source: ericwbailey.design
+source: ericwbailey.website
 excerpt: "Does this all sound compelling to you? Interested in running your own #WorstWorkWednesday meeting?"
 date: 2022-03-30
 year: 2022

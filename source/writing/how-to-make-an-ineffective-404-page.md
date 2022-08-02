@@ -1,7 +1,7 @@
 ---
 layout: "layouts/post.njk"
 title: How to make an ineffective 404 page
-source: ericwbailey.design
+source: ericwbailey.website
 excerpt: "The backlash was immediate, understandable, and entirely predictable"
 date: 2021-04-04
 year: 2021

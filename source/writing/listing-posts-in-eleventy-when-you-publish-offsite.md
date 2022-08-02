@@ -1,7 +1,7 @@
 ---
 layout: "layouts/post.njk"
 title: Listing posts in Eleventy when you publish offsite
-source: ericwbailey.design
+source: ericwbailey.website
 excerpt: "Co-mingling internal and external posts takes a little extra work. Here’s what I did"
 date: 2021-04-28
 year: 2021
@@ -59,7 +59,7 @@ permalink: false
 ```
 {% endraw %}
 
-Make sure these posts are [placed in the same directory](https://ericwbailey.design/writing/using-a-folder-other-than-posts-with-eleventy/) you store the rest of your on-site posts in.
+Make sure these posts are [placed in the same directory](https://ericwbailey.website/writing/using-a-folder-other-than-posts-with-eleventy/) you store the rest of your on-site posts in.
 
 Here, `title` is the title of your external post, `date` is the date it was posted, and `url` is the URL of where it is posted. The other important bit is [`permalink: false`](https://www.11ty.dev/docs/permalinks/#permalink-false), which will keep Eleventy from trying to render this post data as a web page.
 

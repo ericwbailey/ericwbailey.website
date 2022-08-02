@@ -1,7 +1,7 @@
 ---
 layout: "layouts/post.njk"
 title: The lawnmower button
-source: ericwbailey.design
+source: ericwbailey.website
 excerpt: "These days, I try to be on the lookout for lawnmower buttons: things that impact the bottom line that look easy or magical from the outside, but take a ton of time and effort"
 date: 2021-05-25
 year: 2021

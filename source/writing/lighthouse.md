@@ -1,7 +1,7 @@
 ---
 layout: "layouts/post.njk"
 title: Lighthouse
-source: ericwbailey.design
+source: ericwbailey.website
 excerpt: "Lighthouse is an open source auditing tool made by Google to help developers understand how well their site is doing in terms of four metrics: Performance, Best Practices, Search Engine Optimization (SEO), and Accessibility"
 date: 2019-05-14
 year: 2019
@@ -23,10 +23,10 @@ These metrics are what Google uses to determine if you have a quality website or
 
 Search ranking is the name of the game. Google is, for better or worse, how most of us search for anything on the web now. Much like club bouncers, making ourselves look good for Google means there’s a better chance we get placed at the front of the line. And being at the front of the line is important—many businesses’ success lives or dies by it.
 
-As far as metrics go, I think they’re great ones. The code it checks for covers a wide range of concerns, all of which compound to make your website or web app a far better experience from many different perspectives. I also think it’s a clever move on their part to quantify it visually. Getting those pie charts to display 100 is definitely an effective carrot for a lot of developers I know. Heck, [it worked on me](https://lighthouse-dot-webdotdevsite.appspot.com/lh/html?url=https://ericwbailey.design/#accessibility).
+As far as metrics go, I think they’re great ones. The code it checks for covers a wide range of concerns, all of which compound to make your website or web app a far better experience from many different perspectives. I also think it’s a clever move on their part to quantify it visually. Getting those pie charts to display 100 is definitely an effective carrot for a lot of developers I know. Heck, [it worked on me](https://lighthouse-dot-webdotdevsite.appspot.com/lh/html?url=https://ericwbailey.website/#accessibility).
 
 <img
-  alt="Lighthouse results for ericwbailey.design. There are four pie charts, each containing a ranking score. Performance has a rank of 100, accessibility has a rank of 98, best practices has a rank of 100, and SEO has a rank of 99. A legend is present, showing a score of 0-49 corresponding to red, 50-89 corresponding to yellow, and 90-100 corresponding to green."
+  alt="Lighthouse results for ericwbailey.website. There are four pie charts, each containing a ranking score. Performance has a rank of 100, accessibility has a rank of 98, best practices has a rank of 100, and SEO has a rank of 99. A legend is present, showing a score of 0-49 corresponding to red, 50-89 corresponding to yellow, and 90-100 corresponding to green."
   loading="lazy"
   src="{{ '/img/posts/lighthouse/lighthouse.png' | url }}" />
 

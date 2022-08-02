@@ -1,7 +1,7 @@
 ---
 layout: "layouts/post.njk"
 title: To subset or not subset fonts
-source: ericwbailey.design
+source: ericwbailey.website
 excerpt: "Tech teaches you to think in binary. The real world is anything but"
 date: 2021-04-26
 year: 2021

@@ -1,7 +1,7 @@
 ---
 layout: "layouts/post.njk"
 title: It needs to map back to a role
-source: ericwbailey.design
+source: ericwbailey.website
 excerpt: "Without accurate, relevant names, roles, and values present, it can be incredibly difficult, if not impossible for someone to use your digital experience. That’s exclusion. Hard stop"
 date: 2022-03-14
 year: 2022

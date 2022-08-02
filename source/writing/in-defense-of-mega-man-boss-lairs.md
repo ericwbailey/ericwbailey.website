@@ -1,7 +1,7 @@
 ---
 layout: "layouts/post.njk"
 title: In defense of Mega Man boss lairs
-source: ericwbailey.design
+source: ericwbailey.website
 excerpt: "Mega Man games are light on plot, but do a lot of showing not telling. This happens to be my favorite form of storytelling, so of course I spent too much time thinking about the Mega Man universe"
 date: 2020-12-16
 year: 2020

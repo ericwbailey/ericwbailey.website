@@ -1,7 +1,7 @@
 ---
 layout: "layouts/post.njk"
 title: Mug handles
-source: ericwbailey.design
+source: ericwbailey.website
 excerpt: "My two-part piece on equivalent experiences is now live on Smashing Magazine. I have complicated feelings about it"
 date: 2020-08-06
 year: 2020
@@ -14,7 +14,7 @@ tags:
 series:
   previous:
     - title: "Mug handles"
-      url: https://ericwbailey.design/writing/mug-handles/
+      url: https://ericwbailey.website/writing/mug-handles/
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

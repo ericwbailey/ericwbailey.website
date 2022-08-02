@@ -9,7 +9,7 @@ about: Find something that didn't work as you expected on the website? Let me kn
 > Brief description of the issue. Please identify specific steps.
 >
 > Example:
-> 1. Go to ericwbailey.design,
+> 1. Go to ericwbailey.website,
 > 2. Navigate to Writing,
 > 3. Click on…
 

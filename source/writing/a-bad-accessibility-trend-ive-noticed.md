@@ -1,7 +1,7 @@
 ---
 layout: "layouts/post.njk"
 title: A bad accessibility trend I’ve noticed
-source: ericwbailey.design
+source: ericwbailey.website
 excerpt: "Kill your ego, separate yourself from the work, and keep things boring and predictable"
 date: 2021-07-14
 year: 2021

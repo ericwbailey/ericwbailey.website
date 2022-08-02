@@ -1,7 +1,7 @@
 ---
 layout: "layouts/post.njk"
 title: Truths about digital accessibility
-source: ericwbailey.design
+source: ericwbailey.website
 excerpt: "Creating, maintaining, or evaluating accessible technology? Here are some things to keep in mind"
 date: 2019-07-29
 year: 2019

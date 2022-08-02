@@ -1,7 +1,7 @@
 ---
 layout: "layouts/post.njk"
 title: Presentation panic
-source: ericwbailey.design
+source: ericwbailey.website
 excerpt: "I used to get panic attacks when I had to give a client presentation."
 date: 2021-02-01
 year: 2021
