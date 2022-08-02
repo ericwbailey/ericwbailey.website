@@ -10,7 +10,7 @@ about: Is there a problem specifically related to accessibility? I'll get it fix
 >
 > Example:
 > 1. Turn on NVDA with Firefox.
-> 2. Go to ericwbailey.design.
+> 2. Go to ericwbailey.website.
 > 3. Navigate to ...
 
 ### Expected result

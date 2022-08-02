@@ -1,10 +1,10 @@
-# [ericwbailey.design](http://ericwbailey.design)
+# [ericwbailey.website](http://ericwbailey.website)
 
 Repo for my personal website.
 
 ## Table of Contents
 
-- [ericwbailey.design](#ericwbaileydesign)
+- [ericwbailey.website](#ericwbaileydesign)
   - [Table of Contents](#table-of-contents)
   - [Motivation](#motivation)
   - [Installation](#installation)
@@ -28,10 +28,10 @@ To install this project, run these commands in your terminal:
 
 As it is my personal website, I'm not really looking for feature requests for this project. I would, however, love to get bug reports, especially about accessibility issues, browser rendering inconsistencies, performance bottlenecks, and general usability criticism.
 
-The best way to submit these issues is using this repo's [Issue tracker](https://github.com/ericwbailey/ericwbailey.design/issues). Please make sure you read the [contributing guidelines](https://github.com/ericwbailey/ericwbailey.design/blob/main/CONTRIBUTING.md#submitting-issues) before doing so!
+The best way to submit these issues is using this repo's [Issue tracker](https://github.com/ericwbailey/ericwbailey.website/issues). Please make sure you read the [contributing guidelines](https://github.com/ericwbailey/ericwbailey.website/blob/main/CONTRIBUTING.md#submitting-issues) before doing so!
 
-If you can't or won't use GitHub, my personal email is listed in [`AUTHORS`](https://github.com/ericwbailey/ericwbailey.design/blob/main/AUTHORS). I can also be reached on [Twitter](http://twitter.com/ericwbailey), as well as on [the other social networking services](https://ericwbailey.design#subtitle-contact) linked to on my site.
+If you can't or won't use GitHub, my personal email is listed in [`AUTHORS`](https://github.com/ericwbailey/ericwbailey.website/blob/main/AUTHORS). I can also be reached on [Twitter](http://twitter.com/ericwbailey), as well as on [the other social networking services](https://ericwbailey.website#subtitle-contact) linked to on my site.
 
 ## License
 
-[CC-BY-NC-SA-4.0](https://github.com/ericwbailey/ericwbailey.design/blob/main/LICENSE.md).
+[CC-BY-NC-SA-4.0](https://github.com/ericwbailey/ericwbailey.website/blob/main/LICENSE.md).

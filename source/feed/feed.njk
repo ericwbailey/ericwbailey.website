@@ -19,14 +19,14 @@ eleventyExcludeFromCollections: true
 	{% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
 	<entry>
 		<title>{{ post.data.title }}</title>
-		{% if post.data.source == "ericwbailey.design" %}
+		{% if post.data.source == "ericwbailey.website" %}
     <link href="{{ absolutePostUrl }}"/>
 		{% else %}
     <link href="{{ post.data.eleventyNavigation.url }}"/>
 		{% endif %}
 		<updated>{{ post.date | rssDate }}</updated>
 		<id>{{ absolutePostUrl }}</id>
-		{% if post.data.source == "ericwbailey.design" %}
+		{% if post.data.source == "ericwbailey.website" %}
     <content type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
 		{% else %}
     <summary>Posted on {{ post.data.source }}: {{ post.data.excerpt }}…</summary>

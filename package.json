@@ -1,13 +1,13 @@
 {
-  "name": "ericwbailey.design",
+  "name": "ericwbailey.website",
   "description": "Inclusive design advocate, writer, developer, and speaker",
   "version": "1.5.24",
   "license": "CC-BY-NC-SA-4.0",
-  "homepage": "https://github.com/ericwbailey/ericwbailey.design/blob/main/README.md",
+  "homepage": "https://github.com/ericwbailey/ericwbailey.website/blob/main/README.md",
   "author": {
     "name": "Eric Bailey",
     "email": "eric.w.bailey@gmail.com",
-    "url": "http://ericwbailey.design"
+    "url": "http://ericwbailey.website"
   },
   "scripts": {
     "watch:sass": "node-sass-chokidar ./source/sass -o ./published --watch",
@@ -20,10 +20,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ericwbailey/ericwbailey.design.git"
+    "url": "git://github.com/ericwbailey/ericwbailey.website.git"
   },
   "bugs": {
-    "url": "https://github.com/ericwbailey/ericwbailey.design/issues",
+    "url": "https://github.com/ericwbailey/ericwbailey.website/issues",
     "email": "eric.w.bailey@gmail.com"
   },
   "keywords": [
