@@ -7,6 +7,9 @@ date: 2022-08-21
 year: 2022
 tags:
   - Personal
+share:
+  facebookDescription: "A cropped URL bar that says, 'ericwbailey dot website.'"
+  twitterDescription: "A cropped URL bar that says, 'dot website.'"
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}
