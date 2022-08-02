@@ -257,3 +257,7 @@ to = "https://ericwbailey.website/published/where-do-you-start-measuring-distanc
 [[redirects]]
 from = "https://ericwbailey.design/writing/saying-thank-you/"
 to = "https://ericwbailey.website/published/saying-thank-you/"
+
+[[redirects]]
+from = "https://ericwbailey.design/feed/feed.xml"
+to = "https://ericwbailey.website/feed/feed.xml"
