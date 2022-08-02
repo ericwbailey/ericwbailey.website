@@ -21,4 +21,4 @@ https://ericwbailey.website/feed/feed.xml
 
 Before this website was `.design` it was a `.com`. I’m not a company, and my relationship with design is weird. Updating it to be `.website` feels more accurate.
 
-The redirects I set up should work, but if you find a broken link please let me know.
+[Cool URIs don’t change](https://www.w3.org/Provider/Style/URI), but I never claimed to be cool. The redirects I set up should work, but if you find a broken link please let me know.
