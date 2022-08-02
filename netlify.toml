@@ -61,3 +61,199 @@ to = "/writing/fighting-uphill/"
 [[redirects]]
 from = "/posts/fighting-uphill/"
 to = "/writing/fighting-uphill/"
+
+[[redirects]]
+from = "https://ericwbailey.design/writing/equifax-data-breach-credit-freezes-and-beholden-design/"
+to = "https://ericwbailey.website/published/equifax-data-breach-credit-freezes-and-beholden-design/"
+
+[[redirects]]
+from = "https://ericwbailey.design/writing/fighting-uphill/"
+to = "https://ericwbailey.website/published/fighting-uphill/"
+
+[[redirects]]
+from = "https://ericwbailey.design/writing/lighthouse/"
+to = "https://ericwbailey.website/published/lighthouse/"
+
+[[redirects]]
+from = "https://ericwbailey.design/writing/truths-about-digital-accessibility/"
+to = "https://ericwbailey.website/published/truths-about-digital-accessibility/"
+
+[[redirects]]
+from = "https://ericwbailey.design/writing/tech-metaphors/"
+to = "https://ericwbailey.website/published/tech-metaphors/"
+
+[[redirects]]
+from = "https://ericwbailey.design/writing/how-to-not-make-a-resume-in-react/"
+to = "https://ericwbailey.website/published/how-to-not-make-a-resume-in-react/"
+
+[[redirects]]
+from = "https://ericwbailey.design/writing/mug-handles/"
+to = "https://ericwbailey.website/published/mug-handles/"
+
+[[redirects]]
+from = "https://ericwbailey.design/writing/a11y-is-web-accessibility/"
+to = "https://ericwbailey.website/published/a11y-is-web-accessibility/"
+
+[[redirects]]
+from = "https://ericwbailey.design/writing/the-radium-craze/"
+to = "https://ericwbailey.website/published/the-radium-craze/"
+
+[[redirects]]
+from = "https://ericwbailey.design/writing/using-a-folder-other-than-posts-with-eleventy/"
+to = "https://ericwbailey.website/published/using-a-folder-other-than-posts-with-eleventy/"
+
+[[redirects]]
+from = "https://ericwbailey.design/writing/in-defense-of-mega-man-boss-lairs/"
+to = "https://ericwbailey.website/published/in-defense-of-mega-man-boss-lairs/"
+
+[[redirects]]
+from = "https://ericwbailey.design/writing/a-website-is-like-a-puppy/"
+to = "https://ericwbailey.website/published/a-website-is-like-a-puppy/"
+
+[[redirects]]
+from = "https://ericwbailey.design/writing/open-ui-and-implicit-parent-child-relationships-in-html/"
+to = "https://ericwbailey.website/published/open-ui-and-implicit-parent-child-relationships-in-html/"
+
+[[redirects]]
+from = "https://ericwbailey.design/writing/presentation-panic/"
+to = "https://ericwbailey.website/published/presentation-panic/"
+
+[[redirects]]
+from = "https://ericwbailey.design/writing/blogroll/"
+to = "https://ericwbailey.website/published/blogroll/"
+
+[[redirects]]
+from = "https://ericwbailey.design/writing/accessibility-auditing-and-ego/"
+to = "https://ericwbailey.website/published/accessibility-auditing-and-ego/"
+
+[[redirects]]
+from = "https://ericwbailey.design/writing/my-typical-day/"
+to = "https://ericwbailey.website/published/my-typical-day/"
+
+[[redirects]]
+from = "https://ericwbailey.design/writing/implicit-cultural-norms-and-accessible-social-media/"
+to = "https://ericwbailey.website/published/implicit-cultural-norms-and-accessible-social-media/"
+
+[[redirects]]
+from = "https://ericwbailey.design/writing/give-me-a-definition-for-the-word-dashboard/"
+to = "https://ericwbailey.website/published/give-me-a-definition-for-the-word-dashboard/"
+
+[[redirects]]
+from = "https://ericwbailey.design/writing/minor-version-bump/"
+to = "https://ericwbailey.website/published/minor-version-bump/"
+
+[[redirects]]
+from = "https://ericwbailey.design/writing/how-to-make-an-ineffective-404-page/"
+to = "https://ericwbailey.website/published/how-to-make-an-ineffective-404-page/"
+
+[[redirects]]
+from = "https://ericwbailey.design/writing/i-love-my-not-smart-tv/"
+to = "https://ericwbailey.website/published/i-love-my-not-smart-tv/"
+
+[[redirects]]
+from = "https://ericwbailey.design/writing/to-subset-or-not-subset-fonts/"
+to = "https://ericwbailey.website/published/to-subset-or-not-subset-fonts/"
+
+[[redirects]]
+from = "https://ericwbailey.design/writing/listing-posts-in-eleventy-when-you-publish-offsite/"
+to = "https://ericwbailey.website/published/listing-posts-in-eleventy-when-you-publish-offsite/"
+
+[[redirects]]
+from = "https://ericwbailey.design/writing/how-i-grew-the-a11y-project-to-10k-followers-on-twitter/"
+to = "https://ericwbailey.website/published/how-i-grew-the-a11y-project-to-10k-followers-on-twitter/"
+
+[[redirects]]
+from = "https://ericwbailey.design/writing/dont-use-custom-css-mouse-cursors/"
+to = "https://ericwbailey.website/published/dont-use-custom-css-mouse-cursors/"
+
+[[redirects]]
+from = "https://ericwbailey.design/writing/the-lawnmower-button/"
+to = "https://ericwbailey.website/published/the-lawnmower-button/"
+
+[[redirects]]
+from = "https://ericwbailey.design/writing/organize-your-css-declarations-alphabetically/"
+to = "https://ericwbailey.website/published/organize-your-css-declarations-alphabetically/"
+
+[[redirects]]
+from = "https://ericwbailey.design/writing/ham-biscuit-on/"
+to = "https://ericwbailey.website/published/ham-biscuit-on/"
+
+[[redirects]]
+from = "https://ericwbailey.design/writing/a-bad-accessibility-trend-ive-noticed/"
+to = "https://ericwbailey.website/published/a-bad-accessibility-trend-ive-noticed/"
+
+[[redirects]]
+from = "https://ericwbailey.design/writing/accessibe-and-the-false-david-vs-goliath-narrative/"
+to = "https://ericwbailey.website/published/accessibe-and-the-false-david-vs-goliath-narrative/"
+
+[[redirects]]
+from = "https://ericwbailey.design/writing/forbidden-noodles/"
+to = "https://ericwbailey.website/published/forbidden-noodles/"
+
+[[redirects]]
+from = "https://ericwbailey.design/writing/what-they-dont-tell-you-when-you-translate-your-app/"
+to = "https://ericwbailey.website/published/what-they-dont-tell-you-when-you-translate-your-app/"
+
+[[redirects]]
+from = "https://ericwbailey.design/writing/thoughtbot-com-dark-mode-and-other-user-preferences/"
+to = "https://ericwbailey.website/published/thoughtbot-com-dark-mode-and-other-user-preferences/"
+
+[[redirects]]
+from = "https://ericwbailey.design/writing/100/"
+to = "https://ericwbailey.website/published/100/"
+
+[[redirects]]
+from = "https://ericwbailey.design/writing/insulin-dump/"
+to = "https://ericwbailey.website/published/insulin-dump/"
+
+[[redirects]]
+from = "https://ericwbailey.design/writing/spear-phishing-with-slackbot-for-fun-and-profit/"
+to = "https://ericwbailey.website/published/spear-phishing-with-slackbot-for-fun-and-profit/"
+
+[[redirects]]
+from = "https://ericwbailey.design/writing/your-css-is-an-interface/"
+to = "https://ericwbailey.website/published/your-css-is-an-interface/"
+
+[[redirects]]
+from = "https://ericwbailey.design/writing/where-do-you-put-spacing-on-design-system-components/"
+to = "https://ericwbailey.website/published/where-do-you-put-spacing-on-design-system-components/"
+
+[[redirects]]
+from = "https://ericwbailey.design/writing/chinese-rooms-wasps-slime-molds-and-the-problem-of-other-minds/"
+to = "https://ericwbailey.website/published/chinese-rooms-wasps-slime-molds-and-the-problem-of-other-minds/"
+
+[[redirects]]
+from = "https://ericwbailey.design/writing/maralinga-bomb-test/"
+to = "https://ericwbailey.website/published/maralinga-bomb-test/"
+
+[[redirects]]
+from = "https://ericwbailey.design/writing/tribble/"
+to = "https://ericwbailey.website/published/tribble/"
+
+[[redirects]]
+from = "https://ericwbailey.design/writing/comic-sans-is-a-good-typeface-actually/"
+to = "https://ericwbailey.website/published/comic-sans-is-a-good-typeface-actually/"
+
+[[redirects]]
+from = "https://ericwbailey.design/writing/it-needs-to-map-back-to-a-role/"
+to = "https://ericwbailey.website/published/it-needs-to-map-back-to-a-role/"
+
+[[redirects]]
+from = "https://ericwbailey.design/writing/worstworkwednesday/"
+to = "https://ericwbailey.website/published/worstworkwednesday/"
+
+[[redirects]]
+from = "https://ericwbailey.design/writing/all-the-user-facing-states/"
+to = "https://ericwbailey.website/published/all-the-user-facing-states/"
+
+[[redirects]]
+from = "https://ericwbailey.design/writing/the-optics-of-pair-programming/"
+to = "https://ericwbailey.website/published/the-optics-of-pair-programming/"
+
+[[redirects]]
+from = "https://ericwbailey.design/writing/where-do-you-start-measuring-distance-from-when-the-origin-is-the-bottom-of-a-block-of-text/"
+to = "https://ericwbailey.website/published/where-do-you-start-measuring-distance-from-when-the-origin-is-the-bottom-of-a-block-of-text/"
+
+[[redirects]]
+from = "https://ericwbailey.design/writing/saying-thank-you/"
+to = "https://ericwbailey.website/published/saying-thank-you/"
