@@ -2,8 +2,8 @@
 layout: "layouts/post.njk"
 title: "Dot website"
 source: ericwbailey.website
-excerpt: ""
-date: 2022-08-21
+excerpt: "This website now uses a .website domain."
+date: 2022-08-02
 year: 2022
 tags:
   - Personal
