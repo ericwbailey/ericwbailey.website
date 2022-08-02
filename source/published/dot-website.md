@@ -16,7 +16,7 @@ eleventyNavigation:
   order: 16
 ---
 
-I moved this domain from `.design` to `.website` as part of my redesign. If you subscribe to my RSS feed (and thank you if you do!), [the new URL](https://ericwbailey.website/feed/feed.xml) is:
+I changed this website’s domain from `.design` to `.website` as part of my redesign. If you subscribe to my RSS feed (and thank you if you do!), [the new URL](https://ericwbailey.website/feed/feed.xml) is:
 
 ```html
 https://ericwbailey.website/feed/feed.xml
