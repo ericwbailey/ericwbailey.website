@@ -165,6 +165,10 @@ blockquote {
 
   p {
     line-height: 1.4;
+
+    &:not(:first-of-type) {
+      margin-top: var(--scale2);
+    }
   }
 
   footer {
