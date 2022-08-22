@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.25 - 2022-08-22
+- [Re: Selling your extension](https://ericwbailey.website/published/re-selling-your-extension/)
+
 ## v1.5.24 - 2022-07-21
 - [Saying thank you](https://ericwbailey.website/published/saying-thank-you/)
 
