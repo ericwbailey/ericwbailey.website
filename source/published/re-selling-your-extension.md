@@ -46,7 +46,7 @@ Tue, Jun 21, 4:45 PM</p>
 
 <p>Hi</p>
 
-<p>I am Katie Overton from Chrome Extensions UK store. I emailed you last week and just wanted to follow up about the monetization of your extension Snake People to Snake People using our Premium Bing Hosted Product.</p>
+<p>I am Katie Overton from Chrome Extensions UK store. I emailed you last week and just wanted to follow up about the monetization of your extension Millenials to Snake People using our Premium Bing Hosted Product.</p>
 
 <p>If you decide to go ahead with this opportunity, you can earn up to $1000 a month per 5000 users as it is a premium product from Bing by invitation only.</p>
 
@@ -75,7 +75,7 @@ Regardless, the subject is enough to get me to open the email and see what’s g
 
 Next is the email address:
 
-> katie@chrome-extensions.uk
+> katie​@chrome-extensions.uk
 
 The first name-only username signals importance, as that’s typically reserved for founders, early hires, and other high-level individuals within an organization.
 
@@ -85,7 +85,7 @@ At the time the email was sent, chrome-extensions.uk also forwarded to the [Chro
 
 Next is the first paragraph of the email:
 
-> I am Katie Overton from Chrome Extensions UK store. I emailed you last week and just wanted to follow up about the monetization of your extension Snake People to Snake People using our Premium Bing Hosted Product.
+> I am Katie Overton from Chrome Extensions UK store. I emailed you last week and just wanted to follow up about the monetization of your extension Millenials to Snake People using our Premium Bing Hosted Product.
 
 If “Katie” was a little smarter, they’d update, “I am Katie Overton from Chrome Extensions UK store” to further reinforce the narrative of previous contact—possibly updating it to be something that is more natural-feeling, but also reinforces their fake-official Google employee status.
 
@@ -140,9 +140,9 @@ I’m only mentioning “Katie’s” sign off because most of the extension gri
 
 ## Trust
 
-This email is a fine-tuned package of pure manipulation, laser-focused to get you to read and take action on it. I was manipulated enough by it to read it in full.
+This email is a fine-tuned package of pure manipulation, laser-focused to get you to read and take action on it. I was coerced enough by it to read it in full.
 
-I have no plans to sell access to Snake People to Snake People. I’m fortunate enough to be decently well-off and like to think of myself as an ethical person, but I’m also only just me. I also find myself wondering what I’d do if I was circumstantially thrown into extreme poverty, and how well my scruples would hold.
+I have no plans to sell access to Millenials People to Snake People. I’m fortunate enough to be decently well-off and like to think of myself as an ethical person, but I’m also only just me. I also find myself wondering what I’d do if I was circumstantially thrown into extreme poverty, and how well my scruples would hold.
 
 There’s hundreds of thousands of web extensions out there, each with an owner who has [their own thoughts and motivations](https://ericwbailey.website/published/chinese-rooms-wasps-slime-molds-and-the-problem-of-other-minds/#the-problem-of-other-minds). The owner of every web extension you install wades through these kinds of emails, and can be tempted by them.
 
