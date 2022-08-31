@@ -36,7 +36,7 @@ Some states are discrete, while others can be part of an implicit pair. For exam
 
 State also helps to identify purpose via behavior. Because of this, not every component can have every state applied to it. For example, not every component needs to be draggable.
 
-It is also worth noting that on the web, the majority of user-facing state can be communicated programatically. This means that there is an [HTML attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes) or [ARIA declaration](https://www.w3.org/TR/wai-aria-1.1/) that can ensure people who can’t see the content can understand the state something has been set to.
+It is also worth noting that on the web, [the majority of user-facing state can be communicated programatically](https://benmyers.dev/blog/semantic-selectors/). This means that there is an [HTML attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes) or [ARIA declaration](https://www.w3.org/TR/wai-aria-1.1/) that can ensure people who can’t see the content can understand the state something has been set to.
 
 ## What user-facing state is not
 
