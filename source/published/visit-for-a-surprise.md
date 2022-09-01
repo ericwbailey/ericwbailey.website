@@ -12,7 +12,7 @@ tags:
   - Aevelopment
   - Inclusion
   - Writing
-attribution: Thank you to <a href='https://adrianroselli.com/'>Adrian Roselli</a> for helping me land this plane."
+attribution: "Thank you to <a href='https://adrianroselli.com/'>Adrian Roselli</a> for helping me land this plane."
 sharedOn:
   twitter: TK
   mastodon: TK
