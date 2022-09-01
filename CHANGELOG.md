@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.26 - 2022-09-01
+- [Visit for a surprise](https://ericwbailey.website/published/visit-for-a-surprise/)
+
 ## v1.5.25 - 2022-08-22
 - [Re: Selling your extension](https://ericwbailey.website/published/re-selling-your-extension/)
 
