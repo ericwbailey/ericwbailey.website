@@ -1484,6 +1484,14 @@
     },
     {
       "blog": {
+        "name": "Platypus",
+        "url": "https://blog.castac.org/"
+      },
+      "twitter": "CASTAC_AAA",
+      "feed": "https://blog.castac.org/feed/"
+    },
+    {
+      "blog": {
         "name": "Preethi Sam",
         "url": "https://preethisam.com/"
       },
