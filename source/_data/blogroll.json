@@ -1328,6 +1328,14 @@
     },
     {
       "blog": {
+        "name": "Melissa Eggleston",
+        "url": "https://www.birdcallux.com/blog"
+      },
+      "twitter": "mxbck",
+      "feed": "http://www.birdcallux.com/blog?format=rss"
+    },
+    {
+      "blog": {
         "name": "Micah Godbolt",
         "url": "https://www.micahgodbolt.com/"
       },
