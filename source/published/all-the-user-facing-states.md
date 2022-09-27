@@ -52,7 +52,7 @@ It should also not be confused with size, context, mode, and other design tokena
 
 ### Validation
 
-Validation is often lumped in with state—[I feel this is a mistake](https://ericwbailey.website/writing/the-case-for-adding-validation-state-to-your-design-tokens/). For completeness’ sake, here’s validation conditions that can augment state:
+Validation is often lumped in with state—[I feel this is a mistake](https://ericwbailey.website/published/the-case-for-adding-validation-state-to-your-design-tokens/). For completeness’ sake, here’s validation conditions that can augment state:
 
 #### Valid
 
