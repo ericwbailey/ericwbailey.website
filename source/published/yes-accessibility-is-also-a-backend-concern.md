@@ -60,7 +60,7 @@ Programmatically identifying the languages your experience uses is an important 
 <img
   role="img"
   alt="A block of HTML with an lang attribute declaration on the HTML opening tag and a value of 'es'. The title of the page, placed in between an opening and closing title tag is 'Sobre nosotras'."
-  src="{{ '/images/posts/yes-accessibility-is-also-a-backend-concern/lang-code.svg' | url }}">
+  src="{{ '/img/posts/yes-accessibility-is-also-a-backend-concern/lang-code.svg' | url }}">
 
 ### Captions, transcripts, and audio descriptions
 
@@ -87,11 +87,11 @@ You’ll want to capture and quantify these three distinct forms of content, pro
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="{{ '/images/posts/yes-accessibility-is-also-a-backend-concern/partially-hidden-on-dark.svg' | url }}">
+    srcset="{{ '/img/posts/yes-accessibility-is-also-a-backend-concern/partially-hidden-on-dark.svg' | url }}">
   <img
     role="img"
     alt="A simulated CMS content entry widget for a card component. There are inputs for the hero image, then the description and call to action in English and Spanish."
-    src="{{ '/images/posts/yes-accessibility-is-also-a-backend-concern/partially-hidden-on-light.svg' | url }}">
+    src="{{ '/img/posts/yes-accessibility-is-also-a-backend-concern/partially-hidden-on-light.svg' | url }}">
 </picture>
 
 This is important if localization is present, especially for partially visually hidden content. A different language may have a different structure to its grammar, meaning the visually hidden words may change position in the translated phrase.
