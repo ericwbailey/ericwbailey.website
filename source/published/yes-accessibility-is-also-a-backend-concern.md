@@ -8,7 +8,7 @@ year: 2022
 tags:
   - Accessibility
   - Development
-attribution: "Thank you to <a href='https://edwardloveall.com/'>Edward</a> and <a href="https://www.amandabeiner.com/">Amanda</a> for their input."
+attribution: "Thank you to <a href='https://edwardloveall.com/'>Edward</a> and <a href='https://www.amandabeiner.com/'>Amanda</a> for their input."
 sharedOn:
   twitter: TK
   mastodon: TK
