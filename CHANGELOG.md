@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.27 - 2022-09-29
+- [Yes, accessibility is also a backend concern](https://ericwbailey.website/published/yes-accessibility-is-also-a-backend-concern/)
+
 ## v1.5.26 - 2022-09-01
 - [Visit for a surprise](https://ericwbailey.website/published/visit-for-a-surprise/)
 
