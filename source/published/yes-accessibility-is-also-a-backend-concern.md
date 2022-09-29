@@ -49,7 +49,7 @@ Broadly-speaking there are two kinds of images you can add to a website or web a
 
 For images placed directly in code, alternate descriptions are provided by a developer manually typing in an `alt` attribute and descriptive value. For a CMS, the alternate description is presented as one of a few form fields that need to be filled out (image upload, height/width, alignment, and link are all common options).
 
-While you cannot guarantee that the description itself is accurate, you should be programmatically communicating that a CMS’s alternate description is top-level priority image content. This manifests as how you structure your APIs, as well as your content management system UI.
+While you cannot guarantee that the description itself is accurate, you should be programmatically communicating that a CMS’s alternate description is top-level priority for image content. This manifests as how you structure your APIs, as well as your content management system UI.
 
 ### Character sets and language codes
 
@@ -57,10 +57,13 @@ Does your content use more than one language? If it doesn’t, it most likely wi
 
 Programmatically identifying the languages your experience uses is an important thing to do. Assistive technology such as screen readers look for this information in order to announce content accurately.
 
-<img
-  role="img"
-  alt="A block of HTML with an lang attribute declaration on the HTML opening tag and a value of 'es'. The title of the page, placed in between an opening and closing title tag is 'Sobre nosotras'."
-  src="{{ '/img/posts/yes-accessibility-is-also-a-backend-concern/lang-code.svg' | url }}">
+<div class="centered-media-outer">
+  <img
+    role="img"
+    class="centered-media-inner-3"
+    alt="A block of HTML with an lang attribute declaration on the HTML opening tag and a value of 'es'. The title of the page, placed in between an opening and closing title tag is 'Sobre nosotras'."
+    src="{{ '/img/posts/yes-accessibility-is-also-a-backend-concern/lang-code.svg' | url }}">
+</div>
 
 ### Captions, transcripts, and audio descriptions
 
@@ -84,15 +87,24 @@ Three of these concerns are:
 
 You’ll want to capture and quantify these three distinct forms of content, provided there is a content management system of some sort in play.
 
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="{{ '/img/posts/yes-accessibility-is-also-a-backend-concern/partially-hidden-on-dark.svg' | url }}">
-  <img
-    role="img"
-    alt="A simulated CMS content entry widget for a card component. There are inputs for the hero image, then the description and call to action in English and Spanish."
-    src="{{ '/img/posts/yes-accessibility-is-also-a-backend-concern/partially-hidden-on-light.svg' | url }}">
-</picture>
+<figure
+  role="figure"
+  aria-label="I’m sorry about the crappy auto-translation.">
+  <div class="centered-media-outer">
+    <picture class="centered-media-inner-3">
+      <source
+        media="(prefers-color-scheme: dark)"
+        srcset="{{ '/img/posts/yes-accessibility-is-also-a-backend-concern/partially-hidden-on-dark.svg' | url }}">
+      <img
+        role="img"
+        alt="A simulated CMS content entry widget for a card component. There are inputs for the hero image, then the description and call to action in English and Spanish."
+        src="{{ '/img/posts/yes-accessibility-is-also-a-backend-concern/partially-hidden-on-light.svg' | url }}">
+    </picture>
+  </div>
+  <figcaption>
+    I’m sorry about the crappy auto-translation.
+  </figcaption>
+</figure>
 
 This is important if localization is present, especially for partially visually hidden content. A different language may have a different structure to its grammar, meaning the visually hidden words may change position in the translated phrase.
 
@@ -115,13 +127,13 @@ If you need to write custom CLI applications for your organization, honoring the
 
 Bodies are fragile. Disability can be conditional.
 
-Disabled engineers—including backend engineers—exist. Help make their job as free of arbitrary access barriers and access friction as possible.
+Disabled engineers—including backend engineers—exist. You’d do well to help make their job as free of arbitrary access barriers and access friction as possible.
 
-Disability is also the one marginalized group everyone will age into, provided they don’t die young. [Many organizations are trauma-generating factories](https://hbr.org/2022/06/stressed-sad-and-anxious-a-snapshot-of-the-global-workforce), and stress has deleterious effects on a body. This is to say nothing of the mass-disabling pandemic we are all trying to survive.
+Disability is also the one marginalized group everyone will age into, provided they don’t die young. Stress has deleterious effects on a body, and [many organizations are trauma-generating factories](https://hbr.org/2022/06/stressed-sad-and-anxious-a-snapshot-of-the-global-workforce). This is to say nothing of the mass-disabling pandemic we are all trying to survive.
 
 When you consider how accessibility factors into backend development, I challenge you to think about your current relationship to disability, and what your future relationship should be.
 
 ## Stewardship
 
-Hopefully, with this myth debunked you are now empowered to improve the accessibility for both the digital experience you help maintain, as well as the experiences for your fellow coworkers.
+Hopefully, with this myth debunked you are now empowered to improve the accessibility for both the digital experience you help maintain, as well as the experiences of your fellow coworkers.
 
