@@ -108,6 +108,15 @@ You’ll want to capture and quantify these three distinct forms of content, pro
 
 This is important if localization is present, especially for partially visually hidden content. A different language may have a different structure to its grammar, meaning the visually hidden words may change position in the translated phrase.
 
+
+## Dashboards and other apps with GUIs
+
+There are a lot of products that help you manage your backend concerns via a website or web app  Dashboards come immediately to mind, as well as configuration management solutions. Some may be made internally, while others may be a third party offering.
+
+If the product is made in-house, consider doing [a cursory check](https://www.a11yproject.com/checklist/) of your workflows to see what access barriers are present.
+
+If you are shopping around for a service, ask for a [Voluntary Product Accessibility Template (<abbr>VPAT</abbr>)](https://en.wikipedia.org/wiki/Voluntary_Product_Accessibility_Template). If the vendor has one, that’s probably a good first step. If they don’t, know that the more people requesting them means the more it encourages the industry to take accessibility seriously as a concern.
+
 ## Don’t forget about command line applications
 
 You might think that command line interfaces (<abbr>CLIs</abbr>) would be accessible out of the box, given that they only use text. You might also be mistaken.
