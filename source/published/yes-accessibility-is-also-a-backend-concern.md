@@ -55,7 +55,7 @@ While you cannot guarantee that the description itself is accurate, you should b
 
 Does your content use more than one language? If it doesn’t, it most likely will at some point.
 
-Programmatically identifying the languages your experience uses is an important thing to do. Assistive technology such as screen readers look for this information in order to announce content accurately.
+[Programmatically identifying the languages your experience uses](https://www.w3.org/WAI/WCAG22/Understanding/language-of-page.html) is an important thing to do. Assistive technology such as screen readers look for this information in order to announce content accurately.
 
 <div class="centered-media-outer">
   <img
@@ -111,7 +111,7 @@ This is important if localization is present, especially for partially visually 
 
 ## Dashboards and other apps with GUIs
 
-There are a lot of products that help you manage your backend concerns via a website or web app  Dashboards come immediately to mind, as well as configuration management solutions. Some may be made internally, while others may be a third party offering.
+There are a lot of products that help you manage your backend concerns via a website or web app. Dashboards come immediately to mind, as well as configuration management solutions. Some may be made internally, while others may be a third party offering.
 
 If the product is made in-house, consider doing [a cursory check](https://www.a11yproject.com/checklist/) of your workflows to see what access barriers are present.
 
