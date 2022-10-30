@@ -43,7 +43,7 @@
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.1.0",
     "autoprefixer": "^9.8.6",
     "cross-env": "^7.0.3",
-    "cssnano": "^4.1.10",
+    "cssnano": "^5.1.13",
     "eleventy-plugin-sass": "^1.1.1",
     "luxon": "^1.21.3",
     "markdown-it": "^12.3.2",
