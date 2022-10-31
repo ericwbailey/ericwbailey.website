@@ -106,10 +106,10 @@ Attribute content is content that comes from the value of things like `aria-labe
 <div class="centered-media-outer">
   <img
     role="img"
-    class="centered-media-inner-3"
+    class="centered-media-inner-4"
     alt="Code sample featuting a button element and an iframe element. The button has a text label of 'save', and the iframe has a title attribute with a value set to 'YouTube: Crab rave'. Lines are drawn from the text label and iframe title to show the difference between text content and attribute content."
     loading="lazy"
-    src="{{ '/img/posts/aria-label-is-a-code smell/text-content-types.svg' | url }}"/>
+    src="{{ '/img/posts/aria-label-is-a-code-smell/text-content-types.svg' | url }}"/>
 </div>
 
 Both text content and attribute content have purpose and utility when creating accessible content for the web.
@@ -309,7 +309,7 @@ In [testing](https://codepen.io/ericwbailey/pen/gOKYGxj), `aria-label`'s attribu
 <div class="centered-media-outer">
   <img
     role="img"
-    class="centered-media-inner-3"
+    class="centered-media-inner-4"
     alt="Code sample featuting a button element and an anchor element. The button has a text value of 'share' and an aria-describedby attribute with a value of instructions. The anchor element has a text label of 'Terms and conditions', an aria-label attribute with a value of 'sharing rules', and an id attribute with a value of 'instructions'. Arrows point out how the button's text value is discarded in favor of the aria-describedby declaration. Following the code example is a label of 'Announcement', with a value called 'Share, sharing rules'."
     loading="lazy"
     src="{{ '/img/posts/aria-label-is-a-code-smell/aria-describedby-calculation.svg' | url }}"/>
