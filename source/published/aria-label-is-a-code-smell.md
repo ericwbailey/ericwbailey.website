@@ -109,7 +109,7 @@ Attribute content is content that comes from the value of things like `aria-labe
     class="centered-media-inner-3"
     alt="Code sample featuting a button element and an iframe element. The button has a text label of 'save', and the iframe has a title attribute with a value set to 'YouTube: Crab rave'. Lines are drawn from the text label and iframe title to show the difference between text content and attribute content."
     loading="lazy"
-    src="{{ '/img/posts/aria-label-is-a-code-smell/text-content-types.svg' | url }}"/>
+    src="{{ '/img/posts/aria-label-is-a-code smell/text-content-types.svg' | url }}"/>
 </div>
 
 Both text content and attribute content have purpose and utility when creating accessible content for the web.
@@ -210,7 +210,7 @@ For better or for worse, HTML is incredibly fault tolerant. You can declare anyt
     Skip CodePen embed
   </a>
 </p>
-<iframe height="300" style="width: 100%;" scrolling="no" title="CodePen: Forgiving browsers" src="https://codepen.io/ericwbailey/embed/bGKbrpR?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe height="600" style="width: 100%; height: 400px;" scrolling="no" title="CodePen: Forgiving browsers" src="https://codepen.io/ericwbailey/embed/bGKbrpR?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/ericwbailey/pen/bGKbrpR">
   Forgiving browsers</a> by Eric Bailey (<a href="https://codepen.io/ericwbailey">@ericwbailey</a>)
   on <a href="https://codepen.io">CodePen</a>.
