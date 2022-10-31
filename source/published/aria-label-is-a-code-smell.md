@@ -118,7 +118,7 @@ Both text content and attribute content have purpose and utility when creating a
 
 There are a few factors to be aware of. Let’s go over each:
 
-### 1. `aria-label`‘s varied support when declared on a non-interactive element
+### 1. `aria-label`’s varied support when declared on a non-interactive element
 
 First off, `aria-label` is intended to <strong>only</strong> be used on interactive elements, and <strong>not</strong> non-interactive ones.
 
@@ -159,12 +159,12 @@ When you declare `aria-label` on a non-interactive element, it is <strong>not be
 
 The second bullet point is the one that breaks my heart.
 
-Unnecessary control hints and descriptions almost is almost always a case of someone whose heart is in the right place, but is irresponsibility using ARIA without knowing both:
+Unnecessary control hints and descriptions almost is almost always a case of someone whose heart is in the right place, but is irresponsibly using ARIA without knowing both:
 
 - Its technical specifications, and
 - The negative social implications that come with creating “special” instructions only for disabled people.
 
-### 2. `aria-label`‘s known support concerns when declared on an interactive element
+### 2. `aria-label`’s known support concerns when declared on an interactive element
 
 Compared to [a lot of its brethren](https://a11ysupport.io/tech/aria/aria-controls_attribute), `aria-label` enjoys good support. However, this does not mean it has [perfect support](https://www.a11yproject.com/posts/aria-has-perfect-support/). Of note from [the Accessibility Support page](https://a11ysupport.io/tech/aria/aria-label_attribute), `aria-label`:
 
@@ -175,7 +175,7 @@ An accessible name derived from `aria-label` that changes when its control is fo
 
 The support issue with Edge and Narrator gives me pause, in that they’re both Microsoft products and should theoretically be simpatico.
 
-### 3. `aria-label`'s support concerns when used in a complicated interaction pattern
+### 3. `aria-label`’s support concerns when used in a complicated interaction pattern
 
 Grids, Tree Views, Treegrids, and bespoke custom components all are likely culprits. Be suspicious of any component—or series of interrelated components—that move away from things like simple boolean toggles and get into more complicated coordinated logic.
 
@@ -252,9 +252,9 @@ It’s literally not allowed by the language’s own grammar.
 
 - Firefox,
 - Safari,
-- [Chromium](https://en.wikipedia.org/wiki/Chromium_(web_browser)) browsers other than Chrome or Edge (Vivaldi, Opera, Brave, Arc, etc.), and
+- [Chromium](https://en.wikipedia.org/wiki/Chromium_(web_browser)) browsers other than Chrome or Edge (Vivaldi, Opera, Brave, Arc, etc.),
 - Internet Explorer,
-- PlayStation Internet Browser,
+- PlayStation Internet Browser, and
 - Essentially every other weird one-off browser out there.
 
 If someone requests a language other than the one the website or web app is written in, chances are good `aria-label` content will not update to match the new language.
@@ -269,13 +269,13 @@ Text content is incredibly versatile. Right clicking on even a single word revea
 
 This isn’t even counting the more esoteric things you can do like piping selected text into a terminal, creating a spoken phrase playlist entry from it, converting it into a QR code, and other horribly nerdy things I’m not aware of.
 
-Using `aria-label` deprives someone of all that utility. Of note, I’d like to stress its inability to be copied. Copying is a great feature, and is vit for things like researching, writing documentation, crafting how-to guides, or submitting a bug report.
+Using `aria-label` deprives someone of all that utility. Of note, I’d like to stress its inability to be copied. Copying is a great feature, and is vital for things like researching, writing documentation, crafting how-to guides, or submitting a bug report.
 
 ### 8. `aria-label` content will not show up if styles fail to load
 
-Aggressive firewalls, intermittent connection, shiesty service providers, bad caches, browser plugins, content blockers, non-standard browsers, large blocking assets, sloppy JavaScript, compromised ad networks, VPNs, CDN outages, scrapers and archivers, and panicky production hotfixes can all conspire to interrupt your style's HTTP request.
+Aggressive firewalls, intermittent connection, shiesty service providers, bad caches, browser plugins, content blockers, non-standard browsers, large blocking assets, sloppy JavaScript, compromised ad networks, VPNs, CDN outages, scrapers and archivers, and panicky production hotfixes can all conspire to interrupt your style’s HTTP request.
 
-Despite our industry’s various attempts to kill it, [Progressive Enhancement](https://en.wikipedia.org/wiki/Progressive_enhancement) is also still very much a thing. A text content label—visually hidden or otherwise—will always show the interactive control’s accessible name if styles fail to load.
+Despite our industry’s various attempts to kill it, [Progressive Enhancement](https://en.wikipedia.org/wiki/Progressive_enhancement) is also still very much a thing. A text content label—[visually hidden](https://www.a11yproject.com/posts/skip-nav-links/) or otherwise—will always show the interactive control’s accessible name if styles fail to load.
 
 <figure
   role="figure"
@@ -296,7 +296,7 @@ A Progressive Enhancement-friendly approach lets someone understand and take act
 
 Screen readers have the ability to adjust how chatty they are. This allows the person using them to choose the amount of information they take in.
 
-Qualities an individual can set a screen reader to announce, or ignore announcing include punctuation, capitalized text, misspellings, currency, an item’s properties and status, etc. It is a very important feature for comfort and quality of life of the person using a screen reader.
+Qualities an individual can set a screen reader to announce, or ignore announcing include punctuation, capitalized text, misspellings, currency, an item’s properties and status, etc. It is a very important feature for comfort and quality of life for the person using a screen reader.
 
 `aria-label` content is not text content, it is attribute content. Because of this, there is a non-trivial chance a screen reader may mark its content as less significant and therefore skippable.
 
@@ -304,7 +304,7 @@ Qualities an individual can set a screen reader to announce, or ignore announcin
 
 `aria-describedby` allows you to append the text of one element onto another element’s accessible name. This updates the target element’s announcement to be the combination of its initial accessible name and the text of the other element.
 
-In [testing](https://codepen.io/ericwbailey/pen/gOKYGxj), `aria-label`'s attribute content will override an element’s text content when creating the new `aria-describedby`-derived announcement.
+In [testing](https://codepen.io/ericwbailey/pen/gOKYGxj), `aria-label`’s attribute content will override an element’s text content when creating the new `aria-describedby`-derived announcement.
 
 <div class="centered-media-outer">
   <img
