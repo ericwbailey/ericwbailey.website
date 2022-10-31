@@ -11,6 +11,7 @@ tags:
   - Assistive Technology
   - Attributes
   - Development
+attribution: "Thank you to <a href='https://twitter.com/JamesScholes'>James Scholes</a> for his feedback."
 sharedOn:
   twitter: TK
   mastodon: TK
@@ -181,15 +182,22 @@ Grids, Tree Views, Treegrids, and bespoke custom components all are likely culpr
 
 The reason I say this is that the more complicated your interactions become, the less reliable ARIA gets. The reason for this is as simple as it is depressing: ARIA is not a prioritized concern, and therefore has less thorough testing and support.
 
-This doesn’t even begin to cover things like like [regressions](https://bugs.webkit.org/show_bug.cgi?id=201887), and [disdainful, willful ignorance](https://bugs.chromium.org/p/chromium/issues/detail?id=946653). The only way to know with confidence if your complicated interaction pattern works? Test it with actual assistive technology. One way to make those tests easier? Remove `aria-label`.
+A practical example of this is a screen reader’s cursor “breaking” when reviewing focused text. Here, it will announce text that is not technically present. This means the onus is on the person using the screen reader to know:
+
+1. That this situation is occuring in the first place, and that
+2. They need to re-trigger reading the node to learn what content is actually present, if any.
+
+Operating with this level of detail requires a good deal of technical literacy for the person using the screen reader, and is well-worth noting.
+
+This point doesn’t even begin to cover things like [regressions](https://bugs.webkit.org/show_bug.cgi?id=201887), and [disdainful, willful ignorance](https://bugs.chromium.org/p/chromium/issues/detail?id=946653). The only way to know with confidence if your complicated interaction pattern works? Test it with actual assistive technology. One way to make those tests easier? Remove `aria-label`.
 
 ### 4. `aria-label` may override the visible accessible name
 
-Say you have a button with a visible text label of, “Snapshot” and an `aria-label` declaration of, “Save a snapshot”.
+Say you have a button with a visible text label of, “Snapshot” and an `aria-label` declaration of, “Save software image.
 
 ```html
 <button
-  aria-label="Save a snapshot"
+  aria-label="Save software image"
   type="button">
   Snapshot
 </button>
@@ -263,13 +271,13 @@ In addition, content like `aria-label`s are [oftentimes forgotten about as a con
 
 This means that both browsers and people may fail to provide a fully translated experience in situations where `aria-label` is utilized.
 
-### 7. `aria-label` cannot be copied or otherwise manipulated as text
+### 7. It is difficult to copy `aria-label` content or otherwise manipulated it as text
 
 Text content is incredibly versatile. Right clicking on even a single word reveals a whole host of options for things we can do. You can copy it, cut it, define it, search the web for it, translate it, speak it aloud, link to it, print it, clip it, archive it, share it, etc.
 
 This isn’t even counting the more esoteric things you can do like piping selected text into a terminal, creating a spoken phrase playlist entry from it, converting it into a QR code, and other horribly nerdy things I’m not aware of.
 
-Using `aria-label` deprives someone of all that utility. Of note, I’d like to stress its inability to be copied. Copying is a great feature, and is vital for things like researching, writing documentation, crafting how-to guides, or submitting a bug report.
+Using `aria-label` deprives someone of all that utility, unless they are incredibly technically literate. Of note, I’d like to stress the inability to be copied. Copying is a great feature, and is vital for things like researching, writing documentation, crafting how-to guides, or submitting a bug report.
 
 ### 8. `aria-label` content will not show up if styles fail to load
 
@@ -292,17 +300,9 @@ Despite our industry’s various attempts to kill it, [Progressive Enhancement](
 
 A Progressive Enhancement-friendly approach lets someone understand and take action on things, even under less-than-ideal conditions. An `aria-label` providing the accessible name cannot do this.
 
-### 9. `aria-label` may be ignored due to a screen reader’s verbosity settings
+### 9. `aria-label` may override what `aria-describedby` is intended to announce
 
-Screen readers have the ability to adjust how chatty they are. This allows the person using them to choose the amount of information they take in.
-
-Qualities an individual can set a screen reader to announce, or ignore announcing include punctuation, capitalized text, misspellings, currency, an item’s properties and status, etc. It is a very important feature for comfort and quality of life for the person using a screen reader.
-
-`aria-label` content is not text content, it is attribute content. Because of this, there is a non-trivial chance a screen reader may mark its content as less significant and therefore skippable.
-
-### 10. `aria-label` may override what `aria-describedby` is intended to announce
-
-`aria-describedby` allows you to append the text of one element onto another element’s accessible name. This updates the target element’s announcement to be the combination of its initial accessible name and the text of the other element.
+`aria-describedby` allows you to append the text of one element onto another element. This updates the target element’s announcement to be the combination of its initial accessible name and then text of the other element.
 
 In [testing](https://codepen.io/ericwbailey/pen/gOKYGxj), `aria-label`’s attribute content will override an element’s text content when creating the new `aria-describedby`-derived announcement.
 
@@ -317,7 +317,7 @@ In [testing](https://codepen.io/ericwbailey/pen/gOKYGxj), `aria-label`’s attri
 
 This isn’t necessarily a bad thing per se, although I find it a confusing choice on which part of the overall declaration is honored. Given most developers’ level of familiarity with ARIA, I feel that removing as many potential surprises as possible is a good practice.
 
-### 11. The First Rule of ARIA exists
+### 10. The First Rule of ARIA exists
 
 [The first rule of using ARIA](https://www.w3.org/TR/using-aria/#rule1) states (emphasis theirs):
 
