@@ -13,8 +13,8 @@ tags:
   - Development
 attribution: "Thank you to <a href='https://twitter.com/JamesScholes'>James Scholes</a> for his feedback."
 sharedOn:
-  twitter: TK
-  mastodon: TK
+  twitter: https://twitter.com/ericwbailey/status/1587084379381178369
+  mastodon: https://mstdn.social/@ericwbailey/109263293469919964
 share:
   facebookDescription: "aria-label is a code smell."
   twitterDescription: "A nose."
