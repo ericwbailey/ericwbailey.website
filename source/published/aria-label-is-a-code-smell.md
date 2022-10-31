@@ -248,7 +248,7 @@ It’s literally not allowed by the language’s own grammar.
 
 ### 6. Some browsers do not translate `aria-label`
 
-[Only Chrome and Edge support updating](https://adrianroselli.com/2019/11/aria-label-does-not-translate.html#Browsers) `[aria-label](https://adrianroselli.com/2019/11/aria-label-does-not-translate.html#Browsers)` [values for translation](https://adrianroselli.com/2019/11/aria-label-does-not-translate.html#Browsers). The following browsers do not:
+[Only Chrome and Edge support updating `aria-label` values for translation](https://adrianroselli.com/2019/11/aria-label-does-not-translate.html#Browsers). The following browsers do not:
 
 - Firefox,
 - Safari,
