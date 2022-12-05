@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.29 - 2022-12-05
+- [Swearing and automatic captions](https://ericwbailey.website/published/swearing-and-automatic-captions/)
+
 ## v1.5.28 - 2022-10-31
 - [`aria-label` is a code smell](https://ericwbailey.website/published/aria-label-is-a-code-smell/)
 
