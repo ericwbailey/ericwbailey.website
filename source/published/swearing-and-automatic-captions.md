@@ -53,7 +53,7 @@ Many automatic captioning services censor swear words. I feel this is done becau
 
 <div class="centered-media-outer">
   <img
-    class="centered-media-inner-4"
+    class="centered-media-inner-2"
     alt="A variation on the “Ha ha! Business! meme, that reads, ‘Ha ha! Captions.’ Behind the text is a business man dressed in a early 90s-style suit pumping his fist while speaking on a cell phone. He has an ecstatic expression on his face."
     src="{{ '/img/posts/swearing-and-automatic-captions/ha-ha-captions.png' | url }}"/>
 </div>
@@ -128,10 +128,12 @@ I’m a big fan of [Figma](https://www.figma.com/), and was pleasantly surprised
     Skip Figma YouTube embed.
   </a>
 </p>
+<div class="video-wrapper">
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/RkUNqDCoTt8" title="YouTube: Automatic Caption Censorship - Figma" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 <span class="hide-visually" id="RkUNqDCoTt8">Content skipped.</span>
 
-Figma also not censor any of the seven dirty words. Nice.
+Figma did not censor any of the seven dirty words. Nice!
 
 ### Google  Meet
 
@@ -142,7 +144,9 @@ Also referred to as Google Hangouts and Google Duo. [Google Meet](https://meet.g
     Skip Google Meet YouTube embed.
   </a>
 </p>
+<div class="video-wrapper">
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/gVjv8XAsSxA" title="YouTube: Automatic Caption Censorship - Google Meet" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 <span class="hide-visually" id="gVjv8XAsSxA">Content skipped.</span>
 
 Google Meet censored the following words:
@@ -162,7 +166,9 @@ A formerly decent-enough service for appreciating photos, [Instagram](https://ww
     Skip Instagram Stories YouTube embed.
   </a>
 </p>
+<div class="video-wrapper">
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/oXvcH63wM2w" title="YouTube: Automatic Caption Censorship - Instagram Stories" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 <span class="hide-visually" id="oXvcH63wM2w">Content skipped.</span>
 
 Instagram censored the following words:
@@ -187,7 +193,9 @@ Also known as “we have Slack at home,” [Microsoft Teams](https://www.microso
     Skip Microsoft Teams YouTube embed.
   </a>
 </p>
+<div class="video-wrapper">
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/pOQGnnYfywg" title="YouTube: Automatic Caption Censorship - Microsoft Teams" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 <span class="hide-visually" id="pOQGnnYfywg">Content skipped.</span>
 
 Teams censored the following words:
@@ -214,7 +222,9 @@ The misidentification is interesting in that it:
     Skip Slack YouTube embed.
   </a>
 </p>
+<div class="video-wrapper">
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/75VN0S3WwFI" title="YouTube: Automatic Caption Censorship - Slack" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 <span class="hide-visually" id="75VN0S3WwFI">Content skipped.</span>
 
 Slack did not censor swear words, but did confuse “pause” for “powers,” which I thought was funny.
@@ -228,7 +238,9 @@ In all honesty, I bet [Skype](https://www.skype.com/en/) will outlive me. I prob
     Skip Skype YouTube embed.
   </a>
 </p>
+<div class="video-wrapper">
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/hSQk1OXrOW0" title="YouTube: Automatic Caption Censorship - Skype" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 <span class="hide-visually" id="hSQk1OXrOW0">Content skipped.</span>
 
 Skype censored all seven swear words. Of note is many swears were initially displayed and then replaced with asterisks, making the entire point moot.
@@ -242,14 +254,16 @@ I’m angry I had to join [TikTok](https://www.tiktok.com/) to test this, as I h
     Skip TikTok YouTube embed.
   </a>
 </p>
+<div class="video-wrapper">
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/WLR-vZih-YQ" title="YouTube: Automatic Caption Censorship - TikTok" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 <span class="hide-visually" id="WLR-vZih-YQ">Content skipped.</span>
 
 TikTok also did not censor any of the seven dirty words.
 
 ### Twitter
 
-Oh Twitter. You were a cesspool, but you were *my* cesspool. Jack Dorsey is a feckless piece of shit, but at least he was checked out enough to not mess with things.
+Oh Twitter. You were a cesspool, but you were *my* cesspool. Jack Dorsey is a feckless piece of shit, but at least he was checked out enough to not mess with things too much.
 
 Twitter Spaces’ captioning feature is a make-good on its [disastrous voice Tweets launch](https://www.theverge.com/2020/6/18/21296032/twitter-audio-tweets-accessibility-volunteers). It was a great addition by the now-defunct Accessibility Team, whose dismissal is one of many travesties I will never forgive fuckwit Elon Musk for visiting upon us.
 
@@ -260,7 +274,9 @@ Shout out to my friend [Soren](https://www.soren.ooo/) who crashed this party an
     Skip Twitter YouTube embed.
   </a>
 </p>
+<div class="video-wrapper">
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/hVbMeMI77Cs" title="YouTube: Automatic Caption Censorship - Twitter" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 <span class="hide-visually" id="hVbMeMI77Cs">Content skipped.</span>
 
 Twitter’s automatic captions censored the words “fuck” and “cunt” by refusing to even acknowledge them. Unfortunately, I don’t know if that is because of active censorship or because of its [crumbling services infrastructure](https://www.technologyreview.com/2022/11/08/1062886/heres-how-a-twitter-engineer-says-it-will-break-in-the-coming-weeks/).
@@ -274,7 +290,9 @@ Twitter’s automatic captions censored the words “fuck” and “cunt” by r
     Skip Zoom YouTube embed.
   </a>
 </p>
+<div class="video-wrapper">
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/1HwsfWoQs1Y" title="YouTube: Automatic Caption Censorship - Zoom" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 <span class="hide-visually" id="1HwsfWoQs1Y">Content skipped.</span>
 
 Zoom also did not censor any of the seven dirty words. <span lang="fr">Liberté, égalité, fraternité!</span>
@@ -312,7 +330,9 @@ Here’s Sarah putting it through its paces:
     Skip Voice Access YouTube embed.
   </a>
 </p>
+<div class="video-wrapper">
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3dzNDNRmPr0" title="YouTube: Automatic Caption Censorship - Voice Access" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 <span class="hide-visually" id="3dzNDNRmPr0">Content skipped.</span>
 
 Like Skype, Voice Access censored all seven words. Boo.
@@ -326,7 +346,9 @@ Like Skype, Voice Access censored all seven words. Boo.
     Skip Voice Control YouTube embed.
   </a>
 </p>
+<div class="video-wrapper">
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/uQk2laB7T4s" title="YouTube: Automatic Caption Censorship - Voice Control" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 <span class="hide-visually" id="uQk2laB7T4s">Content skipped.</span>
 
 ### Dragon Home
@@ -340,7 +362,9 @@ Saving the best for last, Dragon Home converts swearing to cussing, like a paren
     Skip Dragon Home YouTube embed.
   </a>
 </p>
+<div class="video-wrapper">
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/l-CuDmf-51k" title="YouTube: Automatic Caption Censorship - Dragon Home" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 <span class="hide-visually" id="l-CuDmf-51k">Content skipped.</span>
 
 Dragon swapped in the following words:
