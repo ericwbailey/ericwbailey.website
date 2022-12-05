@@ -34,7 +34,13 @@ Swearing at work is even more complicated. It’s barely done in written communi
 
 However, swearing at work also happens all the damn time. In my experience, light swearing in less-formal conversation with your peers can also be a good way to build camaraderie. Sharing a taboo feels good, to say nothing of [its analgesic effects](https://www.forbes.com/sites/alisonescalante/2020/05/01/swearing-the-fastest-acting-pain-reliever-of-them-all/?sh=58e3845625fa).
 
-Speaking of pain, I should take the time to unpack what automatic captions are, as well as their weaknesses:
+Speaking of pain: Let’s unpack what automatic captions are, as well as their weaknesses.
+
+## What the fuck is a caption?
+
+Captions are text that is placed over video footage, either live or recorded. This text corresponds to the content spoken on screen, and is supposed to perfectly match. More on this in a bit.
+
+Captions are a form of speech-to-text software, which takes words spoken by a person and converts them into text on a device. They are not text-to-speech, which is taking written content and making a device announce it via a [digital voice](https://tink.uk/notes-on-synthetic-speech/).
 
 ## Automatic captions
 
