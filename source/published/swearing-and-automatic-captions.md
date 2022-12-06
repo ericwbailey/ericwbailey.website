@@ -36,13 +36,13 @@ However, swearing at work also happens all the damn time. In my experience, ligh
 
 Speaking of pain: Let’s unpack what automatic captions are, as well as their weaknesses.
 
-## What the fuck is a caption?
+## Well, what the fuck is a caption in the first place?
 
 Captions are text that is placed over video footage, either live or recorded. This text corresponds to the content spoken on screen, and is supposed to perfectly match. More on this in a bit.
 
 Captions are a form of speech-to-text software, which takes words spoken by a person and converts them into text on a device. They are not text-to-speech, which is taking written content and making a device announce it via a [digital voice](https://tink.uk/notes-on-synthetic-speech/).
 
-## Automatic captions
+## What the hell in an automatic caption?
 
 Broadly-speaking, there are two different categories of captions:
 
@@ -51,7 +51,11 @@ Broadly-speaking, there are two different categories of captions:
 
 Of the two, manually-provided captions are ideal (although [there are exceptions](https://www.linkedin.com/posts/meryl_merylmots-activity-6988545221710012417-P4VY/)), as they are far more accurate. In some circles, some individuals even refer to automatic captions as “[craptions](https://mashable.com/article/youtube-closed-captioning-nomorecraptions)”—a phrase I love.
 
-[Automatic captions don’t handle things](https://www.consumerreports.org/disability-rights/auto-captions-often-fall-short-on-zoom-facebook-and-others-a9742392879/) like jargon, nuance, non-English words, low talkers, accents, and [AAVE](https://en.wikipedia.org/wiki/African-American_Vernacular_English) well. They are also susceptible to the racist, ableist shit we call algorithmic bias. That being said, automatic captions are better than nothing at all.
+[Automatic captions don’t handle things](https://www.consumerreports.org/disability-rights/auto-captions-often-fall-short-on-zoom-facebook-and-others-a9742392879/) like jargon, nuance, non-English words, low talkers, accents, and [AAVE](https://en.wikipedia.org/wiki/African-American_Vernacular_English) well. They are also susceptible to the racist, ableist shit we call algorithmic bias.
+
+On the flip side of things, automatic captions can also misrepresent someone by [interpreting a non swear word as a swear word](https://www.linkedin.com/posts/meryl_communication-accessibility-a11y-activity-6823651317886582786-nht6/). This can easily create embarassment and a negative impression of the speaker.
+
+That all said, automatic captions are better than nothing at all.
 
 ## Censorship, confusion, and infantilization
 
