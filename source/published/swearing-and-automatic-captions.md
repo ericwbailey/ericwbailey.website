@@ -42,7 +42,7 @@ Captions are text that is placed over video footage, either live or recorded. Th
 
 Captions are a form of speech-to-text software, which takes words spoken by a person and converts them into text on a device. They are not text-to-speech, which is taking written content and making a device announce it via a [digital voice](https://tink.uk/notes-on-synthetic-speech/).
 
-## What the hell in an automatic caption?
+## And what the hell is an automatic caption?
 
 Broadly-speaking, there are two different categories of captions:
 
@@ -89,7 +89,7 @@ If censored, both phrases read as, “This is ****** up.” Without the swear be
 
 The inclusion of a swear is a deliberate act. Its removal undoes the speaker’s agency, and dilutes the message they’re trying to communicate.
 
-In an abeled context, it is artificial tone-policing, shotgunned without discretion or consent. In a disabled context, censorship of language in automatic captioning communicates that [you are nannying](https://www.psychologytoday.com/us/blog/speaking-in-tongues/202208/the-infantilization-elders-and-people-disabilities) what a d/Deaf person should be hearing.
+In an abled context, it is artificial tone-policing, shotgunned without discretion or consent. In a disabled context, censorship of language in automatic captioning communicates that [you are nannying](https://www.psychologytoday.com/us/blog/speaking-in-tongues/202208/the-infantilization-elders-and-people-disabilities) what a d/Deaf person should be hearing.
 
 This censorship creates a lack of equivalency in experience. Someone who does not use captions is privy to a more accurate interpretation of the spoken content. I don’t know about you, but that feels like some bullshit exclusion.
 
