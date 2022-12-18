@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.30 - 2022-12-18
+- [Centerless](https://ericwbailey.website/published/centerless/)
+
 ## v1.5.29 - 2022-12-05
 - [Swearing and automatic captions](https://ericwbailey.website/published/swearing-and-automatic-captions/)
 
