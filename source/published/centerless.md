@@ -26,7 +26,7 @@ At the same time, two of my main sources of community grew too toxic. Twitter is
 
 It’s easy to pretend that your internet activities aren’t “real life,” but the loss of community—and resulting feeling of grief—is very real. These places have taught me countless things, as well as providing a ton opportunities. I literally owe my career and many friendships to these two spaces.
 
-Twitter is the more difficult one to process, in that we as a society have never seen [disability identity organize](https://www.teenvogue.com/story/crip-the-vote-hashtag-persons-with-disabilities-election-campaign) on such a scale before. It is difficult to disengage myself from these communities there, but I don’t think I can in good conscience contribute to the platform in its current form.
+Twitter is the more difficult one to process, in that we as a society have never seen [disability identity organize](https://crutchesandspice.com/2022/11/16/with-twitter-crumbling-it-feels-like-the-world-is-collapsing-on-disabled-people/) on such a scale before. It is difficult to disengage myself from these communities there, but I don’t think I can in good conscience contribute to the platform in its current form.
 
 Having these sources of community suddenly cut off feels a lot like losing a sense you previously took for granted. It will take some time to get used to, but I’m not sure I want to get used to the feeling.
 
