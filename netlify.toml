@@ -7,6 +7,10 @@ from = "/writing.html"
 to = "/writing/"
 
 [[redirects]]
+from = "/writing/"
+to = "/published/"
+
+[[redirects]]
 from = "/speaking.html"
 to = "/speaking/"
 
@@ -44,7 +48,7 @@ to = "/writing/tech-metaphors/"
 
 [[redirects]]
 from = "/writing/its-all-disparate-its-all-connected.html"
-to = "/writing/its-all-disparate-its-all-connected/"
+to = "/published/"
 
 [[redirects]]
 from = "/writing/truths-about-digital-accessibility.html"

@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.32 - 2022-12-27
+- Redirect `/writing/` to `/published/`
+
 ## v1.5.31 - 2022-12-24
 - [Preventing form submission with zero Javascript](https://www.htmhell.dev/adventcalendar/2022/24/)
 
