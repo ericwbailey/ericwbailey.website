@@ -17,7 +17,7 @@ series:
       url: https://www.smashingmagazine.com/2020/05/equivalent-experiences-part1/
   next:
     - title: "Mug handles"
-      url: https://ericwbailey.website/writing/mug-handles/
+      url: https://ericwbailey.website/published/mug-handles/
 sharedOn:
   twitter: https://twitter.com/ericwbailey/status/1268915055443181568
 eleventyNavigation:

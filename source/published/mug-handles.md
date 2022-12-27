@@ -14,7 +14,7 @@ tags:
 series:
   previous:
     - title: "Mug handles"
-      url: https://ericwbailey.website/writing/mug-handles/
+      url: https://ericwbailey.website/published/mug-handles/
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}
