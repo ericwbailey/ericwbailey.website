@@ -139,7 +139,7 @@ A custom cursor will probably be a small download, sure. But given that a custom
 
 ## What about browser extensions and user stylesheets?
 
-[People may be resourceful](https://ericwbailey.website/writing/truths-about-digital-accessibility/#non-technical-people-may-make-highly-technical-modifications-to-their-technology), but you shouldn't assume they’ll always be aware or motivated enough to fix the problem you created.
+[People may be resourceful](https://ericwbailey.website/published/truths-about-digital-accessibility/#non-technical-people-may-make-highly-technical-modifications-to-their-technology), but you shouldn't assume they’ll always be aware or motivated enough to fix the problem you created.
 
 ## So, why design anything?
 

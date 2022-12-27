@@ -82,7 +82,7 @@ These concerns aren’t abstract, academic quibbling. They have a direct impact 
 
 ## Don’t punch down
 
-I’m reluctant to blame developers for this lack of knowledge, especially new ones. As an industry we do a terrible job at teaching anything other than JavaScript. I’m also hesitant to blame the schools. They [teach what the market demands](https://ericwbailey.website/writing/fighting-uphill#what-if-we%E2%80%99re-losing%3F), which is another loop we need to break.
+I’m reluctant to blame developers for this lack of knowledge, especially new ones. As an industry we do a terrible job at teaching anything other than JavaScript. I’m also hesitant to blame the schools. They [teach what the market demands](https://ericwbailey.website/published/fighting-uphill#what-if-we%E2%80%99re-losing%3F), which is another loop we need to break.
 
 <blockquote class="twitter-tweet" aria-label="Hiring a frontend engineer who's really great at HTML + CSS is surprisingly difficult. Tweet by Josh Pigford, posted on June 17, 2021."><p lang="en" dir="ltr">Hiring a frontend engineer who&#39;s really great at HTML + CSS is surprisingly difficult.</p>&mdash; Josh Pigford (@Shpigford) <a href="https://twitter.com/Shpigford/status/1405626129180987394?ref_src=twsrc%5Etfw">June 17, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 

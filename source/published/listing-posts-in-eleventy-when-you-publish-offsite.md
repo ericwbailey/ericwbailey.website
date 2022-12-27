@@ -59,7 +59,7 @@ permalink: false
 ```
 {% endraw %}
 
-Make sure these posts are [placed in the same directory](https://ericwbailey.website/writing/using-a-folder-other-than-posts-with-eleventy/) you store the rest of your on-site posts in.
+Make sure these posts are [placed in the same directory](https://ericwbailey.website/published/using-a-folder-other-than-posts-with-eleventy/) you store the rest of your on-site posts in.
 
 Here, `title` is the title of your external post, `date` is the date it was posted, and `url` is the URL of where it is posted. The other important bit is [`permalink: false`](https://www.11ty.dev/docs/permalinks/#permalink-false), which will keep Eleventy from trying to render this post data as a web page.
 

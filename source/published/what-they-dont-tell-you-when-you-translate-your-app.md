@@ -167,7 +167,7 @@ Not every typeface supports every language. This is especially true for less-com
 
 ### Subsetting
 
-You may have to [undo subsetting efforts](https://ericwbailey.website/writing/to-subset-or-not-subset-fonts/), or load an entirely new typeface to display the language you want to support.
+You may have to [undo subsetting efforts](https://ericwbailey.website/published/to-subset-or-not-subset-fonts/), or load an entirely new typeface to display the language you want to support.
 
 ### Picking typefaces
 
