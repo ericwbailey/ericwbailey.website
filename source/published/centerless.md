@@ -32,7 +32,7 @@ Having these sources of community suddenly cut off feels a lot like losing a sen
 
 I also feel like I’m drifting from my core group of friends. Quarantine has been a compounding sense of isolation, and this massive, sudden loss of other lifelines only serves to amplify those feelings.
 
-I’ve been [flirting with Mastodon](https://front-end.social/@ericwbailey/109293186682100198)—Twitter’s heir apparent—for years, but it has yet to take. Its core architectural choices have some nasty, intractable consequences. I want to [learn from people who aren’t like me](https://twitter.com/DrBlackDeer/status/1603884556020391936), who have lived experiences different from my own. I want pleasant surprises and serendipitous moments. I don’t want [a thin veneer of toxic positivity hiding structural exclusion](https://mstdn.party/@gwensnyder/109530291742699097).
+I’ve been [flirting with Mastodon](https://front-end.social/@ericwbailey/109293186682100198)—Twitter’s heir apparent—for [years](https://mastodon.social/@ericwbailey/543946), but it has yet to take. Its core architectural choices have some nasty, intractable consequences. I want to [learn from people who aren’t like me](https://twitter.com/DrBlackDeer/status/1603884556020391936), who have lived experiences different from my own. I want pleasant surprises and serendipitous moments. I don’t want [a thin veneer of toxic positivity hiding structural exclusion](https://mstdn.party/@gwensnyder/109530291742699097).
 
 A less depressed version of me might have gone for a hackneyed metaphor that tried to tie my feelings to aspirations for the Federated model. Current version of me, however, is <em>tired</em>.
 
