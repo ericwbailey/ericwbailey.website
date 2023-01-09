@@ -45,7 +45,7 @@
     "cross-env": "^7.0.3",
     "cssnano": "^5.1.13",
     "eleventy-plugin-sass": "^1.1.1",
-    "luxon": "^1.21.3",
+    "luxon": "^2.5.2",
     "markdown-it": "^12.3.2",
     "markdown-it-anchor": "^5.2.5",
     "node-sass": "^7.0.0",
