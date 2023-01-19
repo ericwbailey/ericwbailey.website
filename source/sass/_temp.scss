@@ -303,3 +303,9 @@ figcaption {
     width: 80vw;
   }
 }
+
+.c-webring {
+  display: flex;
+  gap: 1.5rem;
+  list-style-type: none;
+}
