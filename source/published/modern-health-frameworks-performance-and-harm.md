@@ -35,7 +35,9 @@ I signed up for Modern Health’s service earlier this week. After signing my ri
 
 Since I make digital experiences for a living, I immediately knew what happened. The signup user flow failed to transition me over to the onboarding user flow.
 
-In addition to [a terrifying amount of telemetry](https://builtwith.com/advanced?back=joinmodernhealth.com), Modern Health’s customer-facing experience is delivered using React and Webpack. If you are familiar with how the web is built, what happened is pretty obvious: A website that over-relies on JavaScript to power its experience had its logic collide with one or more other errant pieces of logic that it summons. This created a deadlock.
+In addition to [a terrifying amount of telemetry](https://builtwith.com/advanced?back=joinmodernhealth.com), Modern Health’s customer-facing experience is delivered using React and Webpack.
+
+If you are familiar with how the web is built, what happened is pretty obvious: A website that over-relies on JavaScript to power its experience had its logic collide with one or more other errant pieces of logic that it summons. This created a deadlock.
 
 If you do not make digital experiences for a living, what happened is not obvious at all. All you see is a tiny fake loading spinner that never stops.
 
@@ -45,7 +47,7 @@ However, many others is not everyone. I also need to point out that people are v
 
 What if I was suicidal?
 
-I used an up-to-date operating system to access this website on a top of the line laptop, browsing with an up-to-date Chromium browser with no setting adjustments or extensions to interfere with things. Can you imagine what chance for success [someone using something other than that](https://css-tricks.com/test-your-product-on-a-crappy-laptop/) will have?
+I used an up-to-date operating system to access this website on a top of the line laptop, browsing with an [evergreen](https://css-tricks.com/evergreen-does-not-mean-immediately-available/) Chromium browser with no setting adjustments or extensions to interfere with things. Can you imagine what chance for success [someone using something other than that](https://css-tricks.com/test-your-product-on-a-crappy-laptop/) will have?
 
 [Technology choices have ethical ramifications](https://timkadlec.com/remembers/2019-01-09-the-ethics-of-performance/).
 
@@ -55,7 +57,11 @@ There is also the very real possibility that the developers responsible for maki
 
 I felt compelled to write this because explaining the situation is a fractal of absurdity. I’d be laughing if I wasn’t so furious.
 
-An experience like Modern Health should be as lean and fault-tolerant as possible. It should not make 162 requests transferring ~15 MB just to hope it can show me a [sanitized Corporate Memphis blob human](https://beaconagency.co.uk/post/does-big-tech-design-have-an-authenticity-problem) promoting a gamified growth funnel.
+I mean it. Take some time today to try and verbally explain the totality of what went wrong here to somoene who doesn’t make digital experiences.
+
+Try to justify the architectural choices made compared to an intended audience. Then try to re-justify it through the lens of power dynamics and and a vulnerable population.
+
+An experience like Modern Health should be as lean and fault-tolerant as possible. It should not make 162 requests transferring ~15 MB just to hope it can show me two [sanitized Corporate Memphis blob humans](https://beaconagency.co.uk/post/does-big-tech-design-have-an-authenticity-problem) promoting a gamified growth funnel.
 
 <figure
   role="figure"
@@ -71,4 +77,4 @@ An experience like Modern Health should be as lean and fault-tolerant as possibl
 
 I don’t want the underlying concept behind Modern Health to fail. I want more people to get the help they need in a reliable and safe way. However, I wish we as an industry would stop [promoting and rewarding the wrong things](https://joshcollinsworth.com/blog/self-fulfilling-prophecy-of-react).
 
-We’ve lost the plot. Performance, accessibility, and usability are more than just inconvenient truths you can pretend don’t exist. They have a direct impact on the quality of someone’s life.
+We’ve lost the plot. Performance, accessibility, and usability are more than inconvenient truths you can pretend don’t exist. They have a direct impact on the quality of someone’s life.
