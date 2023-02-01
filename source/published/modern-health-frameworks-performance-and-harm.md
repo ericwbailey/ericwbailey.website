@@ -11,8 +11,11 @@ tags:
   - Performance
   - Personal
 sharedOn:
-  twitter: TK
-  mastodon: TK
+  twitter: https://ericwbailey.website/published/modern-health-frameworks-performance-and-harm/
+  mastodon: https://social.ericwbailey.website/@eric/109790142737923727
+share:
+  facebookDescription: "A loading spinner."
+  twitterDescription: "A loading spinner."
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}
