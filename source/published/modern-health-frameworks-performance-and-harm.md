@@ -30,6 +30,7 @@ I signed up for Modern Health’s service earlier this week. After signing my ri
 <img
   alt="An almost entirely blank white screen. In the top lefthand corner is the Modern Health log, and navigation options for 'Explore', 'Circles', and 'FAQ'. On the top righthand corner is navigation options for 'Messages' and my profile. In the center of the screen is a small loading spinner. Screenshot."
   loading="lazy"
+  style="border: 1px solid #dddddd;"
   src="{{ '/img/posts/modern-health-frameworks-performance-and-harm/modern-health-routing-failure.png' | url }}" />
 
 Since I make digital experiences for a living, I immediately knew what happened. The signup user flow failed to transition me over to the onboarding user flow.
