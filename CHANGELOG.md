@@ -10,6 +10,10 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.33 - 2023-02-01
+- Add [Modern Health, frameworks, performance, and harm](https://ericwbailey.website/published/modern-health-frameworks-performance-and-harm/)
+- Fix social media share code
+
 ## v1.5.32 - 2022-12-27
 - Redirect `/writing/` to `/published/`
 
