@@ -71,4 +71,4 @@ An experience like Modern Health should be as lean and fault-tolerant as possibl
 
 I don’t want the underlying concept behind Modern Health to fail. I want more people to get the help they need in a reliable and safe way. However, I wish we as an industry would stop [promoting and rewarding the wrong things](https://joshcollinsworth.com/blog/self-fulfilling-prophecy-of-react).
 
-We‘ve lost the plot. Performance, accessibility, and usability are more than just inconvenient truths you can pretend don’t exist. They have a direct impact on the quality of someone’s life.
+We’ve lost the plot. Performance, accessibility, and usability are more than just inconvenient truths you can pretend don’t exist. They have a direct impact on the quality of someone’s life.
