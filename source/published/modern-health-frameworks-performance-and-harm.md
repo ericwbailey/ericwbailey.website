@@ -39,7 +39,7 @@ In addition to [a terrifying amount of telemetry](https://builtwith.com/advanced
 
 If you do not make digital experiences for a living, what happened is not obvious at all. All you see is a tiny fake loading spinner that never stops.
 
-Experiences on the web are so poor that many people have developed coping strategies for getting what they need. I [force refreshed the tab](https://filecamp.com/support/problem-solving/hard-refresh/) and was unceremoniously dumped into my homepage dashboard. Many others may know to do the same.
+Experiences on the web are so poor that many people have developed coping strategies for getting what they need. I [hard refreshed the tab](https://filecamp.com/support/problem-solving/hard-refresh/) and was unceremoniously dumped into my homepage dashboard. Many others may know to do the same.
 
 However, many others is not everyone. I also need to point out that people are visiting sites like this because they are not in a good place. Depression and stress lowers your executive function. Furthermore, [people internalize technology’s failures as their own](https://alistapart.com/article/paint-the-picture-not-the-frame/).
 
