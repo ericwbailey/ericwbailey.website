@@ -60,7 +60,7 @@ There is also the very real possibility that the developers responsible for maki
 
 I felt compelled to write this because explaining the situation is a fractal of absurdity. I’d be laughing if I wasn’t so furious.
 
-I mean it. Take some time today to try and verbally explain the totality of what went wrong here to somoene who doesn’t make digital experiences.
+I mean it. Take some time today to try and verbally explain the totality of what went wrong here to someone who doesn’t make digital experiences.
 
 Try to justify the architectural choices made compared to an intended audience. Then try to re-justify it through the lens of power dynamics and and a vulnerable population.
 
