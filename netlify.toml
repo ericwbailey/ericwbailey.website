@@ -265,3 +265,7 @@ to = "https://ericwbailey.website/published/saying-thank-you/"
 [[redirects]]
 from = "https://ericwbailey.design/feed/feed.xml"
 to = "https://ericwbailey.website/feed/feed.xml"
+
+[[redirects]]
+from = "https://ericwbailey.website/newsletter"
+to = "https://buttondown.email/ericwbailey"
