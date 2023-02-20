@@ -66,7 +66,7 @@ Of the techniques I use, Debirdify is probably the one you want to use first. Th
 [Followgraph](https://followgraph.vercel.app/) is a service that combs though who you are following on Mastodon, determines which accounts people you follow are following, and then if you’re following those accounts or not. If you aren’t, they are listed in order descending total of mutual follower count.
 
 <img
-  alt="A table of Mastodon accounts with a title of, 'Followgraph for Mastodon. Three rows are present, with each row having an avarar, a title and description pulled from their Mastodon profile info, and a follow button. The three results are Eugen Rochko, Mastodon's official account, and Casey Newton. Cropped screenshot."
+  alt="A table of Mastodon accounts with a title of, 'Followgraph for Mastodon. Three rows are present, with each row having an avatar, a title and description pulled from their Mastodon profile info, and a follow button. The three results are Eugen Rochko, Mastodon's official account, and Casey Newton. Cropped screenshot."
   loading="lazy"
   style="border: 1px solid #dddddd;"
   src="{{ '/img/posts/my-mastodon-strategy/followgraph.png' | url }}" />
