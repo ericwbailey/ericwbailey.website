@@ -75,7 +75,7 @@ The reason I use this service weekly is the same as Debirdify. As more people mi
 
 The downside, however, is this reinforces a lot of biases in who I follow. Because of this, I recommend <strong>starting from the bottom</strong> of the list as opposed to the top after the first pass—less mutual followers isn’t indicative of less worth.
 
-I also wish there was a way to hide people I’m not interested in following. There are certain people I explicitly have no interest in following, but remembering why each time I review the results is mental overhead I don’t need in my life right now. That said, I do appreciate that this is a free tool run by someone in their free time.
+I also wish there was a way to hide people I’m not interested in following. There are certain people I explicitly have no interest in adding to my feed, but remembering why each time I review the results is mental overhead I don’t need in my life right now. That said, I do appreciate that this is a free tool run by someone in their free time.
 
 ### Mastodon Flock
 
@@ -212,13 +212,13 @@ Blocking people on Twitter is a lot like blocking people on Mastodon, in that it
 
 Unfortunately, it is far easier for a motivated individual to circumvent blocks on Mastodon. This makes things like [brigading](https://institute.global/policy/social-media-futures-what-brigading) a lot more commonplace. Double-unfortunately, Mastodon’s current general population skews more towards tech-literate, meaning there’s a higher than normal chance they possess the skills to bypass platform protections.
 
-## Mastodon isn’t Twitter and you should stop trying to treating it as such
+## Mastodon isn’t Twitter and you should stop trying to treat it as such
 
 Preemptively adding this common refrain from the Mastodon community at-large should indicate the culture of unsolicited mansplaining that is still prevalent.
 
 The point is not that I’m trying to fit Twitter-shaped interactions into Mastodon. The point is I’m trying to make this social network engaging enough to use through a whole host of unofficial tools and esoteric processes.
 
-Let [Mastodon’s new server discovery experience](https://joinmastodon.org/servers) be evidence pointing to that point.
+Let [Mastodon’s new server discovery experience](https://joinmastodon.org/servers) be evidence pointing to that previous point.
 
 ## This all said
 
