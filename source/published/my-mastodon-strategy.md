@@ -113,7 +113,7 @@ One neat feature about Mastodon is you can add code to your website to verify yo
 <img
   alt="My Mastodon profile. The screenshot includes an avatar, my display name, my Mastodon handle, and my bio statement, as well as a profile information list widget. My display name is, 'Eric', my Mastodon handle is '@eric@social.ericwbailey.website', and by bio is, '#accessibility advocate, lapsed inclusive designer. The #A11Y Project maintainer, design systems wonk, recovering curmudgeon.' The list widget has five rows. The first row is titled, 'Joined', and has a value of 'Jan 04, 2023'. The second row is titled, 'Pronouns', and has a value of 'he/him/his'. The third row has a title of 'Avatar', and has a value of 'Illustration of a white man with short dark hair, beard, and glasses.' The fourth row has a title of 'Website', and a value of 'ericwbailey.website.' It also has a green highlight and a checkmark icon before the website URL value, indicating I have verified ownership of my domain. The fifth row has a title of 'Newsletter', with a value of 'ericwbailey.website/newsletter'. A prominent button labeled, 'Edit profile' is also present. Cropped screenshot."
   loading="lazy"
-  src="{{ '/img/posts/my-mastodon-strategy/whom-to-follow.png' | url }}" />
+  src="{{ '/img/posts/my-mastodon-strategy/mastodon-profile-verified-link.png' | url }}" />
 
 It is not a perfect system, but it is good enough. It’s also a very web-friendly gesture in a sea of walled garden social media sites that like to pretend the interest outside of their domain does not exist.
 
@@ -190,7 +190,7 @@ Mastodon allows you to block everyone from an instance level. A good way to thin
   loading="lazy"
   src="{{ '/img/posts/my-mastodon-strategy/federation-blocking.png' | url }}" />
 
-The reason for this is there are a lot of incredibly vile instances out there. I follow [the](https://mastodon.art/@fediblock) [fediblock](https://mastodon.art/@fediblock) [hashtag](https://mastodon.art/@fediblock) to surface especially egregious places.
+The reason for this is there are a lot of incredibly vile instances out there. I follow [the #fediblock hashtag](https://mastodon.art/@fediblock) to surface especially egregious places.
 
 If you don’t run your own instance (I do), you don’t really need to worry about this. If your instance is smaller, you can definitely recommend servers to block to your instance administrators. That said, be kind and do the work to determine if there is an established process for reporting this sort of thing.
 
