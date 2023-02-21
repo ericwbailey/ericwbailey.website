@@ -226,7 +226,7 @@ If you take anything away from this post, it’s that I expend a tremendous amou
 
 Despite all this effort, I’m still not entirely convinced it is a place for me.
 
-Mastodon has some deep problems that arise from its core architectural decisions. To be clear, so does Twitter. If you’re poised at your keyboard ready to tell me that Mastodon—a microblogging platform with following, rich media, and hashtag functionality—isn’t intended to be a Twitter replacement, please don’t.
+Mastodon has some deep problems that arise from its core architectural decisions. To be clear, so does Twitter. If you’re poised at your keyboard ready to tell me that Mastodon—a microblogging platform with following, replying, instant resharing, liking, rich media, and hashtag functionality—isn’t intended to be a Twitter replacement, please don’t.
 
 My biggest criticism and wish for the platform is a better way to discover and follow people who aren’t like me.
 
