@@ -104,7 +104,7 @@ Winning the award for best UI in this post, [Mastodon Flock](https://mastodon-fl
 
 If you’re picking up on a theme here, it’s that combing through multiple services to exfiltrate people I want to learn from takes time and effort.
 
-Unlike Mastodon Flock, Whom to Follow does not require a login to function. If you feel weird about giving random apps access to your account, this is the service for you.
+Unlike Debirdify and Mastodon Flock, Whom to Follow does not require a login to function. If you feel weird about giving random apps access to your account, this is the service for you.
 
 ### StreetPass
 
@@ -117,7 +117,7 @@ One neat feature about Mastodon is you can add code to your website to verify yo
 
 It is not a perfect system, but it is good enough. It’s also a very web-friendly gesture in a sea of walled garden social media sites that like to pretend the interest outside of their domain does not exist.
 
-[StreetPass](https://streetpass.social/) works by using a browser extension to passively monitor every website you visit. If it detects Mastodon identity verification code it will log it to a list for you to review at a later date.
+[StreetPass](https://streetpass.social/) works by using a browser extension to passively monitor every website you visit. If it detects Mastodon identity verification code it will log it to a list for you to manually review at a later date.
 
 I like this in that it surfaces a way to discover people doing interesting things that exists outside of the immediate filter bubble of “people you know like you who know people also like you.”
 
@@ -127,7 +127,7 @@ Granted, I still have the selection bias of what I’m usually reading online is
 
 I check [FeedSeer](https://feedseer.com/). This web app is an open source Mastodon-centric replacement for [Tweet Shelf](https://www.tweetshelf.com/), which in turn is a replacement for [Nuzzel](https://www.androidpolice.com/2021/05/06/twitters-scroll-acquisition-could-give-it-a-personalized-newsfeed-that-cuts-out-all-the-usual-toxicity/). Wheels within wheels, folks.
 
-This is less about finding people, and more trying to stay on top of the current zeitgeist. That said, it  sometimes does shake out good conversations, and consequently good people to follow.
+This is less about finding people, and more trying to stay on top of the zeitgeist. That said, it  sometimes does shake out good conversations, and consequently good people to follow.
 
 ## Ad hoc
 
