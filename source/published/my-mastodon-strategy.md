@@ -115,7 +115,7 @@ One neat feature about Mastodon is you can add code to your website to verify yo
   loading="lazy"
   src="{{ '/img/posts/my-mastodon-strategy/mastodon-profile-verified-link.png' | url }}" />
 
-It is not a perfect system, but it is good enough. It’s also a very web-friendly gesture in a sea of walled garden social media sites that like to pretend the interest outside of their domain does not exist.
+It is not a perfect system, but it is good enough. It’s also a very web-friendly gesture in a sea of walled garden social media sites that like to pretend interests outside of their domain do not exist.
 
 [StreetPass](https://streetpass.social/) works by using a browser extension to passively monitor every website you visit. If it detects Mastodon identity verification code it will log it to a list for you to manually review at a later date.
 
