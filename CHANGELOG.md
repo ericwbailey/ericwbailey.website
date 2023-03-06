@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.35 - 2023-03-0
+- Add [I doubled-down on RSS](https://ericwbailey.website/published/i-doubled-down-on-rss/)
+
 ## v1.5.34 - 2023-02-21
 - Add [My Mastodon strategy](https://ericwbailey.website/published/my-mastodon-strategy/)
 
