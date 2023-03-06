@@ -179,7 +179,7 @@ It’s better to place RSS feed metadata on every page. There’s no way of know
 
 <em>Thank you</em>.
 
-Hitting good ol’ <kbd>CMD</kbd> + </kbd>F</kbd> and searching for “rss,” “feed,” or “subscribe” is a quick and easy method of discovery. Finding a persistent link in the footer? Bliss.
+Hitting good ol’ <kbd>CMD</kbd> + </kbd>F</kbd> and searching for “rss”, “feed”, or “subscribe” is a quick and easy method of discovery. Finding a persistent link in the footer? Bliss.
 
 A close second place is a RSS icon, although that means I have to visually scan for it. Remember, [the best icon is a text label](https://thomasbyttebier.be/blog/the-best-icon-is-a-text-label).
 
@@ -217,7 +217,7 @@ I don’t read posts in my RSS reader. Instead I’ll pop them open in a new tab
 
 That said, one huge benefit to RSS readers is their version of [reader mode](https://css-tricks.com/reader-mode-the-button-to-beat/), where you as the reader can modify how the reading experience looks to better suit your needs. Ideally [the blog uses all the appropriate metadata](https://scribe.rip/@mandy.michael/building-websites-for-safari-reader-mode-and-other-reading-apps-1562913c86c9) so you can use the browser’s reader mode too.
 
-I consider both RSS reader interfaces and browser reader modes to be highly customizable assistive technology, and consider the web a better place for this kind of functionality existing.
+I consider both RSS reader interfaces and browser reader modes to be highly customizable assistive technology. The web a better place for these kinds of functionality existing.
 
 ### Even more lists and feelings
 
@@ -296,11 +296,13 @@ Try talk someone you know who casually uses the web into trying RSS. Here’s so
 - You may or may not see other parts of the site other than the published article.
 - You will not be able to comment on the published article directly and need to go to the source instead.
 
-Now compare that with typing “cnn.com” into google.com’s search (a ton of people visit URLs this way). We’ve clearly got our work cut out for us.
+Now compare that with typing “cnn​.com” into google​.com’s search (a ton of people visit URLs this way). We’ve clearly got our work cut out for us.
 
 ## &#x3C;/rss&#x3E;
 
-So, there you have it. A random person on the internet who freaked out and jammed as much of his entire Twitter feed into his RSS reader as possible. He then freaked out about freaking out, and then freaked out again about the new prison he built for himself.
+So, there you have it:
+
+A random person on the internet who freaked out and jammed as much of his entire Twitter feed into his RSS reader as possible. He then freaked out about freaking out, and then freaked out again about the new prison he built for himself.
 
 I’m not sure I’d recommend doing what I did, but I do think RSS is an incredibly powerful, under-appreciated, and under-utilized technology.
 
