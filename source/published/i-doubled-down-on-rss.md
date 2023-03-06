@@ -14,8 +14,8 @@ sharedOn:
   twitter: TK
   mastodon: TK
 share:
-  facebookDescription: ""
-  twitterDescription: ""
+  facebookDescription: "The RSS icon, two semicircular waves radiating out from a small dot."
+  twitterDescription: "The RSS icon, two semicircular waves radiating out from a small dot."
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}
