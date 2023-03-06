@@ -26,9 +26,9 @@ Twitter is currently a lot like one of those [spiral coin drop wishing wells](ht
 
 Part of [mourning the communities I once had](https://ericwbailey.website/published/centerless/) there involves figuring out how to not forget who was important to me. This means creating a way to stay abreast of what they’re doing.
 
-One of the most obvious ways to stay in the know is subscribe to [RSS feeds](https://en.wikipedia.org/wiki/RSS).
+One of the most obvious ways to stay in the know is [subscribe to RSS feeds](https://www.theatlantic.com/ideas/archive/2023/03/social-media-algorithms-twitter-meta-rss-reader/673282/).
 
-There are plenty of resources out there that explain what RSS is, how to use it, and why it is important, so I won’t get into it here. I also won’t belabor how RSS is more in the spirit of the web than the walled garden that are most contemporary social networks.
+There are plenty of resources out there that explain what RSS is, how to use it, and why it is important, so I won’t get into it here. I also won’t belabor how RSS is more in the spirit of the web than the walled gardens that are most contemporary social networks.
 
 What I will tell you is:
 
@@ -39,7 +39,7 @@ What I will tell you is:
 
 The trigger moment for me was reaching the end of my Twitter feed. That’s, uh, not supposed to happen.
 
-I took this as a sign that I was racing the clock. It was a signal that Twitter’s underlying infrastructure is unstable to the point where anything could be irretrievably lost at any moment.
+I took this as a sign that I was racing the clock. It was a signal that [Twitter’s underlying infrastructure is unstable](https://www.bleepingcomputer.com/news/technology/twitter-api-outage-blocks-sign-ins-breaks-most-platform-features/) to the point where anything could be irretrievably lost at any moment.
 
 I took the time to go to my account’s list of people I’m following. Starting from the bottom and working upwards, I checked to see if they had a blog on their personal website. If they did, I threw their site’s URL into [Feedbin](https://feedbin.com/) and subscribed if the option was available.
 
@@ -179,7 +179,7 @@ It’s better to place RSS feed metadata on every page. There’s no way of know
 
 <em>Thank you</em>.
 
-Hitting good ol’ <kbd>CMD</kbd> + </kbd>F</kbd> and searching for “rss”, “feed”, or “subscribe” is a quick and easy method of discovery. Finding a persistent link in the footer? Bliss.
+Hitting good ol’ <kbd>CMD</kbd> + <kbd>F</kbd> and searching for “rss”, “feed”, or “subscribe” is a quick and easy method of discovery. Finding a persistent link in the footer? Bliss.
 
 A close second place is a RSS icon, although that means I have to visually scan for it. Remember, [the best icon is a text label](https://thomasbyttebier.be/blog/the-best-icon-is-a-text-label).
 
