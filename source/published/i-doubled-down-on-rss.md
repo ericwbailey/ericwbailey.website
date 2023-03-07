@@ -217,7 +217,7 @@ I don’t read posts in my RSS reader. Instead I’ll pop them open in a new tab
 
 That said, one huge benefit to RSS readers is their version of [reader mode](https://css-tricks.com/reader-mode-the-button-to-beat/), where you as the reader can modify how the reading experience looks to better suit your needs. Ideally [the blog uses all the appropriate metadata](https://scribe.rip/@mandy.michael/building-websites-for-safari-reader-mode-and-other-reading-apps-1562913c86c9) so you can use the browser’s reader mode too.
 
-I consider both RSS reader interfaces and browser reader modes to be highly customizable assistive technology. The web a better place for these kinds of functionality existing.
+I consider both RSS reader interfaces and browser reader modes to be highly customizable assistive technology. The web a better place for this kind of functionality existing.
 
 ### Even more lists and feelings
 
