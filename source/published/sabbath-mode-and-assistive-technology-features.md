@@ -74,4 +74,4 @@ These five things touch on values that live at the core of Jewish faith. The val
 - <i lang="he">K’vod hab’riyot</i>. Respecting and acting in a way consistent with the inherent dignity of humanity.
 - <i lang="he">Tzedek</i> and <i lang="he">tikun olam</i>. Resisting oppression and improving an imperfect world full of pain, inequity, and hatred.
 
-Finally, there is the concept of <i lang="he">Shabbat</i> itself. It emphasizes intentional rest as a method of creating contemplation and introspection. This is a vital concept to honor in a world that increasingly churns out material without stopping to account for the diversity of human experience and the larger, wider impact.
+Finally, there is the concept of <i lang="he">Shabbat</i> itself. It emphasizes intentional rest as a method of creating contemplation and introspection. This is a vital concept to honor in a world that increasingly churns out material without stopping to account for [the diversity of human experience and the larger, wider impact](https://apnews.com/article/child-protective-services-algorithms-artificial-intelligence-disability-f5af28001b20a15c4213e36144742f11).
