@@ -59,7 +59,7 @@ Debirdify also offers a few other interesting features, such as a visualization 
   loading="lazy"
   src="{{ '/img/posts/my-mastodon-strategy/debirdify-instance-distribution.png' | url }}" />
 
-Of the techniques I use, Debirdify is probably the one you want to use first. The time is ticking on [automated helper services like this continuing to be allowed on Twitter](https://www.theverge.com/2023/2/2/23582615/twitter-removing-free-api-developer-apps-price-announcement), so better to get in while you can.
+<s>Of the techniques I use, Debirdify is probably the one you want to use first. The time is ticking on [automated helper services like this continuing to be allowed on Twitter](https://www.theverge.com/2023/2/2/23582615/twitter-removing-free-api-developer-apps-price-announcement), so better to get in while you can.</s> Note: [Debirdify is now suspended from Twitter](https://digitalcourage.social/@debirdify/110061384792399718).
 
 ### Followgraph
 

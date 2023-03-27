@@ -10,7 +10,10 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
-## v1.5.35 - 2023-03-0
+## v1.5.36 - 2023-03-26
+- Add [Sabbath mode and assistive technology features](https://ericwbailey.website/published/sabbath-mode-and-assistive-technology-features/)
+
+## v1.5.35 - 2023-03-05
 - Add [I doubled-down on RSS](https://ericwbailey.website/published/i-doubled-down-on-rss/)
 
 ## v1.5.34 - 2023-02-21
