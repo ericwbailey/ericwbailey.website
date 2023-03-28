@@ -12,8 +12,8 @@ tags:
   - Food
   - Inclusion
 sharedOn:
-  twitter: TK
-  mastodon: TK
+  twitter: https://twitter.com/ericwbailey/status/1640354979478159361
+  mastodon: https://social.ericwbailey.website/@eric/110095634286437422
 share:
   facebookDescription: "An oven."
   twitterDescription: "An oven."
@@ -27,7 +27,9 @@ There’s a secret mode that comes with almost all large ovens, refrigerators, d
 
 No, it is not a mode made to placate Ozzy Osbourne. Sabbath mode allows someone to observe [Shabbat](https://en.wikipedia.org/wiki/Shabbat), where Jewish law dictates that “work that creates” cannot be performed on the day of rest.
 
-For example, an oven can be set to Sabbath mode to keep [food prepared ahead of time](https://www.foodnetwork.com/recipes/food-network-kitchen/cholent-11742950) hot. The work to create the food and the heat to keep it warm is done outside of the bounds of the holy day. When activated, Sabbath mode overrides the oven’s safety features in order to avoid placing someone in the position where they need to expend effort in a way that work is created in a way that violates [the day’s rules](http://jewfaq.org/shabbat#Shamor).
+For example, an oven can be set to Sabbath mode to keep [food prepared ahead of time](https://www.foodnetwork.com/recipes/food-network-kitchen/cholent-11742950) hot. The work to create the food and the heat to keep it warm is done outside of the bounds of the holy day.
+
+When activated, Sabbath mode overrides the oven’s safety features in order to avoid placing someone in the position where they need to expend effort in a way that work is created in a way that violates [the day’s rules](http://jewfaq.org/shabbat#Shamor).
 
 Activating a device’s Sabbath mode is usually not a straightforward affair. It usually requires a very specific, non-obvious, and convoluted set of button presses that must occur in a sequence specified in the dusty corners of an instruction manual.
 
@@ -36,13 +38,17 @@ Activating a device’s Sabbath mode is usually not a straightforward affair. It
   loading="lazy"
   src="{{ '/img/posts/sabbath-mode-and-assistive-technology-features/instruction-manual.png' | url }}" />
 
-Sabbath mode activation is almost always a highly intentional act made by an individual whose background means they know the feature exists and uses it for a very specific purpose. This does not mean that unintentional activation can not also occur. Think the swiping of a cleaning rag over a touchscreen, a curious cat, or an unsupervised child.
+Sabbath mode activation is almost always a highly intentional act made by an individual whose background means they know the feature exists and uses it for a very specific purpose.
+
+This does not mean that unintentional activation of Sabbath mode can not also occur. Think the swiping of a cleaning rag over a touchscreen, a curious cat, or an unsupervised child.
 
 Sabbath mode is an important feature for the people who rely on it. It is also not a very well-known feature.
 
 The same parallel can be drawn for many assistive technology features. Every major operating system has multiple accessibility features built into them, but many of these features are obscure and only known by people who rely on them.
 
-To continue this metaphor, [you don’t have to be Jewish to enjoy the benefits of Sabbath mode](https://www.reddit.com/r/Cooking/comments/yylomy/comment/iwuxfae/?context=3) functionality. You also don’t have to be disabled to enjoy assistive technology features. That said, both Sabbath mode and assistive technology features are purpose-built to serve their respective audiences. We should not de-center these people when touting their virtues.
+To continue this metaphor, [you don’t have to be Jewish to enjoy the benefits of Sabbath mode](https://www.reddit.com/r/Cooking/comments/yylomy/comment/iwuxfae/?context=3) functionality. You also don’t have to be disabled to enjoy assistive technology features.
+
+That said, both Sabbath mode and assistive technology features are purpose-built to serve their respective audiences. We should not de-center these people when touting their virtues.
 
 Like Sabbath mode, assistive technology features can also be accidentally activated through esoteric commands and keypresses. It may not always be obvious what was enabled, what it changes and when, or how to turn it off.
 
@@ -52,7 +58,7 @@ Similarly, not every disabled person knows about, and consequently uses assistiv
 
 Another thing to consider—and where this comparison starts to branch apart—is that most people know they are Jewish, or were raised Jewish. Not everyone who is disabled considers themselves so, or is aware of their condition(s) until they are triggered.
 
-This means that assistive technology features and functionality may not be enabled, even though they could be beneficial to the person using the device where the features are present. For `prefers-reduced-motion`, learning about, and enabling this functionality oftentimes comes after [the damage has been done](https://source.opennews.org/articles/motion-sick/).
+This means that assistive technology features and functionality may not be enabled, even though they could be beneficial to the person using the device where the features are present—for `prefers-reduced-motion`, learning about, and enabling this functionality oftentimes comes after [the damage has been done](https://source.opennews.org/articles/motion-sick/).
 
 So, what does this mean for you, a person who builds digital experiences?
 
@@ -74,4 +80,6 @@ These five things touch on values that live at the core of Jewish faith. The val
 - <i lang="he">K’vod hab’riyot</i>. Respecting and acting in a way consistent with the inherent dignity of humanity.
 - <i lang="he">Tzedek</i> and <i lang="he">tikun olam</i>. Resisting oppression and improving an imperfect world full of pain, inequity, and hatred.
 
-Finally, there is the concept of <i lang="he">Shabbat</i> itself. It emphasizes intentional rest as a method of creating contemplation and introspection. This is a vital concept to honor in a world that increasingly churns out material without stopping to account for [the diversity of human experience and the larger, wider impact](https://apnews.com/article/child-protective-services-algorithms-artificial-intelligence-disability-f5af28001b20a15c4213e36144742f11).
+Finally, there is the concept of <i lang="he">Shabbat</i> itself. It emphasizes intentional rest as a method of creating contemplation and introspection.
+
+<i lang="he">Shabbat</i> is a vital concept to honor in a world that increasingly churns out material without stopping to account for [the diversity of human experience and the larger, wider impact](https://apnews.com/article/child-protective-services-algorithms-artificial-intelligence-disability-f5af28001b20a15c4213e36144742f11).
