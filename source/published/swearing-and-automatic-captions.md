@@ -47,9 +47,9 @@ Captions are a form of speech-to-text software, which takes words spoken by a pe
 Broadly-speaking, there are two different categories of captions:
 
 1. **Manual captions**, a service provided by a [transcriptionist](https://www.3playmedia.com/blog/transcription-vs-captioning/). These people use highly specialized keyboards and software to provide a text equivalent of spoken content in realtime.
-2. **Automatic captions**, a service provided by text-to-speech software. This is a service provided by many—but not all—remote meeting software.
+2. **Automatic captions**, a service provided by text-to-speech software. This is a service provided by many—but not all—remote meeting apps.
 
-Of the two, manually-provided captions are ideal (although [there are exceptions](https://www.linkedin.com/posts/meryl_merylmots-activity-6988545221710012417-P4VY/)), as they are far more accurate. In some circles, some individuals even refer to automatic captions as “[craptions](https://mashable.com/article/youtube-closed-captioning-nomorecraptions)”—a phrase I love.
+Of the two, manually-provided captions are ideal, as they are far more accurate (although [there are exceptions](https://www.linkedin.com/posts/meryl_merylmots-activity-6988545221710012417-P4VY/)). Some individuals even refer to automatic captions as “[craptions](https://mashable.com/article/youtube-closed-captioning-nomorecraptions)”—a phrase I love.
 
 [Automatic captions don’t handle things](https://www.consumerreports.org/disability-rights/auto-captions-often-fall-short-on-zoom-facebook-and-others-a9742392879/) like jargon, nuance, non-English words, low talkers, accents, and [AAVE](https://en.wikipedia.org/wiki/African-American_Vernacular_English) well. They are also susceptible to the racist, ableist shit we call algorithmic bias.
 
@@ -222,6 +222,8 @@ The misidentification is interesting in that it:
 
 - Reinforces how automatic captioning services cannot understand nuance and intent the way a human can, and
 - Makes me wonder how effectively people who live in places like Titz, Fugging, Shitterton, etc. can communicate about their home.
+
+Update: [Teams offers profanity filtering controls for live captions](https://insider.office.com/en-us/blog/profanity-filtering-control-for-live-captions-in-teams-meetings) as of April 11th, 2023. Unfortunately, this experience is opt-in, which requires you knowing it exists.
 
 ### Slack
 
