@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.37 - 2023-04-16
+- Add [Sandcastles](https://ericwbailey.website/published/sandcastles/)
+
 ## v1.5.36 - 2023-03-26
 - Add [Sabbath mode and assistive technology features](https://ericwbailey.website/published/sabbath-mode-and-assistive-technology-features/)
 
