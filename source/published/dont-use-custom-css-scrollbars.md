@@ -65,7 +65,7 @@ For reference, [this CodePen](https://codepen.io/ericwbailey/pen/VwGGaJO) is wha
     Skip CodePen embed
   </a>
 </p>
-<iframe height="600" style="width: 100%; height: 600px;" scrolling="no" title="CodePen: Custom CSS scrollbar" src="https://codepen.io/ericwbailey/embed/VwGGaJO?default-tab=css%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe height="500" style="width: 100%; height: 500px;" scrolling="no" title="CodePen: Custom CSS scrollbar" src="https://codepen.io/ericwbailey/embed/VwGGaJO?default-tab=css%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/ericwbailey/pen/VwGGaJO">
   Custom CSS scrollbar</a> by Eric Bailey (<a href="https://codepen.io/ericwbailey">@ericwbailey</a>)
   on <a href="https://codepen.io">CodePen</a>.
@@ -315,7 +315,7 @@ The browser does not have your back here. There are no controls, preferences, or
 
 #### Modifying the operating system scrollbar width
 
-Windows lets you globally adjust the scrollbar width [via modification of a registry value](https://www.makeuseof.com/windows-10-11-customize-scrollbars/). It affects any and all applications that use operating system scrollbars, including browsers you have installed.
+Windows lets you globally adjust the scrollbar width [via modification of a registry value](https://www.makeuseof.com/windows-10-11-customize-scrollbars/). It affects any and all applications that use operating system scrollbars. This browsers you have installed, unless a website or webapp uses a custom CSS scrollbar treatment.
 
 <figure
   role="figure"
@@ -329,7 +329,7 @@ Windows lets you globally adjust the scrollbar width [via modification of a regi
   </figcaption>
 </figure>
 
-I’m pretty sure macOS does not let you do this, either via its UI or its large collection of [hidden terminal commands](https://git.herrbischoff.com/awesome-macos-command-line/about/). Linux is a bit of a big question mark to me, in that there are so many different variants out there that I’m sure it’s possible from a sheer probability perspective.
+I’m pretty sure macOS does not let you modify the scrollbar width, either via its UI or its large collection of [hidden terminal commands](https://git.herrbischoff.com/awesome-macos-command-line/about/). Linux is a bit of a big question mark to me, in that there are so many different variants out there that I’m sure it’s possible from a sheer probability perspective.
 
 It’s also worth noting that [Windows is incredibly popular](https://gs.statcounter.com/os-market-share/desktop/worldwide), despite most of contemporary web development being done on macOS. We often tend to forget that.
 
