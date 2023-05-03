@@ -2,7 +2,7 @@
 layout: "layouts/post.njk"
 title: Don’t use custom CSS mouse cursors
 source: ericwbailey.website
-excerpt: "Vanity is almost always at odds with user needs. While a custom CSS cursor may seem flashy and fun, consider that it may present a significant, unnecessary barrier to access"
+excerpt: "While a custom CSS cursor may seem flashy and fun, consider that it may present a significant, unnecessary barrier to access"
 date: 2021-05-18
 year: 2021
 tags:
