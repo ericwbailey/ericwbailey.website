@@ -357,7 +357,7 @@ However, [cognitive accessibility concerns are some of the most prevalent](https
 
 When you modify your scrollbar’s visuals, you’re breaking [external consistency](https://inclusivedesignprinciples.org/#be-consistent). It now no longer looks like any other scrollbar on your device, as well as any other website or web app on the internet.
 
-Digital literacy is also a spectrum. When digital things don’t look or behave the way people expect them to, people tend to internalize it as a personal failure—they broke something, they’ve been hacked, they’re being spied on, etc.
+Digital literacy is also a spectrum. When digital things don’t [look or behave the way they are expected to](https://adrianroselli.com/2019/01/baseline-rules-for-scrollbar-usability.html), people tend to internalize it as a personal failure—they broke something, they’ve been hacked, they’re being spied on, etc.
 
 It’s also a fallacy to think that technologically literate individuals are exempt. Conditions such as depression can affect someone’s level of digital of literacy, in that it can lower your ability to process and take action on information.
 
