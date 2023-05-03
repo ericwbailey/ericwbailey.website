@@ -58,14 +58,14 @@ Following are a list of questions you should ask yourself if you’re considerin
 
 ### The control
 
-For reference, this CodePen is what I used to perform my testing:
+For reference, [this CodePen](https://codepen.io/ericwbailey/pen/VwGGaJO) is what I used to perform my testing:
 
 <p class="hide-visually">
   <a href="#skip-codepen">
     Skip CodePen embed
   </a>
 </p>
-<iframe height="600" style="width: 100%; height: 400px;" scrolling="no" title="CodePen: Custom CSS scrollbar" src="https://codepen.io/ericwbailey/embed/VwGGaJO?default-tab=css%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe height="600" style="width: 100%; height: 600px;" scrolling="no" title="CodePen: Custom CSS scrollbar" src="https://codepen.io/ericwbailey/embed/VwGGaJO?default-tab=css%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/ericwbailey/pen/VwGGaJO">
   Custom CSS scrollbar</a> by Eric Bailey (<a href="https://codepen.io/ericwbailey">@ericwbailey</a>)
   on <a href="https://codepen.io">CodePen</a>.
@@ -108,18 +108,25 @@ Apple learned the lesson about visible scrollbars the hard way when it introduce
 
 There’s no visual indication that there’s more content present in this window—the only way to discover it is to scroll downwards. However, without an affordance to indicate the presence of additional offscreen content, the chances are low that someone will bother to check.
 
-<picture>
-  <source srcset="{{ '/img/posts/dont-use-custom-css-scrollbars/macos-file-list-scrolling.webm' | url }}">
-  <img
-    alt="The same list of files in a Finder window as the previous image. This time there is a slow downward scrolling action and a scrollbar reactively appears. Files 15 through 42 are then revealed from the bottom of the Finder window's viewport, continuing the grid. Once the scrollbar reaches the bottom of the available content area there is a slight bouncing effect to comminicate the end of the content. After reaching the bottom there is another, faster scrolling action to return back to the top, with the same subtle bouncing effect at the top of the available content area. After reaching the top the scrollbar fades back to being invisible."
-    src="{{ '/img/posts/dont-use-custom-css-scrollbars/macos-file-list-scrolling.gif' | url }}">
-</picture>
+<video
+  controls
+  loop
+  aria-label="The same list of files in a Finder window as the previous image. This time there is a slow downward scrolling action and a scrollbar reactively appears. Files 15 through 42 are then revealed from the bottom of the Finder window's viewport, continuing the grid. Once the scrollbar reaches the bottom of the available content area there is a slight bouncing effect to comminicate the end of the content. After reaching the bottom there is another, faster scrolling action to return back to the top, with the same subtle bouncing effect at the top of the available content area. After reaching the top the scrollbar fades back to being invisible."
+  poster="{{ '/img/posts/dont-use-custom-css-scrollbars/macos-file-list-scrolling-poster.png' | url }}">>
+  <source
+    src="{{ '/img/posts/dont-use-custom-css-scrollbars/.mp4' | url }}"
+    type="video/mp4" />
+  <source
+    src="{{ '/img/posts/dont-use-custom-css-scrollbars/macos-file-list-scrolling.webm' | url }}"
+    type="video/webm" />
+    This browser does not support the <code>video</code> element.
+</video>
 
 This is why Apple introduced a preference to [always show scroll bars](https://support.apple.com/guide/mac-help/change-appearance-settings-mchlp1225/mac). Think of this a lot like their [introduction of the reduced motion accessibility toggle](https://www.theguardian.com/technology/2013/sep/27/ios-7-motion-sickness-nausea), where a setting had to be introduced after the general public revealed that their novel idea actually made things worse for a lot of people.
 
 <figure
   role="figure"
-  aria-label="Windows 11 Accessibility Settings."
+  aria-label="macOS Appearance System Settings."
   <img
     alt="Two radio group preference panel options. The first radio group has a title of, 'Show scroll bars', with the 'Always' option selected. The other two unselected radio options in this group are 'Automatically based on mouse or trackpad' and 'When scrolling'. The second radio group has a title of, 'Click in the scroll bar to', with the 'Jump to the spots that's clicked' option selected. The other unselected option is, 'Jump to the next page'. Cropped screenshot."
     loading="lazy"
