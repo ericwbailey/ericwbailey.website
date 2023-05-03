@@ -187,7 +187,7 @@ Some Windows Themes adjust the scrollbar’s colors. From my testing, custom CSS
 
 If I could wager a guess, it’s likely that theme colors tie into Forced Color mode concerns behind the scenes (more on this in a bit). 
 
-The mechanism that orchestrates a Windows is immaterial to the overall point: Your decision to adjust the scrollbar is overriding someone else’s explicit preference.
+The mechanism that orchestrates a Windows theme is immaterial to the overall point: Your decision to adjust the scrollbar is overriding someone else’s explicit preference.
 
 We also don’t know <em>why</em> someone is changing their theme. For some, it could be aesthetic sensibilities. For others, it could be adjusting things to lessen/increase contrast, or create more uniformity. It might even be a combination of the previous.
 
@@ -286,7 +286,7 @@ Considering that the entire reason for increased contrast mode’s existence is 
 
 I am happy to report that these modes gleefully accommodate or ignore your custom scrollbar CSS and do their thing.
 
-It’s still worth mentioning these modes here, in that they are often overlooked by people when creating digital experiences. You don’t need to create a suite of bespoke treatments for these modes. On the contrary, you can do more by doing less by not touching the scrollbar’s appearance.
+It’s still worth mentioning these modes here, in that they are often overlooked by people when creating digital experiences. You don’t need to create a suite of bespoke treatments here. On the contrary, you can do more by doing less by not touching the scrollbar’s appearance.
 
 ### Is the touch target area large enough?
 
@@ -321,7 +321,7 @@ The browser does not have your back here. There are no controls, preferences, or
 
 #### Modifying the operating system scrollbar width
 
-Windows lets you globally adjust the scrollbar width [via modification of a registry value](https://www.makeuseof.com/windows-10-11-customize-scrollbars/). It affects any and all applications that use operating system scrollbars. This browsers you have installed, unless a website or webapp uses a custom CSS scrollbar treatment.
+Windows lets you globally adjust the scrollbar width [via modification of a registry value](https://www.makeuseof.com/windows-10-11-customize-scrollbars/). It affects any and all applications that use operating system scrollbars. This includes browsers you have installed, unless a website or webapp uses a custom CSS scrollbar treatment.
 
 <figure
   role="figure"
@@ -361,7 +361,7 @@ Cognitive accessibility is one of the most difficult accessibility consideration
 
 However, [cognitive accessibility concerns are some of the most prevalent](https://data.census.gov/cedsci/table?q=disability+&tid=ACSST1Y2019.S1810). We should not be quick to dismiss them, even if the access issues their considerations present can’t be neatly detected by automatic accessibility scanners.
 
-When you modify your scrollbar’s visuals, you’re breaking [external consistency](https://inclusivedesignprinciples.org/#be-consistent). It now no longer looks like any other scrollbar on your device, as well as any other website or web app on the internet.
+When you modify your scrollbar’s visuals, you’re breaking [external consistency](https://inclusivedesignprinciples.org/#be-consistent). It now no longer looks like any other scrollbar on a person's device, as well as any other website or web app on the internet.
 
 Digital literacy is also a spectrum. When digital things don’t [look or behave the way they are expected to](https://adrianroselli.com/2019/01/baseline-rules-for-scrollbar-usability.html), people tend to internalize it as a personal failure—they broke something, they’ve been hacked, they’re being spied on, etc.
 
@@ -389,7 +389,7 @@ Please don’t. There are so many things to get right, and so many ways it can g
 
 ## What about people who modify my scrollbars?
 
-Being able to modify an experience so it suits your specific needs is one of the web platform’s greatest strengths. You shouldn’t attempt to block, subvert, or otherwise undermine someone’s ability to do so.
+A person being able to modify an experience so it suits their specific needs is one of the web platform’s greatest strengths. You shouldn’t attempt to block, subvert, or otherwise undermine someone’s ability to do so.
 
 ## Why do you hate fun?
 
