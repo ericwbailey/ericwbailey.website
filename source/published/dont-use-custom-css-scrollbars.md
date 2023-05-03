@@ -30,7 +30,7 @@ When you style things on the web, you get control over almost the entire experie
   alt="A simplified illustration of a web browser. The inner content area is highlighted to draw attention to it."
   role="img"
   loading="lazy"
-  src="{{ '/img/posts/dont-use-custom-css-scrollbars/browser-content-area.svg' | url }}" />
+  src="{{ '/img/posts/dont-use-custom-css-scrollbars/browser-content-area.png' | url }}" />
 
 The scope of concern for the browser is this:
 
@@ -38,7 +38,7 @@ The scope of concern for the browser is this:
   alt="A simplified illustration of a web browser. The URL entry area, tabs, back and forward buttons, and scrollbar are highlighted to draw attention to them."
   role="img"
   loading="lazy"
-  src="{{ '/img/posts/dont-use-custom-css-scrollbars/browser-chrome-area.svg' | url }}" />
+  src="{{ '/img/posts/dont-use-custom-css-scrollbars/browser-chrome-area.png' | url }}" />
 
 The browser’s UI is informed by the operating system it is installed on. This is important to note. Browser UI is used to help create consistency across the entire experience of using a device. When you deviate from these standards, you introduce ambiguity.
 
@@ -65,7 +65,7 @@ For reference, this CodePen is what I used to perform my testing:
     Skip CodePen embed
   </a>
 </p>
-<iframe height="600" style="width: 100%;" height: 400px; scrolling="no" title="Custom CSS scrollbar" src="https://codepen.io/ericwbailey/embed/VwGGaJO?default-tab=css%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe height="600" style="width: 100%; height: 400px;" scrolling="no" title="CodePen: Custom CSS scrollbar" src="https://codepen.io/ericwbailey/embed/VwGGaJO?default-tab=css%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/ericwbailey/pen/VwGGaJO">
   Custom CSS scrollbar</a> by Eric Bailey (<a href="https://codepen.io/ericwbailey">@ericwbailey</a>)
   on <a href="https://codepen.io">CodePen</a>.
