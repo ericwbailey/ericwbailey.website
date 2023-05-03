@@ -114,7 +114,7 @@ There’s no visual indication that there’s more content present in this windo
   aria-label="The same list of files in a Finder window as the previous image. This time there is a slow downward scrolling action and a scrollbar reactively appears. Files 15 through 42 are then revealed from the bottom of the Finder window's viewport, continuing the grid. Once the scrollbar reaches the bottom of the available content area there is a slight bouncing effect to comminicate the end of the content. After reaching the bottom there is another, faster scrolling action to return back to the top, with the same subtle bouncing effect at the top of the available content area. After reaching the top the scrollbar fades back to being invisible."
   poster="{{ '/img/posts/dont-use-custom-css-scrollbars/macos-file-list-scrolling-poster.png' | url }}">>
   <source
-    src="{{ '/img/posts/dont-use-custom-css-scrollbars/.mp4' | url }}"
+    src="{{ '/img/posts/dont-use-custom-css-scrollbars/macos-file-list-scrolling.mp4' | url }}"
     type="video/mp4" />
   <source
     src="{{ '/img/posts/dont-use-custom-css-scrollbars/macos-file-list-scrolling.webm' | url }}"
@@ -127,7 +127,7 @@ This is why Apple introduced a preference to [always show scroll bars](https://s
   role="figure"
   aria-label="macOS Appearance System Settings."
   <img
-    alt="Two radio group preference panel options. The first radio group has a title of, 'Show scroll bars', with the 'Always' option selected. The other two unselected radio options in this group are 'Automatically based on mouse or trackpad' and 'When scrolling'. The second radio group has a title of, 'Click in the scroll bar to', with the 'Jump to the spots that's clicked' option selected. The other unselected option is, 'Jump to the next page'. Cropped screenshot."
+    alt=""
     loading="lazy"
     src="{{ '/img/posts/dont-use-custom-css-scrollbars/always-show-scrollbars-macos.png' | url }}" />
   <figcaption>
