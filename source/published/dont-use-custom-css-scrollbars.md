@@ -125,9 +125,9 @@ This is why Apple introduced a preference to [always show scroll bars](https://s
 
 <figure
   role="figure"
-  aria-label="macOS Appearance System Settings."
+  aria-label="macOS Appearance System Settings.">
   <img
-    alt=""
+    alt="Two radio group preference panel options. The first radio group has a title of, 'Show scroll bars', with the 'Always' option selected. The other two unselected radio options in this group are 'Automatically based on mouse or trackpad' and 'When scrolling'. The second radio group has a title of, 'Click in the scroll bar to', with the 'Jump to the spots that's clicked' option selected. The other unselected option is, 'Jump to the next page'. Cropped screenshot."
     loading="lazy"
     src="{{ '/img/posts/dont-use-custom-css-scrollbars/always-show-scrollbars-macos.png' | url }}" />
   <figcaption>
