@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.38 - 2023-05-03
+- Add [Don’t use custom CSS scrollbars](https://ericwbailey.website/published/dont-use-custom-css-scrollbars/)
+
 ## v1.5.37 - 2023-04-16
 - Add [Sandcastles](https://ericwbailey.website/published/sandcastles/)
 
