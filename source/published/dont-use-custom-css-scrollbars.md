@@ -40,9 +40,13 @@ The scope of concern for the browser is this:
   loading="lazy"
   src="{{ '/img/posts/dont-use-custom-css-scrollbars/browser-chrome-area.png' | url }}" />
 
-The browser’s UI is informed by the operating system it is installed on. This is important to note. Browser UI is used to help create consistency across the entire experience of using a device. When you deviate from these standards, you introduce ambiguity.
+The browser’s UI is informed by the operating system it is installed on. This is important to note. 
 
-Ambiguity means less certainty about what the piece of UI is, how you interact with it, and what effects taking action on it will cause. The more you deviate, the more confusing things get. It’s why checkboxes use squares and radio buttons use circles—even with [flat design](https://en.wikipedia.org/wiki/Flat_design) removing depth and texture from everything.
+Browser UI is used to help create consistency across the entire experience of using a device. When you deviate from these standards, you introduce ambiguity.
+
+Ambiguity means less certainty about what the piece of UI is, how you interact with it, and what effects taking action on it will cause. The more you deviate, the more confusing things get. 
+
+This phenomenon is why checkboxes use squares and radio buttons use circles—even with [flat design](https://en.wikipedia.org/wiki/Flat_design) removing depth and texture from everything.
 
 We may be long-separated from [car dashboards using physical press knobs](https://scribe.rip/radio-buttons-ux-design-588e5c0a50dc#6500), swapped out in favor of [dangerous, inefficient touchscreens](https://arstechnica.com/cars/2022/08/yes-touchscreens-really-are-worse-than-buttons-in-cars-study-finds/). However, the metaphors drawn from these physical equivalents still persist.
 
@@ -121,7 +125,7 @@ There’s no visual indication that there’s more content present in this windo
     type="video/webm" />
 </video>
 
-This is why Apple introduced a preference to [always show scroll bars](https://support.apple.com/guide/mac-help/change-appearance-settings-mchlp1225/mac). Think of this a lot like their [introduction of the reduced motion accessibility toggle](https://www.theguardian.com/technology/2013/sep/27/ios-7-motion-sickness-nausea), where a setting had to be introduced after the general public revealed that their novel idea actually made things worse for a lot of people.
+This is why Apple introduced a preference to [always show scroll bars](https://support.apple.com/guide/mac-help/change-appearance-settings-mchlp1225/mac). Think of this preference a lot like their [introduction of the reduced motion accessibility toggle](https://www.theguardian.com/technology/2013/sep/27/ios-7-motion-sickness-nausea), where a setting had to be introduced after the general public revealed that their novel idea actually made things worse for a lot of people.
 
 <figure
   role="figure"
@@ -165,7 +169,7 @@ Windows 11’s shiny new UI is [another coat of paint slathered over previous ed
 
 One of these older features with a new coat of paint is the ability to theme Windows. Themes allow you to specify the wallpaper, sounds, accent color, mouse cursor, and other qualities and quickly swap them into pace.
 
-Themes are also portable, and can be stored and shared as `.theme` or `.themepack` formats. [Windows offers its own official themes](https://support.microsoft.com/en-us/windows/desktop-themes-94880287-6046-1d35-6d2f-35dee759701e). There are also [websites that aggregate, categorize, and share themes](https://themepack.me/) people have made.
+Themes are also portable, and are shared as `.theme` or `.themepack` formats. [Windows offers its own official themes](https://support.microsoft.com/en-us/windows/desktop-themes-94880287-6046-1d35-6d2f-35dee759701e). There are also [websites that aggregate, categorize, and share themes](https://themepack.me/) people have made.
 
 Some Windows Themes adjust the scrollbar’s colors. From my testing, custom CSS scrollbar styling overrides this:
 
@@ -181,7 +185,9 @@ Some Windows Themes adjust the scrollbar’s colors. From my testing, custom CSS
   </figcaption>
 </figure>
 
-If I could wager a guess, it’s likely that theme colors tie into Forced Color mode concerns behind the scenes (more on this in a bit). The mechanism this is accomplished is immaterial to the overall point: Your decision to adjust the scrollbar is overriding someone else’s explicit preference.
+If I could wager a guess, it’s likely that theme colors tie into Forced Color mode concerns behind the scenes (more on this in a bit). 
+
+The mechanism that orchestrates a Windows is immaterial to the overall point: Your decision to adjust the scrollbar is overriding someone else’s explicit preference.
 
 We also don’t know <em>why</em> someone is changing their theme. For some, it could be aesthetic sensibilities. For others, it could be adjusting things to lessen/increase contrast, or create more uniformity. It might even be a combination of the previous.
 
@@ -393,7 +399,7 @@ I don’t hate fun. I can’t do much past promising you I don’t. However, too
 
 This means stepping out of your comfort zone. Test actual support with different operating systems and modes other than the ones you use on a daily basis. Remember that the way you use technology is not the default, and that the majority experience is a contradiction in terms.
 
-More importantly, it means asking actual people affected by your decisions what they think about them. And if you do this, [don’t forget survivor bias](https://en.wikipedia.org/wiki/Survivorship_bias). Don’t forget: people who can’t use your service aren’t represented in your analytics.
+More importantly, it means asking actual people affected by your decisions what they think about them. And if you do this, [don’t forget survivor bias](https://en.wikipedia.org/wiki/Survivorship_bias): People who can’t use your service aren’t represented in your analytics.
 
 I want everyone to have fun, just not the expense of artificial, unnecessary exclusion.
 
