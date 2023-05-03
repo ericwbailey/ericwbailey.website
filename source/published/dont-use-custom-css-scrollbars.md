@@ -119,7 +119,6 @@ There’s no visual indication that there’s more content present in this windo
   <source
     src="{{ '/img/posts/dont-use-custom-css-scrollbars/macos-file-list-scrolling.webm' | url }}"
     type="video/webm" />
-    This browser does not support the <code>video</code> element.
 </video>
 
 This is why Apple introduced a preference to [always show scroll bars](https://support.apple.com/guide/mac-help/change-appearance-settings-mchlp1225/mac). Think of this a lot like their [introduction of the reduced motion accessibility toggle](https://www.theguardian.com/technology/2013/sep/27/ios-7-motion-sickness-nausea), where a setting had to be introduced after the general public revealed that their novel idea actually made things worse for a lot of people.
