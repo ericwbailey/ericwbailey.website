@@ -165,7 +165,7 @@ I’m not going to get into the particulars of how to meet this success criterio
 
 ### Will your custom scrollbar colors defer to a user-set theme?
 
-Windows 11’s shiny new UI is [another coat of paint slathered over previous editions](https://ntdotdev.wordpress.com/2023/01/01/state-of-the-windows-how-many-layers-of-ui-inconsistencies-are-in-windows-11/). As you peel back these layers, you find the UI and functionality of past Windows editions.
+Windows 11’s shiny new UI is [another coat of paint slathered over previous editions](https://ntdotdev.wordpress.com/2023/01/01/state-of-the-windows-how-many-layers-of-ui-inconsistencies-are-in-windows-11/). As you peel back these layers, you find the UI and functionality of versions of Windows past.
 
 One of these older features with a new coat of paint is the ability to theme Windows. Themes allow you to specify the wallpaper, sounds, accent color, mouse cursor, and other qualities and quickly swap them into pace.
 
