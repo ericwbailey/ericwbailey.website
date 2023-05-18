@@ -32,6 +32,7 @@ For each and every Global Accessibility Awareness Day [(#<abbr>GAAD</abbr>)](htt
 - Does the announement have a paternal tone?
 - Does the announcement use [ableist language](https://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html)?
 - Does the announcement de-center the disabled experience by trying to communicate in terms of value for all?
+- Does the announcement de-center the disabled experience by trying to communicate value in terms of SEO benefits?
 - Is there a public, written support from the C-level for the company’s commitment?
 - Is there a public, published accessibility statement?
 - Has the company partnered with [an overlay company](https://www.a11yproject.com/posts/should-i-use-an-accessibility-overlay/)?
