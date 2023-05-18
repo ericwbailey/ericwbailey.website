@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.39 - 2023-05-18
+- Add [Global Accessibility Anger Day](https://ericwbailey.website/published/global-accessibility-anger-day/)
+
 ## v1.5.38 - 2023-05-03
 - Add [Don’t use custom CSS scrollbars](https://ericwbailey.website/published/dont-use-custom-css-scrollbars/)
 
