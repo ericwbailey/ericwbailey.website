@@ -9,6 +9,9 @@ tags:
   - Accessibility
   - Inclusion
   - Overlays
+share:
+  facebookDescription: "A Vitruvian man accessibility icon with an angry face."
+  twitterDescription: "A Vitruvian man accessibility icon with an angry face."
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}
