@@ -21,6 +21,7 @@ eleventyNavigation:
 For each and every Global Accessibility Awareness Day [(#<abbr>GAAD</abbr>)](https://twitter.com/hashtag/GAAD) post a company puts out today, ask:
 
 - Does the announcement page support basic accessibility considerations (underlined links, captioned videos, valid markup, etc.)?
+- Does the announcement include alternative descriptions for its promotional images? And if so, do they sufficiently describe the image’s content?
 - Are the [social media announcements of the post accessible](https://www.accessible-social.com/)?
 - Is there a public, written commitment and plan to support the announced initiatives after GAAD is done?
 - Does the announcement use [inspiration porn](https://enabled.in/wp/stella-young-im-not-your-inspiration/) to communicate its message?
