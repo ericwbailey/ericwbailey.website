@@ -35,7 +35,7 @@ For each and every Global Accessibility Awareness Day [(#<abbr>GAAD</abbr>)](htt
 - Has the company partnered with an overlay company?
 - Does the company provide material aid for [overlay companies participating in reputation washing](https://adrianroselli.com/2022/09/accessibility-at-the-edge-w3c-cg-is-an-overlay-smoke-screen.html)?
 - Are there prematurely closed, downplayed, unaddressed at, or openly ridiculed accessibility issues on their issue tracker?
-- Does the company handle pointing out issues with prior negative behavior towards accessibility concerns with tone policing, or in an otherwise defensive or dismissive way?
+- Does the company handle pointing out issues with prior negative behavior towards accessibility concerns with tone policing or claims the critic should be greatful?
 - Does the company’s DEI efforts include disability?
 - Has the company laid off its DEI employees?
 - Does the company hire disabled people as permanent, full-time employees?
