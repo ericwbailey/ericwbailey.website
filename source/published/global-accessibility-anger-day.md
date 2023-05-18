@@ -39,5 +39,6 @@ For each and every Global Accessibility Awareness Day [(#<abbr>GAAD</abbr>)](htt
 - Does the company handle pointing out issues with prior negative behavior towards accessibility concerns with tone policing or claims the critic should be greatful?
 - Does the company’s DEI efforts include disability?
 - Has the company laid off its DEI employees?
+- Has the company [fired its accessibility team](https://www.wired.com/story/twitter-layoffs-accessibility/)?
 - Does the company hire disabled people as permanent, full-time employees?
 - And if so, are the full-time roles for anything other than accessibility work?
