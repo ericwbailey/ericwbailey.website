@@ -25,8 +25,8 @@ For each and every Global Accessibility Awareness Day [(#<abbr>GAAD</abbr>)](htt
 - Is there a public, written commitment and plan to support their announcement initiatives after GAAD is done?
 - Does the announcement use [inspiration porn](https://enabled.in/wp/stella-young-im-not-your-inspiration/) to communicate its message?
 - Does the announcement prop up a [disability dongle](https://blog.castac.org/2022/04/disability-dongle/) in an attempt to solutioneer something?
-- Does the announcement tout a product that is desined for, and not with disabled people?
-- Is that product prohibitively expensive, exclusive, or have no longterm support plan?
+- Does the announcement tout a product that is designed for, and not with disabled people?
+- Is that product prohibitively expensive, exclusive, or have no long-term support plan?
 - Does the announcement pressure the disclosure of disabled status and experience for one-day social media clout?
 - Does the announement have a paternal tone?
 - Does the announcement use [ableist language](https://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html)?
