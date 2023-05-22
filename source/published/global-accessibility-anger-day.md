@@ -28,6 +28,7 @@ For each and every Global Accessibility Awareness Day [(#<abbr>GAAD</abbr>)](htt
 - Does the announcement prop up a [disability dongle](https://blog.castac.org/2022/04/disability-dongle/) in an attempt to solutioneer something?
 - Does the announcement tout a product that is designed for, and not with, or at the request of disabled people?
 - Is that product prohibitively expensive, exclusive, or have no long-term support plan?
+- Does the announcement try to use AI as a “solution” for disabled people?
 - Does the announcement pressure the disclosure of disabled status and experience for one-day social media clout?
 - Does the announement have a paternal tone?
 - Does the announcement use [ableist language](https://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html)?
