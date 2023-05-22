@@ -43,6 +43,7 @@ All that said, my not-smart TV will not:
 - [Slap banner ads over live TV](https://arstechnica.com/gadgets/2022/01/some-roku-smart-tvs-are-now-showing-banner-ads-over-live-tv/) I'm watching,
 - Send an undisclosed amount of [my personal information](https://www.washingtonpost.com/technology/2019/09/18/you-watch-tv-your-tv-watches-back/) to an unknown amount of third party information brokers, many of who will resell that information,
 - [Become part of a manufacturer-level initiative to become a data broker](https://gizmodo.com/lg-s-latest-announcement-solidifies-everything-wrong-wi-1848425315),
+- [Show up with malware preinstalled](https://arstechnica.com/information-technology/2023/05/potentially-millions-of-android-tvs-and-phones-come-with-malware-preinstalled/),
 - [Secretly collect information about me](https://www.consumerreports.org/privacy/how-to-turn-off-smart-tv-snooping-features/) and transmit it,
 - Be mistakenly marked as stolen and [remotely disabled](https://www.theverge.com/2021/8/25/22640876/samsung-television-block-function-stolen-tv-sets-south-africa),
 - [Bypass my network setup](https://labzilla.io/blog/force-dns-pihole),
