@@ -39,7 +39,7 @@ For each and every Global Accessibility Awareness Day [(#<abbr>GAAD</abbr>)](htt
 - Is the announcement from, or ghost written by [an overlay company](https://www.a11yproject.com/posts/should-i-use-an-accessibility-overlay/)?
 - Does the company provide material aid for [overlay companies participating in reputation washing](https://adrianroselli.com/2022/09/accessibility-at-the-edge-w3c-cg-is-an-overlay-smoke-screen.html)?
 - Are there prematurely closed, downplayed, unaddressed, or openly ridiculed accessibility issues on their issue tracker?
-- Does the company handle pointing out issues with prior negative behavior towards accessibility concerns with tone policing, or claims the critic should be greatful?
+- Does the company handle pointing out issues with prior negative behavior towards accessibility concerns with tone policing, or claims the critic should be grateful?
 - Is the announcement published by an individual who has previously been hostile to accessibility work, both internally or on social media?
 - Does the company’s DEI efforts include disability?
 - Has the company laid off its DEI employees?
