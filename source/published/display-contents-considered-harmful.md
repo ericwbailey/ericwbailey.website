@@ -42,7 +42,7 @@ For `display: contents`, it meant that everyone’s auto or [near-auto updating 
 
 To reemphasize the severity here: This sort of regression is not the type of bug that is irritating to work around. It represents <strong>hard breakage of a foundational aspect of web accessibility</strong>.
 
-[Adrian noticed this](https://adrianroselli.com/2022/07/its-mid-2022-and-browsers-mostly-safari-still-break-accessibility-via-display-properties.html#Update01). And if you continue to read the section I linked you to, he continued to notice this. And notice this. And [notice this some more](https://toot.cafe/@aardrian/110425545589928325). All told, I counted **sixteen updates** about how `display: contents`' behavior had regressed in a way that was inaccessible.
+[Adrian noticed this](https://adrianroselli.com/2022/07/its-mid-2022-and-browsers-mostly-safari-still-break-accessibility-via-display-properties.html#Update01). And if you continue to read the section I linked you to, he continued to notice this. And notice this. And [notice this some more](https://toot.cafe/@aardrian/110425545589928325). All told, I counted **sixteen updates** about how `display: contents`’ behavior had regressed in a way that was inaccessible.
 
 ## Optics
 
@@ -58,11 +58,11 @@ The ability to use web interfaces is no trivial matter. `display: contents`’ b
 
 I also want you to consider how this game of Whac-A-Mole affects accessibility practitioners. Telling someone they can’t a shiny new toy never goes down well. Then telling them you can, but then later you can’t again erodes trust and the perception of competency.
 
-It’s also exhausting to stay on top of all of this in addition to working a full-time job. This is a blog post I shouldn’t have to write, nor is it something the Adrians of the world should have to constantly test and re-test.
+It’s also exhausting to stay on top of all of this in addition to working a full-time job. There is no caniuse or Baseline for “accessibility.” This is a blog post I shouldn’t have to write, nor is it something the Adrians of the world should have to constantly test and re-test.
 
 This is to say nothing of the countless collective hours people will invest in planning out and doing refactoring work to excise `display: contents` declarations and the markup it is applied to, should you be so lucky that they actually care.
 
-I won’t even begin to get into frameworks who incorporate the declaration, and what that represents.
+I won’t even begin to get into the design systems and frameworks who incorporate the declaration, and what that represents.
 
 ## Don’t use `display: contents`
 
