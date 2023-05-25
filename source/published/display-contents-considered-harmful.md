@@ -56,7 +56,7 @@ However.
 
 The ability to use web interfaces is no trivial matter. `display: contents`’ breakage has a very real, very quantifiable impact on the quality of life of people who use the interfaces where it is declared.
 
-I also want you to consider how this game of Whac-A-Mole affects accessibility practitioners. Telling someone they can’t a shiny new toy never goes down well. Then telling them you can, but then later you can’t again erodes trust and the perception of competency.
+I also want you to consider how this game of Whac-A-Mole affects accessibility practitioners. Telling someone they can’t use a shiny new toy never goes down well. Then telling them you can, but then later you can’t again erodes trust and the perception of competency.
 
 It’s also exhausting to stay on top of all of this in addition to working a full-time job. There is no caniuse or Baseline for “accessibility.” This is a blog post I shouldn’t have to write, nor is it something the Adrians of the world should have to constantly test and re-test.
 
