@@ -9,6 +9,10 @@ tags:
   - Accessibility
   - Inclusion
   - Overlays
+furtherReading:
+  - title: "Against Disability education"
+    source: "Robert Kingett"
+    url: https://blindjournalist.wordpress.com/2023/05/18/against-disability-education/
 share:
   facebookDescription: "A Vitruvian man accessibility icon with an angry face."
   twitterDescription: "A Vitruvian man accessibility icon with an angry face."
