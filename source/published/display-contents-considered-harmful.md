@@ -58,7 +58,7 @@ The ability to use web interfaces is no trivial matter. `display: contents`’ b
 
 I also want you to consider how this game of Whac-A-Mole affects accessibility practitioners. Telling someone they can’t use a shiny new toy never goes down well. Then telling them you can, but then later you can’t again erodes trust and the perception of competency.
 
-It’s also exhausting to stay on top of all of this in addition to working a full-time job. There is no caniuse or Baseline for “accessibility.” This is a blog post I shouldn’t have to write, nor is it something the Adrians of the world should have to constantly test and re-test.
+It’s also exhausting to stay on top of all of this in addition to working a full-time job—there is no [caniuse](https://caniuse.com/) or [Baseline](https://web.dev/baseline/) for “accessibility.” This is a blog post I shouldn’t have to write, nor is it something the Adrians of the world should have to constantly test and re-test.
 
 This is to say nothing of the countless collective hours people will invest in planning out and doing refactoring work to excise `display: contents` declarations and the markup it is applied to, should you be so lucky that they actually care.
 
