@@ -4,7 +4,7 @@ title: Global Accessibility Anger Day
 source: ericwbailey.website
 excerpt: "I'm done with the performative allyship and toxic positivity"
 date: 2023-05-18
-year: 2021
+year: 2023
 tags:
   - Accessibility
   - Inclusion
