@@ -32,11 +32,11 @@ Another way to put it: When people say “HTML is accessible by default”, `dis
 
 Accessibility practitioners noticed this issue, and entirely justifiable demands for it to be fixed were raised. Of note, I’d like to highlight [Adrian Roselli’s diligent, methodical, and matter-of-fact efforts to document and report this](https://adrianroselli.com/2018/05/display-contents-is-not-a-css-reset.html).
 
-Fixes were made, evergreen browsers were updated, and we got a happy ending. Right? Not so fast.
+Fixes were made, browsers were updated, and we got a happy ending. Right? Not so fast.
 
 ## Regressions
 
-In software development, a regression can be a few things. The term is commonly used in a negative context to communicate how updated behavior has unintentionally been reverted to a previous way of working.
+In software development, a regression can be a few things. The term is commonly used in a negative context to communicate how updated behavior has unintentionally been reverted to a previous, less desirable way of working.
 
 For `display: contents`, it meant that everyone’s auto or [near-auto updating browsers](https://css-tricks.com/evergreen-does-not-mean-immediately-available/#aa-the-browsers-themselves) scrapped the very necessary bug fix and went back to destroying the underlying qualities that make semantic HTML communicate with assistive technology.
 
@@ -54,7 +54,7 @@ I also understand that people make software, are fallible, and that we should be
 
 However.
 
-The ability to use web interfaces is no trivial matter. `display: contents`’ breakage has a very real, very quantifiable impact on the quality of life of people who use the interfaces where it is declared.
+The ability to use web interfaces is no trivial matter. `display: contents`’ breakage has a <strong>very real, very quantifiable impact</strong> on the quality of life of people who use the interfaces where it is declared.
 
 I also want you to consider how this game of Whac-A-Mole affects accessibility practitioners. Telling someone they can’t use a shiny new toy never goes down well. Then telling them you can, but then later you can’t again erodes trust and the perception of competency.
 
