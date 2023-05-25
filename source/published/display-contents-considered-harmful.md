@@ -1,6 +1,6 @@
 ---
 layout: "layouts/post.njk"
-title: <code>display: contents</code> considered harmful
+title: "<code>display: contents</code> considered harmful"
 source: ericwbailey.website
 excerpt: "display: contents has a long and storied history when it comes to accessibility."
 date: 2023-05-25
