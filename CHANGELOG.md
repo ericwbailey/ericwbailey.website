@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.40 - 2023-05-25
+- Add [<code>display: contents</code> considered harmful](https://ericwbailey.website/published/display-contents-considered-harmful/)
+
 ## v1.5.39 - 2023-05-18
 - Add [Global Accessibility Anger Day](https://ericwbailey.website/published/global-accessibility-anger-day/)
 
