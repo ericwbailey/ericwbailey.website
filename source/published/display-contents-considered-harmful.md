@@ -38,7 +38,7 @@ Fixes were made, evergreen browsers were updated, and we got a happy ending. Rig
 
 In software development, a regression can be a few things. The term is commonly used in a negative context to communicate how updated behavior has unintentionally been reverted to a previous way of working.
 
-For `display: contents`, it meant that everyone’s auto or [near-auto updating browsers](https://css-tricks.com/evergreen-does-not-mean-immediately-available/#aa-the-browsers-themselves) scrapped the very necessary bug fix and went back to destroying accessibility.
+For `display: contents`, it meant that everyone’s auto or [near-auto updating browsers](https://css-tricks.com/evergreen-does-not-mean-immediately-available/#aa-the-browsers-themselves) scrapped the very necessary bug fix and went back to destroying the underlying qualities that make semantic HTML communicate with assistive technology.
 
 To reemphasize the severity here: This sort of regression is not the type of bug that is irritating to work around. It represents <strong>hard breakage of a foundational aspect of web accessibility</strong>.
 
