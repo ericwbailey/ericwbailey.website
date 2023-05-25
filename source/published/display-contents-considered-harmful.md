@@ -68,7 +68,7 @@ I won’t even begin to get into frameworks who incorporate the declaration, and
 
 At this point, I don’t think we as an industry can use `display: contents` with confidence. Past actions are a good indicator of future behavior, and the road to hell is paved with good intentions.
 
-I now view the declaration as predictably unpredictable. The common response of “just test its support with assistive technology” isn't something you can rely on, in that there is a non-trivial chance that desirable behavior for the declaration in a current browser version isn't guaranteed to persist for future versions of that browser. 
+I now view the declaration as predictably unpredictable. The common response of “just test its support with assistive technology” does not apply here, either—there is a non-trivial chance that desirable behavior for the declaration in a current browser version isn't guaranteed to persist for future versions of that browser. 
 
 `display: contents` treatment gives us a tiny window into viewing how certain aspects of browser-making are prioritized and tested (or not tested) for quality assurance purposes. People can swear up, down, and all around that things like accessibility and inclusion are important, but when it comes to this CSS declaration in particular, it is clear that most browser makers are untrustworthy.
 
