@@ -18,9 +18,9 @@ eleventyNavigation:
 
 [`display: contents`](https://www.w3.org/TR/css-display-3/#box-generation) has a long and storied history when it comes to accessibility.
 
-On paper, [the declaration alters the`display` property](https://bitsofco.de/how-display-contents-works/) of what it is applied to. It makes it “disappear” elevating its child elements to the next level up in the DOM.
+On paper, [the declaration alters the`display` qualities](https://bitsofco.de/how-display-contents-works/) of the element it is applied to. It makes the element “disappear,” elevating its child elements to the next level up in the DOM.
 
-This declaration would be useful for all sorts of things. Ironically one of the use cases would be for improving the underlying semantics of your work. However, the declaration as debuted worked a little too well.
+This sort of declaration could be useful for all sorts of things. Ironically one of the use cases would be for improving the underlying semantics of your work. However, the declaration as debuted worked a little too well.
 
 ## CSS and accessibility
 
