@@ -38,7 +38,7 @@ Fixes were made, browsers were updated, and we got a happy ending. Right? Not so
 
 In software development, a regression can be a few things. The term is commonly used in a negative context to communicate how updated behavior has unintentionally been reverted to a previous, less desirable way of working.
 
-For `display: contents`, it meant that everyone’s auto or [near-auto updating browsers](https://css-tricks.com/evergreen-does-not-mean-immediately-available/#aa-the-browsers-themselves) scrapped the very necessary bug fix and went back to destroying the underlying qualities that make semantic HTML communicate with assistive technology.
+For `display: contents`, it meant that everyone’s auto or [near-auto updating browsers](https://css-tricks.com/evergreen-does-not-mean-immediately-available/#aa-the-browsers-themselves) scrapped the very necessary bug fix and went back to destroying the underlying qualities that make semantic HTML communicate with assistive technology without warning or notice.
 
 To reemphasize the severity here: This sort of regression is not the type of bug that is irritating to work around. It represents <strong>hard breakage of a foundational aspect of web accessibility</strong>.
 
@@ -68,8 +68,14 @@ I won’t even begin to get into the design systems and frameworks who incorpora
 
 At this point, I don’t think we as an industry can use `display: contents` with confidence. Past actions are a good indicator of future behavior, and the road to hell is paved with good intentions.
 
-I now view the declaration as predictably unpredictable. The common response of “just test its support with assistive technology” does not apply here, either—there is a non-trivial chance that desirable behavior for the declaration in a current browser version isn't guaranteed to persist for future versions of that browser. 
+I now view the declaration as predictably unpredictable. The common response of “just test its support with assistive technology” does not apply here, either—there is a non-trivial chance that desirable behavior for the declaration in a current browser version isn't guaranteed to persist for future versions of that browser.
 
-`display: contents` treatment gives us a tiny window into viewing how certain aspects of browser-making are prioritized (or not prioritized) and tested (or not tested) for quality assurance purposes. People can swear up, down, and all around that things like accessibility and inclusion are important, but when it comes to this CSS declaration in particular, it is clear that most browser makers are untrustworthy.
+To reiterate the severity at play here: `display: contents`’ behavior is akin to the links you use on your website or web app one day losing the ability to work because you applied CSS to them. This loss of ability comes without warning, and there’s no console error or visual indication that things are amiss.
+
+This is a rare and disturbing thing—the entire modern web is built on top of the assumption things like this work do not stop working in this way. This isn’t a case of [interop concerns](https://web.dev/interop-2022/), it is harm being created by negligence.
+
+`display: contents`’ regressions gives us a tiny window into viewing how certain aspects of browser-making are prioritized (or not prioritized) and tested (or not tested) for quality assurance purposes.
+
+People can swear up, down, and all around that things like accessibility and inclusion are important, but when it comes to this CSS declaration in particular, it is clear that most browser makers are untrustworthy.
 
 The erratic nature of how the declaration actually functions in the practical represents a very real, very serious risk of <strong>critical accessibility issues being introduced into your website or web app in a way that you have no control over</strong>.
