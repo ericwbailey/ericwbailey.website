@@ -31,6 +31,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./source/favicon-16x16.png");
   eleventyConfig.addPassthroughCopy("./source/favicon-32x32.png");
 
+  eleventyConfig.addPassthroughCopy("./source/avatar.png");
   eleventyConfig.addPassthroughCopy("./source/favicon.svg");
   eleventyConfig.addPassthroughCopy("./source/manifest.json");
   eleventyConfig.addPassthroughCopy("./source/robots.txt");
