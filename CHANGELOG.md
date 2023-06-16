@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.41 - 2023-06-16
+- Add [The five types of people who produce inaccessible code](https://ericwbailey.website/published/the-five-types-of-people-who-produce-inaccessible-code/)
+
 ## v1.5.40 - 2023-05-25
 - Add [<code>display: contents</code> considered harmful](https://ericwbailey.website/published/display-contents-considered-harmful/)
 
