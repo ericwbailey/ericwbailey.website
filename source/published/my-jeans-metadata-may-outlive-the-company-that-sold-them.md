@@ -10,6 +10,9 @@ tags:
   - Personal
   - Social Media
   - Subversion
+share:
+  facebookDescription: "A QR code that links to this post with a simple illustration of jeans in the center."
+  twitterDescription: "A QR code that links to this post with a simple illustration of jeans in the center."
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}
