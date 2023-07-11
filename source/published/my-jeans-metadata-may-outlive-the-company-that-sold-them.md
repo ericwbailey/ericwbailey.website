@@ -121,9 +121,9 @@ A sufficiently motivated individual might also be able to figure out what manufa
 
 ## Absurdity, AI, and archiving
 
-We might not be able to “just Google it” in the uncomfortably close future. Platforms are both [dying](https://techcrunch.com/2023/03/28/twitter-is-dying/) and [going private](https://kotaku.com/discord-forum-messageboard-amazon-lost-ark-new-world-pc-1850393695), and with that comes [knowledge collapse](https://www.theverge.com/2023/6/13/23759942/google-reddit-subreddit-blackout-protests) (to say nothing of creating [the digital equivalent of Mad Cow Disease](https://www.technologyreview.com/2023/06/22/1075405/the-people-paid-to-train-ai-are-outsourcing-their-work-to-ai/)).
+We might not be able to “just Google it” in the uncomfortably close future. Platforms are both [dying](https://techcrunch.com/2023/03/28/twitter-is-dying/) and [going private](https://kotaku.com/discord-forum-messageboard-amazon-lost-ark-new-world-pc-1850393695), and with that comes [knowledge collapse](https://www.theverge.com/2023/6/13/23759942/google-reddit-subreddit-blackout-protests).
 
-We’re also about to face [an information apocalypse](https://arstechnica.com/culture/2023/06/rejoice-its-2023-and-you-can-still-buy-a-22-volume-paper-encyclopedia/), where approximate answers will become the norm and pre-”AI” information is about to become like [battleship steel](https://en.wikipedia.org/wiki/Low-background_steel).
+We’re also about to face [an information apocalypse](https://arstechnica.com/culture/2023/06/rejoice-its-2023-and-you-can-still-buy-a-22-volume-paper-encyclopedia/), where approximate answers will become the norm and pre-”AI” information is about to become like [battleship steel](https://en.wikipedia.org/wiki/Low-background_steel) (to say nothing of creating [the digital equivalent of Mad Cow Disease](https://www.technologyreview.com/2023/06/22/1075405/the-people-paid-to-train-ai-are-outsourcing-their-work-to-ai/)).
 
 Perhaps some key detail in some regurgitated, amalgamated quasi-answer will be missing. I’ll then ruin my jeans, the other clothing I wash them with, the washing machine itself, or a combination of all three.
 
