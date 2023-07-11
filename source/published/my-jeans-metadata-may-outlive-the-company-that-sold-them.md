@@ -129,7 +129,7 @@ Perhaps some key detail in some regurgitated, amalgamated quasi-answer will be m
 
 Who knows? Maybe it’ll even advise me with [great, unknowing confidence](https://en.wikipedia.org/wiki/Stochastic_parrot) to turn my washing machine into [a vat of chlorine or phosphine gas](https://www.latimes.com/opinion/story/2022-03-30/ai-artificial-intelligence-chemical-weapons).
 
-You could also write down the instructions somewhere. Perhaps creating your own personal archive of how to maintain every single thing you own is the smart, if time-consuming play. Also be sure to [print it out from time to time](https://www.forbes.com/sites/adrianbridgwater/2021/11/21/best-before-perishable-data-has-a-shelf-life/)!
+You could also write down the instructions somewhere. Perhaps creating your own personal archive of how to maintain every single thing you own is [the smart, if time-consuming play](https://arstechnica.com/gadgets/2023/07/evernote-the-memory-app-people-forgot-about-lays-off-entire-us-staff/). Also be sure to [print it out from time to time](https://www.forbes.com/sites/adrianbridgwater/2021/11/21/best-before-perishable-data-has-a-shelf-life/)!
 
 ## It’s also just a goddamn pair of jeans
 
