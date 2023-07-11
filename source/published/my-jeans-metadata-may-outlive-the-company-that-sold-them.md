@@ -127,7 +127,7 @@ We’re also about to face [an information apocalypse](https://arstechnica.com/c
 
 Perhaps some key detail in some regurgitated, amalgamated quasi-answer will be missing. I’ll then ruin my jeans, the other clothing I wash them with, the washing machine itself, or a combination of all three.
 
-Who knows? Maybe it’ll even advise me with [great, unknowing confidence](https://en.wikipedia.org/wiki/Stochastic_parrot) to to make [a vat of chlorine or phosphine gas](https://www.latimes.com/opinion/story/2022-03-30/ai-artificial-intelligence-chemical-weapons).
+Who knows? Maybe it’ll even advise me with [great, unknowing confidence](https://en.wikipedia.org/wiki/Stochastic_parrot) to turn my washing machine into [a vat of chlorine or phosphine gas](https://www.latimes.com/opinion/story/2022-03-30/ai-artificial-intelligence-chemical-weapons).
 
 You could also write down the instructions somewhere. Perhaps creating your own personal archive of how to maintain every single thing you own is the smart, if time-consuming play. Also be sure to [print it out from time to time](https://www.forbes.com/sites/adrianbridgwater/2021/11/21/best-before-perishable-data-has-a-shelf-life/)!
 
