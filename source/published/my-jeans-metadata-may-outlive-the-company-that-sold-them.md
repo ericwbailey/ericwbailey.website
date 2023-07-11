@@ -50,13 +50,13 @@ The jeans’ label included the following information:
 
 This is metadata, information about information. And its inclusion is a totally normal and helpful thing! The clothing you are currently wearing most likely also has a label with this sort of information on it.
 
-## Gateway
+## Gateway or toll bridge?
 
 What I’m surprised about is that you don’t need to do anything past buying the pair of jeans to have access to their care information. This surprise, in turn, communicated to me exactly how much tech has irrevocably damaged how I think.
 
-Unlike the tech industry, some opportunistic, profit-maximalizing process has yet to insert itself in the garment-producing industry to intercept this aspect of it.
+Unlike the tech industry, some opportunistic, profit-[maximalizing-for-the-sake-of-maximalizing process](https://en.wikipedia.org/wiki/Instrumental_convergence) has yet to insert itself in the garment-producing industry to intercept this aspect of it.
 
-Similarly, some growth-hacking, hustle-grinding, maximalizing-for-the-sake-of-maximalizing, unintentional [Goodheart’s law](https://en.wikipedia.org/wiki/Goodhart's_law)-manifesting dingus has yet to come along. It’s a numbers game until someone places a gateway to get between me and learning how to take care of my clothing as a way to generate metrics, harvest my personal information, and sell me more things.
+Similarly, some growth-hacking, hustle-grinding, unintentional [Goodheart’s law](https://en.wikipedia.org/wiki/Goodhart's_law)-manifesting dingus has yet to come along. It’s a numbers game until someone places a gateway to get between me and learning how to take care of my clothing as a way to generate metrics, harvest my personal information, and sell me more things.
 
 Surprise specifically manifested as expecting to see a QR code with no other information on the label. If your brain has not been broken by working in tech the way mine has, allow me to explain this.
 
@@ -121,7 +121,7 @@ A sufficiently motivated individual might also be able to figure out what manufa
 
 ## Absurdity, AI, and archiving
 
-We might not be able to “just Google it” in the uncomfortably close future. Platforms are both [dying](https://techcrunch.com/2023/03/28/twitter-is-dying/) and [going private](https://kotaku.com/discord-forum-messageboard-amazon-lost-ark-new-world-pc-1850393695), and with that comes [knowledge collapse](https://www.theverge.com/2023/6/13/23759942/google-reddit-subreddit-blackout-protests).
+We might not be able to “just Google it” in the uncomfortably close future. Platforms are both [dying](https://techcrunch.com/2023/03/28/twitter-is-dying/) and [going private](https://kotaku.com/discord-forum-messageboard-amazon-lost-ark-new-world-pc-1850393695), and with that comes [knowledge collapse](https://www.theverge.com/2023/6/13/23759942/google-reddit-subreddit-blackout-protests) (to say nothing of creating [the digital equivalent of Mad Cow Disease](https://www.technologyreview.com/2023/06/22/1075405/the-people-paid-to-train-ai-are-outsourcing-their-work-to-ai/)).
 
 We’re also about to face [an information apocalypse](https://arstechnica.com/culture/2023/06/rejoice-its-2023-and-you-can-still-buy-a-22-volume-paper-encyclopedia/), where approximate answers will become the norm and pre-”AI” information is about to become like [battleship steel](https://en.wikipedia.org/wiki/Low-background_steel).
 
