@@ -133,7 +133,7 @@ You could also write down the instructions somewhere. Perhaps creating your own 
 
 ## It’s also just a goddamn pair of jeans
 
-I mean, it’s also not about the jeans.
+I mean, [it’s also not about the jeans](https://www.technologyreview.com/2023/05/25/1073634/brain-implant-removed-against-her-will/).
 
 This is how I now think. This is the thought process that kicks in when I look at a something as mundane and everyday as a pair of pants.
 
