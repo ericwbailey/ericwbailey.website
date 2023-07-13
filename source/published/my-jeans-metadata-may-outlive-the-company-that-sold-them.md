@@ -60,7 +60,7 @@ Similarly, some growth-hacking, hustle-grinding, unintentional [Goodheart’s la
 
 Surprise specifically manifested as expecting to see a QR code with no other information on the label. If your brain has not been broken by working in tech the way mine has, allow me to explain this.
 
-Using the QR code would enable the company that sold me the jeans to be able to capture data about:
+A smart company that sells jeans does not actually sell jeans. Using the QR code would enable the company to be able to capture data about:
 
 - The number of people visiting the embedded URL,
 - What time they are visiting,
@@ -89,7 +89,7 @@ Meta is a company that is obsessed with extracting, repackaging, and selling as 
 
 ## What I need versus what you want
 
-The QR code would serve as an intentional barrier between information I want and the company that holds that information: How to properly wash, dry, and otherwise care for my jeans.
+The QR code would serve as an intentional barrier between information I want and the company that holds it: How to properly wash, dry, and otherwise care for my jeans.
 
 This barrier’s purpose would also be advertised to me as an enhancement for my experience, despite my feelings on the matter. I can already see the marketing copy in my mind:
 
@@ -103,7 +103,7 @@ Granted, I could look up this information up elsewhere online, but the larger po
 
 The other bit to think about is dropshipping companies don’t last all that long. They exist to buy a product manufactured wholesale, entice you with some clever advertisement, make a profit, and then cash out. It’s also [not as easy a job as people make it out to be](https://blog.shift4shop.com/dropshipping-risks)—many crash and burn before they can become solvent.
 
-Instagram is littered with “going out of business” ads from these kinds of companies, which is both a psychological manipulation tactic and also a statement of truth. You never know if the other end of the transaction is one or the other, or a combination of the two.
+Instagram is littered with “going out of business” ads from these kinds of companies, which is both a statement of truth and also a psychological manipulation tactic. You never know if the other end of the transaction is one or the other, or a combination of the two.
 
 <div class="centered-media-outer">
   <img
@@ -115,9 +115,9 @@ Instagram is littered with “going out of business” ads from these kinds of c
 
 My question then is: What happens to the care instructions in a situation like this? [The average lifespan of a website is short](https://www.forbes.com/sites/forbesagencycouncil/2021/03/01/your-websites-life-span-may-be-shorter-than-you-think/). The actual pair of jeans themselves are poised to outlive the website that sold them to me—especially if you take care of them the way they’re supposed to be taken care of.
 
-Without that information physically included on the label, that information could be lost. You might be able to capture it on [The Internet Archive](https://archive.org/), but that doesn’t seem like the best use of their finite resources.
+The information can be lost if it only exists digitally, and is not physically included on the label. You might be able to capture it on [The Internet Archive](https://archive.org/), but that doesn’t seem like the best use of their finite resources.
 
-A sufficiently motivated individual might also be able to figure out what manufacturing company produced the clothing to sell to the dropshipping company before it folded. They could then see if care information could be retrieved straight from the source. However, this will mean making requests outside the usual channels, likely while also navigating one or more foreign languages.
+A sufficiently motivated individual might also be able to figure out what manufacturing company produced the clothing sold to the dropshipping company before it folded. They could then see if care information could be retrieved straight from the source. However, this will mean making requests outside the usual channels, likely while also navigating one or more foreign languages.
 
 ## Absurdity, AI, and archiving
 
