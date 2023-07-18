@@ -97,7 +97,7 @@ This barrier’s purpose would also be advertised to me as an enhancement for my
   <p>“It’s so easy and convenient. All the info you need and more, just one tap away! No more squinting at a tiny label!”</p>
 </blockquote>
 
-Granted, I could look up this information up elsewhere online, but the larger point is that I’m surprised that some opportunistic individual has hasn’t already enacted this predatory idea. And I’m depressed that I’m surprised.
+Granted, I could look up this information up elsewhere online. However, the larger point is that I’m surprised that some opportunistic individual has hasn’t already enacted this predatory idea. And I’m depressed that I’m surprised.
 
 ## Lifespan
 
@@ -123,9 +123,9 @@ A sufficiently motivated individual might also be able to figure out what manufa
 
 We might not be able to “just Google it” in the uncomfortably close future. Platforms are both [dying](https://techcrunch.com/2023/03/28/twitter-is-dying/) and [going private](https://kotaku.com/discord-forum-messageboard-amazon-lost-ark-new-world-pc-1850393695), and with that comes [knowledge collapse](https://www.theverge.com/2023/6/13/23759942/google-reddit-subreddit-blackout-protests).
 
-We’re also about to face [an information apocalypse](https://arstechnica.com/culture/2023/06/rejoice-its-2023-and-you-can-still-buy-a-22-volume-paper-encyclopedia/), where approximate answers will become the norm and pre-”AI” information is about to become like [battleship steel](https://en.wikipedia.org/wiki/Low-background_steel) (to say nothing of creating [the digital equivalent of Mad Cow Disease](https://www.technologyreview.com/2023/06/22/1075405/the-people-paid-to-train-ai-are-outsourcing-their-work-to-ai/)).
+We’re also about to face [an information apocalypse](https://arstechnica.com/culture/2023/06/rejoice-its-2023-and-you-can-still-buy-a-22-volume-paper-encyclopedia/), where approximate answers will become the norm and pre-”AI” information is about to become like [battleship steel](https://en.wikipedia.org/wiki/Low-background_steel). This is to say nothing of creating [the digital equivalent of Mad Cow Disease](https://www.technologyreview.com/2023/06/22/1075405/the-people-paid-to-train-ai-are-outsourcing-their-work-to-ai/).
 
-Perhaps some key detail in some regurgitated, amalgamated quasi-answer will be missing. I’ll then ruin my jeans, the other clothing I wash them with, the washing machine itself, or a combination of all three.
+Perhaps a key detail in some regurgitated, amalgamated quasi-answer will be missing. I’ll then ruin my jeans, the other clothing I wash them with, the washing machine itself, or a combination of all three.
 
 Who knows? Maybe it’ll even advise me with [great, unknowing confidence](https://en.wikipedia.org/wiki/Stochastic_parrot) to turn my washing machine into [a vat of chlorine or phosphine gas](https://www.latimes.com/opinion/story/2022-03-30/ai-artificial-intelligence-chemical-weapons).
 
@@ -139,4 +139,6 @@ This is how I now think. This is the thought process that kicks in when I look a
 
 The one-two punch of three years of social isolation, combined with working in tech for so long has shaped my thought process into something quietly horrific. I don’t like what I’ve been conditioned to become.
 
-I don’t want to reflexively ideate about hypothetical productized exploits to objects we take for granted. I also don’t want to think of potential ways to build from those extractive exploits, and then all their constituent downsides. I also wish I wasn’t so painfully aware of how [tech’s promise has failed to deliver](https://daverog.com/2021/01/04/the-false-promise-of-technology/) in so, so many ways.
+I don’t want to reflexively ideate about hypothetical productized exploits to objects we take for granted. I also don’t want to think of potential ways to build from those extractive exploits, and then all their constituent downsides. 
+
+I also wish I wasn’t so painfully aware of how [tech’s promise has failed to deliver](https://daverog.com/2021/01/04/the-false-promise-of-technology/) in so, so many ways.
