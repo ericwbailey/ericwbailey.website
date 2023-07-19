@@ -11,6 +11,11 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Performance optimizations
 
 ## v1.5.41 - 2023-07-11
+- Add [pronouns](https://ericwbailey.website/pronouns/) page
+- Add [formative posts](https://ericwbailey.website/formative-posts/) page
+- Redirect [ericwbailey.website/avatar/](https://ericwbailey.website/avatar/) to `avatar.png`
+
+## v1.5.41 - 2023-07-11
 - Add [My jeans’ metadata may outlive the company that sold me them](https://ericwbailey.website/published/my-jeans-metadata-may-outlive-the-company-that-sold-them/)
 
 ## v1.5.41 - 2023-06-16
