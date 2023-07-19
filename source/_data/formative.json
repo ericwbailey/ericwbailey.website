@@ -62,8 +62,8 @@
     },
     {
       "title": "Inclusivity should not be W.E.I.R.D: Sparkling long-lasting inclusive technology",
-      "url": " Luis Berumen",
-      "author": "https://www.doc.cc/articles/inclusivity-should-not-be-weird"
+      "url": " https://www.doc.cc/articles/inclusivity-should-not-be-weird",
+      "author": "Luis Berumen"
     },
     {
       "title": "Toward a History of Ableness (Wayback Machine archive",
@@ -84,6 +84,11 @@
       "title": "Best practices for inclusive textual websites",
       "url": "https://seirdy.one/posts/2020/11/23/website-best-practices/",
       "author": "Rohan Kumar"
+    },
+    {
+      "title": "The Web’s Grain",
+      "url": "https://frankchimero.com/blog/2015/the-webs-grain/",
+      "author": "Frank Chimero"
     }
   ]
 }
