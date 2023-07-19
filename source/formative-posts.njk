@@ -1,0 +1,25 @@
+---
+layout: layouts/landing.njk
+title: Formative posts
+lede: Here are things other people have written that have helped to shape who I am. Enjoy!
+eleventyNavigation:
+  key: Pronouns
+  parent: Orphans
+  order: 4
+---
+
+{% set post = formative-posts.items %}
+<ul>
+  {% for item in post %}
+    <li>
+      <a href="{{ item.url }}">
+        {{ item.title | safe }}
+      </a>
+      <small style="display: block;">{{ item.author }}</small>
+    </li>
+  {% endfor %}
+</ul>
+
+<p>
+  New links will be added periodically.
+</p>
