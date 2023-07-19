@@ -11,7 +11,7 @@ eleventyNavigation:
 {% set post = formative.items %}
 <ul>
   {% for item in post %}
-    <li>
+    <li id="{{ item.blog.name | slugify }}">
       <a href="{{ item.url }}">
         {{ item.title | safe }}
       </a>
