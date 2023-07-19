@@ -269,3 +269,15 @@ to = "https://ericwbailey.website/feed/feed.xml"
 [[redirects]]
 from = "https://ericwbailey.website/newsletter"
 to = "https://buttondown.email/ericwbailey"
+
+[[redirects]]
+from = "https://ericwbailey.website/avatar"
+to = "https://buttondown.email/avatar.png"
+
+[[redirects]]
+from = "https://ericwbailey.website/he-him-his"
+to = "https://ericwbailey.website/pronouns"
+
+[[redirects]]
+from = "https://ericwbailey.website/bangers"
+to = "https://buttondown.email/formative-posts"
