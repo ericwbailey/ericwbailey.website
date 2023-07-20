@@ -1,6 +1,11 @@
 {
   "items": [
     {
+      "title": "Aging Personas",
+      "url": "http://accessiblejoe.com/aging-personas/",
+      "author": "Joseph Karr O’Connor"
+    },
+    {
       "title": "Are toddlers polluting your analytics?",
       "url": "https://critter.blog/2023/06/09/are-toddlers-polluting-your-analytics/",
       "author": "Mike Crittenden"
@@ -21,6 +26,11 @@
       "author": "Dan McKinley"
     },
     {
+      "title": "Designing for the Unexpected",
+      "url": "http://simpleprimate.com/blog/unexpected",
+      "author": "James Williamson"
+    },
+    {
       "title": "Disability Dongle",
       "url": "https://blog.castac.org/2022/04/disability-dongle/",
       "author": "Liz Jackson, Alex Haagaard, and Rua Williams"
@@ -34,6 +44,11 @@
       "title": "Essay 5: Design education, disrupted",
       "url": "https://extraintra.nl/article/towards-new-schools/essay-5-design-education-disrupted/",
       "author": "Danah Abdulla"
+    },
+    {
+      "title": "Excluded from Confoo speaker dinner – what happened and how it made me feel. (Wayback Machine archive)",
+      "url": "https://web.archive.org/web/20221216015228/https://incl.ca/excluded-confoo-speaker-dinner-happened-made-feel/",
+      "author": "Nicolas Steenhout"
     },
     {
       "title": "Folk Interfaces",
@@ -94,6 +109,11 @@
       "title": "Tailwind and the Femininity of CSS",
       "url": "https://thoughtbot.com/blog/tailwind-and-the-femininity-of-css",
       "author": "Elaina Natario"
+    },
+    {
+      "title": "Taking The Social Model of Disability Online ",
+      "url": "https://modelviewculture.com/pieces/taking-the-social-model-of-disability-online",
+      "author": "El Gibbs"
     },
     {
       "title": "Thinking in Triplicate",
