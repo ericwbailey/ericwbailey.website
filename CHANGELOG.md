@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.44 - 2023-07-24
+- - Add [Formative posts](https://ericwbailey.website/published/formative-posts/)
+
 ## v1.5.41 - 2023-07-11
 - Add [pronouns](https://ericwbailey.website/pronouns/) page
 - Add [formative posts](https://ericwbailey.website/formative-posts/) page
