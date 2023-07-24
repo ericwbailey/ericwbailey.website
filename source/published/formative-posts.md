@@ -18,7 +18,7 @@ Blogs are good at communicating what you’re thinking about a specific topic, b
 
 This page is a list of blog posts other people have written that had a profound impact on me. There’s no other commentary or contextualization past that.
 
-I wouldn’t be the person I am today without these sorts of brilliant insights and observations. and I’m thankful these people exist in the world, thinking these thoughts and choosing to share them.
+I wouldn’t be the person I am today without these sorts of brilliant insights and observations. I’m thankful these people exist in the world, thinking these thoughts and choosing to share them.
 
 [You can never really truly know someone](https://ericwbailey.website/published/chinese-rooms-wasps-slime-molds-and-the-problem-of-other-minds/#the-problem-of-other-minds), but you can learn more about who they are by what they make available to you. This is an attempt at that.
 
