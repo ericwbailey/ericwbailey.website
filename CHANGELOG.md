@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.45 - 2023-08-09
+- - Add [Formative posts](https://ericwbailey.website/published/a-year-at-github/)
+
 ## v1.5.44 - 2023-07-24
 - - Add [Formative posts](https://ericwbailey.website/published/formative-posts/)
 
