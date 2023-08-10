@@ -46,7 +46,7 @@ I left consulting because I wanted to help make more sustainable, permanent chan
 
 This is especially important in that a development job represents a powerful opportunity. It is a place where [a discriminated population has a chance to earn income](https://www.americanprogress.org/article/removing-obstacles-for-disabled-workers-would-strengthen-the-u-s-labor-market/), and oftentimes good income. I feel the gravity of this fact every day.
 
-I’m proud of what I’ve helped accomplish, and feel like I could take a year off to write about it. I also understand that there is a lot more work to be done. If you are reading this and run into an access issue, [please let me know](https://social.ericwbailey.website/@eric) and I will do everything in my power to help.
+I’m proud of what I’ve helped accomplish, and feel like I could take a year off to write about the messy particulars of how it was accomplished. I also understand that **there is a lot more work to be done**. If you are reading this and run into an access issue, [please let me know](https://social.ericwbailey.website/@eric) and I will do everything in my power to help.
 
 I’m grateful to have so many peers that support this work, and did so much to forge the path that I have the privilege to be allowed to contribute to. I’m also in awe of their daily contributions and accomplishments, and excited for what the future may be.
 
