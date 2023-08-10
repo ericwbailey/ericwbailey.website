@@ -25,11 +25,10 @@ I also tie up a lot of my sense of identity in my work, and with that comes a lo
 
 If I could sum up four of my largest learnings, it’s that there are that there gigantic gaps between:
 
-
 1. What accessibility practitioners know and what many of the best and brightest in the web industry are aware of,
-2. What accessibility practitioners think they know and what disabled people experience,
-3. Recognition of accessibility as a concern before you even begin to touch on disability justice, and
-4. The understanding needed to make all of this not a high-stakes, highly emotional mess.
+1. What [accessibility practitioners think they know and what disabled people experience](https://ericwbailey.website/published/the-five-types-of-people-who-produce-inaccessible-code/),
+1. Recognition of accessibility as a concern before you even begin to touch on disability justice, and
+1. The understanding needed to make all of this not a high-stakes, highly emotional mess.
 
 This is my first full-time job in accessibility. Before this, I’ve only ever audited in a freelance context, [advocated for it externally as a consultant](https://thoughtbot.com/blog/authors/eric-bailey), or in one extremely messy and short-lived stint been brought on as a contractor-to-hire.
 
@@ -53,6 +52,6 @@ I’m grateful to have so many peers that support this work, and did so much to 
 
 I’m also fortunate to have three teams’ worth of support to rely on, and even more lucky to have many people outside my organization who get what we do and why it’s so important. It is rare and precious, and should be protected and encouraged.
 
-To Allie: Thank you for taking a chance on me. To Chelsea and Alexis: I appreciate the hell out of both of you. To the Accessibility Engineering and Primer teams: Thank you for your support (and grace). To everyone previously mentioned: You’re the rare combination of smart, talented and kind, and it does not go unnoticed or unappreciated.
+To [Allie](https://github.com/alliethu): Thank you for taking a chance on me. To [Chelsea](https://github.com/ichelsea) and [Alexis](https://github.com/alexislucio): I appreciate the hell out of both of you. To the Accessibility Engineering and Primer teams: Thank you for your support (and grace). To everyone previously mentioned: You’re the rare combination of smart, talented and kind, and it does not go unnoticed or unappreciated.
 
 Here’s to another year, a more accessible GitHub, and a more accessible internet.
