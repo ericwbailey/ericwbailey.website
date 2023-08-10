@@ -38,7 +38,7 @@ This work is damn hard. It demands near-constant perfection across so many domai
 
 We’re also building this plane as we fly it—there is no historical precedent for this kind of work at this level.
 
-Some web industry practices don’t scale for this kind of work, and some are actually counter-productive. You also have to contend with politics, and doing more [with less](https://www.cnbc.com/2023/06/15/microsoft-stock-hits-record-as-leaders-see-10-billion-in-ai-revenue.html). There is also the notion that **the more successful an accessibility team is, the more invisible their work becomes**.
+Many established web industry practices don’t scale for this kind of work. Some are actually counter-productive. You also have to contend with politics, and doing more [with less](https://www.cnbc.com/2023/06/15/microsoft-stock-hits-record-as-leaders-see-10-billion-in-ai-revenue.html). There is also the notion that **the more successful an accessibility team is, the more invisible their work becomes**.
 
 The work can also be extremely rewarding.
 
