@@ -12,6 +12,10 @@ tags:
   - Attributes
   - Development
 attribution: "Thank you to <a href='https://twitter.com/JamesScholes'>James Scholes</a> for his feedback."
+furtherReading:
+  - title: "The Curious Case of “iff” and Overriding Screenreader Pronunciations"
+    source: "Ben Myers"
+    url: https://benmyers.dev/blog/overriding-screenreader-pronunciations/
 sharedOn:
   twitter: https://twitter.com/ericwbailey/status/1587084379381178369
   mastodon: https://mstdn.social/@ericwbailey/109263293469919964
