@@ -45,6 +45,7 @@ All that said, my not-smart TV will not:
 - [Become part of a manufacturer-level initiative to become a data broker](https://gizmodo.com/lg-s-latest-announcement-solidifies-everything-wrong-wi-1848425315),
 - [Show up with malware preinstalled](https://arstechnica.com/information-technology/2023/05/potentially-millions-of-android-tvs-and-phones-come-with-malware-preinstalled/),
 - [Secretly collect information about me](https://www.consumerreports.org/privacy/how-to-turn-off-smart-tv-snooping-features/) and transmit it,
+- [Connect to Google, China, and Russia every five minutes](https://svrooij.io/2023/01/25/disconnect-your-smart-appliance/),
 - Be mistakenly marked as stolen and [remotely disabled](https://www.theverge.com/2021/8/25/22640876/samsung-television-block-function-stolen-tv-sets-south-africa),
 - [Bypass my network setup](https://labzilla.io/blog/force-dns-pihole),
 - Surreptitiously include a cellular modem or seek out nearby unsecured wifi to side-step my network entirely,
