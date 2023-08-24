@@ -10,11 +10,14 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.46 - 2023-08-23
+- Add [Use of the design system should factor into promotion packets](https://ericwbailey.website/published/use-of-the-design-system-should-factor-into-promotion-packets/)
+
 ## v1.5.45 - 2023-08-09
-- - Add [Formative posts](https://ericwbailey.website/published/a-year-at-github/)
+- Add [A year at GitHub](https://ericwbailey.website/published/a-year-at-github/)
 
 ## v1.5.44 - 2023-07-24
-- - Add [Formative posts](https://ericwbailey.website/published/formative-posts/)
+- Add [Formative posts](https://ericwbailey.website/published/formative-posts/)
 
 ## v1.5.41 - 2023-07-11
 - Add [pronouns](https://ericwbailey.website/pronouns/) page
