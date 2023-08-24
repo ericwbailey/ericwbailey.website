@@ -6,7 +6,7 @@ excerpt: "That’s it, that’s the post"
 date: 2023-08-24
 year: 2023
 tags:
-  - Personal
+  - Design Systems
 share:
   facebookDescription: "A dollar sign."
   twitterDescription: "A dollar sign."
