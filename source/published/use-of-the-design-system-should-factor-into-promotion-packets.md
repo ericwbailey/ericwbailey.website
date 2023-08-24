@@ -7,6 +7,9 @@ date: 2023-08-24
 year: 2023
 tags:
   - Personal
+share:
+  facebookDescription: "A dollar sign."
+  twitterDescription: "A dollar sign."
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}
