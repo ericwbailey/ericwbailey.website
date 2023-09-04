@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.47 - 2023-09-05
+- Add [Equivalent experience can cut both ways](https://ericwbailey.website/published/equivalent-experience-can-cut-both-ways/)
+
 ## v1.5.46 - 2023-08-24
 - Add [Use of the design system should factor into promotion packets](https://ericwbailey.website/published/use-of-the-design-system-should-factor-into-promotion-packets/)
 
