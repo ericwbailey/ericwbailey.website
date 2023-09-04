@@ -61,7 +61,7 @@ Visually, it looks like this:
 <img
   alt="A heading that reads, 'Dog', with a subtitle that reads, 'Animal.' After the subtitle are three small vertically-stacked black dots. A filter of 50% transparent black has been applied to the entire image, with a cutout circle centered around the stacked dots, to draw the reader's attention to it. Cropped screenshot of the search result knowledge panel."
   loading="lazy"
-  src="{{ '/img/posts/equivalent-experience-can-cut-both-ways/more-options-visual-designt.png' | url }}" />
+  src="{{ '/img/posts/equivalent-experience-can-cut-both-ways/more-options-visual-design.png' | url }}" />
 
 My instructor expressed confusion over what the button was for while exploring the design of the knowledge panel’s information. I, in turn, also expressed confusion with the button’s purpose based on the visual design.
 
@@ -84,10 +84,13 @@ This is a little bit strange in that if you want to modify your overall search q
 1. Perform another search via the address bar or search input, or
 2. Navigate immediately past the search input to search filter functionality to narrow your results by image, video, photo, news, etc. 
 
-<img
-  alt="A browser address bar, and then the top portion of a Google search result. The URL in the address bar reads, 'google.com/search?q-dogs'. The input at the top of the Google search results page is prepopulated with the term, 'dogs'. Following it are filters for 'Images', 'Videos', 'Photos', 'Types', 'Hypoallergenic', 'Medium-sized', 'Small', 'For sale', and 'News'. Cropped screenshot."
-  loading="lazy"
-  src="{{ '/img/posts/equivalent-experience-can-cut-both-ways/more-options-visual-design.png' | url }}" />
+<div class="centered-media-outer">
+  <img
+    alt="A browser address bar, and then the top portion of a Google search result. The URL in the address bar reads, 'google.com/search?q-dogs'. The input at the top of the Google search results page is prepopulated with the term, 'dogs'. Following it are filters for 'Images', 'Videos', 'Photos', 'Types', 'Hypoallergenic', 'Medium-sized', 'Small', 'For sale', and 'News'. Cropped screenshot."
+    class="centered-media-inner-2"
+    loading="lazy"
+    src="{{ '/img/posts/equivalent-experience-can-cut-both-ways/more-options-visual-design.png' | url }}" />
+</div>
 
 Maybe the control lets you adjust the subheading to change it from “Animal” to something else? Like maybe a subcategory like “Geographic location” or “Cartoon character?” That doesn’t seem likely. 
 
@@ -143,10 +146,12 @@ The term “kebab menu” is one of those things that is equal parts design jarg
 - How much industry experience it takes to be able to point out which icons in the collection are made-up.
 
 <figure
+  class="centered-media-outer"
   role="figure"
   aria-label="Source: UX Pickle.">
   <img
     alt="A grid with four columns and three rows. Each grid cell has an icon and a label. The first icon is labeled, 'Hamburger', and its icon is made out of three vertically-stacked horizontal bars. The second icon is labeled, 'Oreos', and its icon is made out of four vertically-stacked horizontal bars. Each edge of the horizontal bars is rounded either upwards or downward so the overall effect is two cookies stacked on top of each other. The third icon is labeled, 'Kebab', and its icon is made out of three vertically dots. The fourth icon is labeled, 'Candy box', and its icon is made out of three a three by three grid of dots. The fifth icon is labeled, 'Chocolate', and its icon is made out of a three by three grid of squares. The sixth icon is labeled, 'Cheeseburger', and its icon looks just like the hamburger icon except for a small titled triangle on the middle horizontal bar that makes it look like melted cheese. The seventh icon is labeled, 'Hot Dog', and its icon is made out of three vertically-stacked horizontal bars with rounded edges. The center bar is longer than the  ones placed above and below it, reminiscent of a hot dog and bun seen from above. The eighth icon is labeled, 'Veggie Burger', and its icon is made out of two vertically-stacked horizontal bars. The ninth icon is labeled, 'Strawberry', and its icon is made out of three vertically-stacked horizontal bars in descending order of width. The tenth icon is labeled, 'Fries', and its icon is made out of three vertically-stacked horizontal bars. The center bar being slightly less wide than the one placed above and below it, reminiscent of a container of fast food french fries as seen from the side. The eleventh icon is labeled, 'Stairs', and its icon is made out of three vertically-stacked horizontal bars, each bar placed slightly further in front of the one placed below it. The twelth and final icon is labeled, 'Cake', and its icon is made out of three vertically-stacked horizontal bars, with a small dot placed on top of, and in the center of the topmost horizontal bar."
+    class="centered-media-inner-4"
     loading="lazy"
     src="{{ '/img/posts/equivalent-experience-can-cut-both-ways/menu-buttons.png' | url }}" />
   <figcaption>
