@@ -59,10 +59,13 @@ Menu button, collapsed. Submenu. More options.
 
 Visually, it looks like this:
 
-<img
-  alt="A heading that reads, 'Dog', with a subtitle that reads, 'Animal.' After the subtitle are three small vertically-stacked black dots. A filter of 50% transparent black has been applied to the entire image, with a cutout circle centered around the stacked dots, to draw the reader's attention to it. Cropped screenshot of the search result knowledge panel."
-  loading="lazy"
-  src="{{ '/img/posts/equivalent-experience-can-cut-both-ways/more-options-visual-design.png' | url }}" />
+<div class="centered-media-outer">
+  <img
+    alt="A heading that reads, 'Dog', with a subtitle that reads, 'Animal.' After the subtitle are three small vertically-stacked black dots. A filter of 50% transparent black has been applied to the entire image, with a cutout circle centered around the stacked dots, to draw the reader's attention to it. Cropped screenshot of the search result knowledge panel."
+    class="centered-media-inner-2"
+    loading="lazy"
+    src="{{ '/img/posts/equivalent-experience-can-cut-both-ways/more-options-visual-design.png' | url }}" />
+</div>
 
 My instructor expressed confusion over what the button was for while exploring the design of the knowledge panel’s information. I, in turn, also expressed confusion with the button’s purpose based on the visual design.
 
@@ -90,7 +93,7 @@ This is a little bit strange in that if you want to modify your overall search q
     alt="A browser address bar, and then the top portion of a Google search result. The URL in the address bar reads, 'google.com/search?q-dogs'. The input at the top of the Google search results page is prepopulated with the term, 'dogs'. Following it are filters for 'Images', 'Videos', 'Photos', 'Types', 'Hypoallergenic', 'Medium-sized', 'Small', 'For sale', and 'News'. Cropped screenshot."
     class="centered-media-inner-2"
     loading="lazy"
-    src="{{ '/img/posts/equivalent-experience-can-cut-both-ways/more-options-visual-design.png' | url }}" />
+    src="{{ '/img/posts/equivalent-experience-can-cut-both-ways/search-and-filters.png' | url }}" />
 </div>
 
 Maybe the control lets you adjust the subheading to change it from “Animal” to something else? Like maybe a subcategory like “Geographic location” or “Cartoon character?” That doesn’t seem likely. 
