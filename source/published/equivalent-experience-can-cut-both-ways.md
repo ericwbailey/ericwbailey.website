@@ -18,6 +18,7 @@ furtherReading:
   - title: "I Don’t Care What Google or Apple or Whoever Did"
     source: "Adrian Roselli"
     url: https://adrianroselli.com/2020/03/i-dont-care-what-google-or-apple-or-whomever-did.html
+attribution: "Thank you to <a href='https://florianbeijers.xyz/'>Florian</a> and Emily for their feedback."
 share:
   facebookDescription: "Three vertically-stacked dots."
   twitterDescription: "Three vertically-stacked dots."
