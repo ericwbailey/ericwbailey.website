@@ -9,6 +9,7 @@ tags:
   - Accessibility
   - Assistive Technology
   - Design
+  - Design Systems
   - Development
   - Inclusion
 furtherReading:
@@ -88,13 +89,10 @@ This is a little bit strange in that if you want to modify your overall search q
 1. Perform another search via the address bar or search input, or
 2. Navigate immediately past the search input to search filter functionality to narrow your results by image, video, photo, news, etc.
 
-<div class="centered-media-outer">
-  <img
-    alt="A browser address bar, and then the top portion of a Google search result. The URL in the address bar reads, 'google.com/search?q-dogs'. The input at the top of the Google search results page is prepopulated with the term, 'dogs'. Following it are filters for 'Images', 'Videos', 'Photos', 'Types', 'Hypoallergenic', 'Medium-sized', 'Small', 'For sale', and 'News'. Cropped screenshot."
-    class="centered-media-inner-2"
-    loading="lazy"
-    src="{{ '/img/posts/equivalent-experience-can-cut-both-ways/search-and-filters.png' | url }}" />
-</div>
+<img
+  alt="A browser address bar, and then the top portion of a Google search result. The URL in the address bar reads, 'google.com/search?q-dogs'. The input at the top of the Google search results page is prepopulated with the term, 'dogs'. Following it are filters for 'Images', 'Videos', 'Photos', 'Types', 'Hypoallergenic', 'Medium-sized', 'Small', 'For sale', and 'News'. Cropped screenshot."
+  loading="lazy"
+  src="{{ '/img/posts/equivalent-experience-can-cut-both-ways/search-and-filters.png' | url }}" />
 
 Maybe the control lets you adjust the subheading to change it from “Animal” to something else? Like maybe a subcategory like “Geographic location” or “Cartoon character?” That doesn’t seem likely.
 
@@ -190,7 +188,10 @@ We’d want to do the following sooner than later:
 This will make it more [clear for people who use screen readers](https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html). Clarification in this way will be especially helpful if more than one “more options” button exists in the design.
 
 ```html
-<!-- Visually show the icon, but ensure a clear and unique accessible name for the button -->
+<!--
+  Visually show only the icon, but still ensure a
+  clear and unique accessible name for the button
+-->
 <button type="button">
   <svg aria-hidden="true" focusable="false">
     <!-- Icon code -->
