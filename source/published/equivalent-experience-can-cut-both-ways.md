@@ -50,7 +50,7 @@ An important takeaway here is **the value of [consistency and predictability](ht
 
 ## Surprise and confusion
 
-We both experienced some surprise and confusion navigating the knowledge panel. I’d like to call attention to one thing specifically here: the kebab [mystery meat](http://what-s-mystery-meat-navigation-and-why-s-it-so-bad) button.
+We both experienced some surprise and confusion navigating the knowledge panel. I’d like to call attention to one thing specifically here: the kebab [mystery meat](https://en.wikipedia.org/wiki/Mystery_meat_navigation) button.
 
 Using [NVDA](https://www.nvaccess.org/about-nvda/), it might sound like this:
 
