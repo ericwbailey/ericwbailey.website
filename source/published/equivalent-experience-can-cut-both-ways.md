@@ -2,7 +2,7 @@
 layout: "layouts/post.njk"
 title: Equivalent experience can cut both ways
 source: ericwbailey.website
-excerpt: "The “more options” button is emblematic of how something can be technically usable by everyone, but also how it’s use is also confusing for all involved"
+excerpt: "The “more options” button is emblematic of how something can be technically usable by everyone, but also how its use is also confusing for all involved"
 date: 2023-09-05
 year: 2023
 tags:
@@ -40,7 +40,7 @@ During our last session we were exploring the web, specifically [a Google search
   loading="lazy"
   src="{{ '/img/posts/equivalent-experience-can-cut-both-ways/dogs-knowledge-panel-search-result.png' | url }}" />
 
-The area that occupies the main portion of the screenshot is what Google refers to as a “[knowledge panel](https://support.google.com/knowledgepanel/answer/9163198?hl=en).” It’s a space before the search results that tries to answer your search query with a mix of algorithmically-generated and manually curated information.
+The area that occupies the main portion of the screenshot is what Google refers to as a “[knowledge panel](https://support.google.com/knowledgepanel/answer/9163198?hl=en).” It’s a space before the search results that tries to answer your search query with a mix of algorithmically-generated and manually-curated information.
 
 My instructor was telling me about some of the navigational muscle memory they had to re-learn based off of an update to the search result template’s underlying markup structure. This included adapting to the presence of knowledge panel content and its—ahem—unique decisions regarding underlying markup structure.
 
@@ -169,7 +169,7 @@ I am logged into Google while viewing this search result. Will pressing the keba
 
 Or maybe it’s like the one time I accidentally tapped an Instagram ad. This button press cursed me with a false expression of interest being forever associated with my account.
 
-It’s pretty unlikely that pressing the button won’t perform a destructive action. That said, it’s not impossible. Google is a gigantic company and [can’t get it right all the time](https://www.googlenestcommunity.com/t5/Apps-Account/Accidentally-deleted-home/td-p/364950).
+It’s pretty unlikely that pressing the button will perform a destructive action. That said, it’s not impossible. Google is a gigantic company and [can’t get it right all the time](https://www.googlenestcommunity.com/t5/Apps-Account/Accidentally-deleted-home/td-p/364950).
 
 I honestly don’t know what will happen. My instructor also didn’t know. **This is also an equivalent experience**, just not a desirable one.
 
@@ -314,9 +314,9 @@ The reason why two visually similar buttons with completely different accessible
 
 ## Equivalent is good, equivalent and usable is better
 
-The “more options” button is emblematic of how something can be technically usable by everyone, but also how it’s use is also confusing for all involved.
+The “more options” button is emblematic of how something can be technically usable by everyone, but also how its use is also confusing for all involved.
 
-Preventing this confusion requires engaging with not only how something looks and behaves in the immediate, but also in the larger contexts it will be placed. It also requires having organizational structures in place to be able to factor in the holistic whole, as well as adjust it if need be.
+Preventing this confusion requires engaging with not only how something looks and behaves in the immediate, but also in the larger contexts it will be placed. It also requires having organizational structures that allow factoring in the holistic whole, as well as adjusting it if need be.
 
 We can, and should strive to make experiences that are not only operable by everyone, but also intuitive.
 
