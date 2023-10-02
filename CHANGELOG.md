@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.48 - 2023-10-02
+- Add [GitHub now has a setting to underline links](https://ericwbailey.website/published/github-now-has-a-setting-to-underline-links/)
+
 ## v1.5.47 - 2023-09-05
 - Add [Equivalent experience can cut both ways](https://ericwbailey.website/published/equivalent-experience-can-cut-both-ways/)
 
