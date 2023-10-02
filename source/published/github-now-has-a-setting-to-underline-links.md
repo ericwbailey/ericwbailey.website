@@ -20,7 +20,7 @@ eleventyNavigation:
   order: 37
 ---
 
-A public beta was [released on Friday the 29th](https://github.blog/changelog/2023-09-29-enhanced-accessibility-for-links-in-text-blocks-public-beta/). It allows you to [apply or remove an underline effect to links in body content](https://github.com/settings/accessibility#link_underline_label). 
+A public beta was [released for GitHub on Friday the 29th](https://github.blog/changelog/2023-09-29-enhanced-accessibility-for-links-in-text-blocks-public-beta/). It allows you to [apply or remove an underline effect to links in body content](https://github.com/settings/accessibility#link_underline_label). 
 
 The link underlines are present in Issue and Pull Request comments, as well as other areas of the site. We are still identifying areas where underlines should and should not be applied, as well as how they should look. 
 
