@@ -114,6 +114,14 @@ Indicates element content that can only be read, and not interacted with.
 
 An element has been Activated, which unlocks the ability of additional state to be applied to the element, the page or view the element is contained on, or the overall site or app.
 
+### Inactive
+
+The larger system an element is used in has service issues. This service disruption removes the element’s ability to take action or navigate.
+
+### Inert
+
+An element has its presence completely removed for assistive technology.
+
 ### Checked
 
 An element is marked for sending as data to another internal or external resource. A Checked element can be Focused, but it's selected state persists after focus is moved.
