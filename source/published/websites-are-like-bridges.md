@@ -41,3 +41,7 @@ An incomplete list:
 - Some safe ones can become dangerous, and some unsafe ones can become more stable.
 - Some people are forced to use them, others can take alternate routes.
 - Trolls live under a lot of them.
+
+Community suggestions:
+
+Some are demolished and rebuilt from scratch. h/t [floris](https://freeradical.zone/@floris/111256582413531308).
