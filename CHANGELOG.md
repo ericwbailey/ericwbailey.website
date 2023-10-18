@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.49 - 2023-10-18
+- Add [Websites are like bridges](https://ericwbailey.website/published/websites-are-like-bridges/)
+
 ## v1.5.48 - 2023-10-02
 - Add [GitHub now has a setting to underline links](https://ericwbailey.website/published/github-now-has-a-setting-to-underline-links/)
 
