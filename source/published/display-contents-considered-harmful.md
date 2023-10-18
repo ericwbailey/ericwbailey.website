@@ -10,6 +10,10 @@ tags:
   - Assistive Technology
   - CSS
   - Development
+furtherReading:
+  - title: "Comment by alice on GitHub web-platform-tests interop Issue #568: display: contents"
+    source: "web-platform-tests/interop"
+    url: https://github.com/web-platform-tests/interop/issues/568#issuecomment-1756320416
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}
@@ -79,3 +83,5 @@ This is a rare and disturbing thing—the entire modern web is built on top of t
 People can swear up, down, and all around that things like accessibility and inclusion are important, but when it comes to this CSS declaration in particular, it is clear that most browser makers are untrustworthy.
 
 The erratic nature of how the declaration actually functions in the practical represents a very real, very serious risk of <strong>critical accessibility issues being introduced into your website or web app in a way that you have no control over</strong>.
+
+Update: [Safari 17 was released on September 18th, 2023](https://webkit.org/blog/14445/webkit-features-in-safari-17-0/), claiming it had fixed “our remaining accessibility issues with `display: contents`. [Buttons and headings, however, are still broken](https://adrianroselli.com/2022/07/its-mid-2022-and-browsers-mostly-safari-still-break-accessibility-via-display-properties.html#Update23).
