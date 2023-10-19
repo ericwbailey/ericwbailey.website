@@ -45,4 +45,4 @@ An incomplete list:
 Community suggestions:
 
 - Some are demolished and rebuilt from scratch. h/t [floris](https://freeradical.zone/@floris/111256582413531308).
-- A fresh coat of paint can't save the deficiencies of either/ h/t [Jim Nielsen](https://mastodon.social/@jimniels/111257626986137293)
+- A fresh coat of paint can't save the deficiencies of either. h/t [Jim Nielsen](https://mastodon.social/@jimniels/111257626986137293)
