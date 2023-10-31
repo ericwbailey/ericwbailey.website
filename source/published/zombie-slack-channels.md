@@ -9,8 +9,8 @@ tags:
   - Inclusion
   - Information Achitecture
 share:
-  facebookDescription: ""
-  twitterDescription: ""
+  facebookDescription: "A skull icon and the Slack logo."
+  twitterDescription: "A skull icon and the Slack logo."
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}
