@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.50 - 2023-10-31
+- Add [Zombie Slack channels](https://ericwbailey.website/published/zombie-slack-channels/)
+
 ## v1.5.49 - 2023-10-18
 - Add [Websites are like bridges](https://ericwbailey.website/published/websites-are-like-bridges/)
 
