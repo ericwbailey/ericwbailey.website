@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.51 - 2023-11-08
+- Add [Websites, politics, and preferences](https://ericwbailey.website/published/websites-politics-and-preferences/)
+
 ## v1.5.50 - 2023-10-31
 - Add [Zombie Slack channels](https://ericwbailey.website/published/zombie-slack-channels/)
 
