@@ -57,7 +57,7 @@ Accessibility annotation kits help tackle this problem, and in doing so lower th
 Liking an idea does not mean the idea is exempt from criticism. This post is long, but I feel its length is necessary to unpack some of the issues intrinsic with performing accessibility annotations. We’ll be covering:
 
 1. [What an accessibility annotation kit is and how they work](#what-is-an-accessibility-annotation-kit%3F),
-1. [Situations where accessibility annotation kits work well](when-do-accessibility-annotation-kits-work-well%3F),
+1. [Situations where accessibility annotation kits work well](#when-do-accessibility-annotation-kits-work-well%3F),
 1. [Scenarios where accessibility annotation kits can be misused](#where-accessibility-annotation-kits-start-to-go-awry),
 1. [Areas where accessibility annotation kits can actually facilitate inaccessible experiences](#where-accessibility-annotation-kits-completely-fall-apart),
 1. [Why the misuse and facilitation may happen](#root-causes%3A-a-necessary-tangent),
