@@ -56,13 +56,13 @@ Accessibility annotation kits help tackle this problem, and in doing so lower th
 
 Liking an idea does not mean the idea is exempt from criticism. This post is long, but I feel its length is necessary to unpack some of the issues intrinsic with performing accessibility annotations. We’ll be covering:
 
-1. [What an accessibility annotation kit is and how they work](#what-is-an-accessibility-annotation-kit),
-1. [Situations where accessibility annotation kits work well](#when-do-accessibility-annotation-kits-work-well),
+1. [What an accessibility annotation kit is and how they work](#what-is-an-accessibility-annotation-kit%3F),
+1. [Situations where accessibility annotation kits work well](when-do-accessibility-annotation-kits-work-well%3F),
 1. [Scenarios where accessibility annotation kits can be misused](#where-accessibility-annotation-kits-start-to-go-awry),
 1. [Areas where accessibility annotation kits can actually facilitate inaccessible experiences](#where-accessibility-annotation-kits-completely-fall-apart),
-1. [Why the misuse and facilitation may happen](#root-causes-a-necessary-tangent),
+1. [Why the misuse and facilitation may happen](#root-causes%3A-a-necessary-tangent),
 1. [Further problems and complications to consider](#tree-views-and-the-uncanny-valley), and
-1. [Ideas for what to do about it](#so-what-can-we-do-about-this).
+1. [Ideas for what to do about it](#so%2C-what-can-we-do-about-this%3F).
 
 ## What is an accessibility annotation kit?
 
@@ -109,7 +109,7 @@ Here, the use case is simple and straightforward: Applying a “button” sticke
   aria-label="Yup, that’s a button.">
   <img
     role="img"
-    alt="A graphic of a button component as drawn in a design tool. It has a an annotation label applied to it called, 'Button'. It also has a layer name called, 'button'. The button component is also selected, with a visual that indicates it is a component instance."
+    alt="A graphic of a button component as drawn in a design tool. It has a an annotation label applied to it called, 'Button'. It also has a layer name called, 'button'. The button component is also selected, with a visual that indicates it is a component instance. Finally, it is placed on an artboard with a title of 'Component: Button'."
     loading="lazy"
     src="{{ '/img/posts/accessibility-annotation-kits-only-annotate/button-annotation.svg' | url }}" />
   <figcaption>
@@ -242,13 +242,15 @@ A tree view has certain assistive technology announcements and behaviors that ar
 1. Required to make it work, and 
 1. Expected by the people who rely on them to use it.
 
-You can’t slap a sticker that reads, “[`role=tree"``](https://w3c.github.io/aria/#tree)`” on a tree view component design and <strong>expect it to be developed properly</strong>. Especially if there is little-to-no precedent for how to successfully build a web version of the tree view component documented online (no, [the APG does not count](https://adrianroselli.com/2023/04/no-apgs-support-charts-are-not-can-i-use-for-aria.html#NotARIA)). 
+You can’t slap a sticker that reads, “[`role=tree"`](https://w3c.github.io/aria/#tree)`” on a tree view component design and <strong>expect it to be developed properly</strong>. Especially if there is little-to-no precedent for how to successfully build a web version of the tree view component documented online (no, [the APG does not count](https://adrianroselli.com/2023/04/no-apgs-support-charts-are-not-can-i-use-for-aria.html#NotARIA)). 
 
 Many considerations for a tree view—and other complicated components—must be made.
 
-<details id="component-considerations">
+<details 
+  id="component-considerations"
+  style="background-color: var(--color-type); cursor: pointer; color: var(--color-type-tint); padding: var(--scale0); border-radius: var(--border-radius-medium);">
   <summary>Component considerations</summary>
-  <ul>
+  <ul style="margin-left: var(--scale3);">
     <li>Appropriate ARIA role and state declarations,</li>
     <li>Concise, descriptive accessible names,</li>
     <li>Assistive technology announcements, </li>
@@ -271,7 +273,7 @@ If you don’t know [these considerations](https://blog.pope.tech/2023/07/06/cre
 - The aforementioned lack of sufficient shared vocabulary situation, and
 - Completely overwhelming the developer with the sheer scope of considerations they need to implement.
 
-[These considerations are](https://cognition.happycog.com/article/accessibility-is-everyones-job) [<strong>everyone’s responsibility</strong>](https://cognition.happycog.com/article/accessibility-is-everyones-job). If a designer and developer are allowed to collaborate in an iterative manner, the overwhelming aspect gets lessened. 
+[These considerations are <strong>everyone’s responsibility</strong>](https://cognition.happycog.com/article/accessibility-is-everyones-job). If a designer and developer are allowed to collaborate in an iterative manner, the overwhelming aspect gets lessened. 
 
 ## Process shapes artifacts, artifacts shape experiences 
 
@@ -322,7 +324,7 @@ Back to annotation kits.
 
 An insufficiently described component is a lot like [the uncanny valley effect](https://en.wikipedia.org/wiki/Uncanny_valley): Something that looks a lot like what is intended to be, but different enough that the experience of interacting with it is off-putting. 
 
-A tree view described by the limited vocabulary present in an accessibility annotation kit will likely only be described, and [developed as](https://iamkate.com/code/tree-views/) [<strong>nested lists that contain buttons</strong>](https://iamkate.com/code/tree-views/). This isn’t wrong per se, but it certainly also isn’t right. 
+A tree view described by the limited vocabulary present in an accessibility annotation kit will likely only be described, and [developed as <strong>nested lists that contain buttons</strong>](https://iamkate.com/code/tree-views/). This isn’t wrong per se, but it certainly also isn’t right. 
 
 Jury-rigging the annotation kit’s labels to address [the large list of considerations](#component-considerations) means a designer will be fighting the very tool that’s supposed to be helping them. That increases the likelihood of mis- or under-describing things.
 
@@ -336,7 +338,7 @@ People who use assistive technology will not have the context of the process in 
 <div class="centered-media-outer">
 <img
   role="img"
-  class="centered-media-inner-4"
+  class="centered-media-inner-3"
   alt="A sticker with a title that reads, 'Hello, my name is:' Underneath the title is the phrase, 'unordered list' and it has been crossed out. Placed underneath it in larger writing is the phrase, 'tree view'. Tree view has not been crossed out."
   loading="lazy"
   src="{{ '/img/posts/accessibility-annotation-kits-only-annotate/hello-my-name-is-tree-view.svg' | url }}">
@@ -358,11 +360,14 @@ Freeform allows a designer to add content not initially included in the kit in a
 
 Examples of where you might need freeform annotation labels are for expressing [less commonly-known ARIA declarations](https://w3c.github.io/aria/#aria-posinset), as well as HTML elements and [attributes](https://www.smashingmagazine.com/2022/03/html-attributes-you-never-use/).
 
+<div class="centered-media-outer">
 <img
   role="img"
+  class="centered-media-inner-3"
   alt="An iOS-style switch component designed and annotated in design tooling. The switch component is shown in an on state, and has four annotation labels applied to it. The first label reads, 'role equals switch;'. The second label reads, 'button element'. The third label reads, 'type equals button'. The fourth label reads, 'aria-checked equals true'. "
   loading="lazy"
   src="{{ '/img/posts/accessibility-annotation-kits-only-annotate/switch-annotation.svg' | url }}">
+</div>
 
 There’s a few pitfalls that we can stumble into here. 
 
@@ -441,7 +446,7 @@ However, consider the opposite: When it is possible to use [a browser native che
 <img
   alt="An unchecked checkbox whose label reads, 'It ain't much, but its honest work.' The checkbox has no styling applied to it, leaving it to be styled by browser default styling."
   loading="lazy"
-  src="{{ '/img/posts/accessibility-annotation-kits-only-annotate/checkbox-honest-work' | url }}">
+  src="{{ '/img/posts/accessibility-annotation-kits-only-annotate/checkbox-honest-work.png' | url }}">
 
 The surface area of additional logic and side-effects you need to consider and code for a platform primitive is drastically lower. Don’t also forget future support and maintenance concerns, and [the inevitable platform rewrite](https://jakelazaroff.com/words/web-components-will-outlive-your-javascript-framework/). 
 
