@@ -248,9 +248,9 @@ Many considerations for a tree view—and other complicated components—must be
 
 <details 
   id="component-considerations"
-  style="background-color: var(--color-type); cursor: pointer; color: var(--color-type-tint); padding: var(--scale0); border-radius: var(--border-radius-medium);">
+  style="background-color: var(--color-colophon); cursor: pointer; color: var(--color-type-tint); font-size: var(--scale1); line-height: var(--line-height-tightest); padding: var(--scale0); border-radius: var(--border-radius-medium);">
   <summary>Component considerations</summary>
-  <ul style="margin-left: var(--scale4); cursor: default;">
+  <ul style="  line-height: var(--line-height-slight); margin-left: var(--scale2); cursor: default;">
     <li>Appropriate ARIA role and state declarations,</li>
     <li>Concise, descriptive accessible names,</li>
     <li>Assistive technology announcements, </li>
