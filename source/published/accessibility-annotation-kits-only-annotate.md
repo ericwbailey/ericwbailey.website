@@ -250,7 +250,7 @@ Many considerations for a tree view—and other complicated components—must be
   id="component-considerations"
   style="background-color: var(--color-type); cursor: pointer; color: var(--color-type-tint); padding: var(--scale0); border-radius: var(--border-radius-medium);">
   <summary>Component considerations</summary>
-  <ul style="margin-left: var(--scale3);">
+  <ul style="margin-left: var(--scale4); cursor: default;">
     <li>Appropriate ARIA role and state declarations,</li>
     <li>Concise, descriptive accessible names,</li>
     <li>Assistive technology announcements, </li>
@@ -363,7 +363,7 @@ Examples of where you might need freeform annotation labels are for expressing [
 <div class="centered-media-outer">
 <img
   role="img"
-  class="centered-media-inner-3"
+  class="centered-media-inner-4"
   alt="An iOS-style switch component designed and annotated in design tooling. The switch component is shown in an on state, and has four annotation labels applied to it. The first label reads, 'role equals switch;'. The second label reads, 'button element'. The third label reads, 'type equals button'. The fourth label reads, 'aria-checked equals true'. "
   loading="lazy"
   src="{{ '/img/posts/accessibility-annotation-kits-only-annotate/switch-annotation.svg' | url }}">
