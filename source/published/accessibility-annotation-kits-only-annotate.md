@@ -76,7 +76,7 @@ Contemporary design applications also cannot programmatically communicate reliab
 
 ### Form
 
-Broadly-speaking, accessibility annotation kits are collections of labels, arrows, sticky notes, and other tools that allow a designer to comment on a static design. 
+Broadly speaking, accessibility annotation kits are collections of labels, arrows, sticky notes, and other tools that allow a designer to comment on a static design. 
 
 These notes are an additional “meta” layer of context that is used to help communicate with the developer tasked with taking the static design and turning it into code. The idea is that they help ensure that accessibility-specific considerations such as [semantic](https://developer.mozilla.org/en-US/docs/Glossary/semantics) buttons, links, and headings are identified.
 
@@ -173,10 +173,10 @@ Because of this gap, a typical developer workflow is to:
 
 Design annotation kits—including accessibility annotation kits—are also <strong>a language with a limited vocabulary</strong>. This is because they’re created to be just enough shorthand commentary that they can better guarantee intended output. 
 
-This limited grammar also implicitly helps to <strong>create the language a designer and developer use to communicate</strong>. This: 
+This limited grammar also implicitly helps to <strong>create the language a designer and developer use to communicate</strong>. This impacts: 
 
-1. Impacts the output of what is produced, which in turn 
-1. Impacts the what a person who uses assistive technology experiences.
+1. The output of what is produced, which in turn 
+1. What a person who uses assistive technology experiences.
 
 When you have a limited grammar to work with, your language can be inadequate to fully describe the totality of something. Don’t believe me? Try using [the xkcd Simple Writer](https://xkcd.com/simplewriter/) or [Toki Pona](https://tokipona.org/) to explain what [ARIA](https://www.w3.org/TR/wai-aria/) is.
 
