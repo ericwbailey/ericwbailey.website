@@ -242,7 +242,7 @@ A tree view has certain assistive technology announcements and behaviors that ar
 1. Required to make it work, and 
 1. Expected by the people who rely on them to use it.
 
-You can’t slap a sticker that reads, “[`role=tree"`](https://w3c.github.io/aria/#tree)`” on a tree view component design and <strong>expect it to be developed properly</strong>. Especially if there is little-to-no precedent for how to successfully build a web version of the tree view component documented online (no, [the APG does not count](https://adrianroselli.com/2023/04/no-apgs-support-charts-are-not-can-i-use-for-aria.html#NotARIA)). 
+You can’t slap a sticker that reads, “[`role=tree"`](https://w3c.github.io/aria/#tree)” on a tree view component design and <strong>expect it to be developed properly</strong>. Especially if there is little-to-no precedent for how to successfully build a web version of the tree view component documented online (no, [the APG does not count](https://adrianroselli.com/2023/04/no-apgs-support-charts-are-not-can-i-use-for-aria.html#NotARIA)). 
 
 Many considerations for a tree view—and other complicated components—must be made.
 
@@ -381,7 +381,7 @@ Second is that declaring ARIA does not confer interactivity—it only suggests t
 
 I run into this one more than I wish I did. Declaring `role="button"` on a `div` does not make the `div` magically do buttony things, even if you think it should. It only sends the instruction that assistive technology should consider announcing the `div` the way it would a button, and as a technology it is [working exactly as expected in this way](https://alistapart.com/article/semantics-to-screen-readers/).
 
-Third is the sorry, inescapable fact that [ARIA’s support is varied](https://www.a11yproject.com/posts/aria-has-perfect-support/). 
+Third is the sorry, inescapable fact that [ARIA’s support is variable](https://www.a11yproject.com/posts/aria-has-perfect-support/). 
 
 The combination of assistive technology, its version, the browser it is being used with and its version, and the Operating System both are being run on and its version can all affect if the declaration will function as intended or not.
 
