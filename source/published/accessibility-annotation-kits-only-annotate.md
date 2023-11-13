@@ -465,7 +465,7 @@ The current state of designer and developer tooling subconsciously reflects the 
 
 This setup means there’s less of a chance of an insufficient or missing interpretation occurring, and therefore access issues being created. 
 
-We’re starting to see movement on this with features like more common acceptance and usage of [design tokens](https://www.w3.org/community/design-tokens/). I consider this—an application agnostic declaration of programmatic intent—a tiny glimpse of what could be.
+We’re starting to see movement on this with features like more common acceptance and usage of [design tokens](https://www.w3.org/community/design-tokens/). I consider this—an application-agnostic declaration of programmatic intent—a tiny glimpse of what could be.
 
 ### Create more collaborative workflows between design and development
 
