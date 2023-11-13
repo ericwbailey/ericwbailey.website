@@ -242,7 +242,7 @@ A tree view has certain assistive technology announcements and behaviors that ar
 1. Required to make it work, and 
 1. Expected by the people who rely on them to use it.
 
-You can’t slap a sticker that reads, “[`role=tree"`](https://w3c.github.io/aria/#tree)” on a tree view component design and <strong>expect it to be developed properly</strong>. Especially if there is little-to-no precedent for how to successfully build a web version of the tree view component documented online (no, [the APG does not count](https://adrianroselli.com/2023/04/no-apgs-support-charts-are-not-can-i-use-for-aria.html#NotARIA)). 
+You can’t slap a sticker that reads, “[`role="tree"`](https://w3c.github.io/aria/#tree)” on a tree view component design and <strong>expect it to be developed properly</strong>. Especially if there is little-to-no precedent for how to successfully build a web version of the tree view component documented online (no, [the APG does not count](https://adrianroselli.com/2023/04/no-apgs-support-charts-are-not-can-i-use-for-aria.html#NotARIA)). 
 
 Many considerations for a tree view—and other complicated components—must be made.
 
