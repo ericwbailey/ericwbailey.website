@@ -356,7 +356,7 @@ And, to say it directly: This applies to tree views, but it also applies to <str
 
 Complicated interaction requirements compel the need for accessibility annotation kits to have have freeform labels. 
 
-Freeform allows a designer to add content not initially included in the kit in a way that is visually understood to be part of the annotation system. This visual reinforcement of the annotation system helps to communicate that it’s part of what the person reviewing the annotations needs to consider.
+Freeform annotation allows a designer to add content not initially included in the kit in a way that is visually understood to be part of the annotation system. This visual reinforcement of the annotation system helps to communicate that it’s part of what the person reviewing the annotations needs to consider.
 
 Examples of where you might need freeform annotation labels are for expressing [less commonly-known ARIA declarations](https://w3c.github.io/aria/#aria-posinset), as well as HTML elements and [attributes](https://www.smashingmagazine.com/2022/03/html-attributes-you-never-use/).
 
