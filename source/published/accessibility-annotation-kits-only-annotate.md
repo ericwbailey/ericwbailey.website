@@ -37,6 +37,9 @@ furtherReading:
   - title: "Using accessibility literacy to counter accessibility ignorance"
     source: "Devon Persing"
     url: https://devonpersing.netlify.app/posts/using-accessibility-literacy-to-counter-accessibility-ignorance/
+  - title: "Accessibility training can sometimes harm accessibility"
+    source: "Bogdan Cerovac on Digital Accessibility"
+    url: https://cerovac.com/a11y/2023/11/accessibility-training-can-sometimes-harm-accessibility/
   - title: "The Gulf Between Design and Engineering"
     source: "Design Systems International"
     url: https://designsystems.international/ideas/the-gulf-between-design-and-engineering/
