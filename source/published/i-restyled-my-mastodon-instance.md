@@ -32,7 +32,7 @@ Because of this, I’ve found [a new worry stone](https://ethanmarcotte.com/wrot
 This is how my Mastodon instance used to look:
 
 <img
-  style="background-color: #e2e5ea; padding: 1rem;"
+  style="background-color: #e5e5e5; padding: 1rem;"
   alt="Two screenshots showing the Mastodon UI for a logged-in account. The larger screenshot shows the experience for a wide screen. The narrower screen shows the experience for a narrow screen, and slightly overlaps the wider screenshot. The different columns of content are heavily visually reinforced with dark borders and alternating background colors. Different text inputs have different background colors. Icons are the same color as text, and avatars have square treatments. There are three Mastodon posts present in the wider screen image, one by Apple Annie, one by selfcare.tech, as boosted by hecks, and one by Mayank. Apple Annie's shares a link to their blog about diving into microformats. selfcare.tech's  reads, 'Change can be hard. Taking care of yourself is change that's worth the work.' Mayank's reads, 'lh/rlh  now in all three browsers 👀'. Only two of the posts fit in the narrow screen treatment due to a large header containing the Mastodon logo, a search button, and  a new post button."
   loading="lazy"
   src="{{ '/img/posts/i-restyled-my-mastodon-instance/mastodon-old.png' | url }}" />
@@ -40,7 +40,7 @@ This is how my Mastodon instance used to look:
 And this is how it now looks:
 
 <img
-  style="background-color: #e2e5ea; padding: 1rem;"
+  style="background-color: #e5e5e5; padding: 1rem;"
   alt="Two screenshots showing the Mastodon UI for a logged-in account. The larger screenshot shows the experience for a wide screen. The narrower screen shows the experience for a narrow screen, and slightly overlaps the wider screenshot. The different columns of content are less visually distinct because of light borders and the same background color for every column, leaving the site content itself to imply structure. Different text inputs now all use the same background color, which is the same as the column background color. Icons are now a lighter color than the text, and avatars have circle treatments. There are three Mastodon posts present in the wider screen image, one by Apple Annie, one by selfcare.tech, as boosted by hecks, and one by Mayank. Apple Annie's shares a link to their blog about diving into microformats. selfcare.tech's  reads, 'Change can be hard. Taking care of yourself is change that's worth the work.' Mayank's reads, 'lh/rlh  now in all three browsers 👀'. All three of the posts now fit in the narrow screen treatment due to a the large header being removed and the new post button being moved to the bottom right corner of the UI."
   loading="lazy"
   src="{{ '/img/posts/i-restyled-my-mastodon-instance/mastodon-new.png' | url }}" />
@@ -66,7 +66,7 @@ I’m sure I could dig through Mastodon’s source code, chase down [the higher-
 
 Specifically, [`:is()`](https://developer.mozilla.org/en-US/docs/Web/CSS/:is)' ability to lump selectors together and affect their specificity does a lot of the heavy lifting. Namespaced, human-friendly [Custom Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties) also help a lot, in that values now make a lot more sense when scaffolded across all these different co-opted selectors.
 
-I’m sure I could also do some fancy things with [Cascade Layers](https://developer.mozilla.org/en-US/docs/Web/CSS/@layer), [CSS nesting](https://ishadeed.com/article/css-nesting/), and maybe eventually `[@scope](https://keithjgrant.com/posts/2023/04/scoped-css-is-back/)`. But that’s a not-right-now-problem.
+I’m sure I could also do some fancy things with [Cascade Layers](https://developer.mozilla.org/en-US/docs/Web/CSS/@layer), [CSS nesting](https://ishadeed.com/article/css-nesting/), and maybe eventually [`@scope`](https://keithjgrant.com/posts/2023/04/scoped-css-is-back/). But that is a not-right-now-problem.
 
 ### Archeology
 
@@ -120,7 +120,7 @@ I’ve made specific tweaks to Mastodon’s UI to reflect my own particular need
 
 I’ve also made some other adjustments to help how my brain likes to process this kind of visual information. 
 
-One tweak is to [set a maximum width for post content and](https://gist.github.com/ericwbailey/dab7fa46fc03beaa011abc5864a49ddc#file-mastodon-css-L701) a more legible (to me) line height. Another is to visually de-emphasize secondary content such as [timestamps](https://gist.github.com/ericwbailey/dab7fa46fc03beaa011abc5864a49ddc#file-mastodon-css-L601) and [the hashtag bar]https://gist.github.com/ericwbailey/dab7fa46fc03beaa011abc5864a49ddc#file-mastodon-css-L712) so as to call better attention to post content. 
+One tweak is to [set a maximum width for post content and](https://gist.github.com/ericwbailey/dab7fa46fc03beaa011abc5864a49ddc#file-mastodon-css-L701) a more legible (to me) line height. Another is to visually de-emphasize secondary content such as [timestamps](https://gist.github.com/ericwbailey/dab7fa46fc03beaa011abc5864a49ddc#file-mastodon-css-L601) and [the hashtag bar](https://gist.github.com/ericwbailey/dab7fa46fc03beaa011abc5864a49ddc#file-mastodon-css-L712) so as to call better attention to post content. 
 
 I also made more sweeping layout adjustments that work in conjunction with these smaller modifications to create what I consider a more minimal and harmonious overall experience that aids in my reading and comprehension.
 
