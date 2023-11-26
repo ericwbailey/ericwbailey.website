@@ -32,7 +32,7 @@ Because of this, I’ve found [a new worry stone](https://ethanmarcotte.com/wrot
 This is how my Mastodon instance used to look:
 
 <img
-  style="background-color: #e5e5e5; padding: 1rem;"
+  style="background-color: #f9fafb; padding: 1rem;"
   alt="Two screenshots showing the Mastodon UI for a logged-in account. The larger screenshot shows the experience for a wide screen. The narrower screen shows the experience for a narrow screen, and slightly overlaps the wider screenshot. The different columns of content are heavily visually reinforced with dark borders and alternating background colors. Different text inputs have different background colors. Icons are the same color as text, and avatars have square treatments. There are three Mastodon posts present in the wider screen image, one by Apple Annie, one by selfcare.tech, as boosted by hecks, and one by Mayank. Apple Annie's shares a link to their blog about diving into microformats. selfcare.tech's  reads, 'Change can be hard. Taking care of yourself is change that's worth the work.' Mayank's reads, 'lh/rlh  now in all three browsers 👀'. Only two of the posts fit in the narrow screen treatment due to a large header containing the Mastodon logo, a search button, and  a new post button."
   loading="lazy"
   src="{{ '/img/posts/i-restyled-my-mastodon-instance/mastodon-old.png' | url }}" />
@@ -40,7 +40,7 @@ This is how my Mastodon instance used to look:
 And this is how it now looks:
 
 <img
-  style="background-color: #e5e5e5; padding: 1rem;"
+  style="background-color: #f9fafb; padding: 1rem;"
   alt="Two screenshots showing the Mastodon UI for a logged-in account. The larger screenshot shows the experience for a wide screen. The narrower screen shows the experience for a narrow screen, and slightly overlaps the wider screenshot. The different columns of content are less visually distinct because of light borders and the same background color for every column, leaving the site content itself to imply structure. Different text inputs now all use the same background color, which is the same as the column background color. Icons are now a lighter color than the text, and avatars have circle treatments. There are three Mastodon posts present in the wider screen image, one by Apple Annie, one by selfcare.tech, as boosted by hecks, and one by Mayank. Apple Annie's shares a link to their blog about diving into microformats. selfcare.tech's  reads, 'Change can be hard. Taking care of yourself is change that's worth the work.' Mayank's reads, 'lh/rlh  now in all three browsers 👀'. All three of the posts now fit in the narrow screen treatment due to a the large header being removed and the new post button being moved to the bottom right corner of the UI."
   loading="lazy"
   src="{{ '/img/posts/i-restyled-my-mastodon-instance/mastodon-new.png' | url }}" />
