@@ -10,8 +10,11 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.53 - 2023-11-27
+- Add [I restyled my Mastodon instance](https://ericwbailey.website/published/i-restyled-my-mastodon-instance/)
+
 ## v1.5.52 - 2023-11-13
-- Add [Accessibility annotation kits only annotate](accessibility-annotation-kits-only-annotate/)
+- Add [Accessibility annotation kits only annotate](https://ericwbailey.website/published/accessibility-annotation-kits-only-annotate/)
 
 ## v1.5.51 - 2023-11-08
 - Add [Websites, politics, and preferences](https://ericwbailey.website/published/websites-politics-and-preferences/)
