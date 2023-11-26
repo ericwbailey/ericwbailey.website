@@ -11,8 +11,8 @@ tags:
   - development
   - social media
 share:
-  facebookDescription: ""
-  twitterDescription: ""
+  facebookDescription: "The Mastodon logo being used as a CSS selector, followed by an opening and closing curly braces."
+  twitterDescription: "The Mastodon logo enclosing the opening and closing curly braces used for writign CSS."
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}
