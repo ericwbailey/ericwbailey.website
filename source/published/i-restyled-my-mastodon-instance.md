@@ -21,8 +21,8 @@ eleventyNavigation:
 
 More than one thing can be true at the same time. For this post, it’s that:
 
-1. I’m still technically a designer,
-1. Have recently felt a lack of control in many of aspects of my life and that
+1. Have recently felt a lack of control in many of aspects of my life,
+1. I’m still technically a designer, and that
 1. I like CSS a lot.
 
 Because of this, I’ve found [a new worry stone](https://ethanmarcotte.com/wrote/let-a-website-be-a-worry-stone/): my [Mastodon instance](https://social.ericwbailey.website/explore). 
@@ -32,7 +32,7 @@ Because of this, I’ve found [a new worry stone](https://ethanmarcotte.com/wrot
 This is how my Mastodon instance used to look:
 
 <img
-  style="background-color: #f9fafb; padding: 1rem;"
+  style="background-color: #f9fafb; padding: 0.75rem;"
   alt="Two screenshots showing the Mastodon UI for a logged-in account. The larger screenshot shows the experience for a wide screen. The narrower screen shows the experience for a narrow screen, and slightly overlaps the wider screenshot. The different columns of content are heavily visually reinforced with dark borders and alternating background colors. Different text inputs have different background colors. Icons are the same color as text, and avatars have square treatments. There are three Mastodon posts present in the wider screen image, one by Apple Annie, one by selfcare.tech, as boosted by hecks, and one by Mayank. Apple Annie's shares a link to their blog about diving into microformats. selfcare.tech's  reads, 'Change can be hard. Taking care of yourself is change that's worth the work.' Mayank's reads, 'lh/rlh  now in all three browsers 👀'. Only two of the posts fit in the narrow screen treatment due to a large header containing the Mastodon logo, a search button, and  a new post button."
   loading="lazy"
   src="{{ '/img/posts/i-restyled-my-mastodon-instance/mastodon-old.png' | url }}" />
@@ -40,7 +40,7 @@ This is how my Mastodon instance used to look:
 And this is how it now looks:
 
 <img
-  style="background-color: #f9fafb; padding: 1rem;"
+  style="background-color: #f9fafb; padding: 0.75rem;"
   alt="Two screenshots showing the Mastodon UI for a logged-in account. The larger screenshot shows the experience for a wide screen. The narrower screen shows the experience for a narrow screen, and slightly overlaps the wider screenshot. The different columns of content are less visually distinct because of light borders and the same background color for every column, leaving the site content itself to imply structure. Different text inputs now all use the same background color, which is the same as the column background color. Icons are now a lighter color than the text, and avatars have circle treatments. There are three Mastodon posts present in the wider screen image, one by Apple Annie, one by selfcare.tech, as boosted by hecks, and one by Mayank. Apple Annie's shares a link to their blog about diving into microformats. selfcare.tech's  reads, 'Change can be hard. Taking care of yourself is change that's worth the work.' Mayank's reads, 'lh/rlh  now in all three browsers 👀'. All three of the posts now fit in the narrow screen treatment due to a the large header being removed and the new post button being moved to the bottom right corner of the UI."
   loading="lazy"
   src="{{ '/img/posts/i-restyled-my-mastodon-instance/mastodon-new.png' | url }}" />
@@ -94,7 +94,7 @@ To get around this, I wound up having to use [a brightness filter](https://gist.
 
 This approach is a little hacky. It is also a great example of **CSS’ versatility and ability to work with other technology’s constraints** when wielded by an experienced practitioner. 
 
-Another fun thing I do is conditionally making the post button into [a floating action button on smaller screens](https://gist.github.com/ericwbailey/dab7fa46fc03beaa011abc5864a49ddc#file-mastodon-css-L325), and then [injecting an icon into it](https://gist.github.com/ericwbailey/dab7fa46fc03beaa011abc5864a49ddc#file-mastodon-css-L318):
+Another fun thing I do is conditionally making the post button into [a floating action button on smaller screens](https://gist.github.com/ericwbailey/dab7fa46fc03beaa011abc5864a49ddc#file-mastodon-css-L325), and then [inject an icon into it](https://gist.github.com/ericwbailey/dab7fa46fc03beaa011abc5864a49ddc#file-mastodon-css-L318):
 
 <img
   alt="A small purple circle with a pen and paper icon in its center floating over a Mastodon post. The post is by Dwarf Fortress Bugs, posted one day ago. The post's body reads, '0011661: Necromancer marries zombie.'Cropped screenshot."
@@ -103,7 +103,7 @@ Another fun thing I do is conditionally making the post button into [a floating 
 
 ## Let’s talk about choice
 
-Mastodon chose a human-friendly, [BEM](https://getbem.com/introduction/)-style approach for its class names. They also chose to allow instance owners to be able to inject their own styling. 
+Mastodon chose a human-friendly, [BEM](https://getbem.com/introduction/)-style approach for its class names. They also chose to allow instance owners to be able to provide their own styling. 
 
 These choices mean that I, as a consumer of their technology, can make modifications to their UI. It also means I can make these modifications with a relatively high degree of confidence.
 
@@ -119,9 +119,11 @@ Compare this to services like Twitter, Bluesky, and Threads. The robot-friendly 
 <span class="css-1qaijid r-bcqeeo r-qvutc0 r-poiln3" style="text-overflow: unset;">…</span>
 ```
 
-My options are a lot more limited as a consumer of these other technologies. Because of the choices these platforms made, I typically need to find an errant, more stable attribute declaration in the code instead and hope that it provides enough of a surface area to modify what I need to (`aria-label` declarations are helpful here). 
+My options are a lot more limited as a consumer of these other technologies. 
 
-[`has()`](https://developer.mozilla.org/en-US/docs/Web/CSS/:has) may also help out a lot when working upwards and outwards from an attribute selector, as well. Given this potential capability, I am honestly surprised it was greenlit as a standard in our current [anticompetitive](https://www.404media.co/youtube-says-new-5-second-video-load-delay-is-supposed-to-punish-ad-blockers-not-firefox-users/), [user-hostile](https://arstechnica.com/gadgets/2023/11/google-chrome-will-limit-ad-blockers-starting-june-2024/) environment.
+Because of the choices these platforms made, I typically need to find an errant, more stable attribute declaration in the code instead. Then, the hope is that it provides enough of a surface area to modify what I need to (`aria-label` declarations are helpful here). 
+
+[`has()`](https://developer.mozilla.org/en-US/docs/Web/CSS/:has) may also help out a lot when working upwards and outwards from an attribute selector, as well. Given its potential capability, I am honestly surprised it was greenlit as a standard in our current [anticompetitive](https://www.404media.co/youtube-says-new-5-second-video-load-delay-is-supposed-to-punish-ad-blockers-not-firefox-users/), [user-hostile](https://arstechnica.com/gadgets/2023/11/google-chrome-will-limit-ad-blockers-starting-june-2024/) environment.
 
 ### More than a coat of paint
 
@@ -147,10 +149,10 @@ Other people might be into doing this sort of thing, and that’s totally fine! 
 
 ## What if I don’t run my own instance?
 
-You can dump [the code I wrote](https://gist.github.com/ericwbailey/dab7fa46fc03beaa011abc5864a49ddc) into Stylus, scope it to your instance’s URL, and then let it work its magic.
+You can install [Stylus](https://add0n.com/stylus.html), dump [the code I wrote](https://gist.github.com/ericwbailey/dab7fa46fc03beaa011abc5864a49ddc), scope the style block to your instance’s URL, and then let the browser extension work its magic.
 
 <img
-  alt="Stylus' add style interface. A block of code shows a truncated list of CSS custom properties scoped to the root selector. After the code block is a select set to URLs on the domain, followed by an input that has been set to mastodon dot social. Cropped screenshot."
+  alt="Stylus' Add Style interface. A block of code shows a truncated list of CSS custom properties scoped to the root selector. After the code block is a select set to URLs on the domain, followed by an input that has been set to mastodon dot social. Cropped screenshot."
   loading="lazy"
   src="{{ '/img/posts/i-restyled-my-mastodon-instance/stylus.png' | url }}" />
 
