@@ -21,9 +21,9 @@ eleventyNavigation:
 
 More than one thing can be true at the same time. For this post, it’s that:
 
-1. I guess I’m still technically a designer,
-1. I like CSS a lot, and 
-1. Have also recently felt a lack of control in many of aspects of my life. 
+1. I’m still technically a designer,
+1. Have recently felt a lack of control in many of aspects of my life and that
+1. I like CSS a lot.
 
 Because of this, I’ve found [a new worry stone](https://ethanmarcotte.com/wrote/let-a-website-be-a-worry-stone/): my [Mastodon instance](https://social.ericwbailey.website/explore). 
 
@@ -47,7 +47,7 @@ And this is how it now looks:
 
 I used to use a [Stylus browser extension](https://add0n.com/stylus.html) to tweak the visuals of my Mastodon experience. For some unknown reason it stopped working. In going to fix it, I figured I could instead: 
 
-1. Use a feature of the platform,
+1. Use an existing, baked-in instance feature,
 1. Make the styling automatically work on any device that I log into, and also 
 1. Turn what I see into what others can see. 
 
@@ -90,10 +90,9 @@ There’s also some interesting, slightly dated front-of-the frontend technical 
   </figcaption>
 </figure>
 
-
 To get around this, I wound up having to use [a brightness filter](https://gist.github.com/ericwbailey/dab7fa46fc03beaa011abc5864a49ddc#file-mastodon-css-L584) to ensure every icon—regardless of the technique used to generate it—gets the same visual treatment. 
 
-This approach is a little hacky. It is a great example of **CSS’ versatility and ability to work with other technology’s constraints** when wielded by an experienced practitioner. 
+This approach is a little hacky. It is also a great example of **CSS’ versatility and ability to work with other technology’s constraints** when wielded by an experienced practitioner. 
 
 Another fun thing I do is conditionally making the post button into [a floating action button on smaller screens](https://gist.github.com/ericwbailey/dab7fa46fc03beaa011abc5864a49ddc#file-mastodon-css-L325), and then [injecting an icon into it](https://gist.github.com/ericwbailey/dab7fa46fc03beaa011abc5864a49ddc#file-mastodon-css-L318):
 
@@ -108,7 +107,17 @@ Mastodon chose a human-friendly, [BEM](https://getbem.com/introduction/)-style a
 
 These choices mean that I, as a consumer of their technology, can make modifications to their UI. It also means I can make these modifications with a relatively high degree of confidence.
 
+```html
+<!-- I'm pretty sure this class controls the account display name's appearance -->
+<span class="display-name__account">…</span>
+```
+
 Compare this to services like Twitter, Bluesky, and Threads. The robot-friendly class names these services use prioritize code optimization. 
+
+```html
+<!-- Uhhh -->
+<span class="css-1qaijid r-bcqeeo r-qvutc0 r-poiln3" style="text-overflow: unset;">…</span>
+```
 
 My options are a lot more limited as a consumer of these other technologies. Because of the choices these platforms made, I typically need to find an errant, more stable attribute declaration in the code instead and hope that it provides enough of a surface area to modify what I need to (`aria-label` declarations are helpful here). 
 
@@ -120,9 +129,9 @@ I’ve made specific tweaks to Mastodon’s UI to reflect my own particular need
 
 I’ve also made some other adjustments to help how my brain likes to process this kind of visual information. 
 
-One tweak is to [set a maximum width for post content and](https://gist.github.com/ericwbailey/dab7fa46fc03beaa011abc5864a49ddc#file-mastodon-css-L701) a more legible (to me) line height. Another is to visually de-emphasize secondary content such as [timestamps](https://gist.github.com/ericwbailey/dab7fa46fc03beaa011abc5864a49ddc#file-mastodon-css-L601) and [the hashtag bar](https://gist.github.com/ericwbailey/dab7fa46fc03beaa011abc5864a49ddc#file-mastodon-css-L712) so as to call better attention to post content. 
+One tweak is to [set a maximum width for post content and](https://gist.github.com/ericwbailey/dab7fa46fc03beaa011abc5864a49ddc#file-mastodon-css-L701) a more legible (to me) line height. Another is to visually de-emphasize secondary content such as [timestamps](https://gist.github.com/ericwbailey/dab7fa46fc03beaa011abc5864a49ddc#file-mastodon-css-L601) and [the hashtag bar](https://gist.github.com/ericwbailey/dab7fa46fc03beaa011abc5864a49ddc#file-mastodon-css-L712) so as to call better attention to actual post content. 
 
-I also made more sweeping layout adjustments that work in conjunction with these smaller modifications to create what I consider a more minimal and harmonious overall experience that aids in my reading and comprehension.
+I also made more sweeping layout adjustments that work in conjunction with these smaller modifications. This creates what I consider a more minimal and harmonious overall experience, one that aids in my reading and comprehension.
 
 In this way, [my CSS is an interface](https://ericwbailey.website/published/your-css-is-an-interface/). 
 
