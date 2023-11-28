@@ -149,7 +149,7 @@ Other people might be into doing this sort of thing, and that’s totally fine! 
 
 ## What if I don’t run my own instance?
 
-You can install [Stylus](https://add0n.com/stylus.html), dump [the code I wrote](https://gist.github.com/ericwbailey/dab7fa46fc03beaa011abc5864a49ddc), scope the style block to your instance’s URL, and then let the browser extension work its magic.
+You can install [Stylus](https://add0n.com/stylus.html), dump [the code I wrote into it](https://gist.github.com/ericwbailey/dab7fa46fc03beaa011abc5864a49ddc), scope the style block to your instance’s URL, and then let the browser extension work its magic.
 
 <img
   alt="Stylus' Add Style interface. A block of code shows a truncated list of CSS custom properties scoped to the root selector. After the code block is a select set to URLs on the domain, followed by an input that has been set to mastodon dot social. Cropped screenshot."
