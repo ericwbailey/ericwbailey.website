@@ -106,7 +106,6 @@ Annotation kits work really well in [situations where you need to describe relat
 
 Here, the use case is simple and straightforward: Applying a “button” sticker to a rectangle with rounded corners and a terse verb placed inside of it sends a strong signal to the developer that a `button` element should be utilized.
 
-
 <figure
   role="figure"
   aria-label="Yup, that’s a button.">
@@ -154,6 +153,7 @@ The presence of accessibility annotation kits also does a number of other good t
 
 Here are some accessibility annotation kits I enjoy, if you would like to explore further:
 
+- Daniel Henderson-Ede, Jan Maarten, and Kevin Oliveira's [Web Accessibility Annotation Kit](https://www.figma.com/community/file/1311421011482282592/web-accessibility-annotation-kit),
 - Stephanie Walter’s [Web Accessibility for Designers: checklist & documentation kit](https://shop.stephaniewalter.design/b/accessibility-interactions-designer-checklist-annotation-kit),
 - GitLab’s [Accessibility bluelines](https://www.figma.com/community/file/779827094223635810/accessibility-bluelines), and
 - Stephanie Hagadorn’s [A11y Annotation Kit](https://www.figma.com/community/file/953682768192596304).
