@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.54 - 2024-01-03
+- Add [Oh shit banners](https://ericwbailey.website/published/oh-shit-banners/)
+
 ## v1.5.53 - 2023-11-27
 - Add [I restyled my Mastodon instance](https://ericwbailey.website/published/i-restyled-my-mastodon-instance/)
 
