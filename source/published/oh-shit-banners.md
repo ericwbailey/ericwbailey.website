@@ -13,8 +13,8 @@ tags:
   - Information Architecture
 attribution: "Thank you to <a href='https://mikeperrotti.com/'>Mike Perrotti</a> for his feedback."
 share:
-  facebookDescription: "The phrase, 'Oh shit banners' placed on a dark background banner."
-  twitterDescription: "The phrase, 'Oh shit banners' placed on a dark background banner."
+  facebookDescription: "The phrase, 'Oh shit banners' placed on a dark background banner that sits above the smallest sliver of a lighter blue background."
+  twitterDescription: "The phrase, 'Oh shit banners' placed on a dark background banner that sits above the smallest sliver of a lighter blue background."
 tweetThread:
   - url: https://twitter.com/ericwbailey/status/1252659578367598597
     date: "April 21, 2020"
