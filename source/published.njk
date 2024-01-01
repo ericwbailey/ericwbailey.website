@@ -10,11 +10,22 @@ eleventyNavigation:
 
 <p>A <a href="{{ '/feed/feed.xml' | url}}">RSS feed</a> and <a href="{{ '/tags/' | url }}">list of tags</a> are also available.</p>
 
+<h2 id="2024" class="heading-beta">
+  <time datetime="2024">2024</time>
+</h2>
+
+<ol start="{{ counts.posts.total }}" reversed class="c-link-list">
+  <li class="c-link-list__item">
+    <a href="{{ '/published/oh-shit-banners/' | url }}" class="c-link-list__link" rel="author" id="oh-shit-banners">Oh shit banners</a>
+    <small style="display: block;" class="c-link-list__description">ericwbailey.website</small>
+  </li>
+</ol>
+
 <h2 id="2023" class="heading-beta">
   <time datetime="2023">2023</time>
 </h2>
 
-<ol start="{{ counts.posts.total }}" reversed class="c-link-list">
+<ol start="133" reversed class="c-link-list">
   <li class="c-link-list__item">
     <a href="{{ '/published/i-restyled-my-mastodon-instance/' | url }}" class="c-link-list__link" rel="author" id="i-restyled-my-mastodon-instance">I restyled my Mastodon instance</a>
     <small style="display: block;" class="c-link-list__description">ericwbailey.website</small>
