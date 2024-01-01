@@ -6,10 +6,10 @@ excerpt: "I am able to extensively modify my instance’s UI to suit my specific
 date: 2023-11-27
 year: 2023
 tags:
-  - css
-  - design
-  - development
-  - social media
+  - CSS
+  - Design
+  - Development
+  - Social Media
 share:
   facebookDescription: "The Mastodon logo being used as a CSS selector, followed by an opening and closing curly braces."
   twitterDescription: "The Mastodon logo enclosing the opening and closing curly braces used for writign CSS."
