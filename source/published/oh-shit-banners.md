@@ -36,10 +36,10 @@ Generally speaking, the most important thing on a page is close to the start of 
 
 Again, think the front page of a physical newspaper:
 
-  <img
-    alt="The top quarter of the front page of the Boston Globe print newspaper published on Tuesday, January 2nd, 2024. There are two headlines visible. The leftmost headline reads, 'A Biden campaign quip, with a Boston twist'. The right headline reads, 'Israel set to widthdraw some forces'. The leftmost headline takes up three quarters of the width of the nespaper, while the rightmost headline takes up one quarter of its width. Below the leftmost headline are two small photos, one of President Joe Biden and the other of Mayor Kevin H. White."
-    loading="lazy"
-    src="{{ '/img/posts/oh-shit-banners/boston-globe.png' | url }}" />
+<img
+  alt="The top quarter of the front page of the Boston Globe print newspaper published on Tuesday, January 2nd, 2024. There are two headlines visible. The leftmost headline reads, 'A Biden campaign quip, with a Boston twist'. The right headline reads, 'Israel set to widthdraw some forces'. The leftmost headline takes up three quarters of the width of the nespaper, while the rightmost headline takes up one quarter of its width. Below the leftmost headline are two small photos, one of President Joe Biden and the other of Mayor Kevin H. White."
+  loading="lazy"
+  src="{{ '/img/posts/oh-shit-banners/boston-globe.png' | url }}" />
 
 This is a massive oversimplification of the topic, but also good for steering the main point of this post.
 
@@ -202,7 +202,7 @@ This is the most viable of the three scenarios, in that we already have evidence
     loading="lazy"
     src="{{ '/img/posts/oh-shit-banners/cairo.png' | url }}" />
   <figcaption>
-    <span class="typography-small-caps">Source:</span> <a href="http://www.cairo.gov.eg/">Cairo.</a>.
+    <span class="typography-small-caps">Source:</span> <a href="http://www.cairo.gov.eg/">Cairo</a>.
   </figcaption>
 </figure>
 
@@ -263,13 +263,17 @@ Companies are not incentivized to communicate the level of seriousness these two
 
 For example, [Amazon’s web storage service suffered a highly public outage in 2017](https://www.vox.com/2017/3/2/14792636/amazon-aws-internet-outage-cause-human-error-incorrect-command). Here is the icon they used to represent the status of this event:
 
-<div class="centered-media-outer">
-<img
-  alt="A tiny icon of a green checkmark with an even smaller square with an italicized lowercase letter i placed over it. The icon is blurry, as if it started out as a non-compressed image and then was overly-compressed by saving it as the wrong file format."
-  style="place-self: center;"
-  loading="lazy"
-  src="{{ '/img/posts/oh-shit-banners/aws-outage-checkmark.png' | url }}" />
-</div>
+<figure
+  role="figure"
+  aria-label="Yup, that's it.">
+  <img
+    alt="A tiny icon of a green checkmark with an even smaller square with an italicized lowercase letter i placed over it. The icon is blurry, as if it started out as a non-compressed image and then was overly-compressed by saving it as the wrong file format."
+    loading="lazy"
+    src="{{ '/img/posts/oh-shit-banners/aws-outage-checkmark.png' | url }}" />
+  <figcaption>
+    Yup, that's it.
+  </figcaption>
+</figure>
 
 Recalling the previous private industry examples, this repurposed treatment makes sense in that the people who display this UI likely:
 
@@ -307,11 +311,11 @@ You may also want to consider instituting privileged access for using a pattern 
 
 I haven’t encountered password or team-based access on design systems before. Think of it like [the two keys](https://en.wikipedia.org/wiki/Two-person_rule) it requires to launch powerful missiles.
 
-  <img
-    role="img"
-    alt="A wireframe illustration suggesting a design system documentation page. A modal window floats above it, containing a password entry form field."
-    loading="lazy"
-    src="{{ '/img/posts/oh-shit-banners/password-protected-component.svg' | url }}" />
+<img
+  role="img"
+  alt="A wireframe illustration suggesting a design system documentation page. A modal window floats above it, containing a password entry form field."
+  loading="lazy"
+  src="{{ '/img/posts/oh-shit-banners/password-protected-component.svg' | url }}" />
 
 It is not a perfect solution, in that people will inevitably copy/paste things if they can’t quickly access them. However, the paper trail and [intentional friction](https://modus.medium.com/friction-as-a-function-in-user-experience-make-me-think-390ee17c6cf5) could be enough of a deterrent effect that this approach may be worth considering.
 
