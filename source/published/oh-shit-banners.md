@@ -36,7 +36,10 @@ Generally speaking, the most important thing on a page is close to the start of 
 
 Again, think the front page of a physical newspaper:
 
-IMG
+  <img
+    alt="The top quarter of the front page of the Boston Globe print newspaper published on Tuesday, January 2nd, 2024. There are two headlines visible. The leftmost headline reads, 'A Biden campaign quip, with a Boston twist'. The right headline reads, 'Israel set to widthdraw some forces'. The leftmost headline takes up three quarters of the width of the nespaper, while the rightmost headline takes up one quarter of its width. Below the leftmost headline are two small photos, one of President Joe Biden and the other of Mayor Kevin H. White."
+    loading="lazy"
+    src="{{ '/img/posts/oh-shit-banners/boston-globe.png' | url }}" />
 
 This is a massive oversimplification of the topic, but also good for steering the main point of this post.
 
