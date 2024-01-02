@@ -164,7 +164,7 @@ It is not the most inclusive term, but attempting to misuse the oh shit banner f
   <img
     alt="The Kotaku homepage. A large circular modal takes over the entire homepage, obscuring it. There is a newsletter signup prompt contained in the modal, and a faint close button located outside the modal's boundary."
     loading="lazy"
-    src="{{ '/img/posts/oh-shit-banners/IMG.png' | url }}" />
+    src="{{ '/img/posts/oh-shit-banners/kotaku.png' | url }}" />
   <figcaption>
     I’ve been conditioned to reflexively close things like this before even consciously attempting to read them.
   </figcaption>
@@ -266,7 +266,7 @@ For example, [Amazon’s web storage service suffered a highly public outage in 
 <div class="centered-media-outer">
 <img
   alt="A tiny icon of a green checkmark with an even smaller square with an italicized lowercase letter i placed over it. The icon is blurry, as if it started out as a non-compressed image and then was overly-compressed by saving it as the wrong file format."
-  class="centered-media-inner-3"
+  style="place-self: center;"
   loading="lazy"
   src="{{ '/img/posts/oh-shit-banners/aws-outage-checkmark.png' | url }}" />
 </div>
