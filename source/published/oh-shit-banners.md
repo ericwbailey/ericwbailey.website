@@ -28,7 +28,7 @@ I have worked for two newspapers over the course of my career (three if you coun
 
 The idea here is that the thing that is <strong>highest, largest, and leftmost</strong> on the page will get the most attention.
 
-Placement and ordering of this content is also an expression of the site’s editorial agendas. This is in itself worth thinking about.
+Placement and ordering of this content is also an expression of the site’s editorial agendas. This is in of itself worth thinking about.
 
 ## The language of hierarchy
 
@@ -96,7 +96,7 @@ A designer at one of the newspapers I used to work at referred to this visual tr
 
 The headline treatments of oh shit banners are an example of <strong>intentionally breaking the rules</strong> a designed system establishes for itself. It intentionally forces the attention of the reader.
 
-Someone walking by a newsstand can’t help but notice an oh shit banner because of its visual prominence. Regular subscribers will also take notice, in that there is a purposeful breaking of the rules they have subconsciously become literate in, and used to.
+Someone walking by a newsstand can’t help but notice an oh shit banner because of its visual prominence. Subscribers will also take notice, in that there is a purposeful breaking of the rules they have subconsciously become literate in, and used to.
 
 ## Oh shit banners on the web
 
@@ -178,11 +178,11 @@ Chronic misapplication of this design pattern means [people will be conditioned 
 For the web, oh shit banners' four most likely use cases are for:
 
 1. Government emergencies,
-1. Crisis situations
+1. Crisis situations,
 1. Product recalls, and
-1. Catastrophic outages in service. 
+1. Catastrophic outages. 
 
-### Government services and crisis situations
+### Government emergencies and crisis situations
 
 These are the most viable of the four scenarios, in that we already have evidence of it:
 
@@ -222,7 +222,7 @@ These are the most viable of the four scenarios, in that we already have evidenc
   </figcaption>
 </figure>
 
-We also have evidence of its use when things are scary enough that private industry also joins in on communicating a societal-grade crisis:
+Things were also scary enough that private industry joined in on communicating a societal-grade crisis. Most of the company homepages I visited repurposed existing design system patterns, however:
 
 <figure
   id="private-industry-examples"
@@ -253,12 +253,12 @@ We also have evidence of its use when things are scary enough that private indus
 
 These two are a little more tricky in that they happen more often than we’d like to think for private companies. 
 
-Recalls occur when a product unintentionally creates harm, or even death. An example here is [pathogens in mass-distributed eyedrops that caused illness, blindness, and death](https://arstechnica.com/health/2023/05/4th-death-in-eye-drop-outbreak-now-81-cases-14-blinded-and-4-lost-eyeballs/).
+Recalls occur when a product unintentionally creates harm. An example here is [pathogens in mass-distributed eyedrops that caused illness, blindness, and death](https://arstechnica.com/health/2023/05/4th-death-in-eye-drop-outbreak-now-81-cases-14-blinded-and-4-lost-eyeballs/).
 
 A catastrophic outage is a instability introduced into a system that results in data being ruined. This can be a circumstance that:
 
 - Prevents data from being actively transmitted and stored, 
-- Destroys previously stored data, and 
+- Destroys previously stored data, or 
 - A combination of both of the previous events. 
 
 Companies are not incentivized to communicate the level of seriousness these two types of crisis necessitate. This is largely because:
@@ -301,12 +301,12 @@ It is relatively straightforward to make a large banner and add it to the top of
 However, these actions don’t do much in terms of responsible use. The real questions you as a design system maintainer need to answer are will an oh shit banner have:
 
 - Language indicating it should only be used in a time of crisis?
-- Guardrails to detect misuse?
+- Systems and automation to detect misuse?
 - Incentive structures to prevent abuse?
 - Process to identify who the person responsible for deploying the banner is?
 - Additional process to identify a path of succession if that person is unable to deploy?
 - Examples of copywriting that will communicate the crisis in clear and concise way that does not create additional panic?
-- Meetings to ensure all the previous policy and process is up-to-date?
+- Recurring meetings to ensure all the previous policy and process is up-to-date?
 
 To be clear: I don’t have the answers to these questions. That’s something only you can answer with the full context of the organization you are developing the pattern for, its specific needs, and its own unique processes and workflows.
 
@@ -314,7 +314,7 @@ To be clear: I don’t have the answers to these questions. That’s something o
 
 You may also want to consider instituting privileged access for using a pattern like this. 
 
-I haven’t encountered password or team-based access on design systems before. Think of it like [the two keys](https://en.wikipedia.org/wiki/Two-person_rule) it requires to launch powerful missiles.
+I haven’t encountered password or team-based access on a design system before. Think of it like [the two keys](https://en.wikipedia.org/wiki/Two-person_rule) it requires to launch powerful missiles.
 
 <img
   role="img"
@@ -324,7 +324,9 @@ I haven’t encountered password or team-based access on design systems before. 
 
 It is not a perfect solution, in that people will inevitably copy/paste things if they can’t quickly access them. However, the paper trail and [intentional friction](https://modus.medium.com/friction-as-a-function-in-user-experience-make-me-think-390ee17c6cf5) could be enough of a deterrent effect that this approach may be worth considering.
 
-Other design patterns might also be contenders for this sort of access-based approach, especially ones that deal with how highly sensitive information is displayed and manipulated. Having something ready to go—even if it’s to communicate something terrible—might be worth expending the effort to do.
+Other design patterns might also be contenders for this sort of access-based approach, especially ones that deal with how highly sensitive information is displayed and manipulated.
+
+Regardless, having something planned for and ready to use—even if it’s to communicate something terrible—might be worth preemtively expending the effort to do.
 
 ## May you never have to use, or read an oh shit banner
 
