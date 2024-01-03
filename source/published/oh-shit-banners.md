@@ -24,17 +24,20 @@ eleventyNavigation:
   order: 43
 ---
 
-I have worked for two newspapers over the course of my career (three if you count my high school newspaper). One thing I learned there is that the top half of each and every newspaper homepage is a daily battle of agendas. 
+I have worked for two newspapers over the course of my career (three if you count my high school newspaper). One thing I learned there is that the top half of each and every newspaper homepage is a daily battle of priorities. 
 
 The idea here is that the thing that is <strong>highest, largest, and leftmost</strong> on the page will get the most attention.
 
-Placement and ordering of this content is also an expression of the site’s editorial priorities, which in itself is worth thinking about.
+Placement and ordering of this content is also an expression of the site’s editorial agendas. This is in itself worth thinking about.
 
 ## The language of hierarchy
 
-Generally speaking, the most important thing on a page is close to the start of the document and large. When that page is [written in English](https://rtlstyling.com/), that means the top left or top center.
+Generally speaking, the most important thing on a page is: 
 
-Again, think the front page of a physical newspaper:
+1. Close to the start of the document, and 
+1. Large. 
+
+When that page is [written in English](https://rtlstyling.com/), that means the top left or top center. Again, think the front page of a physical newspaper:
 
 <img
   alt="The top quarter of the front page of the Boston Globe print newspaper published on Tuesday, January 2nd, 2024. There are two headlines visible. The leftmost headline reads, 'A Biden campaign quip, with a Boston twist'. The right headline reads, 'Israel set to widthdraw some forces'. The leftmost headline takes up three quarters of the width of the nespaper, while the rightmost headline takes up one quarter of its width. Below the leftmost headline are two small photos, one of President Joe Biden and the other of Mayor Kevin H. White."
@@ -91,7 +94,7 @@ A designer at one of the newspapers I used to work at referred to this visual tr
 
 ### Rules and breaking them
 
-The headline treatments of oh shit banners are an example of <strong>intentionally breaking the rules</strong> a designed system establishes for itself. It all but forces the attention of the reader. 
+The headline treatments of oh shit banners are an example of <strong>intentionally breaking the rules</strong> a designed system establishes for itself. It intentionally forces the attention of the reader.
 
 Someone walking by a newsstand can’t help but notice an oh shit banner because of its visual prominence. Regular subscribers will also take notice, in that there is a purposeful breaking of the rules they have subconsciously become literate in, and used to.
 
@@ -156,7 +159,7 @@ I took some screenshots from a sampling of different websites when the Covid-19 
 
 As previously mentioned, things like clearance sales, newsletter subscriptions and the like aren’t candidates for the oh shit banner treatment. 
 
-It is not the most inclusive term, but attempting to misuse the oh shit banner for these kinds of content will trigger [banner blindness](https://www.nngroup.com/articles/why-advertising-doesnt-work-on-the-web/). These behaviors have already been trained into people by an entire internet full of manipulative, attention-stealing antipatterns. 
+It is not the most inclusive term, but attempting to misuse the oh shit banner for these kinds of content will trigger [banner blindness](https://www.nngroup.com/articles/why-advertising-doesnt-work-on-the-web/). An entire internet full of manipulative, attention-stealing antipatterns have created this self-defense mechanism. 
 
 <figure
   role="figure"
@@ -170,17 +173,18 @@ It is not the most inclusive term, but attempting to misuse the oh shit banner f
   </figcaption>
 </figure>
 
-Specifically chronic misapplication of this design pattern means [people will be conditioned to ignore it](https://en.wikipedia.org/wiki/Henny_Penny) when it’s time to actually pay attention. This makes the entire exercise in communication moot. 
+Chronic misapplication of this design pattern means [people will be conditioned to ignore it](https://en.wikipedia.org/wiki/Henny_Penny) when it’s time to actually pay attention. This makes the entire endeavor moot. 
 
-For the web, oh shit banners three most likely use cases are for:
+For the web, oh shit banners' four most likely use cases are for:
 
-1. Government emergencies and crisis situations, 
+1. Government emergencies,
+1. Crisis situations
 1. Product recalls, and
 1. Catastrophic outages in service. 
 
-### Government services
+### Government services and crisis situations
 
-This is the most viable of the three scenarios, in that we already have evidence of it:
+These are the most viable of the four scenarios, in that we already have evidence of it:
 
 <figure
   role="figure"
@@ -221,6 +225,7 @@ This is the most viable of the three scenarios, in that we already have evidence
 We also have evidence of its use when things are scary enough that private industry also joins in on communicating a societal-grade crisis:
 
 <figure
+  id="private-industry-examples"
   role="figure"
   aria-label="Source: Bed Bath & Beyond.">
   <img
@@ -258,7 +263,7 @@ A catastrophic outage is a instability introduced into a system that results in 
 
 Companies are not incentivized to communicate the level of seriousness these two types of crisis necessitate. This is largely because:
 
-- Failure states and their [root causes](https://surfingcomplexity.blog/2023/12/10/human-error-means-they-dont-understand-how-the-system-worked/) are infrequently considered or prioritized, especially on the web, and that
+- Failure states and their [root causes](https://surfingcomplexity.blog/2023/12/10/human-error-means-they-dont-understand-how-the-system-worked/) are infrequently considered or prioritized, and that
 - Calling attention to such a state will translate to negative press and the stock price taking a hit.
 
 For example, [Amazon’s web storage service suffered a highly public outage in 2017](https://www.vox.com/2017/3/2/14792636/amazon-aws-internet-outage-cause-human-error-incorrect-command). Here is the icon they used to represent the status of this event:
@@ -275,9 +280,9 @@ For example, [Amazon’s web storage service suffered a highly public outage in 
   </figcaption>
 </figure>
 
-Recalling the previous private industry examples, this repurposed treatment makes sense in that the people who display this UI likely:
+This repurposed treatment makes sense if you [recall the private industry examples](#private-industry-examples) listed previously. By this, I mean that the people who created this UI likely:
 
-- Did not have the time or budget allocated to create catastrophic failure state guidelines,
+- Did not have the time or budget previously allocated to create catastrophic failure state guidelines,
 - Had to pick something in the middle of an actual crisis, and also
 - Faced internal pressure to downplay the crisis’ severity.
 
@@ -323,8 +328,8 @@ Other design patterns might also be contenders for this sort of access-based app
 
 ## May you never have to use, or read an oh shit banner
 
-The oh shit banner pattern is one that you should use with an extreme amount of caution, and only for disasters where clearly communicating helps to maintain safety, stability, and security. 
+We live in a world where horrible, unpredictable events can happen. However, patterns like the oh shit banner allow us to do something about that fact by helping to lessen the scope of harm these events create.
 
-Oh shit banner’s existence represents the fact that we live in a world where bad things can happen, but we as people can do something about it to help lessen the harm these events can create. 
+The oh shit banner pattern is one that you should use with an extreme amount of caution, and only for disasters where <strong>clearly communicating helps to preserve safety, stability, and security</strong>. 
 
-Creating and using an oh shit banner treatment requires investment in process as much as, if not more than it does a technical implementation. This may require interrogating your organization’s policies and priorities, but does so in the service of communicating critical information.
+Creating and using an oh shit banner treatment requires investment in process as much as, if not more than it does a technical implementation. This may require interrogating your organization’s policies and priorities, but does so in the service of communicating vital information at a critical moment.
