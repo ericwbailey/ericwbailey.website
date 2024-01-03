@@ -100,7 +100,7 @@ Someone walking by a newsstand can’t help but notice an oh shit banner because
 
 ## Oh shit banners on the web
 
-The web has the equivalent, but it’s a little tricker. The practice of putting the most important thing at the top of the homepage is still performed, despite persistent misconceptions about “[above the fold](https://viewports.fyi/)” and [homepages being where folks enter into news sites](https://www.niemanlab.org/2012/08/coming-in-the-side-door-the-value-of-homepages-is-shifting-from-traffic-driver-to-brand/).
+The web has the equivalent, but it’s a little trickier. The practice of putting the most important thing at the top of the homepage is still performed, despite persistent misconceptions about “[above the fold](https://viewports.fyi/)” and [homepages being where folks enter into news sites](https://www.niemanlab.org/2012/08/coming-in-the-side-door-the-value-of-homepages-is-shifting-from-traffic-driver-to-brand/).
 
 In that vein, oh shit banners are not:
 
