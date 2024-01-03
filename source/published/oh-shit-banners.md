@@ -90,11 +90,11 @@ Another personal favorite is from The Onion:
   </figcaption>
 </figure>
 
-A designer at one of the newspapers I used to work at referred to this visual treatment as an “oh shit banner,” because they represented something so important that it made you stop in your tracks and go, “Oh shit.”
+A designer at one of the newspapers I used to work at referred to this visual treatment as an “oh shit banner,” because its use represented something so important that it made you stop in your tracks and go, “Oh shit.”
 
 ### Rules and breaking them
 
-The headline treatments of oh shit banners are an example of <strong>intentionally breaking the rules</strong> a designed system establishes for itself. It intentionally forces the attention of the reader.
+The headline treatments of oh shit banners are an example of <strong>intentionally breaking the rules</strong> a designed system establishes for itself. It deliberately forces the attention of the reader.
 
 Someone walking by a newsstand can’t help but notice an oh shit banner because of its visual prominence. Subscribers will also take notice, in that there is a purposeful breaking of the rules they have subconsciously become literate in, and used to.
 
