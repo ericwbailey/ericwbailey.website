@@ -9,6 +9,10 @@ tags:
   - Chatbot
   - Inclusion
   - Subversion
+furtherReading:
+  - title: "A former Gizmodo writer changed his name to ‘Slackbot’ and stayed undetected for months"
+    source: "The Verge"
+    url: https://www.theverge.com/2024/2/23/24081249/slack-slackbot-gizmodo-tom-mckay
 sharedOn:
   twitter: https://twitter.com/ericwbailey/status/1453008404205670412
 eleventyNavigation:
