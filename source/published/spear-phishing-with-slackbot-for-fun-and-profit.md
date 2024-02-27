@@ -13,6 +13,9 @@ furtherReading:
   - title: "A former Gizmodo writer changed his name to ‘Slackbot’ and stayed undetected for months"
     source: "The Verge"
     url: https://www.theverge.com/2024/2/23/24081249/slack-slackbot-gizmodo-tom-mckay
+  - title: "Come join us on a trip with the phishing boat"
+    source: "Bouvet"
+    url: https://www.bouvet.no/bouvet-deler/come-join-us-on-a-trip-with-the-phishing-boat
 sharedOn:
   twitter: https://twitter.com/ericwbailey/status/1453008404205670412
 eleventyNavigation:
