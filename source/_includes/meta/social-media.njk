@@ -3,12 +3,4 @@
 <meta property="og:title" content="{{ title | striptags }}">
 <meta property="og:description" content="{% if excerpt %}{{ excerpt | striptags }}…{% else %}{{ metadata.description }}{% endif %}">
 <meta property="og:image" content="{% if share %}{{ metadata.url }}/img/posts/{{ title | striptags | slugify }}/share-image-facebook.png{% else %}{{ metadata.url }}/static/favicons/social/facebook.png{% endif %}">
-<meta content="{% if share %}{{ share.facebookDescription }}{% else %}Stylized script treatment of the words Eric W Bailey on a light blue background.{% endif %}" property="og:image:alt" />
-
-<meta name="twitter:card" content="summary">
-<meta property="twitter:domain" content="{{ metadata.website }}{{ page.url }}">
-<meta property="twitter:url" content="https://github.com/">
-<meta name="twitter:title" content="{{ title | striptags }}">
-<meta name="twitter:description" content="{% if excerpt %}{{ excerpt | striptags }}…{% else %}{{ metadata.description }}{% endif %}">
-<meta name="twitter:image" content="{% if share %}{{ metadata.url }}/img/posts/{{ title | striptags | slugify }}/share-image-twitter.png{% else %}{{ metadata.url }}/static/favicons/social/twitter-summary-image.png{% endif %}">
-<meta content="{% if share %}{{ share.facebookDescription }}{% else %}Stylized script treatment of the words Eric W Bailey on a light blue background.{% endif %}" property="og:image:alt" />
+<meta property="og:image:alt" content="{% if share %}{{ share.facebookDescription }}{% else %}Stylized script treatment of the words Eric W Bailey on a light blue background.{% endif %}">

@@ -10,6 +10,11 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.55 - 2024-03-05
+- Add [On Jakob Nielsen, AI hype, and accessibility](https://ericwbailey.website/published/on-jakob-nielsen-ai-hype-and-accessibility/)
+- Update social media embed code
+- Fix post count for 2023
+
 ## v1.5.54 - 2024-01-03
 - Add [Oh shit banners](https://ericwbailey.website/published/oh-shit-banners/)
 
