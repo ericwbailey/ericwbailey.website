@@ -29,7 +29,10 @@ furtherReading:
   - title: "Can generative AI help write accessible code?"
     source: "TetraLogical"
     url: https://tetralogical.com/blog/2024/02/12/can-generative-ai-help-write-accessible-code/
-  - title: "Accessibility Has Failed: Try Generative UI = Individualized UX "
+  - title: "AI + Thought Leader Accessibility"
+    source: "David A. Kennedy"
+    url: https://davidakennedy.com/blog/ai-plus-thought-leader-accessibility/
+  - title: "Accessibility Has Failed: Try Generative UI = Individualized UX"
     source: "Conffab"
     url: https://conffab.com/elsewhere/accessibility-has-failed-try-generative-ui-individualized-ux/
   - title: "No, ‘AI’ Will Not Fix Accessibility"
@@ -55,6 +58,6 @@ eleventyNavigation:
 
 A few years ago I made a New Year’s Eve resolution to stop overthinking assholes.
 
-I could delicately, patiently, and painstakingly debunk [the gigantic, misplaced swing](https://jakobnielsenphd.substack.com/p/accessibility-generative-ui) of a man who is burning others' lived experience as fuel to propel his increasingly irrelevant career.
+I could delicately, patiently, and painstakingly debunk [the gigantic, misplaced swing](https://jakobnielsenphd.substack.com/p/accessibility-generative-ui) of a man who is [burning others' lived experience](https://tink.uk/nielsen-needs-to-think-again/) as fuel to propel his increasingly irrelevant career.
 
 I could also just call him an asshole.
