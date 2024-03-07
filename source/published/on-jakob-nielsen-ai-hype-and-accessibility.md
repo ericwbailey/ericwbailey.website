@@ -20,6 +20,9 @@ furtherReading:
   - title: "Jakob Nielsen’s Bad Ideas about Accessibility"
     source: "Brian DeConinck"
     url: https://www.briandeconinck.com/jakob-nielsens-bad-ideas-about-accessibility/
+  - title: "Nielsen needs to think again"
+    source: "Tink - Léonie Watson"
+    url: https://tink.uk/nielsen-needs-to-think-again/
   - title: "I worry our Copilot is leaving some passengers behind"
     source: "Josh Collinsworth"
     url: https://joshcollinsworth.com/blog/copilot
