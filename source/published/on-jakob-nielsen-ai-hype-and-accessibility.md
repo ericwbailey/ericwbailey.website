@@ -41,13 +41,22 @@ furtherReading:
   - title: "Accessibility has not failed – it has not even started for real"
     source: "Bogdan on Digital Accessibility"
     url: https://cerovac.com/a11y/2024/03/accessibility-has-not-failed-it-has-not-even-started-for-real/
-  - title: "Post by Sheri Byrne-Haber on LinkedIn"
+  - title: "In response to Jakob Nielsen"
+    source: "Kristina Gushcheva-Keippilä"
+    url: https://scribe.rip/in-response-to-jakob-nielsen-f5580f429fe5
+  - title: "Post by Sheri Byrne-Haber"
     source: "LinkedIn"
     url: https://www.linkedin.com/posts/sheribyrnehaber_userexperience-artificialintelligence-accessibility-activity-7169454946420011008-Ucee/
-  - title: "Post by Kelsey Hall on LinkedIn"
+  - title: "Post by Kelsey Hall"
     source: "LinkedIn"
     url: https://www.linkedin.com/posts/khallconsultant_in-light-of-jakob-nielsens-fallacy-riddled-activity-7169685050794459137-X0Ns/
-  - title: "Reply by Anna Cook on LinkedIn"
+  - title: "Post by Jeff Eaton"
+    source: "LinkedIn"
+    url: https://www.linkedin.com/posts/jeffeaton_userexperience-artificialintelligence-accessibility-activity-7168993446999838721-Hc6k
+  - title: "Post by Devon Persing"
+    source: "LinkedIn"
+    url: https://www.linkedin.com/posts/devonpersing_userexperience-artificialintelligence-accessibility-activity-7169103160257564672-nDMS
+  - title: "Reply by Anna Cook"
     source: "LinkedIn"
     url: https://www.linkedin.com/feed/update/urn:li:activity:7168948269396471808?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7168948269396471808%2C7169084473538437120%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287169084473538437120%2Curn%3Ali%3Aactivity%3A7168948269396471808%29
 eleventyNavigation:
