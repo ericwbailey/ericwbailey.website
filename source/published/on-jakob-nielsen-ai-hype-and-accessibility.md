@@ -58,10 +58,13 @@ furtherReading:
     url: https://www.linkedin.com/posts/jeffeaton_userexperience-artificialintelligence-accessibility-activity-7168993446999838721-Hc6k
   - title: "Post by Devon Persing"
     source: "LinkedIn"
-    url: https://www.linkedin.com/posts/annaecook_we-need-to-talk-about-jakob-activity-7170478771333001216-mWLq
+    url: https://www.linkedin.com/posts/devonpersing_userexperience-artificialintelligence-accessibility-activity-7169103160257564672-nDMS
   - title: "Post by Anna Cook"
     source: "LinkedIn"
-    url: https://www.linkedin.com/feed/update/urn:li:activity:7168948269396471808?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7168948269396471808%2C7169084473538437120%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287169084473538437120%2Curn%3Ali%3Aactivity%3A7168948269396471808%29
+    url: https://www.linkedin.com/posts/annaecook_we-need-to-talk-about-jakob-activity-7170478771333001216-mWLq
+  - title: "Post by Steve Faulkner"
+    source: "LinkedIn"
+    url: https://www.linkedin.com/feed/update/urn:li:activity:7171475871113945088
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}
