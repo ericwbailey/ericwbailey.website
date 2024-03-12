@@ -63,7 +63,7 @@ For those unfamiliar, images have the ability to include companion information t
 
 This information is portable, in that it comes along with the image when transferred, shared, or a copy is made. Specialized programs can access and manipulate this information as well.
 
-An alt description could be one of these companion pieces of information. Here, the thought is that websites, web apps, and native apps could detect the presence of this metadata and then automatically apply it if someone chooses to share or re-share the image.
+An alt description could be one of these companion pieces of information. Here, the thought is that websites, web apps, and native apps could detect the presence of this metadata and then automatically apply it if someone chooses to share or re-share the image:
 
 <picture>
   <source
@@ -102,7 +102,7 @@ And a more public one:
   </p>
 </blockquote>
 
-Here, the key factor is that my dog’s name is Chicken, but you’d only know that if I told you.
+The key factor here is that my dog’s name is Chicken, but you’d only know that if I told you.
 
 Another example are images that are frequently shared on some chat apps some friends and I use. The image’s visual content has long ceased to be relevant, and is instead now shorthand for inside jokes we share.
 
