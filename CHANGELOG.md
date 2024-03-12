@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.56 - 2024-03-12
+- Add [Thoughts on embedding alternative text metadata into images](https://ericwbailey.website/published/thoughts-on-embedding-alternative-text-metadata-into-images/)
+
 ## v1.5.55 - 2024-03-05
 - Add [On Jakob Nielsen, AI hype, and accessibility](https://ericwbailey.website/published/on-jakob-nielsen-ai-hype-and-accessibility/)
 - Update social media embed code
