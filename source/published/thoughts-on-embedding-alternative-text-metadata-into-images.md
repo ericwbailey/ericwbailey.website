@@ -299,7 +299,7 @@ This means that it makes the feature more difficult to set up and run for smalle
 
 Companies are also rarely motivated by appeals to altruism. It is easy to envision ruthless cost-cutting measures removing a costly AI-powered service when it comes time for an organization to tighten its belt.
 
-I’d point to [the cruel, senseless layoffs of 2023](https://www.theverge.com/2023/1/18/23560315/microsoft-job-cuts-layoffs-2023-tech) for some prior art here. Or [incompetent, malicious, politics](https://www.wired.com/story/twitter-layoffs-accessibility/).
+I’d point to [the cruel, senseless layoffs of 2023](https://www.theverge.com/2023/1/18/23560315/microsoft-job-cuts-layoffs-2023-tech) for some prior art here. Or [incompetent, malicious politics](https://www.wired.com/story/twitter-layoffs-accessibility/).
 
 I’d then ask [what becomes of the people who relied on this hypothetical service](https://spectrum.ieee.org/bionic-eye-obsolete)?
 
