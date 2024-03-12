@@ -30,7 +30,7 @@ Another [trend I see from time to time on social media]({{ '/published/a11y-is-w
 
 At a high level, storing alt text as metadata is not a bad idea. In fact, reading the sentiment expressed makes me happy. It is a step above indifference or downright hostility—two frustratingly common reactions to asking someone to describe their images with text.
 
-That said, the framing and presenting of the “storing alt text as metadata” idea as a technological concept itself also has some things to think through. Let’s unpack it.
+That said, the framing and presenting of the “storing alt text as metadata” as a technological concept itself also has some things to think through. Let’s unpack it.
 
 ## How this feature envisioned
 
@@ -98,13 +98,13 @@ For example, consider how you’d describe a photo of a family member in a priva
 And a more public one:
 <blockquote>
   <p>
-    A puppy sitting in a small cooking pot. The dog is a Havanese and Poodle mix, and features white curly fur with light gray blended in and brown at the tips of her floppy ears and tail. She also has a small beard, button nose, and soft brown eyes. Her face has a worried expression on it.
+    A puppy sitting in a small cooking pot. The dog is a Havanese and Poodle mix, and features white curly and light gray fur blended, with brown tips at the and of her floppy ears and tail. She also has a small beard, button nose, and soft brown eyes. Her face has a worried expression on it.
   </p>
 </blockquote>
 
 The key factor here is that my dog’s name is Chicken, but you’d only know that if I told you.
 
-Another example are images that are frequently shared on some chat apps some friends and I use. The image’s visual content has long ceased to be relevant, and is instead now shorthand for inside jokes we share.
+Another example are images that are frequently shared on some chat apps some friends and I use. The image’s literal visual content has long ceased to be relevant, and is instead now shorthand for inside jokes we share.
 
 Pre-stored alt text is not context-aware. Digital experiences would not be able to know the larger conversation an image is being inserted into, were they to utilize this proposed feature. That’s the purview of us humans.
 
@@ -195,7 +195,7 @@ If we were going to add alternate text description metadata to images, we’d ne
 
 When it comes to performance, every byte counts. Because of this, a lot of services scrub out image metadata when the image is uploaded, especially in a web context.
 
-One of the reasons for this metadata removal is that extra information translates to cost. This translates to a ton of money when conducted at scale.
+One of the reasons for this metadata removal is that extra information translates to cost. This, in turn, translates to a ton of money when conducted at scale.
 
 Because of this, the metadata removal isn’t something you as the image sharer can override. It just happens as a matter of course.
 
@@ -203,19 +203,19 @@ Also recall the previous section. All of these new metadata entries interacting 
 
 ## Coordination and level of effort
 
-The process of adding a new category of metadata to an image standards is a Herculean undertaking. Global, standardized alternative text description metadata is wishful thinking because of this.
+The process of adding a new category of metadata to a even a single image standard is a Herculean undertaking. Global, standardized alternative text description metadata is wishful thinking because of this.
 
 Consider you’ll need to undertake this process for [multiple image formats](https://en.wikipedia.org/wiki/Image_file_format#Major_graphic_file_formats)—even targeting the top five most popular ones translates to navigating a ton of bureaucracy and politics spanning across multiple conglomerates and organizations. Then there’s IP law and copyright to consider. Then you might actually be able to start on the code itself.
 
-Then consider all the applications that need to read and modify this metadata, and the logic and UI that needs to be created to enable that. Then consider all the websites and services that will also need to be updated.
+Then consider all the operating systems and applications that need to read and modify this metadata, and the logic and UI that needs to be created to enable that. Then consider all the websites and services that will also need to be updated.
 
-The whole effort is not impossible per-se. It’s just something that, if undertaken would likely play out across decades.
+The whole effort is not impossible per-se. It’s just something that would likely play out across decades if undertaken.
 
 ## What about AI?
 
-AI-generated automated image descriptions is [a helpful resource for the people who need it](https://www.bemyeyes.com/blog/announcing-be-my-ai), and we should do well to center this.
+[The technology to generate a text description of an image is getting really good](https://afb.org/blog/entry/gpt-4-image-recognition-accessibility). This is really cool, and also more than a little scary.
 
-Additionally, [the technology to generate a text description of an image is getting really good](https://afb.org/blog/entry/gpt-4-image-recognition-accessibility). This is really cool, and also more than a little scary.
+AI-generated automated image descriptions is [a helpful resource for the people who need it when there is no alternative](https://www.bemyeyes.com/blog/announcing-be-my-ai), and we should do well to internalize this.
 
 ### What we want and what we need
 
@@ -226,7 +226,7 @@ I would love it if this hypothetical AI tooling would report if automated image 
 
 These are both important pieces of context someone needs to know, as it will affect how they **interpret, think about, and communicate to others** about the image.
 
-This is an easy request to consider through the lens of critical information—say world governments sharing vital crisis-related information on social media via images or [a horrifying, ongoing genocide](https://disabilityvisibilityproject.com/2024/03/03/alttextpalestine-showing-solidarity-by-creating-access/).
+This is an easy request to consider through the lens of critical information—say world governments sharing vital crisis-related information on social media via infographics, or [a horrifying, ongoing genocide](https://disabilityvisibilityproject.com/2024/03/03/alttextpalestine-showing-solidarity-by-creating-access/).
 
 Critical government communications are important, but it’s also good to remember **the human aspect at the center of all this**. Even images shared for fun deserve someone being able to confidently know their content and speak to it without fear of misrepresentation.
 
@@ -261,7 +261,7 @@ Position AI-provided alternative text descriptions as **a starting point to buil
   </figcaption>
 </figure>
 
-AI can manifest as small button to generate the initial description. This can be augmented by surrounding copy to inform and educate the person using the feature. It can also [link off to additional resources](https://accessibility.huit.harvard.edu/describe-content-images) to [allow people to self-serve](https://www.w3.org/WAI/tutorials/images/decision-tree/).
+AI can manifest as small button to generate the initial description. This can be augmented by surrounding copy to inform and educate the person using the feature. It can also [link off to additional resources](https://accessibility.huit.harvard.edu/describe-content-images) to [allow people to discover the concept and better educate themselves](https://www.w3.org/WAI/tutorials/images/decision-tree/).
 
 I’d also be remiss if I didn’t point out that an AI-based description may also **serve as a good starting point** for people less comfortable with the dominant language of the platform, descriptive writing, or the image’s content.
 
@@ -299,7 +299,9 @@ This means that it makes the feature more difficult to set up and run for smalle
 
 Companies are also rarely motivated by appeals to altruism. It is easy to envision ruthless cost-cutting measures removing a costly AI-powered service when it comes time for an organization to tighten its belt.
 
-I’d point to [the cruel, senseless layoffs of 2023](https://www.theverge.com/2023/1/18/23560315/microsoft-job-cuts-layoffs-2023-tech) for some prior art here. I’d also then ask [what becomes of the people who relied on this hypothetical service](https://spectrum.ieee.org/bionic-eye-obsolete)?
+I’d point to [the cruel, senseless layoffs of 2023](https://www.theverge.com/2023/1/18/23560315/microsoft-job-cuts-layoffs-2023-tech) for some prior art here. Or [politics malicious incompetence](https://www.wired.com/story/twitter-layoffs-accessibility/).
+
+I’d then ask [what becomes of the people who relied on this hypothetical service](https://spectrum.ieee.org/bionic-eye-obsolete)?
 
 ### Short-term convenience, long-term risk
 
@@ -327,6 +329,6 @@ Providing descriptive, engaging, and contextually relevant alternate text descri
 
 Similarly, focusing on [bikeshedding](https://en.wikipedia.org/wiki/Law_of_triviality) metadata, esoteric protocols, or yet-to-be-built technologies is a misstep. While technology can augment the experience of writing an alternative text description, we need to remember **what** is getting centered, **why**, and **who** should be getting prioritized.
 
-Alternate text is for for people, and **people are not a problem to be solved**. [The social model of disability](https://en.wikipedia.org/wiki/Social_model_of_disability) teaches us that it is the built environment that should be better crafted to meet the needs of the people who use it.
+Alternate text is for people, and **people are not a problem to be solved**. [The social model of disability](https://en.wikipedia.org/wiki/Social_model_of_disability) teaches us that it is the built environment that should be better crafted to meet the needs of the people who use it.
 
 Instead of sweeping a presumed problem under the rug, elevate the prominence of alternate text descriptions in interfaces and combine it with education and a positive culture that both promotes and rewards the practice.
