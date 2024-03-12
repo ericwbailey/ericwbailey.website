@@ -87,25 +87,22 @@ On paper, this helps to ensure that an alternative description is supplied. Ther
 
 The largest thing to grapple with is that **images are contextual**. Choosing to select and share one is [a highly intentional act](https://www.smashingmagazine.com/2021/06/img-alt-attribute-alternate-description-decorative/), and oftentimes requires knowing the larger context of how it will be viewed.
 
-For example, consider how you’d describe a photo of a family member in a private context versus a more public one:
+For example, consider how you’d describe a photo of a family member in a private context:
 
-<figure
-  role="figure"
-  aria-label="Truncation is not a content strategy. With apologies to Karen McGrane.">
-  <blockquote>
-    <p>
-      Chicken in a pot! She looks quite worried.
-    </p>
-  </blockquote>
-  <blockquote>
-    <p>
-      A puppy sitting in a small cooking pot. The dog is a Havanese and Poodle mix, and features white curly fur with light gray blended in and brown at the tips of her floppy ears and tail. She also has a small beard, button nose, and soft brown eyes. Her face has a worried expression on it.
-    </p>
-    <figcaption>
-    <p>
-      My dog’s name is Chicken, but you’d only know that if I told you.
-    </p>
-  </blockquote>
+<blockquote>
+  <p>
+    Chicken in a pot! She looks quite worried.
+  </p>
+</blockquote>
+
+And a more public one:
+<blockquote>
+  <p>
+    A puppy sitting in a small cooking pot. The dog is a Havanese and Poodle mix, and features white curly fur with light gray blended in and brown at the tips of her floppy ears and tail. She also has a small beard, button nose, and soft brown eyes. Her face has a worried expression on it.
+  </p>
+</blockquote>
+
+Here, the key factor is that my dog’s name is Chicken, but you’d only know that if I told you.
 
 Another example are images that are frequently shared on some chat apps some friends and I use. The image’s visual content has long ceased to be relevant, and is instead now shorthand for inside jokes we share.
 
@@ -137,7 +134,7 @@ Compare that description against:
   </blockquote>
   <figcaption>
     <p>
-      Truncation is not a content strategy. With apologies to [Karen McGrane](https://karenmcgrane.com/).
+      Truncation is not a content strategy. With apologies to <a href="https://karenmcgrane.com/">Karen McGrane</a>.
     </p>
   </figcaption>
 </figure>
