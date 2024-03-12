@@ -278,7 +278,7 @@ All those screenshots of an iPhone Notes app apology shared out to social media?
 Similarly, [image hashing](https://inhope.org/EN/articles/what-is-image-hashing) is another avenue where platforms could get a little smarter by utilizing an already-established technology. All those accounts that steal and recycle memes? The platform has an opportunity here to inject descriptions for matches for accounts that don’t provide them.
 
 <div class="centered-media-outer">
-  <picture>
+  <picture class="centered-media-inner-3">
     <source
       media="(prefers-color-scheme: dark)"
       srcset="{{ '/img/posts/thoughts-on-embedding-alternative-text-metadata-into-images/hash-based-alt-on-dark.svg' | url }}">
