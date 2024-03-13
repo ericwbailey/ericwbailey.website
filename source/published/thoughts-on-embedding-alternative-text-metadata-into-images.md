@@ -78,7 +78,7 @@ An alt description could be one of these companion pieces of information. Here, 
   <img
     role="img"
     alt="A simple diagram demonstrating how an image with alt text metadata embedded into it could be shared online, and then how its embedded information could be-reshared across different services and networks. The network is represented by a circle of sixteen logos for different internet services. Each logo has a line that connects it to every other logo, forming a complicated interconnected web. Starting from the top and moving clockwise the services are: SMS, Reddit, Weibo, Discord, tumblr, Microsoft Office, WordPress, Pixelfed, Slack, Pinterest, LinkedIn, Instagram, Mastodon, Facebook, Twitter, and Google Drive."
-    src="{{ '/img/posts/thoughts-on-embedding-alternative-text-metadata-into-images/alt-into-networks-vertical-on-dark.svg' | url }}">
+    src="{{ '/img/posts/thoughts-on-embedding-alternative-text-metadata-into-images/alt-into-networks-vertical-on-light.svg' | url }}">
 </picture>
 
 On paper, this helps to ensure that an alternative description is supplied. There’s a few issues to contend with past this initial thought, however.
@@ -98,7 +98,7 @@ For example, consider how you’d describe a photo of a family member in a priva
 And a more public one:
 <blockquote>
   <p>
-    A puppy sitting in a small cooking pot. The dog is a Havanese and Poodle mix, and features white curly and light gray fur blended, with brown tips at the and of her floppy ears and tail. She also has a small beard, button nose, and soft brown eyes. Her face has a worried expression on it.
+    A puppy sitting in a small cooking pot. The dog is a Havanese and Poodle mix, and features white curly and light gray fur blended, with brown tips at the end of her floppy ears and tail. She also has a small beard, button nose, and soft brown eyes. Her face has a worried expression on it.
   </p>
 </blockquote>
 
