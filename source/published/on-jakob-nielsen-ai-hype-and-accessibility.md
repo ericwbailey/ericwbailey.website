@@ -26,6 +26,9 @@ furtherReading:
   - title: "It’s a people problem, not an accessibility problem"
     source: "Darice de Cuba"
     url: https://darice.org/2024/03/12/its-a-people-problem-not-an-accessibility-problem/
+  - title: "The Golden Age of Accessibility"
+    source: "Angela Fowler"
+    url: https://www.linkedin.com/pulse/golden-age-accessibility-angela-fowler-oalhc/
   - title: "I worry our Copilot is leaving some passengers behind"
     source: "Josh Collinsworth"
     url: https://joshcollinsworth.com/blog/copilot
