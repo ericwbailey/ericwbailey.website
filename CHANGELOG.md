@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.57 - 2024-03-22
+- Add [A perceived contradiction to internalize when working on design systems](https://ericwbailey.website/published/a-perceived-contradiction-to-internalize-when-working-on-design-systems/)
+
 ## v1.5.56 - 2024-03-12
 - Add [Thoughts on embedding alternative text metadata into images](https://ericwbailey.website/published/thoughts-on-embedding-alternative-text-metadata-into-images/)
 
