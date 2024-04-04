@@ -263,7 +263,12 @@ Position AI-provided alternative text descriptions as **a starting point to buil
 
 AI can manifest as small button to generate the initial description. This can be augmented by surrounding copy to inform and educate the person using the feature. It can also [link off to additional resources](https://accessibility.huit.harvard.edu/describe-content-images) to [allow people to discover the concept and better educate themselves](https://www.w3.org/WAI/tutorials/images/decision-tree/).
 
-I’d also be remiss if I didn’t point out that an AI-based description may also **serve as a good starting point** for people less comfortable with the dominant language of the platform, descriptive writing, or the image’s content.
+I’d also be remiss if I didn’t point out that an AI-based description may also **serve as a good starting point**. In particular, the technology can be beneficial for people who:
+
+- [Have difficulty with the physical act of typing](https://social.lol/@bw/112126332441210003),
+- Are less comfortable with the dominant language of the platform,
+- Are less proficient at descriptive writing, and
+- Are unfamiliar with the image’s content.
 
 I also like presenting this UI as part of a larger suite of image sharing tools (cropping, filters, tagging, etc.). Of course an alt description is a first class consideration, and of course you include it [if you want your sharing to be well-received]({{ '/published/implicit-cultural-norms-and-accessible-social-media/' | url }}).
 
