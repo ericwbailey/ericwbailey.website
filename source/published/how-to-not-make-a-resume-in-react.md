@@ -78,7 +78,7 @@ This structure clearly communicates:
 5. How you did it
 6. Who taught you
 
-Since this helps me quickly and clearly understand you as a candidate, I can easily dip into those third level headings to really dig into the nitty-gritty.
+Since this helps me quickly and clearly understand you as a candidate, I can easily dip into those third level headings to really dig into the particulars.
 
 #### How to section it
 
