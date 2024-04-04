@@ -42,7 +42,7 @@ During our last session we were exploring the web, specifically [a Google search
 
 The area that occupies the main portion of the screenshot is what Google refers to as a “[knowledge panel](https://support.google.com/knowledgepanel/answer/9163198?hl=en).” It’s a space before the search results that tries to answer your search query with a mix of algorithmically-generated and manually-curated information.
 
-My instructor was telling me about some of the navigational muscle memory they had to re-learn based off of an update to the search result template’s underlying markup structure. This included adapting to the presence of knowledge panel content and its—ahem—unique decisions regarding underlying markup structure.
+My instructor was telling me about some of the navigational muscle memory they had to re-learn based off of an update to the search result template’s underlying markup structure. This included adapting to the presence of knowledge panel content and its—ahem—unique decisions regarding underlying structure.
 
 To recontextualize this in more familiar terms: a person who uses a cursor to heavily make use of an interface gets used to anticipating where and what to click. A sudden visual update forces them to re-learn where to anticipate where UI will show up.
 
