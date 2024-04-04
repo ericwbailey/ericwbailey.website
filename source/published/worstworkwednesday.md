@@ -42,7 +42,7 @@ The meeting’s goal is to normalize the design team being human, and humans are
 
 I’ve shared work in these meetings that was seen as successful, yet I wasn’t happy with. When you’ve been in the industry as long as I have this kind of output is an inevitability. I’ve also unfortunately had my share of ugly designs that didn’t work. I’ve shared those too.
 
-My partner is a good listener and incredibly supportive, but doesn’t work in the same industry I do. It wasn’t until I had a meeting like this that I could use jargon and really discuss the nitty-gritty with people who would instinctively understand the particulars.
+My partner is a good listener and incredibly supportive, but doesn’t work in the same industry I do. It wasn’t until I had a meeting like this that I could use jargon and really discuss things with people who would instinctively understand the particulars.
 
 <div class="centered-media-outer">
   <svg class="centered-media-inner-3" role="img" focusable="false" viewBox="0 0 552 388" fill="none" xmlns="http://www.w3.org/2000/svg">

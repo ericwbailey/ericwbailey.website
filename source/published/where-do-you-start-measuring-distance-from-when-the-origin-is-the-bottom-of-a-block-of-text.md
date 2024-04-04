@@ -237,7 +237,7 @@ When you place text on an artboard in design tooling, it provides four different
 
 ### 1. Baseline
 
-In typography, the [baseline](https://en.wikipedia.org/wiki/Baseline_(typography)) is an invisible line that glyphs sit on. There’s a little more nuance to this, but this is a post about measurement, not typographic nitty-gritty.
+In typography, the [baseline](https://en.wikipedia.org/wiki/Baseline_(typography)) is an invisible line that glyphs sit on. There’s a little more nuance to this, but this is a post about measurement, not typographic minutiae.
 
 <div class="centered-media-outer">
   <svg class="centered-media-inner-2" role="img" focusable="false" viewBox="0 0 260 80" fill="none" xmlns="http://www.w3.org/2000/svg">

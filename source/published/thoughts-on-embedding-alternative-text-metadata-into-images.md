@@ -244,7 +244,7 @@ The more we can make **providing alternate text descriptions a social norm**, th
 
 [AI does not know context](https://en.wikipedia.org/wiki/Stochastic_parrot). It is still also an imperfect tool that is susceptible to, and can [perpetuate bias](https://www.theverge.com/24066641/disability-ableism-ai-census-qalys).
 
-We can craft thoughtful UI that can take advantage of AI-based technology in a way that works to its strengths while also providing an opportunity to offset some of its weaknesses. This requires acknowledging both the strengths and limitations of this technology.
+We can craft thoughtful UI that can take advantage of AI-based technology in a way that works to its strengths while also providing an opportunity to offset some of its weaknesses. This requires acknowledging both the advantages and limitations of this technology.
 
 Position AI-provided alternative text descriptions as **a starting point to build from**, and not as something that **invisibly automates away a perceived inconvenience**:
 
