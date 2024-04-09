@@ -8,6 +8,10 @@ year: 2022
 tags:
   - Cognition
   - Subversion
+furtherReading:
+  - title: "Under New Management - Detect when your extensions have changed owners"
+    source: "GitHub"
+    url: https://github.com/classvsoftware/under-new-management
 attribution: "Thanks to Grant, Toby, and Wayne for their feedback."
 sharedOn:
   twitter: TK
