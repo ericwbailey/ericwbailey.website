@@ -26,7 +26,7 @@ I spent a decent amount of time last year helping to create [a table component](
 - Inviting development into the design process, and then vice-versa once component development began,
 - Breaking the work down into smaller, functionality-based tasks (defining rows, columns, sorting, loading, etc.),
 - Making the design an iterative process that incorporated accessibility from the start,
-- Communicating iterative efforts in a predictable and transparent fashion,
+- Communicating efforts in a predictable and transparent fashion,
 - Reviewing each new piece of functionality with daily assistive technology users as both a discrete unit and also part of a larger, holistic whole,
 - Stress-testing the component’s ability to accommodate content,
 - Proactively including both quick and deep documentation (including component anatomy, do’s and don’ts, and best practices), and
@@ -52,7 +52,7 @@ This is objectively great. The problem, however, is how we talk, or fail to talk
 
 Big, flashy things get noticed. Quiet, boring things don’t. A lot of design system work is the exact opposite of glamorous, and this effort is no exception.
 
-In a business context, design system work means **numbers go down**. Less bug reports, faster design iteration, shorter development cycles, fewer visual inconsistencies, smaller staffing requirements, etc. All good things.
+In a business context, design system work means **numbers go down**. Less bug reports, faster design iteration, shorter development cycles, fewer visual inconsistencies, smaller staffing requirements that enable folks to work on more interesting challenges, etc. All good things.
 
 Unfortunately, **contemporary business practices only reward numbers going up**. There isn’t much infrastructure in place to quantify the constant, silent, boring, predictable, round-the-clock passive successes of this aspect of design systems after the initial effort is complete.
 
@@ -73,7 +73,7 @@ My mind immediately jumps how to solve this perceived lack of data. Things like 
 You could torture the data you do have:
 
 - Create a ballpark average time to bug resolution,
-- Multiply that by the number of engineers it took to fix, and then
+- Multiply that by the number of engineers, designers, and project managers it took to fix, and then
 - Multiply that by their averaged approximate salary.
 
 Then compare that result to the lack of it on a quarterly basis, multiplied by the number of components in production. You know, that sort of thing.
