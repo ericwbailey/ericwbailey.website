@@ -11,7 +11,7 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Performance optimizations
 
 ## v1.5.58 - 2024-04-17
-- Add [A perceived contradiction to internalize when working on design systems](https://ericwbailey.website/published/a-perceived-contradiction-to-internalize-when-working-on-design-systems/)
+- Add [Invisible success](https://ericwbailey.website/published/invisible-success/)
 
 ## v1.5.57 - 2024-03-22
 - Add [A perceived contradiction to internalize when working on design systems](https://ericwbailey.website/published/a-perceived-contradiction-to-internalize-when-working-on-design-systems/)
