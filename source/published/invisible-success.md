@@ -3,7 +3,7 @@ layout: "layouts/post.njk"
 title: Invisible success
 source: ericwbailey.website
 excerpt: "It is difficult to quantify a void."
-date: 2024-04-16
+date: 2024-04-17
 year: 2024
 tags:
   - Approach
