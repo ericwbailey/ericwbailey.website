@@ -2,7 +2,7 @@
 layout: "layouts/post.njk"
 title: Invisible success
 source: ericwbailey.website
-excerpt: "It is difficult to quantify a void."
+excerpt: "It is difficult to quantify a void"
 date: 2024-04-17
 year: 2024
 tags:
@@ -26,11 +26,11 @@ I spent a decent amount of time last year helping to create [a table component](
 - Inviting development into the design process, and then vice-versa once component development began,
 - Breaking the work down into smaller, functionality-based tasks (defining rows, columns, sorting, loading, etc.),
 - Making the design an iterative process that incorporated accessibility from the start,
-- Communicating iterative work in a predictable and transparent fashion,
+- Communicating iterative efforts in a predictable and transparent fashion,
 - Reviewing each new piece of functionality with daily assistive technology users as both a discrete unit and also part of a larger, holistic whole,
 - Stress-testing the component’s ability to accommodate content,
-- Proactively including quick and deep documentation (including component anatomy, do’s and don’ts, and best practices), and
-- Conducting a final, pre-release sign-off that was effectively turnkey, where there were no real eleventh hour surprises.
+- Proactively including both quick and deep documentation (including component anatomy, do’s and don’ts, and best practices), and
+- Conducting a final, pre-release sign-off that was effectively turnkey, where there were no eleventh hour surprises.
 
 The table component was released following sign-off. There was then the inevitable short burst of small tweaks and minor bug fixes.
 
@@ -40,7 +40,7 @@ After that, things quieted down. I moved on to the next task and honestly forgot
 
 [Josh, the engineer who developed the component](https://josh.black/) mentioned—almost in passing—that it had ~70 instances spread all across GitHub. These instances are all used in production, many for high traffic, heavy use experiences.
 
-That revelation kind of threw me. Engineers are discovering the table component, reading its documentation, and implementing it into their work—all without needing our involvement.
+That revelation kind of threw me. Engineers all across the organization are discovering the table component, reading its documentation, and implementing it into their work—all without needing our involvement.
 
 The component works. And because it works, **nobody pays attention to it**.
 
@@ -52,19 +52,19 @@ This is objectively great. The problem, however, is how we talk, or fail to talk
 
 Big, flashy things get noticed. Quiet, boring things don’t. A lot of design system work is the exact opposite of glamorous, and this effort is no exception.
 
-In a business context, design system work means **numbers go down**. Less bug reports, faster design iteration, shorter development cycles, fewer visual inconsistencies, smaller staffing requirements, etc. All objectively good things.
+In a business context, design system work means **numbers go down**. Less bug reports, faster design iteration, shorter development cycles, fewer visual inconsistencies, smaller staffing requirements, etc. All good things.
 
 Unfortunately, **contemporary business practices only reward numbers going up**. There isn’t much infrastructure in place to quantify the constant, silent, boring, predictable, round-the-clock passive successes of this aspect of design systems after the initial effort is complete.
 
-A lack of bug reports, accessibility issues, design tweaks, etc. are all objectively great, but there are no easy datapoints you can quantify here. By this, I mean **it is difficult to quantify a void**.
+A lack of bug reports, accessibility issues, design tweaks, etc. are all objectively great, but there are no easy datapoints you can measure here. By this, I mean **it is difficult to quantify a void**.
 
 <img
   alt="A large, completely empty area."
-  height="600"
+  height="650"
   width="300"
   src="{{ '/img/spacer.gif' | url }}">
 
-However, difficult does not mean impossible.
+That said, difficult does not mean impossible.
 
 ## Solutioneering
 
@@ -90,11 +90,11 @@ So, how do you generate quantifiable data on the increasing absence of things? T
 
 I’m honestly not sure.
 
-Much has been written about [how to quantify and sell a design system](https://alistapart.com/article/selling-design-systems/), but I don’t think that this particular aspect can be captured. Please let me know if this is something you’ve dealt with!
+Much has been written about [how to quantify and sell a design system](https://alistapart.com/article/selling-design-systems/), but I don’t think that this particular aspect can be captured. Please let me know if I'm mistaken and this is something you’ve dealt with!
 
 Otherwise, my advice to you is to think about two aspects of design system work that aren’t directly related to making components, but are also a critical part of it:
 
 1. Identifying and collecting various ways to weave compelling narratives about the invisible, successful work you’ve done, and then
 2. Putting those stories in front of the people who need to know them.
 
-Correlating and contextualizing your efforts with tangible outcomes can help to make your successes, and the hard work that went into creating them more visible. This, in turn, helps your design system succeed.
+Correlating and contextualizing your efforts with tangible outcomes can help to make your successes—and the hard work that went into creating them—more visible. This, in turn, helps your design system succeed.
