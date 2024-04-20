@@ -11,8 +11,8 @@ tags:
   - Social Media
   - Subversion
 share:
-  facebookDescription: "A QR code that links to this post with a simple illustration of jeans in the center."
-  twitterDescription: "A QR code that links to this post with a simple illustration of jeans in the center."
+  facebookDescription: "Three pairs of jeans, each one sequentially getting less transparent until the third is fully opaque."
+  twitterDescription: "A pair of jeans."
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}
@@ -139,6 +139,6 @@ This is how I now think. This is the thought process that kicks in when I look a
 
 The one-two punch of three years of social isolation, combined with working in tech for so long has shaped my thought process into something quietly horrific. I don’t like what I’ve been conditioned to become.
 
-I don’t want to reflexively ideate about hypothetical productized exploits to objects we take for granted. I also don’t want to think of potential ways to build from those extractive exploits, and then all their constituent downsides. 
+I don’t want to reflexively ideate about hypothetical productized exploits to objects we take for granted. I also don’t want to think of potential ways to build from those extractive exploits, and then all their constituent downsides.
 
 I also wish I wasn’t so painfully aware of how [tech’s promise has failed to deliver](https://daverog.com/2021/01/04/the-false-promise-of-technology/) in so, so many ways.
