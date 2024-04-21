@@ -8,6 +8,13 @@ year: 2024
 tags:
   - Approach
   - Design Systems
+furtherReading:
+  - title: "Are Design Systems a zero-interest rate phenomenon?"
+    source: "Dave Rupert"
+    url: https://daverupert.com/2024/01/are-design-systems-zero-interest-rate-phenomenon/
+  - title: "Data Driven Design Systems in Practice"
+    source: "Omlet"
+    url: https://omlet.dev/blog/data-driven-design-systems-in-practice/
 share:
   facebookDescription: "A large, completely empty area."
   twitterDescription: "A large, completely empty area."
@@ -82,7 +89,7 @@ Unfortunately, that thought leads to shaky data at best. It’s also going to be
 
 The whole approach is not a good use of time and resources, and realistically a non-starter. Because of this fact, this kind of sifting is typically only prioritized when it comes time to do incident postmortems or [ass-covering](https://www.merriam-webster.com/dictionary/cover%20one%27s%2Fsomeone%27s%20ass).
 
-At this point, I’d also like to point out another phenomenon with business dynamics: A lack of attention and lack of quantification affects how your program is perceived. This perception, in turn, affects the program’s **resources, funding, and reputation**.
+At this point, I’d also like to point out another phenomenon with business dynamics: A lack of attention and lack of quantification [affects how your program is perceived](https://adactio.com/links/20844). This perception, in turn, affects the program’s **resources, funding, and reputation**.
 
 ## Indecision
 
