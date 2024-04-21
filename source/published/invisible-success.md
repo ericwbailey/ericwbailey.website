@@ -15,6 +15,9 @@ furtherReading:
   - title: "Data Driven Design Systems in Practice"
     source: "Omlet"
     url: https://omlet.dev/blog/data-driven-design-systems-in-practice/
+  - title: "Design systems and the never-ending job of buy in"
+    source: "PJ Onori"
+    url: https://pjonori.blog/posts/design-systems-buy-in/
 share:
   facebookDescription: "A large, completely empty area."
   twitterDescription: "A large, completely empty area."
