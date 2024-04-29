@@ -64,7 +64,7 @@ If you run a Mastodon instance you can tweak its CSS MySpace-style via a setting
 
 I’m sure I could dig through Mastodon’s source code, chase down [the higher-order logic](https://github.com/mastodon/mastodon/tree/main/app/javascript/styles), and then construct something more elegant. However, the tangled nest of selectors, comments, and `!important`s I wrote are good enough to get the job done. And that’s just fine for my immediate use case.
 
-Specifically, [`:is()`](https://developer.mozilla.org/en-US/docs/Web/CSS/:is)' ability to lump selectors together and affect their specificity does a lot of the heavy lifting. Namespaced, human-friendly [Custom Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties) also help a lot, in that values now make a lot more sense when scaffolded across all these different co-opted selectors.
+Specifically, [`:where()`](https://developer.mozilla.org/en-US/docs/Web/CSS/:where)' ability to lump selectors together and affect their specificity does a lot of the heavy lifting. Namespaced, human-friendly [Custom Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties) also help a lot, in that values now make a lot more sense when scaffolded across all these different co-opted selectors.
 
 I’m sure I could also do some fancy things with [Cascade Layers](https://developer.mozilla.org/en-US/docs/Web/CSS/@layer), [CSS nesting](https://ishadeed.com/article/css-nesting/), and maybe eventually [`@scope`](https://keithjgrant.com/posts/2023/04/scoped-css-is-back/). But that is a not-right-now-problem.
 
