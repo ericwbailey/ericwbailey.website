@@ -1,6 +1,6 @@
 ---
 layout: "layouts/post.njk"
-title: <code>aria-label</code> is a code smell
+title: I love my not-smart TV
 source: ericwbailey.website
 excerpt: "If it is important enough to need words, it is important enough to use text content."
 date: 2022-10-31
