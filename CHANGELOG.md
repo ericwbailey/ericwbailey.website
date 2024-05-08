@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.59 - 2024-05-08
+- Add [How we’re building more inclusive and accessible components at GitHub](https://github.blog/2024-05-07-how-were-building-more-inclusive-and-accessible-components-at-github/)
+
 ## v1.5.58 - 2024-04-17
 - Add [Invisible success](https://ericwbailey.website/published/invisible-success/)
 
