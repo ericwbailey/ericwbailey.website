@@ -305,7 +305,7 @@ You might be thinking this false expression of confidence is simple arrogance. H
 
 Industrialization creates compartmentalization. This translates to <strong>situations where designers and developers are structurally not incentivized to collaborate</strong>—recall needing to be able to adapt and iterate on process. 
 
-The immediate concern of an industrialized web is transforming static design into interactive code as quickly as possible. To facilitate that, responsibilities become more rigid to better make the person occupying the role more modular. 
+The immediate concern of an industrialized web is transforming static design into interactive code as quickly as possible. To facilitate that, responsibilities become more rigid to better [make the person occupying the role more modular](https://www.baldurbjarnason.com/2024/react-electron-llms-labour-arbitrage/). 
 
 Forget taking time to user test. If a concern does not fit neatly into the parameters that lead to code being produced as quick as possible, <strong>the concern is discarded</strong>. And if the person is judged as not meet those parameters at a sufficient enough level, they are replaced. 
 
