@@ -124,16 +124,16 @@ Seriously. They didn’t have to, but there’s a little burst of static effect 
   controls
   poster="{{ '/img/posts/i-love-my-slightly-smart-tiny-tv/poster-channel-surfing.jpg' | url }}">
   <source
-    src="{{ '/img/posts/i-love-my-slightly-smart-tiny-tv/channel-surfing.mp4' | url }}"
+    src="https://ericwbailey.website/img/posts/i-love-my-slightly-smart-tiny-tv/channel-surfing.mp4"
     type="video/mp4" />
   <source
-    src="{{ '/img/posts/i-love-my-slightly-smart-tiny-tv/channel-surfing.webm' | url }}"
+    src="https://ericwbailey.website/img/posts/i-love-my-slightly-smart-tiny-tv/channel-surfing.webm"
     type="video/webm" />
   <track
     label="English"
     kind="subtitles"
     srclang="en"
-    src="{{ '/img/posts/i-love-my-slightly-smart-tiny-tv/channel-surfing.vtt' | url }}" />
+    src="https://ericwbailey.website/img/posts/i-love-my-slightly-smart-tiny-tv/channel-surfing.vtt" />
 </video>
 <details>
   <summary>
@@ -176,16 +176,16 @@ A small part of this is definitely because I’m wallowing in self-imposed nosta
   controls
   poster="{{ '/img/posts/i-love-my-slightly-smart-tiny-tv/poster-whatchamacallit.jpg' | url }}">
   <source
-    src="{{ '/img/posts/i-love-my-slightly-smart-tiny-tv/whatchamacallit.mp4' | url }}"
+    src="https://ericwbailey.website/img/posts/i-love-my-slightly-smart-tiny-tv/whatchamacallit.mp4"
     type="video/mp4" />
   <source
-    src="{{ '/img/posts/i-love-my-slightly-smart-tiny-tv/whatchamacallit.webm' | url }}"
+    src="https://ericwbailey.website/img/posts/i-love-my-slightly-smart-tiny-tv/whatchamacallit.webm"
     type="video/webm" />
   <track
     label="English"
     kind="subtitles"
     srclang="en"
-    src="{{ '/img/posts/i-love-my-slightly-smart-tiny-tv/whatchamacallit.vtt' | url }}" />
+    src="https://ericwbailey.website/img/posts/i-love-my-slightly-smart-tiny-tv/whatchamacallit.vtt" />
 </video>
 <details>
   <summary>
@@ -225,16 +225,16 @@ I encourage you to find your own version of the TinyTV: A simple, straightforwar
   controls
   poster="{{ '/img/posts/i-love-my-slightly-smart-tiny-tv/poster-thats-all-folks.jpg' | url }}">
   <source
-    src="{{ '/img/posts/i-love-my-slightly-smart-tiny-tv/thats-all-folks.mp4' | url }}"
+    src="https://ericwbailey.website/img/posts/i-love-my-slightly-smart-tiny-tv/thats-all-folks.mp4"
     type="video/mp4" />
   <source
-    src="{{ '/img/posts/i-love-my-slightly-smart-tiny-tv/thats-all-folks.webm' | url }}"
+    src="https://ericwbailey.website/img/posts/i-love-my-slightly-smart-tiny-tv/thats-all-folks.webm"
     type="video/webm" />
   <track
     label="English"
     kind="subtitles"
     srclang="en"
-    src="{{ '/img/posts/i-love-my-slightly-smart-tiny-tv/thats-all-folks.vtt' | url }}" />
+    src="https://ericwbailey.website/img/posts/i-love-my-slightly-smart-tiny-tv/thats-all-folks.vtt" />
 </video>
 <details>
   <summary>
