@@ -3,7 +3,7 @@ layout: "layouts/post.njk"
 title: I love my slightly smart tiny TV
 source: ericwbailey.website
 excerpt: "I swear this isn’t a sponsored post"
-date: 2024-04-17
+date: 2024-05-13
 year: 2024
 tags:
   - Devices
