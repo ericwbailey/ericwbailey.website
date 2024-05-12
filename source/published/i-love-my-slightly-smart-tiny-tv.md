@@ -129,13 +129,11 @@ Seriously. They didn’t have to, but there’s a little burst of static effect 
   <source
     src="{{ '/img/posts/i-love-my-slightly-smart-tiny-tv/channel-surfing.webm' | url }}"
     type="video/webm" />
-    This browser does not support the <code>video</code> element. <a rel="download" href="{{ '/img/posts/i-love-my-slightly-smart-tiny-tv/channel-surfing.webm' | url }}">Download <code>channel-surfing.webm</code></a>.
   <track
     label="English"
     kind="subtitles"
     srclang="en"
-    src="captions/vtt/channel-surfing.vtt"
-    default />
+    src="{{ '/img/posts/i-love-my-slightly-smart-tiny-tv/channel-surfing.vtt' | url }}" />
 </video>
 <details>
   <summary>
@@ -183,13 +181,11 @@ A small part of this is definitely because I’m wallowing in self-imposed nosta
   <source
     src="{{ '/img/posts/i-love-my-slightly-smart-tiny-tv/whatchamacallit.webm' | url }}"
     type="video/webm" />
-    This browser does not support the <code>video</code> element. <a rel="download" href="{{ '/img/posts/i-love-my-slightly-smart-tiny-tv/whatchamacallit.webm' | url }}">Download <code>whatchamacallit.webm</code></a>.
   <track
     label="English"
     kind="subtitles"
     srclang="en"
-    src="captions/vtt/whatchamacallit.vtt"
-    default />
+    src="{{ '/img/posts/i-love-my-slightly-smart-tiny-tv/whatchamacallit.vtt' | url }}" />
 </video>
 <details>
   <summary>
@@ -234,13 +230,11 @@ I encourage you to find your own version of the TinyTV: A simple, straightforwar
   <source
     src="{{ '/img/posts/i-love-my-slightly-smart-tiny-tv/thats-all-folks.webm' | url }}"
     type="video/webm" />
-    This browser does not support the <code>video</code> element. <a rel="download" href="{{ '/img/posts/i-love-my-slightly-smart-tiny-tv/thats-all-folks.webm' | url }}">Download <code>thats-all-folks.webm</code></a>.
   <track
     label="English"
     kind="subtitles"
     srclang="en"
-    src="captions/vtt/thats-all-folks.vtt"
-    default />
+    src="{{ '/img/posts/i-love-my-slightly-smart-tiny-tv/thats-all-folks.vtt' | url }}" />
 </video>
 <details>
   <summary>
