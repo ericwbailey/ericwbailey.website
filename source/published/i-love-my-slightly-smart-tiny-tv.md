@@ -31,7 +31,7 @@ I impulse bought a [TinyTV 2](https://tinytv.us/TV2-Get-Started/) recently. It s
   <img
     alt="A cozy-looking minature living room placed on the shelf of a piece of normal-sized furniture. The living room has a tiny wooden dresser bureau with gold knobs. A book, vase, and a hand-knit potted fern sit atop the dresser. To the left and right of it are two potted plants, one reminiscent of a monstera and the other a snake plant. In front of the bureai is a small square of fabric decorated with abstract geometric shapes, serving as a carpet. Placed on the carpet are a mini white dog, a mini chicken with three even smaller chicks, two little blobs with smiley faces, and a tiny vase holding angel's breath flowers. There is Above the bureau is a proportinately small decorative mirror and five pieces of art, some with ornate golden frames. In front of the bureau and to the left of the carpet is the tiny TV. It looks like how a TV from the 1940s might, with a large boxy frame, faux wood exterior, and a front metal speaker grill flanked by two control dials. The TV's frame is also held up off the ground via four small faux wooden legs. Finally, a penny is placed on the side of the carpet opposite of the TV, to better communicate the sense of scale."
     loading="lazy"
-    src="{{ '/img/posts/tiny-living-room.jpg' | url }}" />
+    src="{{ '/img/posts/i-love-my-slightly-smart-tiny-tv/tiny-living-room.jpg' | url }}" />
   <figcaption>
     I live in a small place. It’s a whole thing, don’t worry about it.
   </figcaption>
@@ -124,6 +124,9 @@ Seriously. They didn’t have to, but there’s a little burst of static effect 
   controls
   poster="{{ '/img/posts/i-love-my-slightly-smart-tiny-tv/poster-channel-surfing.jpg' | url }}">
   <source
+    src="{{ '/img/posts/i-love-my-slightly-smart-tiny-tv/channel-surfing.mp4' | url }}"
+    type="video/mp4" />
+  <source
     src="{{ '/img/posts/i-love-my-slightly-smart-tiny-tv/channel-surfing.webm' | url }}"
     type="video/webm" />
     This browser does not support the <code>video</code> element. <a rel="download" href="{{ '/img/posts/i-love-my-slightly-smart-tiny-tv/channel-surfing.webm' | url }}">Download <code>channel-surfing.webm</code></a>.
@@ -175,6 +178,9 @@ A small part of this is definitely because I’m wallowing in self-imposed nosta
   controls
   poster="{{ '/img/posts/i-love-my-slightly-smart-tiny-tv/poster-whatchamacallit.jpg' | url }}">
   <source
+    src="{{ '/img/posts/i-love-my-slightly-smart-tiny-tv/whatchamacallit.mp4' | url }}"
+    type="video/mp4" />
+  <source
     src="{{ '/img/posts/i-love-my-slightly-smart-tiny-tv/whatchamacallit.webm' | url }}"
     type="video/webm" />
     This browser does not support the <code>video</code> element. <a rel="download" href="{{ '/img/posts/i-love-my-slightly-smart-tiny-tv/whatchamacallit.webm' | url }}">Download <code>whatchamacallit.webm</code></a>.
@@ -222,6 +228,9 @@ I encourage you to find your own version of the TinyTV: A simple, straightforwar
 <video
   controls
   poster="{{ '/img/posts/i-love-my-slightly-smart-tiny-tv/poster-thats-all-folks.jpg' | url }}">
+  <source
+    src="{{ '/img/posts/i-love-my-slightly-smart-tiny-tv/thats-all-folks.mp4' | url }}"
+    type="video/mp4" />
   <source
     src="{{ '/img/posts/i-love-my-slightly-smart-tiny-tv/thats-all-folks.webm' | url }}"
     type="video/webm" />
