@@ -18,7 +18,7 @@ sharedOn:
 series:
   next:
     - title: "I love my slightly smart TV"
-      url: https://ericwbailey.website/published/i-love-my-slightly-smart-tv/
+      url: https://ericwbailey.website/published/i-love-my-slightly-smart-tiny-tv/
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}
