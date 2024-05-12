@@ -1,31 +1,27 @@
 ---
-layout: "layouts/post.njk"
 title: I love my not-smart TV
-source: ericwbailey.website
-excerpt: "If it is important enough to need words, it is important enough to use text content."
-date: 2022-10-31
-year: 2022
+source: this website
+excerpt: "A TV is a passive device, used for passive consumption."
+date: 2021-04-07
+year: 2021
 tags:
-  - Accessibility
-  - Approach
-  - Assistive Technology
-  - Attributes
-  - Development
-attribution: "Thank you to <a href='https://twitter.com/JamesScholes'>James Scholes</a> for his feedback."
+  - iot
 furtherReading:
-  - title: "The Curious Case of “iff” and Overriding Screenreader Pronunciations"
-    source: "Ben Myers"
-    url: https://benmyers.dev/blog/overriding-screenreader-pronunciations/
+  - title: "Your Smart TV Knows What You’re Watching"
+    source: "The Markup"
+    url: https://themarkup.org/privacy/2023/12/12/your-smart-tv-knows-what-youre-watching
+aroundTheWeb:
+  - title: Hacker News
+    url: https://news.ycombinator.com/item?id=26733126
 sharedOn:
-  twitter: https://twitter.com/ericwbailey/status/1587084379381178369
-  mastodon: https://mstdn.social/@ericwbailey/109263293469919964
-share:
-  facebookDescription: "aria-label is a code smell."
-  twitterDescription: "A nose."
+  twitter: https://twitter.com/ericwbailey/status/1379815177693110282
+series:
+  next:
+    - title: "I love my slightly smart TV"
+      url: https://ericwbailey.website/published/i-love-my-slightly-smart-tv/
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}
-  order: 19
 ---
 
 After years of faithful service, I gently retired my old Panasonic TV. It was, and still is a good TV. It has 2 HDMI ports, a straightforward menu, and not much else.

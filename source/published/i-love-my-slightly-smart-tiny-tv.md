@@ -2,7 +2,7 @@
 layout: "layouts/post.njk"
 title: I love my slightly smart tiny TV
 source: ericwbailey.website
-excerpt: "I swear this isn’t a sponsored post."
+excerpt: "I swear this isn’t a sponsored post"
 date: 2024-04-17
 year: 2024
 tags:
@@ -11,6 +11,10 @@ tags:
 share:
   facebookDescription: "A simplified illustration of a small, retro-looking TV."
   twitterDescription: "A simplified illustration of a small, retro-looking TV."
+series:
+  previous:
+    - title: "I love my not-smart TV"
+      url: https://ericwbailey.website/published/i-love-my-not-smart-tv/
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}
