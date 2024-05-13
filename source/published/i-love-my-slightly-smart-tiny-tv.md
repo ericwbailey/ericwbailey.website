@@ -29,7 +29,7 @@ eleventyNavigation:
   }
 
   details summary {
-    line-height: 1;
+    line-height: 1.2;
   }
 
   details p {
@@ -102,14 +102,14 @@ This so perfectly recreates the aimless, serendipity-searching channel surfing e
 
 [TinyCircuits](https://tinycircuits.com/) was under no obligation to do this, but they also provide [a free companion app](https://tinytv.us/TinyTV-Converter-App/) for converting video files to a format that works for the device.
 
-The companion app is also refreshingly direct. You:
+The app is also refreshingly direct. You:
 
 - Pick a video file,
 - Set the specific model of TinyTV it’ll be added to,
 - Set if you want it stretched or cropped to fit, and then
 - Set a destination to export to.
 
-The app is also just a tad unpolished-feeling, but that’s honestly part of the charm. It also has effortlessly handled all the incoming video file formats I’ve thrown at it.
+The app is also just a tad unpolished-feeling, but that’s honestly part of the charm. More importantly, it also has effortlessly handled all the incoming video file formats I’ve thrown at it.
 
 Sure, you could do all your [video processing via the command line](https://github.com/yt-dlp/yt-dlp?tab=readme-ov-file#usage-and-options), but this app is the dream of UI made manifest—taking a complicated terminal command with enough variables that it [isn’t worth automating](https://www.explainxkcd.com/wiki/index.php/1319:_Automation) and instead turn it into a few clicks.
 
@@ -173,7 +173,7 @@ It also does not place me in the headspace that [requires a paranoid mind](https
 
 [Videos I copy](https://github.com/yt-dlp/yt-dlp) to the TinyTV won’t [disappear from the streaming service I pay for](https://www.youtube.com/watch?v=yvhv7bgmz64) one day without warning. They also won’t be sold off as part of some venture capital debt shell game, regardless of how much I enjoyed the content.
 
-Additionally, using it does not make me feel like I’m helping [contribute to the pointless acceleration of our climate collapse by way of overhyped chatbots powered by theft](https://www.newyorker.com/news/daily-comment/the-obscene-energy-demands-of-ai). It also does not feel like I am indirectly helping to bolster the [meta-agendas of cryptofascists](https://theconversation.com/a-new-silicon-valley-manifesto-reveals-the-bleak-dangerous-philosophy-driving-the-tech-industry-216894).
+Additionally, using it does not make me feel like I’m helping [contribute to the pointless acceleration of climate collapse by way of overhyped chatbots powered by theft](https://www.newyorker.com/news/daily-comment/the-obscene-energy-demands-of-ai). It also does not feel like I am indirectly helping to bolster the [meta-agendas of cryptofascists](https://theconversation.com/a-new-silicon-valley-manifesto-reveals-the-bleak-dangerous-philosophy-driving-the-tech-industry-216894).
 
 ## Good enough can be great
 
@@ -220,7 +220,7 @@ Don’t get we wrong: simpler isn’t necessarily better, and [nostalgia can be 
 
 Surprise! A lot of my friends are also gigantic, ancient nerds.
 
-I’ve had so much fun showing my friends the TinyTV. They openly smile, giggle, and laugh with a genuine sense of delight when first seeing and operating it. Heck, I know two of them straight-up bought one right after.
+I’ve had so much fun showing my friends the TinyTV. They openly smile, giggle, and laugh with a genuine sense of delight when first seeing and operating it. Heck, I know two of them straight-up bought one for themselves right after.
 
 And this delight is the actual, earnest version of the term. It’s not the tech-diluted meaning, where a stakeholder can push their own “numbers go up“ agenda to make some part of the experience worse.
 
