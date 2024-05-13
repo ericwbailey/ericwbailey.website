@@ -8,6 +8,7 @@ year: 2024
 tags:
   - Devices
   - Personal
+inlineStyles: true
 share:
   facebookDescription: "A simplified illustration of a small, retro-looking TV."
   twitterDescription: "A simplified illustration of a small, retro-looking TV."
@@ -20,6 +21,21 @@ eleventyNavigation:
   parent: {{ year }}
   order: 48
 ---
+
+<style>
+  details {
+    font-size: var(--scale1);
+    margin-top: 0;
+  }
+
+  details summary {
+    line-height: 1;
+  }
+
+  details p {
+    margin-top: var(--scale0);
+  }
+</style>
 
 I swear this isn’t a sponsored post.
 
@@ -120,22 +136,18 @@ You might think that all those missing “features” are not included by way of
 
 Seriously. They didn’t have to, but there’s a little burst of static effect that fires between channel changes:
 
-<video
-  controls
-  poster="{{ '/img/posts/i-love-my-slightly-smart-tiny-tv/poster-channel-surfing.jpg' | url }}">
-  <source
-    src="https://ericwbailey.website/img/posts/i-love-my-slightly-smart-tiny-tv/channel-surfing.mp4"
-    type="video/mp4" />
-  <source
-    src="https://ericwbailey.website/img/posts/i-love-my-slightly-smart-tiny-tv/channel-surfing.webm"
-    type="video/webm" />
-  <track
-    label="English"
-    kind="subtitles"
-    srclang="en"
-    src="https://ericwbailey.website/img/posts/i-love-my-slightly-smart-tiny-tv/channel-surfing.vtt" />
-</video>
-<details>
+<p class="hide-visually">
+  <a href="#channel-surfing-video-description">
+    Skip channel surfing YouTube embed.
+  </a>
+</p>
+<div class="video-wrapper">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/WmwpMnf7Evo?si=RGGNn5sz9zkw3YTM"
+    title="YouTube: TinyTV - Channel Surfing"
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<details id="channel-surfing-video-description">
   <summary>
     Channel surfing video description
   </summary>
@@ -172,22 +184,18 @@ It’s all so liberating feeling.
 
 A small part of this is definitely because I’m wallowing in self-imposed nostalgia. There’s a self-imposed rule of sticking to content from the mid 80s to early 90s that I (mostly) stick to. This rule also ensures the content the TinyTV displays—and the experience it creates—matches its form factor.
 
-<video
-  controls
-  poster="{{ '/img/posts/i-love-my-slightly-smart-tiny-tv/poster-whatchamacallit.jpg' | url }}">
-  <source
-    src="https://ericwbailey.website/img/posts/i-love-my-slightly-smart-tiny-tv/whatchamacallit.mp4"
-    type="video/mp4" />
-  <source
-    src="https://ericwbailey.website/img/posts/i-love-my-slightly-smart-tiny-tv/whatchamacallit.webm"
-    type="video/webm" />
-  <track
-    label="English"
-    kind="subtitles"
-    srclang="en"
-    src="https://ericwbailey.website/img/posts/i-love-my-slightly-smart-tiny-tv/whatchamacallit.vtt" />
-</video>
-<details>
+<p class="hide-visually">
+  <a href="#whatchamacallit-commercial-video-description">
+    Skip Whatchamacallit YouTube embed.
+  </a>
+</p>
+<div class="video-wrapper">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/QyAui327yZM?si=JhMKWQ1enG6Zu9SE"
+    title="YouTube: TinyTV - Whatchamacallit"
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<details id="whatchamacallit-commercial-video-description">
   <summary>
     Whatchamacallit commercial video description
   </summary>
@@ -221,22 +229,18 @@ It’s less about the [retrocomputing](https://en.wikipedia.org/wiki/Retrocomput
 
 I encourage you to find your own version of the TinyTV: A simple, straightforward digital experience that brings uncomplicated fun into your and other people’s lives.
 
-<video
-  controls
-  poster="{{ '/img/posts/i-love-my-slightly-smart-tiny-tv/poster-thats-all-folks.jpg' | url }}">
-  <source
-    src="https://ericwbailey.website/img/posts/i-love-my-slightly-smart-tiny-tv/thats-all-folks.mp4"
-    type="video/mp4" />
-  <source
-    src="https://ericwbailey.website/img/posts/i-love-my-slightly-smart-tiny-tv/thats-all-folks.webm"
-    type="video/webm" />
-  <track
-    label="English"
-    kind="subtitles"
-    srclang="en"
-    src="https://ericwbailey.website/img/posts/i-love-my-slightly-smart-tiny-tv/thats-all-folks.vtt" />
-</video>
-<details>
+<p class="hide-visually">
+  <a href="#thats-all-folks-video-description">
+    Skip that’s all folks YouTube embed.
+  </a>
+</p>
+<div class="video-wrapper">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/17v5pj6-g0k?si=8HxoS5b0KQzIX7k8"
+    title="YouTube: TinyTV - That's all folks"
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<details id="thats-all-folks-video-description">
   <summary>
     That’s all folks video description
   </summary>
