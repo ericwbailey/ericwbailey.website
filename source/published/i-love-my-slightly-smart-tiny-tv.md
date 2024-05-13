@@ -25,7 +25,7 @@ eleventyNavigation:
 <style>
   details {
     font-size: var(--scale1);
-    margin-top: 0;
+    margin-top: 0 !important;
   }
 
   details summary {
@@ -34,7 +34,7 @@ eleventyNavigation:
 
   details p {
     line-height: 1.35;
-    margin-top: var(--scale0) !important;
+    margin-top: var(--scale0);
   }
 </style>
 
