@@ -33,7 +33,7 @@ eleventyNavigation:
   }
 
   details p {
-    line-height: 1.3;
+    line-height: 1.35;
     margin-top: var(--scale0) !important;
   }
 </style>
@@ -76,18 +76,16 @@ There’s also no limit on video length past the device’s eight gigabyte stora
 
 Each video file corresponds to a “channel” on the TV. Channel order is assigned via alphanumeric sorting of the video’s filename, combined with a preference toggle. This means you could manually curate an order by using something like a numbered prefix.
 
-You could also be like me and give yourself the grace of chucking them on in whatever order they land on and not think twice about. This act has felt freeing, given how much I have to methodically curate so many of my other aspects of my digital life.
+You could also be like me and give yourself the grace of chucking them on in whatever order they land on and not think twice about it. This act has felt freeing, given how much I have to methodically curate so many of my other aspects of my digital life.
 
-There is also [a companion web experience](https://tinytv.us/Settings/) that uses [the Web USB API](https://developer.mozilla.org/en-US/docs/Web/API/USB) to write to the device to set preferences:
+There is also [a companion web experience](https://tinytv.us/Settings/) that uses [the Web USB API](https://developer.mozilla.org/en-US/docs/Web/API/USB) to write to the device and set preferences:
 
 <img
   alt="A list of preferences titled, 'TV Settings'. The instructions read, 'Change settings on TinyTV 2, Mini, or DIY Kit. The preferences each have an on or off radio switch, except for the volume setting, which is a range slider set to its max value of 6. The settings are loop video, live video, alphabatize playback, static effect, show channel number, show volume, and random start time. I have configured my TinyTV to not loop video or show live video, to sort alphabetically and change channels with a static effect, starting at a random start time. The channel number and volume are also set to display. Following the preferences are two buttons, one labeled, 'Format TV' and the other labeled, 'Disconnect'."
   loading="lazy"
   src="{{ '/img/posts/i-love-my-slightly-smart-tiny-tv/settings.png' | url }}" />
 
-All this site does is have a slightly more user friendly way to modify a plaintext configuration file stored on the drive’s root. In addition, the preference option names are actually human-readable.
-
-I have my TV set to jump to a random point in the video when the channel is changed, then change to the next channel in sequence when the current video is done:
+All this site does is have a slightly more easy way to modify a plaintext configuration file stored on the drive’s root. In addition, the preference option names are actually human-readable:
 
 ```
 loopVideo=false
@@ -96,7 +94,9 @@ randStartTime=true
 randStartChan=true
 ```
 
-This so perfectly recreates the aimless, serendipity-searching channel surfing experience I did as a kid.
+This sets my TinyTV set to jump to a random point in the video when the channel is changed, then change to the next channel in sequence when the current video is done.
+
+This so perfectly recreates the aimless, serendipity-searching channel surfing experience of my childhood.
 
 ## But wait, there’s more
 
@@ -109,9 +109,9 @@ The companion app is also refreshingly direct. You:
 - Set if you want it stretched or cropped to fit, and then
 - Set a destination to export to.
 
-The companion app is just a tad unpolished-feeling, but that’s honestly part of the charm. It also has effortlessly handled all the incoming video file formats I’ve thrown at it.
+The app is also just a tad unpolished-feeling, but that’s honestly part of the charm. It also has effortlessly handled all the incoming video file formats I’ve thrown at it.
 
-Sure, you could do all your [video processing](https://github.com/yt-dlp/yt-dlp?tab=readme-ov-file#usage-and-options) [via the command line](https://github.com/yt-dlp/yt-dlp?tab=readme-ov-file#usage-and-options), but this app is the dream of UI made manifest—taking a complicated terminal command with enough variables that it [isn’t worth automating](https://www.explainxkcd.com/wiki/index.php/1319:_Automation) and instead turns it into a few clicks.
+Sure, you could do all your [video processing via the command line](https://github.com/yt-dlp/yt-dlp?tab=readme-ov-file#usage-and-options), but this app is the dream of UI made manifest—taking a complicated terminal command with enough variables that it [isn’t worth automating](https://www.explainxkcd.com/wiki/index.php/1319:_Automation) and instead turn it into a few clicks.
 
 ## It’s also about what isn’t there
 
@@ -167,23 +167,23 @@ If someone from TinyCircuits somehow discovers and reads this: **Thank you!** Th
 
 Getting this tiny, slightly smart TV made me realize how [disenchanted I’ve become by contemporary computing culture](https://stackoverflow.blog/2023/12/25/is-software-getting-worse/), and all of the [exhausting, extractive, exploitative bullshit that surrounds it](https://arstechnica.com/gadgets/2024/02/what-i-do-to-clean-up-a-clean-install-of-windows-11-23h2-and-edge/).
 
-A one and done transaction got me a device that does its job well—in fact, far better than it has any right to for its price. This threw into sharp relief how rare that is in the current, [bloom-off-the-rose](https://www.technologyreview.com/2022/10/21/1061260/innovation-technology-what-happened/) of Silicon Valley, [enshitified](https://www.theverge.com/2024/4/21/24063379/windows-11-ads-bing-edge-cruft) era of technology.
+A one and done transaction got me a device that does its job well—in fact, far better than it has any right to for its price. This threw into sharp relief how rare that is in the current, [bloom-off-the-rose](https://www.technologyreview.com/2022/10/21/1061260/innovation-technology-what-happened/), [enshitified](https://www.theverge.com/2024/4/21/24063379/windows-11-ads-bing-edge-cruft) era of Silicon Valley.
 
-I’m not in the headspace that [requires a paranoid mind](https://ericwbailey.website/published/my-jeans-metadata-may-outlive-the-company-that-sold-them/), knowing it will need to search for, and archiving media in its best possible version on a local device.
+It also does not place me in the headspace that [requires a paranoid mind](https://ericwbailey.website/published/my-jeans-metadata-may-outlive-the-company-that-sold-them/). I won’t need to search for, and archive media in its best possible version on a local device.
 
 [Videos I copy](https://github.com/yt-dlp/yt-dlp) to the TinyTV won’t [disappear from the streaming service I pay for](https://www.youtube.com/watch?v=yvhv7bgmz64) one day without warning. They also won’t be sold off as part of some venture capital debt shell game, regardless of how much I enjoyed the content.
 
-Additionally, using it also does not make me feel like I’m helping [contribute to the pointless acceleration of our climate collapse by way of overhyped chatbots powered by theft](https://www.newyorker.com/news/daily-comment/the-obscene-energy-demands-of-ai). It also does not feel like I am indirectly helping to bolster the [meta-agendas of cryptofascists](https://theconversation.com/a-new-silicon-valley-manifesto-reveals-the-bleak-dangerous-philosophy-driving-the-tech-industry-216894).
+Additionally, using it does not make me feel like I’m helping [contribute to the pointless acceleration of our climate collapse by way of overhyped chatbots powered by theft](https://www.newyorker.com/news/daily-comment/the-obscene-energy-demands-of-ai). It also does not feel like I am indirectly helping to bolster the [meta-agendas of cryptofascists](https://theconversation.com/a-new-silicon-valley-manifesto-reveals-the-bleak-dangerous-philosophy-driving-the-tech-industry-216894).
 
 ## Good enough can be great
 
-I know I’m looking to more evoke a feeling than perfectly archive something I half-remember from my childhood.
+Touching back on not needing to archive, I know I’m looking to more evoke a feeling than perfectly archive something I half-remember from my childhood.
 
 I use whatever version of the video I can get my hands on, knowing it’ll be intentionally shrunk down, downsampled, and [demade](https://tvtropes.org/pmwiki/pmwiki.php/Main/VideogameDemake). And if I can’t find a source video, it’s fine.
 
-It’s all so liberating feeling.
+It feels so liberating.
 
-A small part of this is definitely because I’m wallowing in self-imposed nostalgia. There’s a self-imposed rule of sticking to content from the mid 80s to early 90s that I (mostly) stick to. This rule also ensures the content the TinyTV displays—and the experience it creates—matches its form factor.
+A small part of this is definitely because I’m wallowing in self-imposed nostalgia. There’s a rule I made up for myself of (mostly) sticking to content from the mid 80s to early 90s. This rule also ensures the content the TinyTV displays—and the experience it creates—matches its form factor.
 
 <p class="hide-visually">
   <a href="#whatchamacallit-commercial-video-description">
@@ -212,7 +212,7 @@ A small part of this is definitely because I’m wallowing in self-imposed nosta
   <p>The tiny TV looks like how a television from the 1940s might, with a large boxy frame, faux wood exterior, and a front metal speaker grill flanked by two control dials. The TV's frame is also held up off the ground via four small faux wooden legs.</p>
 </details>
 
-A larger part of this feeling is because the device is simple, straightforward, unambitious, and intentionally imperfect. A dwelling in those qualities is joy.
+A larger part of this feeling is because the device is simple, straightforward, unambitious, and intentionally imperfect. And <strong>dwelling in those qualities is joy</strong>.
 
 Don’t get we wrong: simpler isn’t necessarily better, and [nostalgia can be a trap](https://antientro.pics/retro/criticism/2024/05/05/sick-of-old-computers). But the technology the TinyTV is paying tribute to, and [the media I load onto it](https://www.youtube.com/watch?v=bLlj_GeKniA) was far more innocent about where [things would wind up](https://www.axios.com/2024/04/23/google-fires-employees-protest-israel-contract-nimbus).
 
@@ -224,9 +224,9 @@ I’ve had so much fun showing my friends the TinyTV. They openly smile, giggle,
 
 And this delight is the actual, earnest version of the term. It’s not the tech-diluted meaning, where a stakeholder can push their own “numbers go up“ agenda to make some part of the experience worse.
 
-It’s such a rare thing these days to see technology evoke this kind of unvarnished, positive emotion. This feeling is why I felt compelled to commit ~1,250 words to code to ramble on about a little electronic tchotchke.
+It’s such a rare thing these days to see technology evoke this kind of unvarnished, positive emotion when it comes to anything tech-related. This feeling is why I felt compelled to commit ~1,250 words to code to ramble on about a little electronic tchotchke.
 
-It’s less about the [retrocomputing](https://en.wikipedia.org/wiki/Retrocomputing), and more about sharing this moment with others. It’s about the joy of the experience, and the joy of sharing that experience with others.
+It’s less about the [retrocomputing](https://en.wikipedia.org/wiki/Retrocomputing), and more about the joy of the experience. Even more importantly, it’s about the joy of sharing this experience with others.
 
 I encourage you to find your own version of the TinyTV: A simple, straightforward digital experience that brings uncomplicated fun into your and other people’s lives.
 
