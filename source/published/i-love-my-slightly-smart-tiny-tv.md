@@ -33,7 +33,8 @@ eleventyNavigation:
   }
 
   details p {
-    margin-top: var(--scale0);
+    line-height: 1.3;
+    margin-top: var(--scale0) !important;
   }
 </style>
 
