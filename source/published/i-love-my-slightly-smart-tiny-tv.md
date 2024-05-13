@@ -25,7 +25,7 @@ eleventyNavigation:
 <style>
   details {
     font-size: var(--scale1);
-    margin-top: 0 !important;
+    margin-top: 0.25rem !important;
   }
 
   details summary {
@@ -201,7 +201,7 @@ A small part of this is definitely because I’m wallowing in self-imposed nosta
     Whatchamacallit commercial video description
   </summary>
   <p>A small, retro-style TV placed on a wooden dining room table, with a soft-focus bookshelf behind it.</p>
-  <p>The TV turns on to show a commercial that opens with a photocopy collage animation of an Steampunk airship driven by a man in a old-fashioned suit and hat. It then transitions to a smiley face pin, followed by a young black and white cartoon woman holding a candy bar called Whatchamacallit. The candy bar is colored, to better emphasize it. The cartoon's illustration style is minimal like a linocut illustration, and reminiscent of a Charles Burns comic.</p>
+  <p>The TV turns on to show a commercial that opens with a photocopy collage animation of a Steampunk airship driven by a man in a old-fashioned suit and hat. It then transitions to a smiley face pin, followed by a young black and white cartoon woman holding a candy bar called Whatchamacallit. The candy bar is colored, to better emphasize it. The cartoon's illustration style is minimal like a linocut illustration, and reminiscent of a Charles Burns comic.</p>
   <p>This is followed by a UFO getting struck by a laser beam and exploding, which morphs to video footage of a large stream of melted chocolate being poured into a swirling vat. Another black and white cartoon scene is then shown, this time of a man eating a color chocolate bar. This scene then has numbered shoe-prints overlaid over it to show dance steps.</p>
   <p>Following that is a Monty Python-style collage animation of some sort of surreal organ on wheels, which wipes to show a human finger drawing a taut, sticky material upwards from the pool it is resting in. After that is another black and white cartoon woman who gently bites the tip of her finger almost seductively.</p>
   <p>A three by three grid of esoteric objects rotate through quick enough that they cannot be identified. This then transitions to a question mark overlay, which, in turn, transitions to an umbrella blocking a rain of peanuts. The rain scene then fades for another black and white cartoon woman. She is holding a color candy bar in one hand and outstretches the other to feel the peanut rain, which continues to fall in the background.</p>
