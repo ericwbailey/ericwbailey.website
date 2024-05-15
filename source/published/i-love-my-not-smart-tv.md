@@ -10,6 +10,9 @@ furtherReading:
   - title: "Your Smart TV Knows What You’re Watching"
     source: "The Markup"
     url: https://themarkup.org/privacy/2023/12/12/your-smart-tv-knows-what-youre-watching
+  - title: "why every television sucks too"
+    source: "moth.monster"
+    url: https://moth.monster/blog/microwavification/
 aroundTheWeb:
   - title: Hacker News
     url: https://news.ycombinator.com/item?id=26733126
@@ -19,6 +22,9 @@ series:
   next:
     - title: "I love my slightly smart TV"
       url: https://ericwbailey.website/published/i-love-my-slightly-smart-tiny-tv/
+share:
+  facebookDescription: "A cartoon speech bubble with a grawlix swear inside it."
+  twitterDescription: "A cartoon speech bubble with a grawlix swear inside it."
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}
