@@ -5,7 +5,7 @@ excerpt: "A TV is a passive device, used for passive consumption."
 date: 2021-04-07
 year: 2021
 tags:
-  - iot
+  - Devices
 furtherReading:
   - title: "Your Smart TV Knows What You’re Watching"
     source: "The Markup"

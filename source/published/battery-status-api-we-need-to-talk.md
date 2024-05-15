@@ -7,7 +7,7 @@ year: 2016
 tags:
   - Design
   - Development
-  - IoT
+  - Devices
   - Subversion
 sharedOn:
   twitter: https://twitter.com/ericwbailey/status/733704452394246144

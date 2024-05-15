@@ -6,7 +6,7 @@ date: 2016-11-15
 year: 2016
 tags:
   - Design
-  - IoT
+  - Devices
 sharedOn:
   twitter: https://twitter.com/ericwbailey/status/798912619113545728
 eleventyNavigation:
