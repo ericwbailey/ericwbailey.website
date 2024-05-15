@@ -12,6 +12,7 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 
 ## v1.5.60 - 2024-05-12
 - Add [I love my slightly smart TV](https://ericwbailey.website/published/i-love-my-slightly-smart-tiny-tv/)
+- Replace the "IoT" tag with the "Devices" tag
 
 ## v1.5.59 - 2024-05-08
 - Add [How we’re building more inclusive and accessible components at GitHub](https://github.blog/2024-05-07-how-were-building-more-inclusive-and-accessible-components-at-github/)
