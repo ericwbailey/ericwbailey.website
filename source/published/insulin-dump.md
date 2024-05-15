@@ -8,7 +8,7 @@ year: 2021
 tags:
   - Assistive Technology
   - Inclusion
-  - IoT
+  - Devices
   - Tweet Thread
 tweetThread:
   - url: https://twitter.com/ericwbailey/status/1071867413594103813
