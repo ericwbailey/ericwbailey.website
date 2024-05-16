@@ -22,7 +22,7 @@ eleventyNavigation:
   order: 29
 ---
 
-For each and every Global Accessibility Awareness Day [(#<abbr>GAAD</abbr>)](https://twitter.com/hashtag/GAAD) post a company puts out today, ask:
+For each and every [Global Accessibility Awareness Day (#<abbr>GAAD</abbr>)](https://accessibility.day/) post a company puts out today, ask:
 
 - Does the announcement page support basic accessibility considerations (underlined links, captioned videos, valid markup, etc.)?
 - Does the announcement include alternative descriptions for its promotional images? And if so, do they sufficiently describe the image’s content?
@@ -31,10 +31,10 @@ For each and every Global Accessibility Awareness Day [(#<abbr>GAAD</abbr>)](htt
 - Does the announcement use [inspiration porn](https://enabled.in/wp/stella-young-im-not-your-inspiration/) to communicate its message?
 - Does the announcement prop up a [disability dongle](https://blog.castac.org/2022/04/disability-dongle/) in an attempt to solutioneer something?
 - Does the announcement tout a product that is designed for, and not with, or at the request of disabled people?
-- Is that product prohibitively expensive, exclusive, or have no long-term support plan?
+- Is that product prohibitively expensive, exclusive, or have [no long-term support plan](https://spectrum.ieee.org/bionic-eye-obsolete)?
 - Does the announcement try to use AI as a “solution” for disabled people?
 - Does the announcement pressure the disclosure of disabled status and experience for one-day social media clout?
-- Does the announement have a paternal tone?
+- Does the announcement have a paternal tone?
 - Does the announcement use [ableist language](https://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html)?
 - Does the announcement de-center the disabled experience by trying to communicate in terms of value for all?
 - Does the announcement de-center the disabled experience by trying to communicate value in terms of SEO benefits?
