@@ -41,6 +41,7 @@ For each and every Global Accessibility Awareness Day [(#<abbr>GAAD</abbr>)](htt
 - Is there a public, written support from the C-level for the company’s commitment?
 - Is there a public, published accessibility statement?
 - Is the announcement from, or ghost written by [an overlay company](https://www.a11yproject.com/posts/should-i-use-an-accessibility-overlay/)?
+- Is the announcement [an overlay company sock puppet account](https://janmaarten.com/gaad-2023/)?
 - Does the company provide material aid for [overlay companies participating in reputation washing](https://adrianroselli.com/2022/09/accessibility-at-the-edge-w3c-cg-is-an-overlay-smoke-screen.html)?
 - Are there prematurely closed, downplayed, unaddressed, or openly ridiculed accessibility issues on their issue tracker?
 - Does the company handle pointing out issues with prior negative behavior towards accessibility concerns with tone policing, or claims the critic should be grateful?
@@ -49,4 +50,5 @@ For each and every Global Accessibility Awareness Day [(#<abbr>GAAD</abbr>)](htt
 - Has the company laid off its DEI employees?
 - Has the company [fired its accessibility team](https://www.wired.com/story/twitter-layoffs-accessibility/)?
 - Does the company hire disabled people as permanent, full-time employees?
-- And if so, are the full-time roles for anything other than accessibility work?
+- And if so, does it allow full-time remote work?
+- Also if so, are the full-time roles for anything other than accessibility work?
