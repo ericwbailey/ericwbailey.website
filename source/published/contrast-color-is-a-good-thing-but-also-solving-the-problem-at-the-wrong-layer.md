@@ -32,9 +32,9 @@ Browsers are a failure of imagination.
 
 I understand that new browser features and functionality need to be rolled out with care, in that you need to accommodate a wide range of technological literacy and familiarity. This is to say nothing of built-up muscle memory and the risk of change aversion.
 
-That said, the long view of the convergent evolution that is browser features and functionality leave me wanting.
+That said, the long view of the convergent evolution that are browser features and functionality leave me wanting.
 
-Things that would be genuinely beneficial to the people using these applications day in and day out take a backseat to things like optimizing esoteric JavaScript debugging techniques, [inventing new ways to generate advertising metrics](https://www.microsoft.com/en-us/edge/rewards), and [collapse our climate](https://www.bloomberg.com/news/articles/2024-05-15/microsoft-s-ai-investment-imperils-climate-goal-as-emissions-jump-30) via [an unrelenting torrent of AI hype](https://www.google.com/chrome/ai-innovations/).
+Functionality that would be genuinely beneficial to the people using these applications day in and day out take a backseat to things like optimizing esoteric JavaScript debugging techniques, [inventing new ways to generate advertising metrics](https://www.microsoft.com/en-us/edge/rewards), and [collapse our climate](https://www.bloomberg.com/news/articles/2024-05-15/microsoft-s-ai-investment-imperils-climate-goal-as-emissions-jump-30) via [an unrelenting torrent of AI hype](https://www.google.com/chrome/ai-innovations/).
 
 To further explain this point of view, I’d like to talk about [`contrast-color()`](https://drafts.csswg.org/css-color-5/#contrast-color), a new CSS function.
 
@@ -42,7 +42,7 @@ To further explain this point of view, I’d like to talk about [`contrast-color
 
 This function is part of [the level 5 color module for CSS](https://drafts.csswg.org/css-color-5/). This module contains a lot of things I’m excited for, and is part of [CSS’ current Renaissance moment](https://chriscoyier.net/2023/06/06/modern-css-in-real-life/).
 
-`contrast-color()` unlocks the ability for CSS to automatically intervene for [color contrast-related considerations](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html). It “automatically provides a color with guaranteed color contrast when used as a text color on a solid background of the specified color.”
+`contrast-color()` unlocks the ability the browser to automatically intervene for [color contrast-related considerations](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html). It “automatically provides a color with guaranteed color contrast when used as a text color on a solid background of the specified color.”
 
 This is pretty damn cool. Given that we know:
 
@@ -93,7 +93,7 @@ If I’m understanding the syntax correctly, it can also serve as a “clamp” 
 
 ## Technology does not exist in a vacuum
 
-We also need to consider the contexts  `contrast-color()` will be introduced into.
+We also need to consider the larger contexts  `contrast-color()` will be introduced into.
 
 Thanks to the pervasive [devaluation of both the frontend and CSS](https://heather-buchel.com/blog/2023/10/why-your-web-design-sucks/) as industry concerns, awareness of, and actual use of `contrast-color()`’s is likely going to only be found in two general areas:
 
@@ -102,7 +102,7 @@ Thanks to the pervasive [devaluation of both the frontend and CSS](https://heath
 
 Design systems that utilize more mature concepts such as [color tokens](https://thedesignsystem.guide/design-tokens) likely already have [mechanisms to perform what `contrast-color()` does](https://chriskirknielsen.com/blog/2024-redesign/#color-token-contrast-checker). These design systems also tend to be more accessible, either by principle or by legal compulsion. For example, [Primer already has this infrastructure in place](https://primer.style/guides/accessibility/color-considerations#design-tokens).
 
-This also means that organizations and websites without this sort of infrastructure are [far less likely to consider compliance](https://webaim.org/projects/million/), or the knowledge or resources to enact it.
+This also means that organizations and websites without this sort of infrastructure are [far less likely to consider compliance](https://webaim.org/projects/million/), or possess the knowledge or resources to enact it.
 
 ## We also need to consider unproductive mindsets about disability
 
@@ -194,7 +194,7 @@ My question here is <strong>why isn’t this kind of functionality a stock piece
     src="{{ '/img/posts/contrast-color-is-a-good-thing-but-also-solving-the-problem-at-the-wrong-layer/browser-toggle-vertical.svg' | url }}">
 </picture>
 
-We can do better than that, as well. Much like with the prefers contrast operating system preference, use of this hypothetical feature would rely on you knowing it exists in the first place.
+We can do better than that, as well. Much like with the `prefers-contrast` operating system preference, use of this hypothetical feature would rely on you knowing it exists in the first place.
 
 Again, browsers are aware of most of the foreground and background colors at play, and therefore the ratio between them. <strong>What if they intervened to tell you that they could fix things for you</strong>, and then did if you requested it?
 
