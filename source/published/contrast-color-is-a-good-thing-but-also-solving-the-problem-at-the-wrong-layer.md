@@ -6,15 +6,15 @@ excerpt: "Browsers are a failure of imagination"
 date: 2024-05-21
 year: 2024
 tags:
-  - accessibility
-  - assistive technology
-  - color
-  - css
-  - design
-  - design systems
-  - design tokens
-  - development
-  - internet
+  - Accessibility
+  - Assistive Technology
+  - Color
+  - CSS
+  - Design
+  - Design Systems
+  - Design Tokens
+  - Development
+  - Internet
 furtherReading:
   - title: "Filling the potholes of the web."
     source: "Frank Elavsky"
