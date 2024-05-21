@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.61 - 2024-05-21
+- Add [`contrast-color()` is a good thing, but also solving the problem at the wrong layer](https://ericwbailey.website/published/contrast-color-is-a-good-thing-but-also-solving-the-problem-at-the-wrong-layer/)
+
 ## v1.5.60 - 2024-05-12
 - Add [I love my slightly smart TV](https://ericwbailey.website/published/i-love-my-slightly-smart-tiny-tv/)
 - Replace the "IoT" tag with the "Devices" tag
