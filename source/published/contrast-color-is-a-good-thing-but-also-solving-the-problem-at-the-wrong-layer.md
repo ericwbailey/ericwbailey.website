@@ -28,6 +28,8 @@ eleventyNavigation:
   order: 49
 ---
 
+Browsers are a failure of imagination.
+
 I understand that new browser features and functionality need to be rolled out with care, in that you need to accommodate a wide range of technological literacy and familiarity. This is to say nothing of built-up muscle memory and the risk of change aversion.
 
 That said, the long view of the convergent evolution that is browser features and functionality leave me wanting.
@@ -69,7 +71,7 @@ We can instruct the browser to generate [a color value for the text or the backg
 
 At its core, `contrast-color()` is new tool that will help ensure an accessible, and therefore usable web. This is fundamentally a good thing!
 
-If I’m understanding the syntax correctly, it can also serve as a “clamp” for color variables. The idea here is it could work with things like [`color-mix()`](https://developer.mozilla.org/en-US/blog/color-palettes-css-color-mix/)` to create guardrails for dynamically generated color values.
+If I’m understanding the syntax correctly, it can also serve as a “clamp” for color variables. The idea here is it could work with things like [`color-mix()`](https://developer.mozilla.org/en-US/blog/color-palettes-css-color-mix/) to create guardrails for dynamically generated color values.
 
 ```scss
 // [1] Use constrast-color() for the last color calculation
@@ -198,10 +200,11 @@ Again, browsers are aware of most of the foreground and background colors at pla
 
 <img
   role="img"
+  style="width: 100%;"
   alt="A dialog prompt placed over a browser displaying web content that is too light to be legible. The dialog's title reads, 'Adjust contrast?', and its body content reads, 'Automatically update text and background colors to be more legible.' There are three prompts following the body content, one to update, one to cancel, and one to investigate more options. The, dialog browser and web content are illustrated in an abstract, wireframe style."
   src="{{ '/img/posts/contrast-color-is-a-good-thing-but-also-solving-the-problem-at-the-wrong-layer/browser-prompt.svg' | url }}">
 
-This would allow someone to <strong>>become aware of the preference in a moment when it is needed</strong>>. It could also be configured to be a global preference, or something tweaked on a per-site basis.
+This would allow someone to <strong>become aware of the preference in a moment when it is needed</strong>. It could also be configured to be a global preference, or something tweaked on a per-site basis.
 
 Additionally, this sort of thinking unlocks opportunities to tweak the desired contrast ratio itself on a global, site, or session-based basis.
 
