@@ -1,6 +1,6 @@
 ---
 layout: "layouts/post.njk"
-title: `contrast-color()` is a good thing, but also solving the problem at the wrong layer
+title: <code>contrast-color()</code> is a good thing, but also solving the problem at the wrong layer
 source: ericwbailey.website
 excerpt: "Browsers are a failure of imagination"
 date: 2024-05-21
