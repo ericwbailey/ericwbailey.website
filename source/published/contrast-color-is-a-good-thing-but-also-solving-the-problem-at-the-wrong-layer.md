@@ -42,7 +42,7 @@ Functionality that would be genuinely beneficial to the people using these appli
 
 To further explain this point of view, I’d like to talk about [`contrast-color()`](https://drafts.csswg.org/css-color-5/#contrast-color), a new CSS function.
 
-## `constrast-color()`
+## `contrast-color()`
 
 This function is part of [the level 5 color module for CSS](https://drafts.csswg.org/css-color-5/). This module contains a lot of things I’m excited for, and is part of [CSS’ current Renaissance moment](https://chriscoyier.net/2023/06/06/modern-css-in-real-life/).
 
