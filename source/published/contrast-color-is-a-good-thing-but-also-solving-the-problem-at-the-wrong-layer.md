@@ -32,7 +32,7 @@ Browsers are a failure of imagination.
 
 I understand that new browser features and functionality need to be rolled out with care, in that you need to accommodate a wide range of technological literacy and familiarity. This is to say nothing of built-up muscle memory and the risk of change aversion.
 
-That said, the long view of the convergent evolution that are browser features and functionality leave me wanting.
+That said, the long view of the convergent evolution that are web browsers leaves me wanting.
 
 Functionality that would be genuinely beneficial to the people using these applications day in and day out take a backseat to things like optimizing esoteric JavaScript debugging techniques, [inventing new ways to generate advertising metrics](https://www.microsoft.com/en-us/edge/rewards), and [collapse our climate](https://www.bloomberg.com/news/articles/2024-05-15/microsoft-s-ai-investment-imperils-climate-goal-as-emissions-jump-30) via [an unrelenting torrent of AI hype](https://www.google.com/chrome/ai-innovations/).
 
@@ -220,4 +220,4 @@ Creating new features that help people, but don’t help extract profit are far 
 
 This circumstance we find ourselves in is what drives my dissatisfaction. It’s my hope that in reading this you learn not only about `contrast-color()`, but also how to interrogate the larger environment it exists in and how it comes to be.
 
-In the meantime, I am going to continue using baseline accessible color palettes, advocating for integrating contrast-color() where appropriate, and hoping for better.
+In the meantime, I am going to continue using baseline accessible color palettes, advocating for integrating `contrast-color()` where appropriate, and hoping for better.
