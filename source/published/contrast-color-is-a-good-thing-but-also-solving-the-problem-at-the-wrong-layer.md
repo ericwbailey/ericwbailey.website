@@ -85,11 +85,11 @@ If I’m understanding the syntax correctly, it can also serve as a “clamp” 
   @supports (color: contrast-color(#FFEDEF)) {
     background-color: var(--color-secondary);
     color: contrast-color( // [1]
-      color-mix(
+      color-mix( // [2]
         in srgb,
         var(--color-primary),
         var(--color-accent) 70%
-      ); // [2]
+      );
     );
   }
 }
@@ -127,7 +127,7 @@ The idea here is that you’d apply `contrast-color()` in scenarios where someon
   background-color: var(--color-secondary);
 
   @media (prefers-contrast: more) {
-    color: contrast-color(var(--color-secondary));
+    color: contrast-color(var(--color-primary));
   }
 }
 ```
@@ -170,7 +170,7 @@ Delegating accommodation to mode-based operation enables designers to continue b
 
 Speaking of layers, I now pose the question: Why does all this have to be the website or webapp author’s responsibility?
 
-[Deep knowledge of CSS is rare](https://2023.stateofcss.com/en-US/features/accessibility/l), and not incentivized. Browsers already calculate, and are therefore aware of foreground and background color values. Given both of those considerations, <strong>are we missing out on a better way to go about this</strong>?
+[Deep knowledge of CSS is rare](https://2023.stateofcss.com/en-US/features/accessibility/), and not incentivized. Browsers already calculate, and are therefore aware of foreground and background color values. Given both of those considerations, <strong>are we missing out on a better way to go about this</strong>?
 
 I would love to see this sort of feature implemented on the browser level.  And guess what? There’s prior art that can be referenced.
 
