@@ -33,5 +33,6 @@ Here are the two pages I contributed, as a sneak preview:
       loading="lazy"
       decoding="async"
       src="{{ '/img/posts/multipage-version-zine-issue-one/multipage-zine-pages-narrow.gif' | url }}">
+</picture>
 
 You should do yourself a favor and [order a copy or ten](https://multipa.ge/l/1). 100% of the profits goes to [Trans Lifeline](https://translifeline.org/).
