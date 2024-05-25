@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.62 - 2024-05-25
+- Add [Multipage Version Zine, Issue 1](https://ericwbailey.website/published/multipage-version-zine-issue-one/)
+
 ## v1.5.61 - 2024-05-21
 - Add [`contrast-color()` is a good thing, but also solving the problem at the wrong layer](https://ericwbailey.website/published/contrast-color-is-a-good-thing-but-also-solving-the-problem-at-the-wrong-layer/)
 
