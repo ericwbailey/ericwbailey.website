@@ -10,8 +10,8 @@ tags:
   - HTML
   - Internet
 share:
-  facebookDescription: "A photocopied page showing the cover and title of the Multipage Version zine. It is overlaid over the cover of the original CERN internet memo."
-  twitterDescription: "A photocopied page showing the cover and title of the Multipage Version zine. It is overlaid over the cover of the original CERN internet memo."
+  facebookDescription: "Photocopied page showing the cover and title of the Multipage Version zine. It is overlaid over the cover of the original CERN internet memo."
+  twitterDescription: "Photocopied page showing the cover and title of the Multipage Version zine. It is overlaid over the cover of the original CERN internet memo."
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}
