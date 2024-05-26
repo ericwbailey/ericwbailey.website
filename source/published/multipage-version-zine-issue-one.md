@@ -2,7 +2,7 @@
 layout: "layouts/post.njk"
 title: Multipage Version Zine, Issue 1
 source: ericwbailey.website
-excerpt: "Check it out!"
+excerpt: "You should do yourself a favor and order a copy or ten"
 date: 2024-05-25
 year: 2024
 tags:
