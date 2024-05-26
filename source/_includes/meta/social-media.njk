@@ -2,5 +2,6 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="{{ title | striptags }}">
 <meta property="og:description" content="{% if excerpt %}{{ excerpt | striptags }}.{% else %}{{ metadata.description }}{% endif %}">
+<meta property="article:published_time" content="{{ date | htmlDateString }}T00:05:00.000Z">
 <meta property="og:image" content="{% if share %}{{ metadata.url }}/img/posts/{{ title | striptags | slugify }}/share-image-facebook.png{% else %}{{ metadata.url }}/static/favicons/social/facebook.png{% endif %}">
 <meta property="og:image:alt" content="{% if share %}{{ share.facebookDescription }}{% else %}Stylized script treatment of the words Eric W Bailey on a light blue background.{% endif %}">
