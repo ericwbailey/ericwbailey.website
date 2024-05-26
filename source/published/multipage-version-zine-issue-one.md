@@ -2,7 +2,7 @@
 layout: "layouts/post.njk"
 title: Multipage Version Zine, Issue 1
 source: ericwbailey.website
-excerpt: "Check it out!"
+excerpt: "You should do yourself a favor and order a copy or ten"
 date: 2024-05-25
 year: 2024
 tags:
@@ -10,8 +10,8 @@ tags:
   - HTML
   - Internet
 share:
-  facebookDescription: "A photocopied page showing the cover and title of the Multipage Version zine. It is overlaid over the cover of the original CERN internet memo."
-  twitterDescription: "A photocopied page showing the cover and title of the Multipage Version zine. It is overlaid over the cover of the original CERN internet memo."
+  facebookDescription: "Photocopied page showing the cover and title of the Multipage Version zine. It is overlaid over the cover of the original CERN internet memo."
+  twitterDescription: "Photocopied page showing the cover and title of the Multipage Version zine. It is overlaid over the cover of the original CERN internet memo."
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}
