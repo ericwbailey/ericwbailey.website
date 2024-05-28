@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.63 - 2024-05-26
+- Add Bluesky atproto-did
+
 ## v1.5.62 - 2024-05-25
 - Add [Multipage Version Zine, Issue 1](https://ericwbailey.website/published/multipage-version-zine-issue-one/)
 
