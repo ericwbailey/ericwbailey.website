@@ -12,6 +12,7 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 
 ## v1.5.64 - 2024-06-06
 - Add [Workplace discrimination: another terrible thing Windows Recall might enable](https://ericwbailey.website/published/workplace-discrimination-another-terrible-thing-windows-recall-might-enable/)
+- Remove Twitter and Instagram links from the homepage, replace with Bluesky
 
 ## v1.5.63 - 2024-05-26
 - Add Bluesky atproto-did
