@@ -12,6 +12,10 @@ tags:
   - Environment
   - Inclusion
   - Subversion
+furtherReading:
+  - title: "Microsoft’s Recall Feature Is Even More Hackable Than You Thought"
+    source: "Wired"
+    url: https://www.wired.com/story/microsoft-windows-recall-privilege-escalation/
 share:
   facebookDescription: "The Windows Recall logo, with its center portion replaced with an unsettling, staring eye."
   twitterDescription: "The Windows Recall logo, with its center portion replaced with an unsettling, staring eye."
