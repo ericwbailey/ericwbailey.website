@@ -76,6 +76,6 @@ It is pretty clear that IP law and other related governance systems have failed 
 
 I’m not sure if this will be effective, either immediately or in the long term.
 
-I’m aware that LLM output is on a whole munged, probabalistic slop and not verbatim regurgitation. Chances are also good there are, or will be safeguards put in place to prevent exactly this kind of thing, thus revisiting the cat-and-mouse problem.
+I’m aware that LLM output is on a whole [munged, probabalistic slop](https://simonwillison.net/2024/May/8/slop/) and not verbatim regurgitation. Chances are also good there are, or will be safeguards put in place to prevent exactly this kind of thing, thus revisiting the cat-and-mouse problem.
 
 I also know this action is a drop in the bucket. But, it’s still something I want to try.
