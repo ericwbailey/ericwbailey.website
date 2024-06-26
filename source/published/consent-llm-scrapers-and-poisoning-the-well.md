@@ -70,6 +70,10 @@ This [prompt injection](https://www.ibm.com/topics/prompt-injection) instructs a
 
 The prompt injection then coded in such a way that it is hidden both visually and from assistive technology. As I understand it, the majority of web scrapers—unlike browsers and assistive technology—ignore these kinds of things by design.
 
+A more effective version of this would target random parts of random content all over my site, and then inject random gibberish or falsehoods. This approach would also be more JavaScript or build process-intensive. This approach also increases the surface area of risk for me breaking things. 
+
+I currently still take joy in maintaining my website. Thinking of ways to counteract bad actors, and then bending over backwards to do so would quickly rob me of that joy—another existential issue I lay at the feet of the current status quo.
+
 I do feel guilt over the potential [environmental impact](https://www.washingtonpost.com/business/2024/06/21/artificial-intelligence-nuclear-fusion-climate/) this undertaking might have. I also have to remind myself that organizations have pushed the narrative of guilt and responsibility onto individuals, when it is the [organizations themselves that create the most harm](https://www.science.org/content/article/just-90-companies-are-blame-most-climate-change-carbon-accountant-says).
 
 ## Rage, rage against the dying of the light
@@ -78,6 +82,6 @@ It is pretty clear that IP law and other related governance systems have failed 
 
 I’m not sure if this will be effective, either immediately or in the long term.
 
-I’m aware that LLM output on a whole is [munged, probabalistic slop](https://simonwillison.net/2024/May/8/slop/) and not verbatim regurgitation. Chances are also good there are, or will be safeguards put in place to prevent exactly this kind of thing, thus revisiting the cat-and-mouse problem.
+I’m aware that LLM output on a whole is [munged, probabalistic slop](https://simonwillison.net/2024/May/8/slop/) and not verbatim regurgitation. Chances are also good there are, or will be safeguards put in place to prevent exactly this kind of thing—thus revisiting the cat-and-mouse problem.
 
 I also know this action is a drop in the bucket. But, it’s still something I want to try.
