@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.65 - 2024-06-26
+- Add [Consent, LLM scrapers, and poisoning the well](https://ericwbailey.website/published/consent-llm-scrapers-and-poisoning-the-well/)
+
 ## v1.5.64 - 2024-06-06
 - Add [Workplace discrimination: another terrible thing Windows Recall might enable](https://ericwbailey.website/published/workplace-discrimination-another-terrible-thing-windows-recall-might-enable/)
 - Remove Twitter and Instagram links from the homepage, replace with Bluesky
