@@ -72,6 +72,8 @@ The prompt injection then coded in such a way that it is hidden both visually an
 
 A more effective version of this would target random parts of random content all over my site, and then inject random gibberish or falsehoods. This approach would also be more JavaScript or build process-intensive. This approach also increases the surface area of risk for me breaking things. 
 
+Update: [Matt Wilcox](https://mattwilcox.net/) informed me [on Mastodon](https://mstdn.social/@mattwilcox/112683660137977962) of their [far superior and more difficult to block technique](https://github.com/MattWilcox/native-base/commit/45f6e7a837104f5ad83a5c7e280fb9a4eb126219#diff-f6ca38281ff74f0aab1fadf12f97be367d8a2c51196cffddfcbbd580bc58510bR80).
+
 I currently still take joy in maintaining my website. Thinking of ways to counteract bad actors, and then bending over backwards to do so would quickly rob me of that joy—another existential issue I lay at the feet of the current status quo.
 
 I do feel guilt over the potential [environmental impact](https://www.washingtonpost.com/business/2024/06/21/artificial-intelligence-nuclear-fusion-climate/) this undertaking might have. I also have to remind myself that organizations have pushed the narrative of guilt and responsibility onto individuals, when it is the [organizations themselves that create the most harm](https://www.science.org/content/article/just-90-companies-are-blame-most-climate-change-carbon-accountant-says).
