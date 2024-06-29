@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.61 - 2024-07-01
+- Add [Free idea: design token ugly mode](https://ericwbailey.website/published/free-idea-design-token-ugly-mode/)
+
 ## v1.5.65 - 2024-06-26
 - Add [Consent, LLM scrapers, and poisoning the well](https://ericwbailey.website/published/consent-llm-scrapers-and-poisoning-the-well/)
 
