@@ -389,6 +389,22 @@ Dragon swapped in the following words:
 - “mother Fokker” for “motherfucker”, and
 - “tips” for “tits”.
 
+### Talon
+
+Talon is weapons-grade voice control software that I’m not smart enough to get set up correctly. Fortunately for all involved, [Nic](https://www.nicchan.me/) is:
+
+<p class="hide-visually">
+  <a href="#5_CVY5-n14k">
+    Skip Talon YouTube embed.
+  </a>
+</p>
+<div class="video-wrapper">
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/5_CVY5-n14k" title="YouTube: Automatic Caption Censorship - Talon" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<span class="hide-visually" id="5_CVY5-n14k">Content skipped.</span>
+
+Talon cares not for your notions of censorship. Hell yeah.
+
 ## Wrapping the fuck up
 
 You might think this is juvenile, but I’m deadly fucking serious.
