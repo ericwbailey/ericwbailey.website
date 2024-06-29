@@ -90,6 +90,10 @@ When someone selects an element via keyboard or voice command, but has not yet t
 
 Someone has previously visited the resource the element is set to navigate to.
 
+### Targeted
+
+An element is higlighted via a mechanism like an ID reference or [selected text fragment](https://support.google.com/chrome/answer/10256233).
+
 ### Loading
 
 An element is fetching data from another internal or external resource.
@@ -145,6 +149,14 @@ A Selected element that has had its selection removed. Elements that can be Sele
 ### Dragged
 
 An element has been Selected and is being moved to another location.
+
+### Ghost Origin
+
+A Dragged element shows a preview of where it originated from prior to being placed in a Dragged state (thanks to [Vernon Fowler](https://x.com/vfowler/status/1799764966062600255)).
+
+### Ghost Destination
+
+A Dragged element shows a preview of where it will be placed when placed into a Dropped state (thanks to [Vernon Fowler](https://x.com/vfowler/status/1799764966062600255)).
 
 ### Dropped
 
