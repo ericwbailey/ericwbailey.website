@@ -74,7 +74,7 @@ A more effective version of this would target random parts of random content all
 
 <div class="warning">
 <p>Update: <a href="https://mattwilcox.net/">Matt Wilcox</a> informed me <a href="https://mstdn.social/@mattwilcox/112683660137977962">on Mastodon</a> of their <a href="https://github.com/MattWilcox/native-base/commit/45f6e7a837104f5ad83a5c7e280fb9a4eb126219#diff-f6ca38281ff74f0aab1fadf12f97be367d8a2c51196cffddfcbbd580bc58510bR80">far superior and more difficult to block technique</a>.</p>
-<p><a href="https://rknight.me/">Robb Knight</a> has another fiendishly great idea, if you're willing to go the `robots.txt` route: <a href="https://social.lol/@robb/112687421287583132">Make LLM services download a gigantic file</a>.</p>
+<p><a href="https://rknight.me/">Robb Knight</a> has another fiendishly great idea, if you're willing to go the <code>robots.txt</code> route: <a href="https://social.lol/@robb/112687421287583132">Make LLM services download a gigantic file</a>.</p>
 </div>
 
 I currently still take joy in maintaining my website. Thinking of ways to counteract bad actors, and then bending over backwards to do so would quickly rob me of that joy—another existential issue I lay at the feet of the current status quo.
@@ -83,7 +83,7 @@ I do feel guilt over the potential [environmental impact](https://www.washington
 
 ## Rage, rage against the dying of the light
 
-It is pretty clear that IP law and other related governance systems have failed us in the face of [speculative capital](https://www.windowscentral.com/software-apps/ever-put-content-on-the-web-microsoft-says-that-its-okay-for-them-to-steal-it-because-its-freeware). And with the failure of these systems we need to turn to alternate approaches to protect ourselves.
+It is pretty clear that IP law and other related governance systems have failed us in the face of [speculative capital](https://www.theverge.com/2024/6/28/24188391/microsoft-ai-suleyman-social-contract-freeware). And with the failure of these systems we need to turn to alternate approaches to protect ourselves.
 
 I’m not sure if this will be effective, either immediately or in the long term.
 
