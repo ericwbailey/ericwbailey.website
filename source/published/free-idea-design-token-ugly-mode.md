@@ -2,7 +2,7 @@
 layout: "layouts/post.njk"
 title: "Free idea: design token ugly mode"
 source: ericwbailey.website
-excerpt: "TK"
+excerpt: "a design token ugly mode is a direct and powerful way to visualize the current state of the world"
 date: 2024-07-01
 year: 2024
 tags:
@@ -14,8 +14,8 @@ tags:
   - Development
   - Subversion
 share:
-  facebookDescription: "TK."
-  twitterDescription: "TK."
+  facebookDescription: "Three wireframes, where portions of the designs use garish color values."
+  twitterDescription: "A wireframe, where portions of the design use garish color values."
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}
