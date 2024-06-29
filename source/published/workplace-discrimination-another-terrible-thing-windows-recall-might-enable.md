@@ -16,6 +16,12 @@ furtherReading:
   - title: "Microsoft’s Recall Feature Is Even More Hackable Than You Thought"
     source: "Wired"
     url: https://www.wired.com/story/microsoft-windows-recall-privilege-escalation/
+  - title: "Microsoft’s all-knowing Recall AI feature is being delayed"
+    source: "The Verge"
+    url: https://www.theverge.com/2024/6/13/24178144/microsoft-windows-ai-recall-feature-delay
+  - title: "Windows 11 is now automatically enabling OneDrive folder backup without asking permission"
+    source: "Neowin"
+    url: https://www.neowin.net/news/windows-11-is-now-automatically-enabling-onedrive-folder-backup-without-asking-permission/
 share:
   facebookDescription: "The Windows Recall logo, with its center portion replaced with an unsettling, staring eye."
   twitterDescription: "The Windows Recall logo, with its center portion replaced with an unsettling, staring eye."
