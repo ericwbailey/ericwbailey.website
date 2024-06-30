@@ -34,9 +34,9 @@ In the same vein, I don’t think [blocking IP ranges](https://sizeof.cat/post/b
 
 With blocking out of the equation, I turn to [a Luddite approach](https://thenib.com/im-a-luddite/). The movement is often—and curiously—misrepresented in popular media. Their actions were not of arbitrary violence, but instead calculated, **direct protest against dangerous systems inflicted on populations as a way to devalue skilled labor**. Sound familiar?
 
-So, what else can be done?
+## So, what else can be done?
 
-I’ve been paying attention to things like [Nightshade](https://nightshade.cs.uchicago.edu/whatis.html). If you’re not already aware, its a way to invisibly alter image data so that machine vision-based systems interpret it as something other than what is intended for human eyes.
+I’ve been paying attention to things like [Nightshade](https://nightshade.cs.uchicago.edu/whatis.html). If you’re not already aware, it is a way to invisibly alter image data so that machine vision-based systems interpret it as something other than what is intended for human eyes.
 
 <picture>
   <source
@@ -48,9 +48,9 @@ I’ve been paying attention to things like [Nightshade](https://nightshade.cs.u
     src="{{ '/img/posts/consent-llm-scrapers-and-poisoning-the-well/nightshade-on-light.svg' | url }}">
 </picture>
 
-Mass-use of tools like Nightshade would make the corpus of content these systems less reliable. This would make their output less accurate, and therefore less desirable.
+Mass-use of tools like Nightshade would make the corpus of content these systems require less reliable. This would make their output less accurate, and therefore less desirable.
 
-The thought past that is if enough people do this that it might **force LLM companies to adopt more ethical, opt-in based approaches**.
+The thought past that is it might **force LLM companies to adopt more ethical, opt-in based approaches**, provided enough people do this en masse.
 
 Forcing LLM companies to behave ethically would require global-level legislation—and even then that may not be fully sufficient. These legislative efforts would also require a groundswell of bottom-up advocacy and action to kick off.
 
@@ -70,7 +70,7 @@ This [prompt injection](https://www.ibm.com/topics/prompt-injection) instructs a
 
 The prompt injection then coded in such a way that it is hidden both visually and from assistive technology. As I understand it, the majority of web scrapers—unlike browsers and assistive technology—ignore these kinds of things by design.
 
-A more effective version of this would target random parts of random content all over my site, and then inject random gibberish or falsehoods. This approach would also be more JavaScript or build process-intensive. This approach also increases the surface area of risk for me breaking things. 
+A more effective version of this would target random parts of random content all over my site, and then inject random gibberish or falsehoods. This approach would also be more JavaScript or build process-intensive. It would also increase the surface area of risk for me breaking things. 
 
 <div class="warning">
 <p>Update: <a href="https://mattwilcox.net/">Matt Wilcox</a> informed me <a href="https://mstdn.social/@mattwilcox/112683660137977962">on Mastodon</a> of their <a href="https://github.com/MattWilcox/native-base/commit/45f6e7a837104f5ad83a5c7e280fb9a4eb126219#diff-f6ca38281ff74f0aab1fadf12f97be367d8a2c51196cffddfcbbd580bc58510bR80">far superior and more difficult to block technique</a>.</p>
