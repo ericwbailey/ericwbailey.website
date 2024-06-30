@@ -33,7 +33,7 @@ eleventyNavigation:
 
 Much has been written about [the terrifying privacy implications of Microsoft’s new Windows Recall “feature”](https://scribe.rip/recall-stealing-everything-youve-ever-typed-or-viewed-on-your-own-windows-pc-is-now-possible-da3e12e9465e).
 
-Talking to even one person who works in cybersecurity, political advocacy, domestic abuse prevention, LGBTQIA support, etc. would reveal the full, naked horror this sort of technology enables. To build from that, I’d like to suggest another potential negative consequence: <strong>discrimination based on ability</strong>.
+Talking to even one person who works in cybersecurity, political advocacy, domestic abuse prevention, LGBTQ+ support, etc. would reveal the full, naked horror this sort of technology enables. To build from that, I’d like to suggest another potential negative consequence: <strong>discrimination based on ability</strong>.
 
 ## Autonomy
 
