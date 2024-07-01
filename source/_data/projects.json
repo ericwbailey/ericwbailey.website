@@ -1,10 +1,58 @@
 {
   "items": [
     {
+      "title":       "The A11Y Project",
+      "url":         "https://www.a11yproject.com/",
+      "description": "Redesign lead and maintainer (retired)",
+      "schema":      "WebSite"
+    },
+    {
+      "title":       "a11y-syntax-highlighting",
+      "url":         "https://github.com/ericwbailey/a11y-syntax-highlighting",
+      "description": "WCAG AA conformant code syntax highlighting",
+      "schema":      "SoftwareSourceCode"
+    },
+    {
+      "title":       "a11y-webring.club",
+      "url":         "https://a11y-webring.club/",
+      "description": "A webring for digital accessibility practicioners",
+      "schema":      "SoftwareSourceCode"
+    },
+    {
       "title":       "Accessible <abbr>HTML</abbr> Content Patterns",
       "url":         "https://github.com/ericwbailey/accessible-html-content-patterns",
       "description": "Better building blocks",
       "schema":      "SoftwareSourceCode"
+    },
+    {
+      "title":       "Alfred Emoji Snippets",
+      "url":         "https://github.com/ericwbailey/alfred-emoji-snippets",
+      "description": "Emoji Snippets for Alfred App",
+      "schema":      "SoftwareSourceCode"
+    },
+    {
+      "title":       "Alfred WCAG Workflow",
+      "url":         "https://github.com/ericwbailey/alfred-wcag-workflow",
+      "description": "Search through, copy, and open WCAG Success Criterion using Alfred",
+      "schema":      "SoftwareSourceCode"
+    },
+    {
+      "title":       "Empathy Prompts",
+      "url":         "https://empathyprompts.net/",
+      "description": "Quick exercises",
+      "schema":      "WebSite"
+    },
+    {
+      "title":       "SC 2.4.4 Newsletter",
+      "url":         "https://buttondown.email/ericwbailey",
+      "description": "Weekly links of note",
+      "schema":      "WebSite"
+    }
+    {
+      "title":       "hancock.lighting",
+      "url":         "http://hancock.lighting/",
+      "description": "Digitizing a Boston landmark",
+      "schema":      "WebSite"
     },
     {
       "title":       "Millennials to Snake People",
@@ -18,35 +66,11 @@
       "description": "Layout, design, and typography"
     },
     {
-      "title":       "The A11Y Project",
-      "url":         "https://www.a11yproject.com/",
-      "description": "Redesign lead and maintainer",
-      "schema":      "WebSite"
-    },
-    {
-      "title":       "hancock.lighting",
-      "url":         "http://hancock.lighting/",
-      "description": "Digitizing a landmark",
-      "schema":      "WebSite"
-    },
-    {
       "title":       "You Dubber",
       "additional":  "(autoplaying media)",
       "url":         "http://www.youdubber.com/index.php?video=bO9ugnn8DbE&video_start=0&audio=B1i4UgkC_kI&audio_start=0",
       "description": "Recontextualizing You Tube",
       "schema":      "WebSite"
     },
-    {
-      "title":       "Empathy Prompts",
-      "url":         "https://empathyprompts.net/",
-      "description": "Quick exercises",
-      "schema":      "WebSite"
-    },
-    {
-      "title":       "Fresh Garbage Newsletter",
-      "url":         "https://tinyletter.com/hot-garbage/archive",
-      "description": "Weekly links of note",
-      "schema":      "WebSite"
-    }
   ]
 }
