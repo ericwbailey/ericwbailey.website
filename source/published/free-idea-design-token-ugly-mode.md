@@ -56,7 +56,7 @@ There’s also even more nuance here, where even **specific sections of an overa
 
 [Design tokens](https://www.designtokens.org/glossary/) arose to help prevent this kind of almost-but-not-quite visual leakage and drift. The idea here is you have a platform-agnostic source of canonical truth for things like color, typefaces, line height, border radius, drop shadows, etc.
 
-These primitives are then given a [semantic layer of abstraction](https://scribe.rip/eightshapes-llc/naming-tokens-in-design-systems-9e86c7444676) before being threaded into production code, and viola! Your color token will be able to quickly and confidently replace cornflower blue with emerald green across an entire experience or suite of experiences.
+These primitives are then given a [semantic layer of abstraction](https://scribe.rip/eightshapes-llc/naming-tokens-in-design-systems-9e86c7444676) before being threaded into production code, and voilà! Your color token will be able to quickly and confidently replace cornflower blue with emerald green across an entire experience or suite of experiences.
 
 ## Reality
 
