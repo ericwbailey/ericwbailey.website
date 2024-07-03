@@ -6,6 +6,7 @@ excerpt: "There’s hundreds of thousands of web extensions out there, each with
 date: 2022-08-23
 year: 2022
 tags:
+  - Browser Extensions
   - Cognition
   - Subversion
 furtherReading:
