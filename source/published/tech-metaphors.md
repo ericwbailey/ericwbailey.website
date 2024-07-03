@@ -72,6 +72,12 @@ Its large, smooth, treadless tires were originally designed for use in a swamp e
 
 The Antarctic Snow Cruiser was abandoned and disappeared under deep snow cover and shifting ice.
 
+## Hand grenade hammer
+
+A woman in China was successfully [using a hand grenade to crack nuts and hammer nails](https://www.odditycentral.com/news/woman-uses-hand-grenade-as-a-hammer-for-20-years-lives-to-tell-the-tale.html) for two decades straight.
+
+The Type 67 grenade saw constant use, as it was reported to have its handle worn smooth and a metallic head full of dents.
+
 ## Baby centrifuge
 
 A patent granted to George and Charlotte Blonsky in 1965. The device is described as being a circular table that a woman is strapped into, lying on her back. The table then rotates at a high speed, pushing the baby out via centrifugal force into netting wrapped around the woman’s legs.
@@ -81,4 +87,3 @@ While horrific sounding, the Blonsky’s invention came from a place of (misguid
 The inspiration for the actual implementation likely came from a famous device at the time: the centrifuges used to train astronauts for exposure to high-g environments. However, this misapplication of unrelated technology to facilitate delivery was judged as being both overly-expensive and complicated compared to existing birthing methods.
 
 Finally, the net was evaluated as being unsuited to the task of safely catching the ejected baby, making the entire point of the device moot.
-
