@@ -47,7 +47,7 @@
       "url":         "https://buttondown.email/ericwbailey",
       "description": "Weekly links of note",
       "schema":      "WebSite"
-    }
+    },
     {
       "title":       "hancock.lighting",
       "url":         "http://hancock.lighting/",
@@ -69,8 +69,8 @@
       "title":       "You Dubber",
       "additional":  "(autoplaying media)",
       "url":         "http://www.youdubber.com/index.php?video=bO9ugnn8DbE&video_start=0&audio=B1i4UgkC_kI&audio_start=0",
-      "description": "Recontextualizing You Tube",
+      "description": "Recontextualizing YouTube",
       "schema":      "WebSite"
-    },
+    }
   ]
 }
