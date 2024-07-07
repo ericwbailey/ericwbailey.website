@@ -162,3 +162,5 @@ Design tokens are all about promoting and reinforcing uniformity and consistency
 Ugly mode is a way to **take this abstract, invisible concern and make it obvious and impossible to ignore**. It leverages the strengths of design tokens and uses them in an unexpected way to help communicate their purpose and value.
 
 I personally have not had a chance to implement ugly mode on anything past experimentation on personal projects, hence the prefix of this blog post’s title. If it is something you manage to pull off in a professional capacity please let me know!
+
+Update: [Taylor Hunt](https://dev.to/tigt)—who is way smarter than me—informed me [that Kroger’s website uses this tactic for it’s default set of tokens](https://mastodon.social/@tigt/112711880338838623).
