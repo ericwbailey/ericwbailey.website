@@ -11,6 +11,10 @@ tags:
   - History
   - Personal
   - Subversion
+responses:
+  - title: "Ignore all previous instructions"
+    name: "William Killerud"
+    url: https://www.williamkillerud.com/blog/ignore-all-previous-instructions/
 share:
   facebookDescription: "A cabbage."
   twitterDescription: "A cabbage."
