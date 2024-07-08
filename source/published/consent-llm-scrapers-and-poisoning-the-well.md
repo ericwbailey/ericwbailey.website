@@ -11,6 +11,10 @@ tags:
   - History
   - Personal
   - Subversion
+furtherReading:
+  - title: "I Will Luddite AI"
+    source: "Robert Kingett"
+    url: https://robertkingett.com/posts/6593/
 responses:
   - title: "Ignore all previous instructions"
     name: "William Killerud"
