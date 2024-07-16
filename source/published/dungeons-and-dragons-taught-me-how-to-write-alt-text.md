@@ -133,7 +133,7 @@ Both of these descriptions are <strong>evocative</strong>.
 
 As the author of both experiences I am not only trying to describe what is physically present, but also how all the qualities add up as a suggestion for how to feel when taken in as a composite whole.
 
-For the roleplaying game description, I am injecting an immediate sense of fear and menace into an otherwise boring situation. For the image description, I am FOO
+For the roleplaying game description, I am injecting an immediate sense of fear and menace into an otherwise boring situation. For the image description, I am I am creating a sense of relaxation and contentment.
 
 Additionally, the introduction of the vizier may seem contradictory when compared to the dragon on a first read through. Remember that this is <strong>an editorialized experience</strong>.
 
