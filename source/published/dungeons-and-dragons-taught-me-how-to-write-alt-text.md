@@ -37,7 +37,7 @@ We elected for theater of the mind more often than not. This was mostly because 
 
 Theater of the mind play means that the entire game is conducted verbally. The sole exception is your character sheet, which is a text and number-based armature you build the rest of your character from.
 
-The narrative is shared amongst everyone verbally. The aesthetics of the game exist entirely in each player’s mind, and not communicated via moving little figures around on a map.
+The narrative is shared amongst everyone by talking. The aesthetics of the game exist entirely in each player’s mind, and not communicated via moving little figures around on a map.
 
 You can probably guess where this post is going now.
 
