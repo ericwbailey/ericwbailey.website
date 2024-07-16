@@ -119,14 +119,14 @@ And [this Tweet from NASA](https://x.com/NASA/status/1552750698114187269) showca
 These two concepts are the bread and butter of a roleplaying game experience. Consider:
 
 <blockquote>
-  <p>The vizier prattles on, clearly in love with the sound of their own voice. Meanwhile, the rest of the court slumps—bored, exasperated, and succumbing to the stifling heat of the high summer. They are taking their cue from the sultan, some nakedly jealous of the cushioned throne he is slowly nodding off on.<p>
+  <p>The vizier prattles on, clearly in love with the sound of their own voice. Meanwhile, the rest of the court slumps—bored, exasperated, and succumbing to the stifling heat of the high summer. They are taking their cue from the sultan, some nakedly jealous of the cushioned throne he is slowly nodding off on.</p>
   <p>In the desperation of scanning the room to find something more interesting to look at, you catch the unblinking gaze of the court jester. His stare makes you feel like a butterfly pinned to a specimen spreading board. The room begins to slowly fade to black as you continue to lock eyes. A subtle foxfire aura begins to shimmer around his frame, while a placeless humming sound gets louder and louder. The heat of the room is forgotten as a chill runs down your spine.</p>
 </blockquote>
 
 Or:
 
 <blockquote>
-  <p>A white woman with short blue hair smirks at the camera and raises a glass to it. Her drink is a margarita, and the glass is beaded with sweat from the heat of the day. She is wearing a loose white shirt, and oversized red sunglasses are perched perfectly on her head. Her hair is slightly frizzy from the humidity, but her expression clearly communicates that she is unbothered by it. It is the golden hour, and the sun casts a warm, hazy amber glow on her skin. The table she is sitting at is wooden and well-worn. Behind her is a busy street, a blur of people going about their day.<p>
+  <p>A white woman with short blue hair smirks at the camera and raises a glass to it. Her drink is a margarita, and the glass is beaded with sweat from the heat of the day. She is wearing a loose white shirt, and oversized red sunglasses are perched perfectly on her head. Her hair is slightly frizzy from the humidity, but her expression clearly communicates that she is unbothered by it. It is the golden hour, and the sun casts a warm, hazy amber glow on her skin. The table she is sitting at is wooden and well-worn. Behind her is a busy street, a blur of people going about their day.</p>
 </blockquote>
 
 Both of these descriptions are <strong>evocative</strong>.
