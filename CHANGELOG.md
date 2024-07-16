@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.68 - 2024-07-03
+- Add [Dungeons & Dragons taught me how to write alt text](https://ericwbailey.website/published/dungeons-and-dragons-taught-me-how-to-write-alt-text/)
+
 ## v1.5.67 - 2024-07-03
 - Add [Short note: Disavowing Snake People 3.0: Slither with a Hiss](https://ericwbailey.website/published/short-note-disavowing-snake-people-30-slither-with-a-hiss/)
 
