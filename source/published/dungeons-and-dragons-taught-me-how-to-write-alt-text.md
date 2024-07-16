@@ -96,7 +96,7 @@ Over this:
 
 <blockquote>
   <p>A stout mug crafted from reclaimed lumber. It is poorly stained and worn smooth from years of heavy use. Twin iron bands are placed at the top and bottom, equally as worn and giving it a comfortable heft. A thin, frothy ale has been poured into it, smelling weakly of hops and strongly of alcohol. A single rivulet of ale pours down the side of the mug to stain the bar top the mug is placed on.</p>
-<blockquote>
+</blockquote>
 
 I mean, it’s a great description, but also not the point. The point is you’re in a seedy pub chasing down rumors about a goblin who somehow got its grubby little hands on a powerful magic artifact.
 
