@@ -131,7 +131,10 @@ Or:
 
 Both of these descriptions are <strong>evocative</strong>.
 
-As the author of both experiences I am not only trying to describe what is physically present, but also how all the qualities add up as a suggestion for how to feel when taken in as a composite whole.
+As the author of both experiences I am trying to not only:
+
+1. Describe what is physically present, but also 
+2. How all the qualities add up as a suggestion for how to feel when taken in as a composite whole.
 
 For the roleplaying game description, I am injecting an immediate sense of fear and menace into an otherwise boring situation. For the image description, I am I am creating a sense of relaxation and contentment.
 
@@ -145,13 +148,13 @@ Another reason why I advocate for describing the most important thing first is b
 
 Unlike other web content, there isn’t really any other special way screen readers can work with alt text strings—short of increasing or decreasing the speaking rate. This is also why things like bolding, italicizing, links, and paragraphs aren’t allowed.
 
-Another important thing to know about screen readers is a frequently used feature is dedicated keys to make it [pause or stop announcing](https://www.nvaccess.org/files/nvda/documentation/userGuide.html#StartingAndStoppingNVDA). There are a few use cases for this behavior, but the most common one is, “Yup, I got it. Shut up now.”
+Another important thing to know about screen readers is that they have dedicated keyboard commands to make them [pause or stop announcing](https://www.nvaccess.org/files/nvda/documentation/userGuide.html#StartingAndStoppingNVDA). There are a few use cases for this behavior, but the most common one is, “Yup, I got it. Shut up now.”
 
 Placing helpful, but ultimately non-critical information after the most important thing <strong>lets the person using the screen reader decide when they know enough to get what they need</strong>. It also saves them from wasting time re-listening to superfluous information if re-navigating to the image to glean some important detail (“Oh, what was the subject of that painting again?”).
 
 ## Remember, you control the narrative
 
-The person who runs the game of Dungeons & Dragons has a responsibility to provide an entertaining and memorable experience for its other participants.
+The person who runs the game of Dungeons & Dragons has a responsibility to provide an entertaining and memorable experience for the other participants.
 
 <strong>You wield a power as the person enabling and facilitating the experiences others have</strong>. This applies to roleplaying games as well as writing alt text.
 
