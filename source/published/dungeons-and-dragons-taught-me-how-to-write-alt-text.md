@@ -177,5 +177,6 @@ The grim reality is [the state of alt text on the web leaves a lot to be desired
 - [How to write text descriptions (alt text) in BBC News articles - BBC GEL](https://www.bbc.co.uk/gel/how-to-write-text-descriptions-alt-text)
 - [Alt-texts: The Ultimate Guide](https://axesslab.com/alt-texts/)
 - [Understanding and Using Alternative Text: A Comprehensive Guide - The A11Y Collective](https://www.a11y-collective.com/content/alternative-text/)
+- [Image Accessibility - Accessible social](https://www.accessible-social.com/images-and-visuals/image-accessibility)
 - [Text descriptions and emotion rich images - Léonie Watson](https://tink.uk/text-descriptions-emotion-rich-images/)
 - [Writing great alt text: Emotion matters - JakeArchibald.com](https://jakearchibald.com/2021/great-alt-text/)
