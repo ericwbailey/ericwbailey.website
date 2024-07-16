@@ -24,7 +24,7 @@ eleventyNavigation:
   order: 55
 ---
 
-I played a lot of [the pen-and-paper roleplaying game](https://www.dndbeyond.com/) in high school and college. I’m conceptually more into [Dungeon Word](https://dungeon-world.com/)’s approach these days, but I digress.
+I played a lot of [the pen-and-paper roleplaying game](https://www.dndbeyond.com/) in high school and college. I’m conceptually more into [Dungeon World](https://dungeon-world.com/)’s approach these days, but I digress.
 
 Unlike Tom Hanks, I avoided turning into a [delusional murderer](https://www.denofgeek.com/movies/tom-hanks-film-debut-was-a-drama-about-dungeons-dragons/). Instead, I deepened some friendships, had a lot of big laughs, learned some cool vocabulary, and had an indirect introduction to systems design. Importantly, I also annoyed the hell out of my high school principal.
 
