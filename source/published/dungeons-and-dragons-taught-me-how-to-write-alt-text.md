@@ -16,8 +16,8 @@ tags:
   - Html
   - Inclusion
 share:
-  facebookDescription: "A cabbage."
-  twitterDescription: "A cabbage."
+  facebookDescription: "An illustration of an ampersand that is drawn in such a way that it looks like a dragon twisting over itself and breathing fire. Logo for the 3.5 edition of Dungeons and Dragons."
+  twitterDescription: "An illustration of an ampersand that is drawn in such a way that it looks like a dragon twisting over itself and breathing fire. Logo for the 3.5 edition of Dungeons and Dragons."
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}
