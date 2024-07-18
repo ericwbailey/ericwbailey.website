@@ -156,7 +156,7 @@ Placing helpful, but ultimately non-critical information after the most importan
 
 The person who runs the game of Dungeons & Dragons has a responsibility to provide an entertaining and memorable experience for the other participants.
 
-<strong>You wield a power as the person enabling and facilitating the experiences others have</strong>. This applies to roleplaying games as well as writing alt text.
+<strong>You wield power as the person enabling and facilitating the experiences others have</strong>. This applies to roleplaying games as well as writing alt text.
 
 This is why I believe [most contemporary images on the web are not decorative](https://www.smashingmagazine.com/2021/06/img-alt-attribute-alternate-description-decorative/). It’s also why I think it’s important to [include details like race, gender, and ethnicity](https://tink.uk/thoughts-on-skin-tone-and-text-descriptions.md-notes-on-synthetic-speech/).
 
