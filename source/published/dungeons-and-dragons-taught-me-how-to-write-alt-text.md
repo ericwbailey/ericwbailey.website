@@ -52,7 +52,7 @@ The advice for that problem was spectacular, and it boiled down to <strong>descr
 Consider:
 
 <blockquote>
-  <p>A large room with rough stone walls. Brownish moss clings to the walls, and trickles of brackish water also flow down parts of it. of  Broken furniture is scattered across on the floor. The ceiling is so high that you cannot see it. Also, there is a large red dragon attacking you.</p>
+  <p>A large room with rough stone walls. Brownish moss clings to the walls, and trickles of brackish water also flow down parts of it. Broken furniture is scattered across on the floor. The ceiling is so high that you cannot see it. Also, there is a large red dragon attacking you.</p>
 </blockquote>
 
 I don’t know about you, but I’d want to know about the red dragon’s presence and activity a lot more than the quality of the masonry. There’s also another odd bit of putting too much detail on the wrong thing.
