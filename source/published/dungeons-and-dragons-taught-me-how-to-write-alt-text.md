@@ -13,7 +13,7 @@ tags:
   - Attributes
   - Design
   - Development
-  - Html
+  - HTML
   - Inclusion
 share:
   facebookDescription: "An illustration of an ampersand that is drawn in such a way that it looks like a dragon twisting over itself and breathing fire. Logo for the 3.5 edition of Dungeons and Dragons."
@@ -78,7 +78,7 @@ This is explicit prioritization of information. It also demonstrates that inform
 
 Observant readers may also note I’ve added some emotion with the exclamation point, as well as adding some more flowery language into the mix.
 
-Alternative text descriptions ([alt text](https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/alt)) are as much an art as much as it is a science.
+Alternative text descriptions ([alt text](https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/alt)) are as much an art as much as they are a science.
 
 A red dragon attack is <strong>a significant event</strong>, so additional detail and emotion helps. I feel confident in both editorializing the experience as well as punching it up, given that the larger goal is to communicate a frenetic, action-packed encounter.
 
