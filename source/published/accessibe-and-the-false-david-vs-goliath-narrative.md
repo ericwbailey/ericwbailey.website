@@ -32,6 +32,9 @@ furtherReading:
   - title: "AccessiBe and data protection?"
     source: "Léonie Watson"
     url: https://tink.uk/accessibe-and-data-protection/
+  - title: "It’s really this thing that gets me."
+    source: "Chris Coyier"
+    url: https://chriscoyier.net/2024/07/13/its-really-this-thing-that-gets-me/
   - title: "Overlay Fact Sheet"
     source: "overlayfactsheet.com"
     url: https://overlayfactsheet.com/
