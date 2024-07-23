@@ -6,13 +6,9 @@ date: 2021-04-07
 year: 2021
 tags:
   - Devices
-furtherReading:
-  - title: "Your Smart TV Knows What You’re Watching"
-    source: "The Markup"
-    url: https://themarkup.org/privacy/2023/12/12/your-smart-tv-knows-what-youre-watching
-  - title: "why every television sucks too"
-    source: "moth.monster"
-    url: https://moth.monster/blog/microwavification/
+  - title: "Imperfect Linux-powered DIY smart TV is the embodiment of ad fatigue"
+    source: "Ars Technica"
+    url: https://arstechnica.com/gadgets/2024/07/broken-linux-laptop-makes-for-a-fine-smart-tv-alternative/
 aroundTheWeb:
   - title: Hacker News
     url: https://news.ycombinator.com/item?id=26733126
