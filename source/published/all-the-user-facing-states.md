@@ -204,7 +204,7 @@ Prerecorded media or animation an element is Playing is temporarily halted (than
 
 ### Stopped
 
-Prerecorded media or animation an element is playing reverted back to its start position.
+Prerecorded media or animation an element is Playing is reverted back to its start position.
 
 ### Sticky
 
@@ -213,6 +213,14 @@ An element attaches itself to the side of the viewport opposite the direction so
 ### Unstuck
 
 A Sticky element is removed from the side of the viewport and moved back to its original position.
+
+### Locked
+
+An element’s position, content, and state  are fixed and cannot be modified.
+
+### Unlocked
+
+A locked element has its capability to be modified restored.
 
 ## Did I miss something?
 
