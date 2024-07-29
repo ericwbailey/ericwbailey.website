@@ -2,7 +2,7 @@
 layout: "layouts/post.njk"
 title: "These three links spell out a big uh oh for where things are headed when placed in context with each other"
 source: ericwbailey.website
-excerpt: "TK"
+excerpt: "Yikes"
 date: 2024-07-29
 year: 2024
 tags:
@@ -10,8 +10,8 @@ tags:
   - Cognition
   - Internet
 share:
-  facebookDescription: "TK"
-  twitterDescription: "TK"
+  facebookDescription: "A comic baloon saying, 'uh oh'. Drawn in the style of webcomic name by Alex Norris."
+  twitterDescription: "A comic baloon saying, 'uh oh'. Drawn in the style of webcomic name by Alex Norris."
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}
