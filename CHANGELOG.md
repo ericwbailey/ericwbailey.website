@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.70 - 2024-07-29
+- Add [These three links spell out a big uh oh for where things are headed when placed in context with each other](https://ericwbailey.website/published/these-three-links-spell-out-a-big-uh-oh-for-where-things-are-headed-when-placed-in-context-with-each-other)
+
 ## v1.5.69 - 2024-07-19
 - Add [Getting To The Bottom Of Minimum WCAG-Conformant Interactive Element Size](https://www.smashingmagazine.com/2024/07/getting-bottom-minimum-wcag-conformant-interactive-element-size/)
 
