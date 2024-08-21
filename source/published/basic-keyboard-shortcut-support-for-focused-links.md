@@ -268,13 +268,13 @@ The other thing worth stressing here is that there’s no real way to artificial
   </figcaption>
 </figure>
 
-This includes content the operating system and browser supply, but also third party extensions and modifications someone might install and rely on. I wish we had better options for this, but [I also wish browsers did a lot more to help people out](https://ericwbailey.website/published/contrast-color-is-a-good-thing-but-also-solving-the-problem-at-the-wrong-layer/#layer-seven).
+This context menu includes content the operating system and browser supply, and also third party extensions and modifications someone might install and rely on. I wish we had better options for this, but [I also wish browsers did a lot more to help people out](https://ericwbailey.website/published/contrast-color-is-a-good-thing-but-also-solving-the-problem-at-the-wrong-layer/#layer-seven).
 
 ## Use appropriate, semantic HTML whenever possible, I beg you
 
 All of the previously documented behavior needs to be built in JavaScript, since we need to go the synthetic link route. It also means that it is code we need to set aside time and resources to maintain.
 
-That also assumes that is even possible to recreate every expected feature in JavaScript, which might not be true. It also leaves out the mental gymnastics required to make a business case for prioritizing engineering efforts to re-make each feature.
+That also assumes that is even possible to recreate every expected feature in JavaScript, which is not true. It also leaves out the mental gymnastics required to make a business case for prioritizing engineering efforts to re-make each feature.
 
 Hopefully, all of this helps to communicate **the value of using the proper native HTML element**. You get so much extra good stuff just by virtue of using it.
 
