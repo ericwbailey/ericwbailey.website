@@ -31,9 +31,13 @@ code {
 kbd {
   background-color: var(--color-background);
   border: var(--border-width-thinnest) solid var(--color-type);
-  border-radius: var(--border-radius-tiny);
+  border-radius: var(--border-radius-small);
   padding: 0 0.5ch;
   word-break: break-word;
+
+  @media screen and (prefers-color-scheme: dark) {
+    background-color: var(--color-background-shade);
+  }
 }
 
 

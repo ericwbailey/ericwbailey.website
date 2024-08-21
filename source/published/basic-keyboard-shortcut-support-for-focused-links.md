@@ -25,7 +25,7 @@ eleventyNavigation:
 
 This is one of those cases where circumstances at my job led to needing to document expected behavior in order to create “synthetic” links via JavaScript. Sometimes this sort of thing is regrettably unavoidable.
 
-A large part of the effort was capturing all the different action you can perform with keyboard interaction when a link is [focused](https://developer.mozilla.org/en-US/docs/Web/API/Element/focus_event). Turns out, there’s a lot!
+A large part of the effort was capturing all the different action you can perform with keyboard interaction when [an anchor element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a) is [focused](https://developer.mozilla.org/en-US/docs/Web/API/Element/focus_event). Turns out, there’s a lot!
 
 I thought that sharing what I documented could be helpful to others. This is both as a resource, and also as an example of how being cavalier about non-semantic HTML can create so many problems.
 
@@ -256,14 +256,14 @@ The other thing worth stressing here is that there’s no real way to artificial
 
 <figure
   role="figure"
-  aria-label="Note that these options are different for different browsers, that the native menu can exist outside the browser’s viewport, and that this sweatshirt is incredible.">
+  aria-label="Note that these right click menu options are different for different browsers, that the native menu can exist outside the browser’s viewport, and that this sweatshirt is incredible.">
   <img
     role="img"
     alt="An Etsy listing for a blue sweatshirt that has the word 'Bucatini' written a white collegiate font on the front. The link to the seller's shop has been right clicked and a native menu is toggled opened. The menu contains actions you can take with the link, actions that the browser can take, and actions that third party extensions can take. The menu options are open link in new tab, open link in new window, open in InPrivate window, open link in split screen window, save link as, copy link, copy link text, search link text, read aloud from here, open selection in immersive reader, translate selection to English, add to collections, add to 1Password, copy clean link location, copy link to selected text, inspect with CSS Scan, list number of characters, open in Polypane, open link in this tab, rename tab, view file in new tab, VisBug, inspect dom node, and speech options. Screenshot of the Edge browser with one tab open."
     loading="lazy"
     src="{{ '/img/posts/basic-keyboard-shortcut-support-for-focused-links/link-right-click-menu.png' | url }}" />
   <figcaption>
-    Note that these options are different for different browsers, that the native menu can exist outside the browser’s viewport, and that <a href="https://www.etsy.com/listing/1111658691/bucatini-crewneck-sweatshirt-pasta">this sweatshirt</a> is incredible.
+    Note that these right click menu options are different for different browsers, that the native menu can exist outside the browser’s viewport, and that <a href="https://www.etsy.com/listing/1111658691/bucatini-crewneck-sweatshirt-pasta">this sweatshirt</a> is incredible.
   </figcaption>
 </figure>
 
