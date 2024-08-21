@@ -203,9 +203,9 @@ Returns to the home screen.
 Tested on Monday, Day, 2024 using the following hardware, operating systems and browser versions:
 
 - Keyboards:
-  - 2021 MacBook Pro
-  - Matias Wired Keyboard for Mac
-  - BOOGIIO Large Print Computer Keyboard
+  - 2021 MacBook Pro.
+  - Matias Wired Keyboard for Mac.
+  - BOOGIIO Large Print Computer Keyboard.
 - Windows, version 22631.4307.
   - Chrome, version 127.0.6533.120.
   - Edge, version 127.0.2651.98.
@@ -249,7 +249,7 @@ Tested on Monday, Day, 2024 using the following hardware, operating systems and 
 - Keyboard input can be [injected via browser extensions](https://wcedmisten.fyi/post/keyboard-shortcuts-userscripts/).
 - The most important keyboard is the one the person is currently using.
 - The most important browser is the one the person is currently using.
-- There are more input mechanisms and modalities in heaven and earth, Horatio, than are dreamt of in your philosophy.
+- There are [more input mechanisms and modalities in heaven and earth](https://esoteric.codes/blog/bodyfuck-gestural-code), Horatio, than are dreamt of in your philosophy.
 
 ## Links do so, so many things
 
