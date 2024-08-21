@@ -12,6 +12,7 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 
 ## v1.5.71 - 2024-08-21
 - Add [Basic keyboard shortcut support for focused links](https://ericwbailey.website/published/basic-keyboard-shortcut-support-for-focused-links)
+- Fix broken keyboard styling when dark mode is active
 
 ## v1.5.70 - 2024-07-29
 - Add [These three links spell out a big uh oh for where things are headed when placed in context with each other](https://ericwbailey.website/published/these-three-links-spell-out-a-big-uh-oh-for-where-things-are-headed-when-placed-in-context-with-each-other)
