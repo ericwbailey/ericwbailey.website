@@ -203,6 +203,7 @@ Returns to the home screen.
 Tested on Monday, Day, 2024 using the following hardware, operating systems and browser versions:
 
 - Keyboards:
+  - 2021 MacBook Pro
   - Matias Wired Keyboard for Mac
   - BOOGIIO Large Print Computer Keyboard
 - Windows, version 22631.4307.
