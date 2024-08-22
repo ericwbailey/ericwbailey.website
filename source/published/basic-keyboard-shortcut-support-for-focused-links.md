@@ -31,6 +31,8 @@ I thought that sharing what I documented could be helpful to others. This is bot
 
 ## Results
 
+Update: [Dave Rupert](https://daverupert.com/) very kindly created [a table-based synthesis of this work](https://codepen.io/davatron5000/full/WNqzMzd) and [shared it on Mastodon](https://mastodon.social/@davatron5000/113000730408162869).
+
 ### Windows
 
 #### <kbd>Shift</kbd> + <kbd>Enter</kbd>
