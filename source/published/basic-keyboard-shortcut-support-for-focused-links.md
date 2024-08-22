@@ -202,7 +202,7 @@ Returns to the home screen.
 
 ## Testing details
 
-Tested on Monday, Day, 2024 using the following hardware, operating systems and browser versions:
+Tested on Monday, August 19th, 2024 using the following hardware, operating systems and browser versions:
 
 - Keyboards:
   - 2021 MacBook Pro.
