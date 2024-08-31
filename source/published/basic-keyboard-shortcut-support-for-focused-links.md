@@ -25,7 +25,7 @@ eleventyNavigation:
 
 This is one of those cases where circumstances at my job led to needing to document expected behavior in order to create “synthetic” links via JavaScript. Sometimes this sort of thing is regrettably unavoidable.
 
-A large part of the effort was capturing all the different action you can perform with keyboard interaction when [an anchor element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a) is [focused](https://developer.mozilla.org/en-US/docs/Web/API/Element/focus_event). Turns out, there’s a lot!
+A large part of the effort was capturing all the different actions you can perform with keyboard interaction when [an anchor element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a) is [focused](https://developer.mozilla.org/en-US/docs/Web/API/Element/focus_event). Turns out, there’s a lot!
 
 I thought that sharing what I documented could be helpful to others. This is both as a resource, and also as an example of how being cavalier about non-semantic HTML can create so many problems.
 
