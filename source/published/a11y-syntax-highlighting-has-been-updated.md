@@ -51,13 +51,13 @@ The project was started in response to a question [Michael Ball](https://mball.c
 
 I then realized there weren’t a lot of syntax highlighting themes that were fully conformant. Many of them fell apart with the colors they use for comments.
 
-I understand that there may be a desire for code comments to look less visually emphasized. However, code comment color—like all other code content—still needs to be able to be read.
+I understand that there may be a desire for code comments to look less visually emphasized. However, code comment color—like all other text content—still needs to be able to be read.
 
 Naming the problem means owning the solution. Because of this, I created the library to address this gap in support.
 
 I also put a lot of effort into selecting color values that did more than just conform. **Accessible experiences can be beautiful experiences**, and I wanted this to reflect that.
 
-I initially targeted the [PrismJS](https://prismjs.com/) library because of its popularity. [highlight.js](https://highlightjs.org/) support soon followed. I also added [themes for Carbon](https://carbon.now.sh/?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=a11y-dark&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false), as sharing images of your code on social media is apparently something people like to do.
+I initially targeted the [PrismJS](https://prismjs.com/) project because of its popularity. [highlight.js](https://highlightjs.org/) support soon followed. I also added [themes for Carbon](https://carbon.now.sh/?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=a11y-dark&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false), as sharing images of your code on social media is apparently something people like to do.
 
 While doing this work, I also realized I could also support [Windows High Contrast Mode](https://support.microsoft.com/en-us/windows/change-color-contrast-in-windows-fedc744c-90ac-69df-aed5-c8a90125e696#WindowsVersion=Windows_10). I haven’t encountered any other syntax highlighting theme that does this, so I wanted to offer an option.
 
@@ -76,9 +76,9 @@ Another person I’d like to thank is [Elly Loel](https://www.ellyloel.com/). Sh
 
 It took me longer than I’d care to admit, but the latest release of the library address her issue, plus a lot more!
 
-I could lie and say it was me [waiting for more broad browser support](https://css-tricks.com/evergreen-does-not-mean-immediately-available/), but the real answer is [last year’s events took a lot out of me](https://ericwbailey.website/published/modern-health-frameworks-performance-and-harm/).
+I could lie and say it was me [waiting for more broad browser support](https://css-tricks.com/evergreen-does-not-mean-immediately-available/). However, the real answer is [last year’s events took a lot out of me](https://ericwbailey.website/published/modern-health-frameworks-performance-and-harm/).
 
-I’m in a better place now, and this update is an output of the effort I’ve been taking to take better care of my physical and emotional health.
+I’m in a better place now. This update is an output of the effort I’ve been taking to take better care of my physical and emotional health.
 
 We often forget that there are human beings at the other end of the software we use. It’s a fact that I hope you keep in mind the next time you go to file an issue. To that point, I’d like to thank Elly again for her patience and grace.
 
@@ -98,7 +98,7 @@ Using `:where()` makes a lot of sense for grouping selectors. It also keeps the 
 
 ### CSS Custom Properties
 
-The themes’ colors and measurements are also more easy to manipulate to better work for your content’s visual needs. A good example here would be updating the `font-family`  value to use whatever font you use for your website.
+The themes’ colors and measurements are also more easy to manipulate to better work for your content’s visual needs. A good example here would be overriding `--prism-a11y-font-family`’s value to use whatever font you use for your website.
 
 Additionally, Forced Color Mode works beautifully with CSS Custom Properties. I wrote [more about the technique for Smashing Magazine](https://www.smashingmagazine.com/2022/03/windows-high-contrast-colors-mode-css-custom-properties/), if you’re interested.
 
@@ -111,7 +111,7 @@ Speaking of what’s coming down the line, I’ve revamped [the roadmap](https:/
 
 The only thing I’m going to focus on now is a [Microsoft Visual Studio Code](https://code.visualstudio.com/) theme. I’m only going to do that if there’s expressed interest, however.
 
-Cleaning up the old changelog also removed a lot of obligations I created for myself—I now realize that they were contributing unnecessary background stress and guilt.
+Cleaning up the old roadmap also removed a lot of obligations I created for myself—I now realize that they were contributing unnecessary background stress and guilt.
 
 The other thing I’m ambiently curious about is [GlyphDrawing.Club](https://blog.glyphdrawing.club/)’s magical [Font with Built-In Syntax Highlighting](https://blog.glyphdrawing.club/font-with-built-in-syntax-highlighting/). I’m not going to try and create a whole new typeface from scratch, however.
 
