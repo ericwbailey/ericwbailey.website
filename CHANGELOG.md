@@ -10,6 +10,12 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.72 - 2024-09-09
+- Add [a11y-syntax-highlighting has been updated](https://ericwbailey.website/published/a11y-syntax-highlighting-has-been-updated)
+- Bug report (h/t Augen Rabin)
+  - Update the [Inclusive Design Principles](https://inclusivedesignprinciples.info/) link on [the accessibility statement page](https://ericwbailey.website/accessibility-statement/)
+  - Fix the [Published page](https://ericwbailey.website/published/) count
+
 ## v1.5.71 - 2024-08-21
 - Add [Basic keyboard shortcut support for focused links](https://ericwbailey.website/published/basic-keyboard-shortcut-support-for-focused-links)
 - Fix broken keyboard styling when dark mode is active
