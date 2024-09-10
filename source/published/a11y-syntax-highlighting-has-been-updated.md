@@ -121,4 +121,4 @@ I’m also open to supporting other popular syntax highlighting libraries if eno
 
 It’s been a little bit of a trip to reflect on who I was when I started this project, and where I’m at now. To that point, I’m curious to see where the project will go from here.
 
-To that point, let me know if you use the theme for your project! I’d love to [include your site on the README](https://github.com/ericwbailey/a11y-syntax-highlighting?tab=readme-ov-file#used-by).
+To the point of that point, let me know if you use the theme for your project! I’d love to [include your site on the README](https://github.com/ericwbailey/a11y-syntax-highlighting?tab=readme-ov-file#used-by).
