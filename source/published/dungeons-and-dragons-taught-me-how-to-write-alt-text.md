@@ -136,11 +136,11 @@ As the author of both experiences I am trying to not only:
 1. Describe what is physically present, but also 
 2. How all the qualities add up as a suggestion for how to feel when taken in as a composite whole.
 
-For the roleplaying game description, I am injecting an immediate sense of fear and menace into an otherwise boring situation. For the image description, I am I am creating a sense of relaxation and contentment.
+For the roleplaying game description, I am injecting an immediate sense of fear and menace into an otherwise boring situation. For the image description, I am creating a sense of relaxation and contentment.
 
 Additionally, the introduction of the vizier may seem contradictory when compared to the dragon on a first read through. Remember that this is <strong>an editorialized experience</strong>.
 
-The most important thing in this scene is the feelings of shock and fear when something unexpected and unsettling interrupts the mundane. In order to create that feeling, we need to first establish the humdrum experience of an boring, endless meeting in a stifling room.
+The most important thing in this scene is the feelings of shock and fear when something unexpected and unsettling interrupts the mundane. In order to create that feeling, we need to first establish the humdrum experience of a boring, endless meeting in a stifling room.
 
 ## The user experience of assistive technology
 
