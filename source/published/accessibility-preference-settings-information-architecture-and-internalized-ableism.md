@@ -40,7 +40,7 @@ Here are the first two slides I use to set the tone:
 
 The talk deliberately avoids mentioning VoiceOver, or screen readers in general.
 
-There is a reason behind this omission, and that reason is <strong>internalized ableism</strong>. People don't think of themselves as disabled, so they don't think the accessibility preference area applies to them.
+There is a reason behind this omission, and that reason is <strong>[internalized ableism](https://en.m.wikipedia.org/wiki/Internalized_ableism)</strong>. People don't think of themselves as disabled, so they don't think the accessibility preference area applies to them.
 
 This breaks my heart. When giving this talk there are inevitably comments in the chat along the lines of, "Wow, I had no idea this existed!" and, "This is going to be life changing!"
 
