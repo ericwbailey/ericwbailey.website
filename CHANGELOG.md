@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.73 - 2024-09-17
+- Add [Accessibility preference settings, information architecture, and internalized ableism](https://ericwbailey.website/published/accessibility-preference-settings-information-architecture-and-internalized-ableism)
+
 ## v1.5.72 - 2024-09-09
 - Add [a11y-syntax-highlighting has been updated](https://ericwbailey.website/published/a11y-syntax-highlighting-has-been-updated)
 - Bug report (h/t Augen Rabin)
