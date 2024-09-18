@@ -31,7 +31,8 @@ Larger, older sites tend to grow into being slightly less invariable. If you hav
 - An odd tint or shade here,
 - Contrasting border radii there,
 - An errant button style unearthing itself from a past redesign, and
-- Over here is an errant microsite made by a third party vendor, the long abandoned pet project of a stakeholder who has long-since moved on.
+- Over here is an errant microsite made by a third party vendor, 
+- And here is the abandoned pet project of a stakeholder who has long-since moved on.
 
 It is sort of like counting the rings on a tree:
 
