@@ -22,7 +22,7 @@ eleventyNavigation:
   order: 60
 ---
 
-I have a [lightning talk](https://en.wikipedia.org/wiki/Lightning_talk) I deliver internally at my job. It is intentionally delivered to non-accessibility practitioners, so mainly engineers, designers, and product folk.
+I have a [lightning talk](https://en.wikipedia.org/wiki/Lightning_talk) I deliver internally at my job. It is intentionally delivered to non-accessibility practitioners, so mainly engineers, designers, project managers, and product folk.
 
 The talk is about exploring [macOS' Accessibility system preferences](https://support.apple.com/guide/mac-help/change-accessibility-settings-mchlp1400/mac). It points out different features, like offline [white noise sounds](https://www.macworld.com/article/819085/how-to-play-soothing-white-noise-in-macos-ventura.html), [color filters](https://support.apple.com/guide/mac-help/change-display-settings-for-accessibility-unac089/mac#mchl9c340ea4), and [magnification](https://support.apple.com/guide/mac-help/change-zoom-settings-for-accessibility-mh40579/mac).
 
@@ -85,7 +85,7 @@ If you make a digital experience:
 - Pay attention to trends in your bug reports and customer service complaints. Start to categorize and prioritize them if you’re not already.
 - Consider reaching out individuals directly to ask them what they need. Also be sure to compensate them for their time and experience.
 - Provide different methods and techniques to access and operate content.
-- Don’t forget about survivor bias. Just because [someone is not using your service does not mean they do not want to](https://en.wikipedia.org/wiki/Survivorship_bias?useskin=vector).
+- Don’t forget about survivor bias. Just because [someone is not using your service does not mean they do not want to](https://en.wikipedia.org/wiki/Survivorship_bias).
 
 If you use digital experiences:
 
