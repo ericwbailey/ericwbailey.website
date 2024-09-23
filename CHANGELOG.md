@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.74 - 2024-09-23
+- Add [Heading elements have been added to Project board views to improve screen reader page navigation](https://github.blog/changelog/2024-09-23-heading-elements-added-to-project-board-views/)
+
 ## v1.5.73 - 2024-09-17
 - Add [Accessibility preference settings, information architecture, and internalized ableism](https://ericwbailey.website/published/accessibility-preference-settings-information-architecture-and-internalized-ableism)
 
