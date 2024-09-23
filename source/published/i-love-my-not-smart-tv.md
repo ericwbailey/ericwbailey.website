@@ -78,6 +78,7 @@ All that said, my not-smart TV will not:
 - [Give someone access to my personal email](https://www.404media.co/android-tvs-can-expose-user-email-inboxes/),
 - Subject me to [hate-speech disseminating](https://www.wsj.com/articles/islamic-state-turns-to-nfts-to-spread-terror-message-11662292800) [NFTs](https://www.theverge.com/2022/9/4/23336997/lg-bringing-nfts-smart-tvs-cryptocurrency),
 - Update itself to make me [scream “McDonald’s!” to skip an ad](https://www.fastcompany.com/90185994/sony-files-patent-to-make-tv-ads-into-video-games),
+- [Become bricked because of an update pushed out by my ISP](https://arstechnica.com/gadgets/2024/09/telecom-accused-of-bricking-hundreds-of-tvs-streaming-sticks-with-bad-update/),
 - [Store conversations I have](https://www.techdirt.com/2015/02/09/samsungs-smart-tvs-are-collecting-storing-your-private-conversations/) in the room the TV is placed in,
 - Be [the topic of a dedicated Consumer Reports guide](https://www.consumerreports.org/electronics/privacy/how-to-turn-off-smart-tv-snooping-features-a4840102036/),
 - Straight-up [spy on me](https://www.techdirt.com/2017/02/07/vizio-fined-22-million-not-telling-customers-their-tvs-were-spying-them/), or
