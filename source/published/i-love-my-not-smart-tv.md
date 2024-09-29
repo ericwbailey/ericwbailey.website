@@ -81,6 +81,7 @@ All that said, my not-smart TV will not:
 - [Become bricked because of an update pushed out by my ISP](https://arstechnica.com/gadgets/2024/09/telecom-accused-of-bricking-hundreds-of-tvs-streaming-sticks-with-bad-update/),
 - [Store conversations I have](https://www.techdirt.com/2015/02/09/samsungs-smart-tvs-are-collecting-storing-your-private-conversations/) in the room the TV is placed in,
 - Be [the topic of a dedicated Consumer Reports guide](https://www.consumerreports.org/electronics/privacy/how-to-turn-off-smart-tv-snooping-features-a4840102036/),
+- [Show me ads when turned on and not being actively used](https://www.theverge.com/2024/9/26/24254935/lg-smart-tv-oled-screensaver-ads-idle-mode),
 - Straight-up [spy on me](https://www.techdirt.com/2017/02/07/vizio-fined-22-million-not-telling-customers-their-tvs-were-spying-them/), or
 - [Do whatever the hell this is](https://cohost.org/ghoulnoise/post/5286766-do-not-buy-hisense-t).
 
