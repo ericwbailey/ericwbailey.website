@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.75 - 2024-09-28
+- Add [Making content-aware components using CSS’ <code>:has()</code>, grid, and quantity queries](https://piccalil.li/blog/making-content-aware-components-using-css-has-grid-and-quantity-queries/)
+
 ## v1.5.74 - 2024-09-23
 - Add [Heading elements have been added to Project board views to improve screen reader page navigation](https://github.blog/changelog/2024-09-23-heading-elements-added-to-project-board-views/)
 
