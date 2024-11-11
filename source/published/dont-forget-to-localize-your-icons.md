@@ -48,11 +48,11 @@ In the worst case, it will **eradicate any sense of trust** you’re attempting 
 
 There is no magic number for how many mistranslated pieces of content flips the switch from tolerant bemusement to mistrust and anger.
 
-Each person running into these mistakes has a different tolerance threshold. Additionally, that threshold is also variable depending on factors such as level of stress, seriousness of the task at hand, etc.
+Each person running into these mistakes has a different tolerance threshold. Additionally, that threshold is also variable depending on factors such as level of stress, seriousness of the task at hand, prior interactions, etc.
 
 If you’re operating a business, loss of trust may mean less sales. Loss of trust may have [far more serious ramifications if it’s a government service](https://www.scientificamerican.com/article/how-cia-fake-vaccination-campaign-endangers-us-all/).
 
-Let’s also not forget that it is language **communities and not individuals**. Word-of-mouth does a lot of heavy lifting here, especially for underserved and historically discriminated-against populations. Reputational harm is a thing you also need to contend with.
+Let’s also not forget that it is language **communities and not individuals**. Word-of-mouth does a lot of heavy lifting here, especially for underserved and historically discriminated-against populations. To that point, rReputational harm is also a thing you need to contend with.
 
 Because of this, we need to remember [all the things that are frequently left out of translation and localization efforts](https://ericwbailey.website/published/what-they-dont-tell-you-when-you-translate-your-app/#you%E2%80%99ll-need-to-translate-%2F-localize-more-than-you-think-you-will). For this post, I’d like to focus on icons.
 
