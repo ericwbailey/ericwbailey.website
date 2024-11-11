@@ -211,22 +211,3 @@ Effective, clear communication that is **interpreted as intended** is a complica
 Taking the time to do research, and also perform outreach to the communities you wish to communicate with can take a lot of work, but will lead to better experiences—and therefore outcomes—for all involved.
 
 As you undertake, or revisit your localization efforts be sure to take stock of the images and icons you use. There may be more to it than you initially thought.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-https://bsky.app/profile/annaecook.bsky.social/post/3l7tqml5nue2d
-
