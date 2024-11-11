@@ -173,7 +173,6 @@ This symbol is usually used to represent acceptance or approval.
 
 The following places and people from these cultures take offense to an okay hand symbol:
 
-- Brazil,
 - Greece,
 - Spain, and
 - France.
