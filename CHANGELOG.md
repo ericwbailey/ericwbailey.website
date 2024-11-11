@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.76 - 2024-11-11
+- Add [Don’t forget to localize your icons](https://ericwbailey.website/published/dont-forget-to-localize-your-icons)
+
 ## v1.5.75 - 2024-09-28
 - Add [Making content-aware components using CSS’ <code>:has()</code>, grid, and quantity queries](https://piccalil.li/blog/making-content-aware-components-using-css-has-grid-and-quantity-queries/)
 
