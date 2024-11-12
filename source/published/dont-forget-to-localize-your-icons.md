@@ -118,7 +118,7 @@ In addition to expressing favor or approval, a thumb’s up can also be insultin
 - Some parts of Latin America, and
 - Australia, if you also waggle it up and down.
 
-It was also not a great gesture of to be on the receiving end of in Rome, specifically if you were a downed gladiator at the mercy of the crowd.
+It was also not a great gesture to be on the receiving end of in Rome, specifically if you were a downed gladiator at the mercy of the crowd.
 
 ### What you could use instead
 If it’s a binary “I like this/I don’t like this” choice, consider symbols like stars and hearts. Sparkles are out, because [AI has ruined them](https://www.nngroup.com/articles/ai-sparkles-icon-problem/).
