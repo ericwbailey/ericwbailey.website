@@ -76,7 +76,7 @@ However, these metaphors start to fall apart when not handled with care and disc
   </figcaption>
 </figure>
 
-Similarly, objects or concepts that don’t exist in the demographics you are serving won’t translate well. An amazing example of how to accommodate this is [Firefox OS’ localization efforts with the Fula people](https://innovatingminds4change.com/2014/10/13/oh-no-my-cow-just-fell-over-but-i-can-reboot/).
+Similarly, objects or concepts that don’t exist in the demographics you are serving won’t directly translate well. It will take work, but the results can be amazing. An exellent example of accommodation is [Firefox OS’ localization efforts with the Fula people](https://innovatingminds4change.com/2014/10/13/oh-no-my-cow-just-fell-over-but-i-can-reboot/).
 
 **Culture impacts how icons are interpreted, understood, and used**, just like all other content.
 
@@ -201,12 +201,12 @@ This doesn’t mean that we have to capitulate, however! Adapting your iconograp
 
 Just be sure that the rest of your localization efforts match the care you put into your icons and images. Otherwise it will leave the experience feeling off.
 
-An example of this is using imagery that feels natural in the language culture you’re serving, but having awkward and stilted and text content. This disharmonious mismatch in tone will be noticed and felt, even if it isn’t concretely tied to any one thing.
+An example of this is using imagery that feels natural in the language culture you’re serving, but having awkward and stilted text content. This disharmonious mismatch in tone will be noticed and felt, even if it isn’t concretely tied to any one thing.
 
 ## Different things mean different things in different ways
 
 Effective, clear communication that is **interpreted as intended** is a complicated thing to do. This gets even more intricate when factors like language, culture, and community enter the mix.
 
-Taking the time to do research, and also perform outreach to the communities you wish to communicate with can take a lot of work, but will lead to better experiences—and therefore outcomes—for all involved.
+Taking the time to do research, and also perform outreach to the communities you wish to communicate with can take a lot of work. But doing so will lead to better experiences, and therefore outcomes for all involved.
 
-As you undertake, or revisit your localization efforts be sure to take stock of the images and icons you use. There may be more to it than you initially thought.
+Take stock of the images and icons you use as you undertake, or revisit your localization efforts. There may be more to it than you initially thought.
