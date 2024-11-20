@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.77 - 2024-11-19
+- Add The Intersection of Performance and Accessibility talk for [performance.now()](https://perfnow.nl/speakers#eric-)
+
 ## v1.5.76 - 2024-11-11
 - Add [Don’t forget to localize your icons](https://ericwbailey.website/published/dont-forget-to-localize-your-icons)
 

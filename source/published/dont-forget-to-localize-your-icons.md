@@ -171,11 +171,9 @@ This symbol is usually used to represent acceptance or approval.
 
 ### Who could be insulted by it
 
-The following places and people from these cultures take offense to an okay hand symbol:
+People from Greece may take offense to an okay hand symbol.
 
-- Greece,
-- Spain, and
-- France.
+The gesture might have also offended people in France and Spain when performed by hand, [but that may have passed](https://front-end.social/@stephaniewalter/113504101537285545).
 
 ### Who could be threatened by it
 
