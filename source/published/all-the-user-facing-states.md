@@ -11,6 +11,13 @@ tags:
   - Design Systems
   - Development
   - HTML
+furtherReading:
+  - title: "UI = f(statesⁿ)"
+    source: "Dave Rupert"
+    url: https://daverupert.com/2024/02/ui-states/
+  - title: "How to fix a bad user interface"
+    source: "Scott Hurff"
+    url: https://www.scotthurff.com/posts/why-your-user-interface-is-awkward-youre-ignoring-the-ui-stack/
 sharedOn:
   twitter: https://twitter.com/ericwbailey/status/1520040337774886912
 share:
@@ -220,8 +227,16 @@ An element’s position, content, and state  are fixed and cannot be modified.
 
 ### Unlocked
 
-A locked element has its capability to be modified restored.
+A Locked element has its capability to be modified restored.
+
+### Docked
+
+An element has one or more of the boundaries of its overall size fixed to the viewport. This may also adjust its size.
+
+### Undocked
+
+An element is moved away from one or more parts of the viewport. Its size may be restored to its original state.
 
 ## Did I miss something?
 
-[Let me know](https://twitter.com/ericwbailey/status/1520040337774886912)!
+[Let me know](https://ericwbailey.website/#section-contact)!
