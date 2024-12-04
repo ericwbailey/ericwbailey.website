@@ -15,6 +15,9 @@ furtherReading:
   - title: "UI = f(statesⁿ)"
     source: "Dave Rupert"
     url: https://daverupert.com/2024/02/ui-states/
+  - title: "The Sorry State of States"
+    source: "Nathan Curtis"
+    url: https://medium.com/@nathanacurtis/the-sorry-state-of-states-89dd4668737e
   - title: "How to fix a bad user interface"
     source: "Scott Hurff"
     url: https://www.scotthurff.com/posts/why-your-user-interface-is-awkward-youre-ignoring-the-ui-stack/
