@@ -11,6 +11,11 @@ tags:
   - Inclusion
   - Localization
   - User Research
+translations:
+  - language: Korean
+    url: https://velog.io/@sehyunny/dont-forget-to-localize-icons
+    translatorName: "sehyun hwang"
+    translatorUrl: https://velog.io/@sehyunny/posts
 attribution: "Thank you to <a href='https://annaecook.com/'>Anna E. Cook</a> for <a href='https://bsky.app/profile/annaecook.bsky.social/post/3l7tqml5nue2d'>the inspiration</a> to finally turn this into a post."
 share:
   facebookDescription: "A thumb's up icon."
