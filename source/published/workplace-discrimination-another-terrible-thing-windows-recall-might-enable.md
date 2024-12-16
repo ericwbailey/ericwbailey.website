@@ -19,7 +19,7 @@ furtherReading:
   - title: "Microsoft’s all-knowing Recall AI feature is being delayed"
     source: "The Verge"
     url: https://www.theverge.com/2024/6/13/24178144/microsoft-windows-ai-recall-feature-delay
-  - title: "Microsoft Recall screenshots credit cards and Social Security numbers, even with the "sensitive information" filter enabled"
+  - title: "Microsoft Recall screenshots credit cards and Social Security numbers, even with the “sensitive information” filter enabled"
     source: "Tom's Hardware"
     url: https://www.tomshardware.com/software/windows/microsoft-recall-screenshots-credit-cards-and-social-security-numbers-even-with-the-sensitive-information-filter-enabled
 share:
