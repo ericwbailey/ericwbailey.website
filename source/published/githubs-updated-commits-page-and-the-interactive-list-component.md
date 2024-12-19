@@ -46,11 +46,11 @@ Making each list item’s container itself focusable and traversable addresses t
 
 On GitHub, navigating an interactive list can be accomplished via pressing:
 
-- <kbd>Tab</kbd>: Place focus on the last interactive list to receive focus. Defaults to the first item in the list if the component instance was previously not interacted with.
-- <kbd>Down</kbd>: Move focus to the next list item, if present.
-- <kbd>Up</kbd>: Move focus to the previous list item, if present.
-- <kbd>End</kbd>: Move focus to the last list item in the interactive list.
-- <kbd>Home</kbd>: Move focus to the first list item in the interactive list.
+- <kbd>Tab</kbd>: Places focus on the last interactive list to receive focus. Defaults to the first item in the list if the component instance was previously not interacted with.
+- <kbd>Down</kbd>: Moves focus to the next list item, if present.
+- <kbd>Up</kbd>: Moves focus to the previous list item, if present.
+- <kbd>End</kbd>: Moves focus to the last list item in the interactive list.
+- <kbd>Home</kbd>: Moves focus to the first list item in the interactive list.
 
 The trick here is to make sure each list item’s announcement contains enough information that someone navigating via a screen reader can **make an informed choice** about if they want to investigate the item’s child content in more detail.
 
@@ -82,11 +82,11 @@ Examples of child content that someone could encounter are an Issues’ author, 
 <picture class="post-breakout">
   <source
     media="(min-width: 68rem)"
-    srcset="{{ '/img/posts/githubs-updated-commits-page-and-the-interactive-list-component/tab-order-wide-wide.svg' | url }}">
+    srcset="{{ '/img/posts/githubs-updated-commits-page-and-the-interactive-list-component/tab-order-wide.svg' | url }}">
   <img
     role="img"
     alt="A simplified illustration of a list item with numbered tab stops to demonstrate focus order. Focus moves from the list item itself to its implied title area, then its label, then its status, then author and other associated metadata."
-    src="{{ '/img/posts/githubs-updated-commits-page-and-the-interactive-list-component/tab-order-wide-narrow.svg' | url }}">
+    src="{{ '/img/posts/githubs-updated-commits-page-and-the-interactive-list-component/tab-order-narrow.svg' | url }}">
 </picture>
 
 ## Problems
