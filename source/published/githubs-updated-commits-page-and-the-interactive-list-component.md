@@ -112,7 +112,7 @@ Using this interactive list component on the Commits page template means there a
 
 **Large, structural changes to a design’s underlying semantics disrupts the mental model and muscle memory** of how many people who use screen readers operate an experience. It’s an act that I’m always nervous about undertaking.
 
-The calculated bet here is that the prominence of these components on these high-traffic areas means that understanding how to operate them becomes easier over time. I’ve also hedged that bet by including alternate ways of navigating the interactive list, including [using headings](https://webaim.org/projects/screenreadersurvey9/#finding) for each Commit, Issue, and Pull Request title.
+The calculated bet here is that the prominence of these components on these high-traffic areas means that understanding how to operate them becomes easier over time. I’ve also hedged that bet by including alternate ways of navigating the interactive list, including [using headings](https://webaim.org/projects/screenreadersurvey9/#finding) for each Commit and Issue title.
 
 <figure
   role="figure"
