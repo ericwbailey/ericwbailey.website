@@ -27,7 +27,7 @@ eleventyNavigation:
 
 GitHub has updated [the page template used to list Commits on a repository](https://github.blog/changelog/2024-12-12-refreshed-pull-request-commits-page-now-generally-available/). Central to this experience is an interactive list component that I was responsible for architecting. This work was done alongside input from [James Scholes](https://dragonscave.space/@jscholes), whose guidance was instrumental to the effort’s success.
 
-An interactive list is [a construct that’s more commonplace on desktop applications than the web](https://github.com/w3c/aria/wiki/Proposal%3A-Interactive-Lists#examples-for-interactive-lists). That does not mean its approach is forbidden from be used for web experiences, however.
+An interactive list is [a construct that’s more commonplace on desktop applications than the web](https://github.com/w3c/aria/wiki/Proposal%3A-Interactive-Lists#examples-for-interactive-lists). That does not mean its approach is forbidden from being used for web experiences, however.
 
 ## What concerns does an interactive list address?
 
@@ -44,7 +44,7 @@ It could also be agonizing. Think [motor control disabilities](https://webaim.or
 
 Making each list item’s container itself focusable and traversable addresses this problem, as it **lowers the number of keypresses someone needs to use**. It also supports allowing you to quickly navigate item by item, or jump to the start or end of the list.
 
-On GitHub, navigating an interactive list can be accomplished via pressing:
+On GitHub, navigating an interactive list via your keyboard can be accomplished by pressing:
 
 - <kbd>Tab</kbd>: Places focus on the last interactive list to receive focus. Defaults to the first item in the list if the component instance was previously not interacted with.
 - <kbd>Down</kbd>: Moves focus to the next list item, if present.
@@ -68,7 +68,7 @@ There is an intentionality behind the order of content in this announcement, as 
     srcset="{{ '/img/posts/githubs-updated-commits-page-and-the-interactive-list-component/announcement-heirarchy-wide.svg' | url }}">
   <img
     role="img"
-    alt="A simplified illustration of a list item, followed by simulated screen reader output. The list item contains three child items that are highlighted and labeled, with the labels reading, '1. Title', '2. Status', and '3. Author'. Five other items are also present in the list item, but are not highlighted. The simulated screen reader output reads, 'Sorting blog posts in a subfolder does not work. Status: Open. Author: guyincognito. More information available below.'."
+    alt="A simplified illustration of a list item, followed by simulated screen reader output. The list item contains three child items that are highlighted and labeled, with the labels reading, '1. Title', '2. Status', and '3. Author'. Five other items are also present in the list item, but are not highlighted. The simulated screen reader output reads, 'Sorting blog posts in a subfolder does not work. Status: Open. Author: guyincognito. More information available below.'. Labels are also applied to the simulated output, showing the relationship between the visual design and the announcement content."
     src="{{ '/img/posts/githubs-updated-commits-page-and-the-interactive-list-component/announcement-heirarchy-narrow.svg' | url }}">
 </picture>
 
