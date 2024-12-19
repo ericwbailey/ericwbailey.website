@@ -136,7 +136,7 @@ I do think that this update to each page’s semantic structure is net better th
 
 **Subsequent large and sudden changes is what I want to avoid at all costs**.
 
-That said, we’re running out the clock on a situation where an interactive list’s list item someday contains non-interactive content. The component’s current approach does not have a great way for people to be aware of, and subsequently read that kind of content. That’s not great.
+That said, we’re running out the clock on a situation where an interactive list’s list item someday will contain non-interactive content. The component’s current approach does not have a great way for people to be aware of, and subsequently read that kind of content. That’s not great.
 
 Because of this inevitability, I would like to replace the list’s interaction approach with the one we’re using for [nested/sub-Issues](https://github.blog/changelog/2024-10-01-evolving-github-issues-public-beta/#break-down-and-nest-issues-with-sub-issues). There are a few reasons for this, but the main ones are:
 
@@ -154,7 +154,7 @@ Enacting my goal of replacing and unifying these kinds of interactions would tak
 
 I also have the gift of hindsight in writing this. The interactive list was originally intended to address just the list of repository Issues. Its usage has since has grown to cover more use cases—not all of them actually applicable.
 
-This is **one of the downsides of a design system**. You can write all the documentation you want, but ultimately people are going to use what they’re going to use regardless of if its appropriate or not.
+This is **one of the existential problems of a design system**. You can write all the documentation you want, but people are ultimately going to use what they’re going to use regardless of if its appropriate or not.
 
 Excising and updating misapplied component is another effort that runs counter to organization priorities. That truth lives in parallel with the need to **maintain the overall state of usability for everyone** who uses the service.
 
@@ -174,9 +174,9 @@ I’m pretty proud of what we accomplished, but those feelings are moot if all t
 
 It’s also **not about me**. Our efforts to be more inclusive may ironically work against us here. How much churn is the point where it’s too much and people are pushed away?
 
-To that point, [feedback helps](https://github.com/orgs/community/discussions/categories/accessibility).
+To that point, [feedback helps](https://github.com/orgs/community/discussions/categories/accessibility). Constructive reports on barriers and friction are something that can bypass the internal perception of the things I’ve outlined being a non-problems.
 
-Constructive reports on barriers and friction are something that can bypass the internal perception of the things I’ve outlined being a non-problems. I am twice heartened here. First, a report is a signal that means someone is still present and cares enough to voice their problems. Second, there has been renewed internal interest in investing on acting on these user-reported accessibility problems.
+I am twice heartened when I see reports. First, [it is a signal that means someone is still present and cares enough](https://bsky.app/profile/ericwbailey.website/post/3la5etpjrqa2t) to voice their problems. Second, there has been renewed internal interest in investing on acting on these user-reported accessibility problems.
 
 ## The work never stops
 
