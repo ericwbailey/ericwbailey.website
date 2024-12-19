@@ -74,8 +74,9 @@ There is an intentionality behind the order of content in this announcement, as 
 
 We also use the term “More information available below” to signal that someone can explore the list item’s child contents in more detail. This is accomplished via pressing:
 
-- <kbd>Tab</kbd> and <kbd>Shift</kbd> + <kbd>Tab</kbd>: Navigate through each interactive element placed within each list item in sequence.
-- <kbd>Esc</kbd>: Moves focus out of the interactive elements placed within each list item and places it back on the list item itself again.
+- <kbd>Tab</kbd>: Navigates forwards through each child interactive element in sequence.
+- <kbd>Shift</kbd> + <kbd>Tab</kbd>: Navigates backwards through each child interactive element in sequence.
+- <kbd>Esc</kbd>: Moves focus out of the child interactive elements and places it back on the list item itself.
 
 Examples of child content that someone could encounter are an Issues’ author, its labels, linked Pull Requests, comment tally, and assignees.
 
