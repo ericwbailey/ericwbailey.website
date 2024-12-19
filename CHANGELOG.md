@@ -10,11 +10,14 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.78 - 2024-12-20
+- Add [GitHub’s updated Commits page and the interactive list component](https://ericwbailey.website/published/githubs-updated-commits-page-and-the-interactive-list-component/)
+
 ## v1.5.77 - 2024-11-19
 - Add The Intersection of Performance and Accessibility talk for [performance.now()](https://perfnow.nl/speakers#eric-)
 
 ## v1.5.76 - 2024-11-11
-- Add [Don’t forget to localize your icons](https://ericwbailey.website/published/dont-forget-to-localize-your-icons)
+- Add [Don’t forget to localize your icons](https://ericwbailey.website/published/dont-forget-to-localize-your-icons/)
 
 ## v1.5.75 - 2024-09-28
 - Add [Making content-aware components using CSS’ <code>:has()</code>, grid, and quantity queries](https://piccalil.li/blog/making-content-aware-components-using-css-has-grid-and-quantity-queries/)
