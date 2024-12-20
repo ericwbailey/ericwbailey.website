@@ -80,7 +80,7 @@ There is an intentionality behind the order of content in this announcement, as 
     src="{{ '/img/posts/githubs-updated-commits-page-and-the-interactive-list-component/announcement-heirarchy-narrow-on-light.svg' | url }}">
 </picture>
 
-This lets us know: 
+This lets us know:
 
 1. What the problem is,
 2. Has it been dealt with yet, and
@@ -113,7 +113,7 @@ First, I’m normally loathe to [hardcode interaction hints for screen readers](
 The interactive list component is a bit of an exception to that rule. It is an uncommon interaction pattern on the web, so the hint needs to be included until [efforts to formalize it](https://gist.github.com/smhigley/a613aab8287726f61202869e2f479553) both:
 
 1. Manifest, and
-2. Get widespread support from assistive technology vendors.
+2. Get [widespread support from assistive technology vendors](https://ericwbailey.website/published/it-needs-to-map-back-to-a-role/#edicts-still-need-to-be-carried-out).
 
 Without these two things, I fear that blind and low vision individuals will not be able to fully utilize the experience the same way their peers can.
 
@@ -153,7 +153,7 @@ The calculated bet here is that the prominence of the components on these high-t
   </figcaption>
 </figure>
 
-I do think that this update to each page’s semantic structure is **net better than what came before it**. 
+I do think that this update to each page’s semantic structure is **net better than what came before it**.
 
 However, it is still going to manifest as a large and sudden change for people who use screen readers. And for the record, I view changing the “More information available below” phrasing as another large and disruptive change.
 
@@ -173,7 +173,7 @@ Making these changes would mean a drastic update on top of another drastic updat
 
 In many ways, GitHub is a battleship. It is slow to turn just by virtue of the sheer size and scale of concerns it needs to cover.
 
-Enacting my goal of replacing and unifying these kinds of interactions would take time: 
+Enacting my goal of replacing and unifying these kinds of interactions would take time:
 
 - It would  mean petitioning for heavy investment in something that may be perceived as an already “solved” problem.
 - It also would require **collaboration across multiple siloed product areas,** each with their own pre-existing and planned objectives and priorities.
