@@ -80,6 +80,12 @@ There is an intentionality behind the order of content in this announcement, as 
     src="{{ '/img/posts/githubs-updated-commits-page-and-the-interactive-list-component/announcement-heirarchy-narrow-on-light.svg' | url }}">
 </picture>
 
+This lets us know: 
+
+1. What the problem is,
+2. Has it been dealt with yet, and
+3. Who found the problem?
+
 We also use the term “More information available below” to signal that someone can explore the list item’s child content in more detail. This is accomplished via pressing:
 
 - <kbd>Tab</kbd>: Navigates forwards through each child interactive element in sequence.
@@ -196,7 +202,7 @@ It’s also **not about me**. Our efforts to be more inclusive may ironically wo
 
 To that point, [feedback helps](https://github.com/orgs/community/discussions/categories/accessibility). Constructive reports on access barriers and friction are something that can bypass the internal perception of the things I’ve outlined as being seen as non-problems.
 
-I am twice heartened when I see reports. First, [it is a signal that means someone is still present and cares enough](https://bsky.app/profile/ericwbailey.website/post/3la5etpjrqa2t). Second, there has been renewed internal interest in investing on acting on these user-reported accessibility problems.
+I am twice heartened when I see reports. First, [it is a signal that means someone is still present and cares](https://bsky.app/profile/ericwbailey.website/post/3la5etpjrqa2t). Second, there has been renewed internal interest in investing in acting on these user-reported accessibility problems.
 
 ## The work never stops
 
