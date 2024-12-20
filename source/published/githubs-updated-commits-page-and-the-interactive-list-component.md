@@ -42,17 +42,17 @@ Navigating through every interactive item within each list item can be a tedious
 
 It could also be agonizing. Think [motor control disabilities](https://webaim.org/articles/motor/motordisabilities), where [individual movements in aggregate](https://makeitfable.com/article/ive-had-enough-when-access-friction-becomes-an-access-barrier/) can exceed someone’s pain tolerance threshold.
 
-Making each list item’s container itself focusable and traversable addresses this problem, as it **lowers the number of keypresses someone needs to use**. It also supports allowing you to quickly navigate item by item, or jump to the start or end of the list.
+Making each list item’s container itself focusable and traversable addresses this problem, as it **lowers the number of keypresses someone needs to use**. It also supports allowing you to quickly jump to the start or end of the list.
 
 On GitHub, navigating an interactive list via your keyboard can be accomplished by pressing:
 
-- <kbd>Tab</kbd>: Places focus on the last interactive list to receive focus. Defaults to the first item in the list if the component instance was previously not interacted with.
+- <kbd>Tab</kbd>: Places focus on the interactive list item that last received focus. Defaults to the first item in the list if the list was previously not interacted with.
 - <kbd>Down</kbd>: Moves focus to the next list item, if present.
 - <kbd>Up</kbd>: Moves focus to the previous list item, if present.
 - <kbd>End</kbd>: Moves focus to the last list item in the interactive list.
 - <kbd>Home</kbd>: Moves focus to the first list item in the interactive list.
 
-The trick here is to make sure each list item’s announcement contains enough information that someone navigating via a screen reader can **make an informed choice** about if they want to investigate the item’s child content in more detail.
+There’s a trick here: We want to make sure each list item’s announcement contains enough information that someone can **make an informed choice** when navigating via a screen reader. We also do not want to make the announcement too verbose, as it would slow down the navigation process.
 
 For example, when navigating via list item on the Commits page, we only include the commit title. For an Issue, we use:
 
@@ -60,16 +60,22 @@ For example, when navigating via list item on the Commits page, we only include 
 2. It’s status, and
 3. It’s author (there is [currently a bug here](https://github.com/orgs/community/discussions/139935#discussioncomment-10826666), we’re working on fixing it).
 
-There is an intentionality behind the order of content in this announcement, as we want to **include the most relevant information first**. This, in turn, helps people navigating by list item announcement make more informed choices faster.
+There is an intentionality behind the order of content in this announcement, as we want to **include the most pertinent information first**. This, in turn, helps people navigating by list item announcement make more informed choices faster.
 
 <picture class="post-breakout">
   <source
+    media="(min-width: 68rem) and (prefers-color-scheme: dark)"
+    srcset="{{ '/img/posts/githubs-updated-commits-page-and-the-interactive-list-component/announcement-heirarchy-wide-on-dark.svg' | url }}">
+  <source
     media="(min-width: 68rem)"
-    srcset="{{ '/img/posts/githubs-updated-commits-page-and-the-interactive-list-component/announcement-heirarchy-wide.svg' | url }}">
+    srcset="{{ '/img/posts/githubs-updated-commits-page-and-the-interactive-list-component/announcement-heirarchy-wide-on-light.svg' | url }}">
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="{{ '/img/posts/githubs-updated-commits-page-and-the-interactive-list-component/announcement-heirarchy-narrow-on-dark.svg' | url }}">
   <img
     role="img"
-    alt="A simplified illustration of a list item, followed by simulated screen reader output. The list item contains three child items that are highlighted and labeled, with the labels reading, '1. Title', '2. Status', and '3. Author'. Five other items are also present in the list item, but are not highlighted. The simulated screen reader output reads, 'Sorting blog posts in a subfolder does not work. Status: Open. Author: guyincognito. More information available below.'. Labels are also applied to the simulated output, showing the relationship between the visual design and the announcement content."
-    src="{{ '/img/posts/githubs-updated-commits-page-and-the-interactive-list-component/announcement-heirarchy-narrow.svg' | url }}">
+    alt=""
+    src="{{ '/img/posts/githubs-updated-commits-page-and-the-interactive-list-component/announcement-heirarchy-narrow-on-light.svg' | url }}">
 </picture>
 
 We also use the term “More information available below” to signal that someone can explore the list item’s child contents in more detail. This is accomplished via pressing:
@@ -92,15 +98,22 @@ Examples of child content that someone could encounter are an Issues’ author, 
 
 ## Problems
 
-The use of “More information available below” does not sit well with me, despite being the person who oversaw its inclusion. There’s a couple of reasons here.
+The use of “More information available below” does not sit well with me, despite being the person who oversaw its inclusion. There’s a couple of reasons here:
 
 First, I’m normally loathe to [hardcode interaction hints for screen readers](https://adrianroselli.com/2019/10/stop-giving-control-hints-to-screen-readers.html).
 
-The interactive list component is a bit of an exception to that rule, in that it is such an uncommon interaction on the web that the hint needs to be included until [efforts formalize the interaction pattern](https://gist.github.com/smhigley/a613aab8287726f61202869e2f479553) manifest and get more widespread adoption. Without it, I fear that blind and low vision individuals might not be able to fully utilize the experience the way their peers can.
+The interactive list component is a bit of an exception to that rule. It is an uncommon interaction pattern on the web, so the hint needs to be included until [efforts formalize it](https://gist.github.com/smhigley/a613aab8287726f61202869e2f479553) both:
 
-Second, the hint phrasing itself isn’t that great. It uses a location-based term “below” to try and communicate that there’s subsequent child content that is related to the list item’s main content. While “subsequent child content that is related to the list item’s main content” is more descriptive, it’s an earful.
+1. Manifest, and
+2. Get widespread support from assistive technology vendors.
 
-I am definitely open to suggestions for a replacement phrase. And this potential for change sets up other things that weigh on me.
+Without these two things, I fear that blind and low vision individuals will not be able to fully utilize the experience the same way their peers can.
+
+Second, the hint phrasing itself isn’t that great.
+
+The location-based term “below” is shorthand to try and communicate that there’s subsequent child content that is related to the list item’s main content. While “subsequent child content that is related to the list item’s main content” is more descriptive, it’s an earful.
+
+I am very much open to suggestions for a replacement phrase. And this potential for change sets up other things that weigh on me.
 
 ## Bigger problems
 
@@ -152,9 +165,9 @@ In many ways, GitHub is a battleship. It is slow to turn just by virtue of the s
 
 Enacting my goal of replacing and unifying these kinds of interactions would take time. It would also mean petitioning for heavy investment in something that may be perceived as an already “solved” problem. It also would require **collaboration across multiple siloed product areas,** each with their own pre-existing and planned objectives and priorities.
 
-I also have the gift of hindsight in writing this. The interactive list was originally intended to address just the list of repository Issues. Its usage has since has grown to cover more use cases—not all of them actually applicable.
+I have the gift of hindsight in writing this. The interactive list was originally intended to address just the list of repository Issues. Its usage has since has grown to cover more use cases—not all of them actually applicable.
 
-This is **one of the existential problems of a design system**. You can write all the documentation you want, but people are ultimately going to use what they’re going to use regardless of if its appropriate or not.
+This is **one of the existential problems of a design system**. You can write all the documentation you want, but ppeople are ultimately going to use what they’re going to use](https://scribe.rip/uie-brain-sparks/beans-and-noses-21c16ac5cade) regardless of if its appropriate or not.
 
 Excising and updating misapplied component is another effort that runs counter to organization priorities. That truth lives in parallel with the need to **maintain the overall state of usability for everyone** who uses the service.
 
