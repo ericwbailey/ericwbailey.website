@@ -38,11 +38,13 @@ The main concern an interactive list addresses is when each discrete item in a s
   alt="A simplified illustration showing a list of four items, with each item containing multiple child items."
   src="{{ '/img/posts/githubs-updated-commits-page-and-the-interactive-list-component/interactive-list-diagram.svg' | url }}">
 
-Navigating through every interactive item within each list item can be a tedious enough chore to make it a non-starter. For example, if the list has ten items and each item has seven interactive child elements, that means it takes up to seventy <kbd>Tab</kbd> keypresses someone needs to perform to get what they need. That’s an exhausting experience to endure.
+Navigating through every child interactive element placed with each parent list item can be a tedious enough chore that it makes the effort a non-starter.
+
+For example, if the list has ten items and each item has seven interactive child elements, that means it takes up to seventy <kbd>Tab</kbd> keypresses someone needs to perform to get what they need. That’s an exhausting experience to endure.
 
 It could also be agonizing. Think [motor control disabilities](https://webaim.org/articles/motor/motordisabilities), where [individual movements in aggregate](https://makeitfable.com/article/ive-had-enough-when-access-friction-becomes-an-access-barrier/) can exceed someone’s pain tolerance threshold.
 
-Making each list item’s container itself focusable and traversable addresses this problem, as it **lowers the number of keypresses someone needs to use**. It also supports allowing you to quickly jump to the start or end of the list.
+Making each list item’s container itself focusable and traversable addresses this problem, as it **lowers the number of keypresses someone needs to use**. It also supports allowing you to quickly jump to the start or end of the list for even more navigation options.
 
 On GitHub, navigating an interactive list via your keyboard can be accomplished by pressing:
 
@@ -82,7 +84,7 @@ We also use the term “More information available below” to signal that someo
 
 - <kbd>Tab</kbd>: Navigates forwards through each child interactive element in sequence.
 - <kbd>Shift</kbd> + <kbd>Tab</kbd>: Navigates backwards through each child interactive element in sequence.
-- <kbd>Esc</kbd>: Moves focus out of the child interactive elements and places it back on the list item itself.
+- <kbd>Esc</kbd>: Moves focus out of the child interactive elements and places it back on the parent list item itself.
 
 Examples of child content that someone could encounter are an Issues’ author, its labels, linked Pull Requests, comment tally, and assignees.
 
@@ -98,11 +100,11 @@ Examples of child content that someone could encounter are an Issues’ author, 
 
 ## Problems
 
-The use of “More information available below” does not sit well with me, despite being the person who oversaw its inclusion. There’s a couple of reasons here:
+The use of the phrase “More information available below” does not sit well with me, despite being the person who oversaw its inclusion. There’s a couple of reasons here:
 
 First, I’m normally loathe to [hardcode interaction hints for screen readers](https://adrianroselli.com/2019/10/stop-giving-control-hints-to-screen-readers.html).
 
-The interactive list component is a bit of an exception to that rule. It is an uncommon interaction pattern on the web, so the hint needs to be included until [efforts formalize it](https://gist.github.com/smhigley/a613aab8287726f61202869e2f479553) both:
+The interactive list component is a bit of an exception to that rule. It is an uncommon interaction pattern on the web, so the hint needs to be included until [efforts to formalize it](https://gist.github.com/smhigley/a613aab8287726f61202869e2f479553) both:
 
 1. Manifest, and
 2. Get widespread support from assistive technology vendors.
@@ -126,7 +128,7 @@ Using this interactive list component on the Commits page template means there a
 
 **Large, structural changes to a design’s underlying semantics disrupts the mental model and muscle memory** of how many people who use screen readers operate an experience. It’s an act that I’m always nervous about undertaking.
 
-The calculated bet here is that the prominence of these components on these high-traffic areas means that understanding how to operate them becomes easier over time. I’ve also hedged that bet by including alternate ways of navigating the interactive list, including [using headings](https://webaim.org/projects/screenreadersurvey9/#finding) for each Commit and Issue title.
+The calculated bet here is that the prominence of the components on these high-traffic areas means that understanding how to operate them becomes easier over time. I’ve also hedged that bet by including alternate ways of navigating the interactive list, including [baking headings into](https://webaim.org/projects/screenreadersurvey9/#finding) each Commit and Issue title.
 
 <figure
   role="figure"
@@ -145,19 +147,19 @@ The calculated bet here is that the prominence of these components on these high
   </figcaption>
 </figure>
 
-I do think that this update to each page’s semantic structure is net better than what came before it. However, it is still going to manifest as a large and sudden change for people who use screen readers—I view changing the “More information available below” phrasing as one such change.
+I do think that this update to each page’s semantic structure is net better than what came before it. However, it is still going to manifest as a large and sudden change for people who use screen readers. For the record, I view changing the “More information available below” phrasing as another such large change.
 
 **Subsequent large and sudden changes is what I want to avoid at all costs**.
 
-That said, we’re running out the clock on a situation where an interactive list’s list item someday will contain non-interactive content. The component’s current approach does not have a great way for people to be aware of, and subsequently read that kind of content. That’s not great.
+That said, we’re running out the clock on a situation where an interactive list will someday contain non-interactive content. The component’s current approach does not have a great way for people to be aware of, and subsequently read that kind of content. That’s not great.
 
 Because of this inevitability, I would like to replace the list’s interaction approach with the one we’re using for [nested/sub-Issues](https://github.blog/changelog/2024-10-01-evolving-github-issues-public-beta/#break-down-and-nest-issues-with-sub-issues). There are a few reasons for this, but the main ones are:
 
-1. Improving consistency of interaction across all of GitHub for this kind of clustering of content.
-2. Leaning on more well-known interaction for secondary content within an item by using dialogs instead of <kbd>Tab</kbd> keypresses.
-3. Providing a mechanism that can handle more easily exploring non-interactive content being placed within a list item.
+1. Improving consistency and uniformity of interaction across all of GitHub for this kind of clustering of content.
+2. Leaning on more well-known interaction techniques for secondary content within an item by using dialogs instead of <kbd>Tab</kbd> keypresses.
+3. Providing a mechanism that can more easily handle exploring non-interactive content being placed within a list item.
 
-Making these changes would mean making a drastic update on top of another drastic update. While I do think it would be a better overall experience, rolling it out would require a lot of careful effort and planning.
+Making these changes would mean a drastic update on top of another drastic update. While I do think it would be a better overall experience, rolling it out would require a lot of careful effort and planning.
 
 ## Even bigger problems
 
@@ -167,9 +169,9 @@ Enacting my goal of replacing and unifying these kinds of interactions would tak
 
 I have the gift of hindsight in writing this. The interactive list was originally intended to address just the list of repository Issues. Its usage has since has grown to cover more use cases—not all of them actually applicable.
 
-This is **one of the existential problems of a design system**. You can write all the documentation you want, but ppeople are ultimately going to use what they’re going to use](https://scribe.rip/uie-brain-sparks/beans-and-noses-21c16ac5cade) regardless of if its appropriate or not.
+This is **one of the existential problems of a design system**. You can write all the documentation you want, but [people are ultimately going to use what they’re going to use](https://scribe.rip/uie-brain-sparks/beans-and-noses-21c16ac5cade) regardless of if its appropriate or not.
 
-Excising and updating misapplied component is another effort that runs counter to organization priorities. That truth lives in parallel with the need to **maintain the overall state of usability for everyone** who uses the service.
+Replacing or excising misapplied components is another effort that runs counter to organization priorities. That truth lives hand-in-hand with the need to **maintain the overall state of usability for everyone** who uses the service.
 
 ## You’re gonna carry that weight
 
@@ -177,19 +179,19 @@ Making dramatic changes to core parts of GitHub’s assistive technology user ex
 
 It is the nature of software—especially websites and web apps—to change. That said, I worry about **the overall churn** this all could represent. I feel the weight of that responsibility as the person who set this course. I also feel the consequent pressure it exerts.
 
-I’ll continue to write about and plead the case internally, but I worry that I’ve blown my one chance to get things right. I know my colleagues who produce visual designs also may feel this way, but I also think it’s a more acute problem for this speciality.
+I’ll continue to write about and plead the case internally. However, I worry that I’ve blown my one chance to get things right. I know my colleagues who produce visual designs also may feel this way, but I also think it’s a more acute problem for digital accessibility.
 
-I don’t think that this sort of situation is one that’s talked about that often in accessibility spaces, hence me writing about it. [I also don’t think it’s quantified](https://ericwbailey.website/published/invisible-success/), either.
+I also don’t think that this sort of situation is one that’s talked about that often in accessibility spaces, hence me writing about it. This is to say nothing about [quantifying it](https://ericwbailey.website/published/invisible-success/), either.
 
 ## Centering
 
-I’m pretty proud of what we accomplished, but those feelings are moot if all this does not serve the people it was intended to.
+I’m pretty proud of what we accomplished, but those feelings are moot if all this effort does not serve the people it was intended to.
 
 It’s also **not about me**. Our efforts to be more inclusive may ironically work against us here. How much churn is the point where it’s too much and people are pushed away?
 
-To that point, [feedback helps](https://github.com/orgs/community/discussions/categories/accessibility). Constructive reports on barriers and friction are something that can bypass the internal perception of the things I’ve outlined being a non-problems.
+To that point, [feedback helps](https://github.com/orgs/community/discussions/categories/accessibility). Constructive reports on access barriers and friction are something that can bypass the internal perception of the things I’ve outlined as being seen as non-problems.
 
-I am twice heartened when I see reports. First, [it is a signal that means someone is still present and cares enough](https://bsky.app/profile/ericwbailey.website/post/3la5etpjrqa2t) to voice their problems. Second, there has been renewed internal interest in investing on acting on these user-reported accessibility problems.
+I am twice heartened when I see reports. First, [it is a signal that means someone is still present and cares enough](https://bsky.app/profile/ericwbailey.website/post/3la5etpjrqa2t). Second, there has been renewed internal interest in investing on acting on these user-reported accessibility problems.
 
 ## The work never stops
 
