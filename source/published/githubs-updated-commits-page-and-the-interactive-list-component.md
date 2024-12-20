@@ -59,8 +59,8 @@ There’s a trick here: We want to make sure each list item’s announcement con
 For example, we only include the commit title when navigating via list item on the Commits page. For an Issue, we use:
 
 1. The Issue title,
-2. It’s status, and
-3. It’s author (there is [currently a bug here](https://github.com/orgs/community/discussions/139935#discussioncomment-10826666), we’re working on fixing it).
+2. Its status, and
+3. Its author (there is [currently a bug here](https://github.com/orgs/community/discussions/139935#discussioncomment-10826666), we’re working on fixing it).
 
 There is an intentionality behind the order of content in this announcement, as we want to **include the most pertinent information first**. This, in turn, helps people navigating by list item announcement make more informed choices faster.
 
