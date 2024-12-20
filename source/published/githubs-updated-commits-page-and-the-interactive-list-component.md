@@ -54,9 +54,9 @@ On GitHub, navigating an interactive list via your keyboard can be accomplished 
 - <kbd>End</kbd>: Moves focus to the last list item in the interactive list.
 - <kbd>Home</kbd>: Moves focus to the first list item in the interactive list.
 
-There’s a trick here: We want to make sure each list item’s announcement contains enough information that someone can **make an informed choice** when navigating via a screen reader. We also do not want to make the announcement too verbose, as it would slow down the navigation process.
+There’s a trick here: We want to make sure each list item’s announcement contains enough information that someone can **make an informed choice** when navigating via a screen reader. We also do not want to make the announcement so verbose that it slows down the navigation process.
 
-For example, when navigating via list item on the Commits page, we only include the commit title. For an Issue, we use:
+For example, we only include the commit title when navigating via list item on the Commits page. For an Issue, we use:
 
 1. The Issue title,
 2. It’s status, and
@@ -80,7 +80,7 @@ There is an intentionality behind the order of content in this announcement, as 
     src="{{ '/img/posts/githubs-updated-commits-page-and-the-interactive-list-component/announcement-heirarchy-narrow-on-light.svg' | url }}">
 </picture>
 
-We also use the term “More information available below” to signal that someone can explore the list item’s child contents in more detail. This is accomplished via pressing:
+We also use the term “More information available below” to signal that someone can explore the list item’s child content in more detail. This is accomplished via pressing:
 
 - <kbd>Tab</kbd>: Navigates forwards through each child interactive element in sequence.
 - <kbd>Shift</kbd> + <kbd>Tab</kbd>: Navigates backwards through each child interactive element in sequence.
@@ -132,7 +132,7 @@ The calculated bet here is that the prominence of the components on these high-t
 
 <figure
   role="figure"
-  aria-label="Heading order visualized via HeadingsMap.">
+  aria-label="Heading hierarchy and order visualized via HeadingsMap.">
   <picture>
     <source
       media="(min-width: 68rem)"
@@ -143,11 +143,13 @@ The calculated bet here is that the prominence of the components on these high-t
       src="{{ '/img/posts/githubs-updated-commits-page-and-the-interactive-list-component/headingsmap-narrow.png' | url }}">
   </picture>
   <figcaption>
-    Heading order visualized via <a href="https://chromewebstore.google.com/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi">HeadingsMap</a>.
+    Heading hierarchy and order visualized via <a href="https://chromewebstore.google.com/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi">HeadingsMap</a>.
   </figcaption>
 </figure>
 
-I do think that this update to each page’s semantic structure is net better than what came before it. However, it is still going to manifest as a large and sudden change for people who use screen readers. For the record, I view changing the “More information available below” phrasing as another such large change.
+I do think that this update to each page’s semantic structure is **net better than what came before it**. 
+
+However, it is still going to manifest as a large and sudden change for people who use screen readers. And for the record, I view changing the “More information available below” phrasing as another large and disruptive change.
 
 **Subsequent large and sudden changes is what I want to avoid at all costs**.
 
@@ -165,7 +167,10 @@ Making these changes would mean a drastic update on top of another drastic updat
 
 In many ways, GitHub is a battleship. It is slow to turn just by virtue of the sheer size and scale of concerns it needs to cover.
 
-Enacting my goal of replacing and unifying these kinds of interactions would take time. It would also mean petitioning for heavy investment in something that may be perceived as an already “solved” problem. It also would require **collaboration across multiple siloed product areas,** each with their own pre-existing and planned objectives and priorities.
+Enacting my goal of replacing and unifying these kinds of interactions would take time: 
+
+- It would  mean petitioning for heavy investment in something that may be perceived as an already “solved” problem.
+- It also would require **collaboration across multiple siloed product areas,** each with their own pre-existing and planned objectives and priorities.
 
 I have the gift of hindsight in writing this. The interactive list was originally intended to address just the list of repository Issues. Its usage has since has grown to cover more use cases—not all of them actually applicable.
 
