@@ -76,7 +76,7 @@ There is an intentionality behind the order of content in this announcement, as 
     srcset="{{ '/img/posts/githubs-updated-commits-page-and-the-interactive-list-component/announcement-heirarchy-narrow-on-dark.svg' | url }}">
   <img
     role="img"
-    alt=""
+    alt="A simplified illustration of a list, as well as sample screen reader output. The list item illustration has three parts of its child elements are highlighted and labeled. The labels read, '1. Title', '2. Status', and '3. Author.' The status child element is placed visually before the title, and the title is positioned above the author child element. The sample screen reader output reads, 'Sorting blog posts in a subfolder does not work. Status: Open. Author: guyincognito. More information available below.', and has numbered labels that correspond to the labels in the list item illustration."
     src="{{ '/img/posts/githubs-updated-commits-page-and-the-interactive-list-component/announcement-heirarchy-narrow-on-light.svg' | url }}">
 </picture>
 
