@@ -73,6 +73,7 @@ If you are unfamiliar with the concept of accessibility overlays, know this: The
 
 This is not news. It is [knowledge that has been painstakingly-assembled by others](https://adrianroselli.com/2020/06/accessibe-will-get-you-sued.html). The reason why you might not be aware of this is the focus of this post. Before we get any further, know that accessiBe:
 
+- [Has been condemned by the Federal Trade Comission](https://www.ftc.gov/news-events/news/press-releases/2025/01/ftc-order-requires-online-marketer-pay-1-million-deceptive-claims-its-ai-product-could-make-websites)
 - [Has been repeatedly identified as a source of inacessibility in lawsuits](https://adrianroselli.com/2020/06/accessibe-will-get-you-sued.html#Lawsuit), failing to deliver on what its product promises,
 - Is [not recommended as a viable short or long-term strategy](https://go.forrester.com/blogs/whats-wrong-with-quick-fix-products-for-digital-accessibility/) by Forrester,
 - Was [disavowed by The National Federation of the Blind](https://nfb.org/about-us/press-room/national-convention-sponsorship-statement-regarding-accessibe) because of their actions,
