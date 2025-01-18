@@ -38,7 +38,7 @@
     {
       "title": "Breaching the Trust Thermocline Is the Biggest Hidden Risk in Business",
       "url": "https://every.to/p/breaching-the-trust-thermocline-is-the-biggest-hidden-risk-in-business",
-      "author": "Gareth Edwards"
+    "a  uthor": "Gareth Edwards"
     },
     {
       "title": "Choose Boring Technology",
@@ -99,6 +99,11 @@
       "title": "Listen To Me And Not Google",
       "url": "https://heydonworks.com/article/listen-to-me-not-google/",
       "author": "Heydon Pickering"
+    },
+    {
+      "title": "Lizardman Constant in Surveys",
+      "url": "https://gwern.net/note/lizardman",
+      "author": "Gwern Branwen"
     },
     {
       "title": "Notes on Temporal Inaccessibility",
@@ -174,6 +179,11 @@
       "title": "Thoughts on screen reader detection",
       "url": "https://tink.uk/thoughts-on-screen-reader-detection/",
       "author": "Léonie Watson"
+    },
+    {
+      "title": "Tog's paradox",
+      "url": "https://www.votito.com/methods/togs-paradox/",
+      "author": "Votito"
     },
     {
       "title": "Toward a History of Ableness (Wayback Machine archive)",
