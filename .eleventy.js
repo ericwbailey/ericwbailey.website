@@ -36,6 +36,8 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./source/manifest.json");
   eleventyConfig.addPassthroughCopy("./source/robots.txt");
 
+  eleventyConfig.addPassthroughCopy("./source/axecon2025/index.html");
+
 
   // Aliases
   eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
