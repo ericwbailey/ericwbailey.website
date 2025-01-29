@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.79 - 2025-01-28
+- Add [Considerations for making a tree view component accessible](https://github.blog/engineering/user-experience/considerations-for-making-a-tree-view-component-accessible/)
+
 ## v1.5.78 - 2024-12-20
 - Add [GitHub’s updated Commits page and the interactive list component](https://ericwbailey.website/published/githubs-updated-commits-page-and-the-interactive-list-component/)
 
