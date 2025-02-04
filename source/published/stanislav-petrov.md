@@ -75,7 +75,7 @@ There were two factors guiding his decision:
 1. A surprise attack would most likely have used hundreds of missiles, and not just five.
 2. The allegedly foolproof Oko system was new and prone to errors.
 
-**An error in a deterministic system can still lead to expected outputs being generated**. For the Oko system, infrared reflections of the sun shining off of the tops of clouds created a false positive that was interpreted as detection of a nuclear launch event.
+**An error in a deterministic system can still lead to expected outputs being generated**. For the Oko system, infrared reflections of the sun shining off of the tops of clouds created a [false positive](https://en.wikipedia.org/wiki/False_positives_and_false_negatives) that was interpreted as detection of a nuclear launch event.
 
 <figure
   role="figure"
@@ -101,7 +101,7 @@ It is unclear how this technology will be used, where, and to what extent. It is
 
 **Non-deterministic systems don’t have guaranteed outputs from their inputs**. In addition, LLM-based technology [hallucinates](https://futurism.com/the-byte/openai-chatgpt-accuses-crimes)—it invents content with [no self-knowledge](https://online.hull.ac.uk/blog/what-is-artificial-intelligence-and-how-is-it-different-from-human-intelligence) that it is a falsehood.
 
-Non-deterministic systems that are computerized also have [the perception as being authoritative](https://www.wired.com/story/the-less-people-know-about-ai-the-more-they-like-it/), the same as their deterministic peers. It is not a question of how the output is generated, it is one of the output being perceived to come from a machine.
+Non-deterministic systems that are computerized also have [the perception as being authoritative](https://www.wired.com/story/the-less-people-know-about-ai-the-more-they-like-it/), the same as their deterministic peers. It is not a question of how the output is generated, it is one of the output being perceived to come from a faultless machine.
 
 These are terrifying things to know. Consider not only the systems this technology is being applied to, but also the thoughtless speed of their integration. Then consider how we’ve historically been conditioned and rewarded to interpret the output of these systems, and then how we perceive and treat skeptics.
 
