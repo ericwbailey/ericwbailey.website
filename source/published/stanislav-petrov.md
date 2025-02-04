@@ -48,7 +48,7 @@ A lieutenant colonel in the Soviet Air Defense Forces prevented the end of human
 
 Protocol dictated that the Soviet Union would retaliate against any nuclear strikes sent by the United States. This was a policy of [mutually assured destruction](https://en.wikipedia.org/wiki/Mutual_assured_destruction), a doctrine that compels a horrifying logical conclusion.
 
-The second and third stage effects of this type of exchange would be even more catastrophic. Allies for each side would likely be pulled into the nuclear exchange. The resulting nuclear winter was projected to lead to [2 billion deaths due to starvation](https://www.ippnw.org/programs/nuclear-weapons-abolition/nuclear-famine-climate-effects-of-regional-nuclear-war). This is to say nothing about those who would have been unfortunate enough to have survived.
+The second and third stage effects of this type of exchange would be even more catastrophic. Allies for each side would likely be pulled into the conflict. The resulting nuclear winter was projected to lead to [2 billion deaths due to starvation](https://www.ippnw.org/programs/nuclear-weapons-abolition/nuclear-famine-climate-effects-of-regional-nuclear-war). This is to say nothing about those who would have been unfortunate enough to have survived.
 
 Petrov’s job was to monitor Oko, the computerized warning systems built to centralize Soviet satellite communications. Around midnight, he received a report that one of the satellites had detected the infrared signature of a single launch of a United States [ICBM](https://en.wikipedia.org/wiki/Intercontinental_ballistic_missile).
 
@@ -89,7 +89,7 @@ There were two factors guiding his decision:
   </figcaption>
 </figure>
 
-The presence of errors in truth is a deep truth to internalize, as **computerized systems are presented as omniscient, indefective, and absolute**.
+The concept of erroneous truth is a deep thing to internalize, as **computerized systems are presented as omniscient, indefective, and absolute**.
 
 Petrov’s rewards for this action were [reprimands, reassignment, and denial of promotion](https://www.washingtonpost.com/wp-srv/inatl/longterm/coldwar/shatter021099b.htm). This was likely for embarrassing his superiors by the politically inconvenient shedding of light on issues with the Oko system. A coerced early retirement caused a nervous breakdown, likely him having to grapple with the weight of his decision.
 
@@ -97,11 +97,11 @@ It was only in the 1990s—after the fall of the Soviet Union—that his actions
 
 On January 31st, 2025, [OpenAI struck a deal with the United States government to use its AI product for nuclear weapon security](https://futurism.com/openai-signs-deal-us-government-nuclear-weapon-security).
 
-It is unclear how this technology will be used, where, and to what extent. It is also unclear how OpenAI’s systems function, as they are [black box technologies](https://en.wikipedia.org/wiki/Black_box). What is known is that LLM-generated responses—the product OpenAI sells—is non-deterministic.
+It is unclear how this technology will be used, where, and to what extent. It is also unclear how OpenAI’s systems function, as they are [black box technologies](https://en.wikipedia.org/wiki/Black_box). What is known is that LLM-generated responses—the product OpenAI sells—are non-deterministic.
 
 **Non-deterministic systems don’t have guaranteed outputs from their inputs**. In addition, LLM-based technology [hallucinates](https://futurism.com/the-byte/openai-chatgpt-accuses-crimes)—it invents content with [no self-knowledge](https://online.hull.ac.uk/blog/what-is-artificial-intelligence-and-how-is-it-different-from-human-intelligence) that it is a falsehood.
 
-Non-deterministic systems that are computerized also have [the perception as being authoritative](https://www.wired.com/story/the-less-people-know-about-ai-the-more-they-like-it/). It is not a question of how the output is generated, it is one of the output being perceived to come from a machine.
+Non-deterministic systems that are computerized also have [the perception as being authoritative](https://www.wired.com/story/the-less-people-know-about-ai-the-more-they-like-it/), the same as their deterministic peers. It is not a question of how the output is generated, it is one of the output being perceived to come from a machine.
 
 These are terrifying things to know. Consider not only the systems this technology is being applied to, but also the thoughtless speed of their integration. Then consider how we’ve historically been conditioned and rewarded to interpret the output of these systems, and then how we perceive and treat skeptics.
 
