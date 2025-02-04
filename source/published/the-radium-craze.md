@@ -9,6 +9,11 @@ tags:
   - Development
   - History
   - Performance
+  - Series
+series:
+  next:
+    - title: "Stanislav Petrov"
+      url: https://ericwbailey.website/published/stanislav-petrov/
 sharedOn:
   twitter: https://twitter.com/ericwbailey/status/1298262696438018052
 eleventyNavigation:
