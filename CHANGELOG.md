@@ -11,7 +11,7 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Performance optimizations
 
 ## v1.5.80 - 2025-02-04
-- Add [Considerations for making a tree view component accessible](https://ericwbailey.website/published/stanislav-petrov/)
+- Add [Stanislav Petrov](https://ericwbailey.website/published/stanislav-petrov/)
 
 ## v1.5.79 - 2025-01-28
 - Add [Considerations for making a tree view component accessible](https://github.blog/engineering/user-experience/considerations-for-making-a-tree-view-component-accessible/)
