@@ -107,12 +107,8 @@ These are terrifying things to know. Consider not only the systems this technolo
 
 We don’t live in a purely deterministic world of technology anymore.
 
-Stanislav Petrov [died on September 18th, 2017](https://www.npr.org/sections/thetwo-way/2017/09/18/551792129/stanislav-petrov-the-man-who-saved-the-world-dies-at-77), before this change occurred. I would be incredibly curious to know his thoughts about our current reality, as well as [the increasing abdication of human monitoring of automated systems](https://www.codastory.com/surveillance-and-control/nursing-ai-hospitals-robots-capture/) in favor of notably biased, supposed “AI solutions.”
+Stanislav Petrov [died on September 18th, 2017](https://www.npr.org/sections/thetwo-way/2017/09/18/551792129/stanislav-petrov-the-man-who-saved-the-world-dies-at-77), before this change occurred. I would be incredibly curious to know his thoughts about our current reality, as well as [the increasing abdication of human monitoring](https://www.codastory.com/surveillance-and-control/nursing-ai-hospitals-robots-capture/) of [automated systems](https://www.washingtonpost.com/technology/2025/02/04/google-ai-policies-weapons-harm/) in favor of notably biased, supposed “AI solutions.”
 
 In unpacking Petrov’s skepticism in a time of mania and political instability, we acknowledge a quote from former [U.S. Secretary of Defense William J. Perry’s memoir](https://bookshop.org/p/books/my-journey-at-the-nuclear-brink-william-perry/11022201?ean=9780804797122&next=t&next=t) about the incident:
 
 > [Oko’s false positives] illustrates the immense danger of placing our fate in the hands of automated systems that are susceptible to failure and human beings who are fallible.
-
-
-
-
