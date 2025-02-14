@@ -52,7 +52,7 @@ Ideally the technology is the free bit, and the service that facilitates it is w
 
 I need to acknowledge [the Placebo Effect](https://www.webmd.com/pain-management/what-is-the-placebo-effect) here, but also caution against the industries that feed off  of dubious and outright incorrect scientific assertions.
 
-The main concern here is when the product does not work for someone in the actual, despite seeming like it should. Many people will internalize this failure as their own, and that’s dangerous.
+The main concern is when the product does not work for someone in the actual, despite seeming like it should. Many people will internalize this failure as their own, and that’s dangerous.
 
 ## Do I need to subscribe to use it?
 
