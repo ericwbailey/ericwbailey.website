@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.81 - 2025-02-14
+- Add [Evaluating overlay-adjacent accessibility products](https://ericwbailey.website/published/evaluating-overlay-adjacent-accessibility-products/)
+
 ## v1.5.80 - 2025-02-04
 - Add [Stanislav Petrov](https://ericwbailey.website/published/stanislav-petrov/)
 
