@@ -9,6 +9,10 @@ tags:
   - Alt Text
   - Assistive Technology
   - Inclusion
+furtherReading:
+  - title: "A woman made her AI voice clone say “arse.” Then she got banned."
+    source: "MIT Technology Review"
+    url: https://www.technologyreview.com/2025/02/14/1111900/ai-voice-clone-say-arse-then-banned/
 attribution: "Thank you to <a href='https://samkapila.com/'>Sam</a>, <a href='https://sarahmhigley.com/'>Sarah</a>, and <a href='https://www.soren.ooo/'>Soren</a> for their feedback and willingness to be cursed at."
 sharedOn:
   twitter: TK
