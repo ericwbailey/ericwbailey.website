@@ -91,7 +91,7 @@ There are two broad considerations here:
 1. How reliable is the output?
 2. How can bias affect someone’s interpretation of things?
 
-While I am a skeptic, I can also acknowledge that [there are some good use cases for LLMs and related technology when it comes to disability](https://bsky.app/profile/tink.uk/post/3lec5fujv722c).
+While I am a skeptic, I can also acknowledge that [there are some good use cases for LLMs and related technology](https://arstechnica.com/science/2025/02/using-ai-to-design-proteins-is-now-easy-making-enzymes-remains-hard/), especially [when it comes to disability](https://bsky.app/profile/tink.uk/post/3lec5fujv722c).
 
 I think about reliability in terms of the output in terms of the “assistive” part of assistive technology. By this, I mean it actually helps you do what you need to get done. Here, I’d point to [Salma Alam-Naylor’s experience with newer startups in this space versus established, community supported solutions](https://whitep4nth3r.com/blog/how-i-learned-to-code-with-my-voice/#my-voice-coding-tools).
 
