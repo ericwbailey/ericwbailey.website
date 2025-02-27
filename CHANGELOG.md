@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.82 - 2025-02-26
+- Add [It is designed to break your heart: Cultivating a harm reduction mindset as an accessibility practitioner](https://ericwbailey.website/axecon2025/)
+
 ## v1.5.81 - 2025-02-14
 - Add [Evaluating overlay-adjacent accessibility products](https://ericwbailey.website/published/evaluating-overlay-adjacent-accessibility-products/)
 
