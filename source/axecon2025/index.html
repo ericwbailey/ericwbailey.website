@@ -98,6 +98,7 @@
       p,
       li {
         text-wrap: pretty;
+        line-height: 1.2;
       }
 
       a:not(.social-link) {
@@ -147,9 +148,7 @@
       }
 
       [aria-pressed="true"] {
-        background-color: color-mix(in hsl, var(--button-background), 40% black);
-        box-shadow: 0px 4px 1px -1px color-mix(in hsl, var(--button-background), 60% black) inset;
-        color: color-mix(in hsl, var(--button-background), 80% black);
+        filter: brightness(0.7);
         padding: 0.6rem 1rem 0.4rem 1rem;
       }
 
