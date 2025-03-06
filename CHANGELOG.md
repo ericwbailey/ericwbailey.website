@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.83 - 2025-03-06
+- Add [Harm reduction principles for digital accessibility practitioners](https://ericwbailey.website/published/harm-reduction-principles-for-digital-accessibility-practitioners/)
+
 ## v1.5.82 - 2025-02-26
 - Add [It is designed to break your heart: Cultivating a harm reduction mindset as an accessibility practitioner](https://ericwbailey.website/axecon2025/)
 
