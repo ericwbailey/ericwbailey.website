@@ -3,7 +3,7 @@ layout: "layouts/post.njk"
 title: Tag, you’re it
 source: ericwbailey.website
 excerpt: "I guess I came up being blog-adjacent"
-date: 2025-03-17
+date: 2025-03-18
 year: 2025
 tags:
   - Approach
@@ -84,9 +84,9 @@ The intersection of accessibility, usability, design systems, and the web platfo
 
 ## Who are you writing for?
 
-I write for people who are curious about the web, accessibility, and frontend technology at a medium-to-high level of familiarity. It has been so liberating to not have to explain the basics of accessibility and why it matters anymore.
+I write for people who are curious about the web, accessibility, and frontend technology at a medium-to-high level of familiarity. It has been so liberating to not have to explain the basics of accessibility and why it matters for every new post I write.
 
-I also write for myself as [augmented memory](https://ericwbailey.website/published/all-the-user-facing-states/). This, along with services like [Pinboard](https://pinboard.in/u:ericwbailey) help with [my memory](https://sdamstudy.weebly.com/what-is-sdam.html).
+I also write for myself as [augmented memory](https://ericwbailey.website/published/all-the-user-facing-states/). This, along with services like [Pinboard](https://pinboard.in/u:ericwbailey) help with [my recall](https://sdamstudy.weebly.com/what-is-sdam.html).
 
 Blog posts are also conversations. It is also a disservice to both audiences if I’m not weaving a lot of contextually relevant voices into the work as outgoing links.
 
@@ -99,8 +99,8 @@ Blog posts are also conversations. It is also a disservice to both audiences if 
       media="(prefers-color-scheme: dark)"
       srcset="{{ '/img/posts/tag-youre-it/link-graph-on-dark.png' | url }}">
     <img
-      role="img"
       alt="A hub and spoke diagram. There are over 30 nodes extending from a central node, with three layers of depth."
+      loading="lazy"
       src="{{ '/img/posts/tag-youre-it/link-graph-on-light.png' | url }}">
     <figcaption>
       Signs of life!
