@@ -68,7 +68,7 @@ I’m highly distractible, and love to [fiddle and tinker](https://ericwbailey.w
 
 The post is then: 
 
-1. Eexported as a Markdown file from Paper,
+1. Exported as a Markdown file from Paper,
 1. Has its contents pasted into VS Code, and cleaned up a little bit,
 1. Images and other content is added,
 1. Metadata is then added, and
@@ -122,9 +122,9 @@ Blog posts are also conversations. It is also a disservice to both audiences if 
 
 ## What’s your favorite post on your blog?
 
-My favorite post on my website is my opus, [*Accessibility annotation kits only annotate*](https://ericwbailey.website/published/accessibility-annotation-kits-only-annotate/). It took forever to put those thoughts into words.
+My favorite post on my website is my opus, [<cite>Accessibility annotation kits only annotate</cite>](https://ericwbailey.website/published/accessibility-annotation-kits-only-annotate/). It took forever to put those thoughts into words.
 
-My favorite post on another website is [*Consider the Tomato*](https://thoughtbot.com/blog/consider-the-tomato). thoughtbot tolerated and encouraged a lot of my shenanigans, and I’m thankful for that.
+My favorite post on another website is [<cite>Consider the Tomato</cite>](https://thoughtbot.com/blog/consider-the-tomato). thoughtbot tolerated and encouraged a lot of my shenanigans, and I’m thankful for that.
 
 ## Any future plans for your blog? Maybe a redesign, a move to another platform, or adding a new feature?
 
