@@ -17,7 +17,7 @@ share:
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}
-  order: 1
+  order: 4
 ---
 
 I’ve been seeing, and enjoying reading these posts as they pop up in my RSS reader. [Dave Rupert tagged me into the chain](https://daverupert.com/2025/03/tag-you-re-it/), so here we go!

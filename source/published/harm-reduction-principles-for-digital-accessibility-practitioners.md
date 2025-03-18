@@ -15,7 +15,7 @@ tags:
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}
-  order: 1
+  order: 3
 ---
 
 I debuted these principles in [my axe-con 2025 talk,](https://www.deque.com/axe-con/sessions/it-is-designed-to-break-your-heart-cultivating-a-harm-reduction-mindset-as-an-accessibility-practitioner/) [<cite>It is designed to break your heart: Cultivating a harm reduction mindset as an accessibility practitioner</cite>](https://www.deque.com/axe-con/sessions/it-is-designed-to-break-your-heart-cultivating-a-harm-reduction-mindset-as-an-accessibility-practitioner/). They are adapted from [The National Harm Reduction Coalition](https://harmreduction.org/)’s [original eight principles](https://harmreduction.org/about-us/principles-of-harm-reduction/).
