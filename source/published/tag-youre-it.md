@@ -90,20 +90,23 @@ I also write for myself as [augmented memory](https://ericwbailey.website/publis
 
 Blog posts are also conversations. It is also a disservice to both audiences if I’m not weaving a lot of contextually relevant voices into the work as outgoing links.
 
-<figure
-  role="figure"
-  aria-label="Signs of life!">
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="{{ '/img/posts/tag-youre-it/link-graph-on-dark.png' | url }}">
-  <img
-    role="img"
-    alt="A hub and spoke diagram. There are over 30 nodes extending from a central node, with three layers of depth."
-    src="{{ '/img/posts/tag-youre-it/link-graph-on-light.png' | url }}">
-  <figcaption>
-    Signs of life!
-  </figcaption>
-</figure>
+<div class="centered-media-outer">
+  <figure
+    class="centered-media-inner-4"
+    role="figure"
+    aria-label="Signs of life!">
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="{{ '/img/posts/tag-youre-it/link-graph-on-dark.png' | url }}">
+    <img
+      role="img"
+      alt="A hub and spoke diagram. There are over 30 nodes extending from a central node, with three layers of depth."
+      src="{{ '/img/posts/tag-youre-it/link-graph-on-light.png' | url }}">
+    <figcaption>
+      Signs of life!
+    </figcaption>
+  </figure>
+</div>
 
 ## What’s your favorite post on your blog?
 
@@ -124,6 +127,6 @@ I’d tag everyone on my RSS reader, if I could. Until then:
 - [Adrian Roselli](https://adrianroselli.com/). I’m more or less contractually obligated to include a link to Adrian’s site any time I write about accessibility, as chances are he’s already covered it.
 - [Ben Myers](https://benmyers.dev/). Another favorite accessibility author. I really enjoy his takes on disability and digital accessibility.
 - [Jan Maarten](https://janmaarten.com/). Coworker and samebrain friend, whose longform pieces are always worth reading.
-- [Jim Nielsen](https://blog.jim-nielsen.com/). A
+- [Jim Nielsen](https://blog.jim-nielsen.com/). A blogger's blogger. Be sure to check out his Notes as well.
 - [Melanie Richards](https://melanie-richards.com/). Melanie is, in a word, prolific. I’m in awe of her digital gardening efforts.
 - [Miriam Suzanne](https://www.miriamsuzanne.com/). Less a triple threat and more a, uh, quintuple threat? Brilliance at every turn.
