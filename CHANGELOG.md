@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.84 - 2025-03-17
+- Add [Tag, you’re it](https://ericwbailey.website/published/tag-youre-it/)
+
 ## v1.5.83 - 2025-03-06
 - Add [Harm reduction principles for digital accessibility practitioners](https://ericwbailey.website/published/harm-reduction-principles-for-digital-accessibility-practitioners/)
 

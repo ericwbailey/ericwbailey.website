@@ -27,7 +27,7 @@ furtherReading:
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}
-  order: 1
+  order: 2
 ---
 
 I get asked about my opinion on overlay-adjacent accessibility products with enough frequency that I thought it could be helpful to write about it.
