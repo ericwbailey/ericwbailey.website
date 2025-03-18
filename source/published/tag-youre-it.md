@@ -98,7 +98,7 @@ I write for people who are curious about the web, accessibility, and frontend te
 
 I also write for myself as [augmented memory](https://ericwbailey.website/published/all-the-user-facing-states/). This, along with services like [Pinboard](https://pinboard.in/u:ericwbailey) help with [my recall](https://sdamstudy.weebly.com/what-is-sdam.html).
 
-Blog posts are also conversations. It is also a disservice to both audiences if I’m not weaving a lot of contextually relevant voices into the work as outgoing links.
+Blog posts are also conversations. It is a disservice to both audiences if I’m not weaving a lot of contextually relevant voices into the work as outgoing links.
 
 <div class="centered-media-outer">
   <figure
