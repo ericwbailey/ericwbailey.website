@@ -52,7 +52,9 @@ The reaction to the WebAIM Millions report was originally just a HTML page with 
 
 That infrastructure wound up being [Eleventy](https://www.11ty.dev/). I love Eleventy, and it’s only gotten better since that initial adoption. [Zach Leatherman](https://www.zachleat.com/) is a mensch, and I sing the praises of his project every chance I can get.
 
-I love blogging with Eleventy because **it prioritizes speed, stability, and performance**. Static web pages generated via Markdown are easy enough to wrangle, and it means I can **spend the majority of my time focusing on writing**, and not managing dependencies or database updates.
+I love blogging with Eleventy because **it prioritizes speed, stability, and performance**. 
+
+Static web pages generated via Markdown are easy enough to wrangle. This means I can **spend the majority of my time focusing on writing**, and **not managing dependencies or database updates**.
 
 ## Have you blogged on other platforms before?
 
@@ -64,7 +66,15 @@ I’ve evaluated countless writing apps, but find myself keep coming back to [Dr
 
 I’m highly distractible, and love to [fiddle and tinker](https://ericwbailey.website/published/i-restyled-my-mastodon-instance/). Because of this, I find that Paper’s intentional, designed simplicity keeps me focused and on-task. It’s a shame that we live in [the rot economy](https://www.wheresyoured.at/the-rot-economy/)—where innovation is synonymous with value extraction—and there is apparently no longer enough incentive to maintain it.
 
-The post is then exported as a Markdown file from Paper, has its contents pasted into VS Code, cleaned up a little bit, metadata is added, merged into GitHub, and voilà! Blog post! There are more efficient ways to do this, but I find the ritual of it all soothing.
+The post is then: 
+
+1. Eexported as a Markdown file from Paper,
+1. Has its contents pasted into VS Code, and cleaned up a little bit,
+1. Images and other content is added,
+1. Metadata is then added, and
+1. It is all merged into GitHub.
+
+And voilà! Blog post! Granted there are more efficient ways to do this, but I find the ritual of it all soothing.
 
 ## When do you feel most inspired to write?
 
@@ -95,13 +105,15 @@ Blog posts are also conversations. It is also a disservice to both audiences if 
     class="centered-media-inner-4"
     role="figure"
     aria-label="Signs of life!">
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="{{ '/img/posts/tag-youre-it/link-graph-on-dark.png' | url }}">
-    <img
-      alt="A hub and spoke diagram. There are over 30 nodes extending from a central node, with three layers of depth."
-      loading="lazy"
-      src="{{ '/img/posts/tag-youre-it/link-graph-on-light.png' | url }}">
+    <picture>
+      <source
+        media="(prefers-color-scheme: dark)"
+        srcset="{{ '/img/posts/tag-youre-it/link-graph-on-dark.png' | url }}">
+      <img
+        alt="A hub and spoke diagram. There are over 30 nodes extending from a central node, with three layers of depth."
+        loading="lazy"
+        src="{{ '/img/posts/tag-youre-it/link-graph-on-light.png' | url }}">
+    </picture>
     <figcaption>
       Signs of life!
     </figcaption>
