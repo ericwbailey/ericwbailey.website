@@ -82,6 +82,7 @@ All that said, my not-smart TV will not:
 - [Store conversations I have](https://www.techdirt.com/2015/02/09/samsungs-smart-tvs-are-collecting-storing-your-private-conversations/) in the room the TV is placed in,
 - Be [the topic of a dedicated Consumer Reports guide](https://www.consumerreports.org/electronics/privacy/how-to-turn-off-smart-tv-snooping-features-a4840102036/),
 - [Show me ads when turned on and not being actively used](https://www.theverge.com/2024/9/26/24254935/lg-smart-tv-oled-screensaver-ads-idle-mode),
+- [Force me to watch ads before I can use the TV](https://arstechnica.com/gadgets/2025/03/roku-says-unpopular-autoplay-ads-are-just-a-test/),
 - Straight-up [spy on me](https://www.techdirt.com/2017/02/07/vizio-fined-22-million-not-telling-customers-their-tvs-were-spying-them/),
 - Be [caught up in a Center for Digital Democracy report to the Federal Trade Commission](https://arstechnica.com/gadgets/2024/10/streaming-industry-has-unprecedented-surveillance-manipulation-capabilities/), or
 - [Do whatever the hell this is](https://cohost.org/ghoulnoise/post/5286766-do-not-buy-hisense-t).
