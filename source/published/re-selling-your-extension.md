@@ -9,6 +9,10 @@ tags:
   - Browser Extensions
   - Cognition
   - Subversion
+series:
+  next:
+    - title: "Article pitch for your consideration"
+      url: https://ericwbailey.website/published/article-pitch-for-your-consideration/
 furtherReading:
   - title: "Under New Management - Detect when your extensions have changed owners"
     source: "GitHub"

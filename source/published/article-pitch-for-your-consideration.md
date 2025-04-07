@@ -11,6 +11,10 @@ tags:
   - Internet
   - Social Media
   - Subversion
+series:
+  previous:
+    - title: "Re: Selling your extension"
+      url: https://ericwbailey.website/published/re-selling-your-extension/
 share:
   facebookDescription: "Shaking hands."
   twitterDescription: "Shaking hands."
