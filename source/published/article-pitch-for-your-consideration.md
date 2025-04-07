@@ -8,6 +8,7 @@ year: 2025
 tags:
   - AI
   - Approach
+  - Cognition
   - Internet
   - Social Media
   - Subversion
