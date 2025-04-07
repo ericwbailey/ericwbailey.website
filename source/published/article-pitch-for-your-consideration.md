@@ -69,18 +69,25 @@ Erin took me up on my offer, and wrote about annual home and property maintenanc
 She was also prompt and communicative throughout the process, and delivered exactly what was promised. Here is the article in question:
 
 <blockquote>
-<img
-  alt="Stock photo of a man and woman standing indoors. The man is wearing overalls with a toolbelt, and is looking intently at a checklist he is holding. The woman is also staring down at the checklist, and is gesticulating like she has something to contribute."
-  loading="lazy"
-  src="{{ '/img/posts/article-pitch-for-your-consideration/stock-photo.jpg' | url }}" />
+  <figure
+  role="figure"
+  aria-label="Yup, that’s a button.">
+  <img
+    alt="Stock photo of a man and woman standing indoors. The man is wearing overalls with a toolbelt, and is looking intently at a checklist he is holding. The woman is also staring down at the checklist, and is gesticulating like she has something to contribute."
+    loading="lazy"
+    src="{{ '/img/posts/article-pitch-for-your-consideration/stock-photo.jpg' | url }}" />
+    <figcaption>
+      Image: <a href="https://www.freepik.com/free-photo/medium-shot-man-working-as-plumber_64644933.htm">Freepik</a>
+    </figcaption>
+  </figure>
   <h2 id="the-homeowners-yearly-tune-up-smart-habits-that-keep-the-house-humming">
     The Homeowner’s Yearly Tune-Up: Smart Habits That Keep the House Humming
   </h2>
-  <p>By Erin Reynolds, [diymama.net](https://diymama.net/)</p>
+  <p>By Erin Reynolds, <a href="https://diymama.net/">diymama.net</a></p>
   <p>There's a quiet rhythm to living in a well-loved home. If you listen closely, your house speaks to you-whispers, mostly. The soft drip of a tired faucet, the groan of an HVAC unit that's been running too long, or the gentle scold of a clogged dryer vent. These aren't just annoyances. They re the language of upkeep, and whether you're in your first place or celebrating twenty years in the same four walls, learning to listen—and act—is everything. Annual maintenance isn't just about fixing what's broken. It's about stewardship, about being the kind of homeowner who doesn't wait for the ceiling to leak before checking the roof.</p>
   <h3 id="digitize-home-maintenance-records">
     Digitize Home Maintenance Records
-  <h3>
+  </h3>
   <p>There's something incredibly satisfying about having all your home maintenance documents in one tidy digital folder-no more rummaging through drawers for that appliance manual or the roof warranty. Digitizing receipts, inspection reports, and service invoices gives you a clear, accessible record of everything that's been done and when. Saving these as PDFs makes them universally readable and easy to share, whether you're selling your home or just need to reference them quickly. When you use a tool to <a href="https://www.adobe.com/acrobat/how-to/create-pdf.html">create PDF files</a>, you can convert virtually any document into a neat, portable format.</p>
   <h3 id="give-your-gutters-the-attention-they-deserve">
     Give Your Gutters the Attention They Deserve
