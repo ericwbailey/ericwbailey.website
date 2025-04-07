@@ -10,6 +10,10 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.85 - 2025-04-07
+- Add [Article pitch for your consideration](https://ericwbailey.website/published/article-pitch-for-your-consideration/)
+- Update social share image for [How to make an ineffective 404 page](https://ericwbailey.website/published/how-to-make-an-ineffective-404-page/)
+
 ## v1.5.84 - 2025-03-17
 - Add [Tag, you’re it](https://ericwbailey.website/published/tag-youre-it/)
 
