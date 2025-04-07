@@ -129,7 +129,7 @@ I mean, this is objectively solid advice!
 
 ## The appearance of trust
 
-What was nice to note here is none of the links contained any UTM parameters, and the sites linked out looked relatively on [the up and up](https://www.merriam-webster.com/dictionary/on%20the%20up%20and%20up). It could be relevant and actionable results, or maybe some sort of coordinated quid-pro-quo personal or professional networking.
+What was nice to note here is none of the links contained any UTM parameters, and the sites linked out looked relatively on [the up and up](https://www.merriam-webster.com/dictionary/on%20the%20up%20and%20up). It could be relevant and actionable results. Or maybe it is some sort of coordinated, quid-pro-quo networking. I honestly don’t care.
 
 That said: [Be the villain](https://24ways.org/2018/be-the-villain/).
 
