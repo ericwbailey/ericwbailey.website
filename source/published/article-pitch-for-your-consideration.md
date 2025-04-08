@@ -70,12 +70,12 @@ She was also prompt and communicative throughout the process, and delivered exac
 
 <blockquote>
   <figure
-  role="figure"
-  aria-label="Yup, that’s a button.">
-  <img
-    alt="Stock photo of a man and woman standing indoors. The man is wearing overalls with a toolbelt, and is looking intently at a checklist he is holding. The woman is also staring down at the checklist, and is gesticulating like she has something to contribute."
-    loading="lazy"
-    src="{{ '/img/posts/article-pitch-for-your-consideration/stock-photo.jpg' | url }}" />
+    role="figure"
+    aria-label="Image: Freepik">
+    <img
+      alt="Stock photo of a man and woman standing indoors. The man is wearing overalls with a toolbelt, and is looking intently at a checklist he is holding. The woman is also staring down at the checklist, and is gesticulating like she has something to contribute."
+      loading="lazy"
+      src="{{ '/img/posts/article-pitch-for-your-consideration/stock-photo.jpg' | url }}" />
     <figcaption>
       Image: <a href="https://www.freepik.com/free-photo/medium-shot-man-working-as-plumber_64644933.htm">Freepik</a>
     </figcaption>
