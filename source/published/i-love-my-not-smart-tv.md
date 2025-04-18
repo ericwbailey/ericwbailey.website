@@ -84,7 +84,8 @@ All that said, my not-smart TV will not:
 - [Show me ads when turned on and not being actively used](https://www.theverge.com/2024/9/26/24254935/lg-smart-tv-oled-screensaver-ads-idle-mode),
 - [Force me to watch ads before I can use the TV](https://arstechnica.com/gadgets/2025/03/roku-says-unpopular-autoplay-ads-are-just-a-test/),
 - Straight-up [spy on me](https://www.techdirt.com/2017/02/07/vizio-fined-22-million-not-telling-customers-their-tvs-were-spying-them/),
-- Be [caught up in a Center for Digital Democracy report to the Federal Trade Commission](https://arstechnica.com/gadgets/2024/10/streaming-industry-has-unprecedented-surveillance-manipulation-capabilities/), or
+- Be [caught up in a Center for Digital Democracy report to the Federal Trade Commission](https://arstechnica.com/gadgets/2024/10/streaming-industry-has-unprecedented-surveillance-manipulation-capabilities/),
+- [Use AI for emotional manipulation to coerce me into buying things](https://arstechnica.com/gadgets/2025/04/lg-tvs-integrated-ads-get-more-personal-with-tech-that-analyzes-viewer-emotions/), or
 - [Do whatever the hell this is](https://cohost.org/ghoulnoise/post/5286766-do-not-buy-hisense-t).
 
 I would also like to extend kudos to the manufacturer, who included a separate single page leaflet on how to specifically [turn off telenovela mode](https://www.cined.com/the-soap-opera-effect-how-your-tv-is-destroying-cinematic-efforts/).
