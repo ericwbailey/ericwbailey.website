@@ -39,7 +39,7 @@ I spent a decent amount of time last year helping to create [a table component](
 - Communicating efforts in a predictable and transparent fashion,
 - Reviewing each new piece of functionality with daily assistive technology users as both a discrete unit and also part of a larger, holistic whole,
 - Stress-testing the component’s ability to accommodate content,
-- Proactively including both quick and deep documentation (including component anatomy, do’s and don’ts, and best practices), and
+- Proactively [including both quick and deep documentation](https://primer.style/product/components/data-table/) (including component anatomy, do’s and don’ts, and best practices), and
 - Conducting a final, pre-release sign-off that was effectively turnkey, where there were no eleventh hour surprises.
 
 The table component was released following sign-off. There was then the inevitable short burst of small tweaks and minor bug fixes.
