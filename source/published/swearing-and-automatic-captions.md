@@ -247,7 +247,7 @@ Slack did not censor swear words, but did confuse “pause” for “powers,” 
 
 ### Skype
 
-In all honesty, I bet [Skype](https://www.skype.com/en/) will outlive me. I probably shouldn’t make fun of it.
+<s>In all honesty, I bet [Skype](https://www.skype.com/en/) will outlive me. I probably shouldn’t make fun of it.</s> Note: [Slack is now dead](https://arstechnica.com/gadgets/2025/05/microsoft-officially-shuts-down-skype-redirects-all-app-users-to-teams/).
 
 <p class="hide-visually">
   <a href="#hSQk1OXrOW0">
