@@ -48,7 +48,7 @@ However, 2.4.4 also provides a pretty strong clue that these names might not be 
 
 ## Ambiguous to users in general
 
-A high-level explanatory blockquote under the page’s title ends with the phrase, “except where the purpose of the link would be [ambiguous to users in general](https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context.html#dfn-ambiguous-to-users-in-general).”, linking to a definition and an example. The definition is:
+A high-level explanatory blockquote under the page’s title ends with the phrase, “except where the purpose of the link would be [ambiguous to users in general](https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context.html#dfn-ambiguous-to-users-in-general)”, linking to a definition and an example. The definition is:
 
 > the purpose cannot be determined from the link and all information of the Web page presented to the user simultaneously with the link (i.e., readers without disabilities would not know what a link would do until they activated it)
 
