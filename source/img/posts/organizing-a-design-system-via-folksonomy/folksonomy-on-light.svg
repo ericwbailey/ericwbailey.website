@@ -1,0 +1,26 @@
+<svg width="840" height="524" viewBox="0 0 840 524" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="840" height="524" fill="white"/>
+<rect x="61" y="60" width="200" height="90" rx="14" fill="#007299"/>
+<rect x="328" y="344" width="200" height="90" rx="14" fill="#007299"/>
+<rect x="91" y="405" width="200" height="90" rx="14" fill="#007299"/>
+<rect x="609" y="389" width="200" height="90" rx="14" fill="#007299"/>
+<rect x="609" y="254" width="200" height="90" rx="14" fill="#007299"/>
+<rect x="381" y="226" width="200" height="90" rx="14" fill="#007299"/>
+<rect x="553" y="63" width="200" height="90" rx="14" fill="#007299"/>
+<rect x="307" y="105" width="200" height="90" rx="14" fill="#007299"/>
+<rect x="91" y="255" width="200" height="90" rx="14" fill="#007299"/>
+<path d="M481 226V226C481 217.44 474.06 210.5 465.5 210.5H422.5C413.94 210.5 407 203.56 407 195V195" stroke="#4A4A4A" stroke-width="3"/>
+<path d="M481 316V316C481 323.732 474.732 330 467 330H442C434.268 330 428 336.268 428 344V344" stroke="#4A4A4A" stroke-width="3"/>
+<path d="M307 150H304C292.954 150 284 141.046 284 130V125C284 113.954 275.046 105 264 105H261" stroke="#4A4A4A" stroke-width="3"/>
+<path d="M191 254V230.5C191 219.454 199.954 210.5 211 210.5H391.5C400.06 210.5 407 203.56 407 195V195" stroke="#4A4A4A" stroke-width="3"/>
+<path d="M291 300H321.5C329.508 300 336 293.508 336 285.5V285.5C336 277.492 342.492 271 350.5 271H381" stroke="#4A4A4A" stroke-width="3"/>
+<path d="M481 226V222.5C481 211.454 489.954 202.5 501 202.5H633C644.046 202.5 653 193.546 653 182.5V153" stroke="#4A4A4A" stroke-width="3"/>
+<path d="M709 254V223.5C709 212.454 700.046 203.5 689 203.5H673C661.954 203.5 653 194.546 653 183.5V153" stroke="#4A4A4A" stroke-width="3"/>
+<path d="M609 299V299C601.268 299 595 292.732 595 285V285C595 277.268 588.732 271 581 271V271" stroke="#4A4A4A" stroke-width="3"/>
+<path d="M161 60V50C161 38.9543 169.954 30 181 30H633C644.046 30 653 38.9543 653 50V63" stroke="#4A4A4A" stroke-width="3"/>
+<path d="M61 105H51C39.9543 105 31 113.954 31 125V369C31 380.046 39.9543 389 51 389H328" stroke="#4A4A4A" stroke-width="3"/>
+<path d="M528 389H572.5C583.546 389 592.5 380.046 592.5 369V315.5C592.5 306.387 599.887 299 609 299V299" stroke="#4A4A4A" stroke-width="3"/>
+<path d="M709 344V389" stroke="#4A4A4A" stroke-width="3"/>
+<path d="M191 405V345" stroke="#4A4A4A" stroke-width="3"/>
+<path d="M191 255V217.5C191 209.216 184.284 202.5 176 202.5V202.5C167.716 202.5 161 195.784 161 187.5V150" stroke="#4A4A4A" stroke-width="3"/>
+</svg>
