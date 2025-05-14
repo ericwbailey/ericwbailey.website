@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.86 - 2025-05-15
+- Add [Organizing a design system via folksonomy](https://ericwbailey.website/published/organizing-a-design-system-via-folksonomy/)
+
 ## v1.5.85 - 2025-04-07
 - Add [Article pitch for your consideration](https://ericwbailey.website/published/article-pitch-for-your-consideration/)
 - Update social share image for [How to make an ineffective 404 page](https://ericwbailey.website/published/how-to-make-an-ineffective-404-page/)
