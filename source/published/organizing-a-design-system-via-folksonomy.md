@@ -125,7 +125,7 @@ I am also not so naïve as to think you would not need reviewing and reporting c
 
 ## Curation
 
-Reviewing also does not need to thought about as an arduous chore. Fandoms treat the task as a way to [**help steward the community**](https://thehistoryoftheweb.com/postscript/fandom-folksonomies-and-tagging-things-right/#:~:text=on%20the%20web.-,curated%20folksonomy,-The%20first%20feature). Within the context of a design system, this could be a way to engage with the audiences that use it.
+Reviewing also does not need to be thought about as an arduous chore. Fandoms treat the task as a way to [**help steward the community**](https://thehistoryoftheweb.com/postscript/fandom-folksonomies-and-tagging-things-right/#:~:text=on%20the%20web.-,curated%20folksonomy,-The%20first%20feature). Within the context of a design system, this could be a way to engage with the audiences that use it.
 
 Curation also poses more potential opportunity. It could be a way to feature content from engaged contributors, which in turn creates positive associations with the design system and its maintainers. It could also be a way for the design system team to make informed choices about what is working and what needs attention.
 
