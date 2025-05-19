@@ -20,7 +20,7 @@ eleventyNavigation:
 
 Design systems are organized in an imperative, top-down, hierarchical way.
 
-By this, I mean Its maintainers decide on categories of content, and then how that content is ordered. This is done as a calculated bet to best serve the known and unknown audiences who consume the design system‘s content.
+By this, I mean its maintainers decide on categories of content, and then how that content is ordered. This is done as a calculated bet to best serve the known and unknown audiences who consume the design system‘s content.
 
 For example, GitHub’s [Primer](https://primer.style/) design system divides the world into a [Getting Started guide](https://primer.style/product/getting-started/), [Primitives](https://primer.style/product/primitives/), [UI Patterns](https://primer.style/product/ui-patterns/), [Components](https://primer.style/product/components/), [React Hooks](https://primer.style/product/hooks/), and guidelines for [Contributing](https://primer.style/product/contribute/). Shopify’s [Polaris](https://polaris.shopify.com/) design system has has a similar approach with its navigation, but includes more options such as [Content](https://polaris.shopify.com/content), [Patterns](https://polaris.shopify.com/patterns), [Tools](https://polaris.shopify.com/tools), etc.
 
