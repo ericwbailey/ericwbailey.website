@@ -10,6 +10,10 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.87 - 2025-06-16
+- Add [What I Wish Someone Told Me When I Was Getting Into ARIA](https://www.smashingmagazine.com/2025/06/what-i-wish-someone-told-me-aria/)
+- Make image backgrounds transparent for [Organizing a design system via folksonomy](https://ericwbailey.website/published/organizing-a-design-system-via-folksonomy/)
+
 ## v1.5.86 - 2025-05-15
 - Add [Organizing a design system via folksonomy](https://ericwbailey.website/published/organizing-a-design-system-via-folksonomy/)
 
