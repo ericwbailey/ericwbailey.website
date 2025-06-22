@@ -329,7 +329,7 @@ The infrastructure required to successfully undertake translation or localizatio
 
 ## This is a lot
 
-Software is complicated. Language is complicated. People are complicated. The combination of all three will inevitably be even more complicated. Does this mean you shouldn’t translate or localize your digital experience? Hell no.
+Software is complicated. Language is complicated. [People are complicated](https://vitonsky.net/blog/2025/05/17/language-detection/). The combination of all three will inevitably be even more complicated. Does this mean you shouldn’t translate or localize your digital experience? Hell no.
 
 Language access is a vital, yet often overlooked way to make digital experiences more equitable. This form of equity is increasingly more important as more and more services that are part of living everyday life digitize.
 
