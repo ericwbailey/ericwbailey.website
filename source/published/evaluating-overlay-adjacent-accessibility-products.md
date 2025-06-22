@@ -30,7 +30,7 @@ eleventyNavigation:
   order: 2
 ---
 
-I get asked about my opinion on overlay-adjacent accessibility products with enough frequency that I thought it could be helpful to write about it.
+I get asked about my opinion on overlay-adjacent accessibility products with enough frequency that I [thought it could be helpful to write about it](https://www.last-child.com/if-you-answer-it-twice-make-it-an-article.html).
 
 There’s a category of third party products out there that are almost, but not quite an [accessibility overlay](https://overlayfactsheet.com/en/). By this I mean that they seem a little less predatory, and a little more grounded in terms of the promises they make.
 
