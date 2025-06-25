@@ -158,7 +158,7 @@ Led to this:
     decoding="async"
     src="{{ '/img/posts/quality-is-a-trap/hawaii-ballistic-missile-alert.jpg' | url }}" />
   <figcaption>
-    <span class="typography-small-caps">Source:</span> <a href="">False-alarm missile alert spooks Hawaii residents but Japanese sanguine - The Japan Times</a>.
+    <span class="typography-small-caps">Source:</span> <a href="https://www.japantimes.co.jp/news/2018/01/14/national/false-alarm-missile-alert-spooks-hawaii-residents-japanese-sanguine/">False-alarm missile alert spooks Hawaii residents but Japanese sanguine - The Japan Times</a>.
   </figcaption>
 </figure>
 
