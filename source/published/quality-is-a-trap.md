@@ -19,7 +19,7 @@ eleventyNavigation:
   order: 7
 ---
 
-Like cicadas emerging from the ground, design industry conversations about quality seem to periodically erupt on social media. Also like cicadas, these thinkpieces are as predicable as they are irritating.
+Like cicadas emerging from the ground, design industry conversations about quality seem to periodically erupt on social media. Also like cicadas, these articles are as predicable as they are irritating.
 
 I can’t count the amount of Medium thinkpieces I’ve seen come and go where an author accidentally stumbles backwards into the problems that drove Phaedrus to have a nervous breakdown in [<cite>Zen and the Art of Motorcycle Maintenance</cite>](https://www.smithsonianmag.com/smithsonian-institution/robert-pirsig-zen-art-motorcycle-maintenance-resonates-today-180975768/).
 
