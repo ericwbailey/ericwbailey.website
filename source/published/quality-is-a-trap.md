@@ -23,7 +23,7 @@ Like cicadas emerging from the ground, design industry conversations about quali
 
 I can’t count the amount of Medium thinkpieces I’ve seen come and go where an author accidentally stumbles backwards into the problems that drove Phaedrus to have a nervous breakdown in [<cite>Zen and the Art of Motorcycle Maintenance</cite>](https://www.smithsonianmag.com/smithsonian-institution/robert-pirsig-zen-art-motorcycle-maintenance-resonates-today-180975768/).
 
-Oftentimes these insufferable diatribes are often speaking to, and lauding whatever aesthetic Apple marketing pages are using at the time of publication. This is surface-level faff, likely born of frustration around a perceived lack of creative freedom within their organization.
+Oftentimes these insufferable diatribes are speaking to, and lauding whatever aesthetic Apple marketing pages are using at the time of publication. This is surface-level faff, likely born of frustration around a perceived lack of creative freedom within their organization.
 
 To these individuals: Know that design is a team sport and painting is a great hobby to try.
 
@@ -31,7 +31,7 @@ Other times the author will fixate on things like arcane details and [inside bas
 
 Talking shop is all fine and good. In fact, I wish I got to do more of it. Details, however, are just that. We must be careful to **not conflate process with results**. Know that companies who make their own custom typeface can and do fail just as often as companies who don’t.
 
-If you’re lucky, you’ll come across a form of this essay that is more introspective, questioning a designer’s outputs within the system that they ply their trade in. I’m more heartened by this kind of writing, in that it is the rare case of a systems-oriented thinker turning inward to consider their place in things.
+If you’re lucky, you’ll come across a form of this essay that is more introspective, with a designer questioning the outputs they create within the system that they ply their trade in. I’m more heartened by this kind of writing, in that it is the rare case of a systems-oriented thinker turning inward to consider their place in things.
 
 It’s still a fool’s errand, however. **Conversations around quality are non-starters**, for a variety of reasons.
 
@@ -41,13 +41,13 @@ Quality is a slippery bastard.
 
 Most **attempts to pin down quality try to treat it as a binary state** to be achieved at a fixed point in time. This way of thinking about it will inevitably fail to meet the mark, as well as age terribly.
 
-Don’t believe me? Here’s some of the different ways quality manifests:
-
 ## Quality is neutral
 
 One of my favorite professors at art school (hi [Maya](https://mayadrozdz.com/)!) liked to remind us that, “Interesting is a neutral word.” It was her way of teaching us to be less avoidant and non-committal, and instead dig deeper into things during design crit sessions.
 
 Like “interesting,” “**quality” is a neutral word**. It is a proxy phrase, and can almost always be replaced by more concrete, constructive, and actionable things that contribute more towards the conversation.
+
+Still don’t believe me? Here’s some of the different ways quality manifests:
 
 ## Quality is temporal
 
@@ -130,7 +130,7 @@ These are **objectively positive outcomes** for everyone involved, save for the 
 
 As someone who has worked in government and government-adjacent services, I detest the phrase, “Good enough for government work.” I’d need more than ten fingers and ten toes to count the number of people I know who have selflessly pushed for better for the citizenry they serve.
 
-That said, I have a truckload of ire reserved for the user interface that led to [the population of Hawaii getting instructed to seek shelter due to a falsely-reported ballistic missile attack](https://en.wikipedia.org/wiki/2018_Hawaii_false_missile_alert).
+That said, I have a truckload of ire reserved for the user interface that caused [the population of Hawaii to get instructed to seek shelter due to a falsely-reported ballistic missile attack](https://en.wikipedia.org/wiki/2018_Hawaii_false_missile_alert).
 
 This:
 
@@ -203,11 +203,11 @@ The app was **the lynchpin for the entire Sonos experience**. When updated for t
 
 To address this, Sonos has promised a whole host of changes, including [a roadmap of updates communicated directly from the top](https://www.sonos.com/en-us/blog/update-on-the-sonos-app). Furthermore, a “[quality ombudsman” role has been created](https://www.sonos.com/en-us/blog/commitments) at the company to help ensure this outcome does not happen again—it is unclear what leverage this role will have, however.
 
-All of this rests on the assumption that **quality is an unspoken agreement** between people and the service they gave their money to that what they invested in will continue going forward.
+All of this rests on the assumption that **quality is an unspoken agreement** between people and the service they gave their money to. That agreement is that what they invested in will continue to function at the level they bought in at or better going forward.
 
 ## Quality is a wedge
 
-Apple is updating the design of macOS and iOS to use a unified visual language. This update is sourced from the Vision Pro, its mixed-reality goggles.
+Apple is updating to use a unified visual language across all the operating systems it owns. This update is sourced from the Vision Pro, its mixed-reality goggles.
 
 [Proponents of usability are incensed by this decision](https://www.stuff.tv/features/apples-liquid-glass-looks-like-its-beamed-in-from-the-movies-i-dont-think-thats-a-good-thing/), in that the glass-like aesthetic it uses creates serious legibility issues:
 
@@ -228,7 +228,7 @@ Apple products are thought of as high-quality luxury goods. Apple as a brand is 
 
 Smartphones have market saturation, the Vision Pro is a market flop, it’s [smart car project was scuttled](https://www.macrumors.com/roundup/apple-car/), and attempts to [integrate a LLM into Siri](https://www.theverge.com/news/669238/apple-siri-llm-ai-revamp) are failing. As [Vitomir Jevremovic points out](https://www.linkedin.com/posts/vitomir_let-me-tell-you-the-real-reason-apple-is-activity-7338139913957105666-eYPp/), requiring GPU-intensive visual effects will make older devices feel clunky and slow—or to put it another way, low quality.
 
-This is less [sunk cost fallacy](https://bsky.app/profile/askulie.bsky.social/post/3lr7efcqrjk27) from Apple’s perspective, and more attempting to [create luxury aesthetics](https://bsky.app/profile/erikahall.bsky.social/post/3lmsgppfsf22o). After all, something that feels low quality is likely to be replaced, especially if you’re trying to [keep up with the Joneses](https://en.wikipedia.org/wiki/Keeping_up_with_the_Joneses).
+Using [visionOS](https://www.apple.com/os/visionos/)’s aesthetics is less [sunk cost fallacy](https://bsky.app/profile/askulie.bsky.social/post/3lr7efcqrjk27) from Apple’s perspective, and more attempting to [create luxury aesthetics](https://bsky.app/profile/erikahall.bsky.social/post/3lmsgppfsf22o). After all, something that feels low quality is likely to be replaced, especially if you’re trying to [keep up with the Joneses](https://en.wikipedia.org/wiki/Keeping_up_with_the_Joneses).
 
 ## So, what should I focus on instead of chasing quality?
 
