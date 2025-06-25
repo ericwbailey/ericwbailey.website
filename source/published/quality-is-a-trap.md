@@ -11,8 +11,8 @@ tags:
   - Design
   - History
 share:
-  facebookDescription: ""
-  twitterDescription: ""
+  facebookDescription: "A box trap."
+  twitterDescription: "A box trap."
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}
