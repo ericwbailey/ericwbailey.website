@@ -35,7 +35,7 @@ If you’re lucky, you’ll come across a form of this essay that is more intros
 
 It’s still a fool’s errand, however. **Conversations around quality are non-starters**, for a variety of reasons.
 
-## Quality has multiple axis
+## Quality has multiple axes
 
 Quality is a slippery bastard.
 
@@ -224,11 +224,13 @@ Apple is updating to use a unified visual language across all the operating syst
   </figcaption>
 </figure>
 
-Apple products are thought of as high-quality luxury goods. Apple as a brand is seen as being friendly towards accessibility. This aesthetic update is baffling in both regards until you consider the larger picture.
+Apple products are thought of as high-quality goods. Apple as a brand is percieved as being pro-accessibility. 
 
-Smartphones have market saturation, the Vision Pro is a market flop, it’s [smart car project was scuttled](https://www.macrumors.com/roundup/apple-car/), and attempts to [integrate a LLM into Siri](https://www.theverge.com/news/669238/apple-siri-llm-ai-revamp) are failing. As [Vitomir Jevremovic points out](https://www.linkedin.com/posts/vitomir_let-me-tell-you-the-real-reason-apple-is-activity-7338139913957105666-eYPp/), requiring GPU-intensive visual effects will make older devices feel clunky and slow—or to put it another way, low quality.
+This aesthetic update is baffling in both regards until you consider the larger picture: Smartphones have market saturation, the Vision Pro is a flop, it’s [smart car project was scuttled](https://www.macrumors.com/roundup/apple-car/), and attempts to [integrate a LLM into Siri](https://www.theverge.com/news/669238/apple-siri-llm-ai-revamp) are failing. 
 
-Using [visionOS](https://www.apple.com/os/visionos/)’s aesthetics is less [sunk cost fallacy](https://bsky.app/profile/askulie.bsky.social/post/3lr7efcqrjk27) from Apple’s perspective, and more attempting to [create luxury aesthetics](https://bsky.app/profile/erikahall.bsky.social/post/3lmsgppfsf22o). After all, something that feels low quality is likely to be replaced, especially if you’re trying to [keep up with the Joneses](https://en.wikipedia.org/wiki/Keeping_up_with_the_Joneses).
+As [Vitomir Jevremovic points out](https://www.linkedin.com/posts/vitomir_let-me-tell-you-the-real-reason-apple-is-activity-7338139913957105666-eYPp/), requiring GPU-intensive visual effects will make older devices feel clunky and slow. Or, to put it another way: low quality.
+
+With this context, using [visionOS](https://www.apple.com/os/visionos/)’s aesthetics is less [sunk cost fallacy](https://bsky.app/profile/askulie.bsky.social/post/3lr7efcqrjk27) from Apple’s perspective and more attempting to [create luxury aesthetics](https://bsky.app/profile/erikahall.bsky.social/post/3lmsgppfsf22o). After all, something that feels low quality is likely to be replaced, especially if you’re trying to [keep up with the Joneses](https://en.wikipedia.org/wiki/Keeping_up_with_the_Joneses).
 
 ## So, what should I focus on instead of chasing quality?
 
