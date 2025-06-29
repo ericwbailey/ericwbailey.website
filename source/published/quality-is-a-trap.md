@@ -113,7 +113,7 @@ The Navy used to use purpose-built, yet cumbersome control interfaces for its Vi
     decoding="async"
     src="{{ '/img/posts/quality-is-a-trap/periscope-controller.jpg' | url }}" />
   <figcaption>
-    <span class="typography-small-caps">Source:</span> <a href="https://www.theverge.com/2017/4/19/15357340/juicero-juicer-not-actually-necessary-for-juicing">The Navy's most advanced submarines will soon be using Xbox controllers - The Virginian-Pilot</a>.
+    <span class="typography-small-caps">Source:</span> <a href="https://web.archive.org/web/20201207010333/https://www.stripes.com/news/us/the-navy-s-most-advanced-submarines-will-soon-be-using-xbox-controllers-1.488074#.WcEor9OGNTa">The Navy's most advanced submarines will soon be using Xbox controllers - The Virginian-Pilot</a>.
   </figcaption>
 </figure>
 
@@ -143,7 +143,7 @@ This:
     decoding="async"
     src="{{ '/img/posts/quality-is-a-trap/hawaii-emergency-management-facsimile.jpg' | url }}" />
   <figcaption>
-    <span class="typography-small-caps">Source:</span> <a href="https://www.theverge.com/2017/4/19/15357340/juicero-juicer-not-actually-necessary-for-juicing">Hawaii Distributed Phony Image Of Missile Warning Screen - Honolulu Civil Beat</a>.
+    <span class="typography-small-caps">Source:</span> <a href="https://www.civilbeat.org/2018/01/hawaii-distributed-phony-image-of-missile-warning-screen/">Hawaii Distributed Phony Image Of Missile Warning Screen - Honolulu Civil Beat</a>.
   </figcaption>
 </figure>
 
