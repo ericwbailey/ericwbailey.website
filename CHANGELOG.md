@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.89 - 2025-06-30
+- Add [You MUST listen to RFC 2119](https://ericwbailey.website/published/you-must-listen-to-rfc-2119/)
+
 ## v1.5.88 - 2025-06-25
 - Add [Quality is a trap](https://ericwbailey.website/published/quality-is-a-trap/)
 
