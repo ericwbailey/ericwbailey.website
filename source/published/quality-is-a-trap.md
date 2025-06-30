@@ -236,7 +236,7 @@ With this context, using [visionOS](https://www.apple.com/os/visionos/)’s aest
 
 Pride in craft is always important. Just be sure that the craft is serving objective and constructive concerns.
 
-Performance, security, stability, and accessibility are all great areas to invest in. All of these things have objective and measurable aspects to them.
+Performance, security, stability, localization, and accessibility are all great areas to invest in. All of these things have objective and measurable aspects to them.
 
 Usability is another great area to invest in, provided the effort is done in a way that it **addresses people’s actual needs**. To that point, user research is another thing well-worth spending your precious time on.
 
