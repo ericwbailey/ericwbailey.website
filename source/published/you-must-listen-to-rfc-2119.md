@@ -29,7 +29,7 @@ To which a friend quickly replied:
 
 I then demanded to know if they knew what [RFC 3986](https://datatracker.ietf.org/doc/html/rfc3986) was off the top of their head, to which they replied that the only one they knew by number is [RFC 2119](https://datatracker.ietf.org/doc/html/rfc2119). This is to say this Discord is full of delightful web nerds.
 
-RFC 2116 establishes language around requirement levels. Terms like “MUST”, “MUST NOT”, “SHOULD”, and “SHOULD NOT” are helpful when coordinating with engineers. I reference it a lot for work, as I create a lot of [accessible component specifications](https://ericwbailey.website/published/githubs-updated-commits-page-and-the-interactive-list-component/).
+RFC 2119 establishes language around requirement levels. Terms like “MUST”, “MUST NOT”, “SHOULD”, and “SHOULD NOT” are helpful when coordinating with engineers. I reference it a lot for work, as I create a lot of [accessible component specifications](https://ericwbailey.website/published/githubs-updated-commits-page-and-the-interactive-list-component/).
 
 Because of this familiarity—and because I’m an ass—I fired back in Discord:
 
