@@ -38,7 +38,7 @@ A must-read if you work in digital accessibility.
 
 As the name implies, this newsletter is sent out weekly. It covers digital accessibility and inclusive design-related topics and news, expertly curated by [David Kennedy](https://davidakennedy.com/).
 
-One thing I especially appreciate is the "New to A11y" section. I really appreciate that David gives space for new voices and perspectives in the space, as well as the exposure being featured confers.
+One thing I especially like is the "New to A11y" section. I really appreciate that David gives space for new voices and perspectives in the space, as well as the exposure being featured confers.
 
 ### [Web Design Update](https://groups.google.com/a/d.umn.edu/g/webdev)
 
