@@ -94,7 +94,7 @@ The rule of never shipping on a Friday does not apply here.
 
 ### [The Index](https://piccalil.li/the-index/)
 
-Similarly, [Piccalil](https://piccalil.li/) also delivers small collections of frontend development and design articles on the regular. I enjoy their very short and succinct preview copy for each article, it makes for a satisfying quick hit of industry goings on.
+Similarly, [Piccalilli](https://piccalil.li/) also delivers small collections of frontend development and design articles on the regular. I enjoy their very short and succinct preview copy for each article, it makes for a satisfying quick hit of industry goings on.
 
 ### [Web Weekly](https://webweekly.email/)
 
