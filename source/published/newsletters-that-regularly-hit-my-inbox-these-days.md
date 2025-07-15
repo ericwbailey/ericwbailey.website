@@ -26,7 +26,7 @@ Like Marc, I am also motivated by [FOMO](https://en.wikipedia.org/wiki/Fear_of_m
 
 [RSS has its own place](https://ericwbailey.website/published/i-doubled-down-on-rss/) in my daily reading rituals. So does doomscrolling. That said, I also [really like newsletters](https://ericwbailey.website/newsletters/). Enough, in fact, that I also [put out my own](https://buttondown.com/ericwbailey).
 
-Email newsletters occupy a comfortable space between the accidental discovery of browsing social media and the intent-driven act of reading a feed of subscribed blog updates. They also breaks up the tedium of staying on top of email, most of which is regrettably transactional at this point.
+Email newsletters occupy a comfortable space between the accidental discovery of browsing social media and the intent-driven act of reading a feed of subscribed blog updates. They also break up the tedium of staying on top of email, most of which is regrettably transactional at this point.
 
 So, with that established! Here’s a sampling of some of the newsletters I look forward to reading as of late:
 
