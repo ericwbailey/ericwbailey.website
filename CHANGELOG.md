@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.90 - 2025-07-14
+- Add [Newsletters that regularly hit my inbox these days](https://ericwbailey.website/published/newsletters-that-regularly-hit-my-inbox-these-days/)
+
 ## v1.5.89 - 2025-06-30
 - Add [You MUST listen to RFC 2119](https://ericwbailey.website/published/you-must-listen-to-rfc-2119/)
 
