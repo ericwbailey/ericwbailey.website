@@ -46,13 +46,13 @@ I view this as the second of the two required reading newsletters for digital ac
 
 ### [Access * Ability](https://buttondown.com/access-ability/)
 
-Curated by the incomparable [Sheri Byrne-Haber](https://www.sheribyrnehaber.com/), Access * Ability provides deeper, more longform guidance and analysis on disability and accessibility-related topics.
+Curated by the incomparable [Sheri Byrne-Haber](https://www.sheribyrnehaber.com/), Access&nbsp;*&nbsp;Ability provides deeper, more longform guidance and analysis on disability and accessibility-related topics.
 
 One thing I especially appreciate about this newsletter is that Sheri was willing to [move it off Substack and onto a more ethical platform](https://www.theatlantic.com/ideas/archive/2023/11/substack-extremism-nazi-white-supremacy-newsletters/676156/). I try to avoid Substack as much as possible, so this was great to see.
 
-### Design
+## Design
 
-## [Pixels of the Week](https://stephaniewalter.design/subscribe-to-the-blog-updates/)
+### [Pixels of the Week](https://stephaniewalter.design/subscribe-to-the-blog-updates/)
 
 [Stéphanie Walter](https://stephaniewalter.design/)’s newsletter is a well-established part of my Monday work rituals.
 
