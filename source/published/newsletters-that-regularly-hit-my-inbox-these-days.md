@@ -2,7 +2,7 @@
 layout: "layouts/post.njk"
 title: Newsletters that regularly hit my inbox these days
 source: ericwbailey.website
-excerpt: ""
+excerpt: "Here’s a sampling of some of the newsletters I look forward to"
 date: 2025-07-14
 year: 2025
 tags:
