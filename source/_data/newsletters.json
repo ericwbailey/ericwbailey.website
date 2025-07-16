@@ -13,6 +13,10 @@
       "url": "https://a11yweekly.com/"
     },
     {
+      "title": "Access Ability",
+      "url": "https://buttondown.com/access-ability/"
+    },
+    {
       "title": "A List Apart",
       "url": "https://alistapart.com/email-signup/"
     },
@@ -21,8 +25,8 @@
       "url": "https://buttondown.email/around-the-web"
     },
     {
-      "title": "Assistiv Labs",
-      "url": "https://assistivlabs.com/product-updates-newsletter"
+      "title": "The Assist",
+      "url": "https://the-assist.ghost.io/"
     },
     {
       "title": "Axess Lab",
@@ -77,6 +81,14 @@
       "url": "https://devdiner.com/newsletter"
     },
     {
+      "title": "Disability Debrief",
+      "url": "https://www.disabilitydebrief.org/"
+    },
+    {
+      "title": "Disability Thinking Weekday",
+      "url": "https://disability-thinking-weekday.ghost.io/"
+    },
+    {
       "title": "Diversify Tech",
       "url": "https://www.diversifytech.co/join/"
     },
@@ -101,6 +113,10 @@
       "url": "https://thoughtbot.com/blog"
     },
     {
+      "title": "Go Make Things",
+      "url": "https://gomakethings.com/articles/"
+    },
+    {
       "title": "Good Design by Adam Silver",
       "url": "https://adamsilver.io/signup/"
     },
@@ -115,6 +131,10 @@
     {
       "title": "🧶 ICYMI",
       "url": "https://buttondown.email/amberley"
+    },
+    {
+      "title": "The Index",
+      "url": "https://piccalil.li/the-index/"
     },
     {
       "title": "Ignore the Code",
@@ -145,12 +165,20 @@
       "url": "https://mobiledevweekly.com/"
     },
     {
+      "title": "The Morning News",
+      "url": "https://themorningnews.org/"
+    },
+    {
       "title": "Nielsen Norman Group Alertbox",
       "url": "https://www.nngroup.com/articles/subscribe/"
     },
     {
       "title": "Panda",
       "url": "https://usepanda.com/"
+    },
+    {
+      "title": "Perfect Sentences",
+      "url": "https://buttondown.com/perfectsentences/"
     },
     {
       "title": "Performance Newsletter by Calibre",
@@ -165,8 +193,16 @@
       "url": "https://ponyfoo.com/"
     },
     {
+      "title": "The Product Picnic",
+      "url": "https://productpicnic.beehiiv.com/"
+    },
+    {
       "title": "Really Good UX",
       "url": "https://www.reallygoodux.io/"
+    },
+    {
+      "title": "Reimagined",
+      "url": "https://reimaginednews.beehiiv.com/"
     },
     {
       "title": "rendezvous with cassidoo",
@@ -249,6 +285,10 @@
       "url": "https://wdrl.info/"
     },
     {
+      "title": "Web Design Update",
+      "url": "https://groups.google.com/a/d.umn.edu/g/webdev"
+    },
+    {
       "title": "Web Field Manual Dispatch",
       "url": "https://webfieldmanual.com/"
     },
@@ -263,6 +303,14 @@
     {
       "title": "Web Typography News",
       "url": "https://rwt.io/newsletter"
+    },
+    {
+      "title": "Web Weekly",
+      "url": "https://webweekly.email/"
+    },
+    {
+      "title": "weird wide web hole",
+      "url": "https://buttondown.com/weirdwidewebhole/"
     },
     {
       "title": "We're all Human",
