@@ -134,6 +134,17 @@
       ]
     },
     {
+      "title": "How to fix a11y debt without burning out",
+      "url": "https://www.youtube.com/watch?v=b821xgKklQs",
+      "featured": false,
+      "locations": [
+        {
+          "description": "<a href='https://www.linkedin.com/posts/chromaticcom_accessibility-issues-piling-up-youre-not-activity-7353468064572526595-MhPf'>Chromatic webinar</a>",
+          "year": 2025
+        }
+      ]
+    },
+    {
       "title": "If it&rsquo;s Interactive, it Needs a Focus Style",
       "url": "https://noti.st/ericwbailey/TcMJFP/if-it-s-interactive-it-needs-a-focus-style",
       "featured": false,
