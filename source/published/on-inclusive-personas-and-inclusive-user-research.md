@@ -213,7 +213,7 @@ Does your organization have existing personas? If so, why isn’t a statisticall
 
 To quote [Dr. Michele Williams](https://mawconsultingllc.com/):
 
-> “’Is this accessible?’ is not a research question.”
+> “‘Is this accessible?’ is not a research question.”
 
 Keeping accessibility concerns separate from non-inclusive persona-related activities often leads to accessibility-related work being conducted in isolation from the rest of the organization. This desynchronization of efforts can be a confusing, reputation-harming, and counterproductive for all involved.
 
@@ -222,8 +222,6 @@ This isn’t to say accessibility-focused work should not be done at all.
 ## Baking it in versus fixing it in post
 
 It is a bit of an digital accessibility practitioner cliché at this point, but we want to **[thread accessibility-related considerations into all phases of product and feature creation](https://www.lullabot.com/articles/what-it-means-shift-left-accessibility-and-how-do-it-right) as much as possible**. This serves to normalize it as a consideration, including early-stage research and prototyping and all the way to development, release, and subsequent maintenance.
-
-It’s a subtle thing, but we also want to hold space for things that need direct accessibility support and remediation when this consideration of accessibility fails to happen. **It’s all about approach**.
 
 <div class="centered-media-outer">
   <picture class="centered-media-inner-1">
@@ -237,17 +235,19 @@ It’s a subtle thing, but we also want to hold space for things that need direc
   </picture>
 </div>
 
+It’s a subtle thing, but we also want to hold space for things that need direct accessibility support and remediation when this consideration of accessibility fails to happen. **It’s all about approach**.
+
 An example of how to consider your approach is when adding drag and drop support to an experience. This is a difficult thing to do well, even before you consider [how the interaction will work with assistive technology](https://github.blog/engineering/user-experience/exploring-the-challenges-in-creating-an-accessible-sortable-list-drag-and-drop/).
 
 We don’t want to build drag and drop functionality if there isn’t a valid use case for it. Because of this, we want to **identify if drag and drop is even needed to achieve the outcome the organization needs**.
 
 ### Building the right thing the right way, for the right reasons
 
-More often than not drag and drop functionality is better served via bulk editing controls and other efficient ways of moving content around. Uncovering this fact is where user research as a practice shines.
+More often than not drag and drop functionality is better-served via bulk editing controls and other efficient ways of moving content around. Uncovering this fact is where user research as a practice shines.
 
 An example of where direct accessibility support could be needed is an all-too-common scenario where an inaccessible drag and drop solution has already been added to an experience. This is done regardless of if it has actual utility or not, a tragically commonplace outcome in contemporary digital product creation where [incentives have become divorced from addressing actual human needs](https://productpicnic.beehiiv.com/p/why-design-goes-wrong-and-how-to-set-it-right-part-1).
 
-Here, we want to not only remove access barriers, but also **ensure that the accessible solution is also usable**. This is a space where inclusive user research has a lot of value as a specialized accessibility project.
+Here, we want to not only remove access barriers, but also **ensure that the accessible solution is also usable**. This is a space where inclusive user research has a lot of value as a specialized accessibility service offering.
 
 ### Remediating it instead
 
@@ -283,6 +283,7 @@ Also consider what happens in the small moments between research sessions. Who i
 
 - Synthesizing the findings, and what conscious and unconscious biases do they carry with them?
 - Scheduling the next session, and are they considering things like if it is available by public transportation and if there are alternatives to using the stairs?
+- Picking administrative and facilitation software, and evaluating if it is operable by different forms of assistive technology?
 - Managing calendar invites, and do they know everyone involved and if they can use the calendaring service?
 - Writing the survey questions, and are they fully confident in the use of the terminology they employ?
 - etc.
