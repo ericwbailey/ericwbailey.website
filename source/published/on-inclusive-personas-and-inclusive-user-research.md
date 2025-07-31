@@ -62,7 +62,7 @@ I do not question the experience and proficiency of the accessibility practition
 Despite this, recall that **the internet is a gigantic context-destroying machine**.
 
 <div class="centered-media-outer">
-  <picture class="centered-media-inner-2">
+  <picture class="centered-media-inner-1">
     <source
       media="(prefers-color-scheme: dark)"
       srcset="{{ '/img/posts/on-inclusive-personas-and-inclusive-user-research/shatter-on-dark.svg' | url }}">
@@ -116,7 +116,7 @@ If individuals who rely on assistive technology aren’t showing up for your use
 In both scenarios it’s your classic, clichéd case of [survivor bias](https://en.wikipedia.org/wiki/Survivorship_bias) once again conspiring to negatively impact representation.
 
 <div class="centered-media-outer">
-  <picture class="centered-media-inner-3">
+  <picture class="centered-media-inner-2">
     <source
       media="(prefers-color-scheme: dark)"
       srcset="{{ '/img/posts/on-inclusive-personas-and-inclusive-user-research/survivor-bias-on-dark.svg' | url }}">
@@ -213,12 +213,12 @@ This isn’t to say accessibility-focused work should not be done at all.
 
 ## Baking it in versus fixing it in post
 
-It is a bit of an digital accessibility practitioner cliché at this point, but we want to [**thread accessibility-related considerations into all phases of product and feature creation**](https://www.lullabot.com/articles/what-it-means-shift-left-accessibility-and-how-do-it-right) ****as much as possible. This serves to normalize it as a consideration, including early-stage research and prototyping and all the way to development, release, and subsequent maintenance.
+It is a bit of an digital accessibility practitioner cliché at this point, but we want to **[thread accessibility-related considerations into all phases of product and feature creation](https://www.lullabot.com/articles/what-it-means-shift-left-accessibility-and-how-do-it-right) as much as possible**. This serves to normalize it as a consideration, including early-stage research and prototyping and all the way to development, release, and subsequent maintenance.
 
 It’s a subtle thing, but we also want to hold space for things that need direct accessibility support and remediation when this consideration of accessibility fails to happen. **It’s all about approach**.
 
 <div class="centered-media-outer">
-  <picture class="centered-media-inner-2">
+  <picture class="centered-media-inner-1">
     <source
       media="(prefers-color-scheme: dark)"
       srcset="{{ '/img/posts/on-inclusive-personas-and-inclusive-user-research/muffin-on-dark.svg' | url }}">
@@ -423,7 +423,7 @@ Instead, organizations turn inwards and consider the artifacts their existing de
 [No](https://scribe.rip/no-ai-user-research-is-not-better-than-nothing-its-much-worse-5add678ab9e7/). [Fuck no](https://ashleemboyer.com/blog/how-to-dehumanize-accessibility-with-ai). [Absofuckinglutely not](https://scribe.rip/inclusive-software/insta-personas-synthetic-users-fc6e9cd1c301).
 
 <div class="centered-media-outer">
-  <picture class="centered-media-inner-2">
+  <picture class="centered-media-inner-1">
     <source
       media="(prefers-color-scheme: dark)"
       srcset="{{ '/img/posts/on-inclusive-personas-and-inclusive-user-research/zoom-out-on-dark.svg' | url }}">
@@ -444,7 +444,7 @@ Similarly, **rethinking and relinquishing our notions of control and “standard
 
 Remember that **research processes and artifacts help to shape products and services that will be used in real life**. Via this lens, the pageantry of persona-led design exercises is poised to further enshrine and perpetuate misunderstandings and barriers.
 
-Similarly, we should take time to scrutinize the functions of our roles and ******how our organizations compel us to undertake them in order to be successful within them**. Here, it can be helpful to borrow from the practice of [service design](https://www.interaction-design.org/literature/topics/service-design) to ensure the individuals and communities we serve are centered.
+Similarly, we should take time to scrutinize the functions of our roles and **how our organizations compel us to undertake them in order to be successful within them**. Here, it can be helpful to borrow from the practice of [service design](https://www.interaction-design.org/literature/topics/service-design) to ensure the individuals and communities we serve are centered.
 
 This post is about the pitfalls of inclusive personas, but also the larger systems that compel their creation and use and the people who all this work is ultimately for.
 
