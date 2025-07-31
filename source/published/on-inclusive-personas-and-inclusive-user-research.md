@@ -296,6 +296,10 @@ Sharing of responsibility also guards against negative consequences of when a si
 
 Let us not also forget to acknowledge **the pressures of perfectionism that are acutely felt on the design industry** side of things, as well as [the other corresponding White Supremacy culture characteristics that accompany it](https://www.whitesupremacyculture.info/one-right-way.html).
 
+## Against extraction
+
+Equal participation also guards against two other closely related and undesirable outcomes of more traditional design practices. The first of the two is **extraction**.
+
 <div class="centered-media-outer">
   <picture class="centered-media-inner-2">
     <source
@@ -307,10 +311,6 @@ Let us not also forget to acknowledge **the pressures of perfectionism that are 
       src="{{ '/img/posts/on-inclusive-personas-and-inclusive-user-research/extraction-on-light.svg' | url }}">
   </picture>
 </div>
-
-## Against extraction
-
-Equal participation also guards against two other closely related and undesirable outcomes of more traditional design practices. The first of the two is **extraction**.
 
 ### For, not with
 
