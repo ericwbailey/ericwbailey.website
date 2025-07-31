@@ -323,7 +323,7 @@ Equal participation also guards against two other closely related and undesirabl
 
 ### For, not with
 
-At a high level, extractive design is the paternalistic act of deigning “for” a population, rather than alongside them.
+At a high level, extractive design is the paternalistic act of designing “for” a population, rather than alongside them.
 
 With extractive design, **individuals are treated as disposable, transactional resources** to glean insights from and exploit in the name of hopefully producing something of value. If this sounds familiar to you, it is because this is common practice for contemporary user research.
 
