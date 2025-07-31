@@ -41,7 +41,7 @@ furtherReading:
     url: https://www.fastcompany.com/90697288/inclusive-design-has-become-so-widely-used-that-its-meaningless-that-has-to-change
 attribution: "Thank you to <a href='https://www.joshkimux.com/'>Josh Kim</a> for his invaluable feedback, insights, and reading recommendations. I couldn’t have written this without your support. Seriously, you’re a treasure."
 share:
-  facebookDescription: ""
+  facebookDescription: "The silhouette of a World War II fighter plane. Empty holes are clustered around its wings, tail and behind the cockpit area."
   twitterDescription: ""
 eleventyNavigation:
   key: {{ title }}
@@ -122,7 +122,7 @@ In both scenarios it’s your classic, clichéd case of [survivor bias](https://
       srcset="{{ '/img/posts/on-inclusive-personas-and-inclusive-user-research/survivor-bias-on-dark.svg' | url }}">
     <img
       role="img"
-      alt="The silhouette of a World War II fighter plane. Red dots are scattered across its wings, tail and behind the cockpit area."
+      alt="The silhouette of a World War II fighter plane. Red dots are clustered around its wings, tail and behind the cockpit area."
       src="{{ '/img/posts/on-inclusive-personas-and-inclusive-user-research/survivor-bias-on-light.svg' | url }}">
   </picture>
 </div>
