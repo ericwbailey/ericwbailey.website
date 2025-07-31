@@ -1,10 +1,10 @@
 {
   "title": "Eric Bailey",
-  "description": "Inclusive design advocate, writer, developer, and speaker",
+  "description": "Accessibility advocate, writer, developer, and speaker",
   "url": "https://ericwbailey.website",
   "logo": "static/favicons/avatar.png",
   "feed": {
-    "subtitle": "Inclusive design advocate, writer, developer, and speaker",
+    "subtitle": "Accessibility advocate, writer, developer, and speaker",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "id": "https://ericwbailey.website/"
