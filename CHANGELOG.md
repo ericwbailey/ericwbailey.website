@@ -10,6 +10,10 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.91 - 2025-07-31
+- Add [On inclusive personas and inclusive user research](https://ericwbailey.website/published/on-inclusive-personas-and-inclusive-user-research/)
+- Update tagline
+
 ## v1.5.90 - 2025-07-14
 - Add [Newsletters that regularly hit my inbox these days](https://ericwbailey.website/published/newsletters-that-regularly-hit-my-inbox-these-days/)
 
