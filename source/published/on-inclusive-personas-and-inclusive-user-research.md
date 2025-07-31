@@ -13,6 +13,7 @@ tags:
   - Decolonizing
   - Design
   - Devices
+  - Harm Reduction
   - Inclusion
   - Personas
   - User Research
@@ -27,6 +28,9 @@ furtherReading:
   - title: "Against Technoableism: Rethinking Who Needs Improvement"
     source: "Ashley Shew"
     url: https://wwnorton.com/books/9781324076254
+  - title: "Racial/Ethnic Disparities in Disability Prevalence"
+    source: "Rashmi Goyat, Ami Vyas, and Usha Sambamoorthi"
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4919210/
   - title: "Care Work: Dreaming Disability Justice"
     source: "Leah Lakshmi Piepzna-Samarasinha"
     url: https://arsenalpulp.com/Books/C/Care-Work
@@ -133,13 +137,15 @@ Many inclusive personas I’ve come across also painstakingly assign each person
 
 There are multiple things to watch out for here:
 
-### Outcomes, not methods
+### 1. Outcomes, not methods
 
-First is that **assistive technology is a means, and not an end**. This was touched on previously, but someone who operates a [mouth stick](https://webaim.org/articles/motor/assistive#mouthstick) isn’t using it for the sake of using it. They’re **attempting to achieve an outcome,** powered by extrinsic and intrinsic motivating factors.
+First is that **assistive technology is a means, and not an end**. 
+
+This fact was touched on previously, but someone who operates a [mouth stick](https://webaim.org/articles/motor/assistive#mouthstick) isn’t using it for the sake of using it. They’re **attempting to achieve an outcome,** powered by extrinsic and intrinsic motivating factors.
 
 > An example of this is creating targeted “accessibility” features for the sake of feature creation. On-site text size controls are a good example of this, as they often don’t scale to the size people actually require, or interfere with their existing browser or operating system text size settings.
 
-### More than one or none
+### 2. More than one or none
 
 Second is that some disabled people [use more than one form of assistive technology](https://ashleemboyer.com/blog/disability-is-not-a-single-selection-field), both concurrently and switching them in and out as needed.
 
@@ -147,7 +153,7 @@ There’s also the fact that some disabled people don’t use assistive technolo
 
 > An example of this is someone with low vision, who interchangeably uses a screen reader and screen magnification software. Another example is someone who does not use a reduced motion animation settings, color filters, etc., yet is susceptible to migraines after looking at a screen for an extended period of time.
 
-### Use does not always equate expertise
+### 3. Use does not always equate expertise
 
 Third is that there is typically an implicit assumption that the persona using the assistive technology is also an expert in it. **Not everyone who uses assistive technology has also mastered it**.
 
@@ -155,11 +161,13 @@ Here, I’d once again ask you to sit in on some inclusive user research session
 
 > An example of this is thinking that an [esoteric JAWS screen reader keyboard command](https://support.freedomscientific.com/Content/Documents/Manuals/JAWS/Keystrokes.txt) will be sufficient for bypassing large sections of content, without providing [more commonplace navigation hooks such as headings](https://webaim.org/projects/screenreadersurvey10/#finding).
 
-As an aside, I often see scenario play out after a someone is told their proposed solution won’t be viable, and they scour assistive technology manuals to defend their design decisions.
+As an aside, I often witness this scenario play out after a someone is told their proposed solution won’t be viable. They then scour assistive technology manuals to defend their design decisions.
 
-### Hyperfixation
+### 4. Hyperfixation
 
-Fourth is that mapping specific forms of assistive technology to personas can lead to **disproportionate attention placed on one kind of assistive technology** at the expense of others. This most often happens when an applicable persona is singled out as important for the scenario at hand. The opposite is also true.
+Fourth is that mapping specific forms of assistive technology to personas can lead to **disproportionate attention placed on one kind of assistive technology** at the expense of others. 
+
+This over-indexing most often happens when an applicable persona is singled out as important for the scenario at hand. The opposite is also true.
 
 Remember that the aim of digital accessibility is to **make web and app experiences work, regardless of what form of assistive technology is being used**.
 
@@ -169,7 +177,7 @@ This consideration is especially relevant in **situations where the persona’s 
 
 Also note that the other inclusive personas and their assistive technology needs are often commonly left out in this scenario.
 
-### Compliant, yet unusable
+### 5. Compliant, yet unusable
 
 A fifth consideration is that it is also possible to think that you have a solution that checks all the boxes for all assistive technology named in your inclusive personas. However, you then never bother to test with actual disabled people.
 
@@ -249,13 +257,13 @@ It does not matter if the drag and drop functionality actually serves its intend
 
 It is a subtle thing, but in the context of organizational needs, **usability takes a backseat to conformance**. Opportunities for inclusive user research often do not present themselves in this context.
 
-Here, it is incumbent for accessibility practitioners to ensure remediation creates **at least** a baseline operable experience, lest things devolve into a performative, box-checking exercise. This typically means focusing on more discrete engineering outputs rather than larger, holistic design strategy.
+Here, it is incumbent for accessibility practitioners to ensure remediation creates **at least** a baseline operable experience, lest things devolve into [a performative, box-checking exercise](https://sightlessscribbles.com/posts/20250724/). This typically means focusing on more discrete engineering outputs rather than larger, holistic design strategy.
 
 ## Moving things forward
 
 Another, better way to get disability representation in your research efforts is via embracing the teachings of [**radical participatory design**](https://www.cambridge.org/core/journals/design-science/article/an-introduction-to-radical-participatory-design-decolonising-participatory-design-processes/63F70ECC408844D3CD6C1A5AC7D35F4D).
 
-Radical participatory design instructs us to **directly acknowledge** ******the power imbalance inherent with participatory design** practices. While participatory design can create representation, it does so **on the inviting organization’s terms**.
+Radical participatory design instructs us to **directly acknowledge the power imbalance inherent with participatory design practices**. While participatory design can create representation, it does so **on the inviting organization’s terms**.
 
 Here, I’d like to quote [Victor Udoewa](https://www.linkedin.com/in/udoewa/), author of <cite>[An introduction to radical participatory design: decolonising participatory design processes](https://www.cambridge.org/core/journals/design-science/article/an-introduction-to-radical-participatory-design-decolonising-participatory-design-processes/63F70ECC408844D3CD6C1A5AC7D35F4D)</cite>:
 
@@ -288,11 +296,11 @@ Another positive aspect of equal participation is **reworking the notion of lead
 The act of collective direction-setting also pushes against **the myth of a single savior individual**. Here, the hubris of good intentions can lead to the mantle of greatness being pushed onto someone. This issue is especially prevalent in design, where individuals are:
 
 - Immersed in “sole genius designer” culture,
-- Trained to think of problems originating from people and communities instead of structural issues,
+- Trained to think of problems originating from people and communities instead of larger structural issues,
 - Expected and compelled to create one definitive “solution” to a perceived problem, and also
 - Do so potentially without deep knowledge or experience with the subject matter at hand.
 
-Sharing of responsibility also guards against negative consequences of when a single leader-driven solution fails to meet the mark. This also neatly side-steps the implicit and explicit pressure  an organization places upon individuals to deliver said solution.
+Sharing of responsibility also guards against the negative consequences that arise when a single leader-driven solution fails to meet the mark. This also neatly side-steps the implicit and explicit pressure  an organization places upon individuals to deliver said solution.
 
 Let us not also forget to acknowledge **the pressures of perfectionism that are acutely felt on the design industry** side of things, as well as [the other corresponding White Supremacy culture characteristics that accompany it](https://www.whitesupremacyculture.info/one-right-way.html).
 
@@ -334,13 +342,15 @@ The presence of supertokens in design research is a self-reinforcing issue, espe
 
 Disabled supertoken individuals who manage to operate inaccessible systems are often called back to traditional design research efforts. This is largely due to the ease of getting a traditionally difficult-to-source participant to return compared to the effort involved with sourcing new candidates.
 
-Unfortunately, this also leads to [over-correcting for one individual’s preferences](https://ericwbailey.website/published/on-inclusive-personas-and-inclusive-user-research#hyperfixation) and way of navigating digital experiences. It also limits team interaction disabled people, which may create further assumptions and misunderstandings.
+Unfortunately, this also leads to [over-correcting for one individual’s preferences](https://ericwbailey.website/published/on-inclusive-personas-and-inclusive-user-research#hyperfixation) and methods of navigating digital experiences. It also limits team interaction with disabled people, which may create further assumptions and misunderstandings.
 
 ## Clout-driven design
 
-The second of the two Undesirable outcomes created by traditional practices are [**disability dongles**](https://blog.castac.org/2022/04/disability-dongle/).
+The second of the two undesirable outcomes created by traditional practices are [**disability dongles**](https://blog.castac.org/2022/04/disability-dongle/).
 
-The term “disability dongle” was created by [Liz Jackson](https://www.linkedin.com/in/eejackson/), [Alex Haagaard](https://alexhaagaard.com/), and [Rua Williams](https://www.linkedin.com/in/ruamwilliams/). It refers to so-called “innovative” artifacts produced to address perceived needs for disabled populations. These solutioneered devices are created mainly as an attempt to gain accolades in existing traditional design spaces, where disability presence has historically been less-present.
+The term “disability dongle” was created by [Liz Jackson](https://www.linkedin.com/in/eejackson/), [Alex Haagaard](https://alexhaagaard.com/), and [Rua Williams](https://www.linkedin.com/in/ruamwilliams/). It refers to so-called “innovative” artifacts produced to address perceived needs for disabled populations. 
+
+These devices are created mainly as an attempt to gain accolades in existing traditional design spaces, where disability presence has historically been less-present.
 
 <figure
   role="figure"
@@ -381,9 +391,9 @@ The more critical voices and actual disabled representation are left out of this
 
 **Disability is too big to be reduced to a set of personas**.
 
-Radical participatory design encourages evolving our practices by encouraging us to move away from the common structures that define traditional user research roles, responsibilities, and practices.
+Radical participatory design encourages evolving our practices by having us to move away from the common structures that define traditional user research roles, responsibilities, and practices.
 
-And this moving away is okay! Evolving our approach can help, especially where “best practice” may operate to our collective detriment—especially where disability research is concerned. Remember, practices evolve with the times. Here, consider how [focus groups have fallen out of favor](https://www.mulebooks.com/just-enough-research).
+And this moving away is okay! Evolving our approach can help, especially where “best practice” may operate to our collective detriment—especially where disability research is concerned. Remember, practices evolve with the times. Here, consider how [focus groups have quite rightly fallen out of favor](https://www.mulebooks.com/just-enough-research).
 
 ### Learn to let go
 
@@ -391,12 +401,12 @@ It might seem counterproductive or even paradoxical at first, but **letting go o
 
 It isn’t “elevating” communities to participate as designers as much as it is **removing the barriers we have consciously and unconsciously created and perpetuated**.
 
-Through the lens of power dynamics, an ideal state for participation is when disabled people or communities invite designers in to improve on existing strengths or address needs they have identified on their own. Here, a designer is an invited guest in the space, one who brings niche, yet applicable domain expertise.
+Through the lens of power dynamics, an ideal state for participation is when disabled people or communities invite designers in to improve on existing strengths or address needs they have identified on their own. Here, a designer is an invited guest in the space—one who brings niche, yet applicable domain expertise.
 
 A more common dynamic is where design invites disabled people or communities into their work. In this case, it is incumbent on the designer to:
 
 - Be aware of the power they hold, and
-- Cede as much of that power through sharing or relinquishing decision-making and leadership as much as possible.
+- Cede that power through sharing or relinquishing decision-making and leadership as much as possible.
 
 Doing so helps to promote more equitable and effective outcomes for all involved.
 
@@ -417,7 +427,7 @@ As a process, **member checking is especially helpful when considering disabilit
 
 Member checking can supplement existing workflows your organization is already used to, as **it is a process and not a practice**. This can help with adoption, as a net-new way of doing things does not need to be created from whole cloth.
 
-Instead, organizations turn inwards and consider the artifacts their existing design and research processes produce. They can then identify opportunities for participants to provide additional clarity and corrections along the way.
+Instead, organizations can turn inwards and consider the artifacts their existing design and research processes produce. They can then identify opportunities for participants to provide additional clarity and corrections along the way.
 
 **What about using inclusive personas for AI-driven synthetic user testing?**
 [No](https://scribe.rip/no-ai-user-research-is-not-better-than-nothing-its-much-worse-5add678ab9e7/). [Fuck no](https://ashleemboyer.com/blog/how-to-dehumanize-accessibility-with-ai). [Absofuckinglutely not](https://scribe.rip/inclusive-software/insta-personas-synthetic-users-fc6e9cd1c301).
@@ -430,7 +440,7 @@ Personas are an output of systems that are looking for quick answers to difficul
 
 Similarly, **rethinking and relinquishing our notions of control and “standard practices”** not only creates more successful outcomes, but also extends opportunities for more equitable engagements with individuals and communities.
 
-Remember that **research processes and artifacts help to shape products and services that will be used in real life**. Via this lens, the pageantry of persona-led design exercises is poised to further enshrine and perpetuate misunderstandings and barriers.
+Remember that **research processes and artifacts help to shape products and services that will be used in real life**. Via this lens, the pageantry of persona-led design exercises is poised to further enshrine and perpetuate misunderstandings, steryotypes, and barriers.
 
 Similarly, we should take time to scrutinize the functions of our roles and **how our organizations compel us to undertake them in order to be successful within them**. Here, it can be helpful to borrow from the practice of [service design](https://www.interaction-design.org/literature/topics/service-design) to ensure the individuals and communities we serve are centered.
 
@@ -446,7 +456,7 @@ Similarly, we should take time to scrutinize the functions of our roles and **ho
   </picture>
 </div>
 
-This post is about the pitfalls of inclusive personas, but also the larger systems that compel their creation and use and the people who all this work is ultimately for.
+This post is about the pitfalls of inclusive personas, but also the larger systems that compel their creation and use. Importantly, it is also about the people who all this work is ultimately for.
 
 System critique and change is bigger than any one of us. It is my hope that in reading through how inclusive personas as an artifact fail to meet the mark that you can turn your attention to your organization’s outputs.
 
