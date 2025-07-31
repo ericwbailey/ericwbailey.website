@@ -342,7 +342,7 @@ The presence of supertokens in design research is a self-reinforcing issue, espe
 
 Disabled supertoken individuals who manage to operate inaccessible systems are often called back to traditional design research efforts. This is largely due to the ease of getting a traditionally difficult-to-source participant to return compared to the effort involved with sourcing new candidates.
 
-Unfortunately, this also leads to [over-correcting for one individual’s preferences](https://ericwbailey.website/published/on-inclusive-personas-and-inclusive-user-research#hyperfixation) and methods of navigating digital experiences. It also limits team interaction with disabled people, which may create further assumptions and misunderstandings.
+Unfortunately, this also leads to [over-correcting for one individual’s preferences](https://ericwbailey.website/published/on-inclusive-personas-and-inclusive-user-research#4.-hyperfixation) and methods of navigating digital experiences. It also limits team interaction with disabled people, which may create further assumptions and misunderstandings.
 
 ## Clout-driven design
 
@@ -375,7 +375,7 @@ Extractive processes often lead to the creation of disability dongles. Via the l
 - Produce meaningful artifacts, or
 - Prevent or correct inaccurate and harmful information from being perpetuated.
 
-A lack of integrated and equitable disabled input ultimately shapes what is produced. Here, designers will often default to “[the parameters enforced by normative society](https://blog.castac.org/2022/04/disability-dongle/#:~:text=match%20the%20parameters-,enforced,-by%20normative%20society).” This mirrors the previously touched on phenomenon of [producing things for the sake of feature creation](https://ericwbailey.website/published/on-inclusive-personas-and-inclusive-user-research#outcomes-not-methods).
+A lack of integrated and equitable disabled input ultimately shapes what is produced. Here, designers will often default to “[the parameters enforced by normative society](https://blog.castac.org/2022/04/disability-dongle/#:~:text=match%20the%20parameters-,enforced,-by%20normative%20society).” This mirrors the previously touched on phenomenon of [producing things for the sake of feature creation](https://ericwbailey.website/published/on-inclusive-personas-and-inclusive-user-research#1.-outcomes%2C-not-methods).
 
 Inclusion for the sake of market attention—and not proactive mainstream consumer access—is also problematic. Here, [limited editions are just that](https://www.fastcompany.com/90696611/olays-new-lid-was-made-for-disabled-people-too-bad-you-cant-find-it-in-stores). I’d also be remiss if I didn’t mention [related concerns around intellectual property and long-term support](https://spectrum.ieee.org/bionic-eye-obsolete).
 
