@@ -422,18 +422,6 @@ Instead, organizations turn inwards and consider the artifacts their existing de
 **What about using inclusive personas for AI-driven synthetic user testing?**
 [No](https://scribe.rip/no-ai-user-research-is-not-better-than-nothing-its-much-worse-5add678ab9e7/). [Fuck no](https://ashleemboyer.com/blog/how-to-dehumanize-accessibility-with-ai). [Absofuckinglutely not](https://scribe.rip/inclusive-software/insta-personas-synthetic-users-fc6e9cd1c301).
 
-<div class="centered-media-outer">
-  <picture class="centered-media-inner-1">
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="{{ '/img/posts/on-inclusive-personas-and-inclusive-user-research/zoom-out-on-dark.svg' | url }}">
-    <img
-      role="img"
-      alt="A simplified illustration of a hand performing a zoom out gesture."
-      src="{{ '/img/posts/on-inclusive-personas-and-inclusive-user-research/zoom-out-on-light.svg' | url }}">
-  </picture>
-</div>
-
 ## Systems and responsibilities, not process and roles
 
 Personas are an output of systems that are looking for quick answers to difficult problems. We should not accept them at face value, and instead be critical. Doubly so when it comes to disability.
@@ -445,6 +433,18 @@ Similarly, **rethinking and relinquishing our notions of control and “standard
 Remember that **research processes and artifacts help to shape products and services that will be used in real life**. Via this lens, the pageantry of persona-led design exercises is poised to further enshrine and perpetuate misunderstandings and barriers.
 
 Similarly, we should take time to scrutinize the functions of our roles and **how our organizations compel us to undertake them in order to be successful within them**. Here, it can be helpful to borrow from the practice of [service design](https://www.interaction-design.org/literature/topics/service-design) to ensure the individuals and communities we serve are centered.
+
+<div class="centered-media-outer">
+  <picture class="centered-media-inner-1">
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="{{ '/img/posts/on-inclusive-personas-and-inclusive-user-research/zoom-out-on-dark.svg' | url }}">
+    <img
+      role="img"
+      alt="A simplified illustration of a hand performing a zoom out gesture."
+      src="{{ '/img/posts/on-inclusive-personas-and-inclusive-user-research/zoom-out-on-light.svg' | url }}">
+  </picture>
+</div>
 
 This post is about the pitfalls of inclusive personas, but also the larger systems that compel their creation and use and the people who all this work is ultimately for.
 
