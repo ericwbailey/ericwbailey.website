@@ -40,6 +40,9 @@ furtherReading:
   - title: "Why Am I Always Being Researched?"
     source: "Chicago Beyond"
     url: https://chicagobeyond.org/insights/philanthropy/why-am-i-always-being-researched/
+  - title: "The Little Book of Designer’s Existential Crises in 2022"
+    source: "Lesley-Ann Noel and Renata Leitao"
+    url: https://www.academia.edu/82950839/The_Little_Book_of_Designer_s_Existential_Crises_in_2022
   - title: "‘Inclusive design’ has become so widely used that it’s meaningless. That has to change"
     source: "Aaron Chu"
     url: https://www.fastcompany.com/90697288/inclusive-design-has-become-so-widely-used-that-its-meaningless-that-has-to-change
