@@ -50,7 +50,7 @@ I view this as the second of the two required reading newsletters for digital ac
 
 Curated by the incomparable [Sheri Byrne-Haber](https://www.sheribyrnehaber.com/), Access&nbsp;*&nbsp;Ability provides deeper, more longform guidance and analysis on disability and accessibility-related topics.
 
-One thing I especially appreciate about this newsletter is that Sheri was willing to [move it off Substack and onto a more ethical platform](https://www.theatlantic.com/ideas/archive/2023/11/substack-extremism-nazi-white-supremacy-newsletters/676156/). I try to avoid Substack as much as possible, so this was great to see.
+One thing I especially appreciate about this newsletter is that Sheri was willing to [move it off Substack and onto a more ethical platform](https://www.theatlantic.com/ideas/archive/2023/11/substack-extremism-nazi-white-supremacy-newsletters/676156/). I try to [avoid Substack as much as possible](https://leavesubstack.com/), so this was great to see.
 
 ## Design
 
