@@ -46,6 +46,12 @@ furtherReading:
   - title: "‘Inclusive design’ has become so widely used that it’s meaningless. That has to change"
     source: "Aaron Chu"
     url: https://www.fastcompany.com/90697288/inclusive-design-has-become-so-widely-used-that-its-meaningless-that-has-to-change
+  - title: "Against human extraction design: Designing with Māori"
+    source: "Springload Te Pipītanga"
+    url: https://www.springload.co.nz/blog/against-human-extraction-design/
+  - title: "Crip Technoscience Manifesto"
+    source: "Aimi Hamraie and Kelly Fritsch"
+    url: https://catalystjournal.org/index.php/catalyst/article/download/29607/24772?inline=1
 attribution: "Thank you to <a href='https://www.joshkimux.com/'>Josh Kim</a> for his invaluable feedback, insights, and reading recommendations. I couldn’t have written this without your support. Seriously, you’re a treasure."
 share:
   facebookDescription: "The silhouette of a World War II fighter plane. Empty holes are clustered around its wings, tail and behind the cockpit area."
