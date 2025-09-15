@@ -54,18 +54,6 @@ Petrov’s job was to monitor Oko, the computerized warning systems built to cen
 
 While Petrov was deciding what to do about this report, the system detected four more incoming missile launches. He had minutes to make a choice about what to do. It is impossible to imagine the amount of pressure placed on him at this moment.
 
-<figure
-  role="figure"
-  aria-label="Source: Stanislav Petrov, Soviet officer credited with averting nuclear war, dies at 77, by Schwartzreport.">
-  <img
-    alt="A thin, older white man with salt and pepper gray hair and moustache. He is staring at the camera with a knowing, inscrutable expression."
-    loading="lazy"
-    src="{{ '/img/posts/stanislav-petrov/stanislav-petrov.jpg' | url }}" />
-  <figcaption>
-    <span class="typography-small-caps">Source:</span> <a href="https://www.schwartzreport.net/2017/09/21/stanislav-petrov-soviet-officer-credited-averting-nuclear-war-dies-77/">Stanislav Petrov, Soviet officer credited with averting nuclear war, dies at 77</a> by Schwartzreport.
-  </figcaption>
-</figure>
-
 Petrov lived in a world of [deterministic](https://en.wikipedia.org/wiki/Deterministic_system) systems. The technologies that powered these warning systems have outputs that are guaranteed, provided the proper inputs are provided. However, **deterministic does not mean infallible**.
 
 The only reason you are alive and reading this is because Petrov understood that the systems he observed were capable of error. He was suspicious of what he was seeing reported, and chose not to escalate a retaliatory strike.
