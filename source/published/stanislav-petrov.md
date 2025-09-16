@@ -54,6 +54,18 @@ Petrov’s job was to monitor Oko, the computerized warning systems built to cen
 
 While Petrov was deciding what to do about this report, the system detected four more incoming missile launches. He had minutes to make a choice about what to do. It is impossible to imagine the amount of pressure placed on him at this moment.
 
+<figure
+  role="figure"
+  aria-label="Source: Queery-54, CC BY-SA 4.0 via Wikimedia Commons.">
+  <img
+    alt="A thin, older white man with salt and pepper gray hair and moustache. He is staring at the camera with a knowing, inscrutable expression."
+    loading="lazy"
+    src="{{ '/img/posts/stanislav-petrov/stanislav-petrov.jpg' | url }}" />
+  <figcaption>
+    <span class="typography-small-caps">Source:</span> <a href="https://commons.wikimedia.org/wiki/File:Stanislaw-jewgrafowitsch-petrow-2016.jpg">Queery-54</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a> via Wikimedia Commons.
+  </figcaption>
+</figure>
+
 Petrov lived in a world of [deterministic](https://en.wikipedia.org/wiki/Deterministic_system) systems. The technologies that powered these warning systems have outputs that are guaranteed, provided the proper inputs are provided. However, **deterministic does not mean infallible**.
 
 The only reason you are alive and reading this is because Petrov understood that the systems he observed were capable of error. He was suspicious of what he was seeing reported, and chose not to escalate a retaliatory strike.
