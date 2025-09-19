@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.92 - 2025-09-18
+- Add [Taking a shot at the double focus ring problem using modern CSS](https://piccalil.li/blog/taking-a-shot-at-the-double-focus-ring-problem-using-modern-css/)
+
 ## v1.5.91 - 2025-07-31
 - Add [On inclusive personas and inclusive user research](https://ericwbailey.website/published/on-inclusive-personas-and-inclusive-user-research/)
 - Update tagline
