@@ -153,7 +153,7 @@ The presence of accessibility annotation kits also does a number of other good t
 
 Here are some accessibility annotation kits I enjoy, if you would like to explore further:
 
-- Daniel Henderson-Ede, Jan Maarten, and Kevin Oliveira's [Web Accessibility Annotation Kit](https://www.figma.com/community/file/1311421011482282592/web-accessibility-annotation-kit),
+- Jan Maarten, Alexis Lucio, Matt Obee, and Chelsea Adelman's [GitHub Annotation Toolkit](https://www.figma.com/community/file/1552736256652388772/github-annotation-toolkit),
 - Stephanie Walter’s [Web Accessibility for Designers: checklist & documentation kit](https://shop.stephaniewalter.design/b/accessibility-interactions-designer-checklist-annotation-kit),
 - GitLab’s [Accessibility bluelines](https://www.figma.com/community/file/779827094223635810/accessibility-bluelines), and
 - Stephanie Hagadorn’s [A11y Annotation Kit](https://www.figma.com/community/file/953682768192596304).
