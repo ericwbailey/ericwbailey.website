@@ -37,6 +37,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./source/robots.txt");
 
   eleventyConfig.addPassthroughCopy("./source/axecon2025");
+  eleventyConfig.addPassthroughCopy("./source/a11ytoconf2025");
 
 
   // Aliases
