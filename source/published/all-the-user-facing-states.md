@@ -174,7 +174,7 @@ A Dragged element is placed in a new location (thanks to [Austin Gil](https://tw
 
 ### Current
 
-A Current element represents an active page, view, or step in a series of pages, views, or steps.
+A Current element represents an active page, view, or step in a series of pages, views, or steps (thanks to  Vernon Fowler).
 
 ### Collapsed
 
