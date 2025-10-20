@@ -172,6 +172,10 @@ A Dragged element shows a preview of where it will be placed when placed into a 
 
 A Dragged element is placed in a new location (thanks to [Austin Gil](https://twitter.com/heyAustinGil/status/1520068536521019392)).
 
+### Current
+
+A Current element represents an active page, view, or step in a series of pages, views, or steps.
+
 ### Collapsed
 
 An element is hiding the bulk of its content.
