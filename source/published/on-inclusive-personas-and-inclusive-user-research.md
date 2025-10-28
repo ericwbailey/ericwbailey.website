@@ -114,7 +114,7 @@ There is no such thing as an inclusive persona—as a term it is self-contradict
 
 ## Inclusive user research
 
-[Inclusive user research](https://survicate.com/blog/inclusive-user-research/) practices are different than a lot of traditional user research. While there is some high-level overlap in approach, know the majority of inclusive user research is more **focused on the individual experience** and less about more general trends of behavior.
+[Inclusive user research](https://web.archive.org/web/20250622113824/https://survicate.com/blog/inclusive-user-research/) practices are different than a lot of traditional user research. While there is some high-level overlap in approach, know the majority of inclusive user research is more **focused on the individual experience** and less about more general trends of behavior.
 
 This is because disability—as part of the larger human experience—is **too varied to be able to be easily distilled down into trends**.
 
