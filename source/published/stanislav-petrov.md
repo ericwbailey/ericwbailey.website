@@ -31,6 +31,9 @@ furtherReading:
   - title: "My time with Stanislav Petrov: No cog in the machine"
     source: "Bulletin of the Atomic Scientists"
     url: https://thebulletin.org/2017/09/my-time-with-stanislav-petrov-no-cog-in-the-machine/
+  - title: "Trump Administration Providing Weapons Grade Plutonium to Sam Altman"
+    source: "Futurism"
+    url: https://futurism.com/science-energy/trump-altman-plutonium-oklo
 series:
   previous:
     - title: "The Radium Craze"
