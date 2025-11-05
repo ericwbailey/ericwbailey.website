@@ -11,7 +11,7 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Performance optimizations
 
 ## v1.5.93 - 2025-11-05
-- Add [Evaluating Fable’s pay-per-project service offering](https://ericwbailey.website/published/evaluating-fables-pay-per-project-service-offering/)
+- Add [Evaluating Fable’s pay-per-project offering](https://ericwbailey.website/published/evaluating-fables-pay-per-project-offering/)
 
 ## v1.5.92 - 2025-09-18
 - Add [Taking a shot at the double focus ring problem using modern CSS](https://piccalil.li/blog/taking-a-shot-at-the-double-focus-ring-problem-using-modern-css/)
