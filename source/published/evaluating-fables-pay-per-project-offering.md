@@ -1,6 +1,6 @@
 ---
 layout: "layouts/post.njk"
-title: Evaluating Fable’s pay-per-project service offering
+title: Evaluating Fable’s pay-per-project offering
 source: ericwbailey.website
 excerpt: "Get valuable insight about how your digital experience works for disabled people."
 date: 2025-11-05
@@ -71,7 +71,7 @@ Fable also offered the ability to provide other qualifiers such as indicating if
 <img
   alt="Three radio input groups. The first grouping is labeled, 'What is your project type', with two options. The options read, 'Web based product' and 'Native application'. The web based product option is selected. The second grouping is labeled, 'What device type do you want your audience to use?', with three options. The options read, 'No preference', 'Mobile device', and 'Laptop slash desktop' The no preference option is selected. The third grouping is labeled, 'Do you want to include login details and instructions?', with two options. The options are yes and no, with no selected. Cropped screenshot."
   loading="lazy"
-  src="{{ '/img/posts/evaluating-fables-pay-per-project-service-offering/project-setup.png' | url }}" />
+  src="{{ '/img/posts/evaluating-fables-pay-per-project-offering/project-setup.png' | url }}" />
 
 After filling out the required information I submitted the research request. Each request is reviewed by Fable, to help ensure the instructions are clear and actionable for their participants, and that the results I get are constructive and actionable.
 
@@ -91,7 +91,7 @@ I was informed of each of the seven people’s individual completion of the stud
 <img
   alt="A notification email from Fable. The subject reads, 'Take time to review your results.' The body reads, 'As the project owner, we thought you'd like to know that PER-PWE - Personal website evaluation's requests have all been completed. View your project to access all the valuable accessibility insights.' Following the message body is a large call-to-action link that reads, 'View project'. Cropped screenshot."
   loading="lazy"
-  src="{{ '/img/posts/evaluating-fables-pay-per-project-service-offering/email-notification.png' | url }}" />
+  src="{{ '/img/posts/evaluating-fables-pay-per-project-offering/email-notification.png' | url }}" />
 
 All told, it took six business days for the requested task to be completed in full.
 
@@ -108,7 +108,7 @@ That said, I’m team qualitative. Watching the videos as they rolled in was ent
 <img
   alt="A screenshot of a Fable usability testing session recording, hosted on their website. The page prominently features a video player, with a transcript in a sidebar next to it. The video shows a zoomed-in portion of my website, with a blurred thumbnail of the participant in the top-righthand corner. A caption that reads, 'And that's just, yeah, again, just really makes it easy to read.' The caption content is also highlighted on the transcript."
   loading="lazy"
-  src="{{ '/img/posts/evaluating-fables-pay-per-project-service-offering/review-session.png' | url }}" />
+  src="{{ '/img/posts/evaluating-fables-pay-per-project-offering/review-session.png' | url }}" />
 
 ## What I learned
 
