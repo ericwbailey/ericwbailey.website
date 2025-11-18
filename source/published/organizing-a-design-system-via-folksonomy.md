@@ -48,7 +48,7 @@ Most design systems I’m aware of use organization via category, making it some
 
 Less external consistency means the design system adoption issue persists—consider a situation where a developer changes jobs and has to re-learn what components are called at their new place of employment. This is also to say nothing about names for [component props](https://react.dev/learn/passing-props-to-a-component), tokens, icons, etc.
 
-Yes, the ability to use search a design system does help here some, but its not always enough. It is also not the biggest concern, but I’m of the school of thought that this sort of friction adds up.
+Yes, the ability to use search a design system does help here some, but it is not always enough. It is also not the biggest concern, but I’m of the school of thought that this sort of friction adds up.
 
 ## Other ways of organizing things
 
