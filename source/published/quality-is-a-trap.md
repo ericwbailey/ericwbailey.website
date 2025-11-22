@@ -184,7 +184,7 @@ I don’t know about you, but I’d call a thirty year run a pretty strong signi
 
 Sonos is known for its immersive audio ecosystem. After establishing its presence in the marketplace via an impressive wireless multiroom audio offering, it went on to invent a whole host of music-related hardware products.
 
-Sonos’ market popularity established its brand reputation as being high quality from a consumer perspective. This perception changed on May 7th, 2024 when they released a disastrous update to their app, [allegedly rushed to be ready for the](https://www.sonos.com/en-us/blog/update-on-the-sonos-app) [debut](https://www.sonos.com/en-us/blog/update-on-the-sonos-app) [of their new wireless headphone product offering](https://www.sonos.com/en-us/blog/update-on-the-sonos-app).
+Sonos’ market popularity established its brand reputation as being high quality from a consumer perspective. This perception changed on May 7th, 2024 when they released a disastrous update to their app, [allegedly rushed to be ready for the debut of their new wireless headphone product offering](https://www.sonos.com/en-us/blog/update-on-the-sonos-app).
 
 The app was **the lynchpin for the entire Sonos experience**. When updated for the worse, everything fell apart to the tune of [a $200 million revenue shortfall](https://sherwood.news/business/sonos-smart-speakers-struggling/). It also cost [the CEO](https://arstechnica.com/gadgets/2025/01/sonos-ceo-behind-disastrous-app-exits-with-1-9-million-severance/) and [the CPO](https://arstechnica.com/gadgets/2025/01/sonos-ousts-executive-blamed-for-rushing-botched-app-update/) their jobs.
 
