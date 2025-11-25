@@ -81,6 +81,7 @@ All that said, my not-smart TV will not:
 - [Become bricked because of an update pushed out by my ISP](https://arstechnica.com/gadgets/2024/09/telecom-accused-of-bricking-hundreds-of-tvs-streaming-sticks-with-bad-update/),
 - [Store conversations I have](https://www.techdirt.com/2015/02/09/samsungs-smart-tvs-are-collecting-storing-your-private-conversations/) in the room the TV is placed in,
 - Be [the topic of a dedicated Consumer Reports guide](https://www.consumerreports.org/electronics/privacy/how-to-turn-off-smart-tv-snooping-features-a4840102036/),
+- [Be part of a botnet](https://krebsonsecurity.com/2025/11/is-your-android-tv-streaming-box-part-of-a-botnet/),
 - [Show me ads when turned on and not being actively used](https://www.theverge.com/2024/9/26/24254935/lg-smart-tv-oled-screensaver-ads-idle-mode),
 - [Force me to watch ads before I can use the TV](https://arstechnica.com/gadgets/2025/03/roku-says-unpopular-autoplay-ads-are-just-a-test/),
 - Straight-up [spy on me](https://www.techdirt.com/2017/02/07/vizio-fined-22-million-not-telling-customers-their-tvs-were-spying-them/),
