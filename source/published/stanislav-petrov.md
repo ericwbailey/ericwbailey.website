@@ -34,6 +34,9 @@ furtherReading:
   - title: "Trump Administration Providing Weapons Grade Plutonium to Sam Altman"
     source: "Futurism"
     url: https://futurism.com/science-energy/trump-altman-plutonium-oklo
+  - title: "Pete Hegseth announces new military platform: 'The future of American warfare is here'"
+    source: MSN 
+    url: https://www.msn.com/en-us/technology/artificial-intelligence/pete-hegseth-announces-new-military-platform-the-future-of-american-warfare-is-here/ar-AA1S1H7c
 series:
   previous:
     - title: "The Radium Craze"
