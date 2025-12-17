@@ -24,6 +24,9 @@ furtherReading:
   - title: "When the treatment is worse than the disease"
     source: "Karl Groves"
     url: https://karlgroves.com/when-the-treatment-is-worse-than-the-disease/
+  - title: "Is it an evil overlay? How can you tell?"
+    source: "Joe Dolson Web Design"
+    url: https://www.joedolson.com/2025/12/is-it-an-evil-overlay-how-can-you-tell/
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}
