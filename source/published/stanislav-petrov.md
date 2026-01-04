@@ -37,6 +37,9 @@ furtherReading:
   - title: "Pete Hegseth announces new military platform: 'The future of American warfare is here'"
     source: MSN 
     url: https://www.msn.com/en-us/technology/artificial-intelligence/pete-hegseth-announces-new-military-platform-the-future-of-american-warfare-is-here/ar-AA1S1H7c
+  - title: "Ribbit ribbit! Artificial Intelligence programs used by Heber City police claim officer turned into a frog"
+    source: Fox 13 Salt Lake City
+    url: https://www.fox13now.com/news/local-news/summit-county/how-utah-police-departments-are-using-ai-to-keep-streets-safer
 series:
   previous:
     - title: "The Radium Craze"
