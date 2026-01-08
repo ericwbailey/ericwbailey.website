@@ -10,6 +10,10 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.94 - 2026-01-07
+- Add [Eric Bailey's predictions for the future of accessibility](https://mantisandco.com/resources/guides/future-of-accessibility/ericwbailey)
+- Remove A year at GitHub
+
 ## v1.5.93 - 2025-11-05
 - Add [Evaluating Fable’s pay-per-project offering](https://ericwbailey.website/published/evaluating-fables-pay-per-project-offering/)
 
