@@ -5,6 +5,7 @@ excerpt: "A TV is a passive device, used for passive consumption."
 date: 2021-04-07
 year: 2021
 tags:
+  - AI
   - Devices
 furtherReading:
   - title: "Your Smart TV Knows What You’re Watching"
@@ -71,6 +72,7 @@ All that said, my not-smart TV will not:
 - [Secretly collect information about me](https://www.consumerreports.org/privacy/how-to-turn-off-smart-tv-snooping-features/) and transmit it,
 - [Connect to Google, China, and Russia every five minutes](https://svrooij.io/2023/01/25/disconnect-your-smart-appliance/),
 - Be mistakenly marked as stolen and [remotely disabled](https://www.theverge.com/2021/8/25/22640876/samsung-television-block-function-stolen-tv-sets-south-africa),
+- [Dilute its intended purpose on account of jammed-in AI features](https://www.theverge.com/column/858463/tv-too-much-ai),
 - [Bypass my network setup](https://labzilla.io/blog/force-dns-pihole),
 - Surreptitiously include a cellular modem or seek out nearby unsecured wifi to side-step my network entirely,
 - Be quietly taken over and made to [mine environment-destroying cryptocurrency](https://decrypt.co/18980/hacking-group-secretly-mining-crypto-android-smart-tvs),
