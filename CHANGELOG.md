@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.95 - 2026-01-17
+- Add [Accessible faux-nested interactive controls](https://piccalil.li/blog/accessible-faux-nested-interactive-controls/)
+
 ## v1.5.94 - 2026-01-07
 - Add [Eric Bailey's predictions for the future of accessibility](https://mantisandco.com/resources/guides/future-of-accessibility/ericwbailey)
 - Remove A year at GitHub
