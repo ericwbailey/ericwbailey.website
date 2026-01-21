@@ -18,6 +18,9 @@ furtherReading:
   - title: "Design systems and the never-ending job of buy in"
     source: "PJ Onori"
     url: https://pjonori.blog/posts/design-systems-buy-in/
+  - title: "The Invisible Work"
+    source: "Hardik Pandya"
+    url: https://hvpandya.com/invisible-work
 share:
   facebookDescription: "A large, completely empty area."
   twitterDescription: "A large, completely empty area."
