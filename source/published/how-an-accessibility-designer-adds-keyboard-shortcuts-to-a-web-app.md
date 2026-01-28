@@ -96,6 +96,7 @@ To the extent of my knowledge, Firefox is the only browser that lets you [native
 Some may also point out here that [screen readers have passthrough key capability](https://adrianroselli.com/2026/01/brief-note-on-application-keyboard-shortcuts.html).
 However, consider:
 
+- The assistive technology may not be a screen reader,
 - It is a fallacy to assume [everyone has perfect working knowledge of the full capabilities of their software and hardware](https://ericwbailey.website/published/truths-about-digital-accessibility/#not-every-assistive-technology-user-is-a-power-user).
 - For people that do know about passthrough key support, it is annoying, tedious, and sometimes even painful to have to use them for frequently-used commands.
 
@@ -103,7 +104,7 @@ To say it more plainly: Advocating for the creation of a keyboard preference sup
 
 ## The map is not the territory
 
-In reviewing the support table, the lack of OS, browser, or screen reader keyboard shortcuts for an <kbd>Alt</kbd>/<kbd>Command</kbd> + <kbd>End</kbd> keypress might make it seem like a good candidate to use for my task. However, <kbd>Alt/</kbd><kbd>Command</kbd> + <kbd>Home</kbd> <a href="#alt-command-home">opens the browser start page, moves current page back one history event for every major browser on Windows</a>.
+In reviewing the support table, the lack of OS, browser, or screen reader keyboard shortcuts for an <kbd>Alt</kbd>/<kbd>Command</kbd> + <kbd>End</kbd> keypress might make it seem like a good candidate to use for my task. However, <kbd>Alt</kbd>/<kbd>Command</kbd> + <kbd>Home</kbd> <a href="#alt-command-home">opens the browser start page, moves current page back one history event for every major browser on Windows</a>.
 
 People who use a modifier key with <kbd>End</kbd> will likely expect the same modifier key applied to <kbd>Home</kbd> to operate in a similar fashion. For example, if some combination of modifier keys plus <kbd>Page Down</kbd> scrolls down 75% of the height of the page, one would assume that the same combination plus <kbd>Page Up</kbd> scrolls upward 75% instead.
 
