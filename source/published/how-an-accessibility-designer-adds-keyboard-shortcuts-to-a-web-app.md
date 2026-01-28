@@ -166,7 +166,7 @@ Broadly-speaking, VoiceOver has a different interaction paradigm when compared t
   <ul>
     <li><a href="#skip-table">Skip support table</a>.</li>
     <li><a href="#home">Results for <kbd>Home</kbd></a>.</li>
-    <li><a href="#">Results for <kbd>End</kbd></a>.</li>
+    <li><a href="#end">Results for <kbd>End</kbd></a>.</li>
     <li><a href="#page-up">Results for <kbd>Page Up</kbd></a>.</li>
     <li><a href="#page-down">Results for <kbd>Page Down</kbd></a>.</li>
   </ul>
@@ -1707,7 +1707,7 @@ Broadly-speaking, VoiceOver has a different interaction paradigm when compared t
         <td headers="pageup function"></td>
       </tr>
       <tr>
-        <td scope="colgroup" colspan="7" id="pagedown"><kbd>Page Down</kbd></td>
+        <td scope="colgroup" colspan="7" id="page-down"><kbd>Page Down</kbd></td>
       </tr>
       <tr>
         <th scope="row" id="shift-page-down" headers="end kbd" rowspan="17"><kbd>Shift</kbd>&#8202;+&#8202;<kbd>Page Down</kbd></th>
@@ -2046,7 +2046,7 @@ Broadly-speaking, VoiceOver has a different interaction paradigm when compared t
         <td headers="pagedown function"></td>
       </tr>
       <tr data-border="thick">
-        <th scope="row" id="page-down" headers="pagedown kbd" rowspan="17"><kbd>Alt</kbd>&#8202;/&#8202;<kbd>Command</kbd>&#8202;+&#8202;<kbd>Page Down</kbd></th>
+        <th scope="row" id="alt-command-page-down" headers="pagedown kbd" rowspan="17"><kbd>Alt</kbd>&#8202;/&#8202;<kbd>Command</kbd>&#8202;+&#8202;<kbd>Page Down</kbd></th>
         <td headers="pagedown os" rowspan="9" data-os="windows">Windows</td>
         <td headers="pagedown browser" rowspan="3">Chrome</td>
         <td headers="pagedown sr">None</td>
