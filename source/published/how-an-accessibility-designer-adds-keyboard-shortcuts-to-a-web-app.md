@@ -183,6 +183,7 @@ Broadly-speaking, VoiceOver has a different interaction paradigm when compared t
 
   [tabindex="0"][role="region"][aria-labelledby="table-title"]:focus {
     outline: 1px solid #1d818c;
+    outline-offset: 1px;
   }
 
   table thead tr th {
@@ -194,6 +195,12 @@ Broadly-speaking, VoiceOver has a different interaction paradigm when compared t
   table th[rowspan] {
     text-align: left;
     vertical-align: top;
+  }
+
+  table col[colspan], 
+  table td[colspan], 
+  table th[colspan] {
+    text-align: left;
   }
 
   table col[rowspan] kbd, 
@@ -209,9 +216,9 @@ Broadly-speaking, VoiceOver has a different interaction paradigm when compared t
   th, td {
     border: 1px solid #111111;
     
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     font-weight: normal;
-    padding: 0.4rem 0.6rem;
+    padding: 0.3rem 0.5rem;
     text-align: start;
     vertical-align: top;
 
