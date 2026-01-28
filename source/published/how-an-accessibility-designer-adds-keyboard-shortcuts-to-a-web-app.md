@@ -3,7 +3,7 @@ layout: "layouts/post.njk"
 title: How an accessibility designer adds keyboard shortcuts to a web app
 source: ericwbailey.website
 excerpt: "Keyboard shortcuts occupy a strange area for web design"
-date: 2026-11-28
+date: 2026-01-28
 year: 2026
 tags:
   - Accessibility
