@@ -164,17 +164,13 @@ Broadly-speaking, VoiceOver has a different interaction paradigm when compared t
 
 <nav aria-label="Support table sections">
   <ul>
+    <li><a href="#skip-table">Skip support table</a>.</li>
     <li><a href="#home">Results for <kbd>Home</kbd></a>.</li>
     <li><a href="#">Results for <kbd>End</kbd></a>.</li>
     <li><a href="#page-up">Results for <kbd>Page Up</kbd></a>.</li>
     <li><a href="#page-down">Results for <kbd>Page Down</kbd></a>.</li>
   </ul>
 </nav>
-<p class="hide-visually">
-  <a href="#skip-table">
-    Skip support table.
-  </a>
-</p>
 
 <style>
   [tabindex="0"][role="region"][aria-labelledby="table-title"] {
@@ -203,9 +199,7 @@ Broadly-speaking, VoiceOver has a different interaction paradigm when compared t
     text-align: left;
   }
 
-  table col[rowspan] kbd, 
-  table td[rowspan] kbd, 
-  table th[rowspan] kbd {
+  table td[colspan="7"] kbd {
     color: #111111;
 
     @media (prefers-color-scheme: dark) {
@@ -260,6 +254,10 @@ Broadly-speaking, VoiceOver has a different interaction paradigm when compared t
   table {
     border-collapse: collapse;
     white-space: nowrap;
+  }
+
+  table kbd {
+    word-break: keep-all;
   }
 
   [data-scope="na"] {
