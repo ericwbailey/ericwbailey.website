@@ -177,6 +177,14 @@ Broadly-speaking, VoiceOver has a different interaction paradigm when compared t
 </p>
 
 <style>
+  [tabindex="0"][role="region"][aria-labelledby="table-title"] {
+    overflow: auto;
+  }
+
+  [tabindex="0"][role="region"][aria-labelledby="table-title"]:focus {
+    outline: 1px solid #1d818c;
+  }
+
   table thead tr th {
     font-family: var(--typeface-primary);
   }
@@ -311,7 +319,7 @@ Broadly-speaking, VoiceOver has a different interaction paradigm when compared t
   Support table findings
 </h3>
 
-<div tabindex="0" role="group" aria-labelledby="table-title" class="post-breakout">
+<div tabindex="0" role="region" aria-labelledby="table-title">
 
   <table id="support-table" aria-labelledby="table-title">
     <thead>
