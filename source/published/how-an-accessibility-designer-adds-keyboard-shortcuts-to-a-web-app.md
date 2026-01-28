@@ -184,7 +184,18 @@ Broadly-speaking, VoiceOver has a different interaction paradigm when compared t
   table col[rowspan], 
   table td[rowspan], 
   table th[rowspan] {
+    text-align: left;
     vertical-align: top;
+  }
+
+  table col[rowspan] kbd, 
+  table td[rowspan] kbd, 
+  table th[rowspan] kbd {
+    color: #111111;
+
+    @media (prefers-color-scheme: dark) {
+      color: #ffffff;
+    }
   }
 
   th, td {
