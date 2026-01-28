@@ -198,16 +198,27 @@ Broadly-speaking, VoiceOver has a different interaction paradigm when compared t
   table th[colspan] {
     text-align: left;
   }
-
-  table td[colspan="7"] kbd {
-    color: #111111;
+  
+  table tr td[colspan="7"] {
+    border-right: 1px solid #111111;
+    border-left: 1px solid #111111;
 
     @media (prefers-color-scheme: dark) {
-      color: #ffffff;
+      border-right: 1px solid #9b9b9b;
+      border-left: 1px solid #9b9b9b;
     }
   }
 
-  th, td {
+  table tr td[colspan="7"] kbd {
+    color: #111111;
+
+    @media (prefers-color-scheme: dark) {
+      color: #ffffff !important;
+    }
+  }
+
+  th, 
+  td {
     border: 1px solid #111111;
     
     font-size: 0.9rem;
@@ -324,7 +335,7 @@ Broadly-speaking, VoiceOver has a different interaction paradigm when compared t
   Support table findings
 </h3>
 
-<div tabindex="0" role="region" aria-labelledby="table-title">
+<div class="post-breakout" tabindex="0" role="region" aria-labelledby="table-title">
 
   <table id="support-table" aria-labelledby="table-title">
     <thead>
