@@ -177,10 +177,20 @@ Broadly-speaking, VoiceOver has a different interaction paradigm when compared t
 </p>
 
 <style>
+  table thead tr th {
+    font-family: var(--typeface-primary);
+  }
+
+  table col[rowspan], 
+  table td[rowspan], 
+  table th[rowspan] {
+    vertical-align: top;
+  }
+
   th, td {
     border: 1px solid #111111;
-    font-family: var(--typeface-primary);
-    font-size: 0.7rem;
+    
+    font-size: 0.8rem;
     font-weight: normal;
     padding: 0.4rem 0.6rem;
     text-align: start;
@@ -285,13 +295,13 @@ Broadly-speaking, VoiceOver has a different interaction paradigm when compared t
   }
 </style>
 
-<div tabindex="0" role="group" aria-labelledby="table-title">
 
-  <h3 class="hide-visually" id="table-title">
-    Support table findings
-  </h3>
+<h3 class="hide-visually" id="table-title">
+  Support table findings
+</h3>
 
-<div class="post-breakout">
+<div tabindex="0" role="group" aria-labelledby="table-title" class="post-breakout">
+
   <table id="support-table" aria-labelledby="table-title">
     <thead>
       <tr>
