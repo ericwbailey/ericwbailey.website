@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.96 - 2025-11-28
+- Add [How an accessibility designer adds keyboard shortcuts to a web app](https://ericwbailey.website/published/how-an-accessibility-designer-adds-keyboard-shortcuts-to-a-web-app/)
+
 ## v1.5.95 - 2026-01-17
 - Add [Accessible faux-nested interactive controls](https://piccalil.li/blog/accessible-faux-nested-interactive-controls/)
 
