@@ -2196,6 +2196,7 @@ Evaluation was conducted the week of January 19th, 2026. Following is what I use
 - I am not presenting the suggestions I recommended at my job because of how contextual this work is.
 - [These details from a past effort](https://ericwbailey.website/published/basic-keyboard-shortcut-support-for-focused-links/#other-testing-details).
 - What wasn’t evaluated:
+  - I didn't evaluate [Narrator](https://www.microsoft.com/en-us/windows/tips/narrator).
   - I didn’t evaluate [less-popular Chromium browsers](https://en.wikipedia.org/wiki/Usage_share_of_web_browsers#Summary_tables).
   - I didn’t evaluate popular browser extensions like [Grammarly](https://www.grammarly.com/).
   - I didn’t evaluate support on iOS or Android, but they do support keyboard input and people **do** use them.
@@ -2204,5 +2205,5 @@ Evaluation was conducted the week of January 19th, 2026. Following is what I use
 - Using an LLM:
   - Using [plaintext copies of screen reader manuals](https://support.freedomscientific.com/Content/Documents/Manuals/JAWS/Keystrokes.txt) to use as LLM context still created hallucinations.
   - It also doesn’t cover the app or operating system layers.
-  - The stakes are too high considering the human-facing impact, and it was likely net-less effort to manually test to get certainty with results.
-  - There might be a metaphor worth thinking through in that previous bullet point.
+  - The stakes are too high considering the human-facing impact, and it was likely net-less effort to manually test once to get certainty with results.
+  - There might be a point worth thinking through in that previous bullet point.
