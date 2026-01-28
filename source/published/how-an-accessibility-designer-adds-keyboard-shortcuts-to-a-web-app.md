@@ -217,8 +217,10 @@ Broadly-speaking, VoiceOver has a different interaction paradigm when compared t
     }
   }
 
-  th, 
-  td {
+  table thead th, 
+  table thead td,
+  table body th,
+  table body td {
     border: 1px solid #111111;
     
     font-size: 0.9rem;
