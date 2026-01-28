@@ -217,15 +217,13 @@ Broadly-speaking, VoiceOver has a different interaction paradigm when compared t
     }
   }
 
-  table thead th, 
-  table thead td,
-  table body th,
-  table body td {
+  th, 
+  td {
     border: 1px solid #111111;
     
     font-size: 0.9rem;
     font-weight: normal;
-    padding: 0.3rem 0.5rem;
+    padding: 0.3rem 0.4rem !important;
     text-align: start;
     vertical-align: top;
 
