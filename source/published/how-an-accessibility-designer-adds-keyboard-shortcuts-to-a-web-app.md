@@ -257,7 +257,7 @@ Broadly-speaking, VoiceOver has a different interaction paradigm when compared t
     color: #ffffff;
 
     @media (prefers-color-scheme: dark) {
-      background-color: #9b9b9b;
+      background-color: #2b2b2b;
       color: #111111;
     }
   }
