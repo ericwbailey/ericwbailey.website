@@ -204,8 +204,8 @@ Broadly-speaking, VoiceOver has a different interaction paradigm when compared t
     border-left: 1px solid #111111;
 
     @media (prefers-color-scheme: dark) {
-      border-right: 1px solid #9b9b9b;
-      border-left: 1px solid #9b9b9b;
+      border-right: 1px solid #2b2b2b;
+      border-left: 1px solid #2b2b2b;
     }
   }
 
@@ -228,7 +228,7 @@ Broadly-speaking, VoiceOver has a different interaction paradigm when compared t
     vertical-align: top;
 
     @media (prefers-color-scheme: dark) {
-      border-color: #9b9b9b;
+      border-color: #2b2b2b;
     }
   }
 
