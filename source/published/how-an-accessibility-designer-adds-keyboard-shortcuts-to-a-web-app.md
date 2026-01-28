@@ -141,7 +141,7 @@ The table is a beast, but it reveals all sorts of interesting things. A few that
 
 Another [map-is-not-the-territory](https://fs.blog/map-and-territory/) consideration is large areas of seeming cross-operating system support may not work as expected in the actual. <kbd>Command</kbd> is frequently used on macOS as a modifier key, so a lack of existing behavior for it and its Windows equivalent may seem tempting.
 
-However, <kbd>Alt</kbd>—otherwise known the Windows key—opens the Start Menu. Although this modifier key would have cross-operating system parity, it would not be a great experience for people who use Windows.
+However, that key position is often occupied by the <kbd>Windows</kbd> key on PC keyboards—[the button you press to toggle the Start Menu](https://dragonscave.space/@jscholes/115973435590134174). Although this modifier key may have cross-operating system parity in terms of physical location on a English keyboard, it would not be a great experience for people who use Windows. <kbd>Alt</kbd> may also be worth considering here, in that some “generic” keyboards combine the key functionality.
 
 ### Availability bias
 
