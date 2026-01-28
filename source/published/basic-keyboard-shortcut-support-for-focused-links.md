@@ -17,6 +17,10 @@ tags:
 share:
   facebookDescription: "A keyboard key with a link icon on it."
   twitterDescription: "A keyboard key with a link icon on it."
+series:
+  next:
+    - title: "How an accessibility designer adds keyboard shortcuts to a web app"
+      url: https://ericwbailey.website/published/how-an-accessibility-designer-adds-keyboard-shortcuts-to-a-web-app/
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}

@@ -15,6 +15,10 @@ tags:
 share:
   facebookDescription: "Home, End, Page Up, and Page Down keys."
   twitterDescription: "A Home key."
+series:
+  previous:
+    - title: "Basic keyboard shortcut support for focused links"
+      url: https://ericwbailey.website/published/basic-keyboard-shortcut-support-for-focused-links/
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}
@@ -27,7 +31,7 @@ Keyboard shortcuts occupy a strange area for web design. Most websites don’t h
 
 Web apps utilize keyboard shortcuts for speedier navigation and operation, for people who want or need to spend extended periods of time using the service. It’s the same as non-web apps.
 
-That said, **there’s a lot of nuance when it comes to adding a keyboard shortcut**. It feels a lot like something akin to [the Swiss Cheese model](https://en.wikipedia.org/wiki/Swiss_cheese_model), delicately threading a needle through multiple, complicated pieces of fabric.
+That said, **there’s a lot of nuance when it comes to adding a keyboard shortcut**. It feels a lot like something akin to navigating through [the Swiss Cheese model](https://en.wikipedia.org/wiki/Swiss_cheese_model), but for good.
 
 The <a href="#support-table">support table placed later on in this post</a> is the result of research I conducted at work as a result of acknowledging said nuance. The task itself was to figure out how to get better support for <kbd>Home</kbd>, <kbd>End</kbd>, <kbd>Page Up</kbd>, and <kbd>Page Down</kbd> behavior for a new feature.
 
@@ -100,13 +104,13 @@ However, consider:
 - It is a fallacy to assume [everyone has perfect working knowledge of the full capabilities of their software and hardware](https://ericwbailey.website/published/truths-about-digital-accessibility/#not-every-assistive-technology-user-is-a-power-user).
 - For people that do know about passthrough key support, it is annoying, tedious, and sometimes even painful to have to use them for frequently-used commands.
 
-To say it more plainly: Advocating for the creation of a keyboard preference support area on your web app will be a painful undertaking. This is due to [a contemporary business culture that largely views user experience to be an inconvenient friction](https://productpicnic.beehiiv.com/p/why-design-goes-wrong-and-how-to-set-it-right-part-1) that gets in the way of metrics-obsessed rent-seeking.
+To say it more plainly: Advocating for the creation of a keyboard preference support area on your web app will be a likely be an arduous undertaking. This is due to [a contemporary business culture that largely views user experience to be an inconvenient friction](https://productpicnic.beehiiv.com/p/why-design-goes-wrong-and-how-to-set-it-right-part-1) that gets in the way of metrics-obsessed rent-seeking.
 
 ## The map is not the territory
 
-In reviewing the support table, the lack of OS, browser, or screen reader keyboard shortcuts for an <kbd>Alt</kbd>/<kbd>Command</kbd> + <kbd>End</kbd> keypress might make it seem like a good candidate to use for my task. However, <kbd>Alt</kbd>/<kbd>Command</kbd> + <kbd>Home</kbd> <a href="#alt-command-home">opens the browser start page, moves current page back one history event for every major browser on Windows</a>.
+In reviewing the support table, the lack of OS, browser, or screen reader keyboard shortcuts for an <kbd>Alt</kbd>/<kbd>Command</kbd> + <kbd>End</kbd> keypress might make it seem like a good candidate to use for my task. However, <kbd>Alt</kbd>/<kbd>Command</kbd> + <kbd>Home</kbd> <a href="#alt-command-home">opens the browser start page, then moves the current page back one history event for every major browser on Windows</a>.
 
-People who use a modifier key with <kbd>End</kbd> will likely expect the same modifier key applied to <kbd>Home</kbd> to operate in a similar fashion. For example, if some combination of modifier keys plus <kbd>Page Down</kbd> scrolls down 75% of the height of the page, one would assume that the same combination plus <kbd>Page Up</kbd> scrolls upward 75% instead.
+People who use modifier keys with <kbd>End</kbd> will likely expect the same modifier keys applied to <kbd>Home</kbd> to operate in a similar fashion. For example, if some combination of modifier keys plus <kbd>Page Down</kbd> scrolls down 75% of the height of the page, one would assume that the same combination plus <kbd>Page Up</kbd> scrolls upward 75% instead.
 
 As my research shows, <a href="#support-table">this is true until it isn’t</a>.
 
@@ -130,20 +134,20 @@ Another way to contextualize it: Overwriting <kbd>h</kbd> keypresses would be th
 
 The table is a beast, but it reveals all sorts of interesting things. A few that stand out to me are:
 
-- Screen readers don’t have parity in function across different versions, unless they do.
+- Screen readers don’t have parity in function across different manufacturers, unless they do.
 - Browsers have consistent behavior across different operating systems, until they don’t.
 - All browsers can have the same behavior, save for one—I’m pointing my finger at you, Safari.
 - Two browsers may share the same underlying rendering engine, yet have completely different behaviors.
 
-Another map-is-not-the-territory consideration is large areas of seeming cross-operating system support may not work as expected in the actual. <kbd>Command</kbd> is frequently used on macOS as a modifier key, so a lack of existing behavior for it and its Windows equivalent may seem tempting.
+Another [map-is-not-the-territory](https://fs.blog/map-and-territory/) consideration is large areas of seeming cross-operating system support may not work as expected in the actual. <kbd>Command</kbd> is frequently used on macOS as a modifier key, so a lack of existing behavior for it and its Windows equivalent may seem tempting.
 
-However, <kbd>Alt</kbd>, otherwise known the Windows key, opens the Start Menu. Although this would have cross-operating system parity, it would not be a great experience for people who use Windows.
+However, <kbd>Alt</kbd>—otherwise known the Windows key—opens the Start Menu. Although this modifier key would have cross-operating system parity, it would not be a great experience for people who use Windows.
 
 ### Availability bias
 
 As people who predominately use macOS or Linux to build web experiences, **we oftentimes tend to forget other operating systems exist**.
 
-This can have even more subtle consequences, in that Mac laptops don’t have <kbd>Home</kbd>, <kbd>End</kbd>, <kbd>Page Up</kbd>, and <kbd>Page Down</kbd> keys. This fact can **conspire to make people forget that these keys exist and are used**, to say nothing of other biases such as [non-English keyboard layouts](https://en.wikipedia.org/wiki/List_of_QWERTY_keyboard_language_variants).
+This can have even more subtle consequences, in that Mac laptops don’t have physical <kbd>Home</kbd>, <kbd>End</kbd>, <kbd>Page Up</kbd>, and <kbd>Page Down</kbd> keys. This fact can **conspire to make people forget that these keys exist and are used**, to say nothing of other biases such as [non-English keyboard layouts](https://en.wikipedia.org/wiki/List_of_QWERTY_keyboard_language_variants).
 
 <figure
   role="figure"
@@ -187,19 +191,19 @@ Broadly-speaking, VoiceOver has a different interaction paradigm when compared t
     font-family: var(--typeface-primary);
   }
 
-  table col[rowspan], 
-  table td[rowspan], 
+  table col[rowspan],
+  table td[rowspan],
   table th[rowspan] {
     text-align: left;
     vertical-align: top;
   }
 
-  table col[colspan], 
-  table td[colspan], 
+  table col[colspan],
+  table td[colspan],
   table th[colspan] {
     text-align: left;
   }
-  
+
   table tr td[colspan="7"] {
     border-right: 1px solid #111111;
     border-left: 1px solid #111111;
@@ -218,10 +222,10 @@ Broadly-speaking, VoiceOver has a different interaction paradigm when compared t
     }
   }
 
-  th, 
+  th,
   td {
     border: 1px solid #111111;
-    
+
     font-size: 0.9rem;
     font-weight: normal;
     padding: 0.3rem 0.4rem !important;
@@ -2190,9 +2194,9 @@ Evaluation was conducted the week of January 19th, 2026. Following is what I use
 ## Also note
 
 - I am not presenting the suggestions I recommended at my job because of how contextual this work is.
-- [These observations from a past effort](https://ericwbailey.website/published/basic-keyboard-shortcut-support-for-focused-links/#other-testing-details).
+- [These details from a past effort](https://ericwbailey.website/published/basic-keyboard-shortcut-support-for-focused-links/#other-testing-details).
 - What wasn’t evaluated:
-  - I didn’t evaluate less-popular Chromium browsers.
+  - I didn’t evaluate [less-popular Chromium browsers](https://en.wikipedia.org/wiki/Usage_share_of_web_browsers#Summary_tables).
   - I didn’t evaluate popular browser extensions like [Grammarly](https://www.grammarly.com/).
   - I didn’t evaluate support on iOS or Android, but they do support keyboard input and people **do** use them.
   - I also didn’t evaluate Linux or [Orca](https://orca.gnome.org/). There are just too many possible permutations.
