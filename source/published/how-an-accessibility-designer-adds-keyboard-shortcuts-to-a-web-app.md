@@ -2175,7 +2175,7 @@ Evaluation was conducted the week of January 19th, 2026. Following is what I use
 
 ### Operating Systems and browsers
 
-- Windows, version X.
+- Windows, version 26200.7623.
   - Chrome, version 144.0.7559.97.
   - Edge, version 144.0.3719.92.
   - Firefox, version 147.0.1.
