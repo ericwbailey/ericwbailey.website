@@ -97,10 +97,9 @@ The worst—and unfortunately oftentimes quiet—outcome is that you **break ass
 
 To the extent of my knowledge, Firefox is the only browser that lets you [natively override a keyboard shortcut override](https://support.mozilla.org/en-US/kb/firefox-page-info-window#w_permissions), via some buried, legacy menus. This lends further ammo to my belief that [browsers are a failure of imagination](https://ericwbailey.website/published/contrast-color-is-a-good-thing-but-also-solving-the-problem-at-the-wrong-layer/)—the end result of misaligned business priorities.
 
-Some may also point out here that [screen readers have passthrough key capability](https://adrianroselli.com/2026/01/brief-note-on-application-keyboard-shortcuts.html).
-However, consider:
+Some may also point out here that [screen readers have passthrough key capability](https://adrianroselli.com/2026/01/brief-note-on-application-keyboard-shortcuts.html). However, consider:
 
-- The assistive technology may not be a screen reader,
+- The assistive technology being used may not be a screen reader,
 - It is a fallacy to assume [everyone has perfect working knowledge of the full capabilities of their software and hardware](https://ericwbailey.website/published/truths-about-digital-accessibility/#not-every-assistive-technology-user-is-a-power-user).
 - For people that do know about passthrough key support, it is annoying, tedious, and sometimes even painful to have to use them for frequently-used commands.
 
