@@ -179,6 +179,8 @@ Broadly-speaking, VoiceOver has a different interaction paradigm when compared t
 <style>
   th, td {
     border: 1px solid #111111;
+    font-family: var(--typeface-primary);
+    font-size: 0.7rem;
     font-weight: normal;
     padding: 0.4rem 0.6rem;
     text-align: start;
@@ -282,10 +284,14 @@ Broadly-speaking, VoiceOver has a different interaction paradigm when compared t
     }
   }
 </style>
-<div tabindex="0" role="group" aria-labelledby="table-title" class="post-breakout">
+
+<div tabindex="0" role="group" aria-labelledby="table-title">
+
   <h3 class="hide-visually" id="table-title">
     Support table findings
   </h3>
+
+<div class="post-breakout">
   <table id="support-table" aria-labelledby="table-title">
     <thead>
       <tr>
@@ -299,11 +305,9 @@ Broadly-speaking, VoiceOver has a different interaction paradigm when compared t
       </tr>
     </thead>
     <tbody>
-      <!-- 1. Home -->
       <tr>
         <td scope="colgroup" colspan="7" id="home"><kbd>Home</kbd></td>
       </tr>
-      <!-- 1.1 Shift + Home -->
       <tr>
         <th scope="row" id="shift-home" headers="home kbd" rowspan="17"><kbd>Shift</kbd>&#8202;+&#8202;<kbd>Home</kbd></th>
         <td headers="home os" rowspan="9" data-os="windows">Windows</td>
@@ -416,7 +420,6 @@ Broadly-speaking, VoiceOver has a different interaction paradigm when compared t
         <td headers="home scope" data-scope="na">N/A</td>
         <td headers="home function"></td>
       </tr>
-      <!-- 1.2 Control + Home -->
       <tr data-border="thick">
         <th scope="row" id="control-home" headers="home kbd" rowspan="17"><kbd>Control</kbd>&#8202;+&#8202;<kbd>Home</kbd></th>
         <td headers="home os" rowspan="9" data-os="windows">Windows</td>
@@ -529,7 +532,6 @@ Broadly-speaking, VoiceOver has a different interaction paradigm when compared t
         <td headers="home scope" data-scope="na">N/A</td>
         <td headers="home function"></td>
       </tr>
-      <!-- 1.3 Option + Home -->
       <tr data-border="thick">
         <th scope="row" id="option-home" headers="home kbd" rowspan="17"><kbd>Option</kbd>&#8202;+&#8202;<kbd>Home</kbd></th>
         <td headers="home os" rowspan="9" data-os="windows">Windows</td>
@@ -642,7 +644,6 @@ Broadly-speaking, VoiceOver has a different interaction paradigm when compared t
         <td headers="home scope" data-scope="na">N/A</td>
         <td headers="home function"></td>
       </tr>
-      <!-- 1.4 Alt/Command + Home -->
       <tr data-border="thick">
         <th scope="row" id="alt-command-home" headers="home kbd" rowspan="17"><kbd>Alt</kbd>&#8202;/&#8202;<kbd>Command</kbd>&#8202;+&#8202;<kbd>Home</kbd></th>
         <td headers="home os" rowspan="9" data-os="windows">Windows</td>
@@ -755,12 +756,9 @@ Broadly-speaking, VoiceOver has a different interaction paradigm when compared t
         <td headers="home scope" data-scope="browser">Browser</td>
         <td headers="home function">Opens the browser start page, moves current page back one history event</td>
       </tr>
-
-      <!-- 2. End -->
       <tr>
         <td scope="colgroup" colspan="7" id="end"><kbd>End</kbd></td>
       </tr>
-      <!-- 2.1 Shift + End -->
       <tr>
         <th scope="row" id="shift-end" headers="end kbd" rowspan="17"><kbd>Shift</kbd>&#8202;+&#8202;<kbd>End</kbd></th>
         <td headers="end os" rowspan="9" data-os="windows">Windows</td>
@@ -873,7 +871,6 @@ Broadly-speaking, VoiceOver has a different interaction paradigm when compared t
         <td headers="end scope" data-scope="na">N/A</td>
         <td headers="end function"></td>
       </tr>
-      <!-- 2.2 Control + End -->
       <tr data-border="thick">
         <th scope="row" id="control-end" headers="end kbd" rowspan="17"><kbd>Control</kbd>&#8202;+&#8202;<kbd>End</kbd></th>
         <td headers="end os" rowspan="9" data-os="windows">Windows</td>
@@ -986,7 +983,6 @@ Broadly-speaking, VoiceOver has a different interaction paradigm when compared t
         <td headers="end scope" data-scope="na">N/A</td>
         <td headers="end function"></td>
       </tr>
-      <!-- 2.3 Option + End -->
       <tr data-border="thick">
         <th scope="row" id="option-end" headers="end kbd" rowspan="17"><kbd>Option</kbd>&#8202;+&#8202;<kbd>End</kbd></th>
         <td headers="end os" rowspan="9" data-os="windows">Windows</td>
@@ -1099,7 +1095,6 @@ Broadly-speaking, VoiceOver has a different interaction paradigm when compared t
         <td headers="end scope" data-scope="na">N/A</td>
         <td headers="end function"></td>
       </tr>
-      <!-- 2.4 Alt/Command + End -->
       <tr data-border="thick">
         <th scope="row" id="alt-command-end" headers="end kbd" rowspan="17"><kbd>Alt</kbd>&#8202;/&#8202;<kbd>Command</kbd>&#8202;+&#8202;<kbd>End</kbd></th>
         <td headers="end os" rowspan="9" data-os="windows">Windows</td>
@@ -1212,12 +1207,9 @@ Broadly-speaking, VoiceOver has a different interaction paradigm when compared t
         <td headers="end scope" data-scope="na">N/A</td>
         <td headers="end function"></td>
       </tr>
-
-      <!-- 3. Page Down -->
       <tr>
         <td scope="colgroup" colspan="7" id="pageup"><kbd>Page Up</kbd></td>
       </tr>
-      <!-- 3.1 Page Up + End -->
       <tr>
         <th scope="row" id="page-up-end" headers="end kbd" rowspan="17"><kbd>Shift</kbd>&#8202;+&#8202;<kbd>Page Up</kbd></th>
         <td headers="pageup os" rowspan="9" data-os="windows">Windows</td>
@@ -1330,7 +1322,6 @@ Broadly-speaking, VoiceOver has a different interaction paradigm when compared t
         <td headers="pageup scope" data-scope="na">N/A</td>
         <td headers="pageup function"></td>
       </tr>
-      <!-- 3.2 Control + Page Up -->
       <tr data-border="thick">
         <th scope="row" id="control-page-up" headers="pageup kbd" rowspan="17"><kbd>Control</kbd>&#8202;+&#8202;<kbd>Page Up</kbd></th>
         <td headers="pageup os" rowspan="9" data-os="windows">Windows</td>
@@ -1556,7 +1547,6 @@ Broadly-speaking, VoiceOver has a different interaction paradigm when compared t
         <td headers="pageup scope" data-scope="na">N/A</td>
         <td headers="pageup function"></td>
       </tr>
-      <!-- 3.4 Alt/Command + Page Up -->
       <tr data-border="thick">
         <th scope="row" id="alt-command-page-up" headers="pageup kbd" rowspan="17"><kbd>Alt</kbd>&#8202;/&#8202;<kbd>Command</kbd>&#8202;+&#8202;<kbd>Page Up</kbd></th>
         <td headers="pageup os" rowspan="9" data-os="windows">Windows</td>
@@ -1669,12 +1659,9 @@ Broadly-speaking, VoiceOver has a different interaction paradigm when compared t
         <td headers="pageup scope" data-scope="na">N/A</td>
         <td headers="pageup function"></td>
       </tr>
-
-      <!-- 4. Page Down -->
       <tr>
         <td scope="colgroup" colspan="7" id="pagedown"><kbd>Page Down</kbd></td>
       </tr>
-      <!-- 4.1 Shift + Page Down -->
       <tr>
         <th scope="row" id="shift-page-down" headers="end kbd" rowspan="17"><kbd>Shift</kbd>&#8202;+&#8202;<kbd>Page Down</kbd></th>
         <td headers="pagedown os" rowspan="9" data-os="windows">Windows</td>
@@ -1787,7 +1774,6 @@ Broadly-speaking, VoiceOver has a different interaction paradigm when compared t
         <td headers="pagedown scope" data-scope="na">N/A</td>
         <td headers="pagedown function"></td>
       </tr>
-      <!-- 4.2 Control + Page Down -->
       <tr data-border="thick">
         <th scope="row" id="control-page-down" headers="pageup kbd" rowspan="17"><kbd>Control</kbd>&#8202;+&#8202;<kbd>Page Down</kbd></th>
         <td headers="pagedown os" rowspan="9" data-os="windows">Windows</td>
@@ -1900,7 +1886,6 @@ Broadly-speaking, VoiceOver has a different interaction paradigm when compared t
         <td headers="pagedown scope" data-scope="na">N/A</td>
         <td headers="pagedown function"></td>
       </tr>
-      <!-- 4.3 Option + Page Down -->
       <tr data-border="thick">
         <th scope="row" id="option-page-down" headers="pagedown kbd" rowspan="17"><kbd>Option</kbd>&#8202;+&#8202;<kbd>Page Down</kbd></th>
         <td headers="pagedown os" rowspan="9" data-os="windows">Windows</td>
@@ -2013,9 +1998,8 @@ Broadly-speaking, VoiceOver has a different interaction paradigm when compared t
         <td headers="pagedown scope" data-scope="na">N/A</td>
         <td headers="pagedown function"></td>
       </tr>
-      <!-- 4.4 Alt/Command + Page Down -->
       <tr data-border="thick">
-        <th scope="row" id="4.4" headers="pagedown kbd" rowspan="17"><kbd>Alt</kbd>&#8202;/&#8202;<kbd>Command</kbd>&#8202;+&#8202;<kbd>Page Down</kbd></th>
+        <th scope="row" id="page-down" headers="pagedown kbd" rowspan="17"><kbd>Alt</kbd>&#8202;/&#8202;<kbd>Command</kbd>&#8202;+&#8202;<kbd>Page Down</kbd></th>
         <td headers="pagedown os" rowspan="9" data-os="windows">Windows</td>
         <td headers="pagedown browser" rowspan="3">Chrome</td>
         <td headers="pagedown sr">None</td>
