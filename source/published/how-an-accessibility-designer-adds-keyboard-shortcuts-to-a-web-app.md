@@ -164,7 +164,7 @@ Broadly-speaking, VoiceOver has a different interaction paradigm when compared t
 
 <nav aria-label="Support table sections">
   <ul>
-    <li><a href="#skip-table">Skip support table</a>.</li>
+    <li><a href="#testing-notes">Skip support table</a>.</li>
     <li><a href="#home">Results for <kbd>Home</kbd></a>.</li>
     <li><a href="#end">Results for <kbd>End</kbd></a>.</li>
     <li><a href="#page-up">Results for <kbd>Page Up</kbd></a>.</li>
@@ -2159,13 +2159,9 @@ Broadly-speaking, VoiceOver has a different interaction paradigm when compared t
   </table>
 </div>
 
-<div class="hide-visually" id="skip-table">
-  Support table skipped.
-</div>
-
 ## Testing notes
 
-Evaluation was conducted the week of January 19th, 2026. Following is what I used to in my research:
+Evaluation was conducted the week of January 19th, 2026. Following is what I used to conduct my research:
 
 ### Keyboards
 
@@ -2199,7 +2195,7 @@ Evaluation was conducted the week of January 19th, 2026. Following is what I use
   - I didn’t evaluate popular browser extensions like [Grammarly](https://www.grammarly.com/).
   - I didn’t evaluate support on iOS or Android, but they do support keyboard input and people **do** use them.
   - I also didn’t evaluate Linux or [Orca](https://orca.gnome.org/). There are just too many possible permutations.
-  - Seriously. I am only one man with a full-time job and a dog with attachment issues, folks.
+  - Seriously. I am only one man with a full-time job and a dog who does not like it when I’m not giving her attention, folks.
 - Using an LLM:
   - Using [plaintext copies of screen reader manuals](https://support.freedomscientific.com/Content/Documents/Manuals/JAWS/Keystrokes.txt) to use as LLM context still created hallucinations.
   - It also doesn’t cover the app or operating system layers.
