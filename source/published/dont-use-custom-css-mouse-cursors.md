@@ -171,6 +171,6 @@ I think so. I also think [browsers could do a lot of work in this area](https://
 
 ## You can’t know
 
-We can’t know the circumstances a person is experiencing when they use your website or web app. Because of this, it’s on us to make sure we’re proactively accommodating the widest possible range of ways people interact with technology.
+We can’t know [the circumstances a person is experiencing when they use your website or web app](https://www.youtube.com/watch?v=mgTdX8_8Bik). Because of this, it’s on us to make sure we’re proactively accommodating the widest possible range of ways people interact with technology.
 
 Vanity is almost always at odds with user needs. While a custom CSS cursor may seem flashy and fun, consider that it may present a significant, unnecessary barrier to access.
