@@ -99,7 +99,7 @@ To the extent of my knowledge, Firefox is the only browser that lets you [native
 
 Some may also point out here that [screen readers have passthrough key capability](https://adrianroselli.com/2026/01/brief-note-on-application-keyboard-shortcuts.html). However, consider:
 
-- The assistive technology being used may not be a screen reader,
+- The assistive technology being used may not be a screen reader.
 - It is a fallacy to assume [everyone has perfect working knowledge of the full capabilities of their software and hardware](https://ericwbailey.website/published/truths-about-digital-accessibility/#not-every-assistive-technology-user-is-a-power-user).
 - For people that do know about passthrough key support, it is annoying, tedious, and sometimes even painful to have to use them for frequently-used commands.
 
@@ -2202,7 +2202,7 @@ Evaluation was conducted the week of January 19th, 2026. Following is what I use
   - I also didn’t evaluate Linux or [Orca](https://orca.gnome.org/). There are just too many possible permutations.
   - Seriously. I am only one man with a full-time job and a dog who does not like it when I’m not giving her attention, folks.
 - Using an LLM:
-  - Using [plaintext copies of screen reader manuals](https://support.freedomscientific.com/Content/Documents/Manuals/JAWS/Keystrokes.txt) to use as LLM context still created hallucinations.
+  - [Plaintext copies of screen reader manuals](https://support.freedomscientific.com/Content/Documents/Manuals/JAWS/Keystrokes.txt) to use as LLM context still created hallucinations.
   - It also doesn’t cover the app or operating system layers.
   - The stakes are too high considering the human-facing impact, and it was likely net-less effort to manually test once to get certainty with results.
   - There might be a point worth thinking through in that previous bullet point.
