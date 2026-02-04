@@ -10,7 +10,10 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
-## v1.5.96 - 2025-11-28
+## v1.5.97 - 2026-02-04
+- Add [You probably shouldn’t be annotating focus order](https://ericwbailey.website/published/you-probably-shouldnt-be-annotating-focus-order/)
+
+## v1.5.96 - 2026-01-28
 - Add [How an accessibility designer adds keyboard shortcuts to a web app](https://ericwbailey.website/published/how-an-accessibility-designer-adds-keyboard-shortcuts-to-a-web-app/)
 
 ## v1.5.95 - 2026-01-17
