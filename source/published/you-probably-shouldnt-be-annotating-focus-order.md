@@ -163,7 +163,7 @@ Be strategic in how you go about this. It might ruffle some feathers, especially
 While I have you, here are a few other missteps related to focus order that I’ve encountered. These all break expectations and may confuse and disorient the people who use your service:
 
 - Manually orchestrating a designed experience for where focus should go via use of `tabindex`.
-- Making inert, static text focusable to make it more “important”. People already have ways to work with this kind of content.
+- Making inert, static text focusable to make it more “important.” People already have ways to work with this kind of content.
 - Removing the ability for interactive elements to receive focus in an attempt to direct someone to features the organization prioritizes.
 - Assuming engineers know what component you’re using in your design, and where its documentation lives.
 - Annotating the repeated, templated parts of a page or flow that have already been developed.
