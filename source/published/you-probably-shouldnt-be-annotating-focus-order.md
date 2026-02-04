@@ -2,7 +2,7 @@
 layout: "layouts/post.njk"
 title: You probably shouldn’t be annotating focus order
 source: ericwbailey.website
-excerpt: "Sometimes not doing something is the answer"
+excerpt: "Sometimes not doing something is the right move"
 date: 2026-02-04
 year: 2026
 tags:
