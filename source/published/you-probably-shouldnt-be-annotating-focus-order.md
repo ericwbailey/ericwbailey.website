@@ -176,6 +176,6 @@ To that point, thank you for being open to reading this post—I hope you don’
 
 Instead, know that **making the web a little bit more accessible—and therefore a little bit better—adds up over time**. This also includes how you learn about the details and nuance of designing for disability.
 
-One of the web’s better capabilities is its ability to be revisited and updated. It means that past efforts can be improved on as easily as making something new. In a way, it can also be a form of kindness you can extend to your past self—it’s something I’m trying to do.
+One of the web’s better capabilities is its ability to be revisited and updated. It means that past efforts can be improved on as easily as making something new. In a way, it can also be a form of kindness you can extend to your past self—it’s something I’m also trying to do.
 
 In closing, I’ve included a list of more resources at the end of this post. I hope it can serve as a springboard to learn more about focus.
