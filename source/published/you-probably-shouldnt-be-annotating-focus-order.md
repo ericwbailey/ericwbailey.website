@@ -20,6 +20,9 @@ furtherReading:
   - title: "Browsing with a keyboard"
     source: "TetraLogical"
     url: https://tetralogical.com/blog/2021/10/26/browsing-with-a-keyboard/
+  - title: "Source Order Matters"
+    source: "Adrian Roselli"
+    url: https://adrianroselli.com/2015/09/source-order-matters.html
   - title: "Technique G59: Placing the interactive elements in an order that follows sequences and relationships within the content"
     source: "W3C WAI"
     url: https://www.w3.org/WAI/WCAG22/Techniques/general/G59
