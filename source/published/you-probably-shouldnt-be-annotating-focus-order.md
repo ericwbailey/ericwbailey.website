@@ -114,7 +114,7 @@ It’s also something I’m willing to bet [you’ve benefitted from](https://er
 Honestly, good question. Focus order annotations serve two general use cases:
 
 1. **When the HTML order does not match reading order**. This sometimes happens as a result of third party code, some [relatively obscure CSS layout techniques](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Ordering_items#the_order_property), or other corner-case scenarios.
-- **When you need to do deep custom UI work**. There are certain kinds of complicated components and flows that benefit from having the order of focus explicitly illustrated for development handoff. For example, I used them when helping to make [GitHub’s interactive list component](https://ericwbailey.website/published/githubs-updated-commits-page-and-the-interactive-list-component/#what-concerns-does-an-interactive-list-address%3F).
+2. **When you need to do deep custom UI work**. There are certain kinds of complicated components and flows that benefit from having the order of focus explicitly illustrated for development handoff. For example, I used them when helping to make [GitHub’s interactive list component](https://ericwbailey.website/published/githubs-updated-commits-page-and-the-interactive-list-component/#what-concerns-does-an-interactive-list-address%3F).
 
 <picture class="post-breakout">
   <source
