@@ -44,7 +44,7 @@ Hey there, fellow designer! Chances are good you’ve been linked to this after 
 First off, **I want to thank you** for taking the time to address accessibility considerations in your work. No, seriously. I mean it.
 
 <div class="centered-media-outer">
-  <picture class="centered-media-inner-3">
+  <picture class="centered-media-inner-1">
     <source
       media="(prefers-color-scheme: dark)"
       srcset="{{ '/img/posts/you-probably-shouldnt-be-annotating-focus-order/finger-heart-on-dark.svg' | url }}">
@@ -66,7 +66,7 @@ Yes, many accessibility annotation kits do come with the ability to specify focu
 However, **interactive elements allow you to place focus on them without needing to do anything else**. This includes buttons, links, form fields, checkboxes and radio buttons, expand/collapse toggles, tab panels, etc.
 
 <div class="centered-media-outer">
-  <picture class="centered-media-inner-3">
+  <picture class="centered-media-inner-4">
     <source
       media="(prefers-color-scheme: dark)"
       srcset="{{ '/img/posts/you-probably-shouldnt-be-annotating-focus-order/interactive-elements-on-dark.svg' | url }}">
@@ -131,14 +131,14 @@ Honestly, good question. Focus order annotations serve two general use cases:
 If you want to use your time efficiently: There is a tremendous amount of value in **manually evaluating focus order on the developed UI**.
 
 <div class="centered-media-outer">
-  <picture class="centered-media-inner-2">
+  <picture class="centered-media-inner-1">
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="{{ '/img/posts/you-probably-shouldnt-be-annotating-focus-order/push-tab-on-light-on-dark.svg' | url }}">
+      srcset="{{ '/img/posts/you-probably-shouldnt-be-annotating-focus-order/push-tab-on-dark.svg' | url }}">
     <img
       role="img"
       alt="A downward-facing hand with an outstretched finger that is about to press a tab key, rendered as a simplified illustration."
-      src="{{ '/img/posts/you-probably-shouldnt-be-annotating-focus-order/push-tab-on-light-on-light.svg' | url }}">
+      src="{{ '/img/posts/you-probably-shouldnt-be-annotating-focus-order/push-tab-on-light.svg' | url }}">
   </picture>
 </div>
 
@@ -179,8 +179,3 @@ Instead, know that **making the web a little bit more accessible—and therefore
 One of the web’s better capabilities is its ability to be revisited and updated. It means that past efforts can be improved on as easily as making something new. In a way, it can also be a form of kindness you can extend to your past self—it’s something I’m trying to do.
 
 In closing, I’ve included a list of more resources at the end of this post. I hope it can serve as a springboard to learn more about focus.
-
-LIST
-
-Thank Anna
-
