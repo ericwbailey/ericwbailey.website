@@ -2205,4 +2205,4 @@ Evaluation was conducted the week of January 19th, 2026. Following is what I use
   - [Plaintext copies of screen reader manuals](https://support.freedomscientific.com/Content/Documents/Manuals/JAWS/Keystrokes.txt) to use as LLM context still created hallucinations.
   - It also doesn’t cover the app or operating system layers.
   - The stakes are too high considering the human-facing impact, and it was likely net-less effort to manually test once to get certainty with results.
-  - There might be a point worth thinking through in that previous bullet point.
+  - There might be [a point worth thinking through](https://localghost.dev/blog/stop-generating-start-thinking/) in that previous bullet point.
