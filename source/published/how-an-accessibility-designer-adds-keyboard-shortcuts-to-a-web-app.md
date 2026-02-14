@@ -73,7 +73,7 @@ Also note that the keyboard shortcuts themselves can be adjusted by someone on a
 You need to navigate this tangled mess to find a combination of keys that:
 
 - Are not claimed at all, or more realistically
-- Won’t drastically affect someone’s experience in a negative way if overridden in a limited specific and context.
+- Won’t drastically affect someone’s experience in a negative way if overridden in a limited and specific context.
 
 You’ll also need to navigate the tangled mess that is politics. The organizations that produce web apps are made out of people, and **people have opinions**. This includes notions around:
 
@@ -86,7 +86,7 @@ Remembering that doing accessibility work means advocating for concerns in an in
 
 You also need to internalize that **your web app is not the center of the universe**. It is part of a larger suite of interactions someone is doing on their device to get what they need.
 
-The best possible outcome for introducing a keyboard shortcut that overrides someone’s existing expectations is mild annoyance. A range of negative outcomes follows, probably the most notable being reputational damage.
+The best possible outcome for introducing a keyboard shortcut that overrides someone’s existing expectations is mild annoyance. A range of negative outcomes follows, probably the most notable being [reputational damage](https://every.to/p/breaching-the-trust-thermocline-is-the-biggest-hidden-risk-in-business).
 
 The worst—and unfortunately oftentimes quiet—outcome is that you **break assistive technology functionality** for someone. This is why [WCAG Success Criterion 2.1.4: Character Key Shortcuts](https://www.w3.org/WAI/WCAG22/Understanding/character-key-shortcuts.html) exists. It’s also why mature web apps like GitHub have this type of preference toggle:
 
