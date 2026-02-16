@@ -28,7 +28,7 @@ Say you’re building a LLM and training it to make good frontend code. [Good fr
 
 However, [the bulk of frontend code on the web is inaccessible](https://webaim.org/projects/million/#errors) to some degree. Also know here that LLMs are trained on the majority of the world’s frontend code. Similarly, many contemporary LLM-friendly UI libraries claim to be accessible, but may have varying degrees of support when actually manually evaluated.
 
-The deck is a bit stacked, folks.
+[The deck is a bit stacked](https://microsoft.github.io/a11y-llm-eval-report/), folks.
 
 Given that, you need to **get creative about how to handle the LLM’s training**. It might seem like a good idea to instruct an LLM—reference, skill, agent, sub-agent, what have you—to reference up [the ARIA Authoring Practices Guide](https://www.w3.org/WAI/ARIA/apg/) (<abbr>APG</abbr>), because it [lists a lot of common UI patterns](https://www.w3.org/WAI/ARIA/apg/patterns/), right?
 
