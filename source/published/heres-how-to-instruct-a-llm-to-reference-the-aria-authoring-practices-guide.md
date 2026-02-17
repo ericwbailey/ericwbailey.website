@@ -24,7 +24,7 @@ eleventyNavigation:
   order: 5
 ---
 
-Say you’re building a LLM and training it to make good frontend code. [Good frontend code is accessible code](https://annaecook.com/writing/2026/2/2/accessible-design-is-digital-infrastructure), so of course you want to instruct the LLM to produce it.
+Say you’re working with a LLM and training it to write good frontend code. [Good frontend code is accessible code](https://annaecook.com/writing/2026/2/2/accessible-design-is-digital-infrastructure), so of course you want to instruct the LLM to produce it.
 
 However, [the bulk of frontend code on the web is inaccessible](https://webaim.org/projects/million/#errors) to some degree. Also know here that LLMs are trained on the majority of the world’s frontend code. Similarly, many contemporary LLM-friendly UI libraries claim to be accessible, but may have varying degrees of support when manually evaluated.
 
@@ -109,7 +109,7 @@ This range of differences is even more true as these entities are brought out of
 
 I know that effort and care went into the creation of the APG’s code examples. I also am acutely aware of how draining it can be to manage a large and popular open source project, especially one that does not pay.
 
-However, I also get the sense that the APG’s code examples are not actively maintained. Given that LLMs seem to be how the industry is currently building things, I think the code examples’ inclusion are poised to cause more harm than good.
+However, I also get the sense that the APG’s code examples are not actively maintained. I think the code examples’ inclusion are poised to cause more harm than good. This is born of considering network effects combined with an LLM-first approach seeming to be how the industry is settling on building things.
 
 ## I’m not building a LLM, but our organization is
 
