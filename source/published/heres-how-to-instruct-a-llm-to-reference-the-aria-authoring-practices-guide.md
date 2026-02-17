@@ -80,7 +80,7 @@ You will also probably need instructions on how to cajole the LLM to barf out th
 
 Here’s what I’ve found to be helpful:
 
-```md
+```txt
 ## \[ARIA Authoring Practices Guide (APG) patterns\](https://www.w3.org/WAI/ARIA/apg/patterns/)
 Partially trusted source. Use selectively.
 
