@@ -26,11 +26,11 @@ eleventyNavigation:
 
 Say you’re building a LLM and training it to make good frontend code. [Good frontend code is accessible code](https://annaecook.com/writing/2026/2/2/accessible-design-is-digital-infrastructure), so of course you want to instruct the LLM to produce it.
 
-However, [the bulk of frontend code on the web is inaccessible](https://webaim.org/projects/million/#errors) to some degree. Also know here that LLMs are trained on the majority of the world’s frontend code. Similarly, many contemporary LLM-friendly UI libraries claim to be accessible, but may have varying degrees of support when actually manually evaluated.
+However, [the bulk of frontend code on the web is inaccessible](https://webaim.org/projects/million/#errors) to some degree. Also know here that LLMs are trained on the majority of the world’s frontend code. Similarly, many contemporary LLM-friendly UI libraries claim to be accessible, but may have varying degrees of support when manually evaluated.
 
 [The deck is a bit stacked](https://microsoft.github.io/a11y-llm-eval-report/), folks.
 
-Given that, you need to **get creative about how to handle the LLM’s training**. It might seem like a good idea to instruct an LLM—reference, skill, agent, sub-agent, what have you—to reference up [the ARIA Authoring Practices Guide](https://www.w3.org/WAI/ARIA/apg/) (<abbr>APG</abbr>), because it [lists a lot of common UI patterns](https://www.w3.org/WAI/ARIA/apg/patterns/), right?
+Given that, you need to **get creative about how to handle the LLM’s training**. It might seem like a good idea to instruct an LLM—reference, skill, agent, sub-agent, what have you—to reference [the ARIA Authoring Practices Guide](https://www.w3.org/WAI/ARIA/apg/) (<abbr>APG</abbr>), because it [lists a lot of common UI patterns](https://www.w3.org/WAI/ARIA/apg/patterns/), right?
 
 Well, sorta.
 
@@ -93,7 +93,7 @@ Partially trusted source. Use selectively.
 - CodePen links (URLs starting with `https://codepen.io/`)
 ```
 
-This might change over time, but right now it seems help to push a LLM towards only slurping up the salient bits.
+This might change over time, but right now it seems to help to push a LLM towards only slurping up the salient bits.
 
 ## There is a world of difference between a disclosure and a tree view
 
