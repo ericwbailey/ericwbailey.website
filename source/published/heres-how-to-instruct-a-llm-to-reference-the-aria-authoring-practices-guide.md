@@ -99,7 +99,11 @@ This might change over time, but right now it seems help to push a LLM towards o
 
 The more complicated a component is, the higher the chance it will need tweaks to its underlying structure to interface with assistive technology as expected.
 
-Content like [disclosures](https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/) are both simple and well-established. This means they have good support. Content like tree views [need intervention to work as expected](https://github.blog/engineering/user-experience/considerations-for-making-a-tree-view-component-accessible/#fix-interoperability-issues). This is even more true as these platonic entities are integrated into the ecosystems that are your websites and web apps, with all their constituent content and functionality needs.
+Content like [disclosures](https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/) are both simple and well-established. This means they have good support. As a spicy twist here, the APG’s recommendation of `aria-controls` fails to mention that JAWS is the only screen reader to support the declaration, thus reinforcing the larger point of this post. 
+
+Content like tree views are far more complex. They [need intervention to work as expected](https://github.blog/engineering/user-experience/considerations-for-making-a-tree-view-component-accessible/#fix-interoperability-issues) across a spread of popular assistive technologies. 
+
+This range of differences is even more true as these platonic entities are integrated into the ecosystems that are your websites and web apps, with all their constituent functionality and content needs.
 
 ## This kind of insinuates that you’re indirectly advocating for the removal of code examples from the APG
 
@@ -151,7 +155,7 @@ Accessibility and security operate similarly, at least in terms of organizationa
 
 ## Don’t you think all of this is a moot point in a future where everything is agentically-operated?
 
-That promised future—using proprietary black box technology to push a carnival ticket-based economy—seems to be [perpetually right around the corner](https://bsky.app/profile/spavel.bsky.social/post/3mesvq6zue22c). Let’s also not forget that most of these companies are selling their vision of the future at a loss.
+That promised future—using a carnival ticket-based economy to push proprietary black box technology—seems to be [perpetually right around the corner](https://bsky.app/profile/spavel.bsky.social/post/3mesvq6zue22c). Let’s also not forget that most of these companies are selling their vision of the future at a loss.
 
 In the meantime we have actual websites and web apps that need to be worked on.
 
