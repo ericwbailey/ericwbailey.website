@@ -103,7 +103,7 @@ Content like [disclosures](https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/)
 
 Content like tree views are far more complex. They [need intervention to work as expected](https://github.blog/engineering/user-experience/considerations-for-making-a-tree-view-component-accessible/#fix-interoperability-issues) across a spread of popular assistive technologies. 
 
-This range of differences is even more true as these platonic entities are integrated into the ecosystems that are your websites and web apps, with all their constituent functionality and content needs.
+This range of differences is even more true as these entities are brought out of the realm of the platonic and are integrated into the real-world ecosystems that are your websites and web apps—with all their constituent functionality and content needs.
 
 ## This kind of insinuates that you’re indirectly advocating for the removal of code examples from the APG
 
