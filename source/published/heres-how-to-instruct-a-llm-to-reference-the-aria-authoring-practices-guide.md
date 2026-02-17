@@ -74,7 +74,7 @@ The WAI-ARIA Roles, States, and Properties section of each APG pattern should be
 
 You want to encourage use of [the role implicitly conferred by a native, semantic HTML element](https://primer.style/accessibility/design-guidance/semantic-html-and-aria/#native-semantics). Using the `button` element for buttons, the anchor element for links—you know, that sad old sorry story.
 
-You will also probably need instructions on how to cajole the LLM to barf out the semantic HTML that the majority of the industry has largely been allergic to using for decades. **[Organization-specific content](https://gerireid.com/blog/ai-is-accidently-making-documentation-accessible/)** is likely key for this effort**—especially if tethered to, and reinforced by a design system.
+You will also probably need instructions on how to cajole the LLM to barf out the semantic HTML that the majority of the industry has largely been allergic to using for decades. **[Organization-specific content](https://gerireid.com/blog/ai-is-accidently-making-documentation-accessible/) is likely key for this effort**—especially if tethered to, and reinforced by a design system.
 
 ## Shut up and give me the code, nerd
 
@@ -151,7 +151,7 @@ Accessibility and security operate similarly, at least in terms of organizationa
 
 ## Don’t you think all of this is a moot point in a future where everything is agentically-operated?
 
-That promised, proprietary black box, carnival ticket-based economy future seems to be [perpetually right around the corner](https://bsky.app/profile/spavel.bsky.social/post/3mesvq6zue22c). Let’s also not forget that most of these companies are selling their vision of the future at a loss.
+That promised future—using proprietary black box technology to push a carnival ticket-based economy—seems to be [perpetually right around the corner](https://bsky.app/profile/spavel.bsky.social/post/3mesvq6zue22c). Let’s also not forget that most of these companies are selling their vision of the future at a loss.
 
 In the meantime we have actual websites and web apps that need to be worked on.
 
