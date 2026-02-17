@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.98 - 2026-02-16
+- Add [Here’s how to instruct a LLM to reference the ARIA Authoring Practices Guide](https://ericwbailey.website/published/heres-how-to-instruct-a-llm-to-reference-the-aria-authoring-practices-guide/)
+
 ## v1.5.97 - 2026-02-04
 - Add [You probably shouldn’t be annotating focus order](https://ericwbailey.website/published/you-probably-shouldnt-be-annotating-focus-order/)
 
