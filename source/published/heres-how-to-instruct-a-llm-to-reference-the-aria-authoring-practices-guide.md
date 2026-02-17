@@ -111,7 +111,7 @@ I know that effort and care went into the creation of the APG’s code examples.
 
 However, I also get the sense that the APG’s code examples are not actively maintained. I think the code examples’ inclusion are poised to cause more harm than good. This is born of considering network effects combined with an LLM-first approach seeming to be how the industry is settling on building things.
 
-## I’m not building a LLM, but our organization is
+## I’m not working on a LLM, but our organization is
 
 It might be worth asking how your organization’s LLM(s) are approaching producing accessible frontend code. If referencing the APG, it also might be worth investigating how the LLM has specifically been instructed about going about it.
 
