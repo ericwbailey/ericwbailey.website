@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.99 - 2026-02-19
+- Add [Design systems can’t automate away all of your accessibility considerations](https://zeroheight.com/blog/design-systems-cant-automate-away-all-of-your-accessibility-considerations/)
+
 ## v1.5.98 - 2026-02-16
 - Add [Here’s how to instruct a LLM to reference the ARIA Authoring Practices Guide](https://ericwbailey.website/published/heres-how-to-instruct-a-llm-to-reference-the-aria-authoring-practices-guide/)
 
