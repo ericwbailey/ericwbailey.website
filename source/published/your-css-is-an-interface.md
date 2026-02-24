@@ -11,6 +11,10 @@ tags:
   - Development
   - Performance
 inlineStyles: true
+furtherReading:
+  - title: "Browsing tips"
+    source: "BryceWray.com"
+    url: https://www.brycewray.com/posts/2026/02/browsing-tips/
 sharedOn:
   twitter: https://twitter.com/ericwbailey/status/1460633423756894208
 eleventyNavigation:
