@@ -89,7 +89,8 @@ All that said, my not-smart TV will not:
 - Straight-up [spy on me](https://www.techdirt.com/2017/02/07/vizio-fined-22-million-not-telling-customers-their-tvs-were-spying-them/),
 - Be [caught up in a Center for Digital Democracy report to the Federal Trade Commission](https://arstechnica.com/gadgets/2024/10/streaming-industry-has-unprecedented-surveillance-manipulation-capabilities/),
 - [Get Copilot surprise jammed into it](https://www.tomshardware.com/service-providers/tv-providers/lg-tv-update-adds-non-removable-microsoft-copilot-app-to-webos),
-- [Use AI for emotional manipulation to coerce me into buying things](https://arstechnica.com/gadgets/2025/04/lg-tvs-integrated-ads-get-more-personal-with-tech-that-analyzes-viewer-emotions/), or
+- [Use AI for emotional manipulation to coerce me into buying things](https://arstechnica.com/gadgets/2025/04/lg-tvs-integrated-ads-get-more-personal-with-tech-that-analyzes-viewer-emotions/),
+- [DDoS websites in exchange for lowering the amounts of advertisements I don’t want or need to watch](https://www.theverge.com/column/885244/smart-tv-web-crawler-ai), or
 - [Do whatever the hell this is](https://cohost.org/ghoulnoise/post/5286766-do-not-buy-hisense-t).
 
 I would also like to extend kudos to the manufacturer, who included a separate single page leaflet on how to specifically [turn off telenovela mode](https://www.cined.com/the-soap-opera-effect-how-your-tv-is-destroying-cinematic-efforts/).
