@@ -40,6 +40,9 @@ furtherReading:
   - title: "Cops Forced to Explain Why AI Generated Police Report Claimed Officer Transformed Into Frog"
     source: Futurism
     url: https://futurism.com/artificial-intelligence/ai-police-report-frog
+  - title: "AIs can’t stop recommending nuclear strikes in war game simulations"
+    source: New Scientist
+    url: https://www.newscientist.com/article/2516885-ais-cant-stop-recommending-nuclear-strikes-in-war-game-simulations/
 series:
   previous:
     - title: "The Radium Craze"
