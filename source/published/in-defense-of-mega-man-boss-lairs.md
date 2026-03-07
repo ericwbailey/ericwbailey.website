@@ -195,7 +195,7 @@ There’s also variety in lair construction. This is smart, in that it means the
 
 Mega Man’s AGI is the real threat. Given that Dr. Light cannot spy into each lair, the best move is to deploy Mega Man, allow it to solve an unknown number of unknown challenges, and hope for the best.
 
-This is further reinforced by Mega Man’s ability to integrate a boss robot’s weapons into its own combat systems. This grant Mega Man additional firepower. It also allows it to analyze and adapt foreign code (hopefully sandboxed), to best figure out what future boss weaknesses to exploit.
+This is further reinforced by Mega Man’s ability to integrate a boss robot’s weapons into its own combat systems. This grants Mega Man additional firepower. It also allows it to analyze and adapt foreign code (hopefully sandboxed), to best figure out what future boss weaknesses to exploit.
 
 It appears that artificial intelligence is quite rare in Mega Man’s future. Every lair’s cannon fodder robots exhibit simplistic behavior, suggesting they have access to limited memory or artificial narrow intelligence at best. This is witnessed with things like [basic IFF](https://en.m.wikipedia.org/wiki/Identification_friend_or_foe) and machine vision target acquisition.
 
