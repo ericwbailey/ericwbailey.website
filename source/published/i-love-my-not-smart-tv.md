@@ -5,7 +5,6 @@ excerpt: "A TV is a passive device, used for passive consumption."
 date: 2021-04-07
 year: 2021
 tags:
-  - AI
   - Devices
 furtherReading:
   - title: "Your Smart TV Knows What You’re Watching"
@@ -20,11 +19,6 @@ furtherReading:
   - title: "Your TV set has become a digital billboard. And it’s only getting worse."
     source: "Ars Technica"
     url: https://arstechnica.com/gadgets/2024/08/tv-industrys-ads-tracking-obsession-is-turning-your-living-room-into-a-store/
-aroundTheWeb:
-  - title: Hacker News
-    url: https://news.ycombinator.com/item?id=26733126
-sharedOn:
-  twitter: https://twitter.com/ericwbailey/status/1379815177693110282
 series:
   next:
     - title: "I love my slightly smart TV"
@@ -86,14 +80,15 @@ All that said, my not-smart TV will not:
 - [Be part of a botnet](https://krebsonsecurity.com/2025/11/is-your-android-tv-streaming-box-part-of-a-botnet/),
 - [Show me ads when turned on and not being actively used](https://www.theverge.com/2024/9/26/24254935/lg-smart-tv-oled-screensaver-ads-idle-mode),
 - [Force me to watch ads before I can use the TV](https://arstechnica.com/gadgets/2025/03/roku-says-unpopular-autoplay-ads-are-just-a-test/),
+- Eventually start to [charge me for operating system updates](https://www.theverge.com/2024/8/27/24229429/samsung-ai-smart-tvs-tizen-os-seven-years-updates),
 - Straight-up [spy on me](https://www.techdirt.com/2017/02/07/vizio-fined-22-million-not-telling-customers-their-tvs-were-spying-them/),
 - Be [caught up in a Center for Digital Democracy report to the Federal Trade Commission](https://arstechnica.com/gadgets/2024/10/streaming-industry-has-unprecedented-surveillance-manipulation-capabilities/),
 - [Get Copilot surprise jammed into it](https://www.tomshardware.com/service-providers/tv-providers/lg-tv-update-adds-non-removable-microsoft-copilot-app-to-webos),
 - [Use AI for emotional manipulation to coerce me into buying things](https://arstechnica.com/gadgets/2025/04/lg-tvs-integrated-ads-get-more-personal-with-tech-that-analyzes-viewer-emotions/),
+- [Show me ads when I try to switch inputs, change channels, or navigate to its home screen](https://www.tomshardware.com/tech-industry/big-tech/hisense-tvs-force-owners-to-watch-intrusive-ads-when-switching-inputs-visiting-the-home-screen-or-even-changing-channels-practice-infuriates-consumers-brand-denies-wrongdoing),
 - [DDoS websites in exchange for lowering the amounts of advertisements I don’t want or need to watch](https://www.theverge.com/column/885244/smart-tv-web-crawler-ai), or
 - [Do whatever the hell this is](https://cohost.org/ghoulnoise/post/5286766-do-not-buy-hisense-t).
 
 I would also like to extend kudos to the manufacturer, who included a separate single page leaflet on how to specifically [turn off telenovela mode](https://www.cined.com/the-soap-opera-effect-how-your-tv-is-destroying-cinematic-efforts/).
 
 A TV is a passive device, used for passive consumption. I want operating it to be on par with turning on my shower and setting the temperature to something comfortable. This is to say that not every device needs to be smart.
-
