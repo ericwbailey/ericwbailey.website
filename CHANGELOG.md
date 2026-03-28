@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.100 - 2026-03-27
+- Replace [Gauges](https://get.gaug.es/) analytics with [Plausible](https://plausible.io/)
+
 ## v1.5.99 - 2026-02-19
 - Add [Design systems can’t automate away all of your accessibility considerations](https://zeroheight.com/blog/design-systems-cant-automate-away-all-of-your-accessibility-considerations/)
 
