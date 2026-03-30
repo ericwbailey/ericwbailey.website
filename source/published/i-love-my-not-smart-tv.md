@@ -75,6 +75,7 @@ All that said, my not-smart TV will not:
 - Subject me to [hate-speech disseminating](https://www.wsj.com/articles/islamic-state-turns-to-nfts-to-spread-terror-message-11662292800) [NFTs](https://www.theverge.com/2022/9/4/23336997/lg-bringing-nfts-smart-tvs-cryptocurrency),
 - Update itself to make me [scream “McDonald’s!” to skip an ad](https://www.fastcompany.com/90185994/sony-files-patent-to-make-tv-ads-into-video-games),
 - [Become bricked because of an update pushed out by my ISP](https://arstechnica.com/gadgets/2024/09/telecom-accused-of-bricking-hundreds-of-tvs-streaming-sticks-with-bad-update/),
+- [Require a Walmart account](https://arstechnica.com/gadgets/2026/03/newly-purchased-vizio-tvs-now-require-walmart-accounts-to-use-smart-features/) to use certain features,
 - [Store conversations I have](https://www.techdirt.com/2015/02/09/samsungs-smart-tvs-are-collecting-storing-your-private-conversations/) in the room the TV is placed in,
 - Be [the topic of a dedicated Consumer Reports guide](https://www.consumerreports.org/electronics/privacy/how-to-turn-off-smart-tv-snooping-features-a4840102036/),
 - [Be part of a botnet](https://krebsonsecurity.com/2025/11/is-your-android-tv-streaming-box-part-of-a-botnet/),
