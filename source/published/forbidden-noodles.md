@@ -79,6 +79,12 @@ The criticism and ban was met with global public outcry. The 1930s were also a t
 
 The Kobe-based Jumbo Ferry company learned firsthand the perils of practicing graphic design without proper training. The sign they made was meant to indicate that [noodles sold by the galley were one of the items not to be taken into the boat’s guest rooms](https://japan.postsen.com/live-style/30231/Udon-is-prohibited-The-topic-of-prohibited-noodle-mark-in-the-passenger-cabin-of-the-ferry-connecting-Kagawa-%E2%80%A6-Reason-for-posting-to-ask-the-operating-company-J-CAST-News%5BFull-text%5D.html). The sign went viral on Twitter as it was interpreted as indicating the entire boat was an udon-free zone.
 
+## Nuclear pasta
+
+A [theoretical type of degenerate matter](https://en.wikipedia.org/wiki/Nuclear_pasta) that may exist within the crust of a Neutron star. This matter is hypothesized to undergo multiple phase changes as it gets closer to the extreme pressure of the neutron star’s core.
+
+Nuclear pasta starts with a gnocchi phase, where the matter is imagined to be a semi-spherical shape. It then enters the spaghetti phase as the matter is crushed into long, rod shapes. Following that is the lasagna phase, where the rod-shaped fuses into sheets. A bucatini phase is also postulated, where the matter is tubular with a hollow core.
+
 ## Kristi D’s pasta
 
 The members of the Rate My Plate Facebook group collectively recoiled at a submission by a user named Kristi D. Her entry, “[classic pasta and gravy](https://www.mirror.co.uk/news/weird-news/people-want-woman-banned-italy-21483051.amp),” crossed an unspoken line. Shock and outrage were voiced, including a call for her to be banned from entering Italy.
