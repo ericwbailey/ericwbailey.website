@@ -83,7 +83,7 @@ The Kobe-based Jumbo Ferry company learned firsthand the perils of practicing gr
 
 A [theoretical type of degenerate matter](https://en.wikipedia.org/wiki/Nuclear_pasta) that may exist within the crust of a Neutron star. This matter is hypothesized to undergo multiple phase changes as it gets closer to the extreme pressure of the neutron star’s core.
 
-Nuclear pasta starts with a gnocchi phase, where the matter is imagined to be a semi-spherical shape. It then enters the spaghetti phase as the matter is crushed into long, rod shapes. Following that is the lasagna phase, where the rod-shaped fuses into sheets. A bucatini phase is also postulated, where the matter is tubular with a hollow centet.
+Nuclear pasta starts with a gnocchi phase, where the matter is imagined to be a semi-spherical shape. It then enters the spaghetti phase as the matter is crushed into long, rod shapes. Following that is the lasagna phase, where the rod-shaped fuses into sheets. A bucatini phase is also postulated, where the matter is tubular with a hollow center.
 
 ## Kristi D’s pasta
 
