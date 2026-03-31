@@ -2,7 +2,7 @@
 layout: "layouts/post.njk"
 title: Forbidden noodles
 source: ericwbailey.website
-excerpt: "My obsession with food-based taxonomy continues."
+excerpt: "My obsession with food-based taxonomy continues"
 date: 2021-08-24
 year: 2021
 tags:
