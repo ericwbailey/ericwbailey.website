@@ -86,4 +86,6 @@ Some established trust is cashed in. The author is allowed some space to wax phi
 
 ## A conclusion
 
-The bold first sentence is revisited now that the reader has completed learning about the concept being discussed. A subsequent sentence explicitly ties the nuance the rest of the content discusses to the overall point. The reader is thanked, and the content ends.
+The bold first sentence is revisited now that the reader has completed learning about the concept being discussed. A subsequent sentence explicitly ties the nuance the rest of the content discusses to the overall point. 
+
+The reader is thanked, and the content ends.
