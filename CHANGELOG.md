@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.101 - 2026-04-09
+- Add [A compelling title that is cryptic enough to get you to take action on it](https://ericwbailey.website/published/a-compelling-title-that-is-cryptic-enough-to-get-you-to-take-action-on-it/)
+
 ## v1.5.100 - 2026-03-27
 - Replace [Gauges](https://get.gaug.es/) analytics with [Plausible](https://plausible.io/)
 
