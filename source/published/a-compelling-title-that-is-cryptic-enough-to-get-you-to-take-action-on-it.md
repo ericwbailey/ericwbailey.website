@@ -24,7 +24,7 @@ A bold first sentence that draws you in. A steering second sentence to set you f
   loading="lazy"
   src="{{ '/img/posts/a-compelling-title-that-is-cryptic-enough-to-get-you-to-take-action-on-it/hero-image.svg' | url }}" />
 
-Following is an initial explanatory paragraph. It serves to help back up the previous paragraphs, and start to ground it in more applicable information. Expectations are set, and potential skepticism is addressed. A [link to prior art](/) is supplied, to provide additional context.
+Following is an initial explanatory paragraph. It serves to help back up the previous paragraphs, and start to ground it in more applicable information. Expectations are set, and potential skepticism is addressed. A <a id="link-to-prior-art" href="#link-to-prior-art">link to prior art</a> is supplied, to provide additional context.
 
 There is then a paragraph that serves as a segue. It connects the high-level concepts and begins to draw them down the realm of the practical.
 
@@ -44,7 +44,7 @@ A follow-up paragraph at the end of a subsection may allude to the author‘s op
 
 ## Another subheading
 
-The next concept is addressed, **getting more technical as the reader becomes more acclimated**. [A link to a peer resource is threaded in](/) as an appeal to authority, to help reinforce confidence in the author.
+The next concept is addressed, **getting more technical as the reader becomes more acclimated**. <a id="a-link-to-a-peer-resource-is-threaded-in" href="#a-link-to-a-peer-resource-is-threaded-in">A link to a peer resource is threaded in</a> as an appeal to authority, to help reinforce confidence in the author.
 
 An ordered list is used to:
 
