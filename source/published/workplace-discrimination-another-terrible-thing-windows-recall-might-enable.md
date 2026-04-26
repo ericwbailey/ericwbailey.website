@@ -22,6 +22,9 @@ furtherReading:
   - title: "Microsoft Recall screenshots credit cards and Social Security numbers, even with the “sensitive information” filter enabled"
     source: "Tom's Hardware"
     url: https://www.tomshardware.com/software/windows/microsoft-recall-screenshots-credit-cards-and-social-security-numbers-even-with-the-sensitive-information-filter-enabled
+  - title: "Exclusive: Meta to start capturing employee mouse movements, keystrokes for AI training data"
+    source: "Reuters"
+    url: https://www.reuters.com/sustainability/boards-policy-regulation/meta-start-capturing-employee-mouse-movements-keystrokes-ai-training-data-2026-04-21/
 share:
   facebookDescription: "The Windows Recall logo, with its center portion replaced with an unsettling, staring eye."
   twitterDescription: "The Windows Recall logo, with its center portion replaced with an unsettling, staring eye."
