@@ -6,7 +6,6 @@ excerpt: "The idea of “solving” alternate text descriptions by automating th
 date: 2024-03-12
 year: 2024
 tags:
-  - AI
   - Accessibility
   - Alt Text
   - Approach
@@ -16,6 +15,7 @@ tags:
   - Environment
   - Inclusion
   - Internet
+  - LLMs
   - Social Media
 share:
   facebookDescription: "A small badge that reads, 'alt'."

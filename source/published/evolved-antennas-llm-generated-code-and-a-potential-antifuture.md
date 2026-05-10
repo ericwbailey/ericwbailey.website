@@ -6,11 +6,12 @@ excerpt: "Being open and transparent is a radical strength, not a weakness"
 date: 2026-05-11
 year: 2026
 tags:
-  - AI
   - Accessibility
   - Approach
   - Cognition
+  - Inclusion
   - Internet
+  - LLMs
   - Subversion
 attribution: "Thank you to <a href='https://edwardloveall.com/'>Edward Loveall</a> for his feedback."
 share:

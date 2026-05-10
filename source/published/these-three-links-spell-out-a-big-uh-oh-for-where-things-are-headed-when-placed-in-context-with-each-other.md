@@ -6,9 +6,9 @@ excerpt: "Yikes"
 date: 2024-07-29
 year: 2024
 tags:
-  - AI
   - Cognition
   - Internet
+  - LLMs
 share:
   facebookDescription: "A comic baloon saying, 'uh oh'. Drawn in the style of webcomic name by Alex Norris."
   twitterDescription: "A comic baloon saying, 'uh oh'. Drawn in the style of webcomic name by Alex Norris."

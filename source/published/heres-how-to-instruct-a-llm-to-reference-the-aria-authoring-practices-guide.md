@@ -6,7 +6,6 @@ excerpt: "The deck is a bit stacked, folks"
 date: 2026-02-16
 year: 2026
 tags:
-  - AI
   - Accessibility
   - Approach
   - ARIA
@@ -15,6 +14,7 @@ tags:
   - Development
   - Harm Reduction
   - HTML
+  - LLMs
 share:
   facebookDescription: "Pruning shears."
   twitterDescription: "Pruning shears."
@@ -99,9 +99,9 @@ This might change over time, but right now it seems to help to push a LLM toward
 
 The more complicated a component is, the higher the chance it will need tweaks to its underlying structure to interface with assistive technology as expected.
 
-Content like [disclosures](https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/) are both simple and well-established. This means they have good support. As a spicy twist here, the APG’s recommendation of `aria-controls` fails to mention that JAWS is the only screen reader to support the declaration, thus reinforcing the larger point of this post. 
+Content like [disclosures](https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/) are both simple and well-established. This means they have good support. As a spicy twist here, the APG’s recommendation of `aria-controls` fails to mention that JAWS is the only screen reader to support the declaration, thus reinforcing the larger point of this post.
 
-Content like tree views are far more complex. They [need intervention to work as expected](https://github.blog/engineering/user-experience/considerations-for-making-a-tree-view-component-accessible/#fix-interoperability-issues) across a spread of popular assistive technologies. 
+Content like tree views are far more complex. They [need intervention to work as expected](https://github.blog/engineering/user-experience/considerations-for-making-a-tree-view-component-accessible/#fix-interoperability-issues) across a spread of popular assistive technologies.
 
 This range of differences is even more true as these entities are brought out of the realm of the platonic and are integrated into the real-world ecosystems that are your websites and web apps—with all their constituent functionality and content needs.
 

@@ -6,8 +6,8 @@ excerpt: "We don’t live in a purely deterministic world of technology anymore"
 date: 2025-02-04
 year: 2025
 tags:
-  - AI
   - History
+  - LLMs
   - Series
 furtherReading:
   - title: "Stanislav Petrov: The Unsung Hero Who Saved the World from Nuclear Annihilation"
@@ -35,7 +35,7 @@ furtherReading:
     source: "Futurism"
     url: https://futurism.com/science-energy/trump-altman-plutonium-oklo
   - title: "Pete Hegseth announces new military platform: 'The future of American warfare is here'"
-    source: MSN 
+    source: MSN
     url: https://www.msn.com/en-us/technology/artificial-intelligence/pete-hegseth-announces-new-military-platform-the-future-of-american-warfare-is-here/ar-AA1S1H7c
   - title: "Cops Forced to Explain Why AI Generated Police Report Claimed Officer Transformed Into Frog"
     source: Futurism

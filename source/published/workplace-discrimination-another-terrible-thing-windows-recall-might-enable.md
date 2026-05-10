@@ -6,11 +6,11 @@ excerpt: "I am not a fan of Windows Recall the same way I am not a fan of most A
 date: 2024-06-06
 year: 2024
 tags:
-  - AI
   - Cognition
   - Devices
   - Environment
   - Inclusion
+  - LLMs
   - Subversion
 furtherReading:
   - title: "Microsoft’s Recall Feature Is Even More Hackable Than You Thought"

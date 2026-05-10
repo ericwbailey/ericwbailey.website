@@ -6,13 +6,13 @@ excerpt: "The rubric I use to evaluate these products remains very similar to ho
 date: 2025-02-14
 year: 2025
 tags:
-  - AI
   - Alt Text
   - Accessibility
   - Approach
   - Assistive Technology
   - Browser Extensions
   - Devices
+  - LLMs
   - Overlays
 furtherReading:
   - title: "Be Wary of Add-on Accessibility"
