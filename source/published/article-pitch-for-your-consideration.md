@@ -6,10 +6,10 @@ excerpt: "A thing you should know is that you get put on a lot of lists"
 date: 2025-04-08
 year: 2025
 tags:
-  - AI
   - Approach
   - Cognition
   - Internet
+  - LLMs
   - Social Media
   - Subversion
 series:

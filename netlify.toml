@@ -1,4 +1,8 @@
 [[redirects]]
+from = "/tags/ai/"
+to = "/tags/llms/"
+
+[[redirects]]
 from = "/accessibility-statement.html"
 to = "/accessibility-statement/"
 

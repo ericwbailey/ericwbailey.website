@@ -6,10 +6,10 @@ excerpt: "A few years ago I made a New Year’s Eve resolution to stop overthink
 date: 2024-03-05
 year: 2024
 tags:
-  - AI
   - Accessibility
   - Assistive Technology
   - Inclusion
+  - LLMs
 furtherReading:
   - title: "We need to talk about Jakob"
     source: "Practical Tips"
