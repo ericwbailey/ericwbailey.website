@@ -155,7 +155,7 @@ More abstractly, this entire model of operation is antithetical to [one of the m
 
 The lifespan of these ideas are also tiny blips compared to the centuries of traditional power structures and systems that came before them. It’s also enough time for said structures and systems to figure out how to address these existential threats and [return things to how they prefer to operate](https://skeenapublishers.com/journals/ijeti/fulltext-ijeti-02-00014-php/).
 
-Being robbed of the profound openess and transparency we have become accustomed to means that **we place control of reality in the hands of** [**closed, unaccountable organizations**](https://larsfaye.com/articles/agentic-coding-is-a-trap#vendor-lock-in). Here, we need to think deeper than code.
+Being robbed of the profound openness and transparency we have become accustomed to means that **we place control of reality in the hands of** [**closed, unaccountable organizations**](https://larsfaye.com/articles/agentic-coding-is-a-trap#vendor-lock-in). Here, we need to think deeper than code.
 
 ## Antifuture
 
