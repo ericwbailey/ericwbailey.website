@@ -13,6 +13,10 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 ## v1.5.103 - 2026-05-12
 - Add [Building a general-purpose accessibility agent—and what we learned in the process](https://github.blog/ai-and-ml/github-copilot/building-a-general-purpose-accessibility-agent-and-what-we-learned-in-the-process/)
 
+## v1.5.102 - 2026-05-11
+- Add [Evolved antennas, LLM-generated code, and a potential antifuture](https://ericwbailey.website/published/evolved-antennas-llm-generated-code-and-a-potential-antifuture/)
+- Replace and redirect the "AI" tag to "LLMs"
+
 ## v1.5.101 - 2026-04-09
 - Add [A compelling title that is cryptic enough to get you to take action on it](https://ericwbailey.website/published/a-compelling-title-that-is-cryptic-enough-to-get-you-to-take-action-on-it/)
 
