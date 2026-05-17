@@ -125,7 +125,7 @@ You can point it at [the WAI-ARIA specification](https://www.w3.org/TR/wai-aria/
 
 Another thing to consider is **granularly explaining the relationship between ARIA usage and human-facing value** in your documentation. These more discrete, per-component examples will probably also help guard against unwanted hallucinations.
 
-As an aside: We live in a liminal space where LLM-optimized instructional content still approximately resembles human-friendly language. I wish an appeal to human-facing value was enough to incentivize organizations to invest in good documentation, but I’ll take what I can get.
+As an aside: We live in a liminal space where LLM-optimized instructional content still [approximately resembles human-friendly language](https://ericwbailey.website/published/evolved-antennas-llm-generated-code-and-a-potential-antifuture/). I wish an appeal to human-facing value was enough to incentivize organizations to invest in good documentation, but I’ll take what I can get.
 
 ## So, what about ARIA that isn’t supported by assistive technology?
 
