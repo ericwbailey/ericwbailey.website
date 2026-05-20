@@ -25,6 +25,9 @@ furtherReading:
   - title: "Exclusive: Meta to start capturing employee mouse movements, keystrokes for AI training data"
     source: "Reuters"
     url: https://www.reuters.com/sustainability/boards-policy-regulation/meta-start-capturing-employee-mouse-movements-keystrokes-ai-training-data-2026-04-21/
+  - title: "An Engineer’s Post Protesting Laptop Surveillance Is Going Viral Inside Meta"
+    source: Wired
+    url: https://www.wired.com/story/meta-employee-protest-mouse-tracking-surveillance-ai-training/
 share:
   facebookDescription: "The Windows Recall logo, with its center portion replaced with an unsettling, staring eye."
   twitterDescription: "The Windows Recall logo, with its center portion replaced with an unsettling, staring eye."
