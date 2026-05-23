@@ -275,7 +275,7 @@ In addition, content like `aria-label`s are [oftentimes forgotten about as a con
 
 This means that both browsers and people may fail to provide a fully translated experience in situations where `aria-label` is utilized.
 
-### 7. It is difficult to copy `aria-label` content or otherwise manipulated it as text
+### 7. It is difficult to copy `aria-label` content or otherwise manipulate it as text
 
 Text content is incredibly versatile. Right clicking on even a single word reveals a whole host of options for things we can do. You can copy it, cut it, define it, search the web for it, translate it, speak it aloud, link to it, print it, clip it, archive it, share it, etc.
 
