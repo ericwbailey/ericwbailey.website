@@ -19,6 +19,9 @@ furtherReading:
   - title: "Your TV set has become a digital billboard. And it’s only getting worse."
     source: "Ars Technica"
     url: https://arstechnica.com/gadgets/2024/08/tv-industrys-ads-tracking-obsession-is-turning-your-living-room-into-a-store/
+  - title: "Yearslong fight over users’ right to tweak smart TV software heads to trial"
+    source: "Ars Technica"
+    url: https://arstechnica.com/gadgets/2026/05/inside-the-fight-to-force-vizio-to-share-linux-based-source-code-for-its-tvs-os/
 series:
   next:
     - title: "I love my slightly smart TV"
