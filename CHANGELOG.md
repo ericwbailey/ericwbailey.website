@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.104 - 2026-05-30
+- Add [What I wish someone told me when I first started using ARIA](https://webexpo.net/prague2026/sessions/eric-bailey-2026/), delivered at WebExpo
+
 ## v1.5.103 - 2026-05-12
 - Add [Building a general-purpose accessibility agent—and what we learned in the process](https://github.blog/ai-and-ml/github-copilot/building-a-general-purpose-accessibility-agent-and-what-we-learned-in-the-process/)
 
