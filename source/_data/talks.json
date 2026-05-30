@@ -14,7 +14,7 @@
     {
       "title": "Accessibility at Scale",
       "url": "https://noti.st/ericwbailey/bYNh0Y/accessibility-at-scale",
-      "featured": true,
+      "featured": false,
       "locations": [
         {
           "description": "Keynote speaker for <a rel='external' href='https://www.enterjs.de/single?id=8411&keynote%3A-accessibility-at-scale'>enterJS 2019</a>",
@@ -55,7 +55,7 @@
     {
       "title": "Be the Villain",
       "url": "https://noti.st/ericwbailey/QGBiUS/be-the-villain",
-      "featured": true,
+      "featured": false,
       "locations": [
         {
           "description": "<a rel='external' href='https://www.deque.com/axe-con/sessions/be-the-villain/'>axe-con</a>",
@@ -84,7 +84,7 @@
     {
       "title": "Designing for Inclusion with Media Queries",
       "url": "https://noti.st/ericwbailey/QxdLmO/designing-for-inclusion-with-media-queries/",
-      "featured": true,
+      "featured": false,
       "locations": [
         {
           "description": "<a rel='external' href='https://www.inclusivedesign24.org/2017/#talk2'>Inclusive Design 24 2017</a>",
@@ -192,7 +192,7 @@
     {
       "title": "The Intersection of Performance and Accessibility",
       "url": "https://noti.st/ericwbailey/Yfyaxa/the-intersection-of-performance-and-accessibility",
-      "featured": true,
+      "featured": false,
       "locations": [
         {
           "description": "<a href='https://youtu.be/EGKNN4MVLq8' rel='external'>#PerfMatters Conference 2019</a>",
@@ -209,6 +209,17 @@
         {
           "description": "<a href='https://perfnow.nl/speakers#eric' rel='external'>performance.now()</a>",
           "year": 2024
+        }
+      ]
+    },
+    {
+      "title": "What I wish someone told me when I first started using ARIA",
+      "url": "https://webexpo.net/prague2026/sessions/eric-bailey-2026/",
+      "featured": true,
+      "locations": [
+        {
+          "description": "<a href='https://webexpo.net/prague2026/sessions/eric-bailey-2026/' rel='external'>WebExpo 2026</a>",
+          "year": 2026
         }
       ]
     },
