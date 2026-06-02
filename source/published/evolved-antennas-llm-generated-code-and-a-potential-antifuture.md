@@ -14,6 +14,10 @@ tags:
   - LLMs
   - Subversion
 attribution: "Thank you to <a href='https://edwardloveall.com/'>Edward Loveall</a> for his feedback."
+furtherReading:
+  - title: "The Feeling of Control Slipping Away"
+    source: "The Atlantic"
+    url: https://www.theatlantic.com/technology/2026/05/ai-agents-agency-crisis-humanity/687379/?gift=nwn-guseqS6cY1kVeEKZAbJjBi3CIgGDFHXy4BJ0JzE
 share:
   facebookDescription: "An evolved antenna, a chaotic, spidery collection of wires extending from a small base."
   twitterDescription: "An evolved antenna, a chaotic, spidery collection of wires extending from a small base."
