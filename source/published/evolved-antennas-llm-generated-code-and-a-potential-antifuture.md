@@ -72,7 +72,7 @@ Nowadays function and variable names are long and luxurious. We’re inundated w
 
 In fact, we’ve gotten so good at using text that we built software to produce it for us, on demand and at volume.
 
-There have been some good things to come out of this development if you make digital experiences for a living. Concerns such as documentation, design systems, styleguides, and other vital-yet-neglected areas of the practice are suddenly critical for operations.
+There have been some good things to come out of this development if you make digital experiences for a living. [Concerns such as documentation](https://deadsimpletech.com/blog/docs-shit-bad-at-teaching), design systems, styleguides, and other vital-yet-neglected areas of the practice are suddenly critical for operations.
 
 It turns out that written words that help to explain things and create consistency are extremely important. Who knew!
 
