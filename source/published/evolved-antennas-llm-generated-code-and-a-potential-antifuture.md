@@ -76,7 +76,7 @@ There have been some good things to come out of this development if you make dig
 
 It turns out that written words that help to explain things and create consistency are extremely important. Who knew!
 
-Here, I must confess: As someone who has long-favored these downplayed and underfunded areas of the trade, I have found myself ugly laughing at this tragicomic phenomenon. I also know that being able to feel this smug ruefulness is on borrowed time.
+Here, I must confess: As someone who has long-favored these downplayed and underfunded areas of the trade, I have found myself [ugly laughing at this tragicomic phenomenon](https://blog.murphytrueman.com/the-parts-of-your-system-you-never-wrote-down/). I also know that being able to feel this smug ruefulness is on borrowed time.
 
 Returning to this sudden explosion of text content—as well as [other factors](https://www.bloodinthemachine.com/p/how-big-tech-is-force-feeding-us)—we now have words for everyone who wants, or may eventually need them.
 
