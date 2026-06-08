@@ -22,6 +22,9 @@ furtherReading:
   - title: "Yearslong fight over users’ right to tweak smart TV software heads to trial"
     source: "Ars Technica"
     url: https://arstechnica.com/gadgets/2026/05/inside-the-fight-to-force-vizio-to-share-linux-based-source-code-for-its-tvs-os/
+  - title: "Class Action Lawsuit Claims Roku Illegally Collects, Distributes Children’s Personal Data"
+    source: "ClassAction.org"
+    url: https://www.classaction.org/news/class-action-lawsuit-claims-roku-illegally-collects-distributes-childrens-personal-data
 series:
   next:
     - title: "I love my slightly smart TV"
@@ -91,7 +94,8 @@ All that said, my not-smart TV will not:
 - [Get Copilot surprise jammed into it](https://www.tomshardware.com/service-providers/tv-providers/lg-tv-update-adds-non-removable-microsoft-copilot-app-to-webos),
 - [Use AI for emotional manipulation to coerce me into buying things](https://arstechnica.com/gadgets/2025/04/lg-tvs-integrated-ads-get-more-personal-with-tech-that-analyzes-viewer-emotions/),
 - [Show me ads when I try to switch inputs, change channels, or navigate to its home screen](https://www.tomshardware.com/tech-industry/big-tech/hisense-tvs-force-owners-to-watch-intrusive-ads-when-switching-inputs-visiting-the-home-screen-or-even-changing-channels-practice-infuriates-consumers-brand-denies-wrongdoing),
-- [DDoS websites in exchange for lowering the amounts of advertisements I don’t want or need to watch](https://www.theverge.com/column/885244/smart-tv-web-crawler-ai), or
+- [DDoS websites in exchange for lowering the amounts of advertisements I don’t want or need to watch](https://www.theverge.com/column/885244/smart-tv-web-crawler-ai),
+- [Be a node in the “AI scraping economy”](https://blog.includesecurity.com/2026/06/the-smart-tv-in-your-livingroom-is-a-node-in-the-aiscraping-economy/), or
 - [Do whatever the hell this is](https://cohost.org/ghoulnoise/post/5286766-do-not-buy-hisense-t).
 
 I would also like to extend kudos to the manufacturer, who included a separate single page leaflet on how to specifically [turn off telenovela mode](https://www.cined.com/the-soap-opera-effect-how-your-tv-is-destroying-cinematic-efforts/).
