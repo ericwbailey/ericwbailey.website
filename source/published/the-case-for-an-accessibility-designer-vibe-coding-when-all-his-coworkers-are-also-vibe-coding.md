@@ -85,7 +85,7 @@ I also know people who use assistive technology who share my views on LLMs. We t
 
 One person in particular pointed out that prior to this, the only real move was to file a support ticket and hope for the best. And reader, we all know what happens in this situation.
 
-Through the lens of power, this is a historically underserved demographic utilizing the tools made available to them to get what they want or need. It follows a long history of disabled people being forced to rely on ingenuity to overcome systemic barriers.
+Through the lens of power, this is a historically underserved demographic [utilizing the tools made available to them to get what they want or need](https://blakewatson.com/journal/i-used-claude-code-and-gsd-to-build-the-accessibility-tool-ive-always-wanted/). It follows a long history of disabled people being forced to rely on ingenuity to overcome systemic barriers.
 
 ## Zooming out
 
