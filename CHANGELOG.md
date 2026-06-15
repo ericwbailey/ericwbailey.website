@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.106 - 2026-06-15
+- Add [The case for an accessibility designer vibe coding when all his coworkers are also vibe coding](https://ericwbailey.website/published/the-case-for-an-accessibility-designer-vibe-coding-when-all-his-coworkers-are-also-vibe-coding/)
+
 ## v1.5.105 - 2026-06-03
 - Replace with Fathom with Plausible
 
