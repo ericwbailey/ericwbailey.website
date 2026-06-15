@@ -59,7 +59,7 @@ I think it is also worth pointing out that contemporary business culture does no
 
 In pre-LLM-based product design, accessibility efforts manifested as negotiations around time spent versus bare-minimum legal compliance. In other words: Sneak what you can in with the time made available to you.
 
-In post-LLM-based product design, the time to create and verify these more historically effortful experiences is commpressed. It has taken me only a few days—and sometimes even hours—to repair components and experiences that traditionally were non-starters in terms of resourcing.
+In post-LLM-based product design, the time to create and verify these more historically effortful experiences is compressed. It has taken me only a few days—and sometimes even hours—to repair components and experiences that traditionally were non-starters in terms of resourcing.
 
 Here, I consider myself as doing my job, but I also know the organization views it as going the extra mile. However, the shorter turnaround time makes the organization’s concern far, far lower.
 
