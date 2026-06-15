@@ -52,6 +52,9 @@ furtherReading:
   - title: "Crip Technoscience Manifesto"
     source: "Aimi Hamraie and Kelly Fritsch"
     url: https://catalystjournal.org/index.php/catalyst/article/download/29607/24772?inline=1
+  - title: "The Largest Review of Synthetic Participants Ever Conducted Found Exactly What You'd Expect. Synthetic Users Don't Work."
+    source: "The Voice of User"
+    url: https://www.thevoiceofuser.com/the-largest-review-of-synthetic-participants-ever-conducted-found-exactly-what-youd-expect-synthetic-users-dont-work/
 attribution: "Thank you to <a href='https://www.joshkimux.com/'>Josh Kim</a> for his invaluable feedback, insights, and reading recommendations. I couldn’t have written this without your support. Seriously, you’re a treasure."
 share:
   facebookDescription: "The silhouette of a World War II fighter plane. Empty holes are clustered around its wings, tail and behind the cockpit area."
