@@ -31,7 +31,7 @@ Emotionally, I feel like someone is holding a gun to the back of my head, and th
 
 ## Who is being centered?
 
-While we race the clock to figure out how to make all this [productive](https://joshcollinsworth.com/blog/productivity#studies-on-the-impact-of-llms-on-developer-productivity) or [profitable](https://isaiprofitable.com/), the question I keep asking myself is: Am I letting my own personal beliefs and biases affect the outcome I ultimately want?
+While the industry races the clock to figure out how to make all this [productive](https://joshcollinsworth.com/blog/productivity#studies-on-the-impact-of-llms-on-developer-productivity) or [profitable](https://isaiprofitable.com/), the question I keep asking myself is: Am I letting my own personal beliefs and biases affect the outcome I ultimately want?
 
 For me, the desirable outcome is **enabling disabled people to use technology where they previously could not**.
 
@@ -95,7 +95,7 @@ Writing fixes, as well as setting up the future-proofing bullwarks requires net 
 
 [LLM-based development is undeniably making the internet less accessible (PDF)](https://eprints.soton.ac.uk/511781/1/Critical_Approaches_to_AI_and_Accessibility_Capacity_Building.pdf). My efforts are a drop in a bucket.
 
-I also have zero patience for the [magical thinking](https://en.wikipedia.org/wiki/Magical_thinking)-based future people will inevitably counter with when confronted with this fact—where agentic operation somehow sidesteps this problem entirely.
+I also have zero patience for the [magical thinking](https://en.wikipedia.org/wiki/Magical_thinking)-based future people will inevitably counter with when confronted with this fact—where [agentic operation somehow sidesteps this problem entirely](https://annaecook.com/writing/2026/ai-doesnt-fix-accessible-systems-it-depends-on-them).
 
 That said, I am also pragmatic.
 
