@@ -14,6 +14,16 @@ tags:
   - Development
   - Environment
   - Inclusion
+furtherReading:
+  - title: "AI and brain-computer interface allow speechless ALS patient to work a full-time job"
+    source: "The Register"
+    url: https://www.theregister.com/science/2026/06/16/ai-and-brain-computer-interface-allow-speechless-als-patient-to-work-a-full-time-job/5256492
+  - title: "Screen readers do not need to be saved by AI"
+    source: "Craig Abbott"
+    url: https://www.craigabbott.co.uk/blog/2025/screen-readers-do-not-need-saved-by-ai/
+  - title: "AI Job Grief: The Unnamed Psychological Crisis Hitting Tech Workers"
+    source: "Jack Maguire"
+    url: https://jackmaguire.org/blog/ai-job-grief/
 share:
   facebookDescription: "A chat input that contains the text, 'Replace span elements with role equals button declared on them with button elements'."
   twitterDescription: "A chat input that contains the text, 'Replace span elements with role equals button declared on them with button elements'."
