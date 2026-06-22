@@ -15,6 +15,9 @@ furtherReading:
   - title: "Browsing tips"
     source: "BryceWray.com"
     url: https://www.brycewray.com/posts/2026/02/browsing-tips/
+  - title: "Building an LLM safe design system"
+    source: "Polar"
+    url: https://polar.sh/blog/orbit-llm-safe-design-system
 sharedOn:
   twitter: https://twitter.com/ericwbailey/status/1460633423756894208
 eleventyNavigation:
