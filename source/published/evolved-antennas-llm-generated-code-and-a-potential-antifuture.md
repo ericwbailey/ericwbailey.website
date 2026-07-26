@@ -24,6 +24,9 @@ furtherReading:
   - title: "Companies Are Making Claude and Codex Talk Like Cavemen to Stop AI’s Soaring Costs"
     source: "404 Media"
     url: https://www.404media.co/companies-are-making-claude-and-codex-talk-like-cavemen-to-stop-ais-soaring-costs/
+  - title: "The Tower Keeps Rising"
+    source: "Armin Ronacher"
+    url: https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/
 share:
   facebookDescription: "An evolved antenna, a chaotic, spidery collection of wires extending from a small base."
   twitterDescription: "An evolved antenna, a chaotic, spidery collection of wires extending from a small base."
