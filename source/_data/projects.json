@@ -66,6 +66,12 @@
       "description": "Layout, design, and typography"
     },
     {
+      "title":       "What Can't I Press?",
+      "url":         "https://github.com/ericwbailey/what-cant-i-press",
+      "description": "Lists what keyboard shortcuts are claimed",
+      "schema":      "SoftwareApplication"
+    },
+    {
       "title":       "You Dubber",
       "additional":  "(autoplaying media)",
       "url":         "http://www.youdubber.com/index.php?video=bO9ugnn8DbE&video_start=0&audio=B1i4UgkC_kI&audio_start=0",
