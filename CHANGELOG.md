@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.108 - 2026-08-04
+- Add [Here’s yet another metaphor about tech debt](https://ericwbailey.website/published/heres-yet-another-metaphor-about-tech-debt/)
+
 ## v1.5.107 - 2026-07-29
 - Add [Announcing What Can't I Press?](https://ericwbailey.website/published/announcing-what-cant-i-press/)
 
