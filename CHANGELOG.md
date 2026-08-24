@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.109 - 2026-08-25
+- Add [A proposal for new Netflix content rating icons](https://ericwbailey.website/published/a-proposal-for-new-netflix-content-rating-icons/)
+
 ## v1.5.108 - 2026-08-04
 - Add [Here’s yet another metaphor about tech debt](https://ericwbailey.website/published/heres-yet-another-metaphor-about-tech-debt/)
 
