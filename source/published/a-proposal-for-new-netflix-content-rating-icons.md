@@ -193,7 +193,10 @@ Following are some ideas of new rating buttons we could use, to better explicitl
 
 ### I am watching this in full even though it is not good because I want to ensure the metrics look good for future, better efforts in the style of this
 
-<div class="centered-media-outer">
+<figure
+  class="centered-media-outer"
+  role="figure"
+  aria-label="IYKYK.">
   <picture class="centered-media-inner-2">
     <source
       media="(prefers-color-scheme: dark)"
@@ -203,7 +206,10 @@ Following are some ideas of new rating buttons we could use, to better explicitl
       alt="A strange, simplified illustration of a furtive face with a freckle under one of its eyes. It is the avatar Ed uses when hacking on the TV show Cowboy Bebeop."
       src="{{ '/img/posts/a-proposal-for-new-netflix-content-rating-icons/bebop-on-light.svg' | url }}">
   </picture>
-</div>
+  <figcaption>
+    IYKYK.
+  </figcaption>
+</figure>
 
 ### We don’t need more of this, let a good series quit while it is on top
 
