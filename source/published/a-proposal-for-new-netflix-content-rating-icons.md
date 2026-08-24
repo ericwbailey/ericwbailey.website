@@ -9,8 +9,8 @@ tags:
   - Design
   - Internet
 share:
-  facebookDescription: ""
-  twitterDescription: ""
+  facebookDescription: "A simplified, dejected face exhaling as if it has just endured something bad."
+  twitterDescription: "A simplified, dejected face exhaling as if it has just endured something bad."
 eleventyNavigation:
   key: {{ title }}
   parent: {{ year }}
