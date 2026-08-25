@@ -291,4 +291,9 @@ It admittedly does make for a rather cluttered UI. But hey, I’m only half-joki
     src="{{ '/img/posts/a-proposal-for-new-netflix-content-rating-icons/all-netflix-rating-icons.svg' | url }}" />
 </div>
 
-Got some suggestions of your own? Let me know!
+## Other suggestions
+
+- Tell my child this show is broken and won't play until they take a bath, via [Elaina](https://bsky.app/profile/elaina.bsky.social/post/3mtw3x5d7mc25)
+- Please don't show this latest episode of a series as watched because I told my partner I wouldn't watch it without them but I lied, also via [Elaina](https://bsky.app/profile/elaina.bsky.social/post/3mtw3x5d7mc25)
+
+Got some suggestions of your own? [Let me know](https://ericwbailey.website/#section-contact)!
