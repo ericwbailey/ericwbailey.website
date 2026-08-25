@@ -40,7 +40,7 @@ Setting aside [corporations’ aversion to negative sentiment](https://en.wikipe
 
 <div class="centered-media-outer">
   <img
-    class="centered-media-inner-1"
+    class="centered-media-inner-2"
     role="img"
     alt="A fake UI in the style of Netflix's content rating menu, featuring a double thumb's down icon a thumb's down icon, a neutral thumb-held-in-the-middle icon, a thumb's up icon, and a double thumb's up icon."
     loading="lazy"
