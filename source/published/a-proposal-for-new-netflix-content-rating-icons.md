@@ -40,7 +40,7 @@ Setting aside [corporations’ aversion to negative sentiment](https://en.wikipe
 
 <div class="centered-media-outer">
   <img
-    class="centered-media-inner-2"
+    class="centered-media-inner-1"
     role="img"
     alt="A fake UI in the style of Netflix's content rating menu, featuring a double thumb's down icon a thumb's down icon, a neutral thumb-held-in-the-middle icon, a thumb's up icon, and a double thumb's up icon."
     loading="lazy"
@@ -54,7 +54,7 @@ Following are some ideas of new rating buttons we could use, to better explicitl
 ### I’ll watch anything with this actor in it
 
 <div class="centered-media-outer">
-  <picture class="centered-media-inner-2">
+  <picture class="centered-media-inner-1">
     <source
       media="(prefers-color-scheme: dark)"
       srcset="{{ '/img/posts/a-proposal-for-new-netflix-content-rating-icons/love-this-actor-on-dark.svg' | url }}">
@@ -68,7 +68,7 @@ Following are some ideas of new rating buttons we could use, to better explicitl
 ### Don’t suggest anything with this actor in it
 
 <div class="centered-media-outer">
-  <picture class="centered-media-inner-2">
+  <picture class="centered-media-inner-1">
     <source
       media="(prefers-color-scheme: dark)"
       srcset="{{ '/img/posts/a-proposal-for-new-netflix-content-rating-icons/hate-this-actor-on-dark.svg' | url }}">
@@ -82,7 +82,7 @@ Following are some ideas of new rating buttons we could use, to better explicitl
 ### My parents are visiting and I settled an argument with this
 
 <div class="centered-media-outer">
-  <picture class="centered-media-inner-2">
+  <picture class="centered-media-inner-1">
     <source
       media="(prefers-color-scheme: dark)"
       srcset="{{ '/img/posts/a-proposal-for-new-netflix-content-rating-icons/peace-on-dark.svg' | url }}">
@@ -96,7 +96,7 @@ Following are some ideas of new rating buttons we could use, to better explicitl
 ### Just because I expressed interest in this show does not mean I want to be inundated with recommendations for its genre
 
 <div class="centered-media-outer">
-  <picture class="centered-media-inner-2">
+  <picture class="centered-media-inner-1">
     <source
       media="(prefers-color-scheme: dark)"
       srcset="{{ '/img/posts/a-proposal-for-new-netflix-content-rating-icons/drowning-on-dark.svg' | url }}">
@@ -110,7 +110,7 @@ Following are some ideas of new rating buttons we could use, to better explicitl
 ### Disregard, my cat walked over the keyboard
 
 <div class="centered-media-outer">
-  <picture class="centered-media-inner-2">
+  <picture class="centered-media-inner-1">
     <source
       media="(prefers-color-scheme: dark)"
       srcset="{{ '/img/posts/a-proposal-for-new-netflix-content-rating-icons/cat-on-keyboard-on-dark.svg' | url }}">
@@ -124,7 +124,7 @@ Following are some ideas of new rating buttons we could use, to better explicitl
 ### I was re-watching this to see if it held up, it didn’t
 
 <div class="centered-media-outer">
-  <picture class="centered-media-inner-2">
+  <picture class="centered-media-inner-1">
     <source
       media="(prefers-color-scheme: dark)"
       srcset="{{ '/img/posts/a-proposal-for-new-netflix-content-rating-icons/no-more-on-dark.svg' | url }}">
@@ -138,7 +138,7 @@ Following are some ideas of new rating buttons we could use, to better explicitl
 ### I was re-watching this to see if it held up, it did
 
 <div class="centered-media-outer">
-  <picture class="centered-media-inner-2">
+  <picture class="centered-media-inner-1">
     <source
       media="(prefers-color-scheme: dark)"
       srcset="{{ '/img/posts/a-proposal-for-new-netflix-content-rating-icons/more-please-on-dark.svg' | url }}">
@@ -152,7 +152,7 @@ Following are some ideas of new rating buttons we could use, to better explicitl
 ### I want to impress someone with my taste in media but am not super committed to it past that
 
 <div class="centered-media-outer">
-  <picture class="centered-media-inner-2">
+  <picture class="centered-media-inner-1">
     <source
       media="(prefers-color-scheme: dark)"
       srcset="{{ '/img/posts/a-proposal-for-new-netflix-content-rating-icons/netflix-and-chill-on-dark.svg' | url }}">
@@ -166,7 +166,7 @@ Following are some ideas of new rating buttons we could use, to better explicitl
 ### Sprinkle this in periodically to occasionally break up the monotony
 
 <div class="centered-media-outer">
-  <picture class="centered-media-inner-2">
+  <picture class="centered-media-inner-1">
     <source
       media="(prefers-color-scheme: dark)"
       srcset="{{ '/img/posts/a-proposal-for-new-netflix-content-rating-icons/sprinkle-on-dark.svg' | url }}">
@@ -180,7 +180,7 @@ Following are some ideas of new rating buttons we could use, to better explicitl
 ### I realize a studio paid you to push this but its over-weighted presence makes me less overall inclined to use your entire service
 
 <div class="centered-media-outer">
-  <picture class="centered-media-inner-2">
+  <picture class="centered-media-inner-1">
     <source
       media="(prefers-color-scheme: dark)"
       srcset="{{ '/img/posts/a-proposal-for-new-netflix-content-rating-icons/stop-this-on-dark.svg' | url }}">
@@ -197,7 +197,7 @@ Following are some ideas of new rating buttons we could use, to better explicitl
   class="centered-media-outer"
   role="figure"
   aria-label="IYKYK.">
-  <picture class="centered-media-inner-2">
+  <picture class="centered-media-inner-1">
     <source
       media="(prefers-color-scheme: dark)"
       srcset="{{ '/img/posts/a-proposal-for-new-netflix-content-rating-icons/bebop-on-dark.svg' | url }}">
@@ -214,7 +214,7 @@ Following are some ideas of new rating buttons we could use, to better explicitl
 ### We don’t need more of this, let a good series quit while it is on top
 
 <div class="centered-media-outer">
-  <picture class="centered-media-inner-2">
+  <picture class="centered-media-inner-1">
     <source
       media="(prefers-color-scheme: dark)"
       srcset="{{ '/img/posts/a-proposal-for-new-netflix-content-rating-icons/quit-while-youre-on-top-on-dark.svg' | url }}">
@@ -228,7 +228,7 @@ Following are some ideas of new rating buttons we could use, to better explicitl
 ### Blast notifications for a content update to this series across all possible channels I use to receive notifications
 
 <div class="centered-media-outer">
-  <picture class="centered-media-inner-2">
+  <picture class="centered-media-inner-1">
     <source
       media="(prefers-color-scheme: dark)"
       srcset="{{ '/img/posts/a-proposal-for-new-netflix-content-rating-icons/airhorn-on-dark.svg' | url }}">
@@ -242,7 +242,7 @@ Following are some ideas of new rating buttons we could use, to better explicitl
 ### Please forget I ever watched this, then scrub the record that listed I wanted this forgotten
 
 <div class="centered-media-outer">
-  <picture class="centered-media-inner-2">
+  <picture class="centered-media-inner-1">
     <source
       media="(prefers-color-scheme: dark)"
       srcset="{{ '/img/posts/a-proposal-for-new-netflix-content-rating-icons/spray-on-dark.svg' | url }}">
@@ -256,7 +256,7 @@ Following are some ideas of new rating buttons we could use, to better explicitl
 ### I am making bad choices and hatewatching this while my partner is asleep
 
 <div class="centered-media-outer">
-  <picture class="centered-media-inner-2">
+  <picture class="centered-media-inner-1">
     <source
       media="(prefers-color-scheme: dark)"
       srcset="{{ '/img/posts/a-proposal-for-new-netflix-content-rating-icons/see-no-evil-on-dark.svg' | url }}">
@@ -270,7 +270,7 @@ Following are some ideas of new rating buttons we could use, to better explicitl
 ### This is a guilty pleasure, don’t list it—I’ll find it
 
 <div class="centered-media-outer">
-  <picture class="centered-media-inner-2">
+  <picture class="centered-media-inner-1">
     <source
       media="(prefers-color-scheme: dark)"
       srcset="{{ '/img/posts/a-proposal-for-new-netflix-content-rating-icons/incognito-on-dark.svg' | url }}">
