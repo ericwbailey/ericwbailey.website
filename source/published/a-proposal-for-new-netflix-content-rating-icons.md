@@ -8,6 +8,7 @@ year: 2026
 tags:
   - Design
   - Internet
+attribution: "Thanks to Curtis Wilcox for <a href='https://c.im/@cwilcox808/117157410123161195'>reminding me that Netflix used to use a five point scale</a>."
 share:
   facebookDescription: "A simplified, dejected face exhaling as if it has just endured something bad."
   twitterDescription: "A simplified, dejected face exhaling as if it has just endured something bad."
@@ -29,7 +30,7 @@ As an optimist, we wouldn’t have these systems at all. As a realist, I wish we
 
 I’m sure some academics have written about this extensively. That said, here’s some tongue-in-cheek suggestions for how we could help these systems capture some of that complexity via explicit, direct human input.
 
-For this, I’m targeting Netflix. To be specific, it’s “Love this!” icon that is almost, but not quite instituting a [five point rating scale](https://en.wikipedia.org/wiki/Likert_scale) is what set me over the edge:
+For this, I’m targeting Netflix. To be specific, it’s “Love this!” icon that is [almost, but not quite re-instituting](https://about.netflix.com/en/news/goodbye-stars-hello-thumbs) a [five point rating scale](https://en.wikipedia.org/wiki/Likert_scale) is what set me over the edge:
 
 <img
   alt="A TV show preview card in Netflix, where the rating menu is toggled open. It has A thumb's down icon, a thumb's up icon, and a double thumb's up icon. The double thumb's up icon has a mouse cursor hovering over it, revealing a tooltip that reads, 'Love this!' The TV show is Arrested Development, and the hero image is Michael Cera as George-Michael Bluth with his trademark happy-yet-confused expression. Cropped screenshot."
