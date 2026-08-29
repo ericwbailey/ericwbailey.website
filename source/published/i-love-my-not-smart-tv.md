@@ -61,6 +61,7 @@ All that said, my not-smart TV will not:
 - [Get hacked](https://arstechnica.com/security/2024/04/patches-released-for-as-many-as-91000-hackable-lg-tvs-exposed-to-the-internet/),
 - Record my voice,
 - Force me to register an account before working,
+- [Make me sign an agreement before letting me watch anything](https://bsky.app/profile/danozzi.bsky.social/post/3mu45crnyzc2n),
 - [Opt me into a scammy TV-watching service](https://medium.com/@amandam_95165/what-you-dont-know-about-hp-instant-ink-until-it-s-too-late-fb730e752ab4) and stop working if I opt-out,
 - [Shove ads into a movie](https://arstechnica.com/gadgets/2015/02/samsung-smart-tvs-inserting-ads-into-third-party-apps/) I’m watching,
 - [Slap banner ads over live TV](https://arstechnica.com/gadgets/2022/01/some-roku-smart-tvs-are-now-showing-banner-ads-over-live-tv/) I'm watching,
