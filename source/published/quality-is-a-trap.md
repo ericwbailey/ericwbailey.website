@@ -10,6 +10,10 @@ tags:
   - Cognition
   - Design
   - History
+furtherReading:
+  - title: "On Quality"
+    source: "Worse on Purpose"
+    url: https://www.worseonpurpose.com/p/on-quality
 share:
   facebookDescription: "A box trap."
   twitterDescription: "A box trap."
