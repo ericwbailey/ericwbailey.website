@@ -10,6 +10,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
+## v1.5.110 - 2026-09-18
+- Add [CSS-Tricks could be a co-op](https://ericwbailey.website/published/css-tricks-could-be-a-co-op/)
+
 ## v1.5.109 - 2026-08-25
 - Add [A proposal for new Netflix content rating icons](https://ericwbailey.website/published/a-proposal-for-new-netflix-content-rating-icons/)
 
