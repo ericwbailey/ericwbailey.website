@@ -3,7 +3,7 @@ layout: "layouts/post.njk"
 title: CSS-Tricks could be a co-op
 source: ericwbailey.website
 excerpt: "The web will calcify without voices sharing what they know"
-date: 2026-09-17
+date: 2026-09-18
 year: 2026
 tags:
   - Approach
