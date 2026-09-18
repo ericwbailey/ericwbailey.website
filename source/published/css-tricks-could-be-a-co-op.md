@@ -32,7 +32,7 @@ eleventyNavigation:
 
 I owe a lot of [my professional identity and success](https://css-tricks.com/authors/) to CSS-Tricks.
 
-CSS-Tricks repeatedly gave me the opportunity to write for them. In doing so, they helped to both **socialize and normalize accessibility as a mainstream frontend concern**. I’m deeply thankful to them for this.
+CSS-Tricks repeatedly gave me the opportunity to write for them. In doing so, the immense popularity and huge reach of the publication helped to both **socialize and normalize accessibility as a mainstream frontend concern**. I’m deeply thankful to them for this.
 
 The team was also a joy to work with, notably [Geoff Graham](https://geoffgraham.me/). He’s a mensch, and one of the nicest people you can interact with in the frontend web space.
 
