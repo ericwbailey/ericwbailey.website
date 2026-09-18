@@ -43,11 +43,11 @@ If you have not been following the news about the site, [Kevin Powell](https://w
     Skip YouTube video embed.
   </a>
 </p>
+<div class="video-wrapper">
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/9_upvxCAUzM?si=Ly8zEQ4k462UEata" title="General Musings with Kevin Powell - Digital Ocean killed CSS-Tricks... again" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 <span class="hide-visually" id="9_upvxCAUzM">Content skipped.</span>
 
-[https://youtu.be/9_upvxCAUzM](https://youtu.be/9_upvxCAUzM)
 
 I’m not speaking on behalf of Geoff, [Chris](https://chriscoyier.net/2024/02/28/where-im-at-on-the-whole-css-tricks-thing/), or others involved with running the current version of CSS-Tricks. I’ve got skin in the game as an author. This is my personal opinion, born of my feelings and beliefs.
 
