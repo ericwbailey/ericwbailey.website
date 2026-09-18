@@ -43,6 +43,9 @@ furtherReading:
   - title: "AIs can’t stop recommending nuclear strikes in war game simulations"
     source: New Scientist
     url: https://www.newscientist.com/article/2516885-ais-cant-stop-recommending-nuclear-strikes-in-war-game-simulations/
+  - title: "Exclusive: US military had close call after using AI for false intelligence report, sources say"
+    source: CNN
+    url: https://www.cnn.com/2026/09/18/politics/us-military-ai-false-intelligence-china-ship
 series:
   previous:
     - title: "The Radium Craze"
