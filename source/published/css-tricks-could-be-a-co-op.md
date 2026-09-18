@@ -64,7 +64,7 @@ Human creativity is the force that creates new techniques, strategies, and techn
 
 **The web will calcify** without voices [sharing what they know](https://commons.wikimedia.org/wiki/File:WWW-LetShare.svg), forever locking us into endless permutations of a fixed point in time.
 
-Unlike corporations, **co-ops don’t have to be motivated by profit**. By not needing to prioritize growth at all costs it means co-ops can instead prioritize and incentivise things like preservation and cultivation. It is also [a successful model of operation](https://www.kingarthurbaking.com/impact/employee-ownership), one that even already [exists and flourishes in the tech space](https://en.wikipedia.org/wiki/Igalia).
+Unlike corporations, **co-ops don’t have to be motivated by profit**. Not needing to focus growth at all costs means co-ops can instead prioritize and incentivise things like preservation and cultivation. It is also [a successful model of operation](https://www.kingarthurbaking.com/impact/employee-ownership), one that even already [exists and flourishes in the tech space](https://en.wikipedia.org/wiki/Igalia).
 
 Collective ownership can also serve as checks and balances for, and protection against hierarchical decision-making. I only need to point to the chaotic and aberrant decisions many CEOs in the technology space have been making as of late to demonstrate the value of this approach.
 
