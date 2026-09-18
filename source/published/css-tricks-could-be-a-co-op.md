@@ -52,7 +52,7 @@ I’m not speaking on behalf of Geoff, [Chris](https://chriscoyier.net/2024/02/2
 
 I think a lot of the web’s infrastructure should be [co-ops](https://en.wikipedia.org/wiki/Cooperative), and **CSS-Tricks is knowledge infrastructure**. To that point, I should also point out that the website covers [far more than just CSS](https://css-tricks.com/tags/).
 
-The corporate model of ownership can be a risk. If infrastructure is not part of a corporation’s core strategy, **it is not a priority**. You learn this lesson repeatedly working in accessibility.
+The corporate model of ownership can be a risk. If infrastructure is not part of a corporation’s core strategy, **it is not a priority**. And if it is not a priority it is effectively dead. You learn this lesson repeatedly working in accessibility.
 
 As Kevin’s video touched on, it seems like promotion via owning the frontend content space isn’t part of [Digital Ocean’s strategy anymore](https://www.digitalocean.com/blog/digitalocean-joins-omacom-foundation). It is not that CSS-Tricks does not have value. It is that **Digital Ocean cannot see it**.
 
@@ -68,4 +68,4 @@ Unlike corporations, **co-ops don’t have to be motivated by profit**. By not n
 
 Collective ownership can also serve as checks and balances for, and protection against hierarchical decision-making. I only need to point to the chaotic and aberrant decisions many CEOs in the technology space have been making as of late to demonstrate the value of this approach.
 
-[Paddy Srinivasan](https://www.digitalocean.com/leadership/executive-management), if you somehow wind up reading this: Save some face and take a big swing. Give CSS-Tricks back to the people who love it.
+[Paddy Srinivasan](https://www.digitalocean.com/leadership/executive-management), if you somehow wind up reading this: Save some face and take a [big swing](https://ludwig.guru/s/take+a+big+swing). Give CSS-Tricks back to the people who love it.
