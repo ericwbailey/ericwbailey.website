@@ -58,7 +58,7 @@ As Kevin’s video touched on, it seems like promotion via owning the frontend c
 
 It is deeply, tragically ironic to me that Digital Ocean allowed this all to transpire. This is because I know for a fact that the techniques and philosophies shared by CSS-Trick authors helped to shape iterations of their product’s UI.
 
-Some may be quick to point out that this knowledge now—illegally—exists inside of LLM training data, so the risk of the website going away is mitigated. To this, know that **we should be striving to keep resources like CSS-Tricks going**.
+Some may be quick to point out that this knowledge now—[illegally](https://arstechnica.com/tech-policy/2026/09/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history/)—exists inside of LLM training data, so the risk of the website going away is mitigated. To this, know that **we should be striving to keep resources like CSS-Tricks going**.
 
 Human creativity is the force that creates new techniques, strategies, and technologies. From clever hacks all the way to deep and thoughtful system design, it is sources of knowledge like CSS-Tricks that create the organic, interrelated associations that lead to the breakthroughs that lift all of us collectively up. 
 
