@@ -36,7 +36,7 @@ CSS-Tricks repeatedly gave me the opportunity to write for them. In doing so, th
 
 The team was also a joy to work with, notably [Geoff Graham](https://geoffgraham.me/). He’s a mensch, and one of the nicest people you can interact with in the frontend web space.
 
-If you have not been following the news about the site, [Kevin Powell](https://www.kevinpowell.co/) has a good video about the whole situation:
+CSS-Tricks as a website has also effectively died twice now. If you have not been following the news about the site, [Kevin Powell](https://www.kevinpowell.co/) has a good video about the whole situation:
 
 <p class="hide-visually">
   <a href="#9_upvxCAUzM">
