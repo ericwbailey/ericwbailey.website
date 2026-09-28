@@ -36,7 +36,7 @@ CSS-Tricks repeatedly gave me the opportunity to write for them. In doing so, th
 
 The team was also a joy to work with, notably [Geoff Graham](https://geoffgraham.me/). He’s a mensch, and one of the nicest people you can interact with in the frontend web space.
 
-CSS-Tricks as a website has also effectively died twice now due to [Digital Ocean’s mismanagement](https://geoffgraham.me/why-css-tricks-has-been-quiet/). If you have not been following the news about the site, [Kevin Powell](https://www.kevinpowell.co/) has a good video about the whole situation:
+CSS-Tricks as a website has also effectively [died twice now due to Digital Ocean’s mismanagement](https://geoffgraham.me/why-css-tricks-has-been-quiet/). If you have not been following the news about the site, [Kevin Powell](https://www.kevinpowell.co/) has a good video about the whole situation:
 
 <p class="hide-visually">
   <a href="#9_upvxCAUzM">
@@ -60,7 +60,7 @@ It is deeply, tragically ironic to me that Digital Ocean allowed this all to tra
 
 Some may be quick to point out that this knowledge now—[illegally](https://arstechnica.com/tech-policy/2026/09/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history/)—exists inside of LLM training data, so the risk of the website going away is mitigated. To this, know that **we should be striving to keep resources like CSS-Tricks going**.
 
-Human creativity is the force that creates new techniques, strategies, and technologies. From clever hacks all the way to deep and thoughtful system design, it is sources of knowledge like CSS-Tricks that create the organic, interrelated associations that lead to the breakthroughs that lift all of us collectively up. 
+Human creativity is the force that [creates new techniques](https://ishadeed.com/article/css-detect-overlap/), strategies, and technologies. From clever hacks all the way to deep and thoughtful system design, it is sources of knowledge like CSS-Tricks that create the organic, interrelated associations that lead to the breakthroughs that lift all of us collectively up. 
 
 **The web will calcify** without voices [sharing what they know](https://commons.wikimedia.org/wiki/File:WWW-LetShare.svg), forever locking us into endless permutations of a fixed point in time.
 
