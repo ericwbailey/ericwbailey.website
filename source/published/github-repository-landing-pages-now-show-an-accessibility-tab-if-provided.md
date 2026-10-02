@@ -23,7 +23,7 @@ eleventyNavigation:
   order: 14
 ---
 
-My last official contribution to GitHub was something I’ve wanted for a long time: Writing the code to enable [displing an `ACCESSIBILITY.md` file’s contents on the repository landing page](https://github.blog/changelog/2026-10-01-accessibility-statements-highlighted-on-repository-overview/). This content lives in the same tab component that the README, License, Code of Conduct, Security, and important information is surfaced.
+My last official contribution to GitHub was something I’ve wanted for a long time: Writing the code to enable [displing an `ACCESSIBILITY.md` file’s contents on the repository landing page](https://github.blog/changelog/2026-10-01-accessibility-statements-highlighted-on-repository-overview/). This content lives in the same tab component that the README, License, Code of Conduct, Security, and other important information is surfaced.
 
 For example, I’m using [an `ACESSIBILITY.md` file located in `./github`](https://github.com/ericwbailey/a11y-webring.club/blob/main/.github/ACCESSIBILITY.md) to communicate the accessibility statement on [my a11y-webring.club repository](https://github.com/ericwbailey/a11y-webring.club?tab=accessibility-ov-file). Here’s an image of it in action:
 
