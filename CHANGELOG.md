@@ -11,6 +11,9 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Performance optimizations
 
 ## v1.5.110 - 2026-09-18
+- Add [GitHub repository landing pages now show an accessibility tab, if provided](https://ericwbailey.website/published/github-repository-landing-pages-now-show-an-accessibility-tab-if-provided/)
+
+## v1.5.110 - 2026-09-18
 - Add [CSS-Tricks could be a co-op](https://ericwbailey.website/published/css-tricks-could-be-a-co-op/)
 
 ## v1.5.109 - 2026-08-25
