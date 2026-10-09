@@ -25,6 +25,10 @@ eleventyNavigation:
   order: 3
 ---
 
+<div class="warning">
+  <p>Update: I made <a href="https://ericwbailey.website/published/announcing-what-cant-i-press/">What Can't I Press?</a> to help with the following.</p>
+</div>
+
 This is another window into the sometimes [unglamorous-yet-vital](https://ericwbailey.website/published/basic-keyboard-shortcut-support-for-focused-links/) tasks that being an accessibility designer demands.
 
 Keyboard shortcuts occupy a strange area for web design. Most websites don’t have them, and that’s totally fine. However, it makes more sense for web apps to utilize them.
