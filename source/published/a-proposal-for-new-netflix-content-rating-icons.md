@@ -9,6 +9,10 @@ tags:
   - Design
   - Internet
 attribution: "Thanks to Curtis Wilcox for <a href='https://c.im/@cwilcox808/117157410123161195'>reminding me that Netflix used to use a five point scale</a>."
+furtherReading:
+  - title: "All watched over by algorithms of loving grace."
+    source: "Ethan Marcotte"
+    url: https://ethanmarcotte.com/wrote/all-watched-over-by-algorithms-of-loving-grace/
 share:
   facebookDescription: "A simplified, dejected face exhaling as if it has just endured something bad."
   twitterDescription: "A simplified, dejected face exhaling as if it has just endured something bad."
