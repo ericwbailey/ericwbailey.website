@@ -27,6 +27,9 @@ furtherReading:
   - title: "The Tower Keeps Rising"
     source: "Armin Ronacher"
     url: https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/
+  - title: "So-Called AI and the Dangers of a New Age of “Enclosure”"
+    source: "Taro Yamamoto"
+    url: https://new.express.adobe.com/webpage/HT4M7srtwgUdW
 share:
   facebookDescription: "An evolved antenna, a chaotic, spidery collection of wires extending from a small base."
   twitterDescription: "An evolved antenna, a chaotic, spidery collection of wires extending from a small base."
