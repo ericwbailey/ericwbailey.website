@@ -37,7 +37,7 @@ eleventyNavigation:
 
 Long story short: **There currently is no** [**Baseline**](https://web.dev/baseline) **or** [**caniuse**](https://web.dev/baseline) **for accessibility**. The [Accessibility Compat Data (ACD)](https://acd.lolaslab.co/) project aims to fix this longstanding platform gap, and [you can help fund it](https://opencollective.com/lolas-lab/projects/acd).
 
-<a href="https://acd.lolaslab.co/">
+<a href="https://acd.lolaslab.co/" style="top: var(--scale3);">
   <img
     alt="The top half of the Accessibility Compat Data homepage. It has a tagline that reads, 'Bringing accessibility support data to developer tools', a paragraph explaining the situation in more detail and how it connects to existing Baseline efforts, and then a sample support matrix. Cropped screenshot."
     loading="lazy"
