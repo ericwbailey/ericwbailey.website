@@ -15,6 +15,12 @@ tags:
   - HTML
   - Internet
 furtherReading:
+  - title: "RFC: Defining Support Status in ACD"
+    source: "Accessibility Compat Data"
+    url: https://acd.lolaslab.co/posts/rfc-support-status/
+  - title: "The idea of ​​Accessibility Compat Data"
+    source: "Mitsue Links"
+    url: https://www.mitsue.co.jp/knowledge/blog/a11y/202507/08_1330.html
   - title: "Baseline Does Not Really Cover Baseline Support"
     source: "Adrian Roselli"
     url: https://adrianroselli.com/2023/12/baseline-does-not-really-cover-baseline-support.html
@@ -35,7 +41,7 @@ Long story short: **There currently is no** [**Baseline**](https://web.dev/basel
   <img
     alt="The top half of the Accessibility Compat Data homepage. It has a tagline that reads, 'Bringing accessibility support data to developer tools', a paragraph explaining the situation in more detail and how it connects to existing Baseline efforts, and then a sample support matrix. Cropped screenshot."
     loading="lazy"
-    src="{{ '/img/posts/the-accessibility-compat-data-project-has-a-homepage-now-and-you-should-support-the-project/' | url }}" />
+    src="{{ '/img/posts/the-accessibility-compat-data-project-has-a-homepage-now-and-you-should-support-the-project/acd-homepage.png' | url }}" />
 </a>
 
 ## Assistive technology support is different
