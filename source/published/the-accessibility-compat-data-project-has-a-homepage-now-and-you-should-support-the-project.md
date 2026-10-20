@@ -71,8 +71,10 @@ This is also huge in terms of [developer experience](https://en.wikipedia.org/wi
 
 **ACD is a much-needed piece of web infrastructure**, vital to making digital accessibility efforts both successful and sustainable. Its supporting project goals and planning are also open and transparent, [available on GitHub](https://github.com/lolaslab/accessibility-compat-data/tree/master).
 
-It also needs funding to succeed. While emotionally I feel like companies like [Google](https://accessibility.google/), [Apple](https://www.apple.com/accessibility/), and [Microsoft](https://www.microsoft.com/en-us/accessibility) should have been providing resources for this for decades now, intellectually I know that their priorities lie elsewhere.
+It also needs funding to succeed. 
 
 ## Pessimism of the intelligence, optimism of the will
+
+While emotionally I feel like companies like [Google](https://accessibility.google/), [Apple](https://www.apple.com/accessibility/), and [Microsoft](https://www.microsoft.com/en-us/accessibility) should have been providing resources for this for decades now, intellectually I know that their priorities lie elsewhere.
 
 It is a very spirit-of-the-web act to [support ACD](https://opencollective.com/lolas-lab/projects/acd) as a groundswell, bottom-up effort. I hope you’ll join me in helping to fund it.
