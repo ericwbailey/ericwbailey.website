@@ -1,6 +1,6 @@
 ---
 layout: "layouts/post.njk"
-title: The Accessibility Compat Data project has a homepage now, and you should support it
+title: The Accessibility Compat Data project has a homepage now, and you should support the project
 source: ericwbailey.website
 excerpt: "ACD is a much-needed piece of web infrastructure"
 date: 2026-10-20
@@ -35,7 +35,7 @@ Long story short: **There currently is no** [**Baseline**](https://web.dev/basel
   <img
     alt="The top half of the Accessibility Compat Data homepage. It has a tagline that reads, 'Bringing accessibility support data to developer tools', a paragraph explaining the situation in more detail and how it connects to existing Baseline efforts, and then a sample support matrix. Cropped screenshot."
     loading="lazy"
-    src="{{ '/img/posts/the-accessibility-compat-data-project-has-a-homepage-now-and-you-should-support-it/' | url }}" />
+    src="{{ '/img/posts/the-accessibility-compat-data-project-has-a-homepage-now-and-you-should-support-the-project/' | url }}" />
 </a>
 
 ## Assistive technology support is different
