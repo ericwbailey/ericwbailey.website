@@ -10,7 +10,10 @@ A [project backlog](https://github.com/ericwbailey/ericwbailey.website/projects/
 - Design updates
 - Performance optimizations
 
-## v1.5.110 - 2026-09-18
+## v1.5.111 - 2026-10-20
+- Add [The Accessibility Compat Data project has a homepage now, and you should support ](https://ericwbailey.website/published/the-accessibility-compat-data-project-has-a-homepage-now-and-you-should-support-the-project/)
+
+## v1.5.110 - 2026-10-01
 - Add [GitHub repository landing pages now show an accessibility tab, if provided](https://ericwbailey.website/published/github-repository-landing-pages-now-show-an-accessibility-tab-if-provided/)
 
 ## v1.5.110 - 2026-09-18
