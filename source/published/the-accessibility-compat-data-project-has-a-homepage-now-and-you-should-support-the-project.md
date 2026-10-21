@@ -47,7 +47,7 @@ Long story short: **There currently is no** [**Baseline**](https://web.dev/basel
 
 ## Assistive technology support is different
 
-Determining assistive technology support in the actual means [navigating a tangled mess](https://www.smashingmagazine.com/2025/06/what-i-wish-someone-told-me-aria/#just-because-it-exists-in-the-aria-spec-does-not-mean-assistive-technology-will-support-it) of multiple assistive technologies, operating systems, and browsers and all their constituent quirks and bugs. It is the exact opposite of how developers think about support for web platform features.
+The equivalent of [the web standards movement](https://en.wikipedia.org/wiki/Web_standards#The_web_standards_movement) has never happened for assistive technology. Determining support in the actual means [navigating a tangled mess](https://www.smashingmagazine.com/2025/06/what-i-wish-someone-told-me-aria/#just-because-it-exists-in-the-aria-spec-does-not-mean-assistive-technology-will-support-it) of multiple assistive technologies, operating systems, and browsers and all their constituent quirks and bugs. It is the exact opposite of how developers think about support for web platform features.
 
 Learning about this nuance is one of the many unnecessary “death by a thousand cuts” points of friction non-accessibility specialists encounter when trying to do the right thing. It also breaks my heart every time I witness it happen.
 
