@@ -57,7 +57,7 @@ Additionally, **the lack of this machine-parsable support information can also c
 
 For example: I was tasked with assisting a project that had instruction files that compelled using both the latest and greatest web technologies, and also some rudimentary concessions towards accessibility.
 
-These instructions created an outcome where the LLM did exactly what it was set to do. `aria-details` was used in great confidence, distributed across the entire experience. For those unaware, [`aria-details` does not work in the actual yet](https://www.scottohara.me/blog/2018/11/08/aria-details.html#test-results).
+These instructions created an outcome where the LLM did exactly what it was set to do. `aria-details` was used in great confidence, distributed across the entire experience. For those unaware, [`aria-details` does not yet work in the actual](https://www.scottohara.me/blog/2018/11/08/aria-details.html#test-results).
 
 Now think about all the other more established bugs and support gaps you might be aware of, and how those are getting unknowingly propagated at scale. Correlation is not causation, but I do think [LLM-powered coding is in its current state is making things worse when it comes to web accessibility](https://webaim.org/projects/million/#errors).
 
