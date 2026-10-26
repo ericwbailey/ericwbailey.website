@@ -96,6 +96,7 @@ All that said, my not-smart TV will not:
 - [Use AI for emotional manipulation to coerce me into buying things](https://arstechnica.com/gadgets/2025/04/lg-tvs-integrated-ads-get-more-personal-with-tech-that-analyzes-viewer-emotions/),
 - [Show me ads when I try to switch inputs, change channels, or navigate to its home screen](https://www.tomshardware.com/tech-industry/big-tech/hisense-tvs-force-owners-to-watch-intrusive-ads-when-switching-inputs-visiting-the-home-screen-or-even-changing-channels-practice-infuriates-consumers-brand-denies-wrongdoing),
 - [DDoS websites in exchange for lowering the amounts of advertisements I don’t want or need to watch](https://www.theverge.com/column/885244/smart-tv-web-crawler-ai),
+- [Flat-out ignore requests to opt out of tracking](https://arstechnica.com/gadgets/2026/10/does-opting-out-of-smart-tv-tracking-work-research-finds-suspicious-traffic/),
 - [Be a node in the “AI scraping economy”](https://blog.includesecurity.com/2026/06/the-smart-tv-in-your-livingroom-is-a-node-in-the-aiscraping-economy/), or
 - [Do whatever the hell this is](https://cohost.org/ghoulnoise/post/5286766-do-not-buy-hisense-t).
 
