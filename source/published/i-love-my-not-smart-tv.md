@@ -90,6 +90,7 @@ All that said, my not-smart TV will not:
 - [Force me to watch ads before I can use the TV](https://arstechnica.com/gadgets/2025/03/roku-says-unpopular-autoplay-ads-are-just-a-test/),
 - Eventually start to [charge me for operating system updates](https://www.theverge.com/2024/8/27/24229429/samsung-ai-smart-tvs-tizen-os-seven-years-updates),
 - Automatically [take snapshots of what I'm watching and pass it through recognition software](https://www.ucl.ac.uk/news/2024/nov/smart-tv-tracking-raises-privacy-concerns) and then sell that information to an unknown amount of third parties,
+- [Log audio and snoop on internet-connected devices while the screen is off](https://www.notebookcheck.net/LG-smart-TVs-caught-logging-audio-with-screen-off-and-snooping-on-local-devices.1391214.0.html),
 - Straight-up [spy on me](https://www.techdirt.com/2017/02/07/vizio-fined-22-million-not-telling-customers-their-tvs-were-spying-them/),
 - Be [caught up in a Center for Digital Democracy report to the Federal Trade Commission](https://arstechnica.com/gadgets/2024/10/streaming-industry-has-unprecedented-surveillance-manipulation-capabilities/),
 - [Get Copilot surprise jammed into it](https://www.tomshardware.com/service-providers/tv-providers/lg-tv-update-adds-non-removable-microsoft-copilot-app-to-webos),
