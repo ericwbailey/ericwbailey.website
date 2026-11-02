@@ -69,3 +69,5 @@ Unlike corporations, **co-ops don’t have to be motivated by profit**. Not need
 Collective ownership can also serve as checks and balances for, and protection against hierarchical decision-making. I only need to point to the chaotic and aberrant decisions many CEOs in the technology space have been making as of late to demonstrate the value of this approach.
 
 [Paddy Srinivasan](https://www.digitalocean.com/leadership/executive-management), if you somehow wind up reading this: Save some face and take a [big swing](https://ludwig.guru/s/take+a+big+swing). Give CSS-Tricks back to the people who love it.
+
+Update: [CSS-Tricks is now owned by Geoff](https://css-tricks.com/css-tricks-has-a-new-owner/)!
