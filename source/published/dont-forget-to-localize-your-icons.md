@@ -17,6 +17,10 @@ translations:
     translatorName: "sehyun hwang"
     translatorUrl: https://velog.io/@sehyunny/posts
 attribution: "Thank you to <a href='https://annaecook.com/'>Anna E. Cook</a> for <a href='https://bsky.app/profile/annaecook.bsky.social/post/3l7tqml5nue2d'>the inspiration</a> to finally turn this into a post."
+furtherReading:
+  - title: "Size matters: South Korea spared iPad mini image's potentially offensive gesture"
+    source: "Apple Insider"
+    url: https://appleinsider.com/articles/26/10/28/size-matters-south-korea-spared-ipad-mini-images-potentially-offensive-gesture
 share:
   facebookDescription: "A thumb's up icon."
   twitterDescription: "A thumb's up icon."
