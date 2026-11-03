@@ -86,6 +86,7 @@ All that said, my not-smart TV will not:
 - [Store conversations I have](https://www.techdirt.com/2015/02/09/samsungs-smart-tvs-are-collecting-storing-your-private-conversations/) in the room the TV is placed in,
 - Be [the topic of a dedicated Consumer Reports guide](https://www.consumerreports.org/electronics/privacy/how-to-turn-off-smart-tv-snooping-features-a4840102036/),
 - [Be part of a botnet](https://krebsonsecurity.com/2025/11/is-your-android-tv-streaming-box-part-of-a-botnet/),
+- [Be part of another botnet](https://www.theregister.com/cyber-crime/2026/11/02/cops-bust-botnet-of-13m-infected-android-tv-boxes/5307045),
 - [Show me ads when turned on and not being actively used](https://www.theverge.com/2024/9/26/24254935/lg-smart-tv-oled-screensaver-ads-idle-mode),
 - [Force me to watch ads before I can use the TV](https://arstechnica.com/gadgets/2025/03/roku-says-unpopular-autoplay-ads-are-just-a-test/),
 - Eventually start to [charge me for operating system updates](https://www.theverge.com/2024/8/27/24229429/samsung-ai-smart-tvs-tizen-os-seven-years-updates),
