@@ -10,8 +10,11 @@ tags:
   - Performance
   - Typography
 furtherReading:
+  - title: "When fonts fall"
+    source: "Figma"
+    url: https://www.figma.com/blog/when-fonts-fall/
   - title: "Wakamaifondue"
-    source: "Wakamaifondue"
+    source: "Pixel Ambacht"
     url: https://wakamaifondue.com/
   - title: "zachleat/glyphhanger"
     source: "GitHub"
