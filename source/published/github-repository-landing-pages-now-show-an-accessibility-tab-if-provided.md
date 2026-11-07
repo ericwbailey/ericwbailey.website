@@ -10,6 +10,13 @@ tags:
   - Approach
   - Development
   - Inclusion
+furtherReading:
+  - title: "Accessibility statements now have a home on GitHub"
+    source: "GitHub"
+    url: https://github.blog/open-source/maintainers/accessibility-statements-now-have-a-home-on-github/
+  - title: "Who is an accessibility file for?"
+    source: "Marcelo Paiva"
+    url: https://mpaiva.com/writing/who-is-an-accessibility-file-for
 series:
   previous:
     - title: "GitHub now has a setting to underline links"
