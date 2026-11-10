@@ -30,6 +30,9 @@ furtherReading:
   - title: "So-Called AI and the Dangers of a New Age of “Enclosure”"
     source: "Taro Yamamoto"
     url: https://new.express.adobe.com/webpage/HT4M7srtwgUdW
+  - title: " A year after the 100% AI mandate nobody understands our code "
+    source: "Reddit"
+    url: https://www.reddit.com/r/ClaudeCode/comments/1xq2n3t/a_year_after_the_100_ai_mandate_nobody/
 share:
   facebookDescription: "An evolved antenna, a chaotic, spidery collection of wires extending from a small base."
   twitterDescription: "An evolved antenna, a chaotic, spidery collection of wires extending from a small base."
